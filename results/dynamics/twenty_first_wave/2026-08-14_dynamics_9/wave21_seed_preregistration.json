@@ -1,0 +1,13 @@
+{
+  "ensemble_rule": "arithmetic_mean_of_six_registered_seed_predictions",
+  "no_seed_addition_after_test": true,
+  "paired_initializations": true,
+  "seeds": [
+    210821,
+    210822,
+    210823,
+    210824,
+    210825,
+    210826
+  ]
+}

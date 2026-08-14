@@ -1,0 +1,124 @@
+{
+  "audit": {
+    "counts": {
+      "development": {
+        "lift_blue_block_slider": 17,
+        "lift_red_block_table": 22,
+        "place_in_slider": 30,
+        "push_pink_block_right": 14,
+        "turn_off_lightbulb": 27,
+        "turn_on_lightbulb": 29
+      },
+      "test": {
+        "lift_blue_block_slider": 26,
+        "lift_red_block_table": 27,
+        "place_in_slider": 37,
+        "push_pink_block_right": 14,
+        "turn_off_lightbulb": 29,
+        "turn_on_lightbulb": 31
+      },
+      "train": {
+        "lift_blue_block_slider": 39,
+        "lift_red_block_table": 41,
+        "place_in_slider": 46,
+        "push_pink_block_right": 32,
+        "turn_off_lightbulb": 51,
+        "turn_on_lightbulb": 48
+      }
+    },
+    "score": [
+      6,
+      288,
+      -25
+    ],
+    "thresholds": {
+      "development": 8,
+      "test": 8,
+      "train": 25
+    }
+  },
+  "created_before_model_training": true,
+  "disjoint": true,
+  "held_out_test_actions_opened": false,
+  "sampling_unit": "complete continuous source session",
+  "selection_rule": "deterministic seeded max-min label-coverage search using annotation labels only",
+  "session_names": {
+    "development": [
+      "training_ep_row_00003",
+      "training_ep_row_00010",
+      "training_ep_row_00020",
+      "training_ep_row_00021",
+      "training_ep_row_00025",
+      "training_ep_row_00029"
+    ],
+    "test": [
+      "training_ep_row_00000",
+      "training_ep_row_00008",
+      "training_ep_row_00014",
+      "training_ep_row_00024",
+      "training_ep_row_00026",
+      "training_ep_row_00030"
+    ],
+    "train": [
+      "training_ep_row_00001",
+      "training_ep_row_00002",
+      "training_ep_row_00004",
+      "training_ep_row_00005",
+      "training_ep_row_00006",
+      "training_ep_row_00007",
+      "training_ep_row_00009",
+      "training_ep_row_00011",
+      "training_ep_row_00012",
+      "training_ep_row_00013",
+      "training_ep_row_00015",
+      "training_ep_row_00016",
+      "training_ep_row_00017",
+      "training_ep_row_00018",
+      "training_ep_row_00019",
+      "training_ep_row_00022",
+      "training_ep_row_00023",
+      "training_ep_row_00027",
+      "training_ep_row_00028"
+    ]
+  },
+  "sessions": {
+    "development": [
+      3,
+      10,
+      20,
+      21,
+      25,
+      29
+    ],
+    "test": [
+      0,
+      8,
+      14,
+      24,
+      26,
+      30
+    ],
+    "train": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      27,
+      28
+    ]
+  },
+  "split_seed": 210821
+}

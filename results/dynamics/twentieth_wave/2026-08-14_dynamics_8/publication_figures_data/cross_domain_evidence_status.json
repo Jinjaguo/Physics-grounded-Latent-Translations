@@ -1,0 +1,6 @@
+{
+  "LIBERO_representation": "SUPPORTED",
+  "LIBERO_offline_refinement": "REJECTED",
+  "LIBERO_closed_loop_refinement": "NOT_TESTED",
+  "final_test_read": false
+}

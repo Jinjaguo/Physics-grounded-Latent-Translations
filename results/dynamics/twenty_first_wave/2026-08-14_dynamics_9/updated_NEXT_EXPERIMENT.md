@@ -1,0 +1,3 @@
+# Twenty-first wave next experiment
+
+The next experiment should keep the frozen Wave21 LCT and test closed-loop execution in CALVIN from matched simulator states: externally switch among the six atomic goals, decode receding-horizon chunks, and compare task success, transition smoothness, and intervention specificity against B0 and language-prototype controls. First collect dense goal-change timestamps or simulator-state event labels so the sparse-annotation limitation is removed. Do not use refinement or DEL to rescue a rejected C7 result; if C7 passed, refinement may be a separately preregistered stability ablation.

@@ -1,0 +1,24 @@
+{
+  "additional_seeds_forbidden": true,
+  "disjoint_from_wave19": true,
+  "frozen_at": "2026-08-14T15:37:26-04:00",
+  "no_seed_drop_or_replacement": true,
+  "required_complete": 6,
+  "seeds": [
+    200820,
+    201820,
+    202820,
+    203820,
+    204820,
+    205820
+  ],
+  "wave19_seeds": [
+    190819,
+    191819,
+    192819,
+    193819,
+    194819,
+    195819
+  ],
+  "written_before_fresh_confirmation_evaluation": true
+}

@@ -1,0 +1,79 @@
+# Observed transition results
+
+{
+  "B0_unconditional": {
+    "H1_full_mse": 0.7786576747894287,
+    "H1_semantic_mse": 0.7983266115188599,
+    "H1_execution_mse": 0.758988618850708,
+    "H2_full_mse": 0.7961665987968445,
+    "H2_semantic_mse": 0.7312672138214111,
+    "H2_execution_mse": 0.8610657453536987,
+    "H4_full_mse": 0.90814208984375,
+    "H4_semantic_mse": 0.884530246257782,
+    "H4_execution_mse": 0.931753933429718,
+    "H4_decoded_continuous_mse": 0.044233210384845734,
+    "target_distance": 4.017770767211914,
+    "target_margin": -0.46240368485450745,
+    "execution_knn_radius": 2.7375476360321045
+  },
+  "B1_correct_language": {
+    "H1_full_mse": 0.7096729874610901,
+    "H1_semantic_mse": 0.7047800421714783,
+    "H1_execution_mse": 0.7145657539367676,
+    "H2_full_mse": 0.6918107271194458,
+    "H2_semantic_mse": 0.6378234028816223,
+    "H2_execution_mse": 0.7457980513572693,
+    "H4_full_mse": 0.8036036491394043,
+    "H4_semantic_mse": 0.7784571051597595,
+    "H4_execution_mse": 0.8287502527236938,
+    "H4_decoded_continuous_mse": 0.038512639701366425,
+    "target_distance": 3.7333779335021973,
+    "target_margin": -0.08076000213623047,
+    "execution_knn_radius": 2.5597877502441406
+  },
+  "B2_shuffled_language": {
+    "H1_full_mse": 0.7820026278495789,
+    "H1_semantic_mse": 0.7917960286140442,
+    "H1_execution_mse": 0.772209107875824,
+    "H2_full_mse": 0.8134406208992004,
+    "H2_semantic_mse": 0.7541606426239014,
+    "H2_execution_mse": 0.8727206587791443,
+    "H4_full_mse": 0.9297769069671631,
+    "H4_semantic_mse": 0.9107465147972107,
+    "H4_execution_mse": 0.9488072991371155,
+    "H4_decoded_continuous_mse": 0.04559887945652008,
+    "target_distance": 3.9585936069488525,
+    "target_margin": -0.45028966665267944,
+    "execution_knn_radius": 2.7391750812530518
+  },
+  "B3_null_language": {
+    "H1_full_mse": 0.7781297564506531,
+    "H1_semantic_mse": 0.7905071377754211,
+    "H1_execution_mse": 0.765752375125885,
+    "H2_full_mse": 0.8146989345550537,
+    "H2_semantic_mse": 0.7424898743629456,
+    "H2_execution_mse": 0.8869081735610962,
+    "H4_full_mse": 0.9415830969810486,
+    "H4_semantic_mse": 0.9225649833679199,
+    "H4_execution_mse": 0.960601270198822,
+    "H4_decoded_continuous_mse": 0.04712840914726257,
+    "target_distance": 3.87557315826416,
+    "target_margin": -0.493882954120636,
+    "execution_knn_radius": 2.7331459522247314
+  },
+  "language_prototype": {
+    "H1_full_mse": 0.9608775973320007,
+    "H1_semantic_mse": 1.0394070148468018,
+    "H1_execution_mse": 0.8823480606079102,
+    "H2_full_mse": 0.6790066957473755,
+    "H2_semantic_mse": 0.5632138848304749,
+    "H2_execution_mse": 0.7947996258735657,
+    "H4_full_mse": 1.1141045093536377,
+    "H4_semantic_mse": 0.9742648601531982,
+    "H4_execution_mse": 1.2539441585540771,
+    "H4_decoded_continuous_mse": 0.0501737967133522,
+    "target_distance": 3.215409517288208,
+    "target_margin": 0.10034133493900299,
+    "execution_knn_radius": 2.089618682861328
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "K": 20,
+  "counts": {
+    "lift_blue_block_slider": 324,
+    "lift_red_block_table": 253,
+    "place_in_slider": 158,
+    "push_pink_block_right": 198,
+    "turn_off_lightbulb": 291,
+    "turn_on_lightbulb": 250
+  },
+  "execution_dimensions": [
+    16,
+    31
+  ],
+  "path": "results/dynamics/twenty_first_wave/2026-08-14_dynamics_9/wave21_train_regions.npz",
+  "semantic_dimensions": [
+    0,
+    15
+  ],
+  "sha256": "f8263b0610d298365967c980b3ca4481c9931ba21bd86de4e1e7ed1beba9c0c3",
+  "training_only": true
+}

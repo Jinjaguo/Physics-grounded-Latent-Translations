@@ -1,0 +1,56 @@
+{
+  "architecture": {
+    "batch_size": 64,
+    "depth": 3,
+    "ensemble_rule": "arithmetic_mean_of_six_registered_seed_predictions",
+    "epochs": 240,
+    "goal_hidden_dim": 32,
+    "gradient_clip_norm": 5.0,
+    "lambda_decode": 1.0,
+    "lambda_latent": 1.0,
+    "learning_rate": 0.001,
+    "name": "LCT_full_latent_delta",
+    "seeds": [
+      210821,
+      210822,
+      210823,
+      210824,
+      210825,
+      210826
+    ],
+    "state_hidden_dim": 64,
+    "transition_hidden_dim": 128,
+    "weight_decay": 0.0001
+  },
+  "baselines": [
+    "B0_unconditional",
+    "B1_correct_language",
+    "B2_shuffled_language",
+    "B3_null_inference",
+    "language_prototype"
+  ],
+  "created_before_training": true,
+  "development_dataset": {
+    "path": "results/dynamics/twenty_first_wave/2026-08-14_dynamics_9/datasets/development.npz",
+    "samples": 139,
+    "sha256": "449f30da9303fbcacb5e81dd9781f74798f2d8ca8fbad1a433121686c953de68"
+  },
+  "implementation": "full 32-D delta LCT",
+  "input": [
+    "z_previous",
+    "z_current",
+    "frozen_next_goal_embedding"
+  ],
+  "objective": {
+    "decoded_action": 1.0,
+    "latent_prediction": 1.0,
+    "target_region_attraction": 0.0
+  },
+  "rollout": "recursive H4 with fixed goal",
+  "test_dataset_serialized": false,
+  "train_dataset": {
+    "path": "results/dynamics/twenty_first_wave/2026-08-14_dynamics_9/datasets/train.npz",
+    "samples": 257,
+    "sha256": "7682e7bff7b192570488638fad676f0950ca2a1d26f88330ffb61469b03d16d1"
+  }
+}

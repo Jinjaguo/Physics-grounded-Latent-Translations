@@ -1,0 +1,12 @@
+Wave 21 focused protocol tests
+Command: PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/dynamics/test_dynamics_9_language_transition.py -q --junitxml=results/dynamics/twenty_first_wave/2026-08-14_dynamics_9/pytest_results.xml
+Result: 7 passed in 1.06s
+
+Covered failures:
+- frozen representation/decoder/text hashes or optimizer counters changed
+- source-session split leakage, reset crossing, or non-contiguous chunks
+- future actions or explicit target-region loss entering LCT training
+- incorrect unconditional/shuffled information sets
+- same-state intervention not sharing the identical current latent
+- bootstrap not clustered by source session or not using 10,000 replicates
+- invalid JSON, non-finite outputs, or held-out test opened before preregistration

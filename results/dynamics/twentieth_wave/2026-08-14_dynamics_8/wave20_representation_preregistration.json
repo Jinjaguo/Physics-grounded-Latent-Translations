@@ -1,0 +1,54 @@
+{
+  "architecture": {
+    "action_chunk_horizon": 16,
+    "depth": 3,
+    "execution_dim": 16,
+    "hidden_dim": 128,
+    "input": "action_only",
+    "latent_dim": 32,
+    "semantic_dim": 16
+  },
+  "bootstrap": {
+    "cluster": "source_episode",
+    "replicates": 10000,
+    "seed": 200820,
+    "task_stratified": true
+  },
+  "checkpoint": "EMA epoch 40",
+  "ema_decay": 0.999,
+  "epochs": 40,
+  "evaluation_split": "fresh Wave-20 50-episode confirmation-development set",
+  "forbidden": [
+    "hyperparameter_sweep",
+    "extra_seed",
+    "early_stopping",
+    "confirmation_training",
+    "CALVIN_weights"
+  ],
+  "frozen_at": "2026-08-14T15:37:26-04:00",
+  "gate": {
+    "all_outputs_finite": true,
+    "bidirectional_lower95_strictly_positive": true,
+    "bidirectional_mean_delta_strictly_positive": true,
+    "gripper_drop_maximum": 0.02,
+    "motor_ratio_maximum": 1.15,
+    "six_of_six_complete": true
+  },
+  "old_development_use": "descriptive diagnostics only",
+  "old_final_test_read": false,
+  "primary_pair": {
+    "R0": "L_reconstruction",
+    "R1": "2.0 * L_reconstruction + 1.0 * L_semantic"
+  },
+  "seeds": [
+    200820,
+    201820,
+    202820,
+    203820,
+    204820,
+    205820
+  ],
+  "shuffled_language_control": "same R1 objective; used only in the frozen semantic-delta control",
+  "training_split": "unchanged Wave-19 140-episode train split",
+  "written_before_fresh_confirmation_evaluation": true
+}

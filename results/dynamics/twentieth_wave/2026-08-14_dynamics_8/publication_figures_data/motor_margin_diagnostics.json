@@ -1,0 +1,1093 @@
+{
+  "below_wave19_ratio_by_seed": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "ema_improves_margin_by_seed": [
+    true,
+    true,
+    false,
+    true,
+    true,
+    true
+  ],
+  "per_dimension_correct_mse": [
+    0.0035594027447163833,
+    0.004141674472572975,
+    0.004393978143306904,
+    8.257483442440296e-05,
+    0.00016017486556790434,
+    0.00026933303730017235,
+    0.04785739090475812
+  ],
+  "per_dimension_ratio": [
+    1.0995509068318674,
+    1.1867378534761632,
+    1.1032377002554612,
+    1.0634845341664285,
+    1.1162929297505095,
+    1.153354534277522,
+    1.0603478956840378
+  ],
+  "per_dimension_reconstruction_mse": [
+    0.0032371422938225563,
+    0.003489965758184324,
+    0.003982802747122812,
+    7.764554327922227e-05,
+    0.0001434882021547008,
+    0.000233521462217935,
+    0.04513366895860626
+  ],
+  "rotation_ratio": 1.126310066780528,
+  "seed_rows": [
+    {
+      "action_to_text_semantic_delta": 0.9,
+      "correct": {
+        "action_clipping_saturation_rate": 0.00029836031548360317,
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.002125245083434266,
+        "decoded_action_norm": 0.5069776773452759,
+        "decoder_continuous_saturation_fraction": 0.00029836031548360317,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04803666242790824,
+        "gripper_sign_accuracy": 0.9876245330012453,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.0037251838007300304,
+          0.004234345319560197,
+          0.004290869982352157,
+          7.82267284498224e-05,
+          0.00016698064851882168,
+          0.0002558640209945476,
+          0.04803666242790848
+        ],
+        "rotation_mse": 0.00016702379932106415,
+        "text_to_action_R1": 1.0,
+        "translation_mse": 0.004083466367547468
+      },
+      "ema_gripper_drop": 0.0008561643835616195,
+      "ema_motor_ratio": 1.2291634746003877,
+      "old_development": {
+        "correct_language": {
+          "action_clipping_saturation_rate": 0.0001686384391863844,
+          "action_to_text_R1": 1.0,
+          "continuous_action_mse": 0.0019472896330369272,
+          "decoded_action_norm": 0.4979642629623413,
+          "decoder_continuous_saturation_fraction": 0.0001686384391863844,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04598560712571394,
+          "gripper_sign_accuracy": 0.9884806973848069,
+          "macro_action_to_text_R1": 1.0,
+          "per_dimension_mse": [
+            0.002885218019264451,
+            0.00415376225767649,
+            0.004199871235220926,
+            6.338405321397685e-05,
+            0.00014529243139446214,
+            0.0002362098014512484,
+            0.045985607125713764
+          ],
+          "rotation_mse": 0.00014829542868656214,
+          "text_to_action_R1": 1.0,
+          "translation_mse": 0.0037462838373872923
+        },
+        "reconstruction_only": {
+          "action_clipping_saturation_rate": 0.00031133250311332503,
+          "action_to_text_R1": 0.1,
+          "continuous_action_mse": 0.0015586903529389562,
+          "decoded_action_norm": 0.500810980796814,
+          "decoder_continuous_saturation_fraction": 0.00031133250311332503,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.040782623558827995,
+          "gripper_sign_accuracy": 0.9904265255292652,
+          "macro_action_to_text_R1": 0.1,
+          "per_dimension_mse": [
+            0.0023317479950404757,
+            0.0032263045603259624,
+            0.003416610570856623,
+            5.927081139573965e-05,
+            0.00011662673224305076,
+            0.00020158144777189036,
+            0.04078262355882796
+          ],
+          "rotation_mse": 0.000125826330470227,
+          "text_to_action_R1": 0.1,
+          "translation_mse": 0.0029915543754076854
+        },
+        "shuffled_language_control": {
+          "action_clipping_saturation_rate": 6.486093814860939e-05,
+          "action_to_text_R1": 0.0,
+          "continuous_action_mse": 0.0021146650866515687,
+          "decoded_action_norm": 0.4952840507030487,
+          "decoder_continuous_saturation_fraction": 6.486093814860939e-05,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04806048609521079,
+          "gripper_sign_accuracy": 0.988013698630137,
+          "macro_action_to_text_R1": 0.0,
+          "per_dimension_mse": [
+            0.0029801340742852977,
+            0.004824809016269598,
+            0.004439687358074086,
+            6.616221190457159e-05,
+            0.00014209333643938062,
+            0.00023510452293650126,
+            0.048060486095210915
+          ],
+          "rotation_mse": 0.000147786690426818,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.00408154348287632
+        }
+      },
+      "raw_motor_ratio": 1.3900633561850173,
+      "reconstruction_only": {
+        "action_clipping_saturation_rate": 0.00011674968866749689,
+        "action_to_text_R1": 0.1,
+        "continuous_action_mse": 0.0017290174393810415,
+        "decoded_action_norm": 0.508787214756012,
+        "decoder_continuous_saturation_fraction": 0.00011674968866749689,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.043397278906091304,
+        "gripper_sign_accuracy": 0.9884806973848069,
+        "macro_action_to_text_R1": 0.1,
+        "per_dimension_mse": [
+          0.0030161598805097597,
+          0.0032665820079614384,
+          0.003648439165682696,
+          7.272470353515047e-05,
+          0.00013714041700583208,
+          0.00023305846159135766,
+          0.043397278906091435
+        ],
+        "rotation_mse": 0.00014764119404411355,
+        "text_to_action_R1": 0.2,
+        "translation_mse": 0.0033103936847179694
+      },
+      "seed": 200820,
+      "shuffled_control": {
+        "action_clipping_saturation_rate": 3.891656288916563e-05,
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.00229348880445773,
+        "decoded_action_norm": 0.5038949847221375,
+        "decoder_continuous_saturation_fraction": 3.891656288916563e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.049928245157801907,
+        "gripper_sign_accuracy": 0.9870018679950187,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.003764858351778363,
+          0.004672876927767928,
+          0.0048148021444072335,
+          8.1055105977397e-05,
+          0.0001683435534861025,
+          0.0002589967433293799,
+          0.04992824515780221
+        ],
+        "rotation_mse": 0.00016946513426429366,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.004417512474651165
+      },
+      "text_to_action_semantic_delta": 0.8,
+      "train_epoch40": {
+        "correct_language": {
+          "epoch": 40,
+          "loss": 1.0504383685944327,
+          "reconstruction": 0.05059035006167175,
+          "semantic": 0.9492576665973766
+        },
+        "reconstruction_only": {
+          "epoch": 40,
+          "loss": 0.03879171943045618,
+          "reconstruction": 0.03879171943045618,
+          "semantic": 0.0
+        },
+        "shuffled_language_control": {
+          "epoch": 40,
+          "loss": 1.063043108471406,
+          "reconstruction": 0.05075184030358099,
+          "semantic": 0.9615394279636409
+        }
+      }
+    },
+    {
+      "action_to_text_semantic_delta": 0.88,
+      "correct": {
+        "action_clipping_saturation_rate": 0.00020755500207555002,
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.0020765423580609375,
+        "decoded_action_norm": 0.5057681798934937,
+        "decoder_continuous_saturation_fraction": 0.00020755500207555002,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04790085466894242,
+        "gripper_sign_accuracy": 0.9879358655043586,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.003470875346837578,
+          0.0042151004102404235,
+          0.004238856938094615,
+          8.835536381314914e-05,
+          0.00016693403291530808,
+          0.0002791320564645436,
+          0.04790085466894217
+        ],
+        "rotation_mse": 0.00017814048439766678,
+        "text_to_action_R1": 1.0,
+        "translation_mse": 0.003974944231724208
+      },
+      "ema_gripper_drop": 0.0008561643835616195,
+      "ema_motor_ratio": 1.1442837598110205,
+      "old_development": {
+        "correct_language": {
+          "action_clipping_saturation_rate": 0.00024647156496471564,
+          "action_to_text_R1": 1.0,
+          "continuous_action_mse": 0.0019238852636460392,
+          "decoded_action_norm": 0.49743980169296265,
+          "decoder_continuous_saturation_fraction": 0.00024647156496471564,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04543282180606459,
+          "gripper_sign_accuracy": 0.9891033623910336,
+          "macro_action_to_text_R1": 1.0,
+          "per_dimension_mse": [
+            0.0028367148392595665,
+            0.00414905382712592,
+            0.004098590521178993,
+            7.301780606426249e-05,
+            0.00014046555725389206,
+            0.0002454690309936062,
+            0.045432821806064574
+          ],
+          "rotation_mse": 0.00015298413143725317,
+          "text_to_action_R1": 1.0,
+          "translation_mse": 0.0036947863958548257
+        },
+        "reconstruction_only": {
+          "action_clipping_saturation_rate": 0.00012972187629721878,
+          "action_to_text_R1": 0.22,
+          "continuous_action_mse": 0.0016265732282694137,
+          "decoded_action_norm": 0.5001819729804993,
+          "decoder_continuous_saturation_fraction": 0.00012972187629721878,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.043460133357798546,
+          "gripper_sign_accuracy": 0.9894146948941469,
+          "macro_action_to_text_R1": 0.22000000000000003,
+          "per_dimension_mse": [
+            0.002578239605624589,
+            0.0031169986863692337,
+            0.0036943368037180347,
+            5.8702224476560056e-05,
+            0.00011545467146237947,
+            0.00019570737796570045,
+            0.04346013335779882
+          ],
+          "rotation_mse": 0.0001232880913015465,
+          "text_to_action_R1": 0.1,
+          "translation_mse": 0.0031298583652372806
+        },
+        "shuffled_language_control": {
+          "action_clipping_saturation_rate": 0.0002724159402241594,
+          "action_to_text_R1": 0.0,
+          "continuous_action_mse": 0.0019308337520380244,
+          "decoded_action_norm": 0.5030850768089294,
+          "decoder_continuous_saturation_fraction": 0.0002724159402241594,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04640556062413589,
+          "gripper_sign_accuracy": 0.9886363636363636,
+          "macro_action_to_text_R1": 0.0,
+          "per_dimension_mse": [
+            0.0027235902711366076,
+            0.004384389514810734,
+            0.00403195292257591,
+            7.140516561038533e-05,
+            0.00014463156523095622,
+            0.00022903307286357402,
+            0.04640556062413591
+          ],
+          "rotation_mse": 0.00014835660123497217,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.003713310902841076
+        }
+      },
+      "raw_motor_ratio": 1.3981868276034342,
+      "reconstruction_only": {
+        "action_clipping_saturation_rate": 9.080531340805314e-05,
+        "action_to_text_R1": 0.12,
+        "continuous_action_mse": 0.0018147092801560692,
+        "decoded_action_norm": 0.5083125829696655,
+        "decoder_continuous_saturation_fraction": 9.080531340805314e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.044835506976431704,
+        "gripper_sign_accuracy": 0.9887920298879203,
+        "macro_action_to_text_R1": 0.12,
+        "per_dimension_mse": [
+          0.0031145650952416185,
+          0.0033430526100765114,
+          0.003992853555113126,
+          7.609041410128646e-05,
+          0.00014166020561846653,
+          0.00022003380078540775,
+          0.04483550697643156
+        ],
+        "rotation_mse": 0.0001459281401683868,
+        "text_to_action_R1": 0.1,
+        "translation_mse": 0.003483490420143752
+      },
+      "seed": 201820,
+      "shuffled_control": {
+        "action_clipping_saturation_rate": 0.00038916562889165627,
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.0020700015272914095,
+        "decoded_action_norm": 0.5127503275871277,
+        "decoder_continuous_saturation_fraction": 0.00038916562889165627,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04725460865388583,
+        "gripper_sign_accuracy": 0.988947696139477,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.0033236107254348926,
+          0.004207066040908421,
+          0.00436831581560538,
+          8.707783882990733e-05,
+          0.00017138210917878245,
+          0.0002625566337910783,
+          0.04725460865388597
+        ],
+        "rotation_mse": 0.0001736721939332557,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.0039663308606495635
+      },
+      "text_to_action_semantic_delta": 0.9,
+      "train_epoch40": {
+        "correct_language": {
+          "epoch": 40,
+          "loss": 1.0400197781833316,
+          "reconstruction": 0.05317728320197223,
+          "semantic": 0.9336652100852048
+        },
+        "reconstruction_only": {
+          "epoch": 40,
+          "loss": 0.04417952126854688,
+          "reconstruction": 0.04417952126854688,
+          "semantic": 0.0
+        },
+        "shuffled_language_control": {
+          "epoch": 40,
+          "loss": 1.050915317128375,
+          "reconstruction": 0.052149669731436754,
+          "semantic": 0.9466159763438481
+        }
+      }
+    },
+    {
+      "action_to_text_semantic_delta": 0.9,
+      "correct": {
+        "action_clipping_saturation_rate": 0.0006096928185969282,
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.0021356832482058315,
+        "decoded_action_norm": 0.5072187781333923,
+        "decoder_continuous_saturation_fraction": 0.0006096928185969282,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04881577986713474,
+        "gripper_sign_accuracy": 0.988947696139477,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.0035772982140705456,
+          0.0040823071315232665,
+          0.004660430806704927,
+          8.321530102118553e-05,
+          0.00015781550679477718,
+          0.0002530325291203005,
+          0.048815779867134895
+        ],
+        "rotation_mse": 0.0001646877789787542,
+        "text_to_action_R1": 1.0,
+        "translation_mse": 0.004106678717432909
+      },
+      "ema_gripper_drop": 7.783312577835932e-05,
+      "ema_motor_ratio": 1.1062119018409349,
+      "old_development": {
+        "correct_language": {
+          "action_clipping_saturation_rate": 0.0007004981320049813,
+          "action_to_text_R1": 1.0,
+          "continuous_action_mse": 0.001889010839233367,
+          "decoded_action_norm": 0.49843937158584595,
+          "decoder_continuous_saturation_fraction": 0.0007004981320049813,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.046553150669165516,
+          "gripper_sign_accuracy": 0.988247198007472,
+          "macro_action_to_text_R1": 1.0,
+          "per_dimension_mse": [
+            0.002851902472022107,
+            0.003912635434588706,
+            0.004146116828981083,
+            6.542751798501506e-05,
+            0.00013154740294692732,
+            0.00022643537887639137,
+            0.04655315066916541
+          ],
+          "rotation_mse": 0.00014113676660277782,
+          "text_to_action_R1": 1.0,
+          "translation_mse": 0.0036368849118639563
+        },
+        "reconstruction_only": {
+          "action_clipping_saturation_rate": 0.0004280821917808219,
+          "action_to_text_R1": 0.1,
+          "continuous_action_mse": 0.001699588419364949,
+          "decoded_action_norm": 0.49904438853263855,
+          "decoder_continuous_saturation_fraction": 0.0004280821917808219,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04437793759009549,
+          "gripper_sign_accuracy": 0.9892590286425903,
+          "macro_action_to_text_R1": 0.1,
+          "per_dimension_mse": [
+            0.0026335993169111878,
+            0.003369704315725669,
+            0.0037828241707228037,
+            6.88786521245916e-05,
+            0.00013022952222286385,
+            0.0002122945384826052,
+            0.04437793759009561
+          ],
+          "rotation_mse": 0.00013713423761002006,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.003262042601119878
+        },
+        "shuffled_language_control": {
+          "action_clipping_saturation_rate": 0.00015566625155666251,
+          "action_to_text_R1": 0.0,
+          "continuous_action_mse": 0.00187695445706799,
+          "decoded_action_norm": 0.4938115179538727,
+          "decoder_continuous_saturation_fraction": 0.00015566625155666251,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.046244859318173286,
+          "gripper_sign_accuracy": 0.9894146948941469,
+          "macro_action_to_text_R1": 0.0,
+          "per_dimension_mse": [
+            0.0028240117011709134,
+            0.0038679482079509047,
+            0.004154799270053275,
+            6.568557556317163e-05,
+            0.00012580704843093865,
+            0.00022347493923871595,
+            0.04624485931817342
+          ],
+          "rotation_mse": 0.0001383225210776091,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.00361558639305837
+        }
+      },
+      "raw_motor_ratio": 1.0260623365276205,
+      "reconstruction_only": {
+        "action_clipping_saturation_rate": 0.0002205271897052719,
+        "action_to_text_R1": 0.1,
+        "continuous_action_mse": 0.0019306276172328933,
+        "decoded_action_norm": 0.5082409381866455,
+        "decoder_continuous_saturation_fraction": 0.0002205271897052719,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04535592125588846,
+        "gripper_sign_accuracy": 0.9890255292652553,
+        "macro_action_to_text_R1": 0.1,
+        "per_dimension_mse": [
+          0.003435164155952946,
+          0.0034990381539668934,
+          0.0041773538918176475,
+          8.308749860621224e-05,
+          0.00015356786959416977,
+          0.00023555413345950057,
+          0.04535592125588813
+        ],
+        "rotation_mse": 0.00015740316721996113,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.0037038520672458258
+      },
+      "seed": 202820,
+      "shuffled_control": {
+        "action_clipping_saturation_rate": 0.00015566625155666251,
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.0020550226048480255,
+        "decoded_action_norm": 0.5049237608909607,
+        "decoder_continuous_saturation_fraction": 0.00015566625155666251,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04742236299459775,
+        "gripper_sign_accuracy": 0.9885585305105853,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.0034545244447842824,
+          0.003978410190294212,
+          0.004400992137337605,
+          8.450064617871422e-05,
+          0.00015181388362435366,
+          0.0002598943268689805,
+          0.047422362994597754
+        ],
+        "rotation_mse": 0.00016540295222401593,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.003944642257472036
+      },
+      "text_to_action_semantic_delta": 1.0,
+      "train_epoch40": {
+        "correct_language": {
+          "epoch": 40,
+          "loss": 1.0659333568924596,
+          "reconstruction": 0.0529197161452377,
+          "semantic": 0.9600939239932312
+        },
+        "reconstruction_only": {
+          "epoch": 40,
+          "loss": 0.046788659506590176,
+          "reconstruction": 0.046788659506590176,
+          "semantic": 0.0
+        },
+        "shuffled_language_control": {
+          "epoch": 40,
+          "loss": 1.040873197924279,
+          "reconstruction": 0.052749932631892,
+          "semantic": 0.9353733313874503
+        }
+      }
+    },
+    {
+      "action_to_text_semantic_delta": 0.96,
+      "correct": {
+        "action_clipping_saturation_rate": 0.00029836031548360317,
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.0021135155173089256,
+        "decoded_action_norm": 0.5063096880912781,
+        "decoder_continuous_saturation_fraction": 0.00029836031548360317,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.048207426315456915,
+        "gripper_sign_accuracy": 0.988013698630137,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.003535860173285522,
+          0.004260488044805825,
+          0.004372290737882399,
+          8.431098912433657e-05,
+          0.00015438874844238412,
+          0.00027375441031306566,
+          0.04820742631545663
+        ],
+        "rotation_mse": 0.00017081804929326176,
+        "text_to_action_R1": 1.0,
+        "translation_mse": 0.004056212985324588
+      },
+      "ema_gripper_drop": -0.00015566625155671865,
+      "ema_motor_ratio": 1.0340589282265182,
+      "old_development": {
+        "correct_language": {
+          "action_clipping_saturation_rate": 0.0002724159402241594,
+          "action_to_text_R1": 0.98,
+          "continuous_action_mse": 0.0019130387213330672,
+          "decoded_action_norm": 0.4979243576526642,
+          "decoder_continuous_saturation_fraction": 0.0002724159402241594,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04549827703402226,
+          "gripper_sign_accuracy": 0.9880915317559154,
+          "macro_action_to_text_R1": 0.9800000000000001,
+          "per_dimension_mse": [
+            0.002848489196175576,
+            0.004191815215270312,
+            0.003992281094069048,
+            6.832438437180288e-05,
+            0.00012904086648321702,
+            0.0002482815716284566,
+            0.045498277034022726
+          ],
+          "rotation_mse": 0.00014854894082782504,
+          "text_to_action_R1": 1.0,
+          "translation_mse": 0.003677528501838309
+        },
+        "reconstruction_only": {
+          "action_clipping_saturation_rate": 5.1888750518887505e-05,
+          "action_to_text_R1": 0.08,
+          "continuous_action_mse": 0.0019126220693343981,
+          "decoded_action_norm": 0.4944736063480377,
+          "decoder_continuous_saturation_fraction": 5.1888750518887505e-05,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.042409715724179516,
+          "gripper_sign_accuracy": 0.9887920298879203,
+          "macro_action_to_text_R1": 0.08,
+          "per_dimension_mse": [
+            0.002845077470822898,
+            0.004231047534696777,
+            0.0039885899289711915,
+            6.763954382821917e-05,
+            0.00012022288152053229,
+            0.00022315505616679016,
+            0.04240971572417953
+          ],
+          "rotation_mse": 0.00013700582717184693,
+          "text_to_action_R1": 0.2,
+          "translation_mse": 0.0036882383114969497
+        },
+        "shuffled_language_control": {
+          "action_clipping_saturation_rate": 0.00011674968866749689,
+          "action_to_text_R1": 0.0,
+          "continuous_action_mse": 0.0020024439118775947,
+          "decoded_action_norm": 0.49235260486602783,
+          "decoder_continuous_saturation_fraction": 0.00011674968866749689,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.0484251109664255,
+          "gripper_sign_accuracy": 0.987780199252802,
+          "macro_action_to_text_R1": 0.0,
+          "per_dimension_mse": [
+            0.0028876157515897016,
+            0.004280379281035721,
+            0.0043601892889596604,
+            7.308219426937832e-05,
+            0.00014070605347779957,
+            0.0002726909019333297,
+            0.048425110966425544
+          ],
+          "rotation_mse": 0.00016215971656016945,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.00384272810719502
+        }
+      },
+      "raw_motor_ratio": 1.4646116387576402,
+      "reconstruction_only": {
+        "action_clipping_saturation_rate": 0.00014269406392694063,
+        "action_to_text_R1": 0.04,
+        "continuous_action_mse": 0.002043902392423369,
+        "decoded_action_norm": 0.5053068399429321,
+        "decoder_continuous_saturation_fraction": 0.00014269406392694063,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.0459778117396487,
+        "gripper_sign_accuracy": 0.9878580323785803,
+        "macro_action_to_text_R1": 0.04,
+        "per_dimension_mse": [
+          0.003481117312732215,
+          0.004056502699389495,
+          0.004240946001590367,
+          8.368555457537187e-05,
+          0.00014334627772081768,
+          0.0002578165085319413,
+          0.04597781173964876
+        ],
+        "rotation_mse": 0.00016161611360937736,
+        "text_to_action_R1": 0.1,
+        "translation_mse": 0.003926188671237361
+      },
+      "seed": 203820,
+      "shuffled_control": {
+        "action_clipping_saturation_rate": 0.00019458281444582814,
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.00219636171269656,
+        "decoded_action_norm": 0.5015143752098083,
+        "decoder_continuous_saturation_fraction": 0.00019458281444582814,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.05120626599383386,
+        "gripper_sign_accuracy": 0.9872353673723536,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.0034722458422349147,
+          0.004367083456113668,
+          0.004791898631098242,
+          8.914411090245855e-05,
+          0.00016568582919440508,
+          0.00029211240663566787,
+          0.051206265993834085
+        ],
+        "rotation_mse": 0.00018231411557751069,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.00421040930981561
+      },
+      "text_to_action_semantic_delta": 0.9,
+      "train_epoch40": {
+        "correct_language": {
+          "epoch": 40,
+          "loss": 1.0473597273138673,
+          "reconstruction": 0.053935317371474924,
+          "semantic": 0.9394890947719501
+        },
+        "reconstruction_only": {
+          "epoch": 40,
+          "loss": 0.045683815425174155,
+          "reconstruction": 0.045683815425174155,
+          "semantic": 0.0
+        },
+        "shuffled_language_control": {
+          "epoch": 40,
+          "loss": 1.1901802439555826,
+          "reconstruction": 0.054920306796157906,
+          "semantic": 1.080339629094914
+        }
+      }
+    },
+    {
+      "action_to_text_semantic_delta": 0.9,
+      "correct": {
+        "action_clipping_saturation_rate": 6.486093814860939e-05,
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.002073676737345104,
+        "decoded_action_norm": 0.503332257270813,
+        "decoder_continuous_saturation_fraction": 6.486093814860939e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04742624266881752,
+        "gripper_sign_accuracy": 0.9873910336239103,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.003473006017019236,
+          0.004131712526269706,
+          0.004327115528508679,
+          7.654105182402551e-05,
+          0.00015317518096554208,
+          0.00028051011948345447,
+          0.047426242668817446
+        ],
+        "rotation_mse": 0.0001700754507576744,
+        "text_to_action_R1": 1.0,
+        "translation_mse": 0.003977278023932533
+      },
+      "ema_gripper_drop": 0.0009339975093399788,
+      "ema_motor_ratio": 1.1832402981924306,
+      "old_development": {
+        "correct_language": {
+          "action_clipping_saturation_rate": 5.1888750518887505e-05,
+          "action_to_text_R1": 1.0,
+          "continuous_action_mse": 0.0019273480901574535,
+          "decoded_action_norm": 0.4943234920501709,
+          "decoder_continuous_saturation_fraction": 5.1888750518887505e-05,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04529965900803076,
+          "gripper_sign_accuracy": 0.9883250311332503,
+          "macro_action_to_text_R1": 1.0,
+          "per_dimension_mse": [
+            0.002972434817200257,
+            0.0040464371278078615,
+            0.004089036095756208,
+            6.127918522127547e-05,
+            0.0001316863828741944,
+            0.0002632149320849109,
+            0.04529965900803069
+          ],
+          "rotation_mse": 0.000152060166726794,
+          "text_to_action_R1": 1.0,
+          "translation_mse": 0.0037026360135881133
+        },
+        "reconstruction_only": {
+          "action_clipping_saturation_rate": 0.00012972187629721878,
+          "action_to_text_R1": 0.12,
+          "continuous_action_mse": 0.0015933986953844052,
+          "decoded_action_norm": 0.502953052520752,
+          "decoder_continuous_saturation_fraction": 0.00012972187629721878,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04288468949412788,
+          "gripper_sign_accuracy": 0.989881693648817,
+          "macro_action_to_text_R1": 0.12,
+          "per_dimension_mse": [
+            0.002577524540177502,
+            0.0031092861548935482,
+            0.0034814338659519394,
+            6.0059103320908445e-05,
+            0.00012049671392713083,
+            0.0002115917940353922,
+            0.04288468949412794
+          ],
+          "rotation_mse": 0.00013071587042781,
+          "text_to_action_R1": 0.1,
+          "translation_mse": 0.0030560815203410007
+        },
+        "shuffled_language_control": {
+          "action_clipping_saturation_rate": 0.00012972187629721878,
+          "action_to_text_R1": 0.0,
+          "continuous_action_mse": 0.0018629135451773075,
+          "decoded_action_norm": 0.49793657660484314,
+          "decoder_continuous_saturation_fraction": 0.00012972187629721878,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04603457149850687,
+          "gripper_sign_accuracy": 0.9894146948941469,
+          "macro_action_to_text_R1": 0.0,
+          "per_dimension_mse": [
+            0.002821454543845648,
+            0.0036767526117487555,
+            0.004242058002781694,
+            6.393045350965039e-05,
+            0.00013810709808116295,
+            0.0002351785610969474,
+            0.04603457149850674
+          ],
+          "rotation_mse": 0.00014573870422925338,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.0035800883861253617
+        }
+      },
+      "raw_motor_ratio": 1.3069999801950711,
+      "reconstruction_only": {
+        "action_clipping_saturation_rate": 0.00010377750103777501,
+        "action_to_text_R1": 0.1,
+        "continuous_action_mse": 0.0017525406635600079,
+        "decoded_action_norm": 0.5132045149803162,
+        "decoder_continuous_saturation_fraction": 0.00010377750103777501,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.045798430106632135,
+        "gripper_sign_accuracy": 0.9883250311332503,
+        "macro_action_to_text_R1": 0.1,
+        "per_dimension_mse": [
+          0.003109025242060714,
+          0.003196304508207802,
+          0.003766254934922328,
+          7.470074680845211e-05,
+          0.0001404471536960294,
+          0.00022851139566473967,
+          0.04579843010663202
+        ],
+        "rotation_mse": 0.00014788643205640748,
+        "text_to_action_R1": 0.1,
+        "translation_mse": 0.0033571948950636083
+      },
+      "seed": 204820,
+      "shuffled_control": {
+        "action_clipping_saturation_rate": 7.783312577833126e-05,
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.0020380943028589678,
+        "decoded_action_norm": 0.5069712996482849,
+        "decoder_continuous_saturation_fraction": 7.783312577833126e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.046797436521034796,
+        "gripper_sign_accuracy": 0.9878580323785803,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.003378752728318016,
+          0.003836818208269797,
+          0.00451742551947064,
+          7.999172704179301e-05,
+          0.00016061583517908208,
+          0.00025496179887448626,
+          0.04679743652103485
+        ],
+        "rotation_mse": 0.00016518978703178693,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.003910998818686148
+      },
+      "text_to_action_semantic_delta": 0.9,
+      "train_epoch40": {
+        "correct_language": {
+          "epoch": 40,
+          "loss": 1.1099118714559104,
+          "reconstruction": 0.05472986100851287,
+          "semantic": 1.0004521482521271
+        },
+        "reconstruction_only": {
+          "epoch": 40,
+          "loss": 0.04452063669367055,
+          "reconstruction": 0.04452063669367055,
+          "semantic": 0.0
+        },
+        "shuffled_language_control": {
+          "epoch": 40,
+          "loss": 1.0784141583568647,
+          "reconstruction": 0.049486069584624516,
+          "semantic": 0.9794420175588452
+        }
+      }
+    },
+    {
+      "action_to_text_semantic_delta": 0.92,
+      "correct": {
+        "action_clipping_saturation_rate": 0.00015566625155666251,
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.00208247515353368,
+        "decoded_action_norm": 0.5032527446746826,
+        "decoder_continuous_saturation_fraction": 0.00015566625155666251,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04675737948028914,
+        "gripper_sign_accuracy": 0.988714196762142,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.003574192916355388,
+          0.003926093403038436,
+          0.0044743048662986475,
+          8.479957231389868e-05,
+          0.00016175507577059287,
+          0.00027370508742512216,
+          0.04675737948028908
+        ],
+        "rotation_mse": 0.0001734199118365378,
+        "text_to_action_R1": 1.0,
+        "translation_mse": 0.003991530395230823
+      },
+      "ema_gripper_drop": 7.78331257782483e-05,
+      "ema_motor_ratio": 1.0996460381208457,
+      "old_development": {
+        "correct_language": {
+          "action_clipping_saturation_rate": 0.00014269406392694063,
+          "action_to_text_R1": 1.0,
+          "continuous_action_mse": 0.0019834689074784842,
+          "decoded_action_norm": 0.4942435324192047,
+          "decoder_continuous_saturation_fraction": 0.00014269406392694063,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04570189762587909,
+          "gripper_sign_accuracy": 0.988247198007472,
+          "macro_action_to_text_R1": 1.0,
+          "per_dimension_mse": [
+            0.003015532770910223,
+            0.003972365490166339,
+            0.0044720060924663685,
+            6.981086379716864e-05,
+            0.00013612830977160616,
+            0.00023496991775919838,
+            0.04570189762587921
+          ],
+          "rotation_mse": 0.0001469696971093245,
+          "text_to_action_R1": 1.0,
+          "translation_mse": 0.0038199681178476435
+        },
+        "reconstruction_only": {
+          "action_clipping_saturation_rate": 0.0003372768783727688,
+          "action_to_text_R1": 0.12,
+          "continuous_action_mse": 0.0016860537667099393,
+          "decoded_action_norm": 0.5021570324897766,
+          "decoder_continuous_saturation_fraction": 0.0003372768783727688,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.042705501994633646,
+          "gripper_sign_accuracy": 0.9890255292652553,
+          "macro_action_to_text_R1": 0.12000000000000002,
+          "per_dimension_mse": [
+            0.002605438486769244,
+            0.003392247280796684,
+            0.0037320829162799164,
+            6.201486725338759e-05,
+            0.0001204052507230571,
+            0.0002041337984373306,
+            0.04270550199463369
+          ],
+          "rotation_mse": 0.00012885130547125813,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.003243256227948621
+        },
+        "shuffled_language_control": {
+          "action_clipping_saturation_rate": 0.00024647156496471564,
+          "action_to_text_R1": 0.02,
+          "continuous_action_mse": 0.001932530651805871,
+          "decoded_action_norm": 0.49773621559143066,
+          "decoder_continuous_saturation_fraction": 0.00024647156496471564,
+          "development_chunk_count": 803,
+          "development_episode_count": 50,
+          "gripper_mse": 0.04561930636719083,
+          "gripper_sign_accuracy": 0.9880915317559154,
+          "macro_action_to_text_R1": 0.02,
+          "per_dimension_mse": [
+            0.002925341616459841,
+            0.004029784420610302,
+            0.0041866831690118116,
+            6.551321996324398e-05,
+            0.0001458449875317497,
+            0.00024201649725826284,
+            0.04561930636719077
+          ],
+          "rotation_mse": 0.0001511249015844185,
+          "text_to_action_R1": 0.0,
+          "translation_mse": 0.003713936402027323
+        }
+      },
+      "raw_motor_ratio": 1.3044626685835592,
+      "reconstruction_only": {
+        "action_clipping_saturation_rate": 0.00020755500207555002,
+        "action_to_text_R1": 0.08,
+        "continuous_action_mse": 0.001893768614028168,
+        "decoded_action_norm": 0.5104137063026428,
+        "decoder_continuous_saturation_fraction": 0.00020755500207555002,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04543706476694569,
+        "gripper_sign_accuracy": 0.9887920298879203,
+        "macro_action_to_text_R1": 0.08,
+        "per_dimension_mse": [
+          0.003266822076438083,
+          0.003578314569503806,
+          0.004070968933610706,
+          7.55843420488605e-05,
+          0.00014476728929288933,
+          0.00022615447327466295,
+          0.045437064766945666
+        ],
+        "rotation_mse": 0.0001488353682054708,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.0036387018598508653
+      },
+      "seed": 205820,
+      "shuffled_control": {
+        "action_clipping_saturation_rate": 0.0003372768783727688,
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.002114822999166708,
+        "decoded_action_norm": 0.5068232417106628,
+        "decoder_continuous_saturation_fraction": 0.0003372768783727688,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04712719606081623,
+        "gripper_sign_accuracy": 0.9881693648816936,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.003539077965289681,
+          0.004103854857674699,
+          0.004517403420051439,
+          8.18782393155953e-05,
+          0.00017431740782289636,
+          0.00027240610484594133,
+          0.04712719606081628
+        ],
+        "rotation_mse": 0.00017620058399481082,
+        "text_to_action_R1": 0.0,
+        "translation_mse": 0.004053445414338604
+      },
+      "text_to_action_semantic_delta": 1.0,
+      "train_epoch40": {
+        "correct_language": {
+          "epoch": 40,
+          "loss": 1.1041066086729947,
+          "reconstruction": 0.05090266573472541,
+          "semantic": 1.00230127701185
+        },
+        "reconstruction_only": {
+          "epoch": 40,
+          "loss": 0.04014108407753833,
+          "reconstruction": 0.04014108407753833,
+          "semantic": 0.0
+        },
+        "shuffled_language_control": {
+          "epoch": 40,
+          "loss": 1.1014858700903007,
+          "reconstruction": 0.04793112577010163,
+          "semantic": 1.0056236169165242
+        }
+      }
+    }
+  ],
+  "translation_ratio": 1.1293329690084004
+}

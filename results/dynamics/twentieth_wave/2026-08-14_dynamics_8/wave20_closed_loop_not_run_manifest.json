@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-08-14",
+  "reason": "offline_O1_O8_rejected",
+  "old_final_test_opened": false,
+  "wave20_final_test_open_manifest_created": false,
+  "B0_B5_run": false,
+  "proposal_perturbation_recovery_run": false,
+  "closed_loop_claim": "NOT_TESTED_OFFLINE_GATE_REJECTION"
+}

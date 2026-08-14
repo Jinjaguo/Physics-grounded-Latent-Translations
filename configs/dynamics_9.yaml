@@ -1,0 +1,67 @@
+experiment:
+  name: dynamics_9
+  wave: twenty_first_wave
+  output_root: results/dynamics/twenty_first_wave/2026-08-14_dynamics_9
+  report_path: reports/dynamics_9_results.md
+
+representation:
+  config: configs/representation.yaml
+  checkpoint: checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt
+  checkpoint_manifest: checkpoints/representation/manifest.json
+  text_features: data/representation/text_features/openclip_vitl14_datacomp_xl.npz
+  annotation_metadata: data/representation/calvin_task_D_D/metadata/training/lang_annotations/auto_lang_ann.npy
+  episode_bounds: data/representation/calvin_task_D_D/metadata/training/ep_start_end_ids.npy
+  episode_root: data/representation/calvin_task_D_D/episodes/training
+  latent_dim: 32
+  semantic_dim: 16
+  execution_dim: 16
+
+data:
+  vocabulary:
+    - lift_blue_block_slider
+    - lift_red_block_table
+    - place_in_slider
+    - push_pink_block_right
+    - turn_off_lightbulb
+    - turn_on_lightbulb
+  chunk_frames: 16
+  rollout_steps: 4
+  region_stride_frames: 16
+  split_seed: 210821
+  train_sessions: 19
+  development_sessions: 6
+  test_sessions: 6
+  split_search_trials: 200000
+  minimum_train_per_goal: 25
+  minimum_dev_per_goal: 8
+  minimum_test_per_goal: 8
+
+model:
+  name: LCT_full_latent_delta
+  state_hidden_dim: 64
+  goal_hidden_dim: 32
+  transition_hidden_dim: 128
+  depth: 3
+  epochs: 240
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  lambda_latent: 1.0
+  lambda_decode: 1.0
+  gradient_clip_norm: 5.0
+  seeds: [210821, 210822, 210823, 210824, 210825, 210826]
+  ensemble_rule: arithmetic_mean_of_six_registered_seed_predictions
+
+evaluation:
+  horizons: [1, 2, 4]
+  knn_k: 20
+  bootstrap_replicates: 10000
+  bootstrap_seed: 210821
+  endpoint_accuracy_threshold: 0.60
+  chance_accuracy: 0.16666666666666666
+  cycle_tolerance_quantile: 0.95
+  case_study_rule: first_three_held_out_boundaries_sorted_by_session_and_frame_per_available_pair
+
+runtime:
+  device: cuda:0
+  torch_cpu_threads: 4

@@ -1,0 +1,12 @@
+{
+  "representation_gate": "PASS",
+  "offline_O1_O8": "REJECTED",
+  "failed_conditions": [
+    "O1_F2_AUC_upper_95_below_zero",
+    "O3_F2_H8_execution_MSE_lower",
+    "O5_F2_H8_execution_kNN_lower",
+    "O8_F2_normal_distance_lower"
+  ],
+  "final_test_opened": false,
+  "closed_loop_run": false
+}

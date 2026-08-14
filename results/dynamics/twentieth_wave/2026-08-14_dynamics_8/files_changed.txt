@@ -1,0 +1,31 @@
+Wave-20 files created or updated
+
+Configuration and protocol
+  configs/dynamics_8.yaml
+  prompts/dynamics_8.md
+
+Implementation
+  scripts/dynamics/run_dynamics_8.py
+  scripts/dynamics/start_wave20_pi05_server.py
+  scripts/dynamics/collect_wave20_libero.py
+  scripts/dynamics/train_wave20_representation.py
+  scripts/dynamics/train_wave20_dynamics.py
+
+Tests
+  tests/dynamics/test_dynamics_8_motor_margin.py
+
+Reports and project log
+  reports/dynamics_8_results.md
+  RESEARCH_LOG.md
+  NEXT_EXPERIMENT.md
+
+Result artifacts
+  results/dynamics/twentieth_wave/2026-08-14_dynamics_8/
+  This includes preregistrations, split and fresh-confirmation freezes, collection
+  and exact certification results, six-seed raw/EMA metrics, representation and
+  offline gates, frozen model manifests, motor diagnostics, publication data,
+  exact commands, environment freeze, final report, and next-experiment plan.
+
+Large raw episodes, latent archives, and checkpoints are stored under
+data/wave20_libero_confirmation/ or ignored *.pt/*.npz paths and are not intended
+for Git tracking under the repository's existing ignore rules.

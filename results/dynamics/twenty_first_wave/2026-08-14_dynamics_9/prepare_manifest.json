@@ -1,0 +1,32 @@
+{
+  "all_six_goals_adequate": true,
+  "boundaries": 560,
+  "created_at": "2026-08-14T17:15:36.028581-04:00",
+  "sessions": 31,
+  "split_coverage": {
+    "development": {
+      "lift_blue_block_slider": 17,
+      "lift_red_block_table": 22,
+      "place_in_slider": 30,
+      "push_pink_block_right": 14,
+      "turn_off_lightbulb": 27,
+      "turn_on_lightbulb": 29
+    },
+    "test": {
+      "lift_blue_block_slider": 26,
+      "lift_red_block_table": 27,
+      "place_in_slider": 37,
+      "push_pink_block_right": 14,
+      "turn_off_lightbulb": 29,
+      "turn_on_lightbulb": 31
+    },
+    "train": {
+      "lift_blue_block_slider": 39,
+      "lift_red_block_table": 41,
+      "place_in_slider": 46,
+      "push_pink_block_right": 32,
+      "turn_off_lightbulb": 51,
+      "turn_on_lightbulb": 48
+    }
+  }
+}

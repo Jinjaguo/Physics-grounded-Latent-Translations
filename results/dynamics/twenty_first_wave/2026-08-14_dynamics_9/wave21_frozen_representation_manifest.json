@@ -1,0 +1,60 @@
+{
+  "action_encoder_sha256": "50e41ad30476a811ad0e334bf161c05e9eef6c376fcee8d0f2ee74d1954b70d9",
+  "all_parameters_require_grad_false": true,
+  "available_text_count": {
+    "lift_blue_block_slider": 17,
+    "lift_red_block_table": 10,
+    "place_in_slider": 20,
+    "push_pink_block_right": 9,
+    "turn_off_lightbulb": 10,
+    "turn_on_lightbulb": 10
+  },
+  "checkpoint": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+  "checkpoint_sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+  "decoder_optimizer_steps": 0,
+  "decoder_sha256": "9712611976b8415a359c2b3019add31ad62e9e8f133fd55ae8457d21dde3c5ca",
+  "ema_updates": 0,
+  "normalization": {
+    "action_mean": [
+      0.00049769650466271,
+      -0.00039949435773503454,
+      -0.00012120015334326772,
+      9.484634393058406e-06,
+      -3.061934368884372e-05,
+      0.0013556436194455453
+    ],
+    "action_std": [
+      0.26834852033495865,
+      0.23661236545621833,
+      0.22371776143113112,
+      0.156886897833954,
+      0.1717797369560762,
+      0.27438707855475664
+    ],
+    "continuous_dimensions_only": true,
+    "gripper_unchanged_minus1_plus1": true,
+    "source_episode_rows": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      11,
+      14,
+      16,
+      17,
+      23,
+      27,
+      30
+    ],
+    "source_frame_count": 194884
+  },
+  "normalization_sha256": "14c43eda78197088d2eb0a947f85cf53de09235aefa419daf5265d703e86a48c",
+  "representation_optimizer_steps": 0,
+  "semantic_projection_sha256": "2858f9deac95c452df3d364c8ad7e7c7f937ed96dea9d11db2bfd1763c4af385",
+  "task_feature_rule": "mean frozen OpenCLIP feature across all official annotation strings, then frozen text_projection and L2 normalization",
+  "text_encoder_optimizer_steps": 0,
+  "text_feature_archive": "data/representation/text_features/openclip_vitl14_datacomp_xl.npz",
+  "text_feature_archive_sha256": "f47a7ebbbeb11e952b4c6ea31ac8d71130af42a07e86930c4423f36c3e4411b6"
+}

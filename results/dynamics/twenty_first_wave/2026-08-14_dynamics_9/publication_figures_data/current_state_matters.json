@@ -1,0 +1,26 @@
+{
+  "prototype_minus_LCT_H2": {
+    "cluster": "source_session",
+    "lower_95": -0.08232607309085627,
+    "mean": -0.02864357673873504,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 0.02008247592796882
+  },
+  "prototype_minus_LCT_H4_decoded": {
+    "cluster": "source_session",
+    "lower_95": 0.010208615101873875,
+    "mean": 0.012304883450269699,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 0.014444833621382713
+  },
+  "within_goal_endpoint_variance": {
+    "lift_blue_block_slider": 0.1921692192554474,
+    "lift_red_block_table": 0.14631614089012146,
+    "place_in_slider": 0.15879763662815094,
+    "push_pink_block_right": 0.24094387888908386,
+    "turn_off_lightbulb": 0.21827560663223267,
+    "turn_on_lightbulb": 0.12889999151229858
+  }
+}

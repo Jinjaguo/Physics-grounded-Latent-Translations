@@ -1,0 +1,81 @@
+{
+  "C7_language_conditioned_transition": "REJECTED",
+  "C8_language_targeted_atomic_transition": "REJECTED",
+  "continuous_transition_better_than_prototype_reset": false,
+  "current_state_contributes_beyond_language": false,
+  "execution_space_redirection": true,
+  "gates": {
+    "G1": true,
+    "G2": true,
+    "G3": false,
+    "G4": false,
+    "G5": false,
+    "G6": true
+  },
+  "language_changes_future_direction": true,
+  "primary_metrics": {
+    "B0_minus_B1_H2_execution": {
+      "cluster": "source_session",
+      "lower_95": 0.0843119149406751,
+      "mean": 0.11836570625503857,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.15450164179007211
+    },
+    "B0_minus_B1_H4_decoded": {
+      "cluster": "source_session",
+      "lower_95": 0.004402384239559372,
+      "mean": 0.005760332569479942,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.006699428816015522
+    },
+    "RedirectGain": {
+      "cluster": "source_session",
+      "lower_95": 0.1364949500809113,
+      "mean": 0.2501257487262289,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.37079838414986926
+    },
+    "continuity_better_than_prototype": false,
+    "cycle_error_mean": 2.8004119396209717,
+    "cycle_tolerance": 1.4341662526130676,
+    "decoded_reencoded_target_accuracy": 0.32926829268292684,
+    "endpoint_accuracy": 0.516260162601626,
+    "endpoint_accuracy_clustered_CI": {
+      "cluster": "source_session",
+      "lower_95": 0.4929797979797979,
+      "mean": 0.5127813852813853,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.5311147186147186
+    },
+    "execution_RedirectGain": {
+      "cluster": "source_session",
+      "lower_95": 0.1009165261251231,
+      "mean": 0.18385539498801032,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.26377692616855103
+    },
+    "macro_accuracy": 0.516260162601626,
+    "max_source_effect_contribution": 0.24968117257480943,
+    "prototype_minus_B1_H2_latent": {
+      "cluster": "source_session",
+      "lower_95": -0.08232607309085627,
+      "mean": -0.02864357673873504,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.02008247592796882
+    },
+    "prototype_minus_B1_H4_decoded": {
+      "cluster": "source_session",
+      "lower_95": 0.010208615101873875,
+      "mean": 0.012304883450269699,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.014444833621382713
+    }
+  }
+}

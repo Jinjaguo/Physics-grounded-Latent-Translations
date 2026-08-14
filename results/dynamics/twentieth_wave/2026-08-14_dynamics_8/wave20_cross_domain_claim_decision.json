@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-14",
+  "wave20_representation_semantic_motor_gate": "PASS",
+  "libero_offline_dynamics_O1_O8": "REJECTED",
+  "LIBERO_C1_semantic_addressability": "SUPPORTED_ON_FRESH_CONFIRMATION",
+  "LIBERO_C2_motor_fidelity": "SUPPORTED_WITH_PREREGISTERED_MARGIN",
+  "LIBERO_C3c_long": "NOT_SUPPORTED_BY_FROZEN_OFFLINE_GATE",
+  "LIBERO_C4_closed_loop_refinement": "NOT_TESTED_OFFLINE_GATE_REJECTION",
+  "LIBERO_C5_learned_direction_value": "NOT_TESTED_OFFLINE_GATE_REJECTION",
+  "LIBERO_C6_proposal_recovery": "NOT_TESTED_OFFLINE_GATE_REJECTION",
+  "old_final_test_read": false,
+  "strong_cross_domain_refinement_story_authorized": false,
+  "defensible_story": "The independent semantic and executable action-coordinate representation replicates on LIBERO with a genuine motor margin, but the frozen CALVIN-style iterative refinement advantage does not pass the LIBERO offline dynamics gate."
+}

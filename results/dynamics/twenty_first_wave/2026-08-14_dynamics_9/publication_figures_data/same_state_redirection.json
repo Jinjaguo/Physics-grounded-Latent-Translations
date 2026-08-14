@@ -1,0 +1,26 @@
+{
+  "RedirectGain_by_goal": {
+    "lift_blue_block_slider": 0.3386552035808563,
+    "lift_red_block_table": 0.10023669898509979,
+    "place_in_slider": -0.5162796974182129,
+    "push_pink_block_right": 0.1815439611673355,
+    "turn_off_lightbulb": 0.826080858707428,
+    "turn_on_lightbulb": 0.6295408606529236
+  },
+  "execution_RedirectGain_by_goal": {
+    "lift_blue_block_slider": 0.14882001280784607,
+    "lift_red_block_table": 0.18219682574272156,
+    "place_in_slider": -0.34318456053733826,
+    "push_pink_block_right": 0.07033626735210419,
+    "turn_off_lightbulb": 0.6910862326622009,
+    "turn_on_lightbulb": 0.39714929461479187
+  },
+  "requested_goals": [
+    "lift_blue_block_slider",
+    "lift_red_block_table",
+    "place_in_slider",
+    "push_pink_block_right",
+    "turn_off_lightbulb",
+    "turn_on_lightbulb"
+  ]
+}

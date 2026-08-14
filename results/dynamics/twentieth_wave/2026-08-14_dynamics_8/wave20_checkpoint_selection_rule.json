@@ -1,0 +1,7 @@
+{
+  "checkpoint": "EMA epoch 40",
+  "confirmation_based_epoch_selection": false,
+  "frozen_at": "2026-08-14T15:37:26-04:00",
+  "rule": "among registered seeds with finite outputs and positive per-seed bidirectional semantic delta, select the seed with median EMA continuous-MSE ratio; for an even count select the lower of the two central registered ratios; tie by lower registered seed",
+  "written_before_fresh_confirmation_evaluation": true
+}

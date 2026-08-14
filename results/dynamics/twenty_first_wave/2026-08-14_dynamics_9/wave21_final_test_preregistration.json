@@ -1,0 +1,83 @@
+{
+  "K": 20,
+  "LCT_architecture": {
+    "batch_size": 64,
+    "depth": 3,
+    "ensemble_rule": "arithmetic_mean_of_six_registered_seed_predictions",
+    "epochs": 240,
+    "goal_hidden_dim": 32,
+    "gradient_clip_norm": 5.0,
+    "lambda_decode": 1.0,
+    "lambda_latent": 1.0,
+    "learning_rate": 0.001,
+    "name": "LCT_full_latent_delta",
+    "seeds": [
+      210821,
+      210822,
+      210823,
+      210824,
+      210825,
+      210826
+    ],
+    "state_hidden_dim": 64,
+    "transition_hidden_dim": 128,
+    "weight_decay": 0.0001
+  },
+  "action_region_manifest": {
+    "K": 20,
+    "counts": {
+      "lift_blue_block_slider": 324,
+      "lift_red_block_table": 253,
+      "place_in_slider": 158,
+      "push_pink_block_right": 198,
+      "turn_off_lightbulb": 291,
+      "turn_on_lightbulb": 250
+    },
+    "execution_dimensions": [
+      16,
+      31
+    ],
+    "path": "results/dynamics/twenty_first_wave/2026-08-14_dynamics_9/wave21_train_regions.npz",
+    "semantic_dimensions": [
+      0,
+      15
+    ],
+    "sha256": "f8263b0610d298365967c980b3ca4481c9931ba21bd86de4e1e7ed1beba9c0c3",
+    "training_only": true
+  },
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 210821,
+  "case_study_rule": "first_three_held_out_boundaries_sorted_by_session_and_frame_per_available_pair",
+  "claim_gates": "prompts/dynamics_9.md sections 23-24",
+  "created_at": "2026-08-14T17:17:58.955497-04:00",
+  "cycle_tolerance_rule": "development ground-truth decode/reencode error 95th percentile",
+  "development_directional_gate": true,
+  "endpoint_accuracy_threshold": 0.6,
+  "ensemble_rule": "arithmetic_mean_of_six_registered_seed_predictions",
+  "held_out_test_opened_before_freeze": false,
+  "language_embedding_interface": "frozen mean OpenCLIP feature -> frozen text_projection -> L2",
+  "model_seeds": [
+    210821,
+    210822,
+    210823,
+    210824,
+    210825,
+    210826
+  ],
+  "paraphrase_preregistration": "wave21_paraphrase_preregistration.json",
+  "post_test_tuning_allowed": false,
+  "primary_metrics": [
+    "H2 execution latent MSE",
+    "H4 decoded action MSE",
+    "full/execution RedirectGain",
+    "endpoint region top1",
+    "cycle consistency",
+    "prototype comparison"
+  ],
+  "representation_manifest_sha256": "2b840a305ab6b7d2195da6e032c956bb948fd9969b7137a55b869fd4df126155",
+  "rollout_horizons": [
+    1,
+    2,
+    4
+  ]
+}

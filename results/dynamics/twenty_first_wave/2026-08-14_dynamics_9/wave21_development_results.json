@@ -1,0 +1,21 @@
+{
+  "directional_gate": true,
+  "held_out_test_opened": false,
+  "metrics": {
+    "B0_unconditional": {
+      "H2_execution_mse": 0.837845504283905,
+      "H4_decoded_continuous_mse": 0.045861974358558655,
+      "seed_count": 6
+    },
+    "B1_correct_language": {
+      "H2_execution_mse": 0.7714041471481323,
+      "H4_decoded_continuous_mse": 0.041534315794706345,
+      "seed_count": 6
+    },
+    "B2_shuffled_language": {
+      "H2_execution_mse": 0.8467205166816711,
+      "H4_decoded_continuous_mse": 0.04623545706272125,
+      "seed_count": 6
+    }
+  }
+}

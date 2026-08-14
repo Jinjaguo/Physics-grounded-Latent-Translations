@@ -35,3 +35,16 @@ The planned closed-loop causal continuation study could not be executed because 
 ## 2026-08-14T10:30:14-04:00 — dynamics_7 / wave 19 official LIBERO-10
 
 Resolved internal `LIBERO-long` to official `libero_10` and prospectively collected 335 fixed-π0.5 attempts: 306 official successes, 29 failures, 297 certified episodes, and 415 exact branches. All admitted twin/source replays had zero integration/controller/object discrepancy. Task 8 reached 24 certified episodes at the frozen 50-attempt cap, yielding a balanced 240-episode 140/50/50 split. The six-seed representation showed strong semantic deltas (0.94 action-to-text, 0.90 text-to-action) and passed gripper fidelity, but continuous MSE ratio `1.200444393` exceeded the frozen `1.2` maximum. The R-gate failed; F1/F2, offline O1–O8, B0–B5, and perturbation recovery were not run, and the final test split remained unopened. See `reports/dynamics_7_results.md`.
+
+## 2026-08-14 — dynamics_8 / wave 20 motor-margin adjudication
+
+Preserved the Wave-19 140/50/50 split and collected 50 fresh official-LIBERO-10 confirmation episodes (5/task) in 57 attempts. All 72 eligible fresh branches reproduced integration/controller/object state and predicates exactly. Six new paired seeds with `2*L_rec + L_sem` passed the stricter representation gate: A2T/T2A deltas `0.91`/`0.916667`, motor ratio `1.129209867 <= 1.15`, and gripper drop `0.000441054`. The selected seed `202820` then authorized one frozen F1/F2 run. Offline ΔAUC(F2−F1) was `-0.131295617`, 95% CI `[-0.271117622, 0.001894005]`; O1, O3, O5, and O8 failed, so O1–O8 was rejected. The final test remained unopened; closed-loop B0–B5 and proposal recovery were not tested. See `reports/dynamics_8_results.md`.
+
+## Wave 21 — Language-conditioned latent transition (2026-08-14)
+
+- Executed `prompts/dynamics_9.md` on official CALVIN continuous play.
+- Audited 560 annotation-onset transitions across 31 physically continuous sessions; official labels are sparse and annotation gaps are retained.
+- Frozen seed-810 CALVIN representation/decoder/text projection; trained B0/B1/B2 with six preregistered seeds and no target-region loss.
+- C7: **REJECTED**; C8: **REJECTED**.
+- RedirectGain=0.250126 [0.136495, 0.370798]; execution=0.183855 [0.100917, 0.263777].
+- Full artifacts: `results/dynamics/twenty_first_wave/2026-08-14_dynamics_9`.

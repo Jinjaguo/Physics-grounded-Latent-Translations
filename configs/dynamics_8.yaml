@@ -1,0 +1,104 @@
+experiment:
+  name: dynamics_8
+  wave: twentieth_wave
+  seed: 200820
+  output_root: results/dynamics/twentieth_wave/2026-08-14_dynamics_8
+  data_root: data/wave20_libero_confirmation
+
+sources:
+  libero_root: /home/jinjaguo/LIBERO
+  openpi_root: /home/jinjaguo/openpi
+  checkpoint_uri: gs://openpi-assets/checkpoints/pi05_libero/
+  checkpoint_dir: /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero
+  norm_assets_dir: /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets
+  libero_python: /home/jinjaguo/anaconda3/envs/libero/bin/python
+  openpi_python: /home/jinjaguo/openpi/.venv/bin/python
+  official_suite: libero_10
+  wave19_output_root: results/dynamics/nineteenth_wave/2026-08-14_dynamics_7
+  wave19_data_root: data/wave19_libero_branchable
+
+action_interface:
+  action_dim: 7
+  controller: OSC_POSE
+  control_frequency_hz: 20
+  physics_frequency_hz: 500
+  policy_action_horizon: 10
+  policy_replan_steps: 5
+
+timebase:
+  action_chunk_horizon: 16
+  stride: 16
+  latent_step_seconds: 0.8
+  rollout_horizons: [1, 2, 4, 8]
+  h8_control_steps: 128
+  h8_seconds: 6.4
+
+collection:
+  successes_per_task_target: 5
+  successes_per_task_minimum: 5
+  attempts_per_task_maximum: 50
+  wait_steps: 10
+  max_steps_libero_10: 520
+  policy_replan_steps: 5
+  camera_resolution: 256
+  policy_resize: 224
+  branch_fractions: [0.25, 0.5, 0.75]
+  minimum_future_steps: 128
+  store_failures: true
+  discard_raw_failures: false
+  jit_mode: formal_default_enabled
+
+representation:
+  input_mode: action_only
+  action_dim: 7
+  action_chunk_horizon: 16
+  latent_dim: 32
+  semantic_dim: 16
+  execution_dim: 16
+  hidden_dim: 128
+  depth: 3
+  text_encoder: openclip_ViT-L-14_datacomp_xl_s13b_b90k
+  text_encoder_frozen: true
+  isolate_language_gradient_from_shared_trunk: true
+  ema_decay: 0.999
+  epochs: 40
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  temperature: 0.07
+  reconstruction_weight: 2.0
+  seeds: [200820, 201820, 202820, 203820, 204820, 205820]
+  conditions: [reconstruction_only, correct_language, shuffled_language_control]
+
+dynamics:
+  semantic_predictor: shared_residual_mlp
+  F1: free_execution_mlp
+  F2: matched_iterative_refinement
+  refinement_iterations: 4
+  refinement_step_size: 0.01
+  hidden_dim: 64
+  depth: 3
+  epochs: 80
+  batch_size: 128
+  learning_rate: 0.001
+  baselines: [copy, constant_velocity, F1, F2]
+  forbidden_models: [DEL]
+
+statistics:
+  cluster: source_episode
+  task_stratified: true
+  bootstrap_replicates: 10000
+  bootstrap_seed: 200820
+
+gates:
+  motor_ratio_maximum: 1.15
+  gripper_accuracy_drop_maximum: 0.02
+  require_positive_semantic_means: true
+  require_positive_semantic_lower95: true
+  require_all_six_seeds: true
+  require_all_finite: true
+
+runtime:
+  device: cuda:0
+  minimum_free_disk_bytes: 100000000000
+  preferred_free_disk_bytes: 200000000000

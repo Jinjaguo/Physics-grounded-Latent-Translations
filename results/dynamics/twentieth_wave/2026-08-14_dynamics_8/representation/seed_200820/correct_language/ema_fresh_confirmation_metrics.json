@@ -1,0 +1,24 @@
+{
+  "action_clipping_saturation_rate": 0.00029836031548360317,
+  "action_to_text_R1": 1.0,
+  "continuous_action_mse": 0.002125245083434266,
+  "decoded_action_norm": 0.5069776773452759,
+  "decoder_continuous_saturation_fraction": 0.00029836031548360317,
+  "development_chunk_count": 803,
+  "development_episode_count": 50,
+  "gripper_mse": 0.04803666242790824,
+  "gripper_sign_accuracy": 0.9876245330012453,
+  "macro_action_to_text_R1": 1.0,
+  "per_dimension_mse": [
+    0.0037251838007300304,
+    0.004234345319560197,
+    0.004290869982352157,
+    7.82267284498224e-05,
+    0.00016698064851882168,
+    0.0002558640209945476,
+    0.04803666242790848
+  ],
+  "rotation_mse": 0.00016702379932106415,
+  "text_to_action_R1": 1.0,
+  "translation_mse": 0.004083466367547468
+}

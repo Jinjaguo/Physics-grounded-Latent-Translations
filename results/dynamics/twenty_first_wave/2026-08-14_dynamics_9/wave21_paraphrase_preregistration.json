@@ -1,0 +1,48 @@
+{
+  "created_before_test": true,
+  "paraphrases": {
+    "lift_blue_block_slider": [
+      "grasp the blue block lying in the cabinet",
+      "grasp the blue block lying in the slider",
+      "grasp the blue block lying in the sliding cabinet",
+      "grasp the blue block lying on the shelf",
+      "in the cabinet grasp the blue block"
+    ],
+    "lift_red_block_table": [
+      "grasp the red block and lift it up",
+      "grasp the red block on the table and lift it up",
+      "grasp the red block on the table, then lift it up",
+      "grasp the red block, then lift it up",
+      "lift the red block"
+    ],
+    "place_in_slider": [
+      "place in slider",
+      "place the block in the cabinet",
+      "place the block in the slider",
+      "place the block in the sliding cabinet",
+      "place the grasped object in the cabinet"
+    ],
+    "push_pink_block_right": [
+      "go push the pink block to the right",
+      "go slide the pink block to the right",
+      "push right the pink block",
+      "push the pink block to the right",
+      "push the pink block towards the right"
+    ],
+    "turn_off_lightbulb": [
+      "move down the switch",
+      "move the light switch to turn off the light bulb",
+      "move the light switch to turn off the yellow light",
+      "push the switch downwards",
+      "slide down the switch"
+    ],
+    "turn_on_lightbulb": [
+      "move the light switch to turn on the light bulb",
+      "move the light switch to turn on the yellow light",
+      "move up the switch",
+      "push the switch upwards",
+      "slide up the switch"
+    ]
+  },
+  "selection_rule": "lexicographically first up to five distinct official annotation strings with frozen archive features"
+}

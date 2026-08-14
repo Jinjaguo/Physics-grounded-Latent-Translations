@@ -1,0 +1,52 @@
+{
+  "checkpoint_rule": "EMA epoch 40",
+  "conditions": [
+    "reconstruction_only",
+    "correct_language",
+    "shuffled_language_control"
+  ],
+  "confirmation_used_for_training": false,
+  "ema_decay": 0.999,
+  "epochs": 40,
+  "fresh_confirmation_chunk_count": 803,
+  "fresh_confirmation_episode_count": 50,
+  "frozen_at": "2026-08-14T16:20:55-04:00",
+  "hyperparameter_sweep": false,
+  "old_development_chunk_count": 803,
+  "old_final_test_read": false,
+  "paired_initialization_and_batch_order": true,
+  "primary_pair": {
+    "R0": "L_rec",
+    "R1": "2.0*L_rec + L_sem"
+  },
+  "seeds": [
+    200820,
+    201820,
+    202820,
+    203820,
+    204820,
+    205820
+  ],
+  "shuffled_control": "2.0*L_rec + L_sem with task-label derangement; semantic control only",
+  "train_chunk_count": 2230,
+  "train_episode_count": 140,
+  "train_only_normalization": {
+    "continuous_mean": [
+      0.02092241868376732,
+      0.05416347086429596,
+      -0.05626261234283447,
+      0.004632500000298023,
+      0.004292225930839777,
+      -0.010092501528561115
+    ],
+    "continuous_std": [
+      0.2722104787826538,
+      0.35536670684814453,
+      0.3612353503704071,
+      0.033894963562488556,
+      0.04519883170723915,
+      0.08517484366893768
+    ]
+  },
+  "written_before_representation_outputs": true
+}

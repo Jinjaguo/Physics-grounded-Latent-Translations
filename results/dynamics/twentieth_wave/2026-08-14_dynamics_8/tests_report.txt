@@ -1,0 +1,26 @@
+Wave-20 verification report
+Recorded: 2026-08-14
+
+Final protocol and regression tests
+Command:
+  env PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 NUMBA_DISABLE_JIT=1 PYTHONPATH=src:/home/jinjaguo/LIBERO:/home/jinjaguo/openpi/packages/openpi-client/src MUJOCO_GL=egl /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest -q tests/dynamics/test_dynamics_8_motor_margin.py tests/dynamics/test_dynamics_7_libero_protocol.py --tb=short
+Result:
+  21 passed, 7 warnings in 15.38s
+  Warnings are robosuite deprecations and expected torch.load notices for trusted local experiment artifacts.
+
+Covered failures:
+  frozen split changes; split/confirmation leakage; wrong seeds or objective weight;
+  action mutation; missing/nonexact fresh branches; incomplete representation outputs;
+  architecture mismatch; nonexact F1 initializer; wrong refinement count; incorrect
+  offline stop; Wave-19 snapshot/branch/F2/control/bootstrap regressions.
+
+Syntax compilation:
+  PASS for all five new Wave-20 scripts and the Wave-20 test module.
+
+Result JSON parse audit:
+  PASS: 103 JSON files under the Wave-20 result root parsed successfully.
+
+Command-script and patch audit:
+  PASS: bash -n exact_commands.sh; git diff --check.
+
+No rollout, representation training, or O1-O8 evaluation was repeated during final verification.

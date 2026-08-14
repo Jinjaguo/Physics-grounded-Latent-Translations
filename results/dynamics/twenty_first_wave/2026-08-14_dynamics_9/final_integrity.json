@@ -1,0 +1,7 @@
+{
+  "all_outputs_finite": true,
+  "frozen_checkpoint_unchanged": true,
+  "same_state_language_only_intervention": true,
+  "test_opened_after_preregistration": true,
+  "test_samples": 164
+}

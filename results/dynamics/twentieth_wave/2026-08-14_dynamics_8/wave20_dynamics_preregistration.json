@@ -1,0 +1,8 @@
+{
+  "DEL_forbidden": true,
+  "authorization": "only if wave20_representation_gate.gate_pass is true",
+  "design": "exact Wave-19 F1/free and F2/four-step matched iterative refinement",
+  "final_test_open": "only after representation and O1-O8 pass",
+  "frozen_at": "2026-08-14T15:37:26-04:00",
+  "offline_gate": "O1-O8 exactly as prompts/dynamics_8.md"
+}

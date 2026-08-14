@@ -1,0 +1,22 @@
+{
+  "assignment_sha256": {
+    "development": "30ad7d73be09e736e9b1e87c9a4551242e3b51d045e3d6e35d4f4a9085422c16",
+    "test": "27ea8856ab06fae01daf1ed6a24bfaa7edb18b2a2afd492ae7edb68b85dc7c07",
+    "train": "ed89d28f15cf18e9e2262e33cce5ece407bb0139666de04ca223ec666bf1ed1e"
+  },
+  "counts": {
+    "development": 50,
+    "test": 50,
+    "train": 140
+  },
+  "episode_disjoint": true,
+  "frozen_at": "2026-08-14T15:37:26-04:00",
+  "source_episode_membership_unchanged": true,
+  "wave19_dataset_manifest": "results/dynamics/nineteenth_wave/2026-08-14_dynamics_7/wave19_dataset_manifest.json",
+  "wave19_dataset_manifest_sha256": "1178e2f4146e048b753768c1d25465c945d74fe25728714ac63640e1d0bd736c",
+  "wave19_final_test_remains_unopened": true,
+  "wave19_representation_training_manifest_sha256": "3d70084300c74acd17e84e05821627f55dc926f1522a1ce16046265b0db61dbf",
+  "wave19_split_manifest": "results/dynamics/nineteenth_wave/2026-08-14_dynamics_7/wave19_dataset_split_manifest.json",
+  "wave19_split_manifest_sha256": "9bd2b236af65fe3022bdb15f65acf9ebf674317c66649debd03b3421e4fae8c1",
+  "wave20_test_payload_files_read": false
+}

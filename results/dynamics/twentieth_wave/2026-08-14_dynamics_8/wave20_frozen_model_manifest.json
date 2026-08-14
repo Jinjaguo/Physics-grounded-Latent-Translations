@@ -1,0 +1,26 @@
+{
+  "DEL_forbidden_and_absent": true,
+  "F1": {
+    "path": "results/dynamics/twentieth_wave/2026-08-14_dynamics_8/dynamics/checkpoints/F1.pt",
+    "sha256": "653cc5079162d0e5c689ba58f17a1b9020148552f97d382848abcbf26e0396d4"
+  },
+  "F2": {
+    "path": "results/dynamics/twentieth_wave/2026-08-14_dynamics_8/dynamics/checkpoints/F2.pt",
+    "sha256": "3c8b8ec8996afcfcca0312f1faa6328bda9ffbe87028410993b652474da658ed"
+  },
+  "F2_exact_F1_initializer": true,
+  "F2_refinement_iterations": 4,
+  "calvin_weights_loaded": false,
+  "closed_loop_authorized": false,
+  "frozen_at": "2026-08-14T16:39:01-04:00",
+  "independent_from_calvin": true,
+  "representation": {
+    "path": "results/dynamics/twentieth_wave/2026-08-14_dynamics_8/representation/seed_202820/correct_language/checkpoint_ema.pt",
+    "sha256": "52a8b246f027f6f4cb21bf5dd7499fc280579c59feb9bc628152532cf2e78f24"
+  },
+  "semantic": {
+    "path": "results/dynamics/twentieth_wave/2026-08-14_dynamics_8/dynamics/checkpoints/semantic.pt",
+    "sha256": "bb9dcf9cebf7deb2fb73f5260b845b6524c92b07895ab560792eaf2a21f5ec97"
+  },
+  "test_split_read": false
+}

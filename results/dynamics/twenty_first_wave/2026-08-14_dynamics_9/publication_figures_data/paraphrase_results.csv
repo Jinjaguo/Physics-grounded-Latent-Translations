@@ -1,0 +1,31 @@
+goal,paraphrase,samples,target_accuracy,target_margin,RedirectGain
+lift_blue_block_slider,grasp the blue block lying in the cabinet,26,0.8461538461538461,0.3950151801109314,0.33519360423088074
+lift_blue_block_slider,grasp the blue block lying in the slider,26,0.8461538461538461,0.36633962392807007,0.3402709364891052
+lift_blue_block_slider,grasp the blue block lying in the sliding cabinet,26,0.8461538461538461,0.3981547951698303,0.3379845917224884
+lift_blue_block_slider,grasp the blue block lying on the shelf,26,0.8461538461538461,0.33919528126716614,0.34394964575767517
+lift_blue_block_slider,in the cabinet grasp the blue block,26,0.8461538461538461,0.40983790159225464,0.3433750867843628
+lift_red_block_table,grasp the red block and lift it up,27,0.14814814814814814,-0.2200782746076584,0.09342847019433975
+lift_red_block_table,grasp the red block on the table and lift it up,27,0.18518518518518517,-0.19015714526176453,0.1082405373454094
+lift_red_block_table,"grasp the red block on the table, then lift it up",27,0.18518518518518517,-0.19865219295024872,0.1040772944688797
+lift_red_block_table,"grasp the red block, then lift it up",27,0.14814814814814814,-0.23405802249908447,0.08411464840173721
+lift_red_block_table,lift the red block,27,0.2222222222222222,-0.23332221806049347,0.13662093877792358
+place_in_slider,place in slider,37,0.05405405405405406,-1.1546695232391357,-0.5252601504325867
+place_in_slider,place the block in the cabinet,37,0.13513513513513514,-1.128158688545227,-0.524239718914032
+place_in_slider,place the block in the slider,37,0.08108108108108109,-1.140838623046875,-0.49066826701164246
+place_in_slider,place the block in the sliding cabinet,37,0.05405405405405406,-1.148503303527832,-0.4916861355304718
+place_in_slider,place the grasped object in the cabinet,37,0.13513513513513514,-1.0752239227294922,-0.5241152048110962
+push_pink_block_right,go push the pink block to the right,14,0.42857142857142855,0.0034984860103577375,0.18457244336605072
+push_pink_block_right,go slide the pink block to the right,14,0.35714285714285715,-0.021213889122009277,0.17712800204753876
+push_pink_block_right,push right the pink block,14,0.5,0.005036354064941406,0.1980050802230835
+push_pink_block_right,push the pink block to the right,14,0.42857142857142855,-0.009035910479724407,0.17089243233203888
+push_pink_block_right,push the pink block towards the right,14,0.35714285714285715,-0.008907266892492771,0.1751527637243271
+turn_off_lightbulb,move down the switch,29,0.6206896551724138,0.33186689019203186,0.7283647656440735
+turn_off_lightbulb,move the light switch to turn off the light bulb,29,0.6206896551724138,0.28399479389190674,0.6736038327217102
+turn_off_lightbulb,move the light switch to turn off the yellow light,29,0.6206896551724138,0.30901503562927246,0.7025020718574524
+turn_off_lightbulb,push the switch downwards,29,0.7586206896551724,0.4519762098789215,0.8195489645004272
+turn_off_lightbulb,slide down the switch,29,0.6896551724137931,0.3935205638408661,0.7697989344596863
+turn_on_lightbulb,move the light switch to turn on the light bulb,31,0.7419354838709677,0.258102148771286,0.6186413168907166
+turn_on_lightbulb,move the light switch to turn on the yellow light,31,0.7419354838709677,0.24641036987304688,0.6189741492271423
+turn_on_lightbulb,move up the switch,31,0.7741935483870968,0.28855329751968384,0.6451698541641235
+turn_on_lightbulb,push the switch upwards,31,0.8064516129032258,0.3364849388599396,0.6563256978988647
+turn_on_lightbulb,slide up the switch,31,0.7741935483870968,0.2762708365917206,0.639431357383728

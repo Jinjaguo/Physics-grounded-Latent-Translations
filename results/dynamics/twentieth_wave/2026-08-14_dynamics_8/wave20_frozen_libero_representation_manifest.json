@@ -1,0 +1,30 @@
+{
+  "checkpoint": "results/dynamics/twentieth_wave/2026-08-14_dynamics_8/representation/seed_202820/correct_language/checkpoint_ema.pt",
+  "checkpoint_sha256": "52a8b246f027f6f4cb21bf5dd7499fc280579c59feb9bc628152532cf2e78f24",
+  "decoder_frozen_inside_checkpoint": true,
+  "ema_updates_after_freeze": 0,
+  "frozen_at": "2026-08-14T16:36:20-04:00",
+  "normalization": {
+    "continuous_mean": [
+      0.02092241868376732,
+      0.05416347086429596,
+      -0.05626261234283447,
+      0.004632500000298023,
+      0.004292225930839777,
+      -0.010092501528561115
+    ],
+    "continuous_std": [
+      0.2722104787826538,
+      0.35536670684814453,
+      0.3612353503704071,
+      0.033894963562488556,
+      0.04519883170723915,
+      0.08517484366893768
+    ]
+  },
+  "old_final_test_read": false,
+  "optimizer_steps_after_freeze": 0,
+  "selected_seed": 202820,
+  "selection_rule": "among registered seeds with finite outputs and positive per-seed bidirectional semantic delta, select the seed with median EMA continuous-MSE ratio; for an even count select the lower of the two central registered ratios; tie by lower registered seed",
+  "text_encoder": "openclip_ViT-L-14_datacomp_xl_s13b_b90k"
+}
