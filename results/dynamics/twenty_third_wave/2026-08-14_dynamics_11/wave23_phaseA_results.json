@@ -1,0 +1,110 @@
+{
+  "D1_margin_vs_correctness": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.7147608173042919,
+      "lower_95": 0.6871680367150831,
+      "probability_positive": 1.0,
+      "upper_95": 0.750145761982072
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.844235108991955,
+      "lower_95": 0.8310707317507902,
+      "probability_positive": 1.0,
+      "upper_95": 0.8512667954740601
+    }
+  },
+  "D2_distance_vs_decoded_error": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.49186482887978117,
+      "lower_95": 0.4576356298647217,
+      "probability_positive": 1.0,
+      "upper_95": 0.5256740946367882
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.6102730238169712,
+      "lower_95": 0.5357545489783873,
+      "probability_positive": 1.0,
+      "upper_95": 0.6979989436012043
+    }
+  },
+  "D3_regression_beyond_cycle": {
+    "cluster": "source_session",
+    "full_model_R2": 0.5239898519368442,
+    "incremental_R2_over_cycle": {
+      "estimate": 0.4250438800302536,
+      "lower_95": 0.3496748674014151,
+      "upper_95": 0.4803095770655148
+    },
+    "joint_favorable_probability": 1.0,
+    "model": "standardized linear probability model; descriptive, not causal mediation",
+    "replicates": 10000,
+    "source_sessions": 6,
+    "standardized_goal_margin_coefficient": {
+      "estimate": 0.3316842569229474,
+      "lower_95": 0.30025287591873,
+      "upper_95": 0.357785699720047
+    }
+  },
+  "D4_cycle_projection": {
+    "cycle_reduction": {
+      "cluster": "source_session",
+      "lower_95": 2.4578521251678467,
+      "mean": 2.5587406158447266,
+      "probability_positive": 1.0,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 2.668724298477173
+    },
+    "fraction_full_margin_decreased": 0.7266187050359713,
+    "full_margin_decrease": {
+      "cluster": "source_session",
+      "lower_95": 0.38952159881591797,
+      "mean": 0.4786349833011627,
+      "probability_positive": 1.0,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.6218735575675964
+    },
+    "global_distance_after": 2.594104766845703,
+    "global_distance_before": 3.285294532775879
+  },
+  "D5_execution_projection": {
+    "execution_margin_decrease": {
+      "cluster": "source_session",
+      "lower_95": -0.04943794384598732,
+      "mean": 0.00449121231213212,
+      "probability_positive": 0.5729,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.05902831628918648
+    },
+    "fraction_execution_margin_decreased": 0.49640287769784175
+  },
+  "M1_goal_specific_executable_alignment": "SUPPORTED_FOR_INTERVENTION",
+  "development_identity": {
+    "B1_decode_reencode_top1": 0.33093525179856115,
+    "B1_execution_margin": -0.45045915246009827,
+    "B1_goal_core_top1": 0.38848920863309355,
+    "B1_mean_margin": -0.2470894157886505,
+    "cycle4_execution_margin": -0.449607789516449,
+    "cycle4_goal_core_top1": 0.30935251798561153,
+    "cycle4_mean_margin": -0.7033557891845703
+  },
+  "development_samples": 139,
+  "gates": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "A5": true
+  },
+  "optimizer_steps_before_decision": 0,
+  "source_sessions": 6,
+  "test_opened": false
+}

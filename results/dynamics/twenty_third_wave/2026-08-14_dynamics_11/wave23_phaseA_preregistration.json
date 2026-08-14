@@ -1,0 +1,21 @@
+{
+  "M1_definitions": {
+    "A1": "goal-core margin/correctness Pearson and Spearman point estimates positive and max bootstrap P(positive)>=0.95",
+    "A2": "goal-core distance/decoded-error Pearson and Spearman point estimates positive and max bootstrap P(positive)>=0.95",
+    "A3": "standardized margin coefficient and incremental R2 over cycle positive with bootstrap joint-favorable probability>=0.90",
+    "A4": "cycle0-cycle4 clustered lower95>0 and full margin decreases on average or in >=50% samples",
+    "A5": "execution margin decreases on average or in >=50% samples"
+  },
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 230823
+  },
+  "created_before_phaseA_metrics": true,
+  "splits": [
+    "train",
+    "development"
+  ],
+  "substantial_fraction": 0.5,
+  "test_opened": false
+}

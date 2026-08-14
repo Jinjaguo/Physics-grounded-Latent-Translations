@@ -1,0 +1,10 @@
+claim_or_gate,decision
+A1,True
+A2,True
+A3,True
+A4,True
+A5,True
+M1,SUPPORTED_FOR_INTERVENTION
+development_lambda_selection,NO_CANDIDATE_PASSED
+C11,NOT_TESTED
+C12,NOT_TESTED

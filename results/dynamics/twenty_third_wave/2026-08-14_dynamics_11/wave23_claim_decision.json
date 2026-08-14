@@ -1,0 +1,14 @@
+{
+  "C11_goal_specific_executable_alignment": "NOT_TESTED",
+  "C12_language_as_goal_specific_executable_coordinate": "NOT_TESTED",
+  "M1_goal_specific_executable_alignment": "SUPPORTED_FOR_INTERVENTION",
+  "continuity_preserved": "inconclusive",
+  "current_state_matters": "inconclusive",
+  "cycle_error_reduced_without_cycle_loss": "inconclusive",
+  "decode_reencode_identity_repaired": "inconclusive",
+  "endpoint_identity_repaired": "inconclusive",
+  "execution_redirect_preserved": "inconclusive",
+  "full_redirect_preserved": "inconclusive",
+  "held_out_test_opened": false,
+  "stop_reason": "No registered lambda_align satisfied all development rules; endpoint and decode/reencode identity did not improve by 0.05 for any candidate"
+}

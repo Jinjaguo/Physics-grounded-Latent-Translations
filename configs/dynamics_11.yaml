@@ -1,0 +1,47 @@
+experiment:
+  name: dynamics_11
+  wave: twenty_third_wave
+  output_root: results/dynamics/twenty_third_wave/2026-08-14_dynamics_11
+  wave21_root: results/dynamics/twenty_first_wave/2026-08-14_dynamics_9
+  wave22_root: results/dynamics/twenty_second_wave/2026-08-14_dynamics_10
+  report_path: reports/dynamics_11_results.md
+
+wave21_config: configs/dynamics_9.yaml
+
+model:
+  name: LCT-GA
+  seeds: [210821, 210822, 210823, 210824, 210825, 210826]
+  lambda_align_candidates: [0.03, 0.1, 0.3]
+  lambda_latent: 1.0
+  lambda_decode: 1.0
+  epochs: 240
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+  softmin_temperature: 0.10
+
+goal_core:
+  primary_percentile: 75
+  sensitivity_percentiles: [50, 90]
+  neighbors: 20
+  source_split: train
+  state_conditioning_fallback: nearest_goal_core_execution_latents_to_current_state
+
+evaluation:
+  bootstrap_replicates: 10000
+  bootstrap_seed: 230823
+  redirect_retention: 0.90
+  endpoint_accuracy_threshold: 0.60
+  stronger_accuracy_threshold: 0.65
+  development_endpoint_improvement: 0.05
+  development_decode_mse_max_ratio: 1.05
+  projection_iterations: 4
+  mechanism_gate:
+    association_bootstrap_positive_fraction: 0.95
+    regression_bootstrap_joint_favorable_fraction: 0.90
+    substantial_projection_fraction: 0.50
+
+runtime:
+  device: cuda:0
+  torch_cpu_threads: 4

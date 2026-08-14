@@ -1,0 +1,37 @@
+{
+  "K": 20,
+  "architecture": "exact Wave21 B1 LCT",
+  "created_before_training": true,
+  "forbidden": {
+    "DEL": false,
+    "F2_refinement": false,
+    "cycle_loss": 0.0,
+    "generic_cycle_projection": false,
+    "prototype_loss": 0.0,
+    "target_classification_loss": 0.0
+  },
+  "frozen": [
+    "encoder",
+    "decoder",
+    "semantic projection",
+    "text encoder",
+    "goal cores"
+  ],
+  "inputs": [
+    "z_previous",
+    "z_current",
+    "next_language_embedding"
+  ],
+  "lambda_candidates": [
+    0.03,
+    0.1,
+    0.3
+  ],
+  "new_factor": "state-conditioned softmin distance to requested train-only 75th-percentile goal core",
+  "objective": {
+    "decoded_action": 1.0,
+    "goal_executable_alignment": "lambda_align",
+    "latent_prediction": 1.0
+  },
+  "selection_split": "development_only"
+}

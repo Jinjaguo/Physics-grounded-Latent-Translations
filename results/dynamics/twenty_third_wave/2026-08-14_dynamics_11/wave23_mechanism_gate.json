@@ -1,0 +1,12 @@
+{
+  "M1_goal_specific_executable_alignment": "SUPPORTED_FOR_INTERVENTION",
+  "definitions_frozen_before_metrics": true,
+  "gates": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "A5": true
+  },
+  "optimizer_steps": 0
+}

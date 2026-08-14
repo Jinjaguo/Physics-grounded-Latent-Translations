@@ -1,0 +1,8 @@
+configs/dynamics_11.yaml
+prompts/dynamics_11.md
+scripts/dynamics/run_dynamics_11.py
+tests/dynamics/test_dynamics_11_goal_alignment.py
+reports/dynamics_11_results.md
+RESEARCH_LOG.md
+NEXT_EXPERIMENT.md
+results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/

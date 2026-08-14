@@ -1,0 +1,255 @@
+{
+  "K": 20,
+  "core_archive": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/wave23_goal_cores.npz",
+  "core_archive_sha256": "045fe55d40a45a2468e46eed2028d1cd510874784a4b57a1fbfbe398b49263bf",
+  "created_before_phaseA_and_training": true,
+  "development_samples_used": 0,
+  "global_core_count": 1105,
+  "global_core_rule": "all train region latents with cycle residual <= global train 75th percentile",
+  "global_core_threshold": 0.8415243923664093,
+  "goals": {
+    "lift_blue_block_slider": {
+      "cycle_residual": {
+        "mean": 0.735914945602417,
+        "median": 0.6307403445243835,
+        "p90": 1.2362919688224792,
+        "p95": 1.580465930700302
+      },
+      "decoder_reconstruction_latent_mse": {
+        "mean": 0.023038053885102272,
+        "median": 0.012432299554347992,
+        "p90": 0.047763068601489066,
+        "p95": 0.07805854491889476
+      },
+      "execution_knn_density": {
+        "mean": 3.731173276901245,
+        "median": 3.2622241973876953,
+        "p90": 5.281196022033692,
+        "p95": 6.290001082420348
+      },
+      "primary_core_count": 243,
+      "primary_percentile": 75,
+      "semantic_similarity_to_goal": {
+        "mean": 0.29359713196754456,
+        "median": 0.29297810792922974,
+        "p90": 0.4670258343219757,
+        "p95": 0.5087354570627213
+      },
+      "sensitivity_core_counts": {
+        "50": 162,
+        "75": 243,
+        "90": 291
+      },
+      "thresholds": {
+        "50": 0.6307403445243835,
+        "75": 0.8488766700029373,
+        "90": 1.2362919688224792
+      },
+      "train_support_count": 324
+    },
+    "lift_red_block_table": {
+      "cycle_residual": {
+        "mean": 0.7103288173675537,
+        "median": 0.6470053791999817,
+        "p90": 1.2123869895935062,
+        "p95": 1.429441380500793
+      },
+      "decoder_reconstruction_latent_mse": {
+        "mean": 0.019844677299261093,
+        "median": 0.013081748969852924,
+        "p90": 0.04593663662672045,
+        "p95": 0.06385554522275921
+      },
+      "execution_knn_density": {
+        "mean": 3.9116311073303223,
+        "median": 3.7509264945983887,
+        "p90": 5.3638153076171875,
+        "p95": 5.891134929656982
+      },
+      "primary_core_count": 190,
+      "primary_percentile": 75,
+      "semantic_similarity_to_goal": {
+        "mean": 0.2717362940311432,
+        "median": 0.2836107611656189,
+        "p90": 0.4101172685623169,
+        "p95": 0.43648075461387636
+      },
+      "sensitivity_core_counts": {
+        "50": 127,
+        "75": 190,
+        "90": 227
+      },
+      "thresholds": {
+        "50": 0.6470053791999817,
+        "75": 0.8721234798431396,
+        "90": 1.2123869895935062
+      },
+      "train_support_count": 253
+    },
+    "place_in_slider": {
+      "cycle_residual": {
+        "mean": 0.6578981280326843,
+        "median": 0.6003690361976624,
+        "p90": 0.9829244613647462,
+        "p95": 1.1902578592300415
+      },
+      "decoder_reconstruction_latent_mse": {
+        "mean": 0.015845155343413353,
+        "median": 0.011263880878686905,
+        "p90": 0.030192048288881782,
+        "p95": 0.04427237994968891
+      },
+      "execution_knn_density": {
+        "mean": 3.3531382083892822,
+        "median": 3.2674953937530518,
+        "p90": 4.462907981872559,
+        "p95": 4.713606595993042
+      },
+      "primary_core_count": 118,
+      "primary_percentile": 75,
+      "semantic_similarity_to_goal": {
+        "mean": 0.32903411984443665,
+        "median": 0.3254355788230896,
+        "p90": 0.5318194925785067,
+        "p95": 0.5698100686073303
+      },
+      "sensitivity_core_counts": {
+        "50": 79,
+        "75": 118,
+        "90": 142
+      },
+      "thresholds": {
+        "50": 0.6003690361976624,
+        "75": 0.7710892111063004,
+        "90": 0.9829244613647462
+      },
+      "train_support_count": 158
+    },
+    "push_pink_block_right": {
+      "cycle_residual": {
+        "mean": 0.6406670212745667,
+        "median": 0.5171126127243042,
+        "p90": 1.1246723890304566,
+        "p95": 1.6209485232830045
+      },
+      "decoder_reconstruction_latent_mse": {
+        "mean": 0.021209603175520897,
+        "median": 0.008356427773833275,
+        "p90": 0.03952830769121648,
+        "p95": 0.08210897445678708
+      },
+      "execution_knn_density": {
+        "mean": 3.454371213912964,
+        "median": 3.5363173484802246,
+        "p90": 5.743274784088135,
+        "p95": 6.640251111984253
+      },
+      "primary_core_count": 148,
+      "primary_percentile": 75,
+      "semantic_similarity_to_goal": {
+        "mean": 0.2844064235687256,
+        "median": 0.2906867265701294,
+        "p90": 0.497304728627205,
+        "p95": 0.5304890930652618
+      },
+      "sensitivity_core_counts": {
+        "50": 99,
+        "75": 148,
+        "90": 178
+      },
+      "thresholds": {
+        "50": 0.5171126425266266,
+        "75": 0.7595333904027939,
+        "90": 1.1246723890304566
+      },
+      "train_support_count": 198
+    },
+    "turn_off_lightbulb": {
+      "cycle_residual": {
+        "mean": 0.6281675100326538,
+        "median": 0.5287569165229797,
+        "p90": 1.0560355186462402,
+        "p95": 1.247931718826294
+      },
+      "decoder_reconstruction_latent_mse": {
+        "mean": 0.016120564192533493,
+        "median": 0.008736995980143547,
+        "p90": 0.0348503477871418,
+        "p95": 0.048666877672076225
+      },
+      "execution_knn_density": {
+        "mean": 3.2051312923431396,
+        "median": 3.059415817260742,
+        "p90": 4.509862422943115,
+        "p95": 5.067045450210571
+      },
+      "primary_core_count": 218,
+      "primary_percentile": 75,
+      "semantic_similarity_to_goal": {
+        "mean": 0.2745443284511566,
+        "median": 0.27552998065948486,
+        "p90": 0.4046241343021393,
+        "p95": 0.4266946613788605
+      },
+      "sensitivity_core_counts": {
+        "50": 146,
+        "75": 218,
+        "90": 262
+      },
+      "thresholds": {
+        "50": 0.5287569165229797,
+        "75": 0.7545812726020813,
+        "90": 1.0560355186462402
+      },
+      "train_support_count": 291
+    },
+    "turn_on_lightbulb": {
+      "cycle_residual": {
+        "mean": 0.7824046611785889,
+        "median": 0.5956329107284546,
+        "p90": 1.5351777911186217,
+        "p95": 1.9493829309940336
+      },
+      "decoder_reconstruction_latent_mse": {
+        "mean": 0.029760299250483513,
+        "median": 0.01108691655099392,
+        "p90": 0.07364942133426666,
+        "p95": 0.1187552988529205
+      },
+      "execution_knn_density": {
+        "mean": 3.8460609912872314,
+        "median": 3.519772529602051,
+        "p90": 5.678165674209595,
+        "p95": 6.857548999786372
+      },
+      "primary_core_count": 187,
+      "primary_percentile": 75,
+      "semantic_similarity_to_goal": {
+        "mean": 0.2567998468875885,
+        "median": 0.2589248716831207,
+        "p90": 0.35965349674224856,
+        "p95": 0.38857309818267816
+      },
+      "sensitivity_core_counts": {
+        "50": 125,
+        "75": 187,
+        "90": 225
+      },
+      "thresholds": {
+        "50": 0.5956329107284546,
+        "75": 0.9209627956151962,
+        "90": 1.5351777911186217
+      },
+      "train_support_count": 250
+    }
+  },
+  "primary_percentile": 75,
+  "rule": "per-goal cycle residual <= exact within-goal train 75th percentile",
+  "sensitivity_percentiles_descriptive_only": [
+    50,
+    90
+  ],
+  "source_split": "train_only",
+  "state_conditioning_fallback": "nearest_goal_core_execution_latents_to_current_state",
+  "test_samples_used": 0
+}

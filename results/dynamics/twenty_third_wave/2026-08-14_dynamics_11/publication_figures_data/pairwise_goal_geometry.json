@@ -1,0 +1,137 @@
+[
+  {
+    "execution_space_separation": 2.206521511077881,
+    "goal_a": "lift_blue_block_slider",
+    "goal_b": "lift_red_block_table",
+    "nearest_neighbor_confusion": 0.16632012129088153,
+    "overlap_rate": 0.16632012129088153,
+    "semantic_cosine": 0.4420986771583557,
+    "symmetric_nearest_distance": 3.2544851303100586
+  },
+  {
+    "execution_space_separation": 3.1629319190979004,
+    "goal_a": "lift_blue_block_slider",
+    "goal_b": "place_in_slider",
+    "nearest_neighbor_confusion": 0.01876264211480784,
+    "overlap_rate": 0.01876264211480784,
+    "semantic_cosine": 0.11932951956987381,
+    "symmetric_nearest_distance": 4.63262939453125
+  },
+  {
+    "execution_space_separation": 2.287057399749756,
+    "goal_a": "lift_blue_block_slider",
+    "goal_b": "push_pink_block_right",
+    "nearest_neighbor_confusion": 0.10577243910577244,
+    "overlap_rate": 0.10577243910577244,
+    "semantic_cosine": 0.4145517945289612,
+    "symmetric_nearest_distance": 3.337106466293335
+  },
+  {
+    "execution_space_separation": 2.6662099361419678,
+    "goal_a": "lift_blue_block_slider",
+    "goal_b": "turn_off_lightbulb",
+    "nearest_neighbor_confusion": 0.03868879072752671,
+    "overlap_rate": 0.03868879072752671,
+    "semantic_cosine": 0.1600293070077896,
+    "symmetric_nearest_distance": 3.758429765701294
+  },
+  {
+    "execution_space_separation": 2.2887232303619385,
+    "goal_a": "lift_blue_block_slider",
+    "goal_b": "turn_on_lightbulb",
+    "nearest_neighbor_confusion": 0.08474725468189521,
+    "overlap_rate": 0.08474725468189521,
+    "semantic_cosine": 0.13389001786708832,
+    "symmetric_nearest_distance": 3.543886184692383
+  },
+  {
+    "execution_space_separation": 2.900564193725586,
+    "goal_a": "lift_red_block_table",
+    "goal_b": "place_in_slider",
+    "nearest_neighbor_confusion": 0.09661016949152543,
+    "overlap_rate": 0.09661016949152543,
+    "semantic_cosine": 0.12991440296173096,
+    "symmetric_nearest_distance": 4.054177761077881
+  },
+  {
+    "execution_space_separation": 2.3363378047943115,
+    "goal_a": "lift_red_block_table",
+    "goal_b": "push_pink_block_right",
+    "nearest_neighbor_confusion": 0.1562588904694168,
+    "overlap_rate": 0.1562588904694168,
+    "semantic_cosine": 0.45546141266822815,
+    "symmetric_nearest_distance": 3.2386112213134766
+  },
+  {
+    "execution_space_separation": 2.8177599906921387,
+    "goal_a": "lift_red_block_table",
+    "goal_b": "turn_off_lightbulb",
+    "nearest_neighbor_confusion": 0.060453887011105746,
+    "overlap_rate": 0.060453887011105746,
+    "semantic_cosine": 0.23365426063537598,
+    "symmetric_nearest_distance": 3.867417573928833
+  },
+  {
+    "execution_space_separation": 2.298262357711792,
+    "goal_a": "lift_red_block_table",
+    "goal_b": "turn_on_lightbulb",
+    "nearest_neighbor_confusion": 0.12991837883478752,
+    "overlap_rate": 0.12991837883478752,
+    "semantic_cosine": 0.3147081434726715,
+    "symmetric_nearest_distance": 3.5523600578308105
+  },
+  {
+    "execution_space_separation": 2.5022130012512207,
+    "goal_a": "place_in_slider",
+    "goal_b": "push_pink_block_right",
+    "nearest_neighbor_confusion": 0.05330966559780119,
+    "overlap_rate": 0.05330966559780119,
+    "semantic_cosine": -0.025408007204532623,
+    "symmetric_nearest_distance": 3.5267961025238037
+  },
+  {
+    "execution_space_separation": 3.029775619506836,
+    "goal_a": "place_in_slider",
+    "goal_b": "turn_off_lightbulb",
+    "nearest_neighbor_confusion": 0.02647333229668792,
+    "overlap_rate": 0.02647333229668792,
+    "semantic_cosine": -0.06298152357339859,
+    "symmetric_nearest_distance": 4.208160877227783
+  },
+  {
+    "execution_space_separation": 2.897310733795166,
+    "goal_a": "place_in_slider",
+    "goal_b": "turn_on_lightbulb",
+    "nearest_neighbor_confusion": 0.05750929031088553,
+    "overlap_rate": 0.05750929031088553,
+    "semantic_cosine": -0.039562344551086426,
+    "symmetric_nearest_distance": 4.096592426300049
+  },
+  {
+    "execution_space_separation": 2.4054205417633057,
+    "goal_a": "push_pink_block_right",
+    "goal_b": "turn_off_lightbulb",
+    "nearest_neighbor_confusion": 0.06322836598065956,
+    "overlap_rate": 0.06322836598065956,
+    "semantic_cosine": 0.4590913653373718,
+    "symmetric_nearest_distance": 3.367699146270752
+  },
+  {
+    "execution_space_separation": 2.361729383468628,
+    "goal_a": "push_pink_block_right",
+    "goal_b": "turn_on_lightbulb",
+    "nearest_neighbor_confusion": 0.05981717011128776,
+    "overlap_rate": 0.05981717011128776,
+    "semantic_cosine": 0.4426603615283966,
+    "symmetric_nearest_distance": 3.416872978210449
+  },
+  {
+    "execution_space_separation": 2.5444133281707764,
+    "goal_a": "turn_off_lightbulb",
+    "goal_b": "turn_on_lightbulb",
+    "nearest_neighbor_confusion": 0.10621596428396213,
+    "overlap_rate": 0.10621596428396213,
+    "semantic_cosine": 0.8654130101203918,
+    "symmetric_nearest_distance": 3.447385311126709
+  }
+]

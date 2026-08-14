@@ -1,0 +1,20 @@
+Wave 23 validation
+==================
+
+Command
+-------
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest \
+  tests/dynamics/test_dynamics_11_goal_alignment.py -q \
+  --junitxml=results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/pytest_results.xml
+
+Result
+------
+7 passed in 0.87s
+
+Validated frozen Wave21 hashes/split/inventory; exact train-only per-goal 75th
+percentile cores; K=20; no development/test core leakage; all 18 registered
+lambda/seed trainings; transition-only gradients and absent classification,
+prototype, cycle, F2, and DEL objectives; development-only selection; same-state
+six-way language interventions; prototype state isolation; 10,000-replicate
+source-session bootstrap seed 230823; no held-out opening after selection failure;
+finite valid JSON; and every required stop-branch report, table, and figure.

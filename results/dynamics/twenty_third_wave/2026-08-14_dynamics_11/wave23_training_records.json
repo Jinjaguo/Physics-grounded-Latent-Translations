@@ -1,0 +1,362 @@
+[
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p03/seed_210821.pt",
+    "checkpoint_sha256": "6063d61228156e2c7b34a16bcb5374af81fc6402cee63ac91badb4204a67100f",
+    "epochs": 240,
+    "final_loss": 0.9773048839680416,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.03,
+    "minimum_loss": 0.9496035923753731,
+    "seed": 210821
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p03/seed_210822.pt",
+    "checkpoint_sha256": "107383019362bec3f3f5d15fa2b710ce18e4f544e119d3fda13909c794497cc6",
+    "epochs": 240,
+    "final_loss": 0.958089442800455,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.03,
+    "minimum_loss": 0.9441871615235443,
+    "seed": 210822
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p03/seed_210823.pt",
+    "checkpoint_sha256": "70bdac22cb94fb1ca9453d08c077df558a45ce26bbd0432f5381c0d26ea1de47",
+    "epochs": 240,
+    "final_loss": 0.9656463638817754,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.03,
+    "minimum_loss": 0.9603420505263927,
+    "seed": 210823
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p03/seed_210824.pt",
+    "checkpoint_sha256": "ddd248e75b6468426f1cfcfe914b7448d2b524cbf25ed4a2ab1dad99006d8e3f",
+    "epochs": 240,
+    "final_loss": 0.9741506442021767,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.03,
+    "minimum_loss": 0.9603494357042276,
+    "seed": 210824
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p03/seed_210825.pt",
+    "checkpoint_sha256": "206586c0296ee83ae7cf10c81dca36f8fd4f33625ff2ca7229d696ed773e9c95",
+    "epochs": 240,
+    "final_loss": 0.9613398093193886,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.03,
+    "minimum_loss": 0.9613398093193886,
+    "seed": 210825
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p03/seed_210826.pt",
+    "checkpoint_sha256": "98fd67a57ad6adaf1b235b4d4c4cfdec9e0100e1804368aa37c8e6b2d92ac33c",
+    "epochs": 240,
+    "final_loss": 1.0123778512041857,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.03,
+    "minimum_loss": 0.9814328010907897,
+    "seed": 210826
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p1/seed_210821.pt",
+    "checkpoint_sha256": "feedbb35b3a6aa078bfaded41dc9b40e51f3a28e94a9429152f6de0a0477ccbf",
+    "epochs": 240,
+    "final_loss": 1.0387668289563072,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.1,
+    "minimum_loss": 1.0117056184241744,
+    "seed": 210821
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p1/seed_210822.pt",
+    "checkpoint_sha256": "5c1ddf2dd899f8315c91b7b22a931ef49f2263dc50e2c7e70aaefa40fe0ca5c9",
+    "epochs": 240,
+    "final_loss": 1.0212010590482778,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.1,
+    "minimum_loss": 1.0023775680519726,
+    "seed": 210822
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p1/seed_210823.pt",
+    "checkpoint_sha256": "85089771ace9bcf8c608cbf404e1f8875d17a02356fa9ec23f2339c5890098b8",
+    "epochs": 240,
+    "final_loss": 1.0298643358022785,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.1,
+    "minimum_loss": 1.0244044346104335,
+    "seed": 210823
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p1/seed_210824.pt",
+    "checkpoint_sha256": "91070614d363773aaabf0d901be0138d1bf1e94b1c749382cb33a12280e99579",
+    "epochs": 240,
+    "final_loss": 1.0376951283981828,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.1,
+    "minimum_loss": 1.0228630485237804,
+    "seed": 210824
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p1/seed_210825.pt",
+    "checkpoint_sha256": "5db51afa3c98e7857f9cb3e23479feca38fce33d6cacf4b783e5155d51dba9e2",
+    "epochs": 240,
+    "final_loss": 1.026286046792561,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.1,
+    "minimum_loss": 1.026286046792561,
+    "seed": 210825
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p1/seed_210826.pt",
+    "checkpoint_sha256": "a2a6f83509a0d4fbc4b45053cf6c14e08c01ea4afb4d24ae21ab348bbc4fffe3",
+    "epochs": 240,
+    "final_loss": 1.0760080670568266,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.1,
+    "minimum_loss": 1.0391685545212563,
+    "seed": 210826
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p3/seed_210821.pt",
+    "checkpoint_sha256": "6969e0fc5a9d2b40ae71e24c98dae2935d3eea29101605a989c42d61bc5c48ce",
+    "epochs": 240,
+    "final_loss": 1.1905277369087308,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.3,
+    "minimum_loss": 1.1905277369087308,
+    "seed": 210821
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p3/seed_210822.pt",
+    "checkpoint_sha256": "b1ae7cb3f89abf2edd287217d856d5172a28d2cee22565081d18c557a8eb6d8a",
+    "epochs": 240,
+    "final_loss": 1.1779646038545244,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.3,
+    "minimum_loss": 1.1661427791016574,
+    "seed": 210822
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p3/seed_210823.pt",
+    "checkpoint_sha256": "5233a45d6bed0d023ee7851903166f6187aae52f744857e00240cee1323ad633",
+    "epochs": 240,
+    "final_loss": 1.185323044947613,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.3,
+    "minimum_loss": 1.1766996583122225,
+    "seed": 210823
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p3/seed_210824.pt",
+    "checkpoint_sha256": "e3872bb227fb7490f018641b81db5945bce4d5d12078cd1c0cf6b98e5a9a5c00",
+    "epochs": 240,
+    "final_loss": 1.205515082476204,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.3,
+    "minimum_loss": 1.1895406659011247,
+    "seed": 210824
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p3/seed_210825.pt",
+    "checkpoint_sha256": "7df1d34a42121fd893121fcca38a15b35d0cafb8eda1fd2292f6b781a951bffe",
+    "epochs": 240,
+    "final_loss": 1.198881202170821,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.3,
+    "minimum_loss": 1.1985581939322476,
+    "seed": 210825
+  },
+  {
+    "K": 20,
+    "checkpoint": "results/dynamics/twenty_third_wave/2026-08-14_dynamics_11/checkpoints/lambda_0p3/seed_210826.pt",
+    "checkpoint_sha256": "59140b5b595cc979199438bb59ea00515fca7d618f7187c17644a5a2502083c1",
+    "epochs": 240,
+    "final_loss": 1.224322198429924,
+    "future_actions_as_input": false,
+    "goal_core_split": "train_only",
+    "gradient_audit": {
+      "classification_loss": 0.0,
+      "cycle_loss": 0.0,
+      "neighbor_requires_grad": false,
+      "prototype_loss": 0.0,
+      "representation_gradients_none": true,
+      "transition_gradients_nonzero": true
+    },
+    "lambda_align": 0.3,
+    "minimum_loss": 1.1972968838094273,
+    "seed": 210826
+  }
+]
