@@ -1,0 +1,36 @@
+{
+  "certified_action_origin": "policy step 0; collection stabilization wait already removed at certification",
+  "development_chunk_count": 803,
+  "development_episode_count": 50,
+  "frozen_at": "2026-08-14T10:12:04-04:00",
+  "gripper_evaluation": "sign accuracy plus continuous MSE",
+  "gripper_training_target": "actual continuous postprocessed command; unstandardized MSE",
+  "loss": "all-seven-dimension normalized/raw-gripper MSE + isolated symmetric contrastive loss",
+  "motor_gate": {
+    "maximum_correct_language_continuous_mse_ratio_vs_reconstruction_only": 1.2,
+    "maximum_gripper_accuracy_drop": 0.05
+  },
+  "selected_seed_rule": "highest minimum of development action-to-text and text-to-action R@1; tie by lower continuous MSE, then lower registered seed",
+  "test_split_read": false,
+  "train_chunk_count": 2230,
+  "train_episode_count": 140,
+  "train_only_normalization": {
+    "continuous_mean": [
+      0.02092241868376732,
+      0.05416347086429596,
+      -0.05626261234283447,
+      0.004632500000298023,
+      0.004292225930839777,
+      -0.010092501528561115
+    ],
+    "continuous_std": [
+      0.2722104787826538,
+      0.35536670684814453,
+      0.3612353503704071,
+      0.033894963562488556,
+      0.04519883170723915,
+      0.08517484366893768
+    ]
+  },
+  "written_before_representation_outputs": true
+}

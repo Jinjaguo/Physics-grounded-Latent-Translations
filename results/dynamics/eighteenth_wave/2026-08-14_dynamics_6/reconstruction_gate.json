@@ -1,0 +1,15 @@
+{
+  "F1_F2_outputs_read": false,
+  "all_values_finite": true,
+  "approximate_observation_reset_twins_pass": false,
+  "complete_source_snapshot": false,
+  "created_at": "2026-08-14T03:52:04-04:00",
+  "embodied_model_comparison_authorized": false,
+  "gate": "FAIL",
+  "primary_inference_run": false,
+  "stop_condition_triggered": "required simulator state is unavailable",
+  "terminal_task_predicate_agreement": 1.0,
+  "tolerance": 1e-09,
+  "twin_median_error": 1.0,
+  "twin_p95_error": 1.0
+}

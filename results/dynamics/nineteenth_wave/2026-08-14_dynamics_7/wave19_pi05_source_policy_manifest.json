@@ -1,0 +1,102 @@
+{
+  "checkpoint_uri": "gs://openpi-assets/checkpoints/pi05_libero/",
+  "config_name": "pi05_libero",
+  "created_at": "2026-08-14T05:58:56-04:00",
+  "environment_action_dim": 7,
+  "executed_replan_steps": 5,
+  "fine_tuned_during_wave19": false,
+  "libero": {
+    "commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "path": "/home/jinjaguo/LIBERO",
+    "status_short": []
+  },
+  "local_checkpoint_path": "/home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero",
+  "model_file_bytes": 14467165872,
+  "model_file_sha256": "21b8711787c4a75861b02cff6aa81675a3a943d32b435a68262ac4461e476ba4",
+  "network_action_horizon": 10,
+  "normalization_assets": "/home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets/physical-intelligence/libero/norm_stats.json",
+  "normalization_assets_sha256": "b3a44bb2810436fb62917decaea58bd4d9110255df527dea21e8fd40c960bd84",
+  "observation_preprocessing": "agentview and wrist rotated 180 degrees; resize_with_pad 224x224; uint8",
+  "openpi": {
+    "commit": "981483dca0fd9acba698fea00aa6e52d56a66c58",
+    "path": "/home/jinjaguo/openpi",
+    "status_short": []
+  },
+  "pi05_hidden_states_used": false,
+  "policy_postprocessor": {
+    "name": "policy_postprocessor",
+    "steps": [
+      {
+        "config": {
+          "eps": 1e-08,
+          "features": {},
+          "norm_map": {
+            "ACTION": "MEAN_STD",
+            "STATE": "MEAN_STD",
+            "VISUAL": "IDENTITY"
+          }
+        },
+        "registry_name": "unnormalizer_processor"
+      },
+      {
+        "config": {
+          "device": "cpu",
+          "float_dtype": null
+        },
+        "registry_name": "device_processor"
+      }
+    ]
+  },
+  "policy_preprocessor": {
+    "name": "policy_preprocessor",
+    "steps": [
+      {
+        "config": {
+          "rename_map": {}
+        },
+        "registry_name": "rename_observations_processor"
+      },
+      {
+        "config": {},
+        "registry_name": "to_batch_processor"
+      },
+      {
+        "config": {
+          "eps": 1e-08,
+          "features": {},
+          "norm_map": {
+            "ACTION": "MEAN_STD",
+            "STATE": "MEAN_STD",
+            "VISUAL": "IDENTITY"
+          }
+        },
+        "registry_name": "normalizer_processor"
+      },
+      {
+        "config": {},
+        "registry_name": "pi05_prepare_state_tokenizer_processor_step"
+      },
+      {
+        "config": {
+          "max_length": 200,
+          "padding": "max_length",
+          "padding_side": "right",
+          "task_key": "task",
+          "tokenizer_name": "google/paligemma-3b-pt-224",
+          "truncation": true
+        },
+        "registry_name": "tokenizer_processor"
+      },
+      {
+        "config": {
+          "device": "cuda",
+          "float_dtype": null
+        },
+        "registry_name": "device_processor"
+      }
+    ]
+  },
+  "random_seed": 190819,
+  "role": "fixed_source_trajectory_generator_only",
+  "server": "scripts/dynamics/start_wave19_pi05_server.py, websocket localhost:8000"
+}

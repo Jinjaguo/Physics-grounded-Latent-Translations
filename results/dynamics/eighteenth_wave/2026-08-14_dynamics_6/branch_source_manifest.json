@@ -1,0 +1,250 @@
+{
+  "created_at": "2026-08-14T03:50:35-04:00",
+  "exactly_reconstructable_source_episodes": 0,
+  "minimum_confirmatory_source_episodes": 180,
+  "official_debug": {
+    "training": {
+      "authoritative_source_session_rows": 1,
+      "contains_complete_simulator_snapshot": false,
+      "frame_schema": {
+        "actions": {
+          "dtype": "float64",
+          "shape": [
+            7
+          ]
+        },
+        "depth_gripper": {
+          "dtype": "float32",
+          "shape": [
+            84,
+            84
+          ]
+        },
+        "depth_static": {
+          "dtype": "float32",
+          "shape": [
+            200,
+            200
+          ]
+        },
+        "depth_tactile": {
+          "dtype": "float32",
+          "shape": [
+            160,
+            120,
+            2
+          ]
+        },
+        "rel_actions": {
+          "dtype": "float64",
+          "shape": [
+            7
+          ]
+        },
+        "rgb_gripper": {
+          "dtype": "uint8",
+          "shape": [
+            84,
+            84,
+            3
+          ]
+        },
+        "rgb_static": {
+          "dtype": "uint8",
+          "shape": [
+            200,
+            200,
+            3
+          ]
+        },
+        "rgb_tactile": {
+          "dtype": "uint8",
+          "shape": [
+            160,
+            120,
+            6
+          ]
+        },
+        "robot_obs": {
+          "dtype": "float64",
+          "shape": [
+            15
+          ]
+        },
+        "scene_obs": {
+          "dtype": "float64",
+          "shape": [
+            24
+          ]
+        }
+      },
+      "language_segments": 9,
+      "session_ranges": [
+        [
+          358482,
+          361252
+        ]
+      ],
+      "six_task_language_segment_counts": {
+        "lift_blue_block_slider": 1,
+        "lift_red_block_table": 2,
+        "place_in_slider": 2,
+        "push_pink_block_right": 1,
+        "turn_off_lightbulb": 2,
+        "turn_on_lightbulb": 1
+      }
+    },
+    "validation": {
+      "authoritative_source_session_rows": 1,
+      "contains_complete_simulator_snapshot": false,
+      "frame_schema": {
+        "actions": {
+          "dtype": "float64",
+          "shape": [
+            7
+          ]
+        },
+        "depth_gripper": {
+          "dtype": "float32",
+          "shape": [
+            84,
+            84
+          ]
+        },
+        "depth_static": {
+          "dtype": "float32",
+          "shape": [
+            200,
+            200
+          ]
+        },
+        "depth_tactile": {
+          "dtype": "float32",
+          "shape": [
+            160,
+            120,
+            2
+          ]
+        },
+        "rel_actions": {
+          "dtype": "float64",
+          "shape": [
+            7
+          ]
+        },
+        "rgb_gripper": {
+          "dtype": "uint8",
+          "shape": [
+            84,
+            84,
+            3
+          ]
+        },
+        "rgb_static": {
+          "dtype": "uint8",
+          "shape": [
+            200,
+            200,
+            3
+          ]
+        },
+        "rgb_tactile": {
+          "dtype": "uint8",
+          "shape": [
+            160,
+            120,
+            6
+          ]
+        },
+        "robot_obs": {
+          "dtype": "float64",
+          "shape": [
+            15
+          ]
+        },
+        "scene_obs": {
+          "dtype": "float64",
+          "shape": [
+            24
+          ]
+        }
+      },
+      "language_segments": 8,
+      "session_ranges": [
+        [
+          553567,
+          555241
+        ]
+      ],
+      "six_task_language_segment_counts": {
+        "lift_blue_block_slider": 3,
+        "lift_red_block_table": 1,
+        "place_in_slider": 1,
+        "push_pink_block_right": 1,
+        "turn_off_lightbulb": 1,
+        "turn_on_lightbulb": 1
+      }
+    }
+  },
+  "public_vyoj": {
+    "contains_complete_simulator_snapshot": false,
+    "continuous_block_schema": {
+      "global_frame_indices": {
+        "dtype": "int64",
+        "shape": [
+          160
+        ]
+      },
+      "rel_actions": {
+        "dtype": "float64",
+        "shape": [
+          160,
+          7
+        ]
+      },
+      "robot_obs": {
+        "dtype": "float64",
+        "shape": [
+          160,
+          15
+        ]
+      },
+      "scene_obs": {
+        "dtype": "float64",
+        "shape": [
+          160,
+          24
+        ]
+      }
+    },
+    "continuous_blocks": 61,
+    "continuous_sessions": 11,
+    "per_task_counts": {
+      "lift_blue_block_slider": 10,
+      "lift_red_block_table": 10,
+      "place_in_slider": 10,
+      "push_pink_block_right": 10,
+      "turn_off_lightbulb": 10,
+      "turn_on_lightbulb": 10
+    },
+    "task_segment_schema": {
+      "global_frame_indices": {
+        "dtype": "int64",
+        "shape": [
+          65
+        ]
+      },
+      "rel_actions": {
+        "dtype": "float64",
+        "shape": [
+          65,
+          7
+        ]
+      }
+    },
+    "task_segments": 60
+  },
+  "reason": "All retained sources contain observations/actions, not source Bullet/controller snapshots. The official held-out debug validation data is one continuous source session, not 30 independent episodes/task.",
+  "selection_uses_model_outputs": false,
+  "source_adequacy_pass": false
+}

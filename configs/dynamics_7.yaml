@@ -1,0 +1,113 @@
+experiment:
+  name: dynamics_7
+  wave: nineteenth_wave
+  seed: 190819
+  output_root: results/dynamics/nineteenth_wave/2026-08-14_dynamics_7
+  data_root: data/wave19_libero_branchable
+
+sources:
+  libero_root: /home/jinjaguo/LIBERO
+  openpi_root: /home/jinjaguo/openpi
+  checkpoint_uri: gs://openpi-assets/checkpoints/pi05_libero/
+  checkpoint_dir: /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero
+  norm_assets_dir: /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets
+  libero_python: /home/jinjaguo/anaconda3/envs/libero/bin/python
+  openpi_python: /home/jinjaguo/openpi/.venv/bin/python
+  official_suite: libero_10
+
+action_interface:
+  action_dim: 7
+  controller: OSC_POSE
+  control_frequency_hz: 20
+  physics_frequency_hz: 500
+  translation: relative_delta_scaled_to_plus_minus_0.05_m
+  rotation: relative_axis_angle_scaled_to_plus_minus_0.5_rad
+  gripper: one_dimensional_sign_command_integrated_by_panda_gripper
+  osc_input_bounds_first_six: [-1.0, 1.0]
+  gripper_input: sign_command_without_client_clipping
+  policy_action_horizon: 10
+  policy_replan_steps: 5
+
+timebase:
+  action_chunk_horizon: 16
+  stride: 16
+  latent_step_seconds: 0.8
+  rollout_horizons: [1, 2, 4, 8]
+  h8_control_steps: 128
+  h8_seconds: 6.4
+
+snapshot_certification:
+  development_trials: 100
+  trials_per_task: 10
+  pre_branch_steps: 20
+  replay_steps: 16
+  camera_resolution: 32
+  tolerance_rule: empirical_median_and_p95_from_development_restore_replay
+  require_all_finite: true
+  require_predicate_agreement: 1.0
+
+collection:
+  successes_per_task_target: 30
+  successes_per_task_minimum: 20
+  attempts_per_task_maximum: 50
+  wait_steps: 10
+  max_steps_libero_10: 520
+  policy_replan_steps: 5
+  camera_resolution: 256
+  policy_resize: 224
+  branch_fractions: [0.25, 0.5, 0.75]
+  minimum_future_steps: 128
+  store_failures: true
+  discard_raw_failures: false
+
+split:
+  train_fraction: 0.6
+  development_fraction: 0.2
+  test_fraction: 0.2
+  stratify_by_task: true
+  unit: source_episode
+
+representation:
+  input_mode: action_only
+  action_dim: 7
+  action_chunk_horizon: 16
+  latent_dim: 32
+  semantic_dim: 16
+  execution_dim: 16
+  hidden_dim: 128
+  depth: 3
+  text_encoder: openclip_ViT-L-14_datacomp_xl_s13b_b90k
+  text_encoder_frozen: true
+  isolate_language_gradient_from_shared_trunk: true
+  ema_decay: 0.999
+  epochs: 40
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  temperature: 0.07
+  seeds: [190819, 191819, 192819, 193819, 194819, 195819]
+  conditions: [correct_language, shuffled_language, reconstruction_only]
+
+dynamics:
+  semantic_predictor: shared_residual_mlp
+  F1: free_execution_mlp
+  F2: matched_iterative_refinement
+  refinement_iterations: 4
+  refinement_step_size: 0.01
+  hidden_dim: 64
+  depth: 3
+  epochs: 80
+  batch_size: 128
+  learning_rate: 0.001
+  baselines: [copy, constant_velocity, F1, F2]
+  forbidden_models: [DEL]
+
+statistics:
+  cluster: source_episode
+  bootstrap_replicates: 10000
+  bootstrap_seed: 190819
+
+runtime:
+  device: cuda:0
+  minimum_free_disk_bytes: 300000000000
+  preferred_free_disk_bytes: 500000000000

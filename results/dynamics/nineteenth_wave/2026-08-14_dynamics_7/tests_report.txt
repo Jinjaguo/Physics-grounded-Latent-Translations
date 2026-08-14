@@ -1,0 +1,25 @@
+Wave-19 verification report
+Recorded: 2026-08-14
+
+Targeted protocol and regression tests
+Command:
+  env PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 NUMBA_DISABLE_JIT=1 PYTHONPATH=src:/home/jinjaguo/LIBERO:/home/jinjaguo/openpi/packages/openpi-client/src MUJOCO_GL=egl /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest -q tests/dynamics/test_dynamics_7_libero_protocol.py tests/dynamics/test_dynamics_6_reconstruction_gate.py --tb=short
+Result:
+  25 passed, 4 warnings in 13.34s
+  The warnings are robosuite deprecations and the expected torch.load warning for a trusted local LIBERO init-state file.
+
+Syntax compilation
+Result:
+  PASS for all new Wave-19 scripts, LIBERO snapshot modules, and the Wave-19 protocol test.
+
+Result JSON parse audit
+Result:
+  PASS: 47 JSON files under the Wave-19 result root parsed successfully.
+
+Patch whitespace audit
+Command:
+  git diff --check
+Result:
+  PASS
+
+No rollout collection or representation training was repeated during these checks.

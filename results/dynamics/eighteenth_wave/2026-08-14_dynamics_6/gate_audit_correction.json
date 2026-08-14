@@ -1,0 +1,9 @@
+{
+  "correction": "Each twin receives action.copy(); contact count mismatch is a finite exposed-state discrepancy; finiteness is checked directly on simulator arrays.",
+  "created_at": "2026-08-14T03:53:05-04:00",
+  "diagnostic_selection_changed": false,
+  "invalid_attempt_preserved_at": "diagnostic_attempt_1_invalid",
+  "invalid_attempt_problem": "The same mutable NumPy action was passed sequentially to both twins; CALVIN scales relative actions in place, so twin B received a twice-scaled command. Contact shape mismatch was also encoded as infinity, conflating metric representation with simulator nonfiniteness.",
+  "model_outputs_observed": false,
+  "preregistration_changed": false
+}

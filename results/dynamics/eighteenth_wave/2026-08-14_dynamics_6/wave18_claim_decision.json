@@ -1,0 +1,12 @@
+{
+  "C4_closed_loop_embodied_refinement": "NOT_TESTED_RECONSTRUCTION_GATE_FAILURE",
+  "C5_learned_correction_direction_causal_value": "NOT_TESTED_RECONSTRUCTION_GATE_FAILURE",
+  "C6_proposal_perturbation_recovery": "NOT_TESTED_RECONSTRUCTION_GATE_FAILURE",
+  "closed_loop_refinement_failed": false,
+  "closed_loop_refinement_outcome": "NOT_OBSERVED_STUDY_NOT_EXECUTED",
+  "created_at": "2026-08-14T03:53:05-04:00",
+  "embodied_claim_authorized": false,
+  "historical_claims_changed": false,
+  "reconstruction_gate": "FAIL",
+  "study_execution": "NOT_EXECUTED_EXACT_SOURCE_BRANCH_RECONSTRUCTION_UNAVAILABLE"
+}

@@ -1,0 +1,31 @@
+{
+  "F1": "free_execution_mlp",
+  "F2": "matched_iterative_refinement",
+  "baselines": [
+    "copy",
+    "constant_velocity",
+    "F1",
+    "F2"
+  ],
+  "batch_size": 128,
+  "cluster": "source_episode",
+  "depth": 3,
+  "epochs": 80,
+  "forbidden_models": [
+    "DEL"
+  ],
+  "frozen_at": "2026-08-14T05:59:11-04:00",
+  "future_inputs_forbidden": true,
+  "hidden_dim": 64,
+  "independent_from_calvin": true,
+  "learning_rate": 0.001,
+  "offline_horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "refinement_iterations": 4,
+  "refinement_step_size": 0.01,
+  "semantic_predictor": "shared_residual_mlp"
+}

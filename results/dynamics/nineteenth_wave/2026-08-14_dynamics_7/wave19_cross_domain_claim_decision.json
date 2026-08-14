@@ -1,0 +1,16 @@
+{
+  "CALVIN_existing_evidence_unchanged": true,
+  "LIBERO_C1_language_addressability": "NOT_SUPPORTED_OVERALL_R_GATE_FAILED_DESPITE_POSITIVE_SEMANTIC_DIAGNOSTICS",
+  "LIBERO_C2_action_executability": "NOT_SUPPORTED_MOTOR_FIDELITY_GATE_FAILED",
+  "LIBERO_C3c_long": "NOT_TESTED_REPRESENTATION_GATE_FAILURE",
+  "LIBERO_C4_closed_loop_refinement": "NOT_TESTED_REPRESENTATION_GATE_FAILURE",
+  "LIBERO_C5_learned_direction_value": "NOT_TESTED_REPRESENTATION_GATE_FAILURE",
+  "LIBERO_C6_proposal_recovery": "NOT_TESTED_REPRESENTATION_GATE_FAILURE",
+  "closed_loop_primary": null,
+  "cross_domain_strong_claim_authorized": false,
+  "dataset_primary_episodes": 240,
+  "final_test_split_read": false,
+  "official_suite": "libero_10",
+  "representation_gate": "FAILED",
+  "snapshot_certification": "PASSED"
+}

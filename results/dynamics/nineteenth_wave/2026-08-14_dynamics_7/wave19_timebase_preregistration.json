@@ -1,0 +1,15 @@
+{
+  "action_chunk_horizon": 16,
+  "frozen_at": "2026-08-14T05:59:11-04:00",
+  "h8_control_steps": 128,
+  "h8_seconds": 6.4,
+  "latent_step_seconds": 0.8,
+  "rollout_horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "stride": 16,
+  "uses_final_test_outputs": false
+}

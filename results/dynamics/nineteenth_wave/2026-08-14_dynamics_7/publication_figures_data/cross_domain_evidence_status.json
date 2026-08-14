@@ -1,0 +1,6 @@
+{
+  "CALVIN": "existing evidence unchanged",
+  "LIBERO_closed_loop": "not tested: representation gate failure",
+  "LIBERO_data_and_snapshot": "passed",
+  "LIBERO_representation": "semantic diagnostics passed; motor fidelity gate failed"
+}

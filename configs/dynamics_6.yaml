@@ -1,0 +1,54 @@
+experiment:
+  name: dynamics_6
+  wave: eighteenth_wave
+  seed: 180817
+  output_root: results/dynamics/eighteenth_wave/2026-08-14_dynamics_6
+
+source:
+  official_debug_root: third_party/calvin/dataset/calvin_debug_dataset
+  public_vyoj_manifest: artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json
+  continuous_vyoj_manifest: artifacts/seventeenth_wave/data_acquisition/continuous_block_manifest.json
+  calvin_source_root: third_party/calvin
+  primary_tasks:
+    - lift_blue_block_slider
+    - lift_red_block_table
+    - place_in_slider
+    - push_pink_block_right
+    - turn_off_lightbulb
+    - turn_on_lightbulb
+  preferred_gate_split: validation
+
+reconstruction_gate:
+  twin_absolute_tolerance: 1.0e-9
+  require_complete_source_snapshot: true
+  require_terminal_predicate_agreement: 1.0
+  require_all_finite: true
+  diagnostic_replay_all_six_tasks: true
+
+closed_loop:
+  branch_fractions: [0.25, 0.50, 0.75]
+  horizons: [1, 2, 4, 8]
+  frames_per_latent_step: 16
+  minimum_episodes_per_task: 30
+  preferred_episodes_per_task: 50
+  minimum_total_episodes: 180
+  maximum_task_fraction: 0.35
+  bootstrap_replicates: 10000
+  bootstrap_seed: 180817
+
+frozen_files:
+  representation:
+    path: checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt
+    sha256: 44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65
+  semantic:
+    path: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt
+    sha256: 9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617
+  F1:
+    path: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt
+    sha256: 41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0
+  F2:
+    path: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt
+    sha256: 9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308
+  historical_DEL:
+    path: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F4_decoder_geometry_del.pt
+    sha256: 3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9

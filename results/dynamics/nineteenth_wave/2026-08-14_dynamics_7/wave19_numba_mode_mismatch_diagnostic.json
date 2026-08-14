@@ -1,0 +1,28 @@
+{
+  "diagnostic_type": "invalid_recovery_environment_numba_jit_disabled",
+  "resolved_at": "2026-08-14T07:26:07-04:00",
+  "root_cause": "one recovery command set NUMBA_DISABLE_JIT=1 although formal raw collection used robosuite with JIT enabled",
+  "resolution": "discard this recovery certification result and restore the original JIT execution mode",
+  "same_raw_original_mode_recertification": {"certified": true, "state_max": 0.0, "controller_max": 0.0},
+  "certified": false,
+  "controller_discrepancy_max": 48.29599983669302,
+  "eligible": true,
+  "episode_id": "task01_attempt025",
+  "fraction": 0.25,
+  "future_steps": 183,
+  "nonfinite_count": 0,
+  "object_discrepancy_max": 1.3790388726083926,
+  "past_policy_steps": 61,
+  "predicate_agreement": true,
+  "replay_success_agreement": true,
+  "source_terminal_success": true,
+  "state_discrepancy_max": 1126.9081435704938,
+  "state_discrepancy_median": 0.061793975391108535,
+  "state_discrepancy_p95": 50.188341109163275,
+  "step": 71,
+  "task_id": 1,
+  "terminal_predicates": [
+    true,
+    true
+  ]
+}

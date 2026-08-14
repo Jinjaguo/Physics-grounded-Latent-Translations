@@ -1,0 +1,28 @@
+{
+  "authorized_only_after_snapshot_representation_offline_gates": true,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 190819,
+  "branch_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "cluster": "source_episode",
+  "frozen_at": "2026-08-14T05:59:11-04:00",
+  "horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "methods": [
+    "source_pi05",
+    "F1",
+    "F2",
+    "norm_matched_random",
+    "shuffled",
+    "negative"
+  ],
+  "observation_feedback_to_F1_F2": false,
+  "refinement_iterations": 4
+}

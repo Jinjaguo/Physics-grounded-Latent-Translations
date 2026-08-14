@@ -1,0 +1,25 @@
+{
+  "cluster_unit": "source_episode",
+  "created_at": "2026-08-14T03:50:35-04:00",
+  "fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "frames_per_latent_step": 16,
+  "horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "materialized_branch_points": 0,
+  "rules": [
+    "Use exact same source episode and state for every paired method.",
+    "Use eligible 25/50/75 percent time fractions without moving a branch after model output.",
+    "Never cross a simulator reset or read future action/state/task annotations.",
+    "Materialize branch points only after the reconstruction and source-adequacy gates pass."
+  ],
+  "selection_uses_model_outputs": false,
+  "status": "FROZEN_PENDING_RECONSTRUCTION_GATE"
+}

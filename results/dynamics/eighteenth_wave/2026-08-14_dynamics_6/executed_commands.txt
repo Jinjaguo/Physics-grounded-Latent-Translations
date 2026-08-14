@@ -1,0 +1,13 @@
+df -h /home/jinjaguo/PGLT
+df -B1 /home/jinjaguo/PGLT
+/home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install pybullet
+/home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install numpy==1.23.5
+/home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install numpy-quaternion==2023.0.4
+/home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install rich
+PYTHONPATH=third_party/calvin/calvin_env:third_party/calvin/calvin_models /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_6.py --config configs/dynamics_6.yaml --stage preregister
+# First audit attempt was invalidated and preserved: shared mutable action was scaled twice for twin B.
+PYTHONPATH=third_party/calvin/calvin_env:third_party/calvin/calvin_models /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_6.py --config configs/dynamics_6.yaml --stage audit
+# Corrected audit; preregistration and selected diagnostics unchanged.
+PYTHONPATH=third_party/calvin/calvin_env:third_party/calvin/calvin_models /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_6.py --config configs/dynamics_6.yaml --stage audit
+PYTHONPATH=third_party/calvin/calvin_env:third_party/calvin/calvin_models /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_6.py --config configs/dynamics_6.yaml --stage finalize
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/dynamics tests/representation -q --junitxml=results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/pytest_results.xml

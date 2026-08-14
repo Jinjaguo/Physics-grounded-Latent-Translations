@@ -1,0 +1,48 @@
+{
+  "all_matched": true,
+  "created_at": "2026-08-14T03:50:35-04:00",
+  "files": [
+    {
+      "actual_sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+      "bytes": 337087,
+      "expected_sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+      "label": "representation",
+      "matched": true,
+      "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt"
+    },
+    {
+      "actual_sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617",
+      "bytes": 36178,
+      "expected_sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617",
+      "label": "semantic",
+      "matched": true,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt"
+    },
+    {
+      "actual_sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0",
+      "bytes": 40418,
+      "expected_sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0",
+      "label": "F1",
+      "matched": true,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt"
+    },
+    {
+      "actual_sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308",
+      "bytes": 80146,
+      "expected_sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308",
+      "label": "F2",
+      "matched": true,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt"
+    },
+    {
+      "actual_sha256": "3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9",
+      "bytes": 214912,
+      "expected_sha256": "3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9",
+      "label": "historical_DEL",
+      "matched": true,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F4_decoder_geometry_del.pt"
+    }
+  ],
+  "models_loaded": false,
+  "optimizer_or_training_calls": 0
+}

@@ -1,0 +1,13 @@
+{
+  "closed_loop_authorized": false,
+  "created_at": "2026-08-14T10:30:14-04:00",
+  "DEL_forbidden_and_absent": true,
+  "dynamics_models_created": false,
+  "F1": null,
+  "F2": null,
+  "reason": "representation_ready_LIBERO was false",
+  "representation_selected_checkpoint": null,
+  "semantic_predictor": null,
+  "status": "NOT_CREATED_REPRESENTATION_GATE_FAILURE",
+  "test_split_read": false
+}

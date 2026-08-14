@@ -1,0 +1,3026 @@
+{
+  "boundary_states": 97269,
+  "contacts": 3104618,
+  "created_at": "2026-08-14T10:12:52-04:00",
+  "derivation": "mj_setState then mj_forward; active MuJoCo contacts serialized as ragged arrays",
+  "episodes": 335,
+  "raw_collection_modified": false,
+  "rows": [
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt000.npz",
+      "boundary_states": 290,
+      "contacts": 9408,
+      "episode_id": "task00_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt001.npz",
+      "boundary_states": 305,
+      "contacts": 10008,
+      "episode_id": "task00_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt002.npz",
+      "boundary_states": 261,
+      "contacts": 9398,
+      "episode_id": "task00_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt003.npz",
+      "boundary_states": 293,
+      "contacts": 9511,
+      "episode_id": "task00_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt004.npz",
+      "boundary_states": 353,
+      "contacts": 11193,
+      "episode_id": "task00_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt005.npz",
+      "boundary_states": 276,
+      "contacts": 9983,
+      "episode_id": "task00_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt006.npz",
+      "boundary_states": 291,
+      "contacts": 9294,
+      "episode_id": "task00_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt007.npz",
+      "boundary_states": 251,
+      "contacts": 8064,
+      "episode_id": "task00_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt008.npz",
+      "boundary_states": 258,
+      "contacts": 8444,
+      "episode_id": "task00_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt009.npz",
+      "boundary_states": 247,
+      "contacts": 8090,
+      "episode_id": "task00_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt010.npz",
+      "boundary_states": 290,
+      "contacts": 10155,
+      "episode_id": "task00_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt011.npz",
+      "boundary_states": 265,
+      "contacts": 8647,
+      "episode_id": "task00_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt012.npz",
+      "boundary_states": 267,
+      "contacts": 8713,
+      "episode_id": "task00_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt013.npz",
+      "boundary_states": 322,
+      "contacts": 10790,
+      "episode_id": "task00_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt014.npz",
+      "boundary_states": 312,
+      "contacts": 9963,
+      "episode_id": "task00_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt015.npz",
+      "boundary_states": 298,
+      "contacts": 10041,
+      "episode_id": "task00_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt016.npz",
+      "boundary_states": 272,
+      "contacts": 8544,
+      "episode_id": "task00_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt017.npz",
+      "boundary_states": 287,
+      "contacts": 9171,
+      "episode_id": "task00_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt018.npz",
+      "boundary_states": 414,
+      "contacts": 12562,
+      "episode_id": "task00_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt019.npz",
+      "boundary_states": 298,
+      "contacts": 9919,
+      "episode_id": "task00_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt020.npz",
+      "boundary_states": 323,
+      "contacts": 10170,
+      "episode_id": "task00_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt021.npz",
+      "boundary_states": 294,
+      "contacts": 9483,
+      "episode_id": "task00_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt022.npz",
+      "boundary_states": 403,
+      "contacts": 14333,
+      "episode_id": "task00_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt023.npz",
+      "boundary_states": 317,
+      "contacts": 10393,
+      "episode_id": "task00_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt024.npz",
+      "boundary_states": 272,
+      "contacts": 8982,
+      "episode_id": "task00_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt025.npz",
+      "boundary_states": 309,
+      "contacts": 10719,
+      "episode_id": "task00_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt026.npz",
+      "boundary_states": 274,
+      "contacts": 8839,
+      "episode_id": "task00_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt027.npz",
+      "boundary_states": 336,
+      "contacts": 10889,
+      "episode_id": "task00_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt028.npz",
+      "boundary_states": 276,
+      "contacts": 9600,
+      "episode_id": "task00_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt029.npz",
+      "boundary_states": 285,
+      "contacts": 9184,
+      "episode_id": "task00_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_00/task00_attempt030.npz",
+      "boundary_states": 350,
+      "contacts": 11420,
+      "episode_id": "task00_attempt030",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 0
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt000.npz",
+      "boundary_states": 260,
+      "contacts": 8267,
+      "episode_id": "task01_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt001.npz",
+      "boundary_states": 255,
+      "contacts": 8217,
+      "episode_id": "task01_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt002.npz",
+      "boundary_states": 263,
+      "contacts": 8541,
+      "episode_id": "task01_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt003.npz",
+      "boundary_states": 253,
+      "contacts": 8195,
+      "episode_id": "task01_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt004.npz",
+      "boundary_states": 269,
+      "contacts": 8579,
+      "episode_id": "task01_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt005.npz",
+      "boundary_states": 246,
+      "contacts": 7514,
+      "episode_id": "task01_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt006.npz",
+      "boundary_states": 271,
+      "contacts": 8741,
+      "episode_id": "task01_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt007.npz",
+      "boundary_states": 250,
+      "contacts": 7977,
+      "episode_id": "task01_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt008.npz",
+      "boundary_states": 256,
+      "contacts": 8220,
+      "episode_id": "task01_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt009.npz",
+      "boundary_states": 256,
+      "contacts": 8214,
+      "episode_id": "task01_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt010.npz",
+      "boundary_states": 247,
+      "contacts": 7832,
+      "episode_id": "task01_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt011.npz",
+      "boundary_states": 256,
+      "contacts": 8215,
+      "episode_id": "task01_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt012.npz",
+      "boundary_states": 261,
+      "contacts": 8344,
+      "episode_id": "task01_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt013.npz",
+      "boundary_states": 239,
+      "contacts": 7759,
+      "episode_id": "task01_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt014.npz",
+      "boundary_states": 270,
+      "contacts": 8658,
+      "episode_id": "task01_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt015.npz",
+      "boundary_states": 271,
+      "contacts": 8716,
+      "episode_id": "task01_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt016.npz",
+      "boundary_states": 249,
+      "contacts": 7915,
+      "episode_id": "task01_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt017.npz",
+      "boundary_states": 236,
+      "contacts": 7490,
+      "episode_id": "task01_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt018.npz",
+      "boundary_states": 260,
+      "contacts": 8393,
+      "episode_id": "task01_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt019.npz",
+      "boundary_states": 286,
+      "contacts": 9202,
+      "episode_id": "task01_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt020.npz",
+      "boundary_states": 258,
+      "contacts": 8148,
+      "episode_id": "task01_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt021.npz",
+      "boundary_states": 281,
+      "contacts": 9132,
+      "episode_id": "task01_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt022.npz",
+      "boundary_states": 258,
+      "contacts": 8196,
+      "episode_id": "task01_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt023.npz",
+      "boundary_states": 244,
+      "contacts": 7875,
+      "episode_id": "task01_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt024.npz",
+      "boundary_states": 260,
+      "contacts": 8231,
+      "episode_id": "task01_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt025.npz",
+      "boundary_states": 255,
+      "contacts": 8280,
+      "episode_id": "task01_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt026.npz",
+      "boundary_states": 253,
+      "contacts": 8181,
+      "episode_id": "task01_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt027.npz",
+      "boundary_states": 270,
+      "contacts": 8744,
+      "episode_id": "task01_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt028.npz",
+      "boundary_states": 244,
+      "contacts": 7776,
+      "episode_id": "task01_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_01/task01_attempt029.npz",
+      "boundary_states": 281,
+      "contacts": 9068,
+      "episode_id": "task01_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 1
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt000.npz",
+      "boundary_states": 256,
+      "contacts": 6446,
+      "episode_id": "task02_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt001.npz",
+      "boundary_states": 274,
+      "contacts": 7689,
+      "episode_id": "task02_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt002.npz",
+      "boundary_states": 273,
+      "contacts": 7712,
+      "episode_id": "task02_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt003.npz",
+      "boundary_states": 252,
+      "contacts": 7150,
+      "episode_id": "task02_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt004.npz",
+      "boundary_states": 254,
+      "contacts": 7005,
+      "episode_id": "task02_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt005.npz",
+      "boundary_states": 246,
+      "contacts": 6940,
+      "episode_id": "task02_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt006.npz",
+      "boundary_states": 281,
+      "contacts": 6948,
+      "episode_id": "task02_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt007.npz",
+      "boundary_states": 250,
+      "contacts": 6856,
+      "episode_id": "task02_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt008.npz",
+      "boundary_states": 243,
+      "contacts": 7153,
+      "episode_id": "task02_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt009.npz",
+      "boundary_states": 251,
+      "contacts": 7154,
+      "episode_id": "task02_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt010.npz",
+      "boundary_states": 224,
+      "contacts": 6208,
+      "episode_id": "task02_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt011.npz",
+      "boundary_states": 236,
+      "contacts": 6422,
+      "episode_id": "task02_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt012.npz",
+      "boundary_states": 229,
+      "contacts": 6566,
+      "episode_id": "task02_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt013.npz",
+      "boundary_states": 260,
+      "contacts": 7165,
+      "episode_id": "task02_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt014.npz",
+      "boundary_states": 267,
+      "contacts": 7114,
+      "episode_id": "task02_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt015.npz",
+      "boundary_states": 249,
+      "contacts": 6877,
+      "episode_id": "task02_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt016.npz",
+      "boundary_states": 323,
+      "contacts": 8827,
+      "episode_id": "task02_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt017.npz",
+      "boundary_states": 321,
+      "contacts": 8594,
+      "episode_id": "task02_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt018.npz",
+      "boundary_states": 277,
+      "contacts": 7907,
+      "episode_id": "task02_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt019.npz",
+      "boundary_states": 243,
+      "contacts": 7229,
+      "episode_id": "task02_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt020.npz",
+      "boundary_states": 266,
+      "contacts": 7035,
+      "episode_id": "task02_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt021.npz",
+      "boundary_states": 292,
+      "contacts": 8250,
+      "episode_id": "task02_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt022.npz",
+      "boundary_states": 225,
+      "contacts": 5971,
+      "episode_id": "task02_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt023.npz",
+      "boundary_states": 271,
+      "contacts": 7278,
+      "episode_id": "task02_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt024.npz",
+      "boundary_states": 255,
+      "contacts": 6835,
+      "episode_id": "task02_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt025.npz",
+      "boundary_states": 238,
+      "contacts": 6417,
+      "episode_id": "task02_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt026.npz",
+      "boundary_states": 293,
+      "contacts": 7376,
+      "episode_id": "task02_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt027.npz",
+      "boundary_states": 268,
+      "contacts": 7456,
+      "episode_id": "task02_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt028.npz",
+      "boundary_states": 294,
+      "contacts": 7680,
+      "episode_id": "task02_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_02/task02_attempt029.npz",
+      "boundary_states": 237,
+      "contacts": 6389,
+      "episode_id": "task02_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 2
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt000.npz",
+      "boundary_states": 260,
+      "contacts": 5190,
+      "episode_id": "task03_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt001.npz",
+      "boundary_states": 236,
+      "contacts": 3713,
+      "episode_id": "task03_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt002.npz",
+      "boundary_states": 250,
+      "contacts": 3891,
+      "episode_id": "task03_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt003.npz",
+      "boundary_states": 219,
+      "contacts": 4386,
+      "episode_id": "task03_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt004.npz",
+      "boundary_states": 237,
+      "contacts": 5324,
+      "episode_id": "task03_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt005.npz",
+      "boundary_states": 216,
+      "contacts": 3513,
+      "episode_id": "task03_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt006.npz",
+      "boundary_states": 226,
+      "contacts": 4637,
+      "episode_id": "task03_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt007.npz",
+      "boundary_states": 224,
+      "contacts": 4765,
+      "episode_id": "task03_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt008.npz",
+      "boundary_states": 251,
+      "contacts": 5241,
+      "episode_id": "task03_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt009.npz",
+      "boundary_states": 212,
+      "contacts": 3345,
+      "episode_id": "task03_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt010.npz",
+      "boundary_states": 261,
+      "contacts": 4007,
+      "episode_id": "task03_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt011.npz",
+      "boundary_states": 231,
+      "contacts": 4556,
+      "episode_id": "task03_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt012.npz",
+      "boundary_states": 242,
+      "contacts": 4767,
+      "episode_id": "task03_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt013.npz",
+      "boundary_states": 235,
+      "contacts": 3866,
+      "episode_id": "task03_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt014.npz",
+      "boundary_states": 235,
+      "contacts": 5013,
+      "episode_id": "task03_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt015.npz",
+      "boundary_states": 234,
+      "contacts": 4525,
+      "episode_id": "task03_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt016.npz",
+      "boundary_states": 226,
+      "contacts": 3871,
+      "episode_id": "task03_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt017.npz",
+      "boundary_states": 221,
+      "contacts": 3351,
+      "episode_id": "task03_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt018.npz",
+      "boundary_states": 242,
+      "contacts": 4869,
+      "episode_id": "task03_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt019.npz",
+      "boundary_states": 234,
+      "contacts": 4666,
+      "episode_id": "task03_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt020.npz",
+      "boundary_states": 229,
+      "contacts": 3448,
+      "episode_id": "task03_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt021.npz",
+      "boundary_states": 228,
+      "contacts": 4424,
+      "episode_id": "task03_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt022.npz",
+      "boundary_states": 233,
+      "contacts": 4668,
+      "episode_id": "task03_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt023.npz",
+      "boundary_states": 264,
+      "contacts": 4483,
+      "episode_id": "task03_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt024.npz",
+      "boundary_states": 251,
+      "contacts": 4025,
+      "episode_id": "task03_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt025.npz",
+      "boundary_states": 222,
+      "contacts": 3604,
+      "episode_id": "task03_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt026.npz",
+      "boundary_states": 241,
+      "contacts": 4770,
+      "episode_id": "task03_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt027.npz",
+      "boundary_states": 230,
+      "contacts": 3616,
+      "episode_id": "task03_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt028.npz",
+      "boundary_states": 228,
+      "contacts": 4587,
+      "episode_id": "task03_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_03/task03_attempt029.npz",
+      "boundary_states": 226,
+      "contacts": 4749,
+      "episode_id": "task03_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 3
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt000.npz",
+      "boundary_states": 246,
+      "contacts": 9594,
+      "episode_id": "task04_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt001.npz",
+      "boundary_states": 239,
+      "contacts": 9322,
+      "episode_id": "task04_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt002.npz",
+      "boundary_states": 231,
+      "contacts": 8893,
+      "episode_id": "task04_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt003.npz",
+      "boundary_states": 231,
+      "contacts": 11182,
+      "episode_id": "task04_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt004.npz",
+      "boundary_states": 249,
+      "contacts": 9711,
+      "episode_id": "task04_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt005.npz",
+      "boundary_states": 235,
+      "contacts": 11298,
+      "episode_id": "task04_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt006.npz",
+      "boundary_states": 274,
+      "contacts": 10434,
+      "episode_id": "task04_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt007.npz",
+      "boundary_states": 248,
+      "contacts": 11634,
+      "episode_id": "task04_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt008.npz",
+      "boundary_states": 231,
+      "contacts": 11048,
+      "episode_id": "task04_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt009.npz",
+      "boundary_states": 226,
+      "contacts": 8603,
+      "episode_id": "task04_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt010.npz",
+      "boundary_states": 230,
+      "contacts": 9025,
+      "episode_id": "task04_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt011.npz",
+      "boundary_states": 243,
+      "contacts": 9239,
+      "episode_id": "task04_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt012.npz",
+      "boundary_states": 266,
+      "contacts": 10337,
+      "episode_id": "task04_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt013.npz",
+      "boundary_states": 261,
+      "contacts": 10071,
+      "episode_id": "task04_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt014.npz",
+      "boundary_states": 233,
+      "contacts": 11084,
+      "episode_id": "task04_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt015.npz",
+      "boundary_states": 258,
+      "contacts": 10131,
+      "episode_id": "task04_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt016.npz",
+      "boundary_states": 267,
+      "contacts": 9952,
+      "episode_id": "task04_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt017.npz",
+      "boundary_states": 241,
+      "contacts": 9413,
+      "episode_id": "task04_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt018.npz",
+      "boundary_states": 244,
+      "contacts": 11828,
+      "episode_id": "task04_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt019.npz",
+      "boundary_states": 304,
+      "contacts": 11552,
+      "episode_id": "task04_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt020.npz",
+      "boundary_states": 237,
+      "contacts": 11577,
+      "episode_id": "task04_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt021.npz",
+      "boundary_states": 226,
+      "contacts": 10776,
+      "episode_id": "task04_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt022.npz",
+      "boundary_states": 244,
+      "contacts": 9648,
+      "episode_id": "task04_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt023.npz",
+      "boundary_states": 255,
+      "contacts": 9819,
+      "episode_id": "task04_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt024.npz",
+      "boundary_states": 262,
+      "contacts": 10120,
+      "episode_id": "task04_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt025.npz",
+      "boundary_states": 236,
+      "contacts": 9172,
+      "episode_id": "task04_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt026.npz",
+      "boundary_states": 233,
+      "contacts": 9006,
+      "episode_id": "task04_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt027.npz",
+      "boundary_states": 243,
+      "contacts": 11632,
+      "episode_id": "task04_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt028.npz",
+      "boundary_states": 230,
+      "contacts": 8938,
+      "episode_id": "task04_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_04/task04_attempt029.npz",
+      "boundary_states": 241,
+      "contacts": 11415,
+      "episode_id": "task04_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 4
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt000.npz",
+      "boundary_states": 196,
+      "contacts": 3418,
+      "episode_id": "task05_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt001.npz",
+      "boundary_states": 212,
+      "contacts": 3672,
+      "episode_id": "task05_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt002.npz",
+      "boundary_states": 191,
+      "contacts": 3419,
+      "episode_id": "task05_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt003.npz",
+      "boundary_states": 182,
+      "contacts": 3268,
+      "episode_id": "task05_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt004.npz",
+      "boundary_states": 182,
+      "contacts": 3108,
+      "episode_id": "task05_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt005.npz",
+      "boundary_states": 167,
+      "contacts": 3042,
+      "episode_id": "task05_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt006.npz",
+      "boundary_states": 164,
+      "contacts": 2875,
+      "episode_id": "task05_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt007.npz",
+      "boundary_states": 180,
+      "contacts": 3187,
+      "episode_id": "task05_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt008.npz",
+      "boundary_states": 166,
+      "contacts": 2881,
+      "episode_id": "task05_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt010.npz",
+      "boundary_states": 232,
+      "contacts": 3941,
+      "episode_id": "task05_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt011.npz",
+      "boundary_states": 196,
+      "contacts": 3411,
+      "episode_id": "task05_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt012.npz",
+      "boundary_states": 182,
+      "contacts": 3384,
+      "episode_id": "task05_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt013.npz",
+      "boundary_states": 174,
+      "contacts": 2996,
+      "episode_id": "task05_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt014.npz",
+      "boundary_states": 240,
+      "contacts": 4188,
+      "episode_id": "task05_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt015.npz",
+      "boundary_states": 178,
+      "contacts": 3289,
+      "episode_id": "task05_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt016.npz",
+      "boundary_states": 198,
+      "contacts": 3471,
+      "episode_id": "task05_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt017.npz",
+      "boundary_states": 181,
+      "contacts": 3257,
+      "episode_id": "task05_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt018.npz",
+      "boundary_states": 180,
+      "contacts": 3201,
+      "episode_id": "task05_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt019.npz",
+      "boundary_states": 226,
+      "contacts": 4081,
+      "episode_id": "task05_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt020.npz",
+      "boundary_states": 182,
+      "contacts": 3158,
+      "episode_id": "task05_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt021.npz",
+      "boundary_states": 193,
+      "contacts": 3252,
+      "episode_id": "task05_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt022.npz",
+      "boundary_states": 181,
+      "contacts": 3169,
+      "episode_id": "task05_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt023.npz",
+      "boundary_states": 196,
+      "contacts": 3465,
+      "episode_id": "task05_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt024.npz",
+      "boundary_states": 196,
+      "contacts": 3440,
+      "episode_id": "task05_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt025.npz",
+      "boundary_states": 364,
+      "contacts": 6373,
+      "episode_id": "task05_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt026.npz",
+      "boundary_states": 189,
+      "contacts": 3197,
+      "episode_id": "task05_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt027.npz",
+      "boundary_states": 203,
+      "contacts": 3563,
+      "episode_id": "task05_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt028.npz",
+      "boundary_states": 181,
+      "contacts": 3187,
+      "episode_id": "task05_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt029.npz",
+      "boundary_states": 309,
+      "contacts": 5424,
+      "episode_id": "task05_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt030.npz",
+      "boundary_states": 181,
+      "contacts": 3180,
+      "episode_id": "task05_attempt030",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt031.npz",
+      "boundary_states": 204,
+      "contacts": 3512,
+      "episode_id": "task05_attempt031",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt032.npz",
+      "boundary_states": 210,
+      "contacts": 3776,
+      "episode_id": "task05_attempt032",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt033.npz",
+      "boundary_states": 200,
+      "contacts": 3598,
+      "episode_id": "task05_attempt033",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt034.npz",
+      "boundary_states": 180,
+      "contacts": 2986,
+      "episode_id": "task05_attempt034",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt035.npz",
+      "boundary_states": 186,
+      "contacts": 3177,
+      "episode_id": "task05_attempt035",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt036.npz",
+      "boundary_states": 190,
+      "contacts": 3328,
+      "episode_id": "task05_attempt036",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt037.npz",
+      "boundary_states": 205,
+      "contacts": 3540,
+      "episode_id": "task05_attempt037",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt038.npz",
+      "boundary_states": 177,
+      "contacts": 3064,
+      "episode_id": "task05_attempt038",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt039.npz",
+      "boundary_states": 181,
+      "contacts": 3258,
+      "episode_id": "task05_attempt039",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt000.npz",
+      "boundary_states": 220,
+      "contacts": 5904,
+      "episode_id": "task06_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt001.npz",
+      "boundary_states": 234,
+      "contacts": 6042,
+      "episode_id": "task06_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt002.npz",
+      "boundary_states": 237,
+      "contacts": 5976,
+      "episode_id": "task06_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt003.npz",
+      "boundary_states": 224,
+      "contacts": 6224,
+      "episode_id": "task06_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt004.npz",
+      "boundary_states": 240,
+      "contacts": 6169,
+      "episode_id": "task06_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt005.npz",
+      "boundary_states": 442,
+      "contacts": 12267,
+      "episode_id": "task06_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt006.npz",
+      "boundary_states": 234,
+      "contacts": 6330,
+      "episode_id": "task06_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt007.npz",
+      "boundary_states": 215,
+      "contacts": 5749,
+      "episode_id": "task06_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt008.npz",
+      "boundary_states": 214,
+      "contacts": 7016,
+      "episode_id": "task06_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt009.npz",
+      "boundary_states": 269,
+      "contacts": 6737,
+      "episode_id": "task06_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt010.npz",
+      "boundary_states": 244,
+      "contacts": 6697,
+      "episode_id": "task06_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt011.npz",
+      "boundary_states": 226,
+      "contacts": 5770,
+      "episode_id": "task06_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt012.npz",
+      "boundary_states": 213,
+      "contacts": 5671,
+      "episode_id": "task06_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt013.npz",
+      "boundary_states": 228,
+      "contacts": 7566,
+      "episode_id": "task06_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt014.npz",
+      "boundary_states": 238,
+      "contacts": 6268,
+      "episode_id": "task06_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt015.npz",
+      "boundary_states": 240,
+      "contacts": 7878,
+      "episode_id": "task06_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt016.npz",
+      "boundary_states": 246,
+      "contacts": 6481,
+      "episode_id": "task06_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt017.npz",
+      "boundary_states": 233,
+      "contacts": 6230,
+      "episode_id": "task06_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt018.npz",
+      "boundary_states": 223,
+      "contacts": 5985,
+      "episode_id": "task06_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt019.npz",
+      "boundary_states": 234,
+      "contacts": 7599,
+      "episode_id": "task06_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt020.npz",
+      "boundary_states": 227,
+      "contacts": 5972,
+      "episode_id": "task06_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt021.npz",
+      "boundary_states": 232,
+      "contacts": 6023,
+      "episode_id": "task06_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt022.npz",
+      "boundary_states": 213,
+      "contacts": 5711,
+      "episode_id": "task06_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt023.npz",
+      "boundary_states": 338,
+      "contacts": 8887,
+      "episode_id": "task06_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt024.npz",
+      "boundary_states": 227,
+      "contacts": 5900,
+      "episode_id": "task06_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt025.npz",
+      "boundary_states": 237,
+      "contacts": 8335,
+      "episode_id": "task06_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt026.npz",
+      "boundary_states": 237,
+      "contacts": 6039,
+      "episode_id": "task06_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt028.npz",
+      "boundary_states": 221,
+      "contacts": 5794,
+      "episode_id": "task06_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt029.npz",
+      "boundary_states": 219,
+      "contacts": 5909,
+      "episode_id": "task06_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt030.npz",
+      "boundary_states": 289,
+      "contacts": 8906,
+      "episode_id": "task06_attempt030",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt031.npz",
+      "boundary_states": 240,
+      "contacts": 6378,
+      "episode_id": "task06_attempt031",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt000.npz",
+      "boundary_states": 251,
+      "contacts": 5156,
+      "episode_id": "task07_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt001.npz",
+      "boundary_states": 333,
+      "contacts": 6586,
+      "episode_id": "task07_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt002.npz",
+      "boundary_states": 248,
+      "contacts": 5065,
+      "episode_id": "task07_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt003.npz",
+      "boundary_states": 276,
+      "contacts": 5678,
+      "episode_id": "task07_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt004.npz",
+      "boundary_states": 289,
+      "contacts": 5763,
+      "episode_id": "task07_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt005.npz",
+      "boundary_states": 293,
+      "contacts": 5992,
+      "episode_id": "task07_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt006.npz",
+      "boundary_states": 256,
+      "contacts": 5130,
+      "episode_id": "task07_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt007.npz",
+      "boundary_states": 257,
+      "contacts": 5361,
+      "episode_id": "task07_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt008.npz",
+      "boundary_states": 337,
+      "contacts": 6751,
+      "episode_id": "task07_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt009.npz",
+      "boundary_states": 259,
+      "contacts": 5342,
+      "episode_id": "task07_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt010.npz",
+      "boundary_states": 274,
+      "contacts": 5496,
+      "episode_id": "task07_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt011.npz",
+      "boundary_states": 267,
+      "contacts": 5502,
+      "episode_id": "task07_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt012.npz",
+      "boundary_states": 368,
+      "contacts": 7861,
+      "episode_id": "task07_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt013.npz",
+      "boundary_states": 226,
+      "contacts": 4704,
+      "episode_id": "task07_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt014.npz",
+      "boundary_states": 274,
+      "contacts": 5504,
+      "episode_id": "task07_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt015.npz",
+      "boundary_states": 250,
+      "contacts": 5232,
+      "episode_id": "task07_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt016.npz",
+      "boundary_states": 390,
+      "contacts": 8117,
+      "episode_id": "task07_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt017.npz",
+      "boundary_states": 276,
+      "contacts": 5614,
+      "episode_id": "task07_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt018.npz",
+      "boundary_states": 239,
+      "contacts": 4850,
+      "episode_id": "task07_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt019.npz",
+      "boundary_states": 275,
+      "contacts": 5712,
+      "episode_id": "task07_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt020.npz",
+      "boundary_states": 243,
+      "contacts": 4991,
+      "episode_id": "task07_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt021.npz",
+      "boundary_states": 280,
+      "contacts": 5753,
+      "episode_id": "task07_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt022.npz",
+      "boundary_states": 258,
+      "contacts": 5210,
+      "episode_id": "task07_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt023.npz",
+      "boundary_states": 294,
+      "contacts": 5895,
+      "episode_id": "task07_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt024.npz",
+      "boundary_states": 285,
+      "contacts": 5605,
+      "episode_id": "task07_attempt024",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt025.npz",
+      "boundary_states": 273,
+      "contacts": 5628,
+      "episode_id": "task07_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt026.npz",
+      "boundary_states": 263,
+      "contacts": 5304,
+      "episode_id": "task07_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt027.npz",
+      "boundary_states": 273,
+      "contacts": 5692,
+      "episode_id": "task07_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt028.npz",
+      "boundary_states": 265,
+      "contacts": 5294,
+      "episode_id": "task07_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_07/task07_attempt029.npz",
+      "boundary_states": 271,
+      "contacts": 5831,
+      "episode_id": "task07_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 7
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt000.npz",
+      "boundary_states": 410,
+      "contacts": 18080,
+      "episode_id": "task08_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt002.npz",
+      "boundary_states": 509,
+      "contacts": 21678,
+      "episode_id": "task08_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt003.npz",
+      "boundary_states": 391,
+      "contacts": 17835,
+      "episode_id": "task08_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt004.npz",
+      "boundary_states": 424,
+      "contacts": 17648,
+      "episode_id": "task08_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt005.npz",
+      "boundary_states": 435,
+      "contacts": 19118,
+      "episode_id": "task08_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt006.npz",
+      "boundary_states": 462,
+      "contacts": 20052,
+      "episode_id": "task08_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt008.npz",
+      "boundary_states": 442,
+      "contacts": 17973,
+      "episode_id": "task08_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt011.npz",
+      "boundary_states": 415,
+      "contacts": 18122,
+      "episode_id": "task08_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt014.npz",
+      "boundary_states": 439,
+      "contacts": 19742,
+      "episode_id": "task08_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt015.npz",
+      "boundary_states": 394,
+      "contacts": 17348,
+      "episode_id": "task08_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt017.npz",
+      "boundary_states": 412,
+      "contacts": 16508,
+      "episode_id": "task08_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt019.npz",
+      "boundary_states": 446,
+      "contacts": 19443,
+      "episode_id": "task08_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt020.npz",
+      "boundary_states": 432,
+      "contacts": 19921,
+      "episode_id": "task08_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt023.npz",
+      "boundary_states": 484,
+      "contacts": 21014,
+      "episode_id": "task08_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt025.npz",
+      "boundary_states": 413,
+      "contacts": 19091,
+      "episode_id": "task08_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt028.npz",
+      "boundary_states": 428,
+      "contacts": 19150,
+      "episode_id": "task08_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt029.npz",
+      "boundary_states": 413,
+      "contacts": 18993,
+      "episode_id": "task08_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt031.npz",
+      "boundary_states": 370,
+      "contacts": 16525,
+      "episode_id": "task08_attempt031",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt034.npz",
+      "boundary_states": 435,
+      "contacts": 17645,
+      "episode_id": "task08_attempt034",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt036.npz",
+      "boundary_states": 482,
+      "contacts": 20145,
+      "episode_id": "task08_attempt036",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt040.npz",
+      "boundary_states": 434,
+      "contacts": 19314,
+      "episode_id": "task08_attempt040",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt042.npz",
+      "boundary_states": 427,
+      "contacts": 18367,
+      "episode_id": "task08_attempt042",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt043.npz",
+      "boundary_states": 389,
+      "contacts": 17336,
+      "episode_id": "task08_attempt043",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt048.npz",
+      "boundary_states": 423,
+      "contacts": 19403,
+      "episode_id": "task08_attempt048",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt000.npz",
+      "boundary_states": 255,
+      "contacts": 8941,
+      "episode_id": "task09_attempt000",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt001.npz",
+      "boundary_states": 312,
+      "contacts": 9835,
+      "episode_id": "task09_attempt001",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt002.npz",
+      "boundary_states": 269,
+      "contacts": 10025,
+      "episode_id": "task09_attempt002",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt003.npz",
+      "boundary_states": 294,
+      "contacts": 9088,
+      "episode_id": "task09_attempt003",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt004.npz",
+      "boundary_states": 266,
+      "contacts": 10675,
+      "episode_id": "task09_attempt004",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt005.npz",
+      "boundary_states": 283,
+      "contacts": 9504,
+      "episode_id": "task09_attempt005",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt006.npz",
+      "boundary_states": 252,
+      "contacts": 9112,
+      "episode_id": "task09_attempt006",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt007.npz",
+      "boundary_states": 243,
+      "contacts": 8591,
+      "episode_id": "task09_attempt007",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt008.npz",
+      "boundary_states": 270,
+      "contacts": 9553,
+      "episode_id": "task09_attempt008",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt009.npz",
+      "boundary_states": 375,
+      "contacts": 14662,
+      "episode_id": "task09_attempt009",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt010.npz",
+      "boundary_states": 259,
+      "contacts": 9178,
+      "episode_id": "task09_attempt010",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt011.npz",
+      "boundary_states": 280,
+      "contacts": 10075,
+      "episode_id": "task09_attempt011",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt012.npz",
+      "boundary_states": 234,
+      "contacts": 8622,
+      "episode_id": "task09_attempt012",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt013.npz",
+      "boundary_states": 280,
+      "contacts": 9921,
+      "episode_id": "task09_attempt013",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt014.npz",
+      "boundary_states": 274,
+      "contacts": 8772,
+      "episode_id": "task09_attempt014",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt015.npz",
+      "boundary_states": 265,
+      "contacts": 9372,
+      "episode_id": "task09_attempt015",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt016.npz",
+      "boundary_states": 259,
+      "contacts": 9008,
+      "episode_id": "task09_attempt016",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt017.npz",
+      "boundary_states": 296,
+      "contacts": 10274,
+      "episode_id": "task09_attempt017",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt018.npz",
+      "boundary_states": 287,
+      "contacts": 10429,
+      "episode_id": "task09_attempt018",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt019.npz",
+      "boundary_states": 261,
+      "contacts": 9088,
+      "episode_id": "task09_attempt019",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt020.npz",
+      "boundary_states": 294,
+      "contacts": 10224,
+      "episode_id": "task09_attempt020",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt021.npz",
+      "boundary_states": 253,
+      "contacts": 8825,
+      "episode_id": "task09_attempt021",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt022.npz",
+      "boundary_states": 290,
+      "contacts": 10173,
+      "episode_id": "task09_attempt022",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt023.npz",
+      "boundary_states": 289,
+      "contacts": 10914,
+      "episode_id": "task09_attempt023",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt025.npz",
+      "boundary_states": 284,
+      "contacts": 10119,
+      "episode_id": "task09_attempt025",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt026.npz",
+      "boundary_states": 317,
+      "contacts": 11764,
+      "episode_id": "task09_attempt026",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt027.npz",
+      "boundary_states": 360,
+      "contacts": 12956,
+      "episode_id": "task09_attempt027",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt028.npz",
+      "boundary_states": 255,
+      "contacts": 9021,
+      "episode_id": "task09_attempt028",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt029.npz",
+      "boundary_states": 257,
+      "contacts": 9143,
+      "episode_id": "task09_attempt029",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt030.npz",
+      "boundary_states": 272,
+      "contacts": 9637,
+      "episode_id": "task09_attempt030",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt031.npz",
+      "boundary_states": 261,
+      "contacts": 9625,
+      "episode_id": "task09_attempt031",
+      "outcome": "success",
+      "raw_unchanged": true,
+      "task_id": 9
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_05/task05_attempt009.npz",
+      "boundary_states": 531,
+      "contacts": 9715,
+      "episode_id": "task05_attempt009",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 5
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_06/task06_attempt027.npz",
+      "boundary_states": 531,
+      "contacts": 12180,
+      "episode_id": "task06_attempt027",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 6
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt001.npz",
+      "boundary_states": 531,
+      "contacts": 21586,
+      "episode_id": "task08_attempt001",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt007.npz",
+      "boundary_states": 531,
+      "contacts": 21184,
+      "episode_id": "task08_attempt007",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt009.npz",
+      "boundary_states": 531,
+      "contacts": 21569,
+      "episode_id": "task08_attempt009",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt010.npz",
+      "boundary_states": 531,
+      "contacts": 23994,
+      "episode_id": "task08_attempt010",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt012.npz",
+      "boundary_states": 531,
+      "contacts": 16756,
+      "episode_id": "task08_attempt012",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt013.npz",
+      "boundary_states": 531,
+      "contacts": 21937,
+      "episode_id": "task08_attempt013",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt016.npz",
+      "boundary_states": 531,
+      "contacts": 23965,
+      "episode_id": "task08_attempt016",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt018.npz",
+      "boundary_states": 531,
+      "contacts": 24118,
+      "episode_id": "task08_attempt018",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt021.npz",
+      "boundary_states": 531,
+      "contacts": 22991,
+      "episode_id": "task08_attempt021",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt022.npz",
+      "boundary_states": 531,
+      "contacts": 23082,
+      "episode_id": "task08_attempt022",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt024.npz",
+      "boundary_states": 531,
+      "contacts": 22720,
+      "episode_id": "task08_attempt024",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt026.npz",
+      "boundary_states": 531,
+      "contacts": 22594,
+      "episode_id": "task08_attempt026",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt027.npz",
+      "boundary_states": 531,
+      "contacts": 23478,
+      "episode_id": "task08_attempt027",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt030.npz",
+      "boundary_states": 531,
+      "contacts": 23660,
+      "episode_id": "task08_attempt030",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt032.npz",
+      "boundary_states": 531,
+      "contacts": 23644,
+      "episode_id": "task08_attempt032",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt033.npz",
+      "boundary_states": 531,
+      "contacts": 23282,
+      "episode_id": "task08_attempt033",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt035.npz",
+      "boundary_states": 531,
+      "contacts": 23763,
+      "episode_id": "task08_attempt035",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt037.npz",
+      "boundary_states": 531,
+      "contacts": 24467,
+      "episode_id": "task08_attempt037",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt038.npz",
+      "boundary_states": 531,
+      "contacts": 24675,
+      "episode_id": "task08_attempt038",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt039.npz",
+      "boundary_states": 531,
+      "contacts": 23020,
+      "episode_id": "task08_attempt039",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt041.npz",
+      "boundary_states": 531,
+      "contacts": 22724,
+      "episode_id": "task08_attempt041",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt044.npz",
+      "boundary_states": 531,
+      "contacts": 22878,
+      "episode_id": "task08_attempt044",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt045.npz",
+      "boundary_states": 531,
+      "contacts": 21950,
+      "episode_id": "task08_attempt045",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt046.npz",
+      "boundary_states": 531,
+      "contacts": 24092,
+      "episode_id": "task08_attempt046",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt047.npz",
+      "boundary_states": 531,
+      "contacts": 21584,
+      "episode_id": "task08_attempt047",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_08/task08_attempt049.npz",
+      "boundary_states": 531,
+      "contacts": 19642,
+      "episode_id": "task08_attempt049",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 8
+    },
+    {
+      "archive": "data/wave19_libero_branchable/derived/contacts/task_09/task09_attempt024.npz",
+      "boundary_states": 531,
+      "contacts": 15520,
+      "episode_id": "task09_attempt024",
+      "outcome": "failure",
+      "raw_unchanged": true,
+      "task_id": 9
+    }
+  ],
+  "source": "immutable per-boundary mjSTATE_INTEGRATION plus official episode BDDL"
+}

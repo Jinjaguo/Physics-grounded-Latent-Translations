@@ -1,0 +1,8 @@
+{
+  "final_test_read": false,
+  "motor_mse_ratio": 1.2004443925527184,
+  "representation_gate": "FAIL",
+  "semantic_action_to_text_delta": 0.9400000000000001,
+  "semantic_text_to_action_delta": 0.9,
+  "stop_before": ["F1", "F2", "offline_dynamics", "closed_loop"]
+}

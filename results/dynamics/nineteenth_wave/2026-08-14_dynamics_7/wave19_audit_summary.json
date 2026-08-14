@@ -1,0 +1,30 @@
+{
+  "checkpoint_available": true,
+  "created_at": "2026-08-14T06:00:18-04:00",
+  "disk": {
+    "free_bytes": 976464207872,
+    "minimum_free_bytes": 300000000000,
+    "minimum_pass": true,
+    "phase": "audit-resume",
+    "preferred_free_bytes": 500000000000,
+    "preferred_pass": true,
+    "recorded_at": "2026-08-14T06:00:18-04:00",
+    "total_bytes": 1795564949504,
+    "used_bytes": 727815917568
+  },
+  "global_libero_config_is_usable": false,
+  "global_libero_config_issue": "/home/jinjaguo/.libero/config.yaml points to missing pi0-text-latent/third_party/modified_libero; Wave 19 freezes explicit /home/jinjaguo/LIBERO paths instead",
+  "initial_audit_interruption": "OpenPI uv venv intentionally has no pip module; preregistrations were already frozen and were not rewritten. Package freeze resumed via importlib.metadata.",
+  "libero_git": {
+    "commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "path": "/home/jinjaguo/LIBERO",
+    "status_short": []
+  },
+  "official_task_count": 10,
+  "openpi_git": {
+    "commit": "981483dca0fd9acba698fea00aa6e52d56a66c58",
+    "path": "/home/jinjaguo/openpi",
+    "status_short": []
+  },
+  "suite_resolved": true
+}

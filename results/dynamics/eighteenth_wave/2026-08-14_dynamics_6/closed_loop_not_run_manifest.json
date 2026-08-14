@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "F1/F2 success table": "NOT_APPLICABLE_NOT_RUN",
+    "H1/H2/H4/H8 embodied metrics": "NOT_APPLICABLE_NOT_RUN",
+    "branch-fraction success table": "NOT_APPLICABLE_NOT_RUN",
+    "causal warm-start audit": "NOT_APPLICABLE_NOT_RUN",
+    "causal-intervention result table": "NOT_APPLICABLE_NOT_RUN",
+    "contact-phase analysis": "NOT_APPLICABLE_NOT_RUN",
+    "decoded-action metrics": "NOT_APPLICABLE_NOT_RUN",
+    "failure taxonomy report": "NOT_APPLICABLE_NOT_RUN",
+    "mechanism-outcome association": "NOT_APPLICABLE_NOT_RUN",
+    "negative-refinement control": "NOT_APPLICABLE_NOT_RUN",
+    "off-manifold metrics": "NOT_APPLICABLE_NOT_RUN",
+    "paired episode-clustered bootstrap": "NOT_APPLICABLE_NOT_RUN",
+    "perturbation-recovery result table": "NOT_APPLICABLE_NOT_RUN",
+    "primary closed-loop rollout logs": "NOT_APPLICABLE_NOT_RUN",
+    "proposal-perturbation preregistration": "NOT_APPLICABLE_NOT_RUN",
+    "publication-figure CSV/JSON": "NOT_APPLICABLE_NOT_RUN",
+    "q/TCP/object trajectory deviation metrics": "NOT_APPLICABLE_NOT_RUN",
+    "random norm-matched control": "NOT_APPLICABLE_NOT_RUN",
+    "refinement intermediate-state logs": "NOT_APPLICABLE_NOT_RUN",
+    "shuffled-direction control": "NOT_APPLICABLE_NOT_RUN",
+    "statistical test report": "NOT_APPLICABLE_NOT_RUN",
+    "task-wise success table": "NOT_APPLICABLE_NOT_RUN"
+  },
+  "created_at": "2026-08-14T03:53:05-04:00",
+  "model_outputs_read": false,
+  "reason": "Required simulator source state unavailable; prompt mandates immediate stop.",
+  "status": "NOT_RUN_RECONSTRUCTION_GATE_FAILURE"
+}

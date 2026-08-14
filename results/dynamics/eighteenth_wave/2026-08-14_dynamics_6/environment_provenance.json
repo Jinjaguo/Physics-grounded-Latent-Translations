@@ -1,0 +1,19 @@
+{
+  "calvin_commit": "fa03f01f19c65920e18cf37398a9ce859274af76",
+  "control_frequency_hz": 30,
+  "created_at": "2026-08-14T03:53:05-04:00",
+  "dependency_changes_for_gate": [
+    "pybullet==3.2.7",
+    "numpy==1.23.5",
+    "numpy-quaternion==2023.0.4",
+    "rich==14.3.4"
+  ],
+  "gpu_reason": "Phase-0 simulator gate is CPU physics and failed before model inference.",
+  "gpu_used": false,
+  "numpy": "1.23.5",
+  "physics_frequency_hz": 240,
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "pybullet_api_version": 202010061,
+  "python": "3.8.13 (default, Oct 21 2022, 23:50:54) \n[GCC 11.2.0]",
+  "simulator_mode": "PyBullet DIRECT, cameras disabled for state-only gate"
+}

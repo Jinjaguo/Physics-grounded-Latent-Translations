@@ -1,0 +1,41 @@
+{
+  "action_chunk_horizon": 16,
+  "action_dim": 7,
+  "batch_size": 64,
+  "calvin_checkpoints_forbidden": true,
+  "conditions": [
+    "correct_language",
+    "shuffled_language",
+    "reconstruction_only"
+  ],
+  "depth": 3,
+  "ema_decay": 0.999,
+  "epochs": 40,
+  "execution_dim": 16,
+  "frozen_at": "2026-08-14T05:59:11-04:00",
+  "gate": {
+    "episode_clustered_bootstrap_lower_95_gt_zero": true,
+    "minimum_seeds": 6,
+    "motor_fidelity_not_destroyed": true,
+    "semantic_delta_positive_both_directions": true
+  },
+  "hidden_dim": 128,
+  "independent_from_calvin": true,
+  "input_mode": "action_only",
+  "isolate_language_gradient_from_shared_trunk": true,
+  "latent_dim": 32,
+  "learning_rate": 0.001,
+  "seeds": [
+    190819,
+    191819,
+    192819,
+    193819,
+    194819,
+    195819
+  ],
+  "semantic_dim": 16,
+  "temperature": 0.07,
+  "text_encoder": "openclip_ViT-L-14_datacomp_xl_s13b_b90k",
+  "text_encoder_frozen": true,
+  "weight_decay": 0.0001
+}

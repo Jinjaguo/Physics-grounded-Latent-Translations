@@ -1,0 +1,12 @@
+{
+  "candidate_branch_rule": "source episode fractions 0.25/0.50/0.75 with >=128 future steps",
+  "certified_branch_rule": "100% twin and restored-vs-source terminal-predicate agreement; finite states; episode median and P95 max-absolute integration-state discrepancy <= frozen development tolerances",
+  "development_trials": 100,
+  "frozen_at": "2026-08-14T06:11:02-04:00",
+  "frozen_before_source_collection": true,
+  "median_tolerance": 0.0,
+  "p95_tolerance": 0.0,
+  "required_all_finite": true,
+  "required_terminal_predicate_agreement": 1.0,
+  "tolerance_uses_model_outputs": false
+}

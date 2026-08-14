@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-08-14T03:50:35-04:00",
+  "diagnostic_action_range": "recorded rel_actions at frames [start,end) compared to recorded state at frame+1",
+  "diagnostic_selection": "first annotation in validation for each canonical task; no model output used",
+  "model_inference_authorized_only_after_gate_pass": true,
+  "preferred_source": "official CALVIN held-out debug validation",
+  "required": {
+    "all_simulator_values_finite": true,
+    "complete_source_snapshot": true,
+    "median_twin_error_lte_tolerance": true,
+    "p95_twin_error_lte_tolerance": true,
+    "terminal_task_predicate_agreement": 1.0
+  },
+  "stop_rule": "If any required item fails, do not load or execute representation/F1/F2/DEL.",
+  "tolerance_basis": "fixed-seed deterministic PyBullet source-action replay; 1e-9 is above float64 roundoff but far below CALVIN state/action resolution, and was fixed without model outputs",
+  "twin_absolute_tolerance": 1e-09,
+  "twin_error_definition": "maximum absolute error over all exposed dynamic/controller state components",
+  "written_before_any_wave18_F1_F2_output": true
+}

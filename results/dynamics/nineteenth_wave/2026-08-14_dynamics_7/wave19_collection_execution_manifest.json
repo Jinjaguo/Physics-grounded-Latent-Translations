@@ -1,0 +1,13 @@
+{
+  "batch_padding_result_discarded_when_only_one_episode_active": true,
+  "batching_changes_only_tensor_scheduling": true,
+  "branch_progress_origin": "first post-wait source-policy control step",
+  "branch_step_rule": "wait_steps + floor((terminal_steps - wait_steps) * fraction)",
+  "causal_history_minimum_steps": 32,
+  "frozen_at": "2026-08-14T06:41:49-04:00",
+  "global_policy_sampling_seed": 190819,
+  "gpu_batch_size": 2,
+  "minimum_future_steps": 128,
+  "policy_replan_steps": 5,
+  "written_before_formal_source_collection": true
+}

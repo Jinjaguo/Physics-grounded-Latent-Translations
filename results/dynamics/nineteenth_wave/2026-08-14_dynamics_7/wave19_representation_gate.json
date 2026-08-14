@@ -1,0 +1,430 @@
+{
+  "bootstrap": {
+    "action_to_text": {
+      "lower_95": 0.9166666666666666,
+      "mean": 0.9400826666666666,
+      "upper_95": 0.96
+    },
+    "cluster": "source_episode, stratified within official task",
+    "replicates": 10000,
+    "seed": 190819,
+    "text_to_action": {
+      "lower_95": 0.8666666666666668,
+      "mean": 0.8987383333333335,
+      "upper_95": 0.9333333333333335
+    }
+  },
+  "conditions": {
+    "action_to_text_clustered_lower_95_positive": true,
+    "continuous_motor_fidelity_preserved": false,
+    "gripper_motor_fidelity_preserved": true,
+    "positive_mean_action_to_text_delta": true,
+    "positive_mean_text_to_action_delta": true,
+    "six_registered_seeds_completed": true,
+    "text_to_action_clustered_lower_95_positive": true
+  },
+  "created_at": "2026-08-14T10:28:20-04:00",
+  "mean_action_to_text_semantic_delta": 0.9400000000000001,
+  "mean_text_to_action_semantic_delta": 0.9,
+  "motor": {
+    "correct_continuous_mse": 0.002050373489778817,
+    "correct_gripper_accuracy": 0.9875596720630967,
+    "reconstruction_only_continuous_mse": 0.0017080120516192703,
+    "reconstruction_only_gripper_accuracy": 0.9893368617683685
+  },
+  "representation_ready_LIBERO": false,
+  "seed_rows": [
+    {
+      "action_to_text_semantic_delta": 0.92,
+      "correct": {
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.002110165148982324,
+        "decoder_continuous_saturation_fraction": 0.00020755500207555002,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04845515628935467,
+        "gripper_sign_accuracy": 0.9884806973848069,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.0029040082933049246,
+          0.004907093303962615,
+          0.004363092602488725,
+          7.501198798159007e-05,
+          0.0001449997484900756,
+          0.00026678495766600265,
+          0.048455156289354664
+        ],
+        "text_to_action_R1": 1.0
+      },
+      "reconstruction_only": {
+        "action_to_text_R1": 0.08,
+        "continuous_action_mse": 0.0018100005580544544,
+        "decoder_continuous_saturation_fraction": 0.00018161062681610628,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04190405729665054,
+        "gripper_sign_accuracy": 0.988947696139477,
+        "macro_action_to_text_R1": 0.08,
+        "per_dimension_mse": [
+          0.0025857346541773322,
+          0.004085946039743176,
+          0.0037886523227827506,
+          6.448473719171243e-05,
+          0.00011675434908769,
+          0.00021843124534403786,
+          0.041904057296650456
+        ],
+        "text_to_action_R1": 0.2
+      },
+      "seed": 190819,
+      "shuffled": {
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.001980970119547636,
+        "decoder_continuous_saturation_fraction": 0.00019458281444582814,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04822016457388538,
+        "gripper_sign_accuracy": 0.9891033623910336,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.0029354272848493906,
+          0.0042019669972601,
+          0.00427296813626658,
+          7.61238821415804e-05,
+          0.00013987732980685717,
+          0.0002594570869613086,
+          0.04822016457388527
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "text_to_action_semantic_delta": 0.8
+    },
+    {
+      "action_to_text_semantic_delta": 0.88,
+      "correct": {
+        "action_to_text_R1": 0.98,
+        "continuous_action_mse": 0.0020203188123036277,
+        "decoder_continuous_saturation_fraction": 0.0004021378165213782,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.049599932489650736,
+        "gripper_sign_accuracy": 0.9871575342465754,
+        "macro_action_to_text_R1": 0.9800000000000001,
+        "per_dimension_mse": [
+          0.0029764246447802237,
+          0.004512250971002197,
+          0.004134844149391844,
+          7.404717987382562e-05,
+          0.00015277128614571688,
+          0.00027157464262796203,
+          0.049599932489650805
+        ],
+        "text_to_action_R1": 1.0
+      },
+      "reconstruction_only": {
+        "action_to_text_R1": 0.1,
+        "continuous_action_mse": 0.0016278572310106205,
+        "decoder_continuous_saturation_fraction": 0.00018161062681610628,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.043854253141502715,
+        "gripper_sign_accuracy": 0.9894146948941469,
+        "macro_action_to_text_R1": 0.1,
+        "per_dimension_mse": [
+          0.0025149223337178755,
+          0.003290920604611863,
+          0.003574561593877431,
+          5.709217277418675e-05,
+          0.00012197745375545267,
+          0.00020766922732691725,
+          0.04385425314150263
+        ],
+        "text_to_action_R1": 0.1
+      },
+      "seed": 191819,
+      "shuffled": {
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.00202949065367094,
+        "decoder_continuous_saturation_fraction": 7.783312577833126e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04722396500611732,
+        "gripper_sign_accuracy": 0.9892590286425903,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.002885258011425198,
+          0.004835015447345525,
+          0.003979078899984796,
+          7.38686129366804e-05,
+          0.00015662408628010034,
+          0.00024709886405334814,
+          0.04722396500611726
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "text_to_action_semantic_delta": 0.9
+    },
+    {
+      "action_to_text_semantic_delta": 0.98,
+      "correct": {
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.002030166863365171,
+        "decoder_continuous_saturation_fraction": 0.00018161062681610628,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.052050592755887616,
+        "gripper_sign_accuracy": 0.9873910336239103,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.002947115213358383,
+          0.004506791580498657,
+          0.004270843176185582,
+          7.276211588017514e-05,
+          0.00013289350957875317,
+          0.0002505955846894541,
+          0.05205059275588757
+        ],
+        "text_to_action_R1": 1.0
+      },
+      "reconstruction_only": {
+        "action_to_text_R1": 0.02,
+        "continuous_action_mse": 0.001716290250433796,
+        "decoder_continuous_saturation_fraction": 9.080531340805314e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04313171568136475,
+        "gripper_sign_accuracy": 0.9890255292652553,
+        "macro_action_to_text_R1": 0.02,
+        "per_dimension_mse": [
+          0.002654881249519879,
+          0.0035496453442429377,
+          0.00370474405588722,
+          6.344605960466837e-05,
+          0.00012106814133868304,
+          0.00020395665200934025,
+          0.04313171568136484
+        ],
+        "text_to_action_R1": 0.1
+      },
+      "seed": 192819,
+      "shuffled": {
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.002060834494439374,
+        "decoder_continuous_saturation_fraction": 0.0004021378165213782,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.049245350390132614,
+        "gripper_sign_accuracy": 0.9874688667496887,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.0030334489096386866,
+          0.004625605969415815,
+          0.0042324731557832115,
+          7.298303544472958e-05,
+          0.00014748201265451084,
+          0.0002530138836992762,
+          0.04924535039013255
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "text_to_action_semantic_delta": 0.9
+    },
+    {
+      "action_to_text_semantic_delta": 0.94,
+      "correct": {
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.002078334565117889,
+        "decoder_continuous_saturation_fraction": 0.00038916562889165627,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.048913739728901846,
+        "gripper_sign_accuracy": 0.9884028642590287,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.00332253389076206,
+          0.004378188404661728,
+          0.004271758858742733,
+          7.310590139376567e-05,
+          0.0001497899299521751,
+          0.0002746304051949003,
+          0.04891373972890184
+        ],
+        "text_to_action_R1": 1.0
+      },
+      "reconstruction_only": {
+        "action_to_text_R1": 0.06,
+        "continuous_action_mse": 0.0016358937976124015,
+        "decoder_continuous_saturation_fraction": 0.0002724159402241594,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.043305959318794864,
+        "gripper_sign_accuracy": 0.9894925280199253,
+        "macro_action_to_text_R1": 0.06,
+        "per_dimension_mse": [
+          0.0025692008982274917,
+          0.003234895565473531,
+          0.0036035580157569706,
+          6.569834223353081e-05,
+          0.00012405873592545515,
+          0.0002179512280574078,
+          0.04330595931879472
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "seed": 193819,
+      "shuffled": {
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.0019654989960164533,
+        "decoder_continuous_saturation_fraction": 0.00025944375259443755,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.050241665797654704,
+        "gripper_sign_accuracy": 0.9876245330012453,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.0030921338275145633,
+          0.004176185228472542,
+          0.004054614933997879,
+          7.352200127294999e-05,
+          0.0001465435706837629,
+          0.0002499944141570216,
+          0.050241665797654586
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "text_to_action_semantic_delta": 1.0
+    },
+    {
+      "action_to_text_semantic_delta": 0.94,
+      "correct": {
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.001995459939105769,
+        "decoder_continuous_saturation_fraction": 0.0002724159402241594,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.0499883324712704,
+        "gripper_sign_accuracy": 0.9878580323785803,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.002923739826324706,
+          0.00414755153594664,
+          0.0044427976585186746,
+          7.60969182371804e-05,
+          0.00014098471295769484,
+          0.00024158898264972623,
+          0.049988332471270366
+        ],
+        "text_to_action_R1": 1.0
+      },
+      "reconstruction_only": {
+        "action_to_text_R1": 0.06,
+        "continuous_action_mse": 0.0016949513234057008,
+        "decoder_continuous_saturation_fraction": 9.080531340805314e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.042569881753937215,
+        "gripper_sign_accuracy": 0.9897260273972602,
+        "macro_action_to_text_R1": 0.06000000000000001,
+        "per_dimension_mse": [
+          0.0025336708248721923,
+          0.0036307412355425345,
+          0.0036187366609114527,
+          6.456656619388373e-05,
+          0.00011564835121983262,
+          0.00020634430169430226,
+          0.042569881753937104
+        ],
+        "text_to_action_R1": 0.1
+      },
+      "seed": 194819,
+      "shuffled": {
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.0019728915719388483,
+        "decoder_continuous_saturation_fraction": 3.891656288916563e-05,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.0481830182236668,
+        "gripper_sign_accuracy": 0.9886363636363636,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.002972239416960779,
+          0.004121225656478034,
+          0.004266471956521819,
+          7.219176868649743e-05,
+          0.00014692358654966648,
+          0.00025829704643628916,
+          0.048183018223667
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "text_to_action_semantic_delta": 0.9
+    },
+    {
+      "action_to_text_semantic_delta": 0.98,
+      "correct": {
+        "action_to_text_R1": 1.0,
+        "continuous_action_mse": 0.0020677956097981225,
+        "decoder_continuous_saturation_fraction": 0.0004021378165213782,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.05220828347569297,
+        "gripper_sign_accuracy": 0.9860678704856787,
+        "macro_action_to_text_R1": 1.0,
+        "per_dimension_mse": [
+          0.0028821005327610144,
+          0.004953517800393599,
+          0.004069463187541812,
+          7.773333975451781e-05,
+          0.00015322444100289903,
+          0.00027073435733490956,
+          0.052208283475692986
+        ],
+        "text_to_action_R1": 1.0
+      },
+      "reconstruction_only": {
+        "action_to_text_R1": 0.02,
+        "continuous_action_mse": 0.0017630791491986477,
+        "decoder_continuous_saturation_fraction": 0.00010377750103777501,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.0442941321147794,
+        "gripper_sign_accuracy": 0.9894146948941469,
+        "macro_action_to_text_R1": 0.02,
+        "per_dimension_mse": [
+          0.0026332621721855474,
+          0.003597743880521582,
+          0.003921926761636455,
+          7.41609226465498e-05,
+          0.0001290998394096268,
+          0.00022228131879214577,
+          0.04429413211477953
+        ],
+        "text_to_action_R1": 0.1
+      },
+      "seed": 195819,
+      "shuffled": {
+        "action_to_text_R1": 0.0,
+        "continuous_action_mse": 0.0019897500886468748,
+        "decoder_continuous_saturation_fraction": 0.00020755500207555002,
+        "development_chunk_count": 803,
+        "development_episode_count": 50,
+        "gripper_mse": 0.04957736842260444,
+        "gripper_sign_accuracy": 0.9884028642590287,
+        "macro_action_to_text_R1": 0.0,
+        "per_dimension_mse": [
+          0.002937447647638526,
+          0.004392865401976177,
+          0.004145310413212885,
+          7.098855272229459e-05,
+          0.00014678405278182807,
+          0.00024510446354954863,
+          0.04957736842260442
+        ],
+        "text_to_action_R1": 0.0
+      },
+      "text_to_action_semantic_delta": 0.9
+    }
+  ],
+  "selected_seed": null,
+  "test_split_read": false
+}

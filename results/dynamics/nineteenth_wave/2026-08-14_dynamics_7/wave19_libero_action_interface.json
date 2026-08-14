@@ -1,0 +1,23 @@
+{
+  "amended_at_before_training": "2026-08-14T07:17:18-04:00",
+  "amendment_reason": "Formal source actions confirmed that [-1,1] applies to the six OSC components; the Panda gripper consumes sign and OpenPI output magnitude is not client-clipped.",
+  "osc_input_bounds_first_six": [
+    -1.0,
+    1.0
+  ],
+  "action_dim": 7,
+  "action_repeat": 1,
+  "clipping": "OSC clips each of first six normalized components to [-1,1] before scaling",
+  "control_frequency_hz": 20,
+  "controller": "OSC_POSE",
+  "frozen_at": "2026-08-14T05:59:11-04:00",
+  "gripper": "one_dimensional sign command integrated by Panda gripper; no client clipping; observed formal task-0 example range [-1.00527336, 1.00590591]",
+  "immutable_action_boundary": "safe_env_step passes action.copy() and checks caller bytes unchanged",
+  "network_vs_executed_boundary": "policy_output_actions stores websocket output after OpenPI unnormalization; executed_actions stores an independent copy passed to env.step; no additional client clipping",
+  "physics_frequency_hz": 500,
+  "physics_steps_per_control_step": 25,
+  "policy_action_horizon": 10,
+  "policy_replan_steps": 5,
+  "rotation": "relative_axis_angle_scaled_to_plus_minus_0.5_rad",
+  "translation": "relative_delta_scaled_to_plus_minus_0.05_m"
+}

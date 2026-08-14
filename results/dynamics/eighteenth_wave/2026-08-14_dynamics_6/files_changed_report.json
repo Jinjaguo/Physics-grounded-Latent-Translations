@@ -1,0 +1,21 @@
+{
+  "checkpoints_modified": [],
+  "created_at": "2026-08-14T03:53:05-04:00",
+  "datasets_modified": [],
+  "new_code": [
+    "configs/dynamics_6.yaml",
+    "scripts/dynamics/run_dynamics_6.py",
+    "tests/dynamics/test_dynamics_6_reconstruction_gate.py"
+  ],
+  "new_prompt": [
+    "prompts/dynamics_6.md"
+  ],
+  "new_reports": [
+    "reports/dynamics_6_results.md",
+    "results/dynamics/eighteenth_wave/2026-08-14_dynamics_6"
+  ],
+  "updated_logs": [
+    "RESEARCH_LOG.md",
+    "NEXT_EXPERIMENT.md"
+  ]
+}

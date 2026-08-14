@@ -1,0 +1,40 @@
+{
+  "attempts_per_task_maximum": 50,
+  "branch_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "camera_resolution": 256,
+  "discard_raw_failures": false,
+  "fresh_official_initial_state_per_attempt": true,
+  "frozen_at": "2026-08-14T05:59:11-04:00",
+  "max_steps_libero_10": 520,
+  "minimum_future_steps": 128,
+  "policy_replan_steps": 5,
+  "policy_resize": 224,
+  "source_outcomes_retained": [
+    "successes",
+    "failures"
+  ],
+  "source_policy": "fixed official pi05_libero",
+  "store_failures": true,
+  "successes_per_task_minimum": 20,
+  "successes_per_task_target": 30,
+  "suite": "libero_10",
+  "task_balanced": true,
+  "task_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "wait_steps": 10,
+  "written_before_collection": true
+}

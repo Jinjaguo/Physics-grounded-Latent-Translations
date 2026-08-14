@@ -1,0 +1,38 @@
+Wave-19 files created or updated
+
+Configuration and protocol
+  configs/dynamics_7.yaml
+  prompts/dynamics_7.md
+
+Implementation
+  src/pglt/libero/__init__.py
+  src/pglt/libero/snapshot.py
+  scripts/dynamics/run_dynamics_7.py
+  scripts/dynamics/start_wave19_pi05_server.py
+  scripts/dynamics/collect_wave19_libero.py
+  scripts/dynamics/prepare_wave19_text_features.py
+  scripts/dynamics/derive_wave19_contacts.py
+  scripts/dynamics/train_wave19_representation.py
+  scripts/dynamics/train_wave19_dynamics.py
+  scripts/dynamics/run_wave19_closed_loop.py
+
+Tests
+  tests/dynamics/test_dynamics_7_libero_protocol.py
+
+Reports and project log
+  reports/dynamics_7_results.md
+  RESEARCH_LOG.md
+  NEXT_EXPERIMENT.md
+
+Result artifacts
+  results/dynamics/nineteenth_wave/2026-08-14_dynamics_7/
+  This directory contains preregistrations, source/split/certification manifests,
+  representation seed metrics and logs, gate decisions, diagnostics, publication
+  tables/figure data, exact commands, environment freeze, reports, and the two
+  synchronized project-document copies.
+
+Large raw episodes, derived contacts, text features, and model checkpoints are
+stored below data/dynamics/nineteenth_wave/ and ignored by Git as configured.
+
+The final commit also intentionally includes every pre-existing unignored Wave-18
+change in the worktree because the user requested that all changes be pushed.

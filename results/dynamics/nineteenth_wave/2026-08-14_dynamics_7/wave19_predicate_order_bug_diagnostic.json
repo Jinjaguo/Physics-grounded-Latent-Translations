@@ -1,0 +1,29 @@
+{
+  "diagnostic_type": "certifier_predicate_read_order_bug",
+  "resolved_at": "2026-08-14T07:26:07-04:00",
+  "root_cause": "source recorded check_success before canonical capture_snapshot/mj_forward, while the certifier checked after that forward pass",
+  "ab_diagnostic": {"pre_forward_mismatch_count": 0, "post_forward_mismatch_steps": [252]},
+  "resolution": "source and certifier now share step -> check_success -> canonical snapshot -> physical diagnostics ordering",
+  "immutable_raw_recertification": {"certified": true, "state_max": 0.0, "controller_max": 0.0},
+  "certified": false,
+  "controller_discrepancy_max": 0.0,
+  "eligible": true,
+  "episode_id": "task01_attempt025",
+  "fraction": 0.25,
+  "future_steps": 183,
+  "nonfinite_count": 0,
+  "object_discrepancy_max": 0.0,
+  "past_policy_steps": 61,
+  "predicate_agreement": false,
+  "replay_success_agreement": true,
+  "source_terminal_success": true,
+  "state_discrepancy_max": 0.0,
+  "state_discrepancy_median": 0.0,
+  "state_discrepancy_p95": 0.0,
+  "step": 71,
+  "task_id": 1,
+  "terminal_predicates": [
+    true,
+    true
+  ]
+}
