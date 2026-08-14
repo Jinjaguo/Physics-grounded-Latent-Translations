@@ -1,0 +1,244 @@
+{
+  "created_or_updated_files": [
+    {
+      "bytes": 5310,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/F1_execution_mlp_specification_training_results.json",
+      "sha256": "ae80707d1041488d4110a7d5b64fdebe28db10dcbcf5db00ff87619f6ac22973"
+    },
+    {
+      "bytes": 5329,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/F2_matched_refinement_specification_training_results.json",
+      "sha256": "ecabe47ceed028fe7eafb7ba5d2677d34656a1c6a0184117b4157101ece21548"
+    },
+    {
+      "bytes": 5618,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/F3_free_execution_del_specification_training_results.json",
+      "sha256": "1c4a202703bb8d8fce0de16cb50af08c640510f840ed56ed26b39318a74f1352"
+    },
+    {
+      "bytes": 5487,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/F4_decoder_geometry_del_specification_training_results.json",
+      "sha256": "f5cee862c7443b7b6fa2fc7ffb08de57b8df14b4cd1f86bb4a43b15d0de70bb5"
+    },
+    {
+      "bytes": 40418,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+      "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+    },
+    {
+      "bytes": 80146,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+      "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+    },
+    {
+      "bytes": 45266,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F3_free_execution_del.pt",
+      "sha256": "eb239d9c96e6b30c2dc8cb70c2269cc4dba2e524d8d5e7b2a7a79d3dcef6c85c"
+    },
+    {
+      "bytes": 214912,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F4_decoder_geometry_del.pt",
+      "sha256": "3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9"
+    },
+    {
+      "bytes": 36178,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt",
+      "sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+    },
+    {
+      "bytes": 1814,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/compatibility_preflight_report.json",
+      "sha256": "05a2247f7e1546b690de59f3340027ff79f1b9017f561d6256a1e0aa96d5da10"
+    },
+    {
+      "bytes": 799,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/decoder_jacobian_metric_validation_report.json",
+      "sha256": "50951bb4ce35ef8a89737c27fc860e83102f4221154b204f21d2a223895c0fd9"
+    },
+    {
+      "bytes": 3653,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/development_decoded_action_metrics.json",
+      "sha256": "e18cd3af561aac244e2a6a2eb0d2a37b308672de3cf5463b6ddb3cd164326140"
+    },
+    {
+      "bytes": 4871,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/development_full_and_execution_off_manifold_metrics.json",
+      "sha256": "6e7eb8ff1e91e975476a04c14fabc7c50b5aa0f89c66007d92c611dfb7214fc2"
+    },
+    {
+      "bytes": 18840,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/development_rollout_metrics.json",
+      "sha256": "e6db20e9d9a20cad17f79633c7de6cad27d2d1aa312d8036e6d309951571bc20"
+    },
+    {
+      "bytes": 1304,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/development_semantic_retention_metrics.json",
+      "sha256": "2afae097220fe8ace0159290dcda47a67a1d443f7b042e5d5d6a47d25636c028"
+    },
+    {
+      "bytes": 568,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/environment_provenance.json",
+      "sha256": "4b4f2a9bb5ed109499d8a9ff59e67434ae50bd1f43f2f6e5bee8f9844ab1f646"
+    },
+    {
+      "bytes": 721,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/exact_dynamics_split_audit.json",
+      "sha256": "eab7e8d226175cd52afd3c4798eee5a518a8a6f5270689e71d8210fed6585e32"
+    },
+    {
+      "bytes": 2707,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/executed_commands.txt",
+      "sha256": "895f778ee4a27907a6eb871a7d9b8a96ea249143bb3a685763e2723cdc99e35e"
+    },
+    {
+      "bytes": 6581,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/factorized_dynamics_confirmation_manifest.json",
+      "sha256": "c26c2dd2604a805961a393afdfd73dfc1ca79730003958d4099d3cb76f13338c"
+    },
+    {
+      "bytes": 4878,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/factorized_dynamics_preregistration.json",
+      "sha256": "97c3ddb69da99cd24c72f22056467a16ecbb863124a42ccca39282e80dd30ebe"
+    },
+    {
+      "bytes": 371,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/fifteenth_wave_next_experiment.md",
+      "sha256": "6b4251e7b971fed6b2c7c39f96c937425f56a1e43279118ce01aef0d2d3d9bc2"
+    },
+    {
+      "bytes": 4995,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/fifteenth_wave_results.md",
+      "sha256": "d92fdb142739b2b7adc630604d7f3e3fdd74ca3dcf4495b88fddd86d62180e46"
+    },
+    {
+      "bytes": 560,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/final_integrity_check.json",
+      "sha256": "34e42db68e371cc47efc7b3301e48f99097559af2f2361ba679bd90c9a9ad249"
+    },
+    {
+      "bytes": 4052,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/frozen_representation_model_audit.json",
+      "sha256": "f73013c453657d0b455f3a85399dded8c11a97a2c67fb135334a6f49451d6bf2"
+    },
+    {
+      "bytes": 589,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/hard_variational_claim_gate.json",
+      "sha256": "8a5e6fd4ae175c0ac76ae135b608a7175636761e06d34b9657f9a065e84f3d9e"
+    },
+    {
+      "bytes": 887,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/information_and_fairness_audit.json",
+      "sha256": "8dd86bb5e71be04a2f41626901f502c5bdb46bd2433e5565219f8fba05d61121"
+    },
+    {
+      "bytes": 253,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/off_manifold_thresholds.json",
+      "sha256": "8a160e17852f08af6f0e96d2bcbc8ebb9778fdf26f553c80c40de6f742ad8def"
+    },
+    {
+      "bytes": 3679,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/official_validation_decoded_action_metrics.json",
+      "sha256": "36d46f4dbfe32eb06c8735a29bbed5e072f46ae8fa9982c3126922c9e80c8892"
+    },
+    {
+      "bytes": 4921,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/official_validation_full_and_execution_off_manifold_metrics.json",
+      "sha256": "b609886d96e25b965382432c2660c9816fb97b51e88e0d975b5d22a02f02ea43"
+    },
+    {
+      "bytes": 1360,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/official_validation_semantic_retention_metrics.json",
+      "sha256": "5d0bb590039d3bbfbba3c0949dee31752ff809c76b7186493a56f7a8a1df1ffd"
+    },
+    {
+      "bytes": 19093,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/one_shot_official_validation_results.json",
+      "sha256": "b5fb378e66cfb6f82daf9bdc306dcea12f5b3699c5c97d0b29ec2f7266a237c3"
+    },
+    {
+      "bytes": 1078,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/paper_claim_decision.json",
+      "sha256": "b0c18da88e8ca16d2edbb22d61fadcf493c9e05b0dc697189cc387e2378792c8"
+    },
+    {
+      "bytes": 1023,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/parameter_count_table.json",
+      "sha256": "29be61bbf372a5b20432f08b5c6fa6d53c40307b0d449f7c554d42f07c642a31"
+    },
+    {
+      "bytes": 4217,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/pytest_pretraining.xml",
+      "sha256": "124a5e04e19aec72afb121012a5285971f3538e39f9960e54d776425bfe714ab"
+    },
+    {
+      "bytes": 4217,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/pytest_results.xml",
+      "sha256": "e6c2c54d92b24b444120d5ae2d41c4e1bd6dbbc2ae38cde7ba4c5d938f0c897e"
+    },
+    {
+      "bytes": 1393,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/representation_post_training_audit.json",
+      "sha256": "95d08ac6c61d01d1d045a40b7f4df708fa0589e56c2cd1788d0d3e45a38c1cf7"
+    },
+    {
+      "bytes": 907,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/residual_vs_error_report.json",
+      "sha256": "a4df42e348a5d2a40d2ff0f60dca2e22fd13d6d7502a2da711918fb652a2a99a"
+    },
+    {
+      "bytes": 2613,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/semantic_predictor_specification_results.json",
+      "sha256": "355fa64630c6cb5d9bfafc4473dc714c7594855b6084b586f4676e2a2de682c3"
+    },
+    {
+      "bytes": 24819,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/training_and_development_selection.json",
+      "sha256": "f786d8ee36f456e7553276cdbf073248d5116c43a79a78ad847dcd0f2f7df5ae"
+    },
+    {
+      "bytes": 4995,
+      "path": "reports/dynamics_3_results.md",
+      "sha256": "d92fdb142739b2b7adc630604d7f3e3fdd74ca3dcf4495b88fddd86d62180e46"
+    },
+    {
+      "bytes": 371,
+      "path": "NEXT_EXPERIMENT.md",
+      "sha256": "6b4251e7b971fed6b2c7c39f96c937425f56a1e43279118ce01aef0d2d3d9bc2"
+    },
+    {
+      "bytes": 848,
+      "path": "RESEARCH_LOG.md",
+      "sha256": "5849ca505bf55c9b80a16fce0317e820293bcb8606738254f4e4415e07557410"
+    },
+    {
+      "bytes": 1817,
+      "path": "configs/dynamics_3.yaml",
+      "sha256": "95eda88699f09953c5a0d7c3f11a8895dcc68d3659f6cf47dbfa90d1b6e67ae9"
+    },
+    {
+      "bytes": 9774,
+      "path": "src/pglt/dynamics/factorized.py",
+      "sha256": "9a88496af14d7bfeec17a1a7765c21589a380d36ffbbcd0add69aa3e1b283343"
+    },
+    {
+      "bytes": 74916,
+      "path": "scripts/dynamics/run_dynamics_3.py",
+      "sha256": "779526d767f0359a1e35f4435f5fcaed93fd9f53c319228bee9f5ebd18fb055f"
+    },
+    {
+      "bytes": 5723,
+      "path": "scripts/dynamics/audit_dynamics_3.py",
+      "sha256": "75673097eb36e24286eeba1c562b5cc67b94d70a87f46ff051a972ed561a41bb"
+    },
+    {
+      "bytes": 4973,
+      "path": "tests/dynamics/test_dynamics_3_factorized.py",
+      "sha256": "40a1950fd7e60f313a8d1d8bcf57f44f99252e39562fcca85e807dd09214bde3"
+    },
+    {
+      "bytes": 654,
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/final_audit_report.json",
+      "sha256": "91ce48f027d2cc9267bce13ad347970fa5cd8e00c01ce0598eb4f6577b3002fb"
+    }
+  ]
+}

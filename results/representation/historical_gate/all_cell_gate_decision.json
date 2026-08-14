@@ -1,0 +1,15 @@
+{
+  "development_passed": true,
+  "confirmation_complete": true,
+  "confirmation_units_observed": 18,
+  "confirmation_units_expected": 18,
+  "episode_seed_cells": 24,
+  "motor_failures": 0,
+  "semantic_violations": 1,
+  "confirmation_passed": false,
+  "gate_a": "FAIL",
+  "representation": "NOT_FROZEN",
+  "latent_dynamics": "FORBIDDEN",
+  "confirmation_adaptation_performed": false,
+  "created_at": "2026-08-11T23:54:51.887915-04:00"
+}

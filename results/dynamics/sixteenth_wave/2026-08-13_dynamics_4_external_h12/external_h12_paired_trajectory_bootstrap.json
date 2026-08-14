@@ -1,0 +1,55 @@
+{
+  "per_task": {
+    "lift_blue_block_slider": {
+      "bootstrap_replicates": 10000,
+      "lower_95": -0.09369056207592569,
+      "mean_delta_auc": -0.06884722670473861,
+      "trajectory_count": 10,
+      "upper_95": -0.04857521881440811
+    },
+    "lift_red_block_table": {
+      "bootstrap_replicates": 10000,
+      "lower_95": -0.06375109568659994,
+      "mean_delta_auc": -0.04802220349206864,
+      "trajectory_count": 10,
+      "upper_95": -0.03154338251418792
+    },
+    "place_in_slider": {
+      "bootstrap_replicates": 10000,
+      "lower_95": -0.16525627257751527,
+      "mean_delta_auc": -0.12175324123867523,
+      "trajectory_count": 10,
+      "upper_95": -0.08429663723478982
+    },
+    "push_pink_block_right": {
+      "bootstrap_replicates": 10000,
+      "lower_95": -0.19174539682712188,
+      "mean_delta_auc": -0.12861758767157147,
+      "trajectory_count": 10,
+      "upper_95": -0.07762767272528068
+    },
+    "turn_off_lightbulb": {
+      "bootstrap_replicates": 10000,
+      "lower_95": -0.13989960015258507,
+      "mean_delta_auc": -0.0919685876158656,
+      "trajectory_count": 10,
+      "upper_95": -0.049404527766552526
+    },
+    "turn_on_lightbulb": {
+      "bootstrap_replicates": 10000,
+      "lower_95": -0.14425531254235552,
+      "mean_delta_auc": -0.11428383600139158,
+      "trajectory_count": 10,
+      "upper_95": -0.0880419466552133
+    }
+  },
+  "pooled": {
+    "bootstrap_replicates": 10000,
+    "lower_95": -0.11341666735080953,
+    "mean_delta_auc": -0.09558211378738518,
+    "trajectory_count": 60,
+    "upper_95": -0.07946184883150686
+  },
+  "sampling_unit": "whole selected annotation trajectory",
+  "window_bootstrap": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "preregistered_not_run",
+  "representation_checkpoint_manifest": "checkpoints/representation/manifest.json",
+  "latent_serialization": "per-window full 32-D EMA latent plus 16-D semantic and 16-D execution slices, with checkpoint/episode/frame provenance",
+  "temporal_indexing": "H=16 action window at t encodes actions [t,t+15]; next latent uses the next causal window definition frozen before dynamics execution",
+  "causal_information_set": "future target-window actions forbidden as generalized force when predicting the latent encoded from those actions",
+  "models": [
+    "baseline MLP",
+    "corrected unforced DEL",
+    "causal controlled/forced DEL"
+  ],
+  "oracle_teacher_forced_diagnostic": "optional and reported separately; never a causal baseline",
+  "equal_information_set_requirement": true,
+  "metrics": [
+    "one-step latent error",
+    "multi-step rollout latent error",
+    "decoded-action continuous MSE and gripper accuracy",
+    "off-manifold distance"
+  ],
+  "environment_replay_prerequisites": [
+    "frozen representation",
+    "serialized consecutive latents",
+    "exact action/state temporal alignment",
+    "CALVIN environment dependency validation"
+  ],
+  "dynamics_results_in_current_representation_stage": false
+}

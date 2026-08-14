@@ -1,0 +1,17 @@
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage prepare --device cpu
+PYTHONPATH=src PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/pytest_pretraining.xml
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage validate_metric --device cpu
+# First validate_metric attempt exited 1 before training/development metrics: the unpreconditioned decoder-metric residual update made the residual-square loss infinite. No scientific hyperparameter or gate was changed.
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python -m py_compile src/pglt/dynamics/factorized.py scripts/dynamics/run_dynamics_3.py
+PYTHONPATH=src PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/dynamics/test_dynamics_3_factorized.py -q
+# After the preregistered pretraining numerical amendment (JVP Rayleigh scalar preconditioner), validate_metric exited 0.
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage validate_metric --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage train --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage development --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage preflight --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage freeze --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage validation --device cpu
+PYTHONPATH=src PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/pytest_results.xml
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_3.py --config configs/dynamics_3.yaml --stage finalize --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/audit_dynamics_3.py --config configs/dynamics_3.yaml
+df -BG .

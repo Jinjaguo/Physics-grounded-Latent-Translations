@@ -1,0 +1,26 @@
+{
+  "block_a": {
+    "fields": [
+      "q_previous",
+      "q_current",
+      "frozen_context"
+    ],
+    "future_target_actions": false
+  },
+  "block_b": {
+    "fields": [
+      "q_previous",
+      "q_current",
+      "frozen_context",
+      "same_executed_q_current_action_window_packet"
+    ],
+    "future_target_actions": false,
+    "history_may_duplicate_q_current": true
+  },
+  "oracle": {
+    "excluded_from_primary": true,
+    "future_target_actions": true,
+    "name": "ORACLE_FUTURE_ACTION_DIAGNOSTIC"
+  },
+  "runtime_rejection_rule": "every causal command_frame_index < prediction_issue_frame"
+}

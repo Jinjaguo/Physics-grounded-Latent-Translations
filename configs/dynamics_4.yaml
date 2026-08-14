@@ -1,0 +1,54 @@
+experiment:
+  name: dynamics_4
+  wave: sixteenth_wave
+  seed: 1604
+  output_root: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4
+  acquisition_root: artifacts/sixteenth_wave/data_acquisition
+  report_path: reports/dynamics_4_results.md
+
+data:
+  staging_root: .staging/sixteenth_wave
+  candidate_cache: artifacts/sixteenth_wave/data_acquisition/candidate_cache
+  chunk_length: 16
+  stride: 16
+  control_frequency_hz: 30
+  minimum_frames: 160
+  preferred_frames: 176
+  minimum_windows_per_segment: 10
+  minimum_segments_total: 60
+  minimum_segments_per_task: 10
+  preferred_segments_per_task: 10
+  tasks:
+    - lift_blue_block_slider
+    - lift_red_block_table
+    - place_in_slider
+    - push_pink_block_right
+    - turn_off_lightbulb
+    - turn_on_lightbulb
+
+sources:
+  lerobot_repo: CollisionCode/calvin_d_d_lerobot_v2.1
+  roboverse_repo: RoboVerseOrg/roboverse_data
+  abcd_repo: VyoJ/calvin-ABCD-D-subsets
+  abcd_first_subset: training/subset_training_023.zip
+
+models:
+  representation_manifest: checkpoints/representation/manifest.json
+  representation_checkpoint: checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt
+  semantic_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt
+  f1_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt
+  f2_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt
+  historical_del_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F4_decoder_geometry_del.pt
+  refinement_iterations: 4
+
+evaluation:
+  horizons: [1, 2, 4, 8]
+  bootstrap_replicates: 10000
+  knn_k: 5
+  local_pca_variance_fraction: 0.9
+
+storage:
+  minimum_free_bytes: 200000000000
+  planned_download_bytes: 2160142328
+  planned_temporary_extraction_bytes: 2300000000
+  maximum_project_gb: 20

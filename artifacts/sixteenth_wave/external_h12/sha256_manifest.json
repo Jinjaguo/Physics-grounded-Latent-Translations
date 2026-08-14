@@ -1,0 +1,258 @@
+{
+  "retained_segments": [
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_023_ann_00535.npz",
+      "sha256": "346d1dfe6efa3f885872d6fb7cc5602779c869e4caad48a1428dad3838cb31bf"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_023_ann_00543.npz",
+      "sha256": "d855c1dfa334f2a253ef3f44021734949abf9c4b930d0bce53f8a6bdd8d5c411"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_03722.npz",
+      "sha256": "fbc1f52b2f46b2e1664258ff992dde04976bee20204a73a556171aa0faccc8df"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_03808.npz",
+      "sha256": "1f9fbb5c33a1851a8fe050fab11d4f4e6dbcbab9df3cfae3de73ee4c21df5906"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_07035.npz",
+      "sha256": "d536f1604ea0695b87fccbdc86544e997560112c1de547952371430efbbda864"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_00080.npz",
+      "sha256": "48f9c1da0220eb89794d51a910ec557cb0dcc7badeade87e1ea12075c4d4c085"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_00134.npz",
+      "sha256": "a2fc741f2eac038cd0e9a41c77067c05b74f8a3888c407a8a95956bce5c196f9"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00171.npz",
+      "sha256": "fe3584d2697526434a0f2900218188792c4a203c9984bc2a03d410888951b778"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_00265.npz",
+      "sha256": "9fd03811d8d39e87520820c028ca0e0861e38b5f057a610891b0165cb6dd4bf2"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00275.npz",
+      "sha256": "7efc2637a4a3d283a74bf9f28066d6c99bb517aefe2a38564fb75a4ce704fdd5"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_00441.npz",
+      "sha256": "6e012f41add7098e671b7afc0f7858fc28df62605f66fc4edf3c6a4483986e1a"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00555.npz",
+      "sha256": "739762fa26a369cc28495a876421613f79f0f3c571957d995c4924c8eb4de652"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01131.npz",
+      "sha256": "1362923f2e0d0055a5ff0d448118088e96a92497fc653455fcc7da0034344d6f"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_01156.npz",
+      "sha256": "6e647fb3c8ddb4fcf731f062b551856d2d0a114c93281deb5d575cd434b2f9e0"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01158.npz",
+      "sha256": "6ddce1d7f1a818799f7dcd77cdf503d4e1fb17d2ff0418de608be34a032c7ac0"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_01298.npz",
+      "sha256": "93d58e93e4689f9cdfec768b97683910cd99704b1ff08f37801d578386e26e49"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_01374.npz",
+      "sha256": "d5bab83e7cbe9f479d2a0d06e8df0043383b891839d3a9f522ec5021871d9b07"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01426.npz",
+      "sha256": "379054581659146fdcd155ff7fa3fcbf3635e3fe78cb81d3956a9635e9324d35"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01474.npz",
+      "sha256": "fd042ef7f4ac4dc4cacd982268fa96ceca285915dcce1e5f61b7ff1c94a8ea3d"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_01543.npz",
+      "sha256": "8a7d33fa100cbcb2c5cb4b2e4f8331d764dc885a4083445d0ebc2a36fabf4f64"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01570.npz",
+      "sha256": "48b95d31e244270694945eed7602baeda54a87804ea9d9882315e086dfd5f444"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01574.npz",
+      "sha256": "9ebb208ed241b12861cda7d87e608efbefa046cff0a0c01412aa55aadee66d86"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01612.npz",
+      "sha256": "0c6f2d3807dc11da75c4adba65615d6821418c7cc96735cf65359688177bcf0c"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02135.npz",
+      "sha256": "2c65a0e666f3dd9068018659f909a1dcc0c760f257d7a12df80dad655bd1c3e6"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02217.npz",
+      "sha256": "1eff664aedc3cf49b862193054be4d77ddac54ca0553271fd21a4cc49f5da8ef"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02246.npz",
+      "sha256": "bed9bce4fe1998d043da2923d3263e5dd2511663fb978c7174e4d78f671accb5"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_02310.npz",
+      "sha256": "b1e61ccb80e468653b59b50a8effbb7f4b3c7e89bf3012ef2f24f9f574bd5262"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_02695.npz",
+      "sha256": "b377854af8020fe2200788f1d7b59280fb8660c8996d996ebbb571e8b937e997"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_03140.npz",
+      "sha256": "814ae60bf0ed8f16604a4ceeb1d88ec0cbea5599a5078d6da213b89c9ae3fa8e"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_03235.npz",
+      "sha256": "e8c30d92ae78a6c5db0baa25ee6e816846f26c2f4047e60e588b0a5ecca25cba"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_03415.npz",
+      "sha256": "e0493f49183553de877c9631acfc60aaf62e66c07145f5ade78621210879e834"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_03624.npz",
+      "sha256": "1e756f161c2581f032d8b70726f46b7c0be475b92c1d1b138cf4b5aed9788b43"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_03713.npz",
+      "sha256": "fe2761e2f15a1a0ff3c01c576631dc10283a0fd138ed620db3e854ce9c07f480"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_03907.npz",
+      "sha256": "4ccb64a5c963d9dc4dd1878a274671baf06e21e0436686385370e631028f2927"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_03951.npz",
+      "sha256": "acd831d4baad59dcd0e7cce836c6e81dcd06a85684af33246475f40442ab1c75"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_03975.npz",
+      "sha256": "320432d284f384cb073abff03808f9afcafe60336a600fb87ff1cb513c98891f"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04000.npz",
+      "sha256": "92636eb2b4352acf68bf72574192f33999e7d5e7bb3c2607d97eee0ffaf03f8c"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04199.npz",
+      "sha256": "f28209418bdb62cce9624495df8d94d8d92b8ae5376bb0e8fd28291ea6312cc4"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04326.npz",
+      "sha256": "f52f66a8f1243ec99d6f48716c0717c5e214d5249f5313db1f6be7182a49df8d"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_04402.npz",
+      "sha256": "6f3de799678d6b2e970861a2f62d01c2dabb50aaa82bf4725e2ae4df89dbd7bf"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_04495.npz",
+      "sha256": "3e58e22051effc964476628c7a3a5215466f30c5434e6e04ea40b052b6d83964"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_04724.npz",
+      "sha256": "0ad2bfb7f7f0c9a8b2856b5fb8f80f86219b53ff4c29eb4b4b792e2b66bd2c67"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04771.npz",
+      "sha256": "5ac006f97548c311fe4b05a91c4336c1128d461eb379e8abc53ea2db102e2691"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_05476.npz",
+      "sha256": "f7c0c5eb862753655d2cb6d2d17083fe97ef5bfd7edd02b20c764871ab34896f"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_05614.npz",
+      "sha256": "113aca6d6675820bd8710f8cede34ffab5cacc61fbcba62783379d0c5135ffc2"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_05898.npz",
+      "sha256": "0909a49a9e1f928aa6c242a1d9b86238e89d0e895fe587ff7fce26392f21573f"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_05963.npz",
+      "sha256": "8881b61ae7a5a103d88f3db73dd579c3287b19305cb4731fd2476fc6b5681095"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_05965.npz",
+      "sha256": "8dd08e4221c443faa579b9fde26c0ebbceb3c0975ac3b2a01b1ea3a78ef4f1b0"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_07026.npz",
+      "sha256": "30aee6b0cdef3824289149ab67c9020e0bdda8dd64d99a8923ba9025498cfdef"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_07695.npz",
+      "sha256": "ffb5bea84a4abb2347171e24a592f8f5d3701cbbf1d1dfb28afce9361446a701"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08551.npz",
+      "sha256": "bc3493d43a9cca1e25ba2e25000b9f10c4975d120a17508b14820850fa07e5b1"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08587.npz",
+      "sha256": "dea1d75824ac25a7d460dab029172e7756a98543dad97b28427c1ca339c3c644"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08599.npz",
+      "sha256": "2acfec5acfefcb719c5285abbc75abf5a9e47066325ebca1c8c3f30d120dd6cd"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_09306.npz",
+      "sha256": "09897897ed06009941cb6337d4e40a972277c7618af25c131f5b414706e62ac7"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_09695.npz",
+      "sha256": "9fc1d232f5ddbddf8bfd81725d43b354fb1ab5c86b86e3b55ba2bc61abc6828b"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_10029.npz",
+      "sha256": "db3e8cf6e254825395b089899df516b665c3b5b7adeb13cd06f7eff455c3753a"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17553.npz",
+      "sha256": "43f03b50d275407bd7b1e92246a1e24c3339674dfb52e09c49b41dcc92dbe0e4"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17591.npz",
+      "sha256": "29799ce8b776dfaf96efecbe0807f2c2896329ced4e184a0d3402088ab2b5537"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17966.npz",
+      "sha256": "b99047a7eb8a290863a944af0e41542c96d4366425213b02c28f8c739e21641f"
+    },
+    {
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17985.npz",
+      "sha256": "c72e0320c35dd26ae21017c70d386ff890519a1ce811448521b20bee64fe8d2c"
+    }
+  ],
+  "source_zips": [
+    {
+      "bytes": 2160142328,
+      "repo_path": "training/subset_training_023.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21"
+    },
+    {
+      "bytes": 29194555788,
+      "repo_path": "training/subset_training_000.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af"
+    }
+  ]
+}

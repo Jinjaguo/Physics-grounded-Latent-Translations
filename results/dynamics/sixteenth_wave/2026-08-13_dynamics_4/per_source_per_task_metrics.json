@@ -1,0 +1,5 @@
+{
+  "F1_F2_metrics_read": false,
+  "reason": "0 PRIMARY_COMPATIBLE annotation-consistent segments; >=60 and >=10/task are required. The data gate failed before any F1/F2 primary inference.",
+  "status": "not_evaluated_due_data_adequacy_gate"
+}

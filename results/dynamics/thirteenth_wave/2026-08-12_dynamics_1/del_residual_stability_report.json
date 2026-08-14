@@ -1,0 +1,44 @@
+{
+  "forced_del": {
+    "1": {
+      "convergence_rate": 0.0,
+      "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+      "iterations": 4.0,
+      "learned_energy_change_abs": 8.353875089361965,
+      "nonfinite_rate": 0.0,
+      "residual_norm": 2.2511917850578644
+    },
+    "16": {},
+    "2": {
+      "convergence_rate": 0.0,
+      "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+      "iterations": 4.0,
+      "learned_energy_change_abs": 6.680497260597663,
+      "nonfinite_rate": 0.0,
+      "residual_norm": 2.071107848267245
+    },
+    "4": {},
+    "8": {}
+  },
+  "unforced_del": {
+    "1": {
+      "convergence_rate": 0.0,
+      "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+      "iterations": 4.0,
+      "learned_energy_change_abs": 2.186910029395996,
+      "nonfinite_rate": 0.0,
+      "residual_norm": 0.1503786305526653
+    },
+    "16": {},
+    "2": {
+      "convergence_rate": 0.0,
+      "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+      "iterations": 4.0,
+      "learned_energy_change_abs": 1.7823569328804327,
+      "nonfinite_rate": 0.0,
+      "residual_norm": 0.15884786741278037
+    },
+    "4": {},
+    "8": {}
+  }
+}

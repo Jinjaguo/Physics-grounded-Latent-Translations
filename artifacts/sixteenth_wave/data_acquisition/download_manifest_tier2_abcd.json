@@ -1,0 +1,19 @@
+{
+  "downloaded_bytes": 2160142328,
+  "files": [
+    {
+      "bytes": 2160142328,
+      "repo_path": "training/subset_training_023.zip",
+      "sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21"
+    }
+  ],
+  "license": "mit",
+  "repo_id": "VyoJ/calvin-ABCD-D-subsets",
+  "repository_file_count": 28,
+  "retained_candidate_files": [],
+  "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+  "selected_files": [
+    "training/subset_training_023.zip"
+  ],
+  "tier": "2"
+}

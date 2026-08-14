@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "checks": {
+    "H1_H2_only": true,
+    "all_metrics_finite": true,
+    "all_models_frozen_and_causal": true,
+    "checkpoint_hashes_unchanged": true,
+    "disk_floor_passed": true,
+    "exact_60_and_10_per_task": true,
+    "preregistered_before_outputs": true,
+    "report_and_log_scope_explicit": true,
+    "required_deliverables_present": true,
+    "selection_model_independent": true,
+    "tests_passed": true,
+    "whole_trajectory_bootstrap_10000": true
+  },
+  "free_bytes": 977950113792,
+  "minimum_free_bytes": 200000000000,
+  "missing": []
+}

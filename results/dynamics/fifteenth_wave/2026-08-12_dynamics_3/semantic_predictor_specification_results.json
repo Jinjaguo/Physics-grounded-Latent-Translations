@@ -1,0 +1,109 @@
+{
+  "retrained_per_execution_model": false,
+  "shared_by_models": [
+    "F1_execution_mlp",
+    "F2_matched_refinement",
+    "F3_free_execution_del",
+    "F4_decoder_geometry_del"
+  ],
+  "single_checkpoint_sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617",
+  "specification": {
+    "class": "SemanticPredictor",
+    "information_fields": [
+      "s_previous",
+      "s_current",
+      "context"
+    ],
+    "trainable_parameters": 8336
+  },
+  "standalone_results": {
+    "best_epoch": 20,
+    "development_semantic_mse": 0.45369163155555725,
+    "training_log": [
+      {
+        "epoch": 1,
+        "training_semantic_mse": 0.9989142119884491
+      },
+      {
+        "epoch": 2,
+        "training_semantic_mse": 0.9494247138500214
+      },
+      {
+        "epoch": 3,
+        "training_semantic_mse": 0.9022258371114731
+      },
+      {
+        "epoch": 4,
+        "training_semantic_mse": 0.84931880235672
+      },
+      {
+        "development_semantic_mse": 0.7168393731117249,
+        "epoch": 5,
+        "training_semantic_mse": 0.7856480628252029
+      },
+      {
+        "epoch": 6,
+        "training_semantic_mse": 0.7165074348449707
+      },
+      {
+        "epoch": 7,
+        "training_semantic_mse": 0.6571427620947361
+      },
+      {
+        "epoch": 8,
+        "training_semantic_mse": 0.6227139309048653
+      },
+      {
+        "epoch": 9,
+        "training_semantic_mse": 0.5953783988952637
+      },
+      {
+        "development_semantic_mse": 0.5647439956665039,
+        "epoch": 10,
+        "training_semantic_mse": 0.5670862011611462
+      },
+      {
+        "epoch": 11,
+        "training_semantic_mse": 0.5445100292563438
+      },
+      {
+        "epoch": 12,
+        "training_semantic_mse": 0.5230988971889019
+      },
+      {
+        "epoch": 13,
+        "training_semantic_mse": 0.502986915409565
+      },
+      {
+        "epoch": 14,
+        "training_semantic_mse": 0.48569072782993317
+      },
+      {
+        "development_semantic_mse": 0.4920070469379425,
+        "epoch": 15,
+        "training_semantic_mse": 0.47110815346241
+      },
+      {
+        "epoch": 16,
+        "training_semantic_mse": 0.45642291381955147
+      },
+      {
+        "epoch": 17,
+        "training_semantic_mse": 0.4453071057796478
+      },
+      {
+        "epoch": 18,
+        "training_semantic_mse": 0.43428710475564003
+      },
+      {
+        "epoch": 19,
+        "training_semantic_mse": 0.4227696508169174
+      },
+      {
+        "development_semantic_mse": 0.45369163155555725,
+        "epoch": 20,
+        "training_semantic_mse": 0.412923626601696
+      }
+    ]
+  }
+}

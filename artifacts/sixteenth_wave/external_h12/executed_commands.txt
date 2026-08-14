@@ -1,0 +1,3 @@
+df -h /home/jinjaguo/PGLT && df -B1 /home/jinjaguo/PGLT
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4_external_h12.py --config configs/dynamics_4_external_h12.yaml --stage prepare
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4_external_h12.py --config configs/dynamics_4_external_h12.yaml --stage acquire

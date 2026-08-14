@@ -1,0 +1,71 @@
+{
+  "blocking_conditions": [
+    "pybullet package unavailable",
+    "numpy-quaternion package unavailable",
+    "no PyBullet SHARED_MEMORY VR server",
+    "no physical VR controller event source",
+    "no repository-supported scripted controller or usable pretrained CALVIN policy is present"
+  ],
+  "collected_segments": 0,
+  "collection_required": true,
+  "controller_and_recorder": {
+    "action_format": "absolute end-effector position (3), quaternion orientation (4), gripper {-1,+1} from VR analogue trigger",
+    "collection_source": "third_party/calvin/calvin_env/calvin_env/vrdatacollector.py",
+    "collection_source_sha256": "b11f3bee6cfc25b0aba398c558c649b09a4934a9d2cd4d2e2987c7071440e84a",
+    "controller": "VrInput backed by PyBullet VR events from a physical controller",
+    "controller_source": "third_party/calvin/calvin_env/calvin_env/io_utils/vr_input.py",
+    "recorder": "DataRecorder at 30 Hz",
+    "recorder_source": "third_party/calvin/calvin_env/calvin_env/io_utils/data_recorder.py"
+  },
+  "created_before_collection": true,
+  "current_environment_dependencies": {
+    "hydra": true,
+    "omegaconf": true,
+    "pybullet": false,
+    "quaternion": false
+  },
+  "disallowed_workarounds_not_used": [
+    "invent random/scripted/learned controller",
+    "concatenate short annotations",
+    "repeat or replay windows",
+    "label no-op trajectories as successful task attempts"
+  ],
+  "environment": {
+    "bullet_frequency_hz": 240,
+    "camera_configuration": "no_cameras",
+    "commit": "fa03f01f19c65920e18cf37398a9ce859274af76",
+    "control_frequency_hz": 30,
+    "environment_class": "PlayTableSimEnv",
+    "environment_source": "third_party/calvin/calvin_env/calvin_env/envs/play_table_env.py",
+    "repository": "CALVIN",
+    "scene": "calvin_scene_D",
+    "use_vr": true
+  },
+  "prospective_collection_design": {
+    "frame_rate_hz": 30,
+    "maximum_trajectory_duration_seconds": 12.0,
+    "minimum_frames": 160,
+    "randomization": "CALVIN scene-D reset using frozen prospective seeds 160400..160459; no model-dependent selection",
+    "representation_or_dynamics_influence_collection": false,
+    "start_state_sampling": "native CALVIN scene reset; record exact robot_obs and scene_obs",
+    "success_failure_recording": "new_playtable_tasks Tasks.get_task_info_for_set from start/end info; retain both outcomes",
+    "target_segments_per_task": {
+      "lift_blue_block_slider": 10,
+      "lift_red_block_table": 10,
+      "place_in_slider": 10,
+      "push_pink_block_right": 10,
+      "turn_off_lightbulb": 10,
+      "turn_on_lightbulb": 10
+    },
+    "task_instructions": [
+      "lift_blue_block_slider",
+      "lift_red_block_table",
+      "place_in_slider",
+      "push_pink_block_right",
+      "turn_off_lightbulb",
+      "turn_on_lightbulb"
+    ],
+    "termination_rule": "operator ends after task attempt and at least 160 recorded frames"
+  },
+  "status": "blocked_existing_supported_pipeline_not_runnable_in_current_environment"
+}

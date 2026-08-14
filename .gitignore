@@ -1,0 +1,48 @@
+# Upstream repositories and downloaded datasets are external, reproducible inputs.
+third_party/
+
+# Source datasets and staged/derived trajectory arrays are local-only.
+data/
+.staging/
+*.npy
+*.npz
+*.zip
+*.pkl
+*.pickle
+artifacts/**/hf_*_meta/
+artifacts/**/candidate_cache/
+artifacts/**/continuous_blocks/
+results/**/*sequences.jsonl
+results/**/*dataset_audit.jsonl
+
+# Python build and test artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Local environments and editor state.
+.venv/
+.env
+.idea/
+.vscode/
+
+# Large generated experiment products. Keep small reports and audit artifacts tracked.
+experiments/
+checkpoints/
+artifacts/software_validation/
+*.pt
+*.pth
+
+# Private development history and recoverable retired-tree quarantine.
+archive/
+
+# The small, frozen paper-release checkpoints are intentionally versioned.
+!checkpoints/
+checkpoints/*
+!checkpoints/representation/
+!checkpoints/representation/**

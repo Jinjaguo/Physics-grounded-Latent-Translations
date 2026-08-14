@@ -1,0 +1,59 @@
+{
+  "missing": [
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "lift_blue_block_slider"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "lift_red_block_table"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "place_in_slider"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "push_pink_block_right"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "turn_off_lightbulb"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "turn_on_lightbulb"
+    }
+  ],
+  "observed_per_task": {
+    "lift_blue_block_slider": 0,
+    "lift_red_block_table": 0,
+    "place_in_slider": 0,
+    "push_pink_block_right": 0,
+    "turn_off_lightbulb": 0,
+    "turn_on_lightbulb": 0
+  },
+  "observed_total": 0,
+  "primary_inference_permitted": false,
+  "required_per_task": 10,
+  "required_total": 60,
+  "status": "INSUFFICIENT_DATA"
+}

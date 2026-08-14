@@ -1,0 +1,14 @@
+{
+  "forced": {
+    "exact_within_1e-7": true,
+    "prediction_max_abs_difference": 0.0,
+    "residual_norm_max_abs_difference": 0.0,
+    "residual_trace_max_abs_difference": 0.0
+  },
+  "unforced": {
+    "exact_within_1e-7": true,
+    "prediction_max_abs_difference": 0.0,
+    "residual_norm_max_abs_difference": 0.0,
+    "residual_trace_max_abs_difference": 0.0
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "ORACLE_FUTURE_ACTION_DIAGNOSTIC": {
+    "1": {
+      "correct_task_assignment": 0.5381526104417671,
+      "predicted_latent_to_text_retrieval_accuracy": 0.5381526104417671,
+      "semantic_cosine_to_frozen_task_prototype": 0.26668351888656616
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.37398373983739835,
+      "predicted_latent_to_text_retrieval_accuracy": 0.37398373983739835,
+      "semantic_cosine_to_frozen_task_prototype": 0.21707020699977875
+    },
+    "4": {},
+    "8": {}
+  },
+  "constant_velocity": {
+    "1": {
+      "correct_task_assignment": 0.3895582329317269,
+      "predicted_latent_to_text_retrieval_accuracy": 0.3895582329317269,
+      "semantic_cosine_to_frozen_task_prototype": 0.12686142325401306
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.34959349593495936,
+      "predicted_latent_to_text_retrieval_accuracy": 0.34959349593495936,
+      "semantic_cosine_to_frozen_task_prototype": 0.08508722484111786
+    },
+    "4": {},
+    "8": {}
+  },
+  "copy": {
+    "1": {
+      "correct_task_assignment": 0.6586345381526104,
+      "predicted_latent_to_text_retrieval_accuracy": 0.6586345381526104,
+      "semantic_cosine_to_frozen_task_prototype": 0.29891058802604675
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.5691056910569106,
+      "predicted_latent_to_text_retrieval_accuracy": 0.5691056910569106,
+      "semantic_cosine_to_frozen_task_prototype": 0.28086262941360474
+    },
+    "4": {},
+    "8": {}
+  },
+  "forced_del": {
+    "1": {
+      "correct_task_assignment": 0.2931726907630522,
+      "predicted_latent_to_text_retrieval_accuracy": 0.2931726907630522,
+      "semantic_cosine_to_frozen_task_prototype": 0.17656266689300537
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.16260162601626016,
+      "predicted_latent_to_text_retrieval_accuracy": 0.16260162601626016,
+      "semantic_cosine_to_frozen_task_prototype": 0.0995788499712944
+    },
+    "4": {},
+    "8": {}
+  },
+  "history_mlp": {
+    "1": {
+      "correct_task_assignment": 0.5783132530120482,
+      "predicted_latent_to_text_retrieval_accuracy": 0.5783132530120482,
+      "semantic_cosine_to_frozen_task_prototype": 0.2850208282470703
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.4065040650406504,
+      "predicted_latent_to_text_retrieval_accuracy": 0.4065040650406504,
+      "semantic_cosine_to_frozen_task_prototype": 0.245097354054451
+    },
+    "4": {},
+    "8": {}
+  },
+  "matched_refinement": {
+    "1": {
+      "correct_task_assignment": 0.5341365461847389,
+      "predicted_latent_to_text_retrieval_accuracy": 0.5341365461847389,
+      "semantic_cosine_to_frozen_task_prototype": 0.2655697166919708
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.34959349593495936,
+      "predicted_latent_to_text_retrieval_accuracy": 0.34959349593495936,
+      "semantic_cosine_to_frozen_task_prototype": 0.1938226968050003
+    },
+    "4": {},
+    "8": {}
+  },
+  "mlp": {
+    "1": {
+      "correct_task_assignment": 0.5381526104417671,
+      "predicted_latent_to_text_retrieval_accuracy": 0.5381526104417671,
+      "semantic_cosine_to_frozen_task_prototype": 0.2536182403564453
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.37398373983739835,
+      "predicted_latent_to_text_retrieval_accuracy": 0.37398373983739835,
+      "semantic_cosine_to_frozen_task_prototype": 0.1887027472257614
+    },
+    "4": {},
+    "8": {}
+  },
+  "unforced_del": {
+    "1": {
+      "correct_task_assignment": 0.30120481927710846,
+      "predicted_latent_to_text_retrieval_accuracy": 0.30120481927710846,
+      "semantic_cosine_to_frozen_task_prototype": 0.1444438397884369
+    },
+    "16": {},
+    "2": {
+      "correct_task_assignment": 0.2764227642276423,
+      "predicted_latent_to_text_retrieval_accuracy": 0.2764227642276423,
+      "semantic_cosine_to_frozen_task_prototype": 0.14323808252811432
+    },
+    "4": {},
+    "8": {}
+  }
+}

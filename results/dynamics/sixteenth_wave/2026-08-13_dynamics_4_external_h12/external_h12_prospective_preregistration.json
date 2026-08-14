@@ -1,0 +1,69 @@
+{
+  "EMA_updates": 0,
+  "H1_starts": 120,
+  "H2_starts": 60,
+  "H4_H8_run": false,
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 160412,
+    "upper_95_required_below_zero": true
+  },
+  "checkpoints": {
+    "F1": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+      "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+    },
+    "F2": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+      "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+    },
+    "representation": {
+      "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+      "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+    },
+    "semantic": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt",
+      "sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+    }
+  },
+  "created_at": "2026-08-13T15:08:53-04:00",
+  "evaluated_horizons": [
+    1,
+    2
+  ],
+  "external_latents": {
+    "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_frozen_latents.npz",
+    "sha256": "f8fa58a3d89f80c529c0ec362d4996de9a4115801d2c1d5bec1d9cc1bd590f9d"
+  },
+  "external_sequences": {
+    "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_sequences.jsonl",
+    "sha256": "23608ee5836f7a79b1cc136f6c1d1b7d0280a7e863113cd5f16c43df7cc3da22"
+  },
+  "future_target_actions": false,
+  "model_updates": 0,
+  "per_task_count": {
+    "lift_blue_block_slider": 10,
+    "lift_red_block_table": 10,
+    "place_in_slider": 10,
+    "push_pink_block_right": 10,
+    "turn_off_lightbulb": 10,
+    "turn_on_lightbulb": 10
+  },
+  "post_audit_amendment": true,
+  "primary_endpoint": "paired whole-trajectory normalized execution-error AUC over H1/H2; Delta=F2-F1",
+  "representation_updates": 0,
+  "secondary_metrics": [
+    "decoded actions",
+    "off-manifold distances",
+    "correction-target cosine",
+    "refinement intermediate states"
+  ],
+  "segment_count": 60,
+  "selected_segment_manifest": {
+    "path": "artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json",
+    "sha256": "309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc"
+  },
+  "selection_uses_model_outputs": false,
+  "windows_per_segment": 4,
+  "written_before_any_external_F1_F2_output": true
+}

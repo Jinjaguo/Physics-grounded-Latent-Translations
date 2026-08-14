@@ -1,0 +1,34 @@
+{
+  "eligible_segments": 0,
+  "required": {
+    "action_dim": 7,
+    "action_semantics": "original CALVIN rel_actions",
+    "control_frequency_hz": 30,
+    "minimum_contiguous_annotation_frames": 160,
+    "robot": "Franka/Panda CALVIN"
+  },
+  "selection_uses_model_outputs": false,
+  "sources": [
+    {
+      "candidate_count_ge_160": 0,
+      "compatibility_status": "SCOUTING_ONLY",
+      "rejection_reason": "LeRobot conversion reports 10 Hz rather than the required original 30 Hz; no interpolation or repeated actions are permitted",
+      "repo_id": "CollisionCode/calvin_d_d_lerobot_v2.1",
+      "source_name": "CALVIN D/D LeRobot mirror"
+    },
+    {
+      "candidate_count_ge_160": 0,
+      "compatibility_status": "REJECTED",
+      "rejection_reason": "Per-trajectory audit found no original-compatible 7-D CALVIN rel_actions; the observed converted action steps are 9-D and the time base is not proven 30 Hz",
+      "repo_id": "RoboVerseOrg/roboverse_data",
+      "source_name": "RoboVerse CALVIN task trajectory mirror"
+    },
+    {
+      "candidate_count_ge_160": 0,
+      "compatibility_status": "PRIMARY_COMPATIBLE",
+      "rejection_reason": null,
+      "repo_id": "VyoJ/calvin-ABCD-D-subsets",
+      "source_name": "Original-format CALVIN ABCD subsets"
+    }
+  ]
+}

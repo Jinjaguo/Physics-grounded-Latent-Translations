@@ -1,0 +1,6 @@
+{
+  "DEL": "historical negative baseline only",
+  "DEL_rescue": false,
+  "run_on_continuous_blocks": false,
+  "training_or_tuning": false
+}

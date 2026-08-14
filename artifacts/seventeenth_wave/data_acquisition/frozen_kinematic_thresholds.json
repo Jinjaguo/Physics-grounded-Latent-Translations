@@ -1,0 +1,58 @@
+{
+  "metrics": {
+    "arm_joint_delta_norm": {
+      "diagnostic_flag_threshold": 0.10526200010402384,
+      "median": 0.02659039283113723,
+      "observed_max": 0.10526200010402384,
+      "pairs": 2770,
+      "q99": 0.07616342966294186,
+      "q999": 0.09731816566756656
+    },
+    "gripper_jump": {
+      "diagnostic_flag_threshold": 0.049007507583927884,
+      "median": 9.625592259331073e-07,
+      "observed_max": 0.049007507583927884,
+      "pairs": 2770,
+      "q99": 0.036873442826518485,
+      "q999": 0.04900397566944678
+    },
+    "tcp_orientation_jump": {
+      "diagnostic_flag_threshold": 0.056858172551223135,
+      "median": 0.011270383889196111,
+      "observed_max": 0.056858172551223135,
+      "pairs": 2770,
+      "q99": 0.04043749381678596,
+      "q999": 0.0523538041610662
+    },
+    "tcp_position_jump": {
+      "diagnostic_flag_threshold": 0.02345807577174767,
+      "median": 0.0072056246344215005,
+      "observed_max": 0.02345807577174767,
+      "pairs": 2770,
+      "q99": 0.017546969131904327,
+      "q999": 0.021042342923518004
+    }
+  },
+  "robot_obs_schema": {
+    "arm_joint_positions": [
+      7,
+      14
+    ],
+    "gripper_action_state": 14,
+    "gripper_width": 6,
+    "shape": [
+      15
+    ],
+    "tcp_euler": [
+      3,
+      6
+    ],
+    "tcp_position": [
+      0,
+      3
+    ]
+  },
+  "same_authoritative_session_pairs": 2770,
+  "source": "third_party/calvin/dataset/calvin_debug_dataset/training",
+  "threshold_role": "diagnostic flags only; official ep_start_end_ids row is authoritative for reset exclusion"
+}

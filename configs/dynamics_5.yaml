@@ -1,0 +1,106 @@
+experiment:
+  name: dynamics_5
+  wave: seventeenth_wave
+  seed: 170513
+  output_root: results/dynamics/seventeenth_wave/2026-08-13_dynamics_5
+  acquisition_root: artifacts/seventeenth_wave/data_acquisition
+  report_path: reports/dynamics_5_results.md
+
+source:
+  repo_id: VyoJ/calvin-ABCD-D-subsets
+  subset_order:
+    - training/subset_training_023.zip
+    - training/subset_training_000.zip
+    - training/subset_training_001.zip
+    - training/subset_training_002.zip
+    - training/subset_training_003.zip
+    - training/subset_training_004.zip
+    - training/subset_training_005.zip
+    - training/subset_training_006.zip
+    - training/subset_training_007.zip
+    - training/subset_training_008.zip
+    - training/subset_training_009.zip
+    - training/subset_training_010.zip
+    - training/subset_training_011.zip
+    - training/subset_training_012.zip
+    - training/subset_training_013.zip
+    - training/subset_training_014.zip
+    - training/subset_training_015.zip
+    - training/subset_training_016.zip
+    - training/subset_training_017.zip
+    - training/subset_training_018.zip
+    - training/subset_training_019.zip
+    - training/subset_training_020.zip
+    - training/subset_training_021.zip
+    - training/subset_training_022.zip
+  local_continuity_reference: third_party/calvin/dataset/calvin_debug_dataset/training
+
+representation:
+  config: configs/representation.yaml
+  checkpoint_manifest: checkpoints/representation/manifest.json
+  expected_seed_base: 810
+  expected_condition: correct_language
+  text_feature_archive: data/representation/text_features/openclip_vitl14_datacomp_xl.npz
+
+data:
+  staging_root: .staging/seventeenth_wave
+  compact_root: artifacts/seventeenth_wave/data_acquisition/continuous_blocks
+  continuous_block_manifest: artifacts/seventeenth_wave/data_acquisition/continuous_block_manifest.json
+  wave17_latents: results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave17_frozen_latents.npz
+  wave17_sequences: results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave17_sequences.jsonl
+  wave15_frozen_latents: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz
+  wave15_train_sequences: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/train_sequences.jsonl
+  wave15_training_selection: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/training_and_development_selection.json
+  wave15_off_manifold_thresholds: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/off_manifold_thresholds.json
+  window_frames: 16
+  stride_frames: 16
+  windows_per_block: 10
+  frames_per_block: 160
+  minimum_blocks: 60
+  minimum_sessions: 10
+  maximum_blocks_per_session: 6
+  control_frequency_hz: 30
+
+models:
+  semantic_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt
+  f1_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt
+  f2_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt
+  context_dim: 16
+  hidden_dim: 64
+  depth: 3
+  refinement_iterations: 4
+  refinement_step_size: 0.01
+
+evaluation:
+  horizons: [1, 2, 4, 8]
+  minimum_starts:
+    1: 300
+    2: 250
+    4: 150
+    8: 60
+  bootstrap_replicates: 10000
+  bootstrap_seed: 170513
+  knn_k: 5
+  local_pca_variance_fraction: 0.9
+  boundary_h8_minimum_starts: 30
+  boundary_minimum_sessions: 10
+
+historical_immutable:
+  selected_segments_manifest.json:
+    path: artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json
+    sha256: 309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc
+  external_h12_prospective_preregistration.json:
+    path: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_prospective_preregistration.json
+    sha256: 54a6161f61759d8c7a9d02c6bd08ad8ec35779520464264c2fd5e4c87d62d54d
+  external_h12_paired_trajectory_bootstrap.json:
+    path: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_paired_trajectory_bootstrap.json
+    sha256: daead5c7bf837d987089bd82644d44a1cb8f88a9e33afcb3a6179cb5d9165817
+  wave16_external_h12_claim_decision.json:
+    path: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/wave16_external_h12_claim_decision.json
+    sha256: 25a5c68e9ca040bef90ada60cb6cfe632a828a16805f50efd4dfb31c62eacf6b
+
+storage:
+  minimum_free_bytes: 200000000000
+  planned_largest_subset_bytes: 30000000000
+  planned_compact_bytes: 2000000000
+  maximum_project_gb: 20

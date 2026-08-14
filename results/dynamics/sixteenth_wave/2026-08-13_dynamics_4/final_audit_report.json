@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_F1_F2_metrics_unread": true,
+    "availability_audit_found_zero_eligible": true,
+    "carried_checkpoint_hashes_unchanged": true,
+    "data_gate_failed_before_metrics": true,
+    "model_representation_ema_updates_zero": true,
+    "prior_artifacts_not_overwritten": true,
+    "project_below_20GiB": true,
+    "pytest_passed": true,
+    "required_deliverables_present": true
+  },
+  "maximum_project_bytes": 21474836480,
+  "missing": [],
+  "project_bytes": 3204836936
+}

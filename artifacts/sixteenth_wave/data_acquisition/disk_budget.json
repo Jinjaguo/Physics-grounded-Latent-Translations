@@ -1,0 +1,27 @@
+{
+  "filesystem": 5881437477724468019,
+  "final_verified_at": "2026-08-13T14:31:06-04:00",
+  "free_bytes": 978022547456,
+  "human_readable_df": {
+    "available": "911G",
+    "filesystem": "/dev/sdd",
+    "size": "1.7T",
+    "used": "677G",
+    "use_percent": "43%"
+  },
+  "local_CALVIN_bytes": 1350576073,
+  "local_CALVIN_roots": [
+    "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D",
+    "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset",
+    "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D"
+  ],
+  "minimum_free_bytes": 200000000000,
+  "mount_probe": "/home/jinjaguo/PGLT",
+  "passed": true,
+  "planned_download": 2160142328,
+  "planned_temporary_extraction_overhead": 2300000000,
+  "projected_free_bytes_at_peak": 973562405128,
+  "total_capacity": 1795564949504,
+  "updated_at": "2026-08-13T14:31:06-04:00",
+  "used_bytes": 726257577984
+}

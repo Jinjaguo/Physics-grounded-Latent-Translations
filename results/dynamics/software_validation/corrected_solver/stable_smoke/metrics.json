@@ -1,0 +1,51 @@
+{
+  "status": "passed_finite_stable_adapter_smoke_test",
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.3364887237548828,
+      "traj": 1.3364753723144531,
+      "del": 2.3842743751556483e-11,
+      "reg": 0.1332770437002182
+    },
+    {
+      "epoch": 2,
+      "loss": 1.3343474864959717,
+      "traj": 1.3343342542648315,
+      "del": 1.1798508003924013e-10,
+      "reg": 0.13286754488945007
+    },
+    {
+      "epoch": 3,
+      "loss": 1.3319276571273804,
+      "traj": 1.3319144248962402,
+      "del": 1.7638976390621508e-10,
+      "reg": 0.13245649635791779
+    },
+    {
+      "epoch": 4,
+      "loss": 1.3296488523483276,
+      "traj": 1.3296356201171875,
+      "del": 3.5093256078866375e-10,
+      "reg": 0.13204295933246613
+    },
+    {
+      "epoch": 5,
+      "loss": 1.3272545337677002,
+      "traj": 1.3272414207458496,
+      "del": 5.558545845829599e-10,
+      "reg": 0.13162657618522644
+    }
+  ],
+  "final_weighted_rollout_mse": 1.3248019218444824,
+  "upstream_physical_evaluator": {
+    "stationary_action_residual": 0.1363535076379776,
+    "model_relative_energy_drift": 0.8261091113090515,
+    "model_relative_energy_variation": 0.7481282353401184,
+    "state_energy_mode": "translational_gravity",
+    "state_relative_energy_drift": 1.0610138190259022e-07,
+    "state_relative_energy_variation": 4.1812708673205634e-07,
+    "state_energy_pis_norm": 0.9999999403953552
+  },
+  "scope": "official toy software validation only; not a CALVIN or PGLT physics result"
+}

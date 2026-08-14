@@ -1,0 +1,74 @@
+{
+  "all_passed": true,
+  "constant_mass_free_particle": {
+    "final_residual_norm": 9.416019075558779e-09,
+    "finite_gradients": true,
+    "mse_to_constant_velocity": 1.3044307387716225e-16
+  },
+  "created_at": "2026-08-12T05:36:29-04:00",
+  "existing_official_lawm_toy_finite_regression": {
+    "artifact": "results/dynamics/software_validation/corrected_solver/stable_smoke/metrics.json",
+    "artifact_sha256": "3ea80ed42982c4800b48f0cc2e334988949d96ebe885705b51e44cf6b4a42222",
+    "metrics": {
+      "final_weighted_rollout_mse": 1.3248019218444824,
+      "history": [
+        {
+          "del": 2.3842743751556483e-11,
+          "epoch": 1,
+          "loss": 1.3364887237548828,
+          "reg": 0.1332770437002182,
+          "traj": 1.3364753723144531
+        },
+        {
+          "del": 1.1798508003924013e-10,
+          "epoch": 2,
+          "loss": 1.3343474864959717,
+          "reg": 0.13286754488945007,
+          "traj": 1.3343342542648315
+        },
+        {
+          "del": 1.7638976390621508e-10,
+          "epoch": 3,
+          "loss": 1.3319276571273804,
+          "reg": 0.13245649635791779,
+          "traj": 1.3319144248962402
+        },
+        {
+          "del": 3.5093256078866375e-10,
+          "epoch": 4,
+          "loss": 1.3296488523483276,
+          "reg": 0.13204295933246613,
+          "traj": 1.3296356201171875
+        },
+        {
+          "del": 5.558545845829599e-10,
+          "epoch": 5,
+          "loss": 1.3272545337677002,
+          "reg": 0.13162657618522644,
+          "traj": 1.3272414207458496
+        }
+      ],
+      "scope": "official toy software validation only; not a CALVIN or PGLT physics result",
+      "status": "passed_finite_stable_adapter_smoke_test",
+      "upstream_physical_evaluator": {
+        "model_relative_energy_drift": 0.8261091113090515,
+        "model_relative_energy_variation": 0.7481282353401184,
+        "state_energy_mode": "translational_gravity",
+        "state_energy_pis_norm": 0.9999999403953552,
+        "state_relative_energy_drift": 1.0610138190259022e-07,
+        "state_relative_energy_variation": 4.1812708673205634e-07,
+        "stationary_action_residual": 0.1363535076379776
+      }
+    }
+  },
+  "ground_truth_future_substitution_used": false,
+  "multistep_8_finite_rollout": true,
+  "nan_to_num_used": false,
+  "quadratic_potential_synthetic": {
+    "finite_gradients": true,
+    "finite_prediction": true,
+    "finite_residual": true
+  },
+  "random_32d_finite_gradient_smoke": true,
+  "target_latent_clamping_used": false
+}

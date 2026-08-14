@@ -1,0 +1,11 @@
+{
+  "checkpoint": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F4_decoder_geometry_del.pt",
+    "sha256": "3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9"
+  },
+  "included_in_primary_statistics": false,
+  "retrained": false,
+  "retuned": false,
+  "role": "historical frozen negative baseline only",
+  "status": "not_evaluated_due_data_adequacy_gate"
+}

@@ -1,0 +1,58 @@
+experiment:
+  name: dynamics_3
+  wave: fifteenth_wave
+  seed: 1503
+  output_root: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3
+  report_path: reports/dynamics_3_results.md
+  wave13_root: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1
+  wave14_root: results/dynamics/fourteenth_wave/2026-08-12_dynamics_2
+
+representation:
+  config: configs/representation.yaml
+  checkpoint_manifest: checkpoints/representation/manifest.json
+  expected_seed_base: 810
+  expected_condition: correct_language
+
+data:
+  frozen_latents: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz
+  train_sequences: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/train_sequences.jsonl
+  development_sequences: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/development_sequences.jsonl
+  validation_sequences: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/validation_sequences.jsonl
+  split_preregistration: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_split_preregistration.json
+  chunk_length: 16
+  control_frequency_hz: 30
+  semantic_dim: 16
+  execution_dim: 16
+
+models:
+  context_dim: 16
+  hidden_dim: 64
+  depth: 3
+  free_mass_hidden_dim: 32
+  potential_hidden_dim: 64
+  refinement_iterations: 4
+  generic_refinement_step_size: 0.01
+  free_del_step_size: 0.25
+  geometry_del_step_size: 0.01
+  solver_tolerance: 0.001
+  metric_epsilon: 0.001
+
+optimization:
+  epochs: 20
+  evaluation_interval: 5
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+  lambda_del: 0.0001
+
+evaluation:
+  rollout_horizons: [1, 2]
+  primary_auc_horizons: [1, 2]
+  knn_k: 5
+  off_manifold_quantile: 0.99
+  decoded_action_material_worsening_relative: 0.05
+  semantic_retention_tolerance_absolute: 0.02
+
+storage:
+  minimum_filesystem_available_gb: 20

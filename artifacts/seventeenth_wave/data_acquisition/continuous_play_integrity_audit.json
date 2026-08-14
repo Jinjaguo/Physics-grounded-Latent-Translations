@@ -1,0 +1,1834 @@
+{
+  "all_source_frame_ranges_contiguous": true,
+  "any_reset_crossed": false,
+  "authoritative_session_boundary": "ep_start_end_ids.npy row",
+  "blocks": [
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.05127503118554142,
+        "mean": 0.023091670269936408,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_023_session_00177_frame_2399317",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.037054944016984115,
+        "mean": 0.0007493342395158997,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.022114184491128015,
+        "mean": 0.00834566373236328,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014119042492292922,
+        "mean": 0.006263776345575391,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.056791224044962396,
+        "mean": 0.0233103002989609,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.026825660285229903,
+        "mean": 0.00022612326254400935,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.0283360548810418,
+        "mean": 0.009980073806549326,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.018018365769419068,
+        "mean": 0.004983010213060742,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.059492106439509716,
+        "mean": 0.02916155525570484,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900647474267065,
+        "mean": 0.001529004381991187,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02540048846194573,
+        "mean": 0.011047836556314018,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014387286602193577,
+        "mean": 0.0074488343654926835,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07395477517345427,
+        "mean": 0.028212454633768265,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.045561300929803976,
+        "mean": 0.0015458528418990018,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02117695820589985,
+        "mean": 0.009983587095099803,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.012195590332876616,
+        "mean": 0.007505247251833069,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.045466863389376076,
+        "mean": 0.015383179850054109,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04146945168908066,
+        "mean": 0.000517819525558984,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.019924331620439845,
+        "mean": 0.007166760825821131,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.011176220729721614,
+        "mean": 0.004180155904031118,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07125423641956448,
+        "mean": 0.028423073145421904,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_023_session_00177_frame_2403765",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04158107930337136,
+        "mean": 0.001036085051907505,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.029525138966583916,
+        "mean": 0.008601691503438539,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015118777873781642,
+        "mean": 0.0069877945765506305,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07677414245374278,
+        "mean": 0.031216760798083536,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04100604878071201,
+        "mean": 0.0017723975731916539,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.043899865673207625,
+        "mean": 0.01395662318887114,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.017371396683215155,
+        "mean": 0.007396625373724303,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.04490831931587747,
+        "mean": 0.02262689462619485,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.040346861977225944,
+        "mean": 0.0020782223976544964,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.029762291217733043,
+        "mean": 0.012986313586533472,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014405919115622683,
+        "mean": 0.007127983891770803,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06836430599035874,
+        "mean": 0.03091259652232849,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.045562150354356526,
+        "mean": 0.0017505540659522327,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03123508644460412,
+        "mean": 0.01127754142248415,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015403033048075582,
+        "mean": 0.007224730605024938,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.05263430570380001,
+        "mean": 0.02767771168858891,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04134176002067167,
+        "mean": 0.0007587701806050234,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.027614826229842605,
+        "mean": 0.008989880216904547,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.016472949482321014,
+        "mean": 0.006673649373533559,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08108676708185854,
+        "mean": 0.03218827704189531,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041401642738402286,
+        "mean": 0.0010430216281380614,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 5,
+        "maximum": 0.0697595691632422,
+        "mean": 0.020575509548312793,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01670913386143049,
+        "mean": 0.0061069937638781845,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.10524682305049969,
+        "mean": 0.033325534261630055,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00000_frame_0057758",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041279187712445854,
+        "mean": 0.0010342516803425654,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03601121638547394,
+        "mean": 0.01056805793483267,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01596585828602588,
+        "mean": 0.0070822814893577455,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.057516732429431824,
+        "mean": 0.02708597366784545,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.045563174807716336,
+        "mean": 0.001758432670214729,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.0223415956951961,
+        "mean": 0.00950016457636753,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.011550049610088963,
+        "mean": 0.006784427954150497,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.09114019691256581,
+        "mean": 0.03037551536676367,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02630050664415788,
+        "mean": 0.0005860877841065143,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.031335238162947705,
+        "mean": 0.010656308213914249,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.017270765437565318,
+        "mean": 0.007234831668587369,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07931244814196275,
+        "mean": 0.030671790767922303,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.033714019807070866,
+        "mean": 0.00083720606724577,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.0346559018527978,
+        "mean": 0.009239173294525756,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015694993264011577,
+        "mean": 0.007273734596913067,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.04998649666234462,
+        "mean": 0.018725749961191387,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900660618297448,
+        "mean": 0.0015122911784828295,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.025363884428832726,
+        "mean": 0.009519281371750345,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.012395875714746664,
+        "mean": 0.005567125824195583,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.0870915191528033,
+        "mean": 0.034641060335792506,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.037481982330653904,
+        "mean": 0.0010118308809184164,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04660203267556203,
+        "mean": 0.016373191007900273,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01507852618222092,
+        "mean": 0.007908136649007564,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07331957158115766,
+        "mean": 0.03545169851213976,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04556226684350562,
+        "mean": 0.001261917089617265,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.032502898842662,
+        "mean": 0.01276247245413906,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.017108999214288694,
+        "mean": 0.008779033210570211,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06413528379422052,
+        "mean": 0.02855513092443091,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04113768540287925,
+        "mean": 0.0011370396994114177,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.05517279037422503,
+        "mean": 0.016349309453942314,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.016549448678101007,
+        "mean": 0.00667925961601817,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06323848705805443,
+        "mean": 0.031279787005474124,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041346826105861725,
+        "mean": 0.001378685558664467,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.05156352986905854,
+        "mean": 0.01793777512685138,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.017999927802572264,
+        "mean": 0.008680445717815196,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06802551407134375,
+        "mean": 0.030616454110865863,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00002_frame_0085079",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.049006120531804705,
+        "mean": 0.0032999245656140683,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04660161073883667,
+        "mean": 0.016917854005002814,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014743293900468121,
+        "mean": 0.00801186121722914,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08138042923700904,
+        "mean": 0.03597311720992711,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03276083819089902,
+        "mean": 0.0005173981365729577,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 21,
+        "maximum": 0.0742898753721083,
+        "mean": 0.03269709826844052,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.007571313796672357,
+        "mean": 0.003312902668182326,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07746447172592692,
+        "mean": 0.027387035504844254,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02579030334942306,
+        "mean": 0.0005716476783977373,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.033701874507218094,
+        "mean": 0.010120124225996596,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014500045135792682,
+        "mean": 0.006927471018093193,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08317497523105562,
+        "mean": 0.03102825753719215,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900395728899164,
+        "mean": 0.0017281458821675835,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.035473857768722195,
+        "mean": 0.013620629670267241,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01503767548051404,
+        "mean": 0.007591442645422045,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.09206804585847056,
+        "mean": 0.033563124115816,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041466440256445414,
+        "mean": 0.0013027927905546533,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.05569346295592428,
+        "mean": 0.020332493807742262,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015690898600427817,
+        "mean": 0.007108926169413883,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 2,
+        "maximum": 0.1245479683823219,
+        "mean": 0.03832975207844182,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04173603803485026,
+        "mean": 0.0017566560068350465,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.05342030944477223,
+        "mean": 0.01391429053735909,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 3,
+        "maximum": 0.028493002173922078,
+        "mean": 0.009006192207529488,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07210706085510525,
+        "mean": 0.031058602730738467,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04556258885848524,
+        "mean": 0.0012693373444194766,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.028356016599446122,
+        "mean": 0.011661868970991371,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014256653686340886,
+        "mean": 0.0077672727465803015,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08422190791169354,
+        "mean": 0.0374977345779515,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04131677546006139,
+        "mean": 0.0007767683225753723,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03447322714184014,
+        "mean": 0.013527957763359402,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.020217004012443432,
+        "mean": 0.009700873484601876,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08212108140538316,
+        "mean": 0.03426733452757121,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041515987828970424,
+        "mean": 0.0010234509512000198,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03594260142848224,
+        "mean": 0.015022145337847286,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02083355337945459,
+        "mean": 0.009499779825021884,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 1,
+        "maximum": 0.10899658738798963,
+        "mean": 0.0381963698335498,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.045560292897366926,
+        "mean": 0.001756488512831582,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.033601910455152616,
+        "mean": 0.015986436116827204,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.019855094362366925,
+        "mean": 0.009637977893614924,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06407520843614241,
+        "mean": 0.02868673401737697,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041135431781014295,
+        "mean": 0.0009926479144828587,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.036410124507053776,
+        "mean": 0.015251404337648359,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01538549036031709,
+        "mean": 0.0074380328598801,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08001279271114513,
+        "mean": 0.02682559758244613,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900636057475037,
+        "mean": 0.0020400865141530816,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03757715973351215,
+        "mean": 0.013286440482525714,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.016371004995245807,
+        "mean": 0.006562713264760028,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08597090712067254,
+        "mean": 0.038243886532772525,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900595149693372,
+        "mean": 0.0017580720594751,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04828782048541067,
+        "mean": 0.012470997992999623,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.016507577978619865,
+        "mean": 0.008817056699486743,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08868062633387504,
+        "mean": 0.029738536539287798,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041531860749546165,
+        "mean": 0.0008144259356888616,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.035294503777443344,
+        "mean": 0.012177349699269209,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01864586499533227,
+        "mean": 0.007238380995287031,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08886313912434364,
+        "mean": 0.040044914890044365,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04556266628576751,
+        "mean": 0.0015277492315672746,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04568537346329657,
+        "mean": 0.014899475650701011,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.016690197663362362,
+        "mean": 0.008709322836579415,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07680767544589133,
+        "mean": 0.0323030943213758,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04556077165404062,
+        "mean": 0.001517206672654676,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.043641525873386516,
+        "mean": 0.01290949516780846,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01873867244578322,
+        "mean": 0.008296775790502465,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08355500449414711,
+        "mean": 0.03414305455438204,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03717530124697649,
+        "mean": 0.0012236143995384865,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.029238289185829318,
+        "mean": 0.010168227502352356,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.022097209599450763,
+        "mean": 0.00914865202225153,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.05953874447974854,
+        "mean": 0.025032982761626108,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00005_frame_0148023",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03779672262318918,
+        "mean": 0.0013105065766105123,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.0234259243690419,
+        "mean": 0.009023129522730126,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014316627457347447,
+        "mean": 0.0073026835313420935,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08951132201326499,
+        "mean": 0.04061832015359321,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.0412785405121344,
+        "mean": 0.0006073718441854106,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03337509477056549,
+        "mean": 0.012675349392067646,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.020473488423234487,
+        "mean": 0.009419918745918424,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07939662437725098,
+        "mean": 0.03528235716634547,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00005_frame_0150944",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03721367654263544,
+        "mean": 0.0008382327164545375,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02720099263502181,
+        "mean": 0.01167414722610544,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.018657953202486463,
+        "mean": 0.00861095244233924,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.05135703201388701,
+        "mean": 0.025877593801187176,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03972882368500348,
+        "mean": 0.001261267649884515,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03828357932852778,
+        "mean": 0.012937272916059983,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.019952310986176516,
+        "mean": 0.006895338564786781,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07167041349283362,
+        "mean": 0.03610376876148436,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04106648487222196,
+        "mean": 0.0007648983512888016,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04699518222911599,
+        "mean": 0.012549199420015771,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 1,
+        "maximum": 0.03221463295918009,
+        "mean": 0.008560376575966153,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 1,
+        "maximum": 0.12199702848378109,
+        "mean": 0.027660329013028347,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03752080323492273,
+        "mean": 0.0008733717892839006,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.026719706415530037,
+        "mean": 0.008760841324191745,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 1,
+        "maximum": 0.025179233440449506,
+        "mean": 0.006610946640746311,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07586743373687249,
+        "mean": 0.03208802393448059,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03748466228311456,
+        "mean": 0.0012929908010240305,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.030068324598705207,
+        "mean": 0.012775941111449177,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.018197523952624427,
+        "mean": 0.007897136565069917,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07937156948306685,
+        "mean": 0.03800168909678098,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900570576384701,
+        "mean": 0.00153859073045957,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03651349413467023,
+        "mean": 0.013031968366997845,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01680346587974149,
+        "mean": 0.008606361192160362,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.09104191264863376,
+        "mean": 0.040043385702053964,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04173619354351335,
+        "mean": 0.0015877117029371726,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.039372854653597626,
+        "mean": 0.013202190582560667,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 1,
+        "maximum": 0.024781022102484885,
+        "mean": 0.00933265093059705,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07580750895379773,
+        "mean": 0.035519414226487224,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04173579148653213,
+        "mean": 0.0017842424641682602,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.026883860048703922,
+        "mean": 0.011542173321913816,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.020390984070688217,
+        "mean": 0.008442944238443585,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07275764912674494,
+        "mean": 0.03417254282990721,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041446909421966424,
+        "mean": 0.0007986056225739986,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 1,
+        "maximum": 0.059800781338458515,
+        "mean": 0.013584128627624197,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01879265666954294,
+        "mean": 0.008617082416976524,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": true,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.09405194285148713,
+        "mean": 0.03182900475560659,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041736258746669294,
+        "mean": 0.0015148529356506916,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 1,
+        "maximum": 0.06321393073966164,
+        "mean": 0.01355023508111236,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015239722231538551,
+        "mean": 0.007663104899052599,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.09119983367578716,
+        "mean": 0.03225852683206137,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04173632625351876,
+        "mean": 0.0017765657501107597,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04242018447112898,
+        "mean": 0.012779032238669052,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.019717636363711266,
+        "mean": 0.008526003154256506,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.062092442425124315,
+        "mean": 0.02426170884896191,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04140629681299422,
+        "mean": 0.001273442712131855,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.024817444790276817,
+        "mean": 0.008708349459266712,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.012269592065389393,
+        "mean": 0.0063271946618572075,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06520521532772561,
+        "mean": 0.026886858826250484,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041346286708905514,
+        "mean": 0.0010253786468359886,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.028625109598959628,
+        "mean": 0.010993876060849726,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01322336963467649,
+        "mean": 0.006774364116885752,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.03848296780433466,
+        "mean": 0.020557706906602566,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900703053625239,
+        "mean": 0.0017865662171433969,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.0324332287612148,
+        "mean": 0.011209309728638277,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01517749201738141,
+        "mean": 0.007007347185705879,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06205800375772156,
+        "mean": 0.024922401428243528,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00007_frame_0199958",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900732569078478,
+        "mean": 0.0015321487561645766,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.032188845783953576,
+        "mean": 0.011420386685790354,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015447641476106262,
+        "mean": 0.007214304408885882,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.07349839434171568,
+        "mean": 0.03516972351857128,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00008_frame_0246388",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04173595723138081,
+        "mean": 0.0012566183062477155,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.054328839587269015,
+        "mean": 0.011462294959838496,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.018226451808734462,
+        "mean": 0.009280066970755453,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.05868502405530563,
+        "mean": 0.028394291221694064,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04173645799432037,
+        "mean": 0.0015111310472029512,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02994048735730526,
+        "mean": 0.00944263469863796,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014667659555555707,
+        "mean": 0.007663034509525664,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08767982487796723,
+        "mean": 0.03377627280448742,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900519964959861,
+        "mean": 0.0015100949347378653,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.03213444592520035,
+        "mean": 0.012859712537004245,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.014271295627464492,
+        "mean": 0.007109971374628975,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06928431410857121,
+        "mean": 0.025420040145699502,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041736559891974376,
+        "mean": 0.001348433380348493,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.029693031959057804,
+        "mean": 0.009174966336283244,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.017941236109771944,
+        "mean": 0.006014481888159399,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.06610607941882084,
+        "mean": 0.03228648256821663,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.041689334084453716,
+        "mean": 0.0017647033457552108,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.039799234575236514,
+        "mean": 0.01200995549780656,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.015765898846424146,
+        "mean": 0.007641308300250741,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.08577250665100057,
+        "mean": 0.03712218065356407,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04900338788887587,
+        "mean": 0.0012864471204083222,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.039551666602065084,
+        "mean": 0.014900708423991587,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.016777108078496035,
+        "mean": 0.008506686007406502,
+        "threshold": 0.02345807577174767
+      }
+    },
+    {
+      "any_diagnostic_flag": false,
+      "arm_joint_delta_norm": {
+        "flagged_pairs": 0,
+        "maximum": 0.05389237169912366,
+        "mean": 0.02664881233360508,
+        "threshold": 0.10526200010402384
+      },
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "gripper_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.04133130753626665,
+        "mean": 0.0007587727754890677,
+        "threshold": 0.049007507583927884
+      },
+      "official_session_metadata_reset_crossed": false,
+      "tcp_orientation_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.02663427017672066,
+        "mean": 0.011329875379224724,
+        "threshold": 0.056858172551223135
+      },
+      "tcp_position_jump": {
+        "flagged_pairs": 0,
+        "maximum": 0.01786428151490191,
+        "mean": 0.007650565988539343,
+        "threshold": 0.02345807577174767
+      }
+    }
+  ],
+  "kinematic_thresholds": {
+    "metrics": {
+      "arm_joint_delta_norm": {
+        "diagnostic_flag_threshold": 0.10526200010402384,
+        "median": 0.02659039283113723,
+        "observed_max": 0.10526200010402384,
+        "pairs": 2770,
+        "q99": 0.07616342966294186,
+        "q999": 0.09731816566756656
+      },
+      "gripper_jump": {
+        "diagnostic_flag_threshold": 0.049007507583927884,
+        "median": 9.625592259331073e-07,
+        "observed_max": 0.049007507583927884,
+        "pairs": 2770,
+        "q99": 0.036873442826518485,
+        "q999": 0.04900397566944678
+      },
+      "tcp_orientation_jump": {
+        "diagnostic_flag_threshold": 0.056858172551223135,
+        "median": 0.011270383889196111,
+        "observed_max": 0.056858172551223135,
+        "pairs": 2770,
+        "q99": 0.04043749381678596,
+        "q999": 0.0523538041610662
+      },
+      "tcp_position_jump": {
+        "diagnostic_flag_threshold": 0.02345807577174767,
+        "median": 0.0072056246344215005,
+        "observed_max": 0.02345807577174767,
+        "pairs": 2770,
+        "q99": 0.017546969131904327,
+        "q999": 0.021042342923518004
+      }
+    },
+    "robot_obs_schema": {
+      "arm_joint_positions": [
+        7,
+        14
+      ],
+      "gripper_action_state": 14,
+      "gripper_width": 6,
+      "shape": [
+        15
+      ],
+      "tcp_euler": [
+        3,
+        6
+      ],
+      "tcp_position": [
+        0,
+        3
+      ]
+    },
+    "same_authoritative_session_pairs": 2770,
+    "source": "third_party/calvin/dataset/calvin_debug_dataset/training",
+    "threshold_role": "diagnostic flags only; official ep_start_end_ids row is authoritative for reset exclusion"
+  }
+}

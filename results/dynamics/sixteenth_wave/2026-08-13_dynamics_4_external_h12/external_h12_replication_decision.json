@@ -1,0 +1,23 @@
+{
+  "C3c_local_status_if_success": "STRENGTHENED_BY_INDEPENDENT_PUBLIC_EXTERNAL_REPLICATION",
+  "C3c_long_status": "NOT_TESTED; H4/H8 were not run",
+  "DEL_role": "not run; frozen historical negative baseline only",
+  "F1_mean_trajectory_AUC": 0.728379257513728,
+  "F2_less_than_F1_H1_execution_mse": true,
+  "F2_less_than_F1_H2_execution_mse": true,
+  "F2_mean_trajectory_AUC": 0.6327971437263429,
+  "H4_H8_run": false,
+  "bootstrap": {
+    "bootstrap_replicates": 10000,
+    "lower_95": -0.11341666735080953,
+    "mean_delta_auc": -0.09558211378738518,
+    "trajectory_count": 60,
+    "upper_95": -0.07946184883150686
+  },
+  "created_at": "2026-08-13T15:09:02-04:00",
+  "evaluated_horizons": [
+    1,
+    2
+  ],
+  "primary_replication_success": true
+}

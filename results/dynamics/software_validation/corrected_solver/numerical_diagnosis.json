@@ -1,0 +1,1191 @@
+{
+  "toy_data": "results/dynamics/software_validation/upstream_reference/toy_parabolic.pt",
+  "toy_shape": [
+    16,
+    64,
+    9
+  ],
+  "dt": 0.02,
+  "seed": 0,
+  "upstream_solver_linearized_free_particle_jacobian_per_iteration": 13.5,
+  "stable_solver_linearized_free_particle_jacobian_per_iteration": 0.75,
+  "forward_components_at_initialization": {
+    "context": {
+      "shape": [
+        16,
+        16
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 256,
+      "nonfinite_count": 0,
+      "min": -0.14671701192855835,
+      "max": 0.09448154270648956,
+      "mean": 0.0003802469000220299,
+      "norm": 0.9099528789520264
+    },
+    "midpoint": {
+      "shape": [
+        16,
+        9
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 144,
+      "nonfinite_count": 0,
+      "min": -0.9366832375526428,
+      "max": 3.9819302558898926,
+      "mean": 1.0920660495758057,
+      "norm": 19.0120792388916
+    },
+    "velocity": {
+      "shape": [
+        16,
+        9
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 144,
+      "nonfinite_count": 0,
+      "min": -9.800004959106445,
+      "max": 3.901517391204834,
+      "mean": -0.6628291010856628,
+      "norm": 41.02547836303711
+    },
+    "positive_mass": {
+      "shape": [
+        16,
+        9
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 144,
+      "nonfinite_count": 0,
+      "min": 0.6941471695899963,
+      "max": 0.6941471695899963,
+      "mean": 0.6941472291946411,
+      "norm": 8.329766273498535
+    },
+    "potential": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 16,
+      "nonfinite_count": 0,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "norm": 0.0
+    },
+    "kinetic": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 16,
+      "nonfinite_count": 0,
+      "min": 34.2490119934082,
+      "max": 39.49190902709961,
+      "mean": 36.50975036621094,
+      "norm": 146.17840576171875
+    },
+    "discrete_lagrangian": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 16,
+      "nonfinite_count": 0,
+      "min": 0.6849802136421204,
+      "max": 0.7898381352424622,
+      "mean": 0.7301949262619019,
+      "norm": 2.923567771911621
+    },
+    "ground_truth_DEL_residual": {
+      "shape": [
+        16,
+        9
+      ],
+      "dtype": "torch.float32",
+      "finite_count": 144,
+      "nonfinite_count": 0,
+      "min": -8.106231689453125e-06,
+      "max": 0.13608884811401367,
+      "mean": 0.015116196125745773,
+      "norm": 0.5442036390304565
+    },
+    "losses": {
+      "loss": {
+        "shape": [],
+        "dtype": "torch.float32",
+        "finite_count": 1,
+        "nonfinite_count": 0,
+        "min": 4764.9140625,
+        "max": 4764.9140625,
+        "mean": 4764.9140625,
+        "norm": 4764.9140625
+      },
+      "traj": {
+        "shape": [],
+        "dtype": "torch.float32",
+        "finite_count": 1,
+        "nonfinite_count": 0,
+        "min": 4730.38916015625,
+        "max": 4730.38916015625,
+        "mean": 4730.38916015625,
+        "norm": 4730.38916015625
+      },
+      "del": {
+        "shape": [],
+        "dtype": "torch.float32",
+        "finite_count": 1,
+        "nonfinite_count": 0,
+        "min": 3452.494873046875,
+        "max": 3452.494873046875,
+        "mean": 3452.494873046875,
+        "norm": 3452.494873046875
+      },
+      "reg": {
+        "shape": [],
+        "dtype": "torch.float32",
+        "finite_count": 1,
+        "nonfinite_count": 0,
+        "min": 0.1332770437002182,
+        "max": 0.1332770437002182,
+        "mean": 0.1332770437002182,
+        "norm": 0.1332770437002182
+      }
+    }
+  },
+  "upstream": {
+    "one_step": {
+      "losses_before_backward": {
+        "loss": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 4764.9140625,
+          "max": 4764.9140625,
+          "mean": 4764.9140625,
+          "norm": 4764.9140625
+        },
+        "traj": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 4730.38916015625,
+          "max": 4730.38916015625,
+          "mean": 4730.38916015625,
+          "norm": 4730.38916015625
+        },
+        "del": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 3452.494873046875,
+          "max": 3452.494873046875,
+          "mean": 3452.494873046875,
+          "norm": 3452.494873046875
+        },
+        "reg": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 0.1332770437002182,
+          "max": 0.1332770437002182,
+          "mean": 0.1332770437002182,
+          "norm": 0.1332770437002182
+        }
+      },
+      "all_losses_finite": true,
+      "gradient_stats": {
+        "dynamics.context_net.0.weight": {
+          "shape": [
+            128,
+            27
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 3456
+        },
+        "dynamics.context_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.context_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16384
+        },
+        "dynamics.context_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.context_net.4.weight": {
+          "shape": [
+            16,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 2048
+        },
+        "dynamics.context_net.4.bias": {
+          "shape": [
+            16
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16
+        },
+        "dynamics.lagrangian.mass_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 3200
+        },
+        "dynamics.lagrangian.mass_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.mass_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16384
+        },
+        "dynamics.lagrangian.mass_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.mass_net.4.weight": {
+          "shape": [
+            9,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 1152
+        },
+        "dynamics.lagrangian.mass_net.4.bias": {
+          "shape": [
+            9
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 9
+        },
+        "dynamics.lagrangian.potential_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 3200
+        },
+        "dynamics.lagrangian.potential_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.potential_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16384
+        },
+        "dynamics.lagrangian.potential_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.potential_net.4.weight": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        }
+      },
+      "nonfinite_gradients": [
+        "dynamics.context_net.0.weight",
+        "dynamics.context_net.0.bias",
+        "dynamics.context_net.2.weight",
+        "dynamics.context_net.2.bias",
+        "dynamics.context_net.4.weight",
+        "dynamics.context_net.4.bias",
+        "dynamics.lagrangian.mass_net.0.weight",
+        "dynamics.lagrangian.mass_net.0.bias",
+        "dynamics.lagrangian.mass_net.2.weight",
+        "dynamics.lagrangian.mass_net.2.bias",
+        "dynamics.lagrangian.mass_net.4.weight",
+        "dynamics.lagrangian.mass_net.4.bias",
+        "dynamics.lagrangian.potential_net.0.weight",
+        "dynamics.lagrangian.potential_net.0.bias",
+        "dynamics.lagrangian.potential_net.2.weight",
+        "dynamics.lagrangian.potential_net.2.bias",
+        "dynamics.lagrangian.potential_net.4.weight"
+      ],
+      "parameters_finite_before_step": true,
+      "parameter_stats_after_step": {
+        "dynamics.context_net.0.weight": {
+          "shape": [
+            128,
+            27
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 3456
+        },
+        "dynamics.context_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.context_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16384
+        },
+        "dynamics.context_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.context_net.4.weight": {
+          "shape": [
+            16,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 2048
+        },
+        "dynamics.context_net.4.bias": {
+          "shape": [
+            16
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16
+        },
+        "dynamics.lagrangian.mass_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 3200
+        },
+        "dynamics.lagrangian.mass_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.mass_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16384
+        },
+        "dynamics.lagrangian.mass_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.mass_net.4.weight": {
+          "shape": [
+            9,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 1152
+        },
+        "dynamics.lagrangian.mass_net.4.bias": {
+          "shape": [
+            9
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 9
+        },
+        "dynamics.lagrangian.potential_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 3200
+        },
+        "dynamics.lagrangian.potential_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.potential_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 16384
+        },
+        "dynamics.lagrangian.potential_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.potential_net.4.weight": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 0,
+          "nonfinite_count": 128
+        },
+        "dynamics.lagrangian.potential_net.4.bias": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        }
+      },
+      "nonfinite_parameters_after_step": [
+        "dynamics.context_net.0.weight",
+        "dynamics.context_net.0.bias",
+        "dynamics.context_net.2.weight",
+        "dynamics.context_net.2.bias",
+        "dynamics.context_net.4.weight",
+        "dynamics.context_net.4.bias",
+        "dynamics.lagrangian.mass_net.0.weight",
+        "dynamics.lagrangian.mass_net.0.bias",
+        "dynamics.lagrangian.mass_net.2.weight",
+        "dynamics.lagrangian.mass_net.2.bias",
+        "dynamics.lagrangian.mass_net.4.weight",
+        "dynamics.lagrangian.mass_net.4.bias",
+        "dynamics.lagrangian.potential_net.0.weight",
+        "dynamics.lagrangian.potential_net.0.bias",
+        "dynamics.lagrangian.potential_net.2.weight",
+        "dynamics.lagrangian.potential_net.2.bias",
+        "dynamics.lagrangian.potential_net.4.weight"
+      ],
+      "passed": false
+    },
+    "horizon_probe": [
+      {
+        "horizon": 3,
+        "loss": 1.3902473256166559e-05,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 4,
+        "loss": 1.7638794815866277e-05,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 8,
+        "loss": 9.876884460449219,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": [
+          "dynamics.context_net.0.weight",
+          "dynamics.context_net.0.bias",
+          "dynamics.context_net.2.weight",
+          "dynamics.context_net.2.bias",
+          "dynamics.context_net.4.weight",
+          "dynamics.context_net.4.bias",
+          "dynamics.lagrangian.mass_net.0.weight",
+          "dynamics.lagrangian.mass_net.0.bias",
+          "dynamics.lagrangian.mass_net.2.weight",
+          "dynamics.lagrangian.mass_net.2.bias",
+          "dynamics.lagrangian.mass_net.4.weight",
+          "dynamics.lagrangian.mass_net.4.bias",
+          "dynamics.lagrangian.potential_net.0.weight",
+          "dynamics.lagrangian.potential_net.0.bias",
+          "dynamics.lagrangian.potential_net.2.weight",
+          "dynamics.lagrangian.potential_net.2.bias",
+          "dynamics.lagrangian.potential_net.4.weight"
+        ]
+      },
+      {
+        "horizon": 16,
+        "loss": 43.52682113647461,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": [
+          "dynamics.context_net.0.weight",
+          "dynamics.context_net.0.bias",
+          "dynamics.context_net.2.weight",
+          "dynamics.context_net.2.bias",
+          "dynamics.context_net.4.weight",
+          "dynamics.context_net.4.bias",
+          "dynamics.lagrangian.mass_net.0.weight",
+          "dynamics.lagrangian.mass_net.0.bias",
+          "dynamics.lagrangian.mass_net.2.weight",
+          "dynamics.lagrangian.mass_net.2.bias",
+          "dynamics.lagrangian.mass_net.4.weight",
+          "dynamics.lagrangian.mass_net.4.bias",
+          "dynamics.lagrangian.potential_net.0.weight",
+          "dynamics.lagrangian.potential_net.0.bias",
+          "dynamics.lagrangian.potential_net.2.weight",
+          "dynamics.lagrangian.potential_net.2.bias",
+          "dynamics.lagrangian.potential_net.4.weight"
+        ]
+      },
+      {
+        "horizon": 32,
+        "loss": 102.01277923583984,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": [
+          "dynamics.context_net.0.weight",
+          "dynamics.context_net.0.bias",
+          "dynamics.context_net.2.weight",
+          "dynamics.context_net.2.bias",
+          "dynamics.context_net.4.weight",
+          "dynamics.context_net.4.bias",
+          "dynamics.lagrangian.mass_net.0.weight",
+          "dynamics.lagrangian.mass_net.0.bias",
+          "dynamics.lagrangian.mass_net.2.weight",
+          "dynamics.lagrangian.mass_net.2.bias",
+          "dynamics.lagrangian.mass_net.4.weight",
+          "dynamics.lagrangian.mass_net.4.bias",
+          "dynamics.lagrangian.potential_net.0.weight",
+          "dynamics.lagrangian.potential_net.0.bias",
+          "dynamics.lagrangian.potential_net.2.weight",
+          "dynamics.lagrangian.potential_net.2.bias",
+          "dynamics.lagrangian.potential_net.4.weight"
+        ]
+      },
+      {
+        "horizon": 64,
+        "loss": 215.7107391357422,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": [
+          "dynamics.context_net.0.weight",
+          "dynamics.context_net.0.bias",
+          "dynamics.context_net.2.weight",
+          "dynamics.context_net.2.bias",
+          "dynamics.context_net.4.weight",
+          "dynamics.context_net.4.bias",
+          "dynamics.lagrangian.mass_net.0.weight",
+          "dynamics.lagrangian.mass_net.0.bias",
+          "dynamics.lagrangian.mass_net.2.weight",
+          "dynamics.lagrangian.mass_net.2.bias",
+          "dynamics.lagrangian.mass_net.4.weight",
+          "dynamics.lagrangian.mass_net.4.bias",
+          "dynamics.lagrangian.potential_net.0.weight",
+          "dynamics.lagrangian.potential_net.0.bias",
+          "dynamics.lagrangian.potential_net.2.weight",
+          "dynamics.lagrangian.potential_net.2.bias",
+          "dynamics.lagrangian.potential_net.4.weight"
+        ]
+      }
+    ]
+  },
+  "time_scaled_stable_adapter": {
+    "one_step": {
+      "losses_before_backward": {
+        "loss": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 1.3364887237548828,
+          "max": 1.3364887237548828,
+          "mean": 1.3364887237548828,
+          "norm": 1.3364887237548828
+        },
+        "traj": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 1.3364753723144531,
+          "max": 1.3364753723144531,
+          "mean": 1.3364753723144531,
+          "norm": 1.3364753723144531
+        },
+        "del": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 2.3842742016833007e-11,
+          "max": 2.3842742016833007e-11,
+          "mean": 2.3842742016833007e-11,
+          "norm": 2.3842742016833007e-11
+        },
+        "reg": {
+          "shape": [],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 0.1332770437002182,
+          "max": 0.1332770437002182,
+          "mean": 0.1332770437002182,
+          "norm": 0.1332770437002182
+        }
+      },
+      "all_losses_finite": true,
+      "gradient_stats": {
+        "dynamics.context_net.0.weight": {
+          "shape": [
+            128,
+            27
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 3456,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.context_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.context_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16384,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.context_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.context_net.4.weight": {
+          "shape": [
+            16,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.context_net.4.bias": {
+          "shape": [
+            16
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.mass_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 3200,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.mass_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.mass_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16384,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.mass_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.mass_net.4.weight": {
+          "shape": [
+            9,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 1152,
+          "nonfinite_count": 0,
+          "min": -0.0004714305978268385,
+          "max": 0.0004922306980006397,
+          "mean": -3.3167686979140854e-06,
+          "norm": 0.0021138282027095556
+        },
+        "dynamics.lagrangian.mass_net.4.bias": {
+          "shape": [
+            9
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 9,
+          "nonfinite_count": 0,
+          "min": -5.844388397235889e-06,
+          "max": -5.843641702085733e-06,
+          "mean": -5.843724466103595e-06,
+          "norm": 1.7531174307805486e-05
+        },
+        "dynamics.lagrangian.potential_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 3200,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.potential_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.potential_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16384,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.potential_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        },
+        "dynamics.lagrangian.potential_net.4.weight": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -4.353855911176652e-05,
+          "max": 1.7983486031880602e-05,
+          "mean": -1.4373528074429487e-06,
+          "norm": 9.137154120253399e-05
+        }
+      },
+      "nonfinite_gradients": [],
+      "parameters_finite_before_step": true,
+      "parameter_stats_after_step": {
+        "dynamics.context_net.0.weight": {
+          "shape": [
+            128,
+            27
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 3456,
+          "nonfinite_count": 0,
+          "min": -0.19233886897563934,
+          "max": 0.19231872260570526,
+          "mean": -0.0011020232923328876,
+          "norm": 6.514461517333984
+        },
+        "dynamics.context_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -0.19147919118404388,
+          "max": 0.19213494658470154,
+          "mean": 0.009756375104188919,
+          "norm": 1.2421101331710815
+        },
+        "dynamics.context_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16384,
+          "nonfinite_count": 0,
+          "min": -0.08837797492742538,
+          "max": 0.08838692307472229,
+          "mean": 2.5218905648216605e-05,
+          "norm": 6.539641380310059
+        },
+        "dynamics.context_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -0.08665163069963455,
+          "max": 0.08783520758152008,
+          "mean": 0.0017689416417852044,
+          "norm": 0.5682786703109741
+        },
+        "dynamics.context_net.4.weight": {
+          "shape": [
+            16,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "min": -0.08837229013442993,
+          "max": 0.08825462311506271,
+          "mean": -0.0007238973630592227,
+          "norm": 2.32582950592041
+        },
+        "dynamics.context_net.4.bias": {
+          "shape": [
+            16
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16,
+          "nonfinite_count": 0,
+          "min": -0.07217226177453995,
+          "max": 0.08025011420249939,
+          "mean": 0.007500856649130583,
+          "norm": 0.2129935920238495
+        },
+        "dynamics.lagrangian.mass_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 3200,
+          "nonfinite_count": 0,
+          "min": -0.19995668530464172,
+          "max": 0.19996879994869232,
+          "mean": 0.001829021261073649,
+          "norm": 6.49691915512085
+        },
+        "dynamics.lagrangian.mass_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -0.19402067363262177,
+          "max": 0.19994567334651947,
+          "mean": 0.016622643917798996,
+          "norm": 1.228298306465149
+        },
+        "dynamics.lagrangian.mass_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16384,
+          "nonfinite_count": 0,
+          "min": -0.08837878704071045,
+          "max": 0.08836483955383301,
+          "mean": -5.173793761059642e-05,
+          "norm": 6.546903610229492
+        },
+        "dynamics.lagrangian.mass_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -0.08682318031787872,
+          "max": 0.08366714417934418,
+          "mean": 0.008935166522860527,
+          "norm": 0.5874384641647339
+        },
+        "dynamics.lagrangian.mass_net.4.weight": {
+          "shape": [
+            9,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 1152,
+          "nonfinite_count": 0,
+          "min": -9.999796748161316e-05,
+          "max": 9.999787289416417e-05,
+          "mean": 1.0225203368463553e-05,
+          "norm": 0.0032683012541383505
+        },
+        "dynamics.lagrangian.mass_net.4.bias": {
+          "shape": [
+            9
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 9,
+          "nonfinite_count": 0,
+          "min": 9.982915798900649e-05,
+          "max": 9.982917981687933e-05,
+          "mean": 9.98291652649641e-05,
+          "norm": 0.00029948746669106185
+        },
+        "dynamics.lagrangian.potential_net.0.weight": {
+          "shape": [
+            128,
+            25
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 3200,
+          "nonfinite_count": 0,
+          "min": -0.19994805753231049,
+          "max": 0.19999217987060547,
+          "mean": 0.001337325549684465,
+          "norm": 6.579219818115234
+        },
+        "dynamics.lagrangian.potential_net.0.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -0.18877528607845306,
+          "max": 0.1995975822210312,
+          "mean": 0.01635272055864334,
+          "norm": 1.2711833715438843
+        },
+        "dynamics.lagrangian.potential_net.2.weight": {
+          "shape": [
+            128,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 16384,
+          "nonfinite_count": 0,
+          "min": -0.08837747573852539,
+          "max": 0.08837529271841049,
+          "mean": 0.00016442101332359016,
+          "norm": 6.540227890014648
+        },
+        "dynamics.lagrangian.potential_net.2.bias": {
+          "shape": [
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -0.08818364143371582,
+          "max": 0.08685672283172607,
+          "mean": 0.002816940890625119,
+          "norm": 0.5644317865371704
+        },
+        "dynamics.lagrangian.potential_net.4.weight": {
+          "shape": [
+            1,
+            128
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 128,
+          "nonfinite_count": 0,
+          "min": -9.994441643357277e-05,
+          "max": 9.997703455155715e-05,
+          "mean": -5.040546966483817e-07,
+          "norm": 0.0011188219068571925
+        },
+        "dynamics.lagrangian.potential_net.4.bias": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.float32",
+          "finite_count": 1,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "norm": 0.0
+        }
+      },
+      "nonfinite_parameters_after_step": [],
+      "passed": true
+    },
+    "horizon_probe": [
+      {
+        "horizon": 3,
+        "loss": 1.3902473256166559e-05,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 4,
+        "loss": 1.7638794815866277e-05,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 8,
+        "loss": 0.000188359510502778,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 16,
+        "loss": 0.004075272474437952,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 32,
+        "loss": 0.07701950520277023,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      },
+      {
+        "horizon": 64,
+        "loss": 1.33648681640625,
+        "loss_finite": true,
+        "nonfinite_gradient_parameters": []
+      }
+    ]
+  }
+}

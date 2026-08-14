@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-12T17:55:08-04:00",
+  "cuda_available": false,
+  "development_is_only_decision_source": true,
+  "diagnostic_device": "cpu",
+  "filesystem": {
+    "available_bytes": 299824693248,
+    "minimum_available_bytes": 21474836480,
+    "total_bytes": 1081101176832,
+    "used_bytes": 726284128256
+  },
+  "numpy": "1.22.4",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.13 (default, Oct 21 2022, 23:50:54) \n[GCC 11.2.0]",
+  "python_executable": "/home/jinjaguo/anaconda3/envs/libero/bin/python",
+  "torch": "2.4.1+cu121",
+  "validation_role": "descriptive replication only; not held-out and not used for settings"
+}

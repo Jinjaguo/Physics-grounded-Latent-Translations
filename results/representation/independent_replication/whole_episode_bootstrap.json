@@ -1,0 +1,16 @@
+{
+  "text_to_action": {
+    "mean": 0.8178773981750173,
+    "lower_95": 0.7992365126606198,
+    "upper_95": 0.838066471447424,
+    "replicates": 10000,
+    "unit": "whole_episode"
+  },
+  "action_to_text": {
+    "mean": 0.7005346263084359,
+    "lower_95": 0.6606413721584853,
+    "upper_95": 0.7353368850065277,
+    "replicates": 10000,
+    "unit": "whole_episode"
+  }
+}

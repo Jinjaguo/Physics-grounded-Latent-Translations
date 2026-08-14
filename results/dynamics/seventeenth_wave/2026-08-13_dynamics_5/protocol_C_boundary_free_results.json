@@ -1,0 +1,57 @@
+{
+  "horizons": {
+    "1": {
+      "F1_normalized_execution_error": {
+        "count": 137,
+        "maximum": 2.5944161906822254,
+        "mean": 0.8469204696119728,
+        "median": 0.7728039801407202,
+        "minimum": 0.0970681934130073
+      },
+      "F2_normalized_execution_error": {
+        "count": 137,
+        "maximum": 2.454320572348933,
+        "mean": 0.7722965107095116,
+        "median": 0.7199744583814667,
+        "minimum": 0.07440916798894577
+      },
+      "sample_count": 137
+    },
+    "2": {
+      "F1_normalized_execution_error": {
+        "count": 78,
+        "maximum": 4.335329905554961,
+        "mean": 1.0843553895592741,
+        "median": 0.6661067820371547,
+        "minimum": 0.126388791367288
+      },
+      "F2_normalized_execution_error": {
+        "count": 78,
+        "maximum": 4.274572171630481,
+        "mean": 0.9857550497582225,
+        "median": 0.6557899039139423,
+        "minimum": 0.08750930469874058
+      },
+      "sample_count": 78
+    },
+    "4": {
+      "F1_normalized_execution_error": {
+        "count": 0
+      },
+      "F2_normalized_execution_error": {
+        "count": 0
+      },
+      "sample_count": 0
+    },
+    "8": {
+      "F1_normalized_execution_error": {
+        "count": 0
+      },
+      "F2_normalized_execution_error": {
+        "count": 0
+      },
+      "sample_count": 0
+    }
+  },
+  "label": "OPTIONAL_BOUNDARY_FREE_DIAGNOSTIC"
+}

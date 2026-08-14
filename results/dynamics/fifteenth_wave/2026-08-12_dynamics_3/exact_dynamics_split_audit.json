@@ -1,0 +1,49 @@
+{
+  "development_episode_rows": [
+    3,
+    7,
+    14,
+    19,
+    26,
+    27,
+    28
+  ],
+  "development_transitions": 362,
+  "reserved_validation_rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "reused_wave13_split_without_resampling": true,
+  "source": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_split_preregistration.json",
+  "source_sha256": "d1d87e6405f4dea4fba3f0307ec45a7269b56c0f5e631d043fdc2a0011431d5f",
+  "train_episode_rows": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    30
+  ],
+  "train_transitions": 1015,
+  "validation_transitions_pre_metric": 249
+}

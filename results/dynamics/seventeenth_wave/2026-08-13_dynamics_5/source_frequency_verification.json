@@ -1,0 +1,19 @@
+{
+  "H16_seconds": 0.5333333333333333,
+  "H1_seconds": 0.5333333333333333,
+  "H2_seconds": 1.0666666666666667,
+  "H4_seconds": 2.1333333333333333,
+  "H8_seconds": 4.266666666666667,
+  "control_frequency_hz": 30,
+  "local_official_CALVIN_evidence": [
+    {
+      "path": "third_party/calvin/calvin_env/conf/recorder/recorder.yaml",
+      "sha256": "07494cbf2dbad87d389e665d6510a04371dca9b47183b2bd22d4597360088d61"
+    },
+    {
+      "path": "third_party/calvin/calvin_env/calvin_env/envs/play_table_env.py",
+      "sha256": "dc19a40e856c99265d90c9a4ac99c58c8661b76bef68c639984ef6d80711ab60"
+    }
+  ],
+  "record_fps": 30.0
+}

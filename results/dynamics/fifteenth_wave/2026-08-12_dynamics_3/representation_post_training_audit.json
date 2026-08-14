@@ -1,0 +1,22 @@
+{
+  "decoder_parameter_gradients_non_none": 0,
+  "ema_updates": 0,
+  "representation_backward_calls": 0,
+  "representation_optimizer_steps": 0,
+  "state_tensor_hashes": {
+    "decoder.0.bias": "8740448cda422dc2c01f4eea7c3893fcbffe5002977a7bdd797d7ff1a203c55b",
+    "decoder.0.weight": "07e940dcef4d7d763b60bd62fc0cb86dc7feb7e33f905e228efcee5986206a20",
+    "decoder.2.bias": "0841abc243dfc06c7cf77948ba4d09fceb967e0557ebe3f984d8b366b4668f04",
+    "decoder.2.weight": "c99282bded3a164704626d830b181ba614a2d39a0b74304b131a1a4194ab30bc",
+    "decoder.4.bias": "37b61a06f54053c36fe07ff213f528c5e1e326569b068d1bf8d6ae5591917f5c",
+    "decoder.4.weight": "4effa9e3e56f451d8fbc3ca63bc9f7d11bb6a7debcce1aa55ec7578daa315d72",
+    "encoder.0.bias": "588a93bd88c4eaf0a98ab9fd54544544009677b38f8778ce4f4e88f6176cb355",
+    "encoder.0.weight": "28e4c6e6357c083b16e9c6543b9e0e92cd00dcbb52836749ca737d3df6c53d1a",
+    "encoder.2.bias": "d9c0ee6833bae1d2e38de5c4d3cf6b952383a841b1681c0b79dd8f7119a7f82f",
+    "encoder.2.weight": "274c451665356b173fbdc506d44a9142667591adb2b51df344cc640ae17a58a7",
+    "encoder.4.bias": "7126afc8574ac23f6d399e39a0ce0cd9eb18b032d90adcb4b533fd674355d474",
+    "encoder.4.weight": "b62a95910772f89c16f4a41f4edb7403dda29dc7ffc7ccfddf5b60073b544088",
+    "text_projection.weight": "2858f9deac95c452df3d364c8ad7e7c7f937ed96dea9d11db2bfd1763c4af385"
+  },
+  "state_unchanged": true
+}

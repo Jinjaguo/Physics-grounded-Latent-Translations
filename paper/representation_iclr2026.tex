@@ -1,0 +1,261 @@
+\documentclass{article}
+
+\usepackage{iclr2026_conference,times}
+\usepackage{amsmath,amssymb,booktabs,microtype}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+
+\title{A Language-Addressable and Motor-Faithful Action Representation for Robot Dynamics}
+
+\author{Anonymous Authors}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\mse}{\operatorname{MSE}}
+\newcommand{\rone}{\operatorname{R@1}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study a continuous robot-action representation that must support both
+language retrieval and accurate motor reconstruction before it is used as the
+state of a learned latent dynamics model.  The encoder maps a 16-step CALVIN
+relative-action window to a 32-dimensional bottleneck split into a
+16-dimensional language-aligned prefix and a 16-dimensional execution
+residual.  A decoder reconstructs all motor commands from the complete latent,
+while a symmetric contrastive objective aligns only the semantic prefix with
+frozen OpenCLIP text features.  To reduce destructive interference, the
+language branch detaches the shared pre-head feature, so contrastive gradients
+update the semantic rows of the final head and the text projection but not the
+shared motor trunk.  We select epoch 40 with exponential moving averaging
+(EMA, decay 0.999), freeze six seeds, and compare correct language against both
+shuffled-language and reconstruction-only controls.  On a prospectively frozen
+replication set of 14 previously unused official episodes, all 14 episode means
+and all six seed means are positive in both cross-episode retrieval directions.
+Whole-episode bootstrap lower 95\% bounds are 0.7992 for text-to-action and
+0.6606 for action-to-text.  All 84 episode--seed motor cells pass the original
+20\% relative-MSE and 0.05 gripper-drop tolerances, and no negative semantic
+cell occurs.  These results close representation selection and freeze the
+representation for subsequent equal-information-set latent dynamics studies.
+\end{abstract}
+
+\section{Problem setting}
+\label{sec:setting}
+
+Let $a_{t:t+H-1}\in\R^{H\times 7}$ be a contiguous relative-action window
+from CALVIN~\citep{calvin}, with six continuous relative TCP position/Euler
+channels and one binary gripper channel.  We require a representation $z_t$ that is
+(i) addressable by task language, (ii) sufficient to reconstruct the motor
+window, and (iii) frozen before any latent-dynamics comparison.  We deliberately
+use action-only inputs: task identifiers, images, robot observations, and
+future target-window information are not supplied to the encoder.  All reported
+experiments use $H=16$ and six preregistered CALVIN task categories.
+
+\section{Method}
+\label{sec:method}
+
+\subsection{Action encoder and factorized bottleneck}
+
+The action encoder $f_\theta$ is a three-layer GELU MLP with hidden width 128:
+\begin{equation}
+  z_t=f_\theta(a_{t:t+15})\in\R^{32}, \qquad
+  z_t=[z_t^{\mathrm{sem}};z_t^{\mathrm{exec}}],
+\end{equation}
+where $z_t^{\mathrm{sem}},z_t^{\mathrm{exec}}\in\R^{16}$.  The split is a
+coordinate partition of a single continuous bottleneck, not two separately
+trained encoders.  A matched three-layer decoder $g_\phi$ reconstructs the
+entire action window from all 32 coordinates:
+\begin{equation}
+  \widehat a_{t:t+15}=g_\phi(z_t).
+\end{equation}
+The first six channels are standardized using moments fitted exclusively on
+the permitted training episodes.  The gripper target remains exactly in
+$\{-1,+1\}$ and is reconstructed with a binary logit.
+
+\subsection{Language alignment and gradient isolation}
+
+Each annotation is encoded once by a frozen OpenCLIP~\citep{openclip}
+ViT-L/14 DataComp-XL~\citep{datacomp} text tower, following the contrastive
+language--image pretraining formulation of \citet{clip}, and producing
+$e_y\in\R^{768}$.  A trainable linear map
+$q_\psi:\R^{768}\rightarrow\R^{16}$ projects text into the semantic
+subspace.  For a batch with unique task labels, we minimize symmetric CLIP
+cross entropy:
+\begin{align}
+  s_{ij} &= \frac{\langle \bar z^{\mathrm{sem}}_i,
+  \overline{q_\psi(e_{y_j})}\rangle}{\tau}, \\
+  \mathcal L_{\mathrm{clip}}
+  &=\tfrac12\!\left[\operatorname{CE}(s,I)+
+  \operatorname{CE}(s^\top,I)\right], \qquad \tau=0.07.
+\end{align}
+Let $h_\theta(a)$ denote the shared feature immediately before the final
+32-dimensional encoder head $W$.  Reconstruction uses $W h_\theta(a)$, whereas
+the contrastive branch uses
+\begin{equation}
+  z_{\mathrm{clip}}^{\mathrm{sem}}
+  =\left[W\,\operatorname{stopgrad}(h_\theta(a))\right]_{1:16}.
+\end{equation}
+Thus language gradients update the semantic rows of $W$ and $q_\psi$, but not
+the shared action trunk.  Reconstruction gradients still update the complete
+encoder, all latent coordinates, and the decoder.
+
+\subsection{Motor objective and optimization}
+
+The reconstruction objective separates physically heterogeneous channels:
+\begin{equation}
+  \mathcal L_{\mathrm{motor}}
+  =\mse(\widehat a_{:6},a_{:6})
+  +\operatorname{BCEWithLogits}(\widehat a_7,(a_7+1)/2).
+\end{equation}
+Correct- and shuffled-language models use
+$\mathcal L=\mathcal L_{\mathrm{motor}}+\mathcal L_{\mathrm{clip}}$; the
+reconstruction-only control uses $\mathcal L=\mathcal L_{\mathrm{motor}}$.
+We train for 40 epochs using AdamW~\citep{adamw} (learning rate $10^{-3}$, weight decay
+$10^{-4}$), batch size 6, gradient-norm clipping at 5, and parameter EMA with
+decay 0.999.  Six seed bases are frozen:
+810, 1810, 2810, 202128, 472026, and 411223.
+
+\section{Evaluation protocol}
+\label{sec:protocol}
+
+\paragraph{Data separation.}
+Official CALVIN \texttt{task\_D\_D} training metadata define 31 episodes.
+Thirteen episodes supply final model training and normalization; eight of
+these also form leave-one-episode-out development folds.  Four additional
+episodes form a one-shot confirmation set.  The remaining 14 official episodes
+are frozen before model inference and constitute the independent replication
+set.  Compact files retain only exact \texttt{rel\_actions} arrays and global
+frame indices; official member CRC and schema checks are recorded.
+
+\paragraph{Retrieval.}
+Chunk embeddings are L2-normalized and averaged within exact
+episode--annotation identities.  We report task-balanced macro R@1 in both
+text-to-action (T$\rightarrow$A) and action-to-text (A$\rightarrow$T)
+directions.  For independent query episode $E$, the candidate bank contains
+all annotations from the other 13 replication episodes and excludes $E$.
+For each direction, the semantic advantage is
+\begin{equation}
+ \Delta=\rone_{\mathrm{correct}}-
+ \max(\rone_{\mathrm{reconstruction}},\rone_{\mathrm{shuffled}}).
+\end{equation}
+
+\paragraph{Motor fidelity.}
+Every correct-language episode--seed cell is compared with the matched
+reconstruction-only control.  A cell passes when its raw continuous-action MSE
+increase is at most 20\% and its absolute gripper-accuracy drop is at most
+0.05.
+
+\paragraph{Prospective representation-readiness gate.}
+The gate passes only when (i) every replication episode has positive six-seed
+mean $\Delta$ in both directions, (ii) every seed has positive 14-episode mean
+$\Delta$ in both directions, (iii) both 10,000-replicate whole-episode
+bootstrap lower 95\% bounds exceed zero, (iv) all 84 motor cells pass, and
+(v) checkpoint hashes, normalization exclusion, candidate exclusion, and
+read-only inference checks pass.  Individual semantic cells need not be
+positive, but all are reported.
+
+\section{Results}
+\label{sec:results}
+
+\begin{table}[t]
+  \centering
+  \caption{Independent prospective replication.  Deltas are correct language
+  minus the direction-wise stronger control.}
+  \label{tab:replication}
+  \begin{tabular}{lcc}
+    \toprule
+    Statistic & T$\rightarrow$A & A$\rightarrow$T \\
+    \midrule
+    Mean semantic delta & 0.8179 & 0.7005 \\
+    Whole-episode bootstrap lower 95\% & 0.7992 & 0.6606 \\
+    Minimum episode-averaged delta & 0.7583 & 0.5278 \\
+    Minimum seed-averaged delta & 0.6655 & 0.6186 \\
+    Episodes with positive six-seed mean & 14/14 & 14/14 \\
+    Seeds with positive episode mean & 6/6 & 6/6 \\
+    Negative episode--seed cells & 0/84 & 0/84 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+During development, all 48 fold--seed correct-language EMA cells passed the
+semantic comparison, all 48 passed the motor criterion, and the worst EMA
+relative MSE increase was 7.25\%.  In contrast, the corresponding raw
+parameters produced two semantic and 11 motor violations; this preregistered
+comparison selected epoch-40 EMA before confirmation access.
+
+Table~\ref{tab:replication} shows that semantic advantage is not driven by an
+isolated seed or episode.  The weakest episode and seed averages remain well
+above zero in both directions, and the episode-resampled confidence intervals
+have large positive margins.  Motor fidelity also remains within the original
+limits for all 84 cells: the worst continuous relative-MSE increase is 4.16\%,
+and the worst gripper drop is 0.00329.  This is substantially below the
+preregistered 20\% and 0.05 limits.
+
+The earlier confirmation protocol used a stricter all-cell rule and recorded
+one negative cross-episode A$\rightarrow$T cell at seed 411223, episode 9
+($\Delta=-0.0667$).  Read-only forensics localized that event to stronger
+reconstruction-control ranking and misses on
+\texttt{lift\_red\_block\_table} and
+\texttt{push\_pink\_block\_right}.  We preserve this historical failure; the
+prospective readiness gate is a separate protocol and does not retroactively
+rewrite it.  No corresponding negative cell recurs on the 14 independent
+episodes.
+
+\section{Representation freeze and dynamics interface}
+
+The prospective gate passes, so representation search ends here.  The 18
+epoch-40 EMA checkpoints are hash-frozen for the current paper.  Downstream
+dynamics experiments must use the serialized 32-D latent and report semantic
+and execution slices without modifying the representation.  Comparisons among
+an MLP transition model, an unforced discrete Euler--Lagrange model, and a
+causal controlled model must use equal information sets.  In particular,
+future target-window actions may not be supplied as generalized force when
+predicting a latent encoded from those same future actions.  Any oracle
+teacher-forced diagnostic must be reported separately from causal baselines.
+
+\section{Reproducibility statement}
+
+The release contains one functional configuration, the exact 31 compact
+official action episodes, frozen OpenCLIP features, 18 checkpoint files and
+hash manifest, functional training/evaluation/gate scripts, unit tests, and
+machine-readable episode--seed tables.  Historical development prompts and
+logs are archived separately and excluded from the public runtime path.  The
+checkpoint-only reproduction runs data verification, frozen evaluation,
+aggregation, tests, and integrity audit; a full reproduction additionally runs
+the 8-fold development validation and six-seed final training.
+
+\section*{Ethics statement}
+
+The experiments use an existing robot-learning benchmark and do not involve
+human participants or personal data.  The representation may eventually be
+used in physical robot control; deployment therefore requires independent
+safety validation beyond the offline representation results reported here.
+
+\bibliographystyle{iclr2026_conference}
+\begin{thebibliography}{6}
+\bibitem{calvin}
+Oier Mees, Lukas Hermann, Erick Rosete-Beas, and Wolfram Burgard.
+CALVIN: A benchmark for language-conditioned policy learning for long-horizon robot manipulation tasks.
+\emph{IEEE Robotics and Automation Letters}, 2022.
+
+\bibitem{clip}
+Alec Radford et al.
+Learning transferable visual models from natural language supervision.
+\emph{International Conference on Machine Learning}, 2021.
+
+\bibitem{openclip}
+Gabriel Ilharco et al.
+OpenCLIP.
+\emph{Zenodo}, 2021.
+
+\bibitem{datacomp}
+Samir Yitzhak Gadre et al.
+DataComp: In search of the next generation of multimodal datasets.
+\emph{Advances in Neural Information Processing Systems}, 2023.
+
+\bibitem{adamw}
+Ilya Loshchilov and Frank Hutter.
+Decoupled weight decay regularization.
+\emph{International Conference on Learning Representations}, 2019.
+\end{thebibliography}
+
+\end{document}

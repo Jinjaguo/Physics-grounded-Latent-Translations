@@ -1,0 +1,291 @@
+{
+  "dataset": "CALVIN task_D_D training",
+  "retained_fields": [
+    "rel_actions",
+    "global_frame_indices"
+  ],
+  "episode_count": 31,
+  "total_frames": 512077,
+  "episodes": [
+    {
+      "official_row": 0,
+      "frame_range_inclusive": [
+        497303,
+        517043
+      ],
+      "frame_count": 19741,
+      "sha256": "765f85774115d82f3bb2588828293a9f16c19ab25b6ba4da9a7a3d10c9df0b5d"
+    },
+    {
+      "official_row": 1,
+      "frame_range_inclusive": [
+        381897,
+        399945
+      ],
+      "frame_count": 18049,
+      "sha256": "2632049d09c837af9721a3b43dc9695d1410b6cb8529fef9455cf413b96e561c"
+    },
+    {
+      "official_row": 2,
+      "frame_range_inclusive": [
+        361253,
+        370057
+      ],
+      "frame_count": 8805,
+      "sha256": "4e237e573058b2b8ed330fda8c54799e07120d21feeb55fcac6da94b5d827806"
+    },
+    {
+      "official_row": 3,
+      "frame_range_inclusive": [
+        517044,
+        539754
+      ],
+      "frame_count": 22711,
+      "sha256": "44e6bdf9abcc28646d58fa044014618074ce9072d531ea70c61d481be921869e"
+    },
+    {
+      "official_row": 4,
+      "frame_range_inclusive": [
+        553567,
+        555241
+      ],
+      "frame_count": 1675,
+      "sha256": "bf5f7f242d692555381f8ee1edbb81b2d82d09d75ad26990a2eb3d3fafe2d964"
+    },
+    {
+      "official_row": 5,
+      "frame_range_inclusive": [
+        555242,
+        578257
+      ],
+      "frame_count": 23016,
+      "sha256": "2b1ef8c8e168545cc7184b50b4b6b062ecdb9e3bda534e48edefc24e5c216442"
+    },
+    {
+      "official_row": 6,
+      "frame_range_inclusive": [
+        53819,
+        63233
+      ],
+      "frame_count": 9415,
+      "sha256": "84ced9777c4a65861f44b296639f028e9f4e78b33d0f1fd175ed76dea0be9c2d"
+    },
+    {
+      "official_row": 7,
+      "frame_range_inclusive": [
+        197178,
+        219634
+      ],
+      "frame_count": 22457,
+      "sha256": "c667cb3e716301b174a47e18041ef497d47360ff723ace0a2cf3f55f64b8570c"
+    },
+    {
+      "official_row": 8,
+      "frame_range_inclusive": [
+        166339,
+        197177
+      ],
+      "frame_count": 30839,
+      "sha256": "1b0251c306489af8aa90f27d8dfe1ca542d5098b4b784f38ae5c70b5e5d958f4"
+    },
+    {
+      "official_row": 9,
+      "frame_range_inclusive": [
+        331367,
+        342789
+      ],
+      "frame_count": 11423,
+      "sha256": "195b3ec5d3f70658164c4bf5d481ee94544a846b7cc6d3abbc6f9ded6a819e55"
+    },
+    {
+      "official_row": 10,
+      "frame_range_inclusive": [
+        438873,
+        465067
+      ],
+      "frame_count": 26195,
+      "sha256": "119130d688d145094d0667186dcc0bb19ff0b29bcb311261ab943044e40ed33b"
+    },
+    {
+      "official_row": 11,
+      "frame_range_inclusive": [
+        465068,
+        477459
+      ],
+      "frame_count": 12392,
+      "sha256": "89d3cda4fa7ffa3d6c94e1ccfb81e38526c781dcbe3ceb17bac93701526a4194"
+    },
+    {
+      "official_row": 12,
+      "frame_range_inclusive": [
+        349364,
+        358481
+      ],
+      "frame_count": 9118,
+      "sha256": "bd9d155d261dfc779a83f681a8af7c54440368be5b14200e03ef788de05145c6"
+    },
+    {
+      "official_row": 13,
+      "frame_range_inclusive": [
+        122177,
+        147553
+      ],
+      "frame_count": 25377,
+      "sha256": "6ada7a8bb7e82baee68ec6b0d64e60926c9b5b6f2d9aded50adb88a10c81afc4"
+    },
+    {
+      "official_row": 14,
+      "frame_range_inclusive": [
+        244285,
+        272718
+      ],
+      "frame_count": 28434,
+      "sha256": "a39ae339dd844100b50128663d3c825a03de57e702a2ed35d35c58b19004bd46"
+    },
+    {
+      "official_row": 15,
+      "frame_range_inclusive": [
+        539755,
+        553566
+      ],
+      "frame_count": 13812,
+      "sha256": "8b446d3d887eb1262b632b6864096ac7b94e9fd0f6b3d98e9976eaaf2838c22a"
+    },
+    {
+      "official_row": 16,
+      "frame_range_inclusive": [
+        358482,
+        361252
+      ],
+      "frame_count": 2771,
+      "sha256": "b8b247ba9d789197f740f158805675817568ad4f03de6f06c802254ea2a66185"
+    },
+    {
+      "official_row": 17,
+      "frame_range_inclusive": [
+        420499,
+        438872
+      ],
+      "frame_count": 18374,
+      "sha256": "fc2733009bc806bef9393120b14ed656ccec17d7eed7728623c6813c4cfa1cdd"
+    },
+    {
+      "official_row": 18,
+      "frame_range_inclusive": [
+        147554,
+        166338
+      ],
+      "frame_count": 18785,
+      "sha256": "7b624dd365698ee99f6ccb269d27635eb9fe3464af65f6fcf4217de34b195934"
+    },
+    {
+      "official_row": 19,
+      "frame_range_inclusive": [
+        370058,
+        381896
+      ],
+      "frame_count": 11839,
+      "sha256": "32d92f7ece1edad1009c742dfd84c31443a28264a36681165c480b2c4710793a"
+    },
+    {
+      "official_row": 20,
+      "frame_range_inclusive": [
+        578258,
+        589066
+      ],
+      "frame_count": 10809,
+      "sha256": "22aa89a821ad9f817a4b8fdfff764944573c701a4a04760e56524cc3020e7c21"
+    },
+    {
+      "official_row": 21,
+      "frame_range_inclusive": [
+        272719,
+        298925
+      ],
+      "frame_count": 26207,
+      "sha256": "471af5bd9c8a60898696c79e7a58060848ebebcd01cc5f565dbf7078b4d37604"
+    },
+    {
+      "official_row": 22,
+      "frame_range_inclusive": [
+        342790,
+        349363
+      ],
+      "frame_count": 6574,
+      "sha256": "81aece0090d048b673aba44a1dd5bccbbffcea0fc0b070dcdd80d5b8971ab4fa"
+    },
+    {
+      "official_row": 23,
+      "frame_range_inclusive": [
+        589067,
+        593878
+      ],
+      "frame_count": 4812,
+      "sha256": "dfb41fc4a0a346acc65ccef98213bbbb2df5e61ab48194431e5e1427d9ab9334"
+    },
+    {
+      "official_row": 24,
+      "frame_range_inclusive": [
+        103126,
+        122176
+      ],
+      "frame_count": 19051,
+      "sha256": "6ae26c83174b872a3ffa8e79cff3105c40ab78af191788a545f7ac0d3553d49d"
+    },
+    {
+      "official_row": 25,
+      "frame_range_inclusive": [
+        308070,
+        331366
+      ],
+      "frame_count": 23297,
+      "sha256": "a6d16cad3e91332eab67212571e1d0264009d554f18913c8d810f0352ea39f81"
+    },
+    {
+      "official_row": 26,
+      "frame_range_inclusive": [
+        84216,
+        103125
+      ],
+      "frame_count": 18910,
+      "sha256": "86f5259ac068a375658ad0b85dc69d52ba272247eb3031ddf9231e866e62317e"
+    },
+    {
+      "official_row": 27,
+      "frame_range_inclusive": [
+        298926,
+        308069
+      ],
+      "frame_count": 9144,
+      "sha256": "6204b11c2125c2779e0bb06b3f67a4877f0ca5c3c1f5344142138d3bec010bbd"
+    },
+    {
+      "official_row": 28,
+      "frame_range_inclusive": [
+        477460,
+        497302
+      ],
+      "frame_count": 19843,
+      "sha256": "1eca9e84a2bd16e2745ca5c10943fd6dc58963fbb8f1b45f827cb71ca4681453"
+    },
+    {
+      "official_row": 29,
+      "frame_range_inclusive": [
+        63234,
+        84215
+      ],
+      "frame_count": 20982,
+      "sha256": "96600336fd6267bc80ba60f54ca7ef9bf3add83d411c78edd65bad6e4e24c710"
+    },
+    {
+      "official_row": 30,
+      "frame_range_inclusive": [
+        593879,
+        611098
+      ],
+      "frame_count": 17220,
+      "sha256": "c59a8dd448829c3d814fbd65682699f4ef5e09dacf8676e1b6807196ea8f8666"
+    }
+  ],
+  "complete": true
+}

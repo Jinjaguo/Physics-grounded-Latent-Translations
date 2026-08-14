@@ -1,0 +1,18 @@
+{
+  "F1": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+    "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+  },
+  "F2": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+    "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+  },
+  "representation": {
+    "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+    "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+  },
+  "semantic": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt",
+    "sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+  }
+}

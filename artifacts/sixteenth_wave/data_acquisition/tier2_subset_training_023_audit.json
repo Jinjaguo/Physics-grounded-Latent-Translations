@@ -1,0 +1,129 @@
+{
+  "action_probes": [
+    {
+      "actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          -0.06682246441101641,
+          -0.15015775514686452,
+          0.6350814426110325,
+          -3.0317715222561596,
+          -0.18014040794292632,
+          1.8034598618116175,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -0.06682246441101641,
+          -0.15015775514686452,
+          0.6350814426110325,
+          -3.0317715222561596,
+          -0.18014040794292632,
+          1.8034598618116175,
+          1.0
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "keys": [
+        "actions",
+        "rel_actions",
+        "robot_obs",
+        "scene_obs",
+        "rgb_static",
+        "rgb_gripper",
+        "rgb_tactile",
+        "depth_static",
+        "depth_gripper",
+        "depth_tactile"
+      ],
+      "path": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/abcd/extracted/subset_training_023/training/episode_2399018.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          0.8121007265341581,
+          -0.030776458494513603,
+          -0.01980721985905265,
+          -0.035504137258186574,
+          0.09535345070946555,
+          -0.34417498193916707,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          0.8121007265341581,
+          -0.030776458494513603,
+          -0.01980721985905265,
+          -0.035504137258186574,
+          0.09535345070946555,
+          -0.34417498193916707,
+          1.0
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "sha256": "dd26c342cbac249803dcf1081ea197bf53d40aa5962e9670ee3ec48414aa5244"
+    }
+  ],
+  "annotation_audit": {
+    "annotation_count": 22966,
+    "candidate_count_ge_160": 0,
+    "candidate_records": [],
+    "maximum_length": 65,
+    "median_length": 65.0,
+    "minimum_length": 34,
+    "path": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/abcd/extracted/subset_training_023/training/lang_annotations/auto_lang_ann.npy",
+    "sha256": "bb0aebab01d792279b72c1818d00318013e0b73fe6c2f24374cad23c69d4e8ee",
+    "task_counts": {
+      "close_drawer": 675,
+      "lift_blue_block_drawer": 676,
+      "lift_blue_block_slider": 675,
+      "lift_blue_block_table": 676,
+      "lift_pink_block_drawer": 675,
+      "lift_pink_block_slider": 675,
+      "lift_pink_block_table": 676,
+      "lift_red_block_drawer": 677,
+      "lift_red_block_slider": 676,
+      "lift_red_block_table": 676,
+      "move_slider_left": 677,
+      "move_slider_right": 675,
+      "open_drawer": 675,
+      "place_in_drawer": 675,
+      "place_in_slider": 676,
+      "push_blue_block_left": 676,
+      "push_blue_block_right": 675,
+      "push_into_drawer": 675,
+      "push_pink_block_left": 675,
+      "push_pink_block_right": 675,
+      "push_red_block_left": 675,
+      "push_red_block_right": 675,
+      "rotate_blue_block_left": 675,
+      "rotate_blue_block_right": 675,
+      "rotate_pink_block_left": 675,
+      "rotate_pink_block_right": 675,
+      "rotate_red_block_left": 675,
+      "rotate_red_block_right": 675,
+      "stack_block": 675,
+      "turn_off_led": 677,
+      "turn_off_lightbulb": 675,
+      "turn_on_led": 677,
+      "turn_on_lightbulb": 676,
+      "unstack_block": 675
+    }
+  },
+  "episode_member_count": 7126,
+  "extracted_members": [
+    "subset_training_023/training/scene_info.npy",
+    "subset_training_023/training/lang_annotations/auto_lang_ann.npy",
+    "subset_training_023/training/ep_lens.npy",
+    "subset_training_023/training/ep_start_end_ids.npy",
+    "subset_training_023/training/episode_2399018.npz"
+  ],
+  "metadata_members": [
+    "subset_training_023/training/scene_info.npy",
+    "subset_training_023/training/lang_annotations/auto_lang_ann.npy",
+    "subset_training_023/training/ep_lens.npy",
+    "subset_training_023/training/ep_start_end_ids.npy"
+  ],
+  "zip_member_count": 7134
+}

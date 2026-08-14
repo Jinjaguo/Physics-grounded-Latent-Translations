@@ -1,0 +1,28 @@
+{
+  "all_passed": true,
+  "automatic_differentiation": "torch.autograd.functional.jvp",
+  "created_at": "2026-08-12T22:20:12-04:00",
+  "decoder_gradients_zero": true,
+  "decoder_parameter_gradients_non_none": 0,
+  "deterministic_sample_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "finite_difference_delta": 0.001,
+  "gripper_metric_input": "continuous decoder logit included; threshold excluded",
+  "jacobian_correct_within_0.01": true,
+  "jacobian_jvp_relative_error": 0.0004355112905614078,
+  "metric_psd_passed": true,
+  "metric_psd_tolerance": -1e-07,
+  "metric_quadratic_values": [
+    417.30853271484375,
+    216.91322326660156,
+    148.54351806640625,
+    232.21621704101562
+  ],
+  "potential_gradients_finite": true,
+  "prediction_finite": true,
+  "representation_state_unchanged": true
+}

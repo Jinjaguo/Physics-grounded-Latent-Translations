@@ -1,0 +1,31 @@
+{
+  "paused_before_F1_F2_inference": true,
+  "reason": "VyoJ auto_lang_ann.npy is an external object-array pickle, while the explicit deserialization authorization was limited to RoboVerse CALVIN candidate files.",
+  "completed_source_shards": [
+    "training/subset_training_023.zip"
+  ],
+  "retained_complete_compact_blocks": 6,
+  "incomplete_resumable_download": {
+    "source_subset": "training/subset_training_000.zip",
+    "logical_bytes": 27917287424,
+    "complete_source_bytes": 29194555788
+  },
+  "available_bytes_at_pause": 955885498368,
+  "minimum_required_available_bytes": 200000000000,
+  "primary_inference_run": false,
+  "required_user_authority": "GRANTED",
+  "authorization_scope": "wave-17 specified VyoJ/calvin-ABCD-D-subsets CALVIN auto_lang_ann.npy metadata only",
+  "authorization_received": true,
+  "resumed_after_authorization": true,
+  "acquisition_completed": true,
+  "final_gate": {
+    "blocks": 61,
+    "distinct_sessions": 11,
+    "protocol_A_starts": {
+      "H1": 303,
+      "H2": 300,
+      "H4": 290,
+      "H8": 61
+    }
+  }
+}

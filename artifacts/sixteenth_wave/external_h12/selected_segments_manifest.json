@@ -1,0 +1,3923 @@
+{
+  "H1_starts": 120,
+  "H2_starts": 60,
+  "H4_H8_run": false,
+  "created_at": "2026-08-13T15:02:29-04:00",
+  "gate_passed": true,
+  "per_task_counts": {
+    "lift_blue_block_slider": 10,
+    "lift_red_block_table": 10,
+    "place_in_slider": 10,
+    "push_pink_block_right": 10,
+    "turn_off_lightbulb": 10,
+    "turn_on_lightbulb": 10
+  },
+  "segments": [
+    {
+      "annotation_position": 535,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.24273868764563555,
+        0.7101465811452302,
+        0.5560512816043528,
+        0.2726395942285098,
+        0.16247772765730417,
+        0.4533255514968815
+      ],
+      "continuous_min": [
+        -0.11182432880647714,
+        -0.4624518650223126,
+        -0.1356065661125172,
+        -0.2862746046774056,
+        -0.2635118190913843,
+        -0.045156742637857405
+      ],
+      "end_frame": 2401164,
+      "four_window_ranges": [
+        [
+          2401100,
+          2401115
+        ],
+        [
+          2401116,
+          2401131
+        ],
+        [
+          2401132,
+          2401147
+        ],
+        [
+          2401148,
+          2401163
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_023_ann_00535.npz",
+      "raw_language": "put the grasped object in the cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_023_ann_00535",
+      "selection_uses_model_outputs": false,
+      "sha256": "346d1dfe6efa3f885872d6fb7cc5602779c869e4caad48a1428dad3838cb31bf",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_023.zip",
+      "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+      "start_frame": 2401100,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 543,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.18806846629770974,
+        0.3848680444868108,
+        0.5131206719231174,
+        0.23707938766968972,
+        0.3704616676908401,
+        0.1686169873979182
+      ],
+      "continuous_min": [
+        -0.22894523791492233,
+        -0.2563546404529871,
+        -0.4043094329160113,
+        -0.18554492147406343,
+        -0.38676883687924324,
+        -0.17552311472828208
+      ],
+      "end_frame": 2402161,
+      "four_window_ranges": [
+        [
+          2402097,
+          2402112
+        ],
+        [
+          2402113,
+          2402128
+        ],
+        [
+          2402129,
+          2402144
+        ],
+        [
+          2402145,
+          2402160
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_023_ann_00543.npz",
+      "raw_language": "push the switch downwards",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_023_ann_00543",
+      "selection_uses_model_outputs": false,
+      "sha256": "d855c1dfa334f2a253ef3f44021734949abf9c4b930d0bce53f8a6bdd8d5c411",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_023.zip",
+      "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+      "start_frame": 2402097,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3722,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.2093192501398028,
+        0.28971127044548695,
+        0.23377963903530308,
+        0.2998058521848268,
+        0.16603800367209764,
+        0.5135720282903211
+      ],
+      "continuous_min": [
+        -0.2967300348243482,
+        -0.24029880278354232,
+        -0.2485388946493916,
+        -0.12926650358128455,
+        -0.23712374732349772,
+        -0.4614192687438745
+      ],
+      "end_frame": 2400151,
+      "four_window_ranges": [
+        [
+          2400087,
+          2400102
+        ],
+        [
+          2400103,
+          2400118
+        ],
+        [
+          2400119,
+          2400134
+        ],
+        [
+          2400135,
+          2400150
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_03722.npz",
+      "raw_language": "in the slider pick up the blue block",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_023_ann_03722",
+      "selection_uses_model_outputs": false,
+      "sha256": "fbc1f52b2f46b2e1664258ff992dde04976bee20204a73a556171aa0faccc8df",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_023.zip",
+      "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+      "start_frame": 2400087,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3808,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.19341196570767522,
+        0.3305668865625756,
+        0.39178145163265565,
+        0.23471562167541649,
+        0.12579223861036049,
+        0.3419841336949858
+      ],
+      "continuous_min": [
+        -0.3134924162925712,
+        -0.32899114024571574,
+        -0.24170593927124173,
+        -0.33906536905105256,
+        -0.2643663964390086,
+        -0.18095302270973335
+      ],
+      "end_frame": 2403421,
+      "four_window_ranges": [
+        [
+          2403357,
+          2403372
+        ],
+        [
+          2403373,
+          2403388
+        ],
+        [
+          2403389,
+          2403404
+        ],
+        [
+          2403405,
+          2403420
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_03808.npz",
+      "raw_language": "pick up the blue block in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_023_ann_03808",
+      "selection_uses_model_outputs": false,
+      "sha256": "1f9fbb5c33a1851a8fe050fab11d4f4e6dbcbab9df3cfae3de73ee4c21df5906",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_023.zip",
+      "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+      "start_frame": 2403357,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 7035,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.19341196570767522,
+        0.3305668865625756,
+        0.42897343973353763,
+        0.23471562167541649,
+        0.12579223861036049,
+        0.3419841336949858
+      ],
+      "continuous_min": [
+        -0.3134924162925712,
+        -0.32899114024571574,
+        -0.24170593927124173,
+        -0.33906536905105256,
+        -0.2643663964390086,
+        -0.14868858833091636
+      ],
+      "end_frame": 2403419,
+      "four_window_ranges": [
+        [
+          2403355,
+          2403370
+        ],
+        [
+          2403371,
+          2403386
+        ],
+        [
+          2403387,
+          2403402
+        ],
+        [
+          2403403,
+          2403418
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_07035.npz",
+      "raw_language": "grasp the blue block lying in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_023_ann_07035",
+      "selection_uses_model_outputs": false,
+      "sha256": "d536f1604ea0695b87fccbdc86544e997560112c1de547952371430efbbda864",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_023.zip",
+      "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+      "start_frame": 2403355,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 80,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7371928962501967,
+        0.3338134680813878,
+        0.5219764119966885,
+        0.1808080935124945,
+        0.3339018386752013,
+        0.14471949255739247
+      ],
+      "continuous_min": [
+        -0.0854124978012849,
+        -0.37652236530826,
+        -0.2548658004824622,
+        -0.3379675882360367,
+        -0.35869053750834823,
+        -0.23455263556543038
+      ],
+      "end_frame": 61132,
+      "four_window_ranges": [
+        [
+          61068,
+          61083
+        ],
+        [
+          61084,
+          61099
+        ],
+        [
+          61100,
+          61115
+        ],
+        [
+          61116,
+          61131
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_00080.npz",
+      "raw_language": "move up the switch",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00080",
+      "selection_uses_model_outputs": false,
+      "sha256": "48f9c1da0220eb89794d51a910ec557cb0dcc7badeade87e1ea12075c4d4c085",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 61068,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 134,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.9711111320575234,
+        0.4412591379971201,
+        0.7519705743343486,
+        0.5928306089341095,
+        0.4063683950430974,
+        0.5120176152267764
+      ],
+      "continuous_min": [
+        -0.07786131257080456,
+        -0.06110994325138272,
+        -0.37877533542803876,
+        -0.4277877718696921,
+        -0.725868655774411,
+        -0.5545110507902962
+      ],
+      "end_frame": 131710,
+      "four_window_ranges": [
+        [
+          131646,
+          131661
+        ],
+        [
+          131662,
+          131677
+        ],
+        [
+          131678,
+          131693
+        ],
+        [
+          131694,
+          131709
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_00134.npz",
+      "raw_language": "slide up the switch",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00134",
+      "selection_uses_model_outputs": false,
+      "sha256": "a2fc741f2eac038cd0e9a41c77067c05b74f8a3888c407a8a95956bce5c196f9",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 131646,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 171,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.42318614101114205,
+        0.05581201877274608,
+        0.66616585522285,
+        0.5474519868203664,
+        0.30044808905325127,
+        0.5118992182599769
+      ],
+      "continuous_min": [
+        -0.7207733742256889,
+        -0.25214733836805764,
+        -0.2812554573999426,
+        -0.45909483855465893,
+        -0.4093832492603777,
+        -0.3566901150711299
+      ],
+      "end_frame": 118735,
+      "four_window_ranges": [
+        [
+          118671,
+          118686
+        ],
+        [
+          118687,
+          118702
+        ],
+        [
+          118703,
+          118718
+        ],
+        [
+          118719,
+          118734
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00171.npz",
+      "raw_language": "pick up the red block from the table",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00171",
+      "selection_uses_model_outputs": false,
+      "sha256": "fe3584d2697526434a0f2900218188792c4a203c9984bc2a03d410888951b778",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 118671,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 265,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.38021694409015316,
+        0.6481716153475953,
+        0.6873127624460795,
+        0.5092757407456894,
+        0.21662376614578704,
+        0.3896866811117494
+      ],
+      "continuous_min": [
+        -0.7811569877924036,
+        -0.573432086165281,
+        -0.3371536193761404,
+        -0.41525346181702893,
+        -0.42116828365805326,
+        -0.30733388389274197
+      ],
+      "end_frame": 117491,
+      "four_window_ranges": [
+        [
+          117427,
+          117442
+        ],
+        [
+          117443,
+          117458
+        ],
+        [
+          117459,
+          117474
+        ],
+        [
+          117475,
+          117490
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_00265.npz",
+      "raw_language": "put the object in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00265",
+      "selection_uses_model_outputs": false,
+      "sha256": "9fd03811d8d39e87520820c028ca0e0861e38b5f057a610891b0165cb6dd4bf2",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 117427,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 275,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6196544285133304,
+        0.17946356933271276,
+        0.39941899109058876,
+        0.5346883320720508,
+        0.25318310792929566,
+        0.24565187418854606
+      ],
+      "continuous_min": [
+        -0.4087524326797154,
+        -0.08901261735622806,
+        -0.28511193090761944,
+        -0.3036516559040958,
+        -0.4127372111031047,
+        -0.4593609179050162
+      ],
+      "end_frame": 70248,
+      "four_window_ranges": [
+        [
+          70184,
+          70199
+        ],
+        [
+          70200,
+          70215
+        ],
+        [
+          70216,
+          70231
+        ],
+        [
+          70232,
+          70247
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00275.npz",
+      "raw_language": "grasp the red block and lift it up",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00275",
+      "selection_uses_model_outputs": false,
+      "sha256": "7efc2637a4a3d283a74bf9f28066d6c99bb517aefe2a38564fb75a4ce704fdd5",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 70184,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 441,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.8798091274312893,
+        0.509280708121091,
+        0.4414048028829165,
+        0.7499281958078896,
+        0.5896863309188127,
+        0.6025095077330889
+      ],
+      "continuous_min": [
+        -0.09092300545819806,
+        -0.3732121662699133,
+        -0.332814550983479,
+        -0.6054922131076523,
+        -0.6414863973812412,
+        -0.36678731335358705
+      ],
+      "end_frame": 102125,
+      "four_window_ranges": [
+        [
+          102061,
+          102076
+        ],
+        [
+          102077,
+          102092
+        ],
+        [
+          102093,
+          102108
+        ],
+        [
+          102109,
+          102124
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_00441.npz",
+      "raw_language": "turn off the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00441",
+      "selection_uses_model_outputs": false,
+      "sha256": "6e012f41add7098e671b7afc0f7858fc28df62605f66fc4edf3c6a4483986e1a",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 102061,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 555,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.18336094175140788,
+        0.574565246655629,
+        0.5807072242336564,
+        0.44018025425367036,
+        0.23487775910759012,
+        0.17718262879374613
+      ],
+      "continuous_min": [
+        -0.3048330816677783,
+        -0.03449621060257341,
+        -0.3393101821111022,
+        -0.23484076870971649,
+        -0.5141460245227236,
+        -0.2252357170123176
+      ],
+      "end_frame": 116039,
+      "four_window_ranges": [
+        [
+          115975,
+          115990
+        ],
+        [
+          115991,
+          116006
+        ],
+        [
+          116007,
+          116022
+        ],
+        [
+          116023,
+          116038
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00555.npz",
+      "raw_language": "lift the red block up",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_00555",
+      "selection_uses_model_outputs": false,
+      "sha256": "739762fa26a369cc28495a876421613f79f0f3c571957d995c4924c8eb4de652",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 115975,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1131,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.46985852736176753,
+        0.6628893759789971,
+        0.45946558204583154,
+        0.2314744879195807,
+        0.32062348007825925,
+        0.19559410660574095
+      ],
+      "continuous_min": [
+        -0.15256994156836456,
+        -0.1417331286869411,
+        -0.2094427217088135,
+        -0.44025288271015484,
+        -0.3151659228113335,
+        -0.3600770405035014
+      ],
+      "end_frame": 104045,
+      "four_window_ranges": [
+        [
+          103981,
+          103996
+        ],
+        [
+          103997,
+          104012
+        ],
+        [
+          104013,
+          104028
+        ],
+        [
+          104029,
+          104044
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01131.npz",
+      "raw_language": "turn on the yellow lamp",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01131",
+      "selection_uses_model_outputs": false,
+      "sha256": "1362923f2e0d0055a5ff0d448118088e96a92497fc653455fcc7da0034344d6f",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 103981,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1156,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.9827201122360143,
+        0.12794174700473948,
+        0.3855212194716795,
+        0.29313721160283635,
+        0.42982111384856303,
+        0.39602674099119106
+      ],
+      "continuous_min": [
+        -0.3159465396071315,
+        -0.5408058654772064,
+        -0.33212879890525127,
+        -0.20228679152457296,
+        -0.3659681193639308,
+        -0.2424902387788208
+      ],
+      "end_frame": 106041,
+      "four_window_ranges": [
+        [
+          105977,
+          105992
+        ],
+        [
+          105993,
+          106008
+        ],
+        [
+          106009,
+          106024
+        ],
+        [
+          106025,
+          106040
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_01156.npz",
+      "raw_language": "pick up the red block",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01156",
+      "selection_uses_model_outputs": false,
+      "sha256": "6e647fb3c8ddb4fcf731f062b551856d2d0a114c93281deb5d575cd434b2f9e0",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 105977,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1158,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5348122374774624,
+        0.531145923841525,
+        0.7167451812832265,
+        0.1764273018638285,
+        0.14961047002238992,
+        0.4695037341210373
+      ],
+      "continuous_min": [
+        -0.0931716639611252,
+        -0.21152679070929775,
+        -0.23028262691540125,
+        -0.35766188141714395,
+        -0.4721774856715566,
+        -0.4254945501105567
+      ],
+      "end_frame": 58956,
+      "four_window_ranges": [
+        [
+          58892,
+          58907
+        ],
+        [
+          58908,
+          58923
+        ],
+        [
+          58924,
+          58939
+        ],
+        [
+          58940,
+          58955
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01158.npz",
+      "raw_language": "move the light switch to turn on the light bulb",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01158",
+      "selection_uses_model_outputs": false,
+      "sha256": "6ddce1d7f1a818799f7dcd77cdf503d4e1fb17d2ff0418de608be34a032c7ac0",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 58892,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1298,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.3812803657362973,
+        0.46539564715738607,
+        0.46695139433851063,
+        0.2597679290604482,
+        0.20591094185335557,
+        0.576118068576239
+      ],
+      "continuous_min": [
+        -0.9879049966736372,
+        -0.6117837950090325,
+        -0.1908069725555961,
+        -0.28541368663294264,
+        -0.37454179011431776,
+        -0.32940517451674367
+      ],
+      "end_frame": 150516,
+      "four_window_ranges": [
+        [
+          150452,
+          150467
+        ],
+        [
+          150468,
+          150483
+        ],
+        [
+          150484,
+          150499
+        ],
+        [
+          150500,
+          150515
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_01298.npz",
+      "raw_language": "put the object in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01298",
+      "selection_uses_model_outputs": false,
+      "sha256": "93d58e93e4689f9cdfec768b97683910cd99704b1ff08f37801d578386e26e49",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 150452,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1374,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.015674670618662928,
+        0.6928198531083493,
+        0.7163928788012974,
+        0.3703218809777553,
+        0.26761843952535,
+        0.5232383067902902
+      ],
+      "continuous_min": [
+        -0.4251861475481983,
+        -0.45112659390288185,
+        -0.3051477044106188,
+        -0.30122046181785045,
+        -0.35346089200499975,
+        -0.32814227529293305
+      ],
+      "end_frame": 57258,
+      "four_window_ranges": [
+        [
+          57194,
+          57209
+        ],
+        [
+          57210,
+          57225
+        ],
+        [
+          57226,
+          57241
+        ],
+        [
+          57242,
+          57257
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_01374.npz",
+      "raw_language": "put the object in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01374",
+      "selection_uses_model_outputs": false,
+      "sha256": "d5bab83e7cbe9f479d2a0d06e8df0043383b891839d3a9f522ec5021871d9b07",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 57194,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1426,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.8198165089406753,
+        0.29907349696616203,
+        0.5476206809998385,
+        0.41301861438687304,
+        0.2905644207123892,
+        0.7929054465583185
+      ],
+      "continuous_min": [
+        -0.05204478880367347,
+        -0.23947412497649662,
+        -0.41717538918061847,
+        -1.0,
+        -0.483160485817562,
+        -0.4155003021485726
+      ],
+      "end_frame": 129567,
+      "four_window_ranges": [
+        [
+          129503,
+          129518
+        ],
+        [
+          129519,
+          129534
+        ],
+        [
+          129535,
+          129550
+        ],
+        [
+          129551,
+          129566
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01426.npz",
+      "raw_language": "turn on the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01426",
+      "selection_uses_model_outputs": false,
+      "sha256": "379054581659146fdcd155ff7fa3fcbf3635e3fe78cb81d3956a9635e9324d35",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 129503,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1474,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.32943596425705074,
+        0.6392358792782715,
+        0.9152162218377113,
+        0.26703093730800376,
+        0.29182650444202984,
+        0.21760891829469386
+      ],
+      "continuous_min": [
+        -0.07083207104120887,
+        -0.15770762731168037,
+        -0.3100026923209098,
+        -0.22267530978600902,
+        -0.33806142356130664,
+        -0.2706773926806605
+      ],
+      "end_frame": 58145,
+      "four_window_ranges": [
+        [
+          58081,
+          58096
+        ],
+        [
+          58097,
+          58112
+        ],
+        [
+          58113,
+          58128
+        ],
+        [
+          58129,
+          58144
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01474.npz",
+      "raw_language": "toggle the light switch to turn off the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01474",
+      "selection_uses_model_outputs": false,
+      "sha256": "fd042ef7f4ac4dc4cacd982268fa96ceca285915dcce1e5f61b7ff1c94a8ea3d",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 58081,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1543,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.09397729481784856,
+        0.28300238128126465,
+        0.22494426388223465,
+        0.3918427805614666,
+        0.37789350159297186,
+        0.29398697486564096
+      ],
+      "continuous_min": [
+        -0.4861262104696201,
+        -0.42176712308990943,
+        -0.4072550627298499,
+        -0.47776908456256706,
+        -0.30992999745967253,
+        -0.19727763801519416
+      ],
+      "end_frame": 56331,
+      "four_window_ranges": [
+        [
+          56267,
+          56282
+        ],
+        [
+          56283,
+          56298
+        ],
+        [
+          56299,
+          56314
+        ],
+        [
+          56315,
+          56330
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_01543.npz",
+      "raw_language": "grasp the blue block lying in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01543",
+      "selection_uses_model_outputs": false,
+      "sha256": "8a7d33fa100cbcb2c5cb4b2e4f8331d764dc885a4083445d0ebc2a36fabf4f64",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 56267,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1570,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.9064528648487749,
+        0.29908266508329123,
+        0.39343378855686284,
+        0.1630120115106859,
+        0.21573682150365592,
+        0.22174913981316102
+      ],
+      "continuous_min": [
+        -0.10857964669027109,
+        -0.2061787428438773,
+        -0.23073000182033399,
+        -0.3707739731801851,
+        -0.44445717416889075,
+        -0.49178948942027567
+      ],
+      "end_frame": 119684,
+      "four_window_ranges": [
+        [
+          119620,
+          119635
+        ],
+        [
+          119636,
+          119651
+        ],
+        [
+          119652,
+          119667
+        ],
+        [
+          119668,
+          119683
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01570.npz",
+      "raw_language": "move the light switch to turn on the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01570",
+      "selection_uses_model_outputs": false,
+      "sha256": "48b95d31e244270694945eed7602baeda54a87804ea9d9882315e086dfd5f444",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 119620,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1574,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7466568176253504,
+        0.385917452570138,
+        0.4083697891664073,
+        0.27769593356618216,
+        0.32928573177184006,
+        0.14025873769840658
+      ],
+      "continuous_min": [
+        -0.07715901451219864,
+        -0.4116010350160159,
+        -0.3610194066025585,
+        -0.3330031979125003,
+        -0.44865253015236917,
+        -0.37091341332492256
+      ],
+      "end_frame": 55510,
+      "four_window_ranges": [
+        [
+          55446,
+          55461
+        ],
+        [
+          55462,
+          55477
+        ],
+        [
+          55478,
+          55493
+        ],
+        [
+          55494,
+          55509
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01574.npz",
+      "raw_language": "toggle the light switch to turn off the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01574",
+      "selection_uses_model_outputs": false,
+      "sha256": "9ebb208ed241b12861cda7d87e608efbefa046cff0a0c01412aa55aadee66d86",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 55446,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 1612,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.8382730929078541,
+        0.7084776296144245,
+        0.5057269230455574,
+        0.1267086115866789,
+        0.28993264071664804,
+        0.3963326789347832
+      ],
+      "continuous_min": [
+        -0.06154904786942195,
+        -0.2313276952849455,
+        -0.3706185170205267,
+        -0.17224431864283574,
+        -0.41920980645441475,
+        -0.25142451572316205
+      ],
+      "end_frame": 143365,
+      "four_window_ranges": [
+        [
+          143301,
+          143316
+        ],
+        [
+          143317,
+          143332
+        ],
+        [
+          143333,
+          143348
+        ],
+        [
+          143349,
+          143364
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01612.npz",
+      "raw_language": "turn off the yellow lamp",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_01612",
+      "selection_uses_model_outputs": false,
+      "sha256": "0c6f2d3807dc11da75c4adba65615d6821418c7cc96735cf65359688177bcf0c",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 143301,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 2135,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.10697824416365104,
+        0.6721589596584462,
+        0.3178070451913262,
+        0.2783525116959584,
+        0.16266911549532637,
+        0.49425229760110767
+      ],
+      "continuous_min": [
+        -0.9474234816183327,
+        -0.5572398635172997,
+        -0.2958238415736558,
+        -0.313582229280005,
+        -0.3335705766648811,
+        -0.1311828866228648
+      ],
+      "end_frame": 147787,
+      "four_window_ranges": [
+        [
+          147723,
+          147738
+        ],
+        [
+          147739,
+          147754
+        ],
+        [
+          147755,
+          147770
+        ],
+        [
+          147771,
+          147786
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02135.npz",
+      "raw_language": "grasp the blue block lying in the slider",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_02135",
+      "selection_uses_model_outputs": false,
+      "sha256": "2c65a0e666f3dd9068018659f909a1dcc0c760f257d7a12df80dad655bd1c3e6",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 147723,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 2217,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.09397729481784856,
+        0.28300238128126465,
+        0.22494426388223465,
+        0.3918427805614666,
+        0.37789350159297186,
+        0.29398697486564096
+      ],
+      "continuous_min": [
+        -0.3089274348704915,
+        -0.42176712308990943,
+        -0.4072550627298499,
+        -0.47776908456256706,
+        -0.2911363136038858,
+        -0.19727763801519416
+      ],
+      "end_frame": 56334,
+      "four_window_ranges": [
+        [
+          56270,
+          56285
+        ],
+        [
+          56286,
+          56301
+        ],
+        [
+          56302,
+          56317
+        ],
+        [
+          56318,
+          56333
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02217.npz",
+      "raw_language": "grasp the blue block lying in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_02217",
+      "selection_uses_model_outputs": false,
+      "sha256": "1eff664aedc3cf49b862193054be4d77ddac54ca0553271fd21a4cc49f5da8ef",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 56270,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 2246,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.1957439971399511,
+        0.454738149813174,
+        0.5780179916991479,
+        0.22022199482762517,
+        0.3406607097731307,
+        0.5306375220199122
+      ],
+      "continuous_min": [
+        -0.4838461165896035,
+        -0.5771359023061439,
+        -0.3127168684557535,
+        -0.27752006445282973,
+        -0.38647363386758116,
+        -0.30856455350361855
+      ],
+      "end_frame": 118629,
+      "four_window_ranges": [
+        [
+          118565,
+          118580
+        ],
+        [
+          118581,
+          118596
+        ],
+        [
+          118597,
+          118612
+        ],
+        [
+          118613,
+          118628
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02246.npz",
+      "raw_language": "in the sliding cabinet grasp the blue block",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_02246",
+      "selection_uses_model_outputs": false,
+      "sha256": "bed9bce4fe1998d043da2923d3263e5dd2511663fb978c7174e4d78f671accb5",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 118565,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 2310,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.38172182373784974,
+        0.08686323109693,
+        0.04430711746426785,
+        0.12117946113035849,
+        0.22298236443305974,
+        0.18844966203563018
+      ],
+      "continuous_min": [
+        -0.2590958219514872,
+        -0.10385894379388583,
+        -0.27155084043390953,
+        -0.17296824477305073,
+        -0.059185614960632904,
+        -0.23533912581097383
+      ],
+      "end_frame": 70518,
+      "four_window_ranges": [
+        [
+          70454,
+          70469
+        ],
+        [
+          70470,
+          70485
+        ],
+        [
+          70486,
+          70501
+        ],
+        [
+          70502,
+          70517
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_02310.npz",
+      "raw_language": "push right the pink block",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_02310",
+      "selection_uses_model_outputs": false,
+      "sha256": "b1e61ccb80e468653b59b50a8effbb7f4b3c7e89bf3012ef2f24f9f574bd5262",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 70454,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 2695,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6307240772595899,
+        0.04470543996620141,
+        0.04329557643850124,
+        0.1977563053756004,
+        0.4082153498012442,
+        0.18607282022109928
+      ],
+      "continuous_min": [
+        -0.06796087514897367,
+        -0.14403221535856936,
+        -0.4452171237798064,
+        -0.2723072298999085,
+        -0.10166963142980379,
+        -0.3233814131165147
+      ],
+      "end_frame": 96947,
+      "four_window_ranges": [
+        [
+          96883,
+          96898
+        ],
+        [
+          96899,
+          96914
+        ],
+        [
+          96915,
+          96930
+        ],
+        [
+          96931,
+          96946
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_02695.npz",
+      "raw_language": "push the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_02695",
+      "selection_uses_model_outputs": false,
+      "sha256": "b377854af8020fe2200788f1d7b59280fb8660c8996d996ebbb571e8b937e997",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 96883,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3140,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7806720380373527,
+        0.4001338961009411,
+        0.42393769017151084,
+        0.1965789541060925,
+        0.34210572806219197,
+        0.490046792138088
+      ],
+      "continuous_min": [
+        -0.18525128769144444,
+        -0.2387323073378817,
+        -0.29123339948549654,
+        -0.2085845204307546,
+        -0.4816277660999191,
+        -0.4218484554639623
+      ],
+      "end_frame": 122114,
+      "four_window_ranges": [
+        [
+          122050,
+          122065
+        ],
+        [
+          122066,
+          122081
+        ],
+        [
+          122082,
+          122097
+        ],
+        [
+          122098,
+          122113
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_03140.npz",
+      "raw_language": "toggle the light switch to turn off the light bulb",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03140",
+      "selection_uses_model_outputs": false,
+      "sha256": "814ae60bf0ed8f16604a4ceeb1d88ec0cbea5599a5078d6da213b89c9ae3fa8e",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 122050,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3235,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.030430759347055414,
+        0.6966606536699733,
+        0.5205828184916023,
+        0.4198333430965562,
+        0.16059718904450015,
+        0.25435502086384787
+      ],
+      "continuous_min": [
+        -0.4479799610637831,
+        -0.548457731777477,
+        -0.21728006952799195,
+        -0.3532308029716358,
+        -0.3898028176874835,
+        -0.3081711032783474
+      ],
+      "end_frame": 130205,
+      "four_window_ranges": [
+        [
+          130141,
+          130156
+        ],
+        [
+          130157,
+          130172
+        ],
+        [
+          130173,
+          130188
+        ],
+        [
+          130189,
+          130204
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_03235.npz",
+      "raw_language": "pick up the blue block in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03235",
+      "selection_uses_model_outputs": false,
+      "sha256": "e8c30d92ae78a6c5db0baa25ee6e816846f26c2f4047e60e588b0a5ecca25cba",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 130141,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3415,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.08881535577026228,
+        0.2733994522694169,
+        0.21689080176928444,
+        0.4158431983849198,
+        0.3025569530771932,
+        0.3426023741431905
+      ],
+      "continuous_min": [
+        -0.4836496313094074,
+        -0.4866405013968343,
+        -0.2982501335010379,
+        -0.5138509195423424,
+        -0.22644600632871992,
+        -0.42091878109760117
+      ],
+      "end_frame": 82499,
+      "four_window_ranges": [
+        [
+          82435,
+          82450
+        ],
+        [
+          82451,
+          82466
+        ],
+        [
+          82467,
+          82482
+        ],
+        [
+          82483,
+          82498
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_03415.npz",
+      "raw_language": "pick up the blue block from the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03415",
+      "selection_uses_model_outputs": false,
+      "sha256": "e0493f49183553de877c9631acfc60aaf62e66c07145f5ade78621210879e834",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 82435,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3624,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.9064528648487749,
+        0.29908266508329123,
+        0.39343378855686284,
+        0.1630120115106859,
+        0.21573682150365592,
+        0.5616257391102142
+      ],
+      "continuous_min": [
+        -0.29349466160278614,
+        -0.3304203983178381,
+        -0.23073000182033399,
+        -0.3707739731801851,
+        -0.44445717416889075,
+        -0.49178948942027567
+      ],
+      "end_frame": 119678,
+      "four_window_ranges": [
+        [
+          119614,
+          119629
+        ],
+        [
+          119630,
+          119645
+        ],
+        [
+          119646,
+          119661
+        ],
+        [
+          119662,
+          119677
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_03624.npz",
+      "raw_language": "turn on the yellow lamp",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03624",
+      "selection_uses_model_outputs": false,
+      "sha256": "1e756f161c2581f032d8b70726f46b7c0be475b92c1d1b138cf4b5aed9788b43",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 119614,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3713,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5260100516114891,
+        0.8063819689828083,
+        0.6332313886202312,
+        0.3413716401666278,
+        0.44275544506046316,
+        0.8949011969708742
+      ],
+      "continuous_min": [
+        -0.13657663938449888,
+        -0.002526778750705505,
+        -0.332511937523694,
+        -0.5525911509162729,
+        -0.42777057556626197,
+        -0.27689403048665184
+      ],
+      "end_frame": 101056,
+      "four_window_ranges": [
+        [
+          100992,
+          101007
+        ],
+        [
+          101008,
+          101023
+        ],
+        [
+          101024,
+          101039
+        ],
+        [
+          101040,
+          101055
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_03713.npz",
+      "raw_language": "toggle the light switch to turn on the light bulb",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03713",
+      "selection_uses_model_outputs": false,
+      "sha256": "fe2761e2f15a1a0ff3c01c576631dc10283a0fd138ed620db3e854ce9c07f480",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 100992,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3907,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.3520547808466487,
+        0.17358838558234127,
+        0.33469017530434186,
+        0.39549578442603206,
+        0.39613133583925375,
+        0.1820207314518285
+      ],
+      "continuous_min": [
+        -0.050845589910507305,
+        -0.05658780748971151,
+        -0.41426342853814746,
+        -0.4841359147093094,
+        -0.3367417653142635,
+        -1.0
+      ],
+      "end_frame": 57398,
+      "four_window_ranges": [
+        [
+          57334,
+          57349
+        ],
+        [
+          57350,
+          57365
+        ],
+        [
+          57366,
+          57381
+        ],
+        [
+          57382,
+          57397
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_03907.npz",
+      "raw_language": "pick up the red block on the table",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03907",
+      "selection_uses_model_outputs": false,
+      "sha256": "4ccb64a5c963d9dc4dd1878a274671baf06e21e0436686385370e631028f2927",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 57334,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3951,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7870790982078602,
+        0.478391627989156,
+        0.4924076821445855,
+        0.28072817836965136,
+        0.3782736643992557,
+        0.3193576881079707
+      ],
+      "continuous_min": [
+        -0.08553994396121312,
+        -0.28432457602540034,
+        -0.42685101743762943,
+        -0.6114330105598942,
+        -0.7500539436083908,
+        -0.2977911342176309
+      ],
+      "end_frame": 59375,
+      "four_window_ranges": [
+        [
+          59311,
+          59326
+        ],
+        [
+          59327,
+          59342
+        ],
+        [
+          59343,
+          59358
+        ],
+        [
+          59359,
+          59374
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_03951.npz",
+      "raw_language": "toggle the light switch to turn off the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03951",
+      "selection_uses_model_outputs": false,
+      "sha256": "acd831d4baad59dcd0e7cce836c6e81dcd06a85684af33246475f40442ab1c75",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 59311,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 3975,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5199964462975465,
+        0.5747346150985178,
+        0.3706961067109771,
+        0.3239225431674253,
+        0.18055267131476427,
+        0.5233284685811412
+      ],
+      "continuous_min": [
+        -0.9766680049177634,
+        -0.5675338055276591,
+        -0.19116830925692274,
+        -0.24597799587855462,
+        -0.2555531800010957,
+        -0.3019787497756532
+      ],
+      "end_frame": 94086,
+      "four_window_ranges": [
+        [
+          94022,
+          94037
+        ],
+        [
+          94038,
+          94053
+        ],
+        [
+          94054,
+          94069
+        ],
+        [
+          94070,
+          94085
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_03975.npz",
+      "raw_language": "put the grasped object in the slider",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_03975",
+      "selection_uses_model_outputs": false,
+      "sha256": "320432d284f384cb073abff03808f9afcafe60336a600fb87ff1cb513c98891f",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 94022,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4000,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.8116595847451419,
+        0.3702899590290319,
+        0.40687422621109026,
+        0.3619369531222105,
+        0.27575718640751035,
+        0.3870024309827613
+      ],
+      "continuous_min": [
+        -0.38455809551570935,
+        -0.4724487600786538,
+        -0.3557576223050918,
+        -0.590317549672843,
+        -0.3871678211916407,
+        -0.46097104213073337
+      ],
+      "end_frame": 72528,
+      "four_window_ranges": [
+        [
+          72464,
+          72479
+        ],
+        [
+          72480,
+          72495
+        ],
+        [
+          72496,
+          72511
+        ],
+        [
+          72512,
+          72527
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04000.npz",
+      "raw_language": "pick up the red block from the table",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04000",
+      "selection_uses_model_outputs": false,
+      "sha256": "92636eb2b4352acf68bf72574192f33999e7d5e7bb3c2607d97eee0ffaf03f8c",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 72464,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4199,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.18522964619797735,
+        0.2048181789979793,
+        0.4866372336202296,
+        0.32116152165009737,
+        0.23228714875221712,
+        0.2249815343250905
+      ],
+      "continuous_min": [
+        -0.6527585317194703,
+        -0.20642326667947783,
+        -0.20058161313703804,
+        -0.33554334874928315,
+        -0.35091764516215207,
+        -0.16457140644640766
+      ],
+      "end_frame": 65692,
+      "four_window_ranges": [
+        [
+          65628,
+          65643
+        ],
+        [
+          65644,
+          65659
+        ],
+        [
+          65660,
+          65675
+        ],
+        [
+          65676,
+          65691
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04199.npz",
+      "raw_language": "grasp the red block on the table and lift it up",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04199",
+      "selection_uses_model_outputs": false,
+      "sha256": "f28209418bdb62cce9624495df8d94d8d92b8ae5376bb0e8fd28291ea6312cc4",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 65628,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4326,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7334180866652766,
+        0.2788631205451128,
+        0.3178750137289854,
+        0.5346883320720508,
+        0.25318310792929566,
+        0.24565187418854606
+      ],
+      "continuous_min": [
+        -0.4087524326797154,
+        -0.08901261735622806,
+        -0.28511193090761944,
+        -0.3036516559040958,
+        -0.22270003471318134,
+        -0.4593609179050162
+      ],
+      "end_frame": 70255,
+      "four_window_ranges": [
+        [
+          70191,
+          70206
+        ],
+        [
+          70207,
+          70222
+        ],
+        [
+          70223,
+          70238
+        ],
+        [
+          70239,
+          70254
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04326.npz",
+      "raw_language": "pick up the red block on the table",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04326",
+      "selection_uses_model_outputs": false,
+      "sha256": "f52f66a8f1243ec99d6f48716c0717c5e214d5249f5313db1f6be7182a49df8d",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 70191,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4402,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6284101936492689,
+        0.3715991247858524,
+        0.46338673570749944,
+        0.18178290501288608,
+        0.2437164059648289,
+        0.1981569101048386
+      ],
+      "continuous_min": [
+        -0.31150543324808055,
+        -0.027079726222553613,
+        -0.30782199057456383,
+        -0.2351718446021156,
+        -0.33167995247110227,
+        -0.31762907355195047
+      ],
+      "end_frame": 114510,
+      "four_window_ranges": [
+        [
+          114446,
+          114461
+        ],
+        [
+          114462,
+          114477
+        ],
+        [
+          114478,
+          114493
+        ],
+        [
+          114494,
+          114509
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_04402.npz",
+      "raw_language": "slide up the switch",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04402",
+      "selection_uses_model_outputs": false,
+      "sha256": "6f3de799678d6b2e970861a2f62d01c2dabb50aaa82bf4725e2ae4df89dbd7bf",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 114446,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4495,
+      "canonical_task": "lift_blue_block_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7520792735083458,
+        0.4602085898736694,
+        0.3031336081654179,
+        0.29635850082960324,
+        0.2762894255527737,
+        0.3998307568193127
+      ],
+      "continuous_min": [
+        -0.23407573715484167,
+        -0.3248852225981286,
+        -0.3351296900538592,
+        -0.5737631356490347,
+        -0.436696545160391,
+        -0.23664458102485852
+      ],
+      "end_frame": 122580,
+      "four_window_ranges": [
+        [
+          122516,
+          122531
+        ],
+        [
+          122532,
+          122547
+        ],
+        [
+          122548,
+          122563
+        ],
+        [
+          122564,
+          122579
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_04495.npz",
+      "raw_language": "grasp the blue block lying in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04495",
+      "selection_uses_model_outputs": false,
+      "sha256": "3e58e22051effc964476628c7a3a5215466f30c5434e6e04ea40b052b6d83964",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 122516,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4724,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.38172182373784974,
+        0.02817487655875639,
+        0.4385108970022866,
+        0.2558555803935736,
+        0.22298236443305974,
+        0.3161534305175895
+      ],
+      "continuous_min": [
+        -0.2590958219514872,
+        -0.10385894379388583,
+        -0.27155084043390953,
+        -0.17296824477305073,
+        -0.3220908607636197,
+        -0.23533912581097383
+      ],
+      "end_frame": 70527,
+      "four_window_ranges": [
+        [
+          70463,
+          70478
+        ],
+        [
+          70479,
+          70494
+        ],
+        [
+          70495,
+          70510
+        ],
+        [
+          70511,
+          70526
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_04724.npz",
+      "raw_language": "go slide the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04724",
+      "selection_uses_model_outputs": false,
+      "sha256": "0ad2bfb7f7f0c9a8b2856b5fb8f80f86219b53ff4c29eb4b4b792e2b66bd2c67",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 70463,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 4771,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.40087106966262065,
+        0.48064133782271534,
+        0.1987535793747719,
+        0.19797739614829446,
+        0.16813266953274564,
+        0.604144184001445
+      ],
+      "continuous_min": [
+        -0.7041305756574936,
+        -0.10229265453208375,
+        -0.19606763227886237,
+        -0.23978445282536676,
+        -0.2242815398534148,
+        -1.0
+      ],
+      "end_frame": 84620,
+      "four_window_ranges": [
+        [
+          84556,
+          84571
+        ],
+        [
+          84572,
+          84587
+        ],
+        [
+          84588,
+          84603
+        ],
+        [
+          84604,
+          84619
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04771.npz",
+      "raw_language": "lift the red block from the table",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_04771",
+      "selection_uses_model_outputs": false,
+      "sha256": "5ac006f97548c311fe4b05a91c4336c1128d461eb379e8abc53ea2db102e2691",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 84556,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 5476,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6307240772595899,
+        0.04470543996620141,
+        0.051160160256485954,
+        0.1977563053756004,
+        0.4082153498012442,
+        0.18607282022109928
+      ],
+      "continuous_min": [
+        -0.06796087514897367,
+        -0.1345919151424374,
+        -0.4452171237798064,
+        -0.2723072298999085,
+        -0.10166963142980379,
+        -0.3233814131165147
+      ],
+      "end_frame": 96954,
+      "four_window_ranges": [
+        [
+          96890,
+          96905
+        ],
+        [
+          96906,
+          96921
+        ],
+        [
+          96922,
+          96937
+        ],
+        [
+          96938,
+          96953
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_05476.npz",
+      "raw_language": "slide right the pink block",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_05476",
+      "selection_uses_model_outputs": false,
+      "sha256": "f7c0c5eb862753655d2cb6d2d17083fe97ef5bfd7edd02b20c764871ab34896f",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 96890,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 5614,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.46131134495874004,
+        0.4308583456042514,
+        0.40721626480628714,
+        0.513489495783892,
+        0.2882099158325513,
+        0.3165955799161324
+      ],
+      "continuous_min": [
+        -0.42874817872460663,
+        -0.11030692398632039,
+        -0.3794590706351131,
+        -0.41058281617916137,
+        -0.3132715612961867,
+        -0.26820469347153875
+      ],
+      "end_frame": 107704,
+      "four_window_ranges": [
+        [
+          107640,
+          107655
+        ],
+        [
+          107656,
+          107671
+        ],
+        [
+          107672,
+          107687
+        ],
+        [
+          107688,
+          107703
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_05614.npz",
+      "raw_language": "go push the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_05614",
+      "selection_uses_model_outputs": false,
+      "sha256": "113aca6d6675820bd8710f8cede34ffab5cacc61fbcba62783379d0c5135ffc2",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 107640,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 5898,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.8427204290970637,
+        0.4364050552691909,
+        0.4249053546457271,
+        0.8554974944826021,
+        0.4995737094967456,
+        0.4353631869594743
+      ],
+      "continuous_min": [
+        -0.15965807256644834,
+        -0.3090093555991581,
+        -0.5013000932803102,
+        -0.3751775671273272,
+        -0.47113746839976933,
+        -0.41055867536361035
+      ],
+      "end_frame": 73054,
+      "four_window_ranges": [
+        [
+          72990,
+          73005
+        ],
+        [
+          73006,
+          73021
+        ],
+        [
+          73022,
+          73037
+        ],
+        [
+          73038,
+          73053
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_05898.npz",
+      "raw_language": "turn off the light bulb",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_05898",
+      "selection_uses_model_outputs": false,
+      "sha256": "0909a49a9e1f928aa6c242a1d9b86238e89d0e895fe587ff7fce26392f21573f",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 72990,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 5963,
+      "canonical_task": "lift_red_block_table",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.8577812353669035,
+        0.08964655939823762,
+        0.3789543613849644,
+        0.1843360828850482,
+        0.18245552347555538,
+        0.49763393374361087
+      ],
+      "continuous_min": [
+        -0.5552721873413338,
+        -0.2822774665834138,
+        -0.16131698377666315,
+        -0.20054589736727024,
+        -0.3628650419494672,
+        -0.3868742066002273
+      ],
+      "end_frame": 151257,
+      "four_window_ranges": [
+        [
+          151193,
+          151208
+        ],
+        [
+          151209,
+          151224
+        ],
+        [
+          151225,
+          151240
+        ],
+        [
+          151241,
+          151256
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_05963.npz",
+      "raw_language": "pick up the red block",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_05963",
+      "selection_uses_model_outputs": false,
+      "sha256": "8881b61ae7a5a103d88f3db73dd579c3287b19305cb4731fd2476fc6b5681095",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 151193,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 5965,
+      "canonical_task": "turn_on_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.7151940504986973,
+        0.29746554024334854,
+        0.4485959532386452,
+        0.21222489885885487,
+        0.46035027402532513,
+        0.3742788228513838
+      ],
+      "continuous_min": [
+        -0.06735644623911408,
+        -0.06612003563243318,
+        -0.288757787500582,
+        -0.28592835223057556,
+        -0.4290946050277533,
+        -0.34218233986111457
+      ],
+      "end_frame": 110697,
+      "four_window_ranges": [
+        [
+          110633,
+          110648
+        ],
+        [
+          110649,
+          110664
+        ],
+        [
+          110665,
+          110680
+        ],
+        [
+          110681,
+          110696
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_05965.npz",
+      "raw_language": "move up the switch",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_05965",
+      "selection_uses_model_outputs": false,
+      "sha256": "8dd08e4221c443faa579b9fde26c0ebbceb3c0975ac3b2a01b1ea3a78ef4f1b0",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 110633,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 7026,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5029150275150398,
+        0.7261482870412644,
+        0.6209352001134094,
+        0.338943963002869,
+        0.32089774229643986,
+        0.193894237497787
+      ],
+      "continuous_min": [
+        -0.18281941396195434,
+        -0.3023923861241423,
+        -0.3536710040091928,
+        -0.3497152675375581,
+        -0.5859102450934994,
+        -0.23803093512371198
+      ],
+      "end_frame": 113541,
+      "four_window_ranges": [
+        [
+          113477,
+          113492
+        ],
+        [
+          113493,
+          113508
+        ],
+        [
+          113509,
+          113524
+        ],
+        [
+          113525,
+          113540
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_07026.npz",
+      "raw_language": "turn off the yellow lamp",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_07026",
+      "selection_uses_model_outputs": false,
+      "sha256": "30aee6b0cdef3824289149ab67c9020e0bdda8dd64d99a8923ba9025498cfdef",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 113477,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 7695,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6138636509023749,
+        0.086072075336735,
+        0.5814211189160978,
+        0.4532280461448934,
+        0.7063792508786904,
+        0.2301956195687893
+      ],
+      "continuous_min": [
+        -0.28719966830699145,
+        -0.10633449324345748,
+        -0.4013017132428909,
+        -0.3879960525091075,
+        -0.3749557040481033,
+        -0.38538091080130954
+      ],
+      "end_frame": 77121,
+      "four_window_ranges": [
+        [
+          77057,
+          77072
+        ],
+        [
+          77073,
+          77088
+        ],
+        [
+          77089,
+          77104
+        ],
+        [
+          77105,
+          77120
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_07695.npz",
+      "raw_language": "slide the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_07695",
+      "selection_uses_model_outputs": false,
+      "sha256": "ffb5bea84a4abb2347171e24a592f8f5d3701cbbf1d1dfb28afce9361446a701",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 77057,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 8551,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.46131134495874004,
+        0.4308583456042514,
+        0.3290809892382618,
+        0.28859816609510425,
+        0.2882099158325513,
+        0.3165955799161324
+      ],
+      "continuous_min": [
+        -0.42874817872460663,
+        -0.11030692398632039,
+        -0.3794590706351131,
+        -0.41058281617916137,
+        -0.3100625357953479,
+        -0.26820469347153875
+      ],
+      "end_frame": 107697,
+      "four_window_ranges": [
+        [
+          107633,
+          107648
+        ],
+        [
+          107649,
+          107664
+        ],
+        [
+          107665,
+          107680
+        ],
+        [
+          107681,
+          107696
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08551.npz",
+      "raw_language": "go push the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_08551",
+      "selection_uses_model_outputs": false,
+      "sha256": "bc3493d43a9cca1e25ba2e25000b9f10c4975d120a17508b14820850fa07e5b1",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 107633,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 8587,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6307240772595899,
+        0.04470543996620141,
+        0.04329557643850124,
+        0.1977563053756004,
+        0.4082153498012442,
+        0.18607282022109928
+      ],
+      "continuous_min": [
+        -0.06796087514897367,
+        -0.1345919151424374,
+        -0.4452171237798064,
+        -0.2723072298999085,
+        -0.10166963142980379,
+        -0.3233814131165147
+      ],
+      "end_frame": 96948,
+      "four_window_ranges": [
+        [
+          96884,
+          96899
+        ],
+        [
+          96900,
+          96915
+        ],
+        [
+          96916,
+          96931
+        ],
+        [
+          96932,
+          96947
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08587.npz",
+      "raw_language": "slide the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_08587",
+      "selection_uses_model_outputs": false,
+      "sha256": "dea1d75824ac25a7d460dab029172e7756a98543dad97b28427c1ca339c3c644",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 96884,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 8599,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6138636509023749,
+        0.086072075336735,
+        0.4686361867628608,
+        0.4532280461448934,
+        0.7063792508786904,
+        0.26567614085209357
+      ],
+      "continuous_min": [
+        -0.13556564798349185,
+        -0.10633449324345748,
+        -0.4013017132428909,
+        -0.3879960525091075,
+        -0.46505955557936574,
+        -0.38538091080130954
+      ],
+      "end_frame": 77115,
+      "four_window_ranges": [
+        [
+          77051,
+          77066
+        ],
+        [
+          77067,
+          77082
+        ],
+        [
+          77083,
+          77098
+        ],
+        [
+          77099,
+          77114
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08599.npz",
+      "raw_language": "slide the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_08599",
+      "selection_uses_model_outputs": false,
+      "sha256": "2acfec5acfefcb719c5285abbc75abf5a9e47066325ebca1c8c3f30d120dd6cd",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 77051,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 9306,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6823146130954263,
+        0.4807830200053185,
+        0.4398112882819438,
+        0.20709561420011902,
+        0.19874289675421153,
+        0.30907135318782863
+      ],
+      "continuous_min": [
+        -0.006944079807832959,
+        -0.36775123625633993,
+        -0.2714574259014668,
+        -0.20744475582586297,
+        -0.347235270043198,
+        -0.39186258126889584
+      ],
+      "end_frame": 81597,
+      "four_window_ranges": [
+        [
+          81533,
+          81548
+        ],
+        [
+          81549,
+          81564
+        ],
+        [
+          81565,
+          81580
+        ],
+        [
+          81581,
+          81596
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_09306.npz",
+      "raw_language": "put the grasped object in the sliding cabinet",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_09306",
+      "selection_uses_model_outputs": false,
+      "sha256": "09897897ed06009941cb6337d4e40a972277c7618af25c131f5b414706e62ac7",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 81533,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 9695,
+      "canonical_task": "turn_off_lightbulb",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5398806047042903,
+        0.589114834864338,
+        0.43261148556742457,
+        0.17963645632889325,
+        0.3098396859285746,
+        0.35469178803888113
+      ],
+      "continuous_min": [
+        -0.12037019992391651,
+        -0.28304150177615867,
+        -0.3613624092242751,
+        -0.24724633988868483,
+        -0.3320183373272467,
+        -0.2053758664872074
+      ],
+      "end_frame": 139488,
+      "four_window_ranges": [
+        [
+          139424,
+          139439
+        ],
+        [
+          139440,
+          139455
+        ],
+        [
+          139456,
+          139471
+        ],
+        [
+          139472,
+          139487
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_09695.npz",
+      "raw_language": "turn off the yellow light",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_09695",
+      "selection_uses_model_outputs": false,
+      "sha256": "9fc1d232f5ddbddf8bfd81725d43b354fb1ab5c86b86e3b55ba2bc61abc6828b",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 139424,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 10029,
+      "canonical_task": "push_pink_block_right",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5113783886615011,
+        0.26305685403796714,
+        0.5414383554738667,
+        0.3610010627770688,
+        0.2406541614056401,
+        0.4359985119495313
+      ],
+      "continuous_min": [
+        -0.4125678645401859,
+        -0.09987657752836554,
+        -0.28285419613302554,
+        -0.41871040358281597,
+        -0.3194131228159858,
+        -0.23380552228582374
+      ],
+      "end_frame": 55122,
+      "four_window_ranges": [
+        [
+          55058,
+          55073
+        ],
+        [
+          55074,
+          55089
+        ],
+        [
+          55090,
+          55105
+        ],
+        [
+          55106,
+          55121
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_10029.npz",
+      "raw_language": "push the pink block to the right",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_10029",
+      "selection_uses_model_outputs": false,
+      "sha256": "db3e8cf6e254825395b089899df516b665c3b5b7adeb13cd06f7eff455c3753a",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 55058,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 17553,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.9063270607648,
+        0.4935984969596966,
+        0.369606768788619,
+        0.496190352030883,
+        0.4644145658483012,
+        0.3215652412737491
+      ],
+      "continuous_min": [
+        -0.07400152885620147,
+        -0.40783481903118207,
+        -0.23902540132773598,
+        -0.21560733182137248,
+        -0.33682057149063027,
+        -0.4807872815097092
+      ],
+      "end_frame": 125101,
+      "four_window_ranges": [
+        [
+          125037,
+          125052
+        ],
+        [
+          125053,
+          125068
+        ],
+        [
+          125069,
+          125084
+        ],
+        [
+          125085,
+          125100
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17553.npz",
+      "raw_language": "place the block in the slider",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_17553",
+      "selection_uses_model_outputs": false,
+      "sha256": "43f03b50d275407bd7b1e92246a1e24c3339674dfb52e09c49b41dcc92dbe0e4",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 125037,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 17591,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.5976320844568207,
+        0.3262085928752189,
+        0.43450820850197136,
+        0.2519581184129649,
+        0.34012860307196746,
+        0.13415979103896802
+      ],
+      "continuous_min": [
+        -0.02786112004669189,
+        -0.4710505598109812,
+        -0.17417112949398295,
+        -0.28601017913602256,
+        -0.32821560166958363,
+        -0.387866765145537
+      ],
+      "end_frame": 95470,
+      "four_window_ranges": [
+        [
+          95406,
+          95421
+        ],
+        [
+          95422,
+          95437
+        ],
+        [
+          95438,
+          95453
+        ],
+        [
+          95454,
+          95469
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17591.npz",
+      "raw_language": "put it in the slider",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_17591",
+      "selection_uses_model_outputs": false,
+      "sha256": "29799ce8b776dfaf96efecbe0807f2c2896329ced4e184a0d3402088ab2b5537",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 95406,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 17966,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.6524922051742627,
+        0.4169566570779081,
+        0.5339621959667751,
+        0.3150344057106391,
+        0.1448600337355188,
+        0.20270977133820978
+      ],
+      "continuous_min": [
+        -0.10719738375435592,
+        -0.3516876777174879,
+        -0.3045661714771053,
+        -0.26694275194157235,
+        -0.29442667210237694,
+        -0.4965771191279167
+      ],
+      "end_frame": 104311,
+      "four_window_ranges": [
+        [
+          104247,
+          104262
+        ],
+        [
+          104263,
+          104278
+        ],
+        [
+          104279,
+          104294
+        ],
+        [
+          104295,
+          104310
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17966.npz",
+      "raw_language": "place the grasped object in the slider",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_17966",
+      "selection_uses_model_outputs": false,
+      "sha256": "b99047a7eb8a290863a944af0e41542c96d4366425213b02c28f8c739e21641f",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 104247,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    },
+    {
+      "annotation_position": 17985,
+      "canonical_task": "place_in_slider",
+      "contains_other_annotation_boundary": false,
+      "contiguous": true,
+      "continuous_max": [
+        0.015674670618662928,
+        0.6928198531083493,
+        0.7163928788012974,
+        0.3703218809777553,
+        0.26761843952535,
+        0.5232383067902902
+      ],
+      "continuous_min": [
+        -0.4251861475481983,
+        -0.45112659390288185,
+        -0.3051477044106188,
+        -0.30122046181785045,
+        -0.35346089200499975,
+        -0.32814227529293305
+      ],
+      "end_frame": 57257,
+      "four_window_ranges": [
+        [
+          57193,
+          57208
+        ],
+        [
+          57209,
+          57224
+        ],
+        [
+          57225,
+          57240
+        ],
+        [
+          57241,
+          57256
+        ]
+      ],
+      "gripper_values": [
+        -1.0,
+        1.0
+      ],
+      "inclusive_frame_count": 65,
+      "leftover_frames_not_windowed": 1,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17985.npz",
+      "raw_language": "put the object in the slider",
+      "rel_actions_dtype": "float64",
+      "rel_actions_shape": [
+        65,
+        7
+      ],
+      "segment_id": "subset_training_000_ann_17985",
+      "selection_uses_model_outputs": false,
+      "sha256": "c72e0320c35dd26ae21017c70d386ff890519a1ce811448521b20bee64fe8d2c",
+      "source_frames_all_in_subset": true,
+      "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+      "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "start_frame": 57193,
+      "valid_H1_starts": 2,
+      "valid_H2_starts": 1
+    }
+  ],
+  "selection_rule": "subset order then annotation position; exact task; >=64 frames; all source frames local",
+  "selection_uses_model_outputs": false,
+  "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+  "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+  "total_segments": 60,
+  "written_before_external_F1_F2_outputs": true
+}

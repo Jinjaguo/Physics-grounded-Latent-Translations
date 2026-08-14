@@ -1,0 +1,1824 @@
+{
+  "files": [
+    {
+      "bytes": 449843,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/episodes.jsonl",
+      "sha256": "cf48ccfba3f86613d672963873df56138bb9ea2da3855600779a7148dd08ac12"
+    },
+    {
+      "bytes": 12135544,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/episodes_stats.jsonl",
+      "sha256": "0e8d40783209f6d219b7078a7124534ca5714377a6e81170da54ccfe31e99a1c"
+    },
+    {
+      "bytes": 3111,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/info.json",
+      "sha256": "79d7bbe37fe87b4fb7551446efa08c7b08e5e4b13f09f86687cc2c5d74e9532d"
+    },
+    {
+      "bytes": 26131,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/tasks.jsonl",
+      "sha256": "1f5a20fb973a3967cc08ac1948287fc5b96575e25f6a4a630d1f14915a7d78a3"
+    },
+    {
+      "bytes": 18153,
+      "repo_path": "trajs/calvin/calvin_traj_ann/ann_dict.npy",
+      "sha256": "8dae73e8503f9cd728390e6a009f824e063e9e88e9f25326bc748018063a96ea"
+    },
+    {
+      "bytes": 2124132,
+      "repo_path": "trajs/calvin/lift_blue_block_slider_a/v2/franka_v2.pkl.gz",
+      "sha256": "a09091dc0a38d5e9bfa772a7f1579bf8a311424314fa433841ce3cc2b8c00856"
+    },
+    {
+      "bytes": 2304888,
+      "repo_path": "trajs/calvin/lift_red_block_table_a/v2/franka_v2.pkl.gz",
+      "sha256": "c50971ba5557bb45763ccc9eec7251fb032812ba7e8a2f99e7310098f0bc1624"
+    },
+    {
+      "bytes": 1683540,
+      "repo_path": "trajs/calvin/place_in_slider_a/v2/franka_v2.pkl.gz",
+      "sha256": "1d89c94cea7069ef31d489b9df7c4788fd06da217241ebb12b06684dad1afdb2"
+    },
+    {
+      "bytes": 2722482,
+      "repo_path": "trajs/calvin/push_pink_block_right_a/v2/franka_v2.pkl.gz",
+      "sha256": "6656e7073e1e3933e5ef0fc41a3e31866bfa97565ba57e96ec2fa7e0b443f6e6"
+    },
+    {
+      "bytes": 935255,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_103_v2.pkl",
+      "sha256": "4addd976d6f08ad87bdbb3b402d49d29a6fc0c27c033b2e63a9e9749f1220ad4"
+    },
+    {
+      "bytes": 473394,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_104_v2.pkl",
+      "sha256": "fa98ff25278ff6174d3bbccda67516a2a47582b32fbf3e215622dacb1e938870"
+    },
+    {
+      "bytes": 740222,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_106_v2.pkl",
+      "sha256": "b837723db889208d6c667cbe2523af4644dbcc3f32895d482c4b0c8bdec7f271"
+    },
+    {
+      "bytes": 1130162,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_113_v2.pkl",
+      "sha256": "bf88f69532140774121efd5c6c8996b721e938cee01ff763fe3f5f3713dc1570"
+    },
+    {
+      "bytes": 270781,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_115_v2.pkl",
+      "sha256": "f414e75c1d87ea5c3415bcd8e18d41393b784786dfca4c5268816fb4c5cbbea7"
+    },
+    {
+      "bytes": 1257420,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_122_v2.pkl",
+      "sha256": "a870feb10b752dbcfa9f35b4bfb888d9705f2264375c0c1c61c6598335131cd9"
+    },
+    {
+      "bytes": 372858,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_123_v2.pkl",
+      "sha256": "ac5cc5df487490cd2e9515bac45aff9bca46d758a7ef0050533c0df3e11732a4"
+    },
+    {
+      "bytes": 212848,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_125_v2.pkl",
+      "sha256": "cb1fc97f3556ee1998414f7cfc458a957a665feee3cd9cd2f3d2c18bff8ae62f"
+    },
+    {
+      "bytes": 333572,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_126_v2.pkl",
+      "sha256": "b6b9720a6f5f53090b24286db3cad7f909215f83f569c91fb4ff0e68ef8e3b2f"
+    },
+    {
+      "bytes": 317647,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_128_v2.pkl",
+      "sha256": "d77e594c36d0c57d45b34113528849cdc358ac1162a8371287221c29e5cde242"
+    },
+    {
+      "bytes": 887416,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_145_v2.pkl",
+      "sha256": "4ff090107e80448446159514c30ee3533b2a9edcd98a54794c340b462f02cf9a"
+    },
+    {
+      "bytes": 254270,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_149_v2.pkl",
+      "sha256": "cacea35a88c55f818e35169817c779928bd1594768f275008950b23fd6cb851f"
+    },
+    {
+      "bytes": 370470,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_153_v2.pkl",
+      "sha256": "83ad319d842fa97177995a000db031710137b8187b2fa59372c81e0c49af7111"
+    },
+    {
+      "bytes": 687399,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_157_v2.pkl",
+      "sha256": "a995a314a85bec259e9ed41520c77c42b45ea7e27db7a967ed25340302dbe27e"
+    },
+    {
+      "bytes": 513978,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_159_v2.pkl",
+      "sha256": "74a7a3e6a0847412f2ae5811c97c8ab9070bc24a27a143b7d118861a9d933ed5"
+    },
+    {
+      "bytes": 175689,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_165_v2.pkl",
+      "sha256": "06cf687e5d0250df31ebc856e34d9ff0793d79137775e86381e3b8cbfeb04368"
+    },
+    {
+      "bytes": 826635,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_166_v2.pkl",
+      "sha256": "b8f67a7235d64cac14f4bd405c16d3606830044737d9fcaadd135c093cccf687"
+    },
+    {
+      "bytes": 177951,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_167_v2.pkl",
+      "sha256": "040b34e3949b824fcbf4789e7ff0d700395e9da44ab3547b437c92922a842bf0"
+    },
+    {
+      "bytes": 451303,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_16_v2.pkl",
+      "sha256": "620e49d982d250144ab7414de7c7eb3242f90a7cc3486a6a6e2b81b67921f016"
+    },
+    {
+      "bytes": 212010,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_179_v2.pkl",
+      "sha256": "0cbaab1eb7b848d7499d392b4ce57206db001e88f9d24a4a8109c60d63464b2a"
+    },
+    {
+      "bytes": 349822,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_180_v2.pkl",
+      "sha256": "6d7b763fccb2cfdd0169fdd0d3ceac91ff75649344b3f8a8a637bbf1a2f26c52"
+    },
+    {
+      "bytes": 264833,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_182_v2.pkl",
+      "sha256": "d31c2ffeb1945e3419bf78248c49094398c0ebd67dc394623d7a82a19d075c12"
+    },
+    {
+      "bytes": 1384174,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_184_v2.pkl",
+      "sha256": "d4e08dcdfa436d0186b57444c907def151706fac80716274a4f0512176488f67"
+    },
+    {
+      "bytes": 1272246,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_186_v2.pkl",
+      "sha256": "bf39370713e9a8911167413fe05ac732a66e3401d73332f9567c63e93d53f496"
+    },
+    {
+      "bytes": 545567,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_194_v2.pkl",
+      "sha256": "e60edab4c2516c6a77583af167757de8f0003e6f8300c2d58617dc943db7d419"
+    },
+    {
+      "bytes": 92836,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_196_v2.pkl",
+      "sha256": "12aea021e2c496f144238c9d8cd6dbb9bada0c97700973a6b772d5aa98a142e5"
+    },
+    {
+      "bytes": 898665,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_19_v2.pkl",
+      "sha256": "a8e82dd58f0b22c25a1d5a5d2d6ee65e5f9c7406374c1ba5f3169c5d468e2491"
+    },
+    {
+      "bytes": 1061549,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_201_v2.pkl",
+      "sha256": "b3c1883a30c88b3cce61579de783dab8c643b6ebdda0d5b38337620730d35eee"
+    },
+    {
+      "bytes": 357194,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_202_v2.pkl",
+      "sha256": "bcbf52800db6a080bae0623736ed74b5f38789170437dca7a0174c16814d4c7c"
+    },
+    {
+      "bytes": 508282,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_204_v2.pkl",
+      "sha256": "75dc00aa4f7a88c3d265600b35ce245a40ced0d0801de0fbcc3e1b6eb9ded1f3"
+    },
+    {
+      "bytes": 218670,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_214_v2.pkl",
+      "sha256": "8095b18f0097a554948d97f2fefe40428143273cec2c1867e41062bcc683338a"
+    },
+    {
+      "bytes": 932993,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_217_v2.pkl",
+      "sha256": "38e8fbeb1a94aa3d32cb592807c597b283449e7e4bf8da95f5dadd89d27e6c23"
+    },
+    {
+      "bytes": 272205,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_232_v2.pkl",
+      "sha256": "4adbc6aff43aab2c77926538bd961539320b38d1f1541541c0e542ce46fc97e6"
+    },
+    {
+      "bytes": 212010,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_235_v2.pkl",
+      "sha256": "8fa0f03dd3a20ff1a2b002712c3c0c4dca08a467f19a104ec178c1166912209d"
+    },
+    {
+      "bytes": 881594,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_238_v2.pkl",
+      "sha256": "99dcfda23afb59d3f94200c72bdcac25d52003394052e57187c292ce4a9acec9"
+    },
+    {
+      "bytes": 986528,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_243_v2.pkl",
+      "sha256": "d1872fae46edef791344daa744c123add2778da3002b0c6d11b8429806269452"
+    },
+    {
+      "bytes": 634576,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_245_v2.pkl",
+      "sha256": "56e831fada3528e01c91df9da802319592b8c8baffbf3f31dbb9f300ed6f8b7e"
+    },
+    {
+      "bytes": 157889,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_249_v2.pkl",
+      "sha256": "8256c900ab5450f7740f110fb51cc7b95fe0ab07dd14878471eae42fcf123cd1"
+    },
+    {
+      "bytes": 159187,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_250_v2.pkl",
+      "sha256": "50446d7b32dc161bad86ab306ff4dd30ae45f901d7615e0546db3c96dff4a7ce"
+    },
+    {
+      "bytes": 358366,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_255_v2.pkl",
+      "sha256": "3205a6bfd8d2d7a95610d5fa3b396976b3c17ee14d95083e154c96a2968bfcca"
+    },
+    {
+      "bytes": 878034,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_262_v2.pkl",
+      "sha256": "c5c88a7970ec33f5a85cd3708c56cc246b85b9c0d1d209a56937e99e2dc64ec6"
+    },
+    {
+      "bytes": 370470,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_267_v2.pkl",
+      "sha256": "86b6585958a98783ce9ae7b06e52c2d7d4f2da58a16e679f30b7f23d64cfdec4"
+    },
+    {
+      "bytes": 687399,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_269_v2.pkl",
+      "sha256": "50e145c4d4edf2479d968b1c4b0f048f1908ef32028ac8e707132ddb4109f218"
+    },
+    {
+      "bytes": 340559,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_26_v2.pkl",
+      "sha256": "e36c8706c8ba8184cb2dbdbae034759ee8667d67f13d7005d9751f355cd28a41"
+    },
+    {
+      "bytes": 194201,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_271_v2.pkl",
+      "sha256": "321f1bb053c5a141c864c3d21005cd82704e19a8e923ea19130be821e746a863"
+    },
+    {
+      "bytes": 545693,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_272_v2.pkl",
+      "sha256": "780f4139aa56f52d5f138eacbd588950dc4a70a4bb2da7fa5996e71eb57e7b11"
+    },
+    {
+      "bytes": 70052,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_275_v2.pkl",
+      "sha256": "794e729edb63be7f82facfd3980688d5e65e4c2a56bcbe918be6e895994348bc"
+    },
+    {
+      "bytes": 172255,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_285_v2.pkl",
+      "sha256": "3bedb19870163ba2453ab62f4544808d4c92e40c12c2f73579254d318449d84a"
+    },
+    {
+      "bytes": 1191481,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_2_v2.pkl",
+      "sha256": "bbd49b9398ba4414f424cc60f73f85de7ca0d2b6fe8de44d88dba5052cfbfba6"
+    },
+    {
+      "bytes": 402897,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_322_v2.pkl",
+      "sha256": "26b6d73c8745adebfc7550ed6b363ef11ed2412221d9da8d7185b9c56c4e9ed1"
+    },
+    {
+      "bytes": 583303,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_335_v2.pkl",
+      "sha256": "46deacc21805a71e43eb4737621973df22ae501fca7e1136fde980db41f3537c"
+    },
+    {
+      "bytes": 264833,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_341_v2.pkl",
+      "sha256": "2584e72226cd45dcd6f37a2f264c7fca0c986fcbaccf3a7245a7949d71fd7ce7"
+    },
+    {
+      "bytes": 687399,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_343_v2.pkl",
+      "sha256": "1404aa7e65b5176f4a92ed9f4883d560404a4a618c465d8444c20d5a72268fe9"
+    },
+    {
+      "bytes": 793045,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_362_v2.pkl",
+      "sha256": "8bd52d66ad8961d7fb6d0292480263650d67fca7b619de650e5ec62ec8d0496b"
+    },
+    {
+      "bytes": 778084,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_363_v2.pkl",
+      "sha256": "c6cdef1da9d871aea3f1ba736e4a3dd3d9a2986c1449e24562da44572bfbd1da"
+    },
+    {
+      "bytes": 1222857,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_364_v2.pkl",
+      "sha256": "ffadfaeff04d56c73169bba09af01c2d9785a391a2575d59692d9cc0148ad401"
+    },
+    {
+      "bytes": 908776,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_366_v2.pkl",
+      "sha256": "21a81a955f9d163d7bdd2b4f99a722d0403306b7ab0acb94b0a886ade8134428"
+    },
+    {
+      "bytes": 1082909,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_375_v2.pkl",
+      "sha256": "fc786a473d8f2ca33a51d644d6fbd2a8d999e4f0eb664b2186c39a44225439bb"
+    },
+    {
+      "bytes": 107202,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_385_v2.pkl",
+      "sha256": "2f8f531ab64c8611bab6dfc044d8bd06bc90c17d2a3ed446193b588120f29998"
+    },
+    {
+      "bytes": 423285,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_38_v2.pkl",
+      "sha256": "4bf906c8da0f0ba2fb1caeac9b5e341f16a26623d1c674ad477239d4a0262d08"
+    },
+    {
+      "bytes": 423285,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_41_v2.pkl",
+      "sha256": "ec29db32ac642c748cf0431b1bf309e40a1ee1871e9a26ba04d17bf4a74bdc79"
+    },
+    {
+      "bytes": 811667,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_51_v2.pkl",
+      "sha256": "50c811e5870a9d72b270d34bc5120af1156b0b51d235efd69ade24e1d4960663"
+    },
+    {
+      "bytes": 938671,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_52_v2.pkl",
+      "sha256": "14d90343736ec5b4ba80244f301222a404974a60ebd87fc6e8f7e8be2177fa6c"
+    },
+    {
+      "bytes": 280030,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_55_v2.pkl",
+      "sha256": "cafdbc9316b453443ad049c88065c2df9d8e7d1c08ae3920cdc2cdc8ae124eb9"
+    },
+    {
+      "bytes": 581742,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_57_v2.pkl",
+      "sha256": "2f4b31b38269411e87ef67c92bd5d8ead771d414b3cbc33066cd88535e3aacc7"
+    },
+    {
+      "bytes": 670285,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_5_v2.pkl",
+      "sha256": "f026f3982ca0d628cc9fc18a6dd31aa8ae00d3da2c3ed2c4fd2ed19ffc13b845"
+    },
+    {
+      "bytes": 916590,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_61_v2.pkl",
+      "sha256": "224938b3906fb8a2ad37d52362498f185625e3737d21d0b55882974f8b95f071"
+    },
+    {
+      "bytes": 757421,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_62_v2.pkl",
+      "sha256": "224574e7299be9187af71a3c20b9b708974a3cdc1a951a7d63406f4c05645484"
+    },
+    {
+      "bytes": 793030,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_63_v2.pkl",
+      "sha256": "4cc77b2b4ac250b9455abafaa359fed99e90134a7a99d171b76ff2f65e90fa9d"
+    },
+    {
+      "bytes": 826032,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_66_v2.pkl",
+      "sha256": "89293aa6d70c4f2f76da2bd0055917357bd0f984151d0dad20ff397f401d1292"
+    },
+    {
+      "bytes": 765253,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_74_v2.pkl",
+      "sha256": "2b4f653844c7ccb2d4be61fc4dde2af6d1d141b4454527e1cb008bbc18db6bb1"
+    },
+    {
+      "bytes": 972972,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_78_v2.pkl",
+      "sha256": "cbdf44afd3f770354268fabdf24eedfe7e40c1b7c4cde876df901be9710f85f7"
+    },
+    {
+      "bytes": 918273,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_88_v2.pkl",
+      "sha256": "2c4d58ffafababcbf2ce835a5d31ed41b10b5991404ab7d7b1b808a9bf412420"
+    },
+    {
+      "bytes": 264828,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_89_v2.pkl",
+      "sha256": "707b3abe1a528ca13b113cd4d8145a99cc8fe0c26972f368dfa4719078a30e28"
+    },
+    {
+      "bytes": 781629,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_93_v2.pkl",
+      "sha256": "15cfec6e7a40e8add0f44ca0bc2c3afc865df651df1a18f1431e5529851059e7"
+    },
+    {
+      "bytes": 347804,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_A_out/task_94_v2.pkl",
+      "sha256": "a1e4f4ca70a2b6a7355868275b26e1e99a57c4e90a6fe1cec2630f1c0cb60d23"
+    },
+    {
+      "bytes": 1109922,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_103_v2.pkl",
+      "sha256": "a5b3876b7ac39b0777485ed61111a0ef2a15cac55244f9cc3c100754c6ae7120"
+    },
+    {
+      "bytes": 1126427,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_104_v2.pkl",
+      "sha256": "f3817821e81c1fbd20b042ebfa603d9d13374b3bdde0051bf2b0d1d2baa4f148"
+    },
+    {
+      "bytes": 674559,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_106_v2.pkl",
+      "sha256": "067feb1cd087fe7c1bf8cebad1ddfc16a06fc4573a2e25e3ab2e211ea068a310"
+    },
+    {
+      "bytes": 607493,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_113_v2.pkl",
+      "sha256": "0feb88ce1779fae2b56741e35e71c9e9cf285c5a3cab1dabfb21b76ba6d049bc"
+    },
+    {
+      "bytes": 453670,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_115_v2.pkl",
+      "sha256": "de5b93cb018151f9329e939e60dc6bfc8016d9f3a40818804246c78cfd52c938"
+    },
+    {
+      "bytes": 1222923,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_122_v2.pkl",
+      "sha256": "f8b592f7c2652ecade9e5e34238dc8d596ca37b1c0a8df8032022ca03a545567"
+    },
+    {
+      "bytes": 407148,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_123_v2.pkl",
+      "sha256": "0ea195b50d41b565fbd7d1a8478d9b8d599751c6b8b5849468c41a217eb3eb1e"
+    },
+    {
+      "bytes": 267210,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_125_v2.pkl",
+      "sha256": "7cd9898e8e2e7181750e7a7f8d3f312ff56d8a0f17f97d764305ef5fd2d0a1b0"
+    },
+    {
+      "bytes": 200734,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_126_v2.pkl",
+      "sha256": "d475653acd0fd910f967c16e4017c15e662d81eb3f3ef027353f9074e7ee8034"
+    },
+    {
+      "bytes": 795276,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_128_v2.pkl",
+      "sha256": "8fef4c8bc84327bffb6f636dac1f06ae0216854b667c60043c897b511b6df9f2"
+    },
+    {
+      "bytes": 1356925,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_145_v2.pkl",
+      "sha256": "c8c88593109a7ff59315a64da39ff0dd6e056d6550d41cba49d7e23fe85f5f53"
+    },
+    {
+      "bytes": 315156,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_149_v2.pkl",
+      "sha256": "bd0f56c995a7ada10e4d2baa997f2abb7f21efaedcea4899b6cf027c9c5ff446"
+    },
+    {
+      "bytes": 651052,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_153_v2.pkl",
+      "sha256": "f2ba5d5e557419280e7f923024f62e343722031be46f6ef43fff3b278c570844"
+    },
+    {
+      "bytes": 370458,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_157_v2.pkl",
+      "sha256": "d63dd5fee603c79d2b823f5f116d59fd5a653d5619236441744d0ea24309ea88"
+    },
+    {
+      "bytes": 1209279,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_159_v2.pkl",
+      "sha256": "20a081408b80973e0f4bdd23133ab538392fa5dca181bf8f568f22a6278dc2b8"
+    },
+    {
+      "bytes": 233609,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_165_v2.pkl",
+      "sha256": "c890b25438daebba8a7fe36d26c183b7e05d8b7997c95f357955396301d4a8bb"
+    },
+    {
+      "bytes": 845233,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_166_v2.pkl",
+      "sha256": "ebf8a224f98039d4630241f50ee1497d055f72a98ceac9a5b05965f1f66f35f3"
+    },
+    {
+      "bytes": 303520,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_167_v2.pkl",
+      "sha256": "1e7fe7047cb100439208c9d9f04da4044b7e7b0f1a2991a8db28dab8be13f216"
+    },
+    {
+      "bytes": 658066,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_16_v2.pkl",
+      "sha256": "ff8e12a097d4b860ffd6b7aa2e215df178f37ae8e724b4b1d1f3a4b58906eec3"
+    },
+    {
+      "bytes": 786732,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_179_v2.pkl",
+      "sha256": "8bab58f1062e1e5e9f4dbdaac06e773360ecd372903bec798b679227dd989788"
+    },
+    {
+      "bytes": 687368,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_180_v2.pkl",
+      "sha256": "a7d1af42dc4a35fe6c5cf70648bf409960083f6b9e919d1196ce6f82f421ebaf"
+    },
+    {
+      "bytes": 810942,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_182_v2.pkl",
+      "sha256": "3248af73ebab053e94d287d0e8bac931b39b429428efa06c2e5f8bf8b50699cc"
+    },
+    {
+      "bytes": 740188,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_184_v2.pkl",
+      "sha256": "b15c0ef01487048f500e9c5abee1bb3afc2d0b83b826bbdf377450645103f2e5"
+    },
+    {
+      "bytes": 370455,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_186_v2.pkl",
+      "sha256": "c2715a54c3cfc7aafc0b62f7c8b650b42883bf790c503d0533de0b281855a5c5"
+    },
+    {
+      "bytes": 1377710,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_194_v2.pkl",
+      "sha256": "f468ba0052f235af7ddfc3122a275f0fdd9798c60c9d683f11445bde884d0dc2"
+    },
+    {
+      "bytes": 607756,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_196_v2.pkl",
+      "sha256": "415446f4d4e51c62471d498e2ba79cfdf1e6d3d7a1a7c6e115503821938c3549"
+    },
+    {
+      "bytes": 384097,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_19_v2.pkl",
+      "sha256": "d336af2e344ba5340ad8d492283f3c50e2b42375f550cbadd6bbe268f3050472"
+    },
+    {
+      "bytes": 1262812,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_201_v2.pkl",
+      "sha256": "2e7679270d31ae48b9afc9cde6e4644206d11a0b33bd57e9808a26bc16d74965"
+    },
+    {
+      "bytes": 384357,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_202_v2.pkl",
+      "sha256": "9a88fd6d64a73b07400a1e903acacfd7a73fba33efe858c25fd93ef5517a996c"
+    },
+    {
+      "bytes": 561091,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_204_v2.pkl",
+      "sha256": "46b6e1b4adb7effcad680b1c99fdf576f003aa0a053061f494a9afd02672801b"
+    },
+    {
+      "bytes": 378664,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_214_v2.pkl",
+      "sha256": "0c24b4095bc7aad835077a3c974b5c71d4dd1e6c036a18efb1173719d6614f19"
+    },
+    {
+      "bytes": 793008,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_217_v2.pkl",
+      "sha256": "3957ec0a956c97fb84f97d6a33d05abe38b62c8b8c18af4424968c105732bc23"
+    },
+    {
+      "bytes": 137947,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_232_v2.pkl",
+      "sha256": "cca7ea63af85626148cd41d6725f4851c18ce70b40f7fa734b314e8cecacfdfc"
+    },
+    {
+      "bytes": 951451,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_235_v2.pkl",
+      "sha256": "7684e0a6b441b179d21f65b2a508e57b6d05eeaa9934ab7c43c81f90c72df475"
+    },
+    {
+      "bytes": 793016,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_238_v2.pkl",
+      "sha256": "c074eaef734970ffab1648f5e752dee7a9a1b39d5a9dad59c53828f41fca1407"
+    },
+    {
+      "bytes": 370452,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_243_v2.pkl",
+      "sha256": "d1e608a831fb1cdb052f6ff0d75eb14bd067d478a2a8d9b8d066d875275d3b02"
+    },
+    {
+      "bytes": 581729,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_245_v2.pkl",
+      "sha256": "b2b6d41886aee3132a6b9ad00543680618de013ae8a304ff5e317866e0004e2f"
+    },
+    {
+      "bytes": 185776,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_249_v2.pkl",
+      "sha256": "b0fd9470e00854e2424cf18c5458c3f3d70c018b879e32f952b4a2e6a0880643"
+    },
+    {
+      "bytes": 634550,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_250_v2.pkl",
+      "sha256": "e8fa5392421dd7906238e23463d2c3b33053d8fec7989f6f958056ed971c471e"
+    },
+    {
+      "bytes": 727504,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_255_v2.pkl",
+      "sha256": "a72fd4a62c85d27f67b434b11c0032bee8b4d4fda1aefa319c06d799e4bd655d"
+    },
+    {
+      "bytes": 1021488,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_262_v2.pkl",
+      "sha256": "f47648f68eb7e49aa25807747c002c962b171533804b1cbe6d067f1ae25aa30f"
+    },
+    {
+      "bytes": 788872,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_267_v2.pkl",
+      "sha256": "f3598fa9cbfb426282817f2fa8fe6de74b22c17ba0857604100f14fdf4fcaad8"
+    },
+    {
+      "bytes": 995992,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_269_v2.pkl",
+      "sha256": "405d114cab3e8f3c427e8ff794ff9ca87ca0d47c1ac95ec5a385b79325dac09b"
+    },
+    {
+      "bytes": 630388,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_26_v2.pkl",
+      "sha256": "6e555bacdc89236966a868ea20aa372f576aa1f9e87fcef2b6207309b1e0a1fa"
+    },
+    {
+      "bytes": 616743,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_271_v2.pkl",
+      "sha256": "e2b7559b373ceeb7f09a762267201c601c2a369cc521619b62c1e02578d07c59"
+    },
+    {
+      "bytes": 265078,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_272_v2.pkl",
+      "sha256": "ab5f913fda305640c3dac7d2f75c530bdf5a48a21e2fcb3cc2714de23bb7002c"
+    },
+    {
+      "bytes": 568444,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_275_v2.pkl",
+      "sha256": "7988e60d022edd32a36f2ecc155bb8ed8557a7dfda39e12e6367b8c785e24f47"
+    },
+    {
+      "bytes": 615703,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_285_v2.pkl",
+      "sha256": "18e2a10cf1727fa7858d456504df5e8f8d7376a84c14e2d8efb900adad5fd3fa"
+    },
+    {
+      "bytes": 845793,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_2_v2.pkl",
+      "sha256": "ce76f25965b68455f18f99b59d37e12ad43f744904394606cda156297775921d"
+    },
+    {
+      "bytes": 361451,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_322_v2.pkl",
+      "sha256": "5d514619e31085e0a26ab1e2e076392daeb8226ad06b4fd7bb55775e7f76bafc"
+    },
+    {
+      "bytes": 787445,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_335_v2.pkl",
+      "sha256": "c7a12346c64e263a7f6ddb156a7b53f68e9daddbae3565b5c46f2fc6c295afe3"
+    },
+    {
+      "bytes": 673844,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_341_v2.pkl",
+      "sha256": "2150f9e2be7dbe1992493ec89024975dcc772fedb8dd51dc78cc5f9ee08c0d01"
+    },
+    {
+      "bytes": 1018655,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_343_v2.pkl",
+      "sha256": "16bfd4950bf0dd8e2c935182c5c0a36868dcf10411a0476bb0e0d203b967665e"
+    },
+    {
+      "bytes": 1005241,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_362_v2.pkl",
+      "sha256": "7a313cd9dbf6b2f90a136619db99a83ce526b3d79e2c0f2772c747149aa293e0"
+    },
+    {
+      "bytes": 687380,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_363_v2.pkl",
+      "sha256": "b81551633becd23350aa47557a6a73b29882a56ef3504e9dcf0bd303f0e26f67"
+    },
+    {
+      "bytes": 793015,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_364_v2.pkl",
+      "sha256": "0f0176a59c19f3bad2dea2d1358b7928f3e6db1f87e6e782853927b9e4015e2e"
+    },
+    {
+      "bytes": 1060790,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_366_v2.pkl",
+      "sha256": "178a476f738f611daa1f61ebf4b081bae34b61e4ecdc2c88a64fc49b9dafe9d5"
+    },
+    {
+      "bytes": 570340,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_375_v2.pkl",
+      "sha256": "b9348e46dacea65dc4f4b4b6052ae12eb84229a6d539b90d7400869444e4af8c"
+    },
+    {
+      "bytes": 347791,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_385_v2.pkl",
+      "sha256": "bd9de970f714b7815067e975604dcdc01096a14677caa5f7de9262539b5fae66"
+    },
+    {
+      "bytes": 550399,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_38_v2.pkl",
+      "sha256": "de81928fd5e98c4d262cfaa09dd42afbbb913c39bfa0dac35b1051ffdcb00c78"
+    },
+    {
+      "bytes": 634539,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_41_v2.pkl",
+      "sha256": "36eaed286f2d52308f74fda149f71e805096513e4dd76b44891f6321fbd85736"
+    },
+    {
+      "bytes": 1621696,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_51_v2.pkl",
+      "sha256": "0fe2ff00b2bfbedc2139c229be4c3761ce3dc52f5e4494930dc8cb8687029a6c"
+    },
+    {
+      "bytes": 687362,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_52_v2.pkl",
+      "sha256": "885b12b197e120598595da7045ef1102e498d37243ce6231410571a61252b78f"
+    },
+    {
+      "bytes": 530827,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_55_v2.pkl",
+      "sha256": "8f49a96d1cc9295a4154493547d30338391936f96520f2adcd6b718013e7cd57"
+    },
+    {
+      "bytes": 988597,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_57_v2.pkl",
+      "sha256": "27e55539373fe98c490da2c6ddf71b750acbbd3229e12069ee7b529d2234d298"
+    },
+    {
+      "bytes": 880099,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_5_v2.pkl",
+      "sha256": "1a52b2012424eee184c8fad44d70135e308714c05288b934dc07c45145dfff41"
+    },
+    {
+      "bytes": 687357,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_61_v2.pkl",
+      "sha256": "f236a73c8114e49c8820f43d004f59fdf06cdd25fdf65412efa4d981784a087c"
+    },
+    {
+      "bytes": 792989,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_62_v2.pkl",
+      "sha256": "a363d4da1c53eedde12116b20eb85a2dfba697d97fe4d936124e1ea3666237eb"
+    },
+    {
+      "bytes": 581718,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_63_v2.pkl",
+      "sha256": "3e7e17fbbb72072f52ee30fb0618b206a1cd83d4a5d3e770b6ed6f79d68d2805"
+    },
+    {
+      "bytes": 1177922,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_66_v2.pkl",
+      "sha256": "68ed74d469f306dfd0e34a283097e501852f72aa4a7af7e1f71d74cc60d482fa"
+    },
+    {
+      "bytes": 370447,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_74_v2.pkl",
+      "sha256": "274d634d66529080f7635eb236de21ff7c117bb7c028339c28a818d6470c0562"
+    },
+    {
+      "bytes": 1267895,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_78_v2.pkl",
+      "sha256": "5f0682bf8bb2593c9cf520a11be916f2d58f2737766aa0376b7320ff0ab4100d"
+    },
+    {
+      "bytes": 1670250,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_88_v2.pkl",
+      "sha256": "5a9bcc5349dfbf26287e73fbf078a649e297ea1aa248f509a0541319d10123a8"
+    },
+    {
+      "bytes": 810207,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_89_v2.pkl",
+      "sha256": "03a4e4927519493a272bfcd0f9864eeebd53549bb4e8c9a18454dbf45f85a234"
+    },
+    {
+      "bytes": 549677,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_93_v2.pkl",
+      "sha256": "3e2f5fe1b655eec3c9df0d4f0661c8bb32398038407d9933fbe7472ce5ee2049"
+    },
+    {
+      "bytes": 234319,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_B_out/task_94_v2.pkl",
+      "sha256": "76c9163bc34f97d0c7dea6996265c0ee865e372aea5e09f110636ae59fa6c4f7"
+    },
+    {
+      "bytes": 686879,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_103_v2.pkl",
+      "sha256": "8cb67a35ab9568a71300d664e3fdce353df9046b960bc7f71061f6c3d5a47f5a"
+    },
+    {
+      "bytes": 778368,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_104_v2.pkl",
+      "sha256": "3d8d0503fb002c044dc55ff335e0a678d334f0775b3479385a1f68a10d38627b"
+    },
+    {
+      "bytes": 603480,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_106_v2.pkl",
+      "sha256": "bc6fe8fa6049c680b80ef8e7597eb79c11c3670b25bb6403221efefb28b36e88"
+    },
+    {
+      "bytes": 792445,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_113_v2.pkl",
+      "sha256": "c9f212d3e005ad92f65de421da1444fba15ba2cc49d60fcd4a684feb1deccc8e"
+    },
+    {
+      "bytes": 312681,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_115_v2.pkl",
+      "sha256": "3145cbeff8204ef3f6051c5edcbba84db24f003beab7c6284212f7293598a701"
+    },
+    {
+      "bytes": 431689,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_122_v2.pkl",
+      "sha256": "23caf47f4cda9637b6e76a8a4c4e0c83b98dd56defc31ae404eec11d71e81064"
+    },
+    {
+      "bytes": 335474,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_123_v2.pkl",
+      "sha256": "5edf4ab498e574a1135d110fba37fb261c569ad487376d2bb3afc908c4a9219f"
+    },
+    {
+      "bytes": 539563,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_125_v2.pkl",
+      "sha256": "6579fe2da51facf38d3665467a52492f432ad0f3b81c8100cd16c479ca156d96"
+    },
+    {
+      "bytes": 503868,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_126_v2.pkl",
+      "sha256": "22cc824dfb26c7c809c5cb0ea31bf6c1856628f05c121c1338aa44e8543d3854"
+    },
+    {
+      "bytes": 528539,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_128_v2.pkl",
+      "sha256": "389477448c5e480269a98e65e045518651828d27807dda6ff09f15bf9cc9083a"
+    },
+    {
+      "bytes": 323189,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_145_v2.pkl",
+      "sha256": "4d2c1b12289c89bdf352ccc31e60eab7d45a3c82b2064972187f309a921f476d"
+    },
+    {
+      "bytes": 496036,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_149_v2.pkl",
+      "sha256": "31607ecbb7fa3a7ad6bf21fcd2d8909605186fbb6dd4f9a27c7e4199bb8f5842"
+    },
+    {
+      "bytes": 339574,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_153_v2.pkl",
+      "sha256": "e9f2355360366b24440eba334b0378c0981040e3ad38394b668943eca62debe8"
+    },
+    {
+      "bytes": 1161908,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_157_v2.pkl",
+      "sha256": "00bcc980bbb86b1c1c1291b52b85fc0548e54d7ec601857be66842c85e2b28ee"
+    },
+    {
+      "bytes": 898088,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_159_v2.pkl",
+      "sha256": "25a11f0179e81cb5d510441c7a2a16decacfbb88f31a18d22f0cefb55d49b0ab"
+    },
+    {
+      "bytes": 632304,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_165_v2.pkl",
+      "sha256": "f18b4215947cb7eacb37f130aaf9d936f80758815d56f89228d970bdf0ba5d00"
+    },
+    {
+      "bytes": 702003,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_166_v2.pkl",
+      "sha256": "cba25cf9c858af309bf6860e5e6693e040a46f777dff2a61c2e83cfd1d6be49e"
+    },
+    {
+      "bytes": 425281,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_167_v2.pkl",
+      "sha256": "a972670d2ba26228b93c36e9c405ab4535e6de2681ed51697957774bd962514d"
+    },
+    {
+      "bytes": 295499,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_16_v2.pkl",
+      "sha256": "7759a4c4cb48fb2cdd6eb7889a8a5ae90ce7df4bda6c5861dae1dffe6d65292e"
+    },
+    {
+      "bytes": 422973,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_179_v2.pkl",
+      "sha256": "3913a200c3ba33c5f8eed7f09be088a48cbedad09a7ccd9ab03af3725b878052"
+    },
+    {
+      "bytes": 401613,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_180_v2.pkl",
+      "sha256": "798d8a8bcb3f3a876c57d450523695a5b0ae337f6b3af2eae9d7debf97be9a75"
+    },
+    {
+      "bytes": 634096,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_182_v2.pkl",
+      "sha256": "32477545bf87d52a6e9d7546e23fa9f160d37de451d07c6bc0073e7130c9fa29"
+    },
+    {
+      "bytes": 1161908,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_184_v2.pkl",
+      "sha256": "bf1e4220d75b78fdd81cb1958e116840e5bc4753531aa107376dce5b619843c2"
+    },
+    {
+      "bytes": 1071389,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_186_v2.pkl",
+      "sha256": "f0baec47ff78911ffd1674b44a2a767a5027138dfe8b472d32cfd16c8ff11308"
+    },
+    {
+      "bytes": 408107,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_194_v2.pkl",
+      "sha256": "db329444698fe68d307af5225d15e018842c0ad18d676c801af5ede2591b4dea"
+    },
+    {
+      "bytes": 306187,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_196_v2.pkl",
+      "sha256": "e416396d0711082ef1b46309ba370bb0c7448d2199e6cb443f86b4d0d22444cc"
+    },
+    {
+      "bytes": 1410835,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_19_v2.pkl",
+      "sha256": "1551a217bea2d89d51903ad2abb48de57f7e13c3633da66d0a65723e2a52d309"
+    },
+    {
+      "bytes": 542865,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_201_v2.pkl",
+      "sha256": "b193bdb78e8d12bae0d7b325dfdef1ae8e9da2d3dd9a560abd0233b9ff4d3b4a"
+    },
+    {
+      "bytes": 393232,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_202_v2.pkl",
+      "sha256": "8f36139dcffda33130d59050bb98effa0740e3f816fb43a23235fa2af806439a"
+    },
+    {
+      "bytes": 757548,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_204_v2.pkl",
+      "sha256": "a51ea7529f039bb3e0bff922392a96927588cc98786391ed2b8b5a8591273acd"
+    },
+    {
+      "bytes": 476812,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_214_v2.pkl",
+      "sha256": "2b4363104cf52edf4ca9be24ac0e5fcf797f7dff68066a1b97e6ab060f9aeac4"
+    },
+    {
+      "bytes": 1425814,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_217_v2.pkl",
+      "sha256": "e121de7b9b3819ad074fe85208340baa6bfa5ba59be1ea7a351a2c6f08b39cb1"
+    },
+    {
+      "bytes": 354072,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_232_v2.pkl",
+      "sha256": "d23e731b2446af9702f9e585d4e7ab0c65dec941335c1da46abecf4e19348ace"
+    },
+    {
+      "bytes": 516426,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_235_v2.pkl",
+      "sha256": "ce1d6a82e6ca3001d2fd67ccb9fa13c4a102a2f1356af48486e3a06cff4266c5"
+    },
+    {
+      "bytes": 1027862,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_238_v2.pkl",
+      "sha256": "2a2c75a59fdab7567a352f33dc9cb54c85ddc5983166ff8fa94cd6d654fad18b"
+    },
+    {
+      "bytes": 950785,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_243_v2.pkl",
+      "sha256": "5a2c21ae21234f42a8e2453addf0e5920467e8c7a56ac9ce554ba19ea497de68"
+    },
+    {
+      "bytes": 792445,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_245_v2.pkl",
+      "sha256": "e092d77e531c5c257b4ae8af2cadeb5e6ce28f9cbefbb0197207d30c6da0a29a"
+    },
+    {
+      "bytes": 643070,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_249_v2.pkl",
+      "sha256": "6cc0f910800995feddbfffe9a3775bc689ead47ae8f6807b68510e87987af5af"
+    },
+    {
+      "bytes": 564937,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_250_v2.pkl",
+      "sha256": "179297987d76c884274a959a35c98a6883960aa9d7f4fcb3faf65f23645aa0e5"
+    },
+    {
+      "bytes": 792445,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_255_v2.pkl",
+      "sha256": "51ab1dc698a843aecfd5b2916c7b6d6e5e1ec48ca7ccf3724d5ded2eeb87e281"
+    },
+    {
+      "bytes": 941615,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_262_v2.pkl",
+      "sha256": "1e95c915b881874eaa7fafe99c26a80ad514c8fa3ac719b77572c577fcd37f86"
+    },
+    {
+      "bytes": 581313,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_267_v2.pkl",
+      "sha256": "d0c7af8a9093265703251048297640458a862a2f87d7e55b9c37b246eb8f20e3"
+    },
+    {
+      "bytes": 749004,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_269_v2.pkl",
+      "sha256": "148934db610c7c49fc1bde708150f25299f497c71c2813f782d6f4c0a27fb713"
+    },
+    {
+      "bytes": 814045,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_26_v2.pkl",
+      "sha256": "df475fbb829d7436362e0300082e6725f99860d68a6435fbd01c7a5a2cb13ba8"
+    },
+    {
+      "bytes": 475756,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_271_v2.pkl",
+      "sha256": "e1347f49966f3dfc033233332b324329f78275cd47bf348fc866074a3e1f691c"
+    },
+    {
+      "bytes": 608096,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_272_v2.pkl",
+      "sha256": "fae7ac33c188de92b24df19f82878466660b44df35197674ea5447adc1bb807f"
+    },
+    {
+      "bytes": 306813,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_275_v2.pkl",
+      "sha256": "9bf60ba538f465012aac9634bdc0b4545f6f49340eb307fc5c037c36a1a89428"
+    },
+    {
+      "bytes": 141353,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_285_v2.pkl",
+      "sha256": "ff5d026725305a34b209edfeca2eb4a919747adb5ff8900c66b5c1cebfa34088"
+    },
+    {
+      "bytes": 709721,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_2_v2.pkl",
+      "sha256": "e94d764ce053249c5131c8fceb7ad88fc18dc473c911b0b181e296cbf23f3583"
+    },
+    {
+      "bytes": 418959,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_322_v2.pkl",
+      "sha256": "8f13e4f7ad3c97cb3d767afcdedd88d29ecd7e716e7affac6b377fb197b63494"
+    },
+    {
+      "bytes": 1228305,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_335_v2.pkl",
+      "sha256": "f0eae4d7ca3c596ca49b2b7b0b2d321ea08cb7c6d5651b3e973aec66bb6bcc66"
+    },
+    {
+      "bytes": 581313,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_341_v2.pkl",
+      "sha256": "0d2bf854dd0f3f475681d0edd0b262abc011783c2b6e445e2c98c92e6e30bd46"
+    },
+    {
+      "bytes": 532185,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_343_v2.pkl",
+      "sha256": "ce58031d1da081624d9556598da2a909b109b5bd73ad9b15ed8c26e875ae8e03"
+    },
+    {
+      "bytes": 656263,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_362_v2.pkl",
+      "sha256": "123c10c405354112c8f10f7244b7c0638af002ba186ae9eb019fe2d13baa90d1"
+    },
+    {
+      "bytes": 950785,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_363_v2.pkl",
+      "sha256": "7962be76097200a80e025479a578c08f6c6951df227e0c7be3ee17971047da31"
+    },
+    {
+      "bytes": 686879,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_364_v2.pkl",
+      "sha256": "088993d31823a5c966b3c63d9b974f73bdb252e79dec71f401438a226b9f66d3"
+    },
+    {
+      "bytes": 738324,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_366_v2.pkl",
+      "sha256": "01a3cbe92cb9fd94666d50db8b83af93c35b5c282802a3bd42816d37ee7853ed"
+    },
+    {
+      "bytes": 952295,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_375_v2.pkl",
+      "sha256": "0c342f905b38a3cc2cab36e5d03c21479f178b9a903bdd4fec333a68cb386791"
+    },
+    {
+      "bytes": 212022,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_385_v2.pkl",
+      "sha256": "a392a8a9a09293ca98509fb176c09c5896c03df97821b0ac02e8b599b6552982"
+    },
+    {
+      "bytes": 510720,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_38_v2.pkl",
+      "sha256": "522e82e17446113ba9366e3ad6c2694b7d4e0e82ba5d159265221f337708fd4c"
+    },
+    {
+      "bytes": 405165,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_41_v2.pkl",
+      "sha256": "f988bfb2fbd3ffa360b1ffafb70cde4a4a3ca41045cb3c6bc1880a98aececb7b"
+    },
+    {
+      "bytes": 732613,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_51_v2.pkl",
+      "sha256": "30daefddb67c9225524080bbac2d6c825a91a2d28977605f640499d8c04f39ff"
+    },
+    {
+      "bytes": 1131270,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_52_v2.pkl",
+      "sha256": "21bd6ebc83f521c1bc76a7f36ce7d6b276b8a858bff8e848d01acb5f87bb9092"
+    },
+    {
+      "bytes": 380406,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_55_v2.pkl",
+      "sha256": "1de9383eaf4e925a6225bb1195c0da0ad574f1c2d87b3e95a645682df9a9cb8a"
+    },
+    {
+      "bytes": 897985,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_57_v2.pkl",
+      "sha256": "1aacbcfa3e7d85309501d8346948e990b1734bf7f4cb242a738d1b112c502399"
+    },
+    {
+      "bytes": 679817,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_5_v2.pkl",
+      "sha256": "f4ce50007d04a8690c02815e954521f44aefe46886c635c58954244af7d35c63"
+    },
+    {
+      "bytes": 813163,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_61_v2.pkl",
+      "sha256": "3e81ce146d3daa66a2c9daab5b8b3a9ee3375ce316ea29c2e9d7e308ad5fb8d9"
+    },
+    {
+      "bytes": 1057840,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_62_v2.pkl",
+      "sha256": "cbfa33e06be8ac5a0d3a9fbb63dee339b96c7fd691d9c84581470c35a550defe"
+    },
+    {
+      "bytes": 673338,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_63_v2.pkl",
+      "sha256": "c179b450dc68abc04722f2bd851c04f44fe0ee7e5060a09a920321b0b1c52102"
+    },
+    {
+      "bytes": 1052941,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_66_v2.pkl",
+      "sha256": "8f1821125e6342920aa78334ed7e3aa334f8881027d2502c2c40638c658b8864"
+    },
+    {
+      "bytes": 1331709,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_74_v2.pkl",
+      "sha256": "986de47c31931d6c91de6feb83b69fb6e43969b21d3f3b2f93babf66a9624267"
+    },
+    {
+      "bytes": 756821,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_78_v2.pkl",
+      "sha256": "58e71993bcd262254d4f6c16ef2021d39546dd0b6fd57c7620fba8556005b42c"
+    },
+    {
+      "bytes": 759042,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_88_v2.pkl",
+      "sha256": "3479591b81d26077203be3c03211de83d8f2250d4edcddf2adb9aa5cbb434372"
+    },
+    {
+      "bytes": 243971,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_89_v2.pkl",
+      "sha256": "1bcf0dcab591c8d3948231d986a98dc2ad8310d46c4c8257cc98fb9651179862"
+    },
+    {
+      "bytes": 1069944,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_93_v2.pkl",
+      "sha256": "4980abaf31d178f31864f12c17a8d4210b28b181f0b900c9422557221fac3769"
+    },
+    {
+      "bytes": 465949,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_C_out/task_94_v2.pkl",
+      "sha256": "6f5815c1a51f868466d1e97d1a64204da16be67611fd78ad6522603aaa36221d"
+    },
+    {
+      "bytes": 734599,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_103_v2.pkl",
+      "sha256": "3c332130c23f1fb9bf083248284e904fea5e452694e61f6906db4847100b1f2e"
+    },
+    {
+      "bytes": 868716,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_104_v2.pkl",
+      "sha256": "91009ed949c7d6d008593d6467c20dc6650b198813c0fd869b5894f30a534454"
+    },
+    {
+      "bytes": 456849,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_106_v2.pkl",
+      "sha256": "f93a4844e52b020472ca920dbc8d15e2b00a187790d26d807bda494dabceeb94"
+    },
+    {
+      "bytes": 968658,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_113_v2.pkl",
+      "sha256": "ba9f3c49a1238032baf1ac677fe3f17812b4bc57b25bd7a2f6bfe035f9775b24"
+    },
+    {
+      "bytes": 387904,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_115_v2.pkl",
+      "sha256": "85ebb7ebc7763bde351a57b673f74c50510ca6500edbf30cbdfb22b0383fc30f"
+    },
+    {
+      "bytes": 554194,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_122_v2.pkl",
+      "sha256": "099322f51637214a1c07f7c4d2d145c8dc95440cfdd1b345d388ed11c881a944"
+    },
+    {
+      "bytes": 184343,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_123_v2.pkl",
+      "sha256": "a27ad903b0253574d4beddcc6555786af2dabcf0e62041e6a72c27f3ad234aea"
+    },
+    {
+      "bytes": 82861,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_125_v2.pkl",
+      "sha256": "48b9e79729be057110caedbca82d01667e9bd9dd528052db8c32870f37cb398d"
+    },
+    {
+      "bytes": 267196,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_126_v2.pkl",
+      "sha256": "47921dd3ca3f130f962d9fc43db70e4d20a33d9d97c6d6ef9f32920fd75af3a6"
+    },
+    {
+      "bytes": 370444,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_128_v2.pkl",
+      "sha256": "5765cc612cc128565733db9f39c39c56525aecda165e1c81f2b33893c631647b"
+    },
+    {
+      "bytes": 777445,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_145_v2.pkl",
+      "sha256": "f56b90bbdbec2060a886126dd671790f61f799cb0ce8e22dfc83222de4e1235e"
+    },
+    {
+      "bytes": 410696,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_149_v2.pkl",
+      "sha256": "e0751577b84110298b75570f354ef7a860528a074e29560937ad1409d31fc7ae"
+    },
+    {
+      "bytes": 514658,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_153_v2.pkl",
+      "sha256": "e27ba1d5516faa530d9de4ed13a6068fce22107ecff602860306784fe95519e4"
+    },
+    {
+      "bytes": 740176,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_157_v2.pkl",
+      "sha256": "12f41d74c4abab55c7a62ccff6adad4ea8b2eb02d5afabe0be5b111d0d949b56"
+    },
+    {
+      "bytes": 1358440,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_159_v2.pkl",
+      "sha256": "917809a904f97dca6b9ad67ac6d207da253c81b6806dbcd513acca4a7773b88f"
+    },
+    {
+      "bytes": 229326,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_165_v2.pkl",
+      "sha256": "fd0e2a8108002bc2de56d92aa791ba70e22649e95dd3f3b3145045c27a7db42e"
+    },
+    {
+      "bytes": 820420,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_166_v2.pkl",
+      "sha256": "299133799f3f0da4ab011537b02ba828f76104f94f19e19e3745f4cc12703e8f"
+    },
+    {
+      "bytes": 313480,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_167_v2.pkl",
+      "sha256": "7d93c1ca6cbd4606ccc9c5b18290c043771f8b6a999a31e0ed13bd44efd2853f"
+    },
+    {
+      "bytes": 288664,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_16_v2.pkl",
+      "sha256": "3a6d7544bc78e4075691ac24161141d63675f7eb2705933d4827676c9839d780"
+    },
+    {
+      "bytes": 264814,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_179_v2.pkl",
+      "sha256": "dfabd07cfcf555cc1635d8f84be85ead92749ca0879ee82b0c04c0b3cfdc41c3"
+    },
+    {
+      "bytes": 581713,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_180_v2.pkl",
+      "sha256": "9397c4df869fb07c9a25191731199c1d6e5ac0003640bf4cb366b027588e6993"
+    },
+    {
+      "bytes": 317628,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_182_v2.pkl",
+      "sha256": "879e7a0741e8807216404c3e731a82b24488a20b3950d86753d813a81421e897"
+    },
+    {
+      "bytes": 874416,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_184_v2.pkl",
+      "sha256": "0c5c487ee309a87284323ff513a4f601710c23addcb3a8284fcb08eb429c2f9e"
+    },
+    {
+      "bytes": 1057088,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_186_v2.pkl",
+      "sha256": "410d37fcb49b36cdb350dfe1d938a80ff5ac980c5c97c99eb8736e1d86ccd831"
+    },
+    {
+      "bytes": 929496,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_194_v2.pkl",
+      "sha256": "d4b2e868a963ac38593a34af343a73754c20e0618fcf3b047e2004be8cda0e47"
+    },
+    {
+      "bytes": 475616,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_196_v2.pkl",
+      "sha256": "b913522dd499b077c9e2e5e2c418a93c9db8791635961c2ac348e23d082434ea"
+    },
+    {
+      "bytes": 938602,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_19_v2.pkl",
+      "sha256": "5304c9be0ba7cab98cfeb410416caf3d9a6f0d0a185a49da5a17dac2df3e8673"
+    },
+    {
+      "bytes": 1058741,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_201_v2.pkl",
+      "sha256": "76fcdc617eb5f1dd600593f256c66a228bd32c2121a3dc7f8797932f338aa2a2"
+    },
+    {
+      "bytes": 353484,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_202_v2.pkl",
+      "sha256": "3181794c6a9f8be014d75bc5e37cbbbd4a2cf9bf25e3c3a724d8576a596af5dd"
+    },
+    {
+      "bytes": 634524,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_204_v2.pkl",
+      "sha256": "dabaf40f240304374a363f12ac49a979beb72f0ecd1f5d362c91e20f854673e6"
+    },
+    {
+      "bytes": 266487,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_214_v2.pkl",
+      "sha256": "3fa3c0d10f9ae83e2df4b0b3227d49294ed8ab7e3c7b75b311dc2eeea90f8160"
+    },
+    {
+      "bytes": 1268359,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_217_v2.pkl",
+      "sha256": "c1f3fd0d2a99213109a59505686b85d7b3911adb448c4af1abcb555e40c12069"
+    },
+    {
+      "bytes": 235739,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_232_v2.pkl",
+      "sha256": "43141568c2c26b8095aa6b8345de37de4bd4511c3c73cd1ccc02534d62632c6b"
+    },
+    {
+      "bytes": 370448,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_235_v2.pkl",
+      "sha256": "8c165320a6e84c32c1424599209a57ff2cd5523b4eac56f4de14f29218563631"
+    },
+    {
+      "bytes": 1193462,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_238_v2.pkl",
+      "sha256": "ac34330790067b7ddb2f711162a4c84e1952e96803ef6d5d506091240841e5a8"
+    },
+    {
+      "bytes": 581711,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_243_v2.pkl",
+      "sha256": "6027a8b13e7cf16f1399065e46c006eef4422280bdef42b8b89bd14d2eb49fd7"
+    },
+    {
+      "bytes": 1057089,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_245_v2.pkl",
+      "sha256": "af838e95d55954370df80402a6d53b4653321db8de838c59c46bf0572be71e93"
+    },
+    {
+      "bytes": 105769,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_249_v2.pkl",
+      "sha256": "108cd25c631d1b7dec28cd6f0878efda8065ecc55e7e4e964b63e2685f4c0008"
+    },
+    {
+      "bytes": 740170,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_250_v2.pkl",
+      "sha256": "8d218e9c9ef6cb143ff8c1b5b46b4b88bce1efe18d895863592bdfe419a5e107"
+    },
+    {
+      "bytes": 245582,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_255_v2.pkl",
+      "sha256": "d59300c863806f065c849bc29a2ef14edd40c040dba32a659830a3f918900452"
+    },
+    {
+      "bytes": 898628,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_262_v2.pkl",
+      "sha256": "c1992fdce296ecc037ab95c0a67967c6bcefa87d7b8679655da3a4f7b553076d"
+    },
+    {
+      "bytes": 581716,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_267_v2.pkl",
+      "sha256": "71ba4854edca5d9ec0335b777ff2c6b5f7a6e3a62b61c7a6afbdab0f01a977cd"
+    },
+    {
+      "bytes": 808067,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_269_v2.pkl",
+      "sha256": "4a0b145e89b8525ca4d87f9fcb56f3a734b83407cce5ef70431561edf7a56315"
+    },
+    {
+      "bytes": 1073557,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_26_v2.pkl",
+      "sha256": "e67d5d27617c675427c7e9fb86c82c5c9a46706ab5fb5833aecaba464720236a"
+    },
+    {
+      "bytes": 159176,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_271_v2.pkl",
+      "sha256": "c66453d46860debb06496ac135bd11a0ce71d5f61dcab15773afd8a822e9f079"
+    },
+    {
+      "bytes": 115736,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_272_v2.pkl",
+      "sha256": "f8e19affd5287c6c99d4911ed525e83e2c720d0eb6b3f5a7847347d0aa05ef67"
+    },
+    {
+      "bytes": 510631,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_275_v2.pkl",
+      "sha256": "25bdc56f2383c8386cf8357eff2b64a3ac19c19a5700e2f85480e9e509ecedf3"
+    },
+    {
+      "bytes": 468501,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_285_v2.pkl",
+      "sha256": "971857993cdc4ef9e23f771de2b451db4826d6889fb705dd932228b89532bda7"
+    },
+    {
+      "bytes": 955800,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_2_v2.pkl",
+      "sha256": "5c220e06490d8a26dbb5268c099a16e755b76ff09ff098944853f6493799f5ab"
+    },
+    {
+      "bytes": 314185,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_322_v2.pkl",
+      "sha256": "773665d17d6719f1a05092d8d7c777a87cbfcd7890a9c9dd1a3564090ae2fedc"
+    },
+    {
+      "bytes": 511097,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_335_v2.pkl",
+      "sha256": "de818788a0e21b9340bed23ac2b94f277fc3a903d3dbfa5016faca89bdd6c62e"
+    },
+    {
+      "bytes": 566766,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_341_v2.pkl",
+      "sha256": "26b02d46ac15e576111e48d6a65873460eafc421b1e4d4bb0a11cf8106ae27ce"
+    },
+    {
+      "bytes": 411164,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_343_v2.pkl",
+      "sha256": "847864bfa99a859ba6194946f604642fb2819ee828179fea157391056eeeffc9"
+    },
+    {
+      "bytes": 1020169,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_362_v2.pkl",
+      "sha256": "88ab0ff35f1078b521f66c2da795a2496ee157b55b1b0d3c3a9c6afb7f7450e4"
+    },
+    {
+      "bytes": 845806,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_363_v2.pkl",
+      "sha256": "40e42b5e78b2bba9bfa579c125ed73dfec8be6ab20bb504fb655a85af41345bf"
+    },
+    {
+      "bytes": 1057086,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_364_v2.pkl",
+      "sha256": "5c65ad4d3a212e6c4559fd980d7feeb67b2a8d7ef295f2ce2bdcd54bb8bbd802"
+    },
+    {
+      "bytes": 1318433,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_366_v2.pkl",
+      "sha256": "d2a8143111784e00971d56f4d224bed3fc8e8a9d667c7e8a825591d240254e96"
+    },
+    {
+      "bytes": 898626,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_375_v2.pkl",
+      "sha256": "1df823c765792ed68af75b00dea96643c8f8df19bdc1f7fe226c42a144ab226b"
+    },
+    {
+      "bytes": 212833,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_385_v2.pkl",
+      "sha256": "70353c2ebae8b747ab4a9ba67f60eaf9a66d413d964020c658b6155afe8534de"
+    },
+    {
+      "bytes": 476076,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_38_v2.pkl",
+      "sha256": "57a24161364d5f4c5c94a957641e9269d86dc454836117e57f318883766026d2"
+    },
+    {
+      "bytes": 370442,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_41_v2.pkl",
+      "sha256": "193b298b5d97e5bb6d3bdb23578a26aa081c01e349cca7e93666e5b613cde5ef"
+    },
+    {
+      "bytes": 796787,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_51_v2.pkl",
+      "sha256": "9b1e4195aafbc042d0bdd3a07b3a235b2bc3da4b4d6e1090a011b312dc976452"
+    },
+    {
+      "bytes": 898608,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_52_v2.pkl",
+      "sha256": "083690fc12cd26bbefebcab021c9053a2aaed1b659239d9a17d08c9967cc0f6b"
+    },
+    {
+      "bytes": 277153,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_55_v2.pkl",
+      "sha256": "a94b78c8b6a3c883688349eb0c73cb897ae582becee622b35c394e0425492425"
+    },
+    {
+      "bytes": 721772,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_57_v2.pkl",
+      "sha256": "6acc706e0c19e87ef1b42ad6c777ff6e292c25d3af99d5a32fddfa626854bd34"
+    },
+    {
+      "bytes": 617422,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_5_v2.pkl",
+      "sha256": "d4f9e932352e445550eb3517e46bc445534bdba20291c0cf1018e0fb13eff067"
+    },
+    {
+      "bytes": 792980,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_61_v2.pkl",
+      "sha256": "b8a36b97358f425b840bec6bbd83e9eea418aac6a6ae124805e6b906be283182"
+    },
+    {
+      "bytes": 775164,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_62_v2.pkl",
+      "sha256": "b2a7812e7df7ee26787ec6b36fe567c54cfd5598cc0ba73ef5295adc6681bb1a"
+    },
+    {
+      "bytes": 969346,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_63_v2.pkl",
+      "sha256": "a41546b4f6c56821f25e1065946023b3b752dc448f1c22feb0614a4b592c0ed4"
+    },
+    {
+      "bytes": 815407,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_66_v2.pkl",
+      "sha256": "f17ccccd444d28eca1a6ad811449923d2eb670eb36c389d113d237cfb2a09e82"
+    },
+    {
+      "bytes": 1093613,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_74_v2.pkl",
+      "sha256": "42d0ada9baf3a403fd4f3d038d8ce7822b5802313a52254e2910527ae10de07d"
+    },
+    {
+      "bytes": 1052916,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_78_v2.pkl",
+      "sha256": "f264463854d7787eda42f3617fbeda64c4ff1f93c4e8fa91f1f1a8b61476ddb2"
+    },
+    {
+      "bytes": 1069526,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_88_v2.pkl",
+      "sha256": "bf25c1ff204c5057615493ec5820706efa0318fc1d362db94a70fe33b53bc931"
+    },
+    {
+      "bytes": 370440,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_89_v2.pkl",
+      "sha256": "69c4741ce45c66edff17c25e08e40b49cc29d1b55392880577527b939b8283ae"
+    },
+    {
+      "bytes": 370435,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_93_v2.pkl",
+      "sha256": "ac7dfa1cf507878cc41de8ab9101b31c52ecafdb89f2816d32bbc35d4bcea375"
+    },
+    {
+      "bytes": 284277,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_out/task_94_v2.pkl",
+      "sha256": "0995a368066eddf80eb4b96fdccec73f62465a559bb4343fc16df19ceb074f19"
+    },
+    {
+      "bytes": 300537,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_103_v2.pkl",
+      "sha256": "7cb79ca52a9747cb66056c0cdc6e8e8ee2094d40b4fe1093748c607e8c780f1a"
+    },
+    {
+      "bytes": 116450,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_104_v2.pkl",
+      "sha256": "85aa62a225ae0861af23a125cfc8453ab5e935d1e8f84838165d33a8c939c79f"
+    },
+    {
+      "bytes": 106360,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_113_v2.pkl",
+      "sha256": "2560f88e4f34d8918e6f16bbbb7dfff4e00564c0e5822b38976f0fa49469d43f"
+    },
+    {
+      "bytes": 31470,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_122_v2.pkl",
+      "sha256": "74c29cb4afad45a245a11292f5cdd227f816f7ef2a1efbc2e4139460f68212bd"
+    },
+    {
+      "bytes": 158598,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_145_v2.pkl",
+      "sha256": "9969671c13418da54f1207156afb28522c6fae33e912c5c21408741cc6968e1a"
+    },
+    {
+      "bytes": 106360,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_149_v2.pkl",
+      "sha256": "47c8a492509e5ac400682cd65dee6b4e59b4302799f0743682b47c12afb75671"
+    },
+    {
+      "bytes": 264802,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_153_v2.pkl",
+      "sha256": "97954f8786c3c84ecaad0d5da1f8f11ba3b65ad24fcb2a84ce2b21f352f8d791"
+    },
+    {
+      "bytes": 317627,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_157_v2.pkl",
+      "sha256": "a4bd1ca50c30197b037279c0ee642889ecb87f7255e192a98b067fae07c0d75f"
+    },
+    {
+      "bytes": 92120,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_159_v2.pkl",
+      "sha256": "eed94bf95ceb3a88044a88e47cee7e820b28b47af502d1f0f1d2cc3b49bd0a37"
+    },
+    {
+      "bytes": 208670,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_165_v2.pkl",
+      "sha256": "9d0a77f6bf6fe7a93f2b9a4676bd1ab919cadec1bc552cc877f1de8c21f106e1"
+    },
+    {
+      "bytes": 184942,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_166_v2.pkl",
+      "sha256": "cf7172674b0d3a0410146605924dac01215d1c054f8eaa11b82bcedd774488aa"
+    },
+    {
+      "bytes": 251992,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_167_v2.pkl",
+      "sha256": "7bbdb1a0f5d563092a9c3ac1111c2f023b360b26f18e8d3b050e238bc9777ed1"
+    },
+    {
+      "bytes": 159170,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_182_v2.pkl",
+      "sha256": "ad9d69b10eee78b1bc16d49f6211a8ad1a53ba5fefbeddfb89038a4986d13bc7"
+    },
+    {
+      "bytes": 188607,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_186_v2.pkl",
+      "sha256": "45dafc998bf02c9891f2b78482d1684f1e54768a5a079f5783297f294fc7b9c9"
+    },
+    {
+      "bytes": 140803,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_194_v2.pkl",
+      "sha256": "e782370c7c0a093d8572955098e4adb97d5ae6d4be23361d37280b8f9d158764"
+    },
+    {
+      "bytes": 159179,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_196_v2.pkl",
+      "sha256": "8afc65fefcfd17e4d4b7331ca8508d0c31bbfc3ca6066ade8243dd2d5050f926"
+    },
+    {
+      "bytes": 423257,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_19_v2.pkl",
+      "sha256": "11da7d283e45f8c537b8ea62d4343a7e5c30a61b83ad5eab162c96f4c049aa6a"
+    },
+    {
+      "bytes": 228515,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_201_v2.pkl",
+      "sha256": "922fedcaf131f9706a7a846a3d043d0abadd19b473fac989ac4604b3cb6b3369"
+    },
+    {
+      "bytes": 53540,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_202_v2.pkl",
+      "sha256": "eda2f41d61ed534a222a74fc5682ae72204681eb952fb36ba5729917a1d0f9d0"
+    },
+    {
+      "bytes": 106360,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_214_v2.pkl",
+      "sha256": "fdc37a5fd3d381685d5bc976cbed8f1109bb1729b25f0b602180fa968acebc58"
+    },
+    {
+      "bytes": 106360,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_217_v2.pkl",
+      "sha256": "043b2711e54c9b77b6fba5800d514e80a99dadcda7762d61153c047bfc4eb332"
+    },
+    {
+      "bytes": 53540,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_238_v2.pkl",
+      "sha256": "7e18aeaae33f84c849e384fe16c86b71a4752fb05d3666b629c10d52097abe8e"
+    },
+    {
+      "bytes": 264817,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_243_v2.pkl",
+      "sha256": "e5f72068e708583527d26aff9e732a395fec347e17e1de67b0f41a8ae45f30cd"
+    },
+    {
+      "bytes": 159179,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_245_v2.pkl",
+      "sha256": "2f28fbd0a6e7e55247657b68919aa9add630d7570f03454e7fecd46efbb6ca5b"
+    },
+    {
+      "bytes": 73604,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_249_v2.pkl",
+      "sha256": "27f1358402808682d3be32faca7bc52cb8dbba1fa350cd3c886883475adc1e7d"
+    },
+    {
+      "bytes": 370446,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_267_v2.pkl",
+      "sha256": "588840ea894e816edb866e353895ae6afe4895c5ad3f85d8cca1603f69102d3c"
+    },
+    {
+      "bytes": 183509,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_269_v2.pkl",
+      "sha256": "781fc945da1c212958a0e7d321303fb85c18f0971240f09e93396e869b6eb792"
+    },
+    {
+      "bytes": 551788,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_271_v2.pkl",
+      "sha256": "74d25b30a60d69fea29d763a9d1eae96f7819a7a9ac86ac8224df41db9eebdf8"
+    },
+    {
+      "bytes": 42148,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_285_v2.pkl",
+      "sha256": "2241afd94c95063aa2bd776a08b2e3d19acc675392ff6f735f87419239542d39"
+    },
+    {
+      "bytes": 223610,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_2_v2.pkl",
+      "sha256": "eb431fc83bc6641ffa17b0e6f8f9db7bc15cb28723a92ef494089f0ace139b4e"
+    },
+    {
+      "bytes": 53540,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_322_v2.pkl",
+      "sha256": "66f30041bd77064c42b43920cb08edab14c2bb3bd8d6f37ec9b9f0b62e9e8a58"
+    },
+    {
+      "bytes": 167133,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_335_v2.pkl",
+      "sha256": "6ab9221c120a9269bf99613dbb4f8fd7869513b995e56b05feff33768d6495c6"
+    },
+    {
+      "bytes": 220684,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_362_v2.pkl",
+      "sha256": "06f0aa81209e5b332f871d40c83587e0a3b39c7329c544169602ab31b8101536"
+    },
+    {
+      "bytes": 106360,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_363_v2.pkl",
+      "sha256": "9c7575eb7cff7e7f1809872c7bfc1bdea2ee1e68ffcaa4566fb514cec3bbfff2"
+    },
+    {
+      "bytes": 106360,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_364_v2.pkl",
+      "sha256": "b69c987da7dbe6ab64ac39978c3afefaae12bfdc5d8d4850509bc651761ac7d7"
+    },
+    {
+      "bytes": 166421,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_366_v2.pkl",
+      "sha256": "3e3ba09b40c4b2cf3d4acbe5cfbe969507d63b480404b2d972606f6de40c086e"
+    },
+    {
+      "bytes": 207840,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_375_v2.pkl",
+      "sha256": "31847524de76957b91e0fa6175c61cc96ea554c834334d4893c6530e2bb99199"
+    },
+    {
+      "bytes": 66484,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_385_v2.pkl",
+      "sha256": "707d939caebaacfb12eaf6b6d1597468f5f7dfb25e3094e8cf314b5cab0d1532"
+    },
+    {
+      "bytes": 106358,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_38_v2.pkl",
+      "sha256": "0b1aac392897f139f256edfc33ae7b293a574a6e808e6805fe2dd422b1d439e4"
+    },
+    {
+      "bytes": 53539,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_52_v2.pkl",
+      "sha256": "db62127bc291db52f0a6065fe9a950ea74ff3b4dca66a46128b6ad623dfdee29"
+    },
+    {
+      "bytes": 259228,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_57_v2.pkl",
+      "sha256": "7e2dc1584d0ceddb1e1ce07edbc67ffd78c859cb9036146259d83f50e6e7bb67"
+    },
+    {
+      "bytes": 264807,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_5_v2.pkl",
+      "sha256": "d5fbcaac557a40b3d4dd890fd96fa32bc33aba3acb5523ca1ab3019da620befd"
+    },
+    {
+      "bytes": 106358,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_62_v2.pkl",
+      "sha256": "690447db80f3b5b77451e7ad37050bcf3a204e151c7996ac468864b2e42f59dd"
+    },
+    {
+      "bytes": 53539,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_63_v2.pkl",
+      "sha256": "d2d5c8c655c4da7822029f50e4acda611e711c0b2d11291eec93b9a04a282694"
+    },
+    {
+      "bytes": 232902,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_66_v2.pkl",
+      "sha256": "835a142e9f5e7970a5d5407836efd0da1c95874390d21a84d80a2c93506817e3"
+    },
+    {
+      "bytes": 159176,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_74_v2.pkl",
+      "sha256": "51e4881ac42c20a9613ca15a941f9c1738050e371fd81bd56986895b4dfefbf2"
+    },
+    {
+      "bytes": 314214,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_88_v2.pkl",
+      "sha256": "3c9da702f45f818139cabcc33985b97c658f0d6e7e9a455c6dd471f0905c9554"
+    },
+    {
+      "bytes": 106358,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_89_v2.pkl",
+      "sha256": "3bfe442722e80660c9e303b16bee81c0328e7fc7e37e0413c86e520357c1c08a"
+    },
+    {
+      "bytes": 106358,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_93_v2.pkl",
+      "sha256": "d0f560fe588c5ea7fb47764b2e2416db855563e34cb171c6ffc23641ec9b9e90"
+    },
+    {
+      "bytes": 189312,
+      "repo_path": "trajs/calvin/calvin_traj_ann/env_D_val_out/task_94_v2.pkl",
+      "sha256": "f1c6971568098c17727db16e6a4bef98b00f3eaa42022c3585cce893429e3ad6"
+    },
+    {
+      "bytes": 2160142328,
+      "repo_path": "training/subset_training_023.zip",
+      "sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21"
+    }
+  ]
+}

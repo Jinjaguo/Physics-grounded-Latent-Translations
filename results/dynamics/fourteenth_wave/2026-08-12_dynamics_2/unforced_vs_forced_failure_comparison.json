@@ -1,0 +1,22 @@
+{
+  "forced": {
+    "causal_robust_convergence_rate": 1.0,
+    "diagnosis": "variational_model_mismatch",
+    "ground_truth_jacobian_fraction_nearly_singular": 0.0,
+    "gt_near_convergence_rate": 1.0,
+    "nonvariational_residual_mean": 3.390260303547369,
+    "residual_vs_latent_error_spearman": 0.45582218475926817,
+    "true_residual_mean": 4.274245376086367
+  },
+  "overall_diagnosis": "variational_model_mismatch",
+  "same_mechanism": true,
+  "unforced": {
+    "causal_robust_convergence_rate": 0.0,
+    "diagnosis": "variational_model_mismatch",
+    "ground_truth_jacobian_fraction_nearly_singular": 0.0,
+    "gt_near_convergence_rate": 0.0,
+    "nonvariational_residual_mean": 1.2021267356464218,
+    "residual_vs_latent_error_spearman": 0.12446511086231911,
+    "true_residual_mean": 1.6160910830971944
+  }
+}

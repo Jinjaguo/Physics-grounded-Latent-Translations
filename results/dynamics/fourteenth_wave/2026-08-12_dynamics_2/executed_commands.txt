@@ -1,0 +1,8 @@
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_2.py --config configs/dynamics_2.yaml --stage prepare --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_2.py --config configs/dynamics_2.yaml --stage development --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_2.py --config configs/dynamics_2.yaml --stage freeze --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_2.py --config configs/dynamics_2.yaml --stage validation --device cpu
+PYTHONPATH=src:third_party/LaWM PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/pytest_results.xml
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_2.py --config configs/dynamics_2.yaml --stage finalize --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/audit_dynamics_2.py --config configs/dynamics_2.yaml
+df -h .

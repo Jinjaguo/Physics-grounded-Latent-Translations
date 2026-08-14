@@ -1,0 +1,35 @@
+{
+  "F2_initialization": "exact frozen F1 prediction",
+  "F2_refinement_iterations": 4,
+  "checkpoints": {
+    "F1_execution_mlp": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+      "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+    },
+    "F2_matched_refinement": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+      "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+    },
+    "historical_DEL_negative_baseline": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F4_decoder_geometry_del.pt",
+      "sha256": "3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9"
+    },
+    "shared_semantic_predictor": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt",
+      "sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+    }
+  },
+  "created_before_any_long_trajectory_model_metrics": true,
+  "ema_updates": 0,
+  "future_target_actions": false,
+  "model_parameter_updates": 0,
+  "representation_correct_language_checkpoints": {
+    "checkpoints/representation/seed_1810/correct_language/checkpoint_ema.pt": "a40efbf06853aac2ae31fa292f7de3038829cf9dc842edc2c83ccf961de368f7",
+    "checkpoints/representation/seed_202128/correct_language/checkpoint_ema.pt": "edc50125886b6520b8ea74f6e2ebe9ed76f074d880076d613978888a1a642ac4",
+    "checkpoints/representation/seed_2810/correct_language/checkpoint_ema.pt": "215ed9483cdaf3e9151dfcee502df96e41a7a53c506f653b149a7295064e5b07",
+    "checkpoints/representation/seed_411223/correct_language/checkpoint_ema.pt": "f553280c58df7906081ec02f4f9a5efc607837795252b6f90d8c070be2449be6",
+    "checkpoints/representation/seed_472026/correct_language/checkpoint_ema.pt": "ab42b2376fc3b5222c6c2737237b89b90d88fdb53f5470a41de6a23fe3918d34",
+    "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+  },
+  "representation_updates": 0
+}

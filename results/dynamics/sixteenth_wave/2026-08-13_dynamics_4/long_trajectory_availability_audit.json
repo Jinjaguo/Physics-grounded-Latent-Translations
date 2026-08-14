@@ -1,0 +1,2007 @@
+{
+  "annotation_sources": [
+    {
+      "annotation_count": 5124,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 34,
+      "path": "archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0"
+    },
+    {
+      "annotation_count": 1011,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 34,
+      "path": "archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf"
+    },
+    {
+      "annotation_count": 5124,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 34,
+      "path": "data/representation/calvin_task_D_D/metadata/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0"
+    },
+    {
+      "annotation_count": 1011,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 34,
+      "path": "data/representation/calvin_task_D_D/metadata/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf"
+    },
+    {
+      "annotation_count": 9,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 34,
+      "path": "third_party/calvin/dataset/calvin_debug_dataset/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08"
+    },
+    {
+      "annotation_count": 9,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 34,
+      "path": "third_party/calvin/dataset/calvin_debug_dataset/training/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08"
+    },
+    {
+      "annotation_count": 8,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 36,
+      "path": "third_party/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d"
+    },
+    {
+      "annotation_count": 8,
+      "eligible_count": 0,
+      "eligible_segments": [],
+      "maximum_frames": 65,
+      "median_frames": 65.0,
+      "minimum_frames": 36,
+      "path": "third_party/calvin/dataset/calvin_debug_dataset/validation/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d"
+    }
+  ],
+  "audit_conclusion": "No local or public-source canonical annotation spans 160 frames. The subset_training_023 metadata contains the source-wide 22,966-record ABCD training annotation table (maximum 65 frames), so later frame shards cannot contain a qualifying direct annotation; short annotations were not merged.",
+  "audit_scope": "all local auto_lang_ann.npy and sequence manifests plus completed Tier 1A, Tier 1B, and source-wide Tier 2 annotation audit",
+  "chunk_length": 16,
+  "created_at": "2026-08-13T14:29:34-04:00",
+  "eligible_existing_segment_count": 0,
+  "eligible_existing_segments": [],
+  "eligible_per_task": {
+    "lift_blue_block_slider": 0,
+    "lift_red_block_table": 0,
+    "place_in_slider": 0,
+    "push_pink_block_right": 0,
+    "turn_off_lightbulb": 0,
+    "turn_on_lightbulb": 0
+  },
+  "existing_dynamics_sequence_files": [
+    {
+      "maximum_non_overlapping_windows": 4,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/development_sequences.jsonl",
+      "sequence_count": 242
+    },
+    {
+      "maximum_non_overlapping_windows": 4,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/train_sequences.jsonl",
+      "sequence_count": 665
+    },
+    {
+      "maximum_non_overlapping_windows": 4,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/validation_sequences.jsonl",
+      "sequence_count": 179
+    }
+  ],
+  "minimum_windows": 10,
+  "open_data_sources": [
+    {
+      "action_dim": null,
+      "action_semantics": "converted 7-D delta end-effector pose + gripper",
+      "candidate_count_ge_160": 0,
+      "compatibility_status": "SCOUTING_ONLY",
+      "control_frequency": 10,
+      "coordinate_frame": "conversion-defined",
+      "downloaded_bytes": 12614629,
+      "language_annotation_type": "LeRobot per-episode tasks",
+      "length_distribution": {
+        "max": 65,
+        "median": 65.0,
+        "min": 34
+      },
+      "license": "apache-2.0",
+      "rejection_reason": "LeRobot conversion reports 10 Hz rather than the required original 30 Hz; no interpolation or repeated actions are permitted",
+      "repo_id": "CollisionCode/calvin_d_d_lerobot_v2.1",
+      "repository_file_count": 15378,
+      "revision": "437ab85fe61d38fb68ac235db9c3965a05cece18",
+      "robot": "Panda",
+      "source_name": "CALVIN D/D LeRobot mirror",
+      "task_coverage": [],
+      "temporary_bytes": 0,
+      "trajectory_count": 5124
+    },
+    {
+      "action_dim": {
+        "1": 597,
+        "9": 4239
+      },
+      "action_semantics": "RoboVerse Franka joint/finger state-style actions; observed 9-D steps, not original CALVIN 7-D rel_actions",
+      "candidate_count_ge_160": 0,
+      "compatibility_status": "REJECTED",
+      "control_frequency": null,
+      "coordinate_frame": "joint/finger coordinates in converted RoboVerse trajectories",
+      "downloaded_bytes": 215910633,
+      "language_annotation_type": "task-organized and exact ann_dict ID mapping",
+      "length_distribution": {
+        "per_file": [
+          {
+            "max": 64,
+            "median": 64.0,
+            "min": 39
+          },
+          {
+            "max": 64,
+            "median": 64.0,
+            "min": 33
+          },
+          {
+            "max": 64,
+            "median": 40.0,
+            "min": 33
+          },
+          {
+            "max": 64,
+            "median": 64.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 41.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 37.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 43.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 42.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 43.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 42
+          },
+          {
+            "max": 63,
+            "median": 52.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 46,
+            "median": 39.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 55.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 41
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 53.5,
+            "min": 44
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 42.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 34.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 39.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 39.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 46
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 43.0,
+            "min": 33
+          },
+          {
+            "max": 40,
+            "median": 37.5,
+            "min": 35
+          },
+          {
+            "max": 43,
+            "median": 37.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 42
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 41
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 43
+          },
+          {
+            "max": 43,
+            "median": 38.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 45
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 43
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 47
+          },
+          {
+            "max": 63,
+            "median": 54.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 45
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 41
+          },
+          {
+            "max": 63,
+            "median": 37.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 41.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 41.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 34.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 45,
+            "median": 38.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 46.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 39.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 45.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 38.5,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 36.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 43,
+            "median": 36.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 36.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 45.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 37.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 44
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 47
+          },
+          {
+            "max": 63,
+            "median": 44.5,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 38.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 41
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 47,
+            "median": 37.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 45.5,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 41.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 41.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 36.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 38.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 41.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 43.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 36.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 42.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 42
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 40.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 36.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 46,
+            "median": 38.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 46
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 39.5,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 45.0,
+            "min": 37
+          },
+          {
+            "max": 42,
+            "median": 38.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 38.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 41
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 47,
+            "median": 38.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 40.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 44
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 41
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 37
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 45.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 39.5,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 46.0,
+            "min": 32
+          },
+          {
+            "max": 47,
+            "median": 43.0,
+            "min": 32
+          },
+          {
+            "max": 47,
+            "median": 46.5,
+            "min": 46
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 42.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 43
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 35.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 45
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 45.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 45
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 53.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 39.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 42.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 43,
+            "median": 36.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 45
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 33.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 45.5,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 42.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 42
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 46
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 42.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 41.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 38
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 40.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 44,
+            "median": 43.0,
+            "min": 42
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 32,
+            "median": 32.0,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 39.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 53.0,
+            "min": 43
+          },
+          {
+            "max": 43,
+            "median": 37.5,
+            "min": 32
+          },
+          {
+            "max": 63,
+            "median": 53.5,
+            "min": 44
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 45
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 35.0,
+            "min": 35
+          },
+          {
+            "max": 44,
+            "median": 37.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 33
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 40,
+            "median": 40.0,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 53.0,
+            "min": 43
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 39
+          },
+          {
+            "max": 47,
+            "median": 47.0,
+            "min": 47
+          },
+          {
+            "max": 47,
+            "median": 40.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 45.0,
+            "min": 36
+          },
+          {
+            "max": 63,
+            "median": 44.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 42.5,
+            "min": 40
+          },
+          {
+            "max": 63,
+            "median": 47.0,
+            "min": 39
+          },
+          {
+            "max": 35,
+            "median": 35.0,
+            "min": 35
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 51.0,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 40.5,
+            "min": 34
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 46.0,
+            "min": 39
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 63,
+            "median": 63.0,
+            "min": 63
+          },
+          {
+            "max": 46,
+            "median": 39.0,
+            "min": 39
+          }
+        ]
+      },
+      "license": "apache-2.0",
+      "primary_candidate_count_ge_160_and_7d": 0,
+      "rejection_reason": "Per-trajectory audit found no original-compatible 7-D CALVIN rel_actions; the observed converted action steps are 9-D and the time base is not proven 30 Hz",
+      "repo_id": "RoboVerseOrg/roboverse_data",
+      "repository_file_count": 77768,
+      "revision": "fab63ccaaed54f413901f86edc3fa1ab77a96500",
+      "robot": "Franka",
+      "source_name": "RoboVerse CALVIN task trajectory mirror",
+      "task_coverage": [
+        "lift_blue_block_slider",
+        "lift_red_block_table",
+        "place_in_slider",
+        "push_pink_block_right",
+        "turn_off_lightbulb",
+        "turn_on_lightbulb"
+      ],
+      "temporary_bytes": 215955418,
+      "trajectory_count": 4836
+    },
+    {
+      "action_dim": 7,
+      "action_semantics": "original CALVIN rel_actions",
+      "candidate_count_ge_160": 0,
+      "compatibility_status": "PRIMARY_COMPATIBLE",
+      "control_frequency": 30,
+      "coordinate_frame": "CALVIN relative TCP",
+      "downloaded_bytes": 2160142328,
+      "language_annotation_type": "original auto_lang_ann.npy",
+      "length_distribution": {
+        "max": 65,
+        "median": 65.0,
+        "min": 34
+      },
+      "license": "mit",
+      "rejection_reason": null,
+      "repo_id": "VyoJ/calvin-ABCD-D-subsets",
+      "repository_file_count": 28,
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "robot": "Franka/Panda",
+      "source_name": "Original-format CALVIN ABCD subsets",
+      "subset_sequence_stopped_after_023_reason": "the shard metadata contains the source-wide annotation table; its maximum annotation span is below 160 frames",
+      "task_coverage": [
+        "lift_blue_block_slider",
+        "lift_red_block_table",
+        "place_in_slider",
+        "push_pink_block_right",
+        "turn_off_lightbulb",
+        "turn_on_lightbulb"
+      ],
+      "temporary_bytes": 2197877894,
+      "trajectory_count": 22966
+    }
+  ],
+  "raw_episode_npz_count": 4446,
+  "raw_episode_roots": [
+    "third_party/calvin/dataset/calvin_debug_dataset/training",
+    "third_party/calvin/dataset/calvin_debug_dataset/validation"
+  ],
+  "stride": 16
+}

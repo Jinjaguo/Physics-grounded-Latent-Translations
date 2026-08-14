@@ -1,0 +1,23 @@
+{
+  "conditions": {
+    "at_least_10_each_of_six_tasks": false,
+    "at_least_60_primary_compatible_segments": false,
+    "every_selected_segment_at_least_160_frames": false,
+    "every_selected_segment_supports_h8": false
+  },
+  "created_at": "2026-08-13T14:29:34-04:00",
+  "existing_segments": 0,
+  "model_metrics_authorized": false,
+  "newly_collected_segments": 0,
+  "passed": false,
+  "per_target_task_counts": {
+    "lift_blue_block_slider": 0,
+    "lift_red_block_table": 0,
+    "place_in_slider": 0,
+    "push_pink_block_right": 0,
+    "turn_off_lightbulb": 0,
+    "turn_on_lightbulb": 0
+  },
+  "required_action": "stop_and_report_insufficient_long_horizon_data",
+  "total_valid_segments": 0
+}

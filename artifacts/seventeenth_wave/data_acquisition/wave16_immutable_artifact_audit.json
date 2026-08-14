@@ -1,0 +1,33 @@
+{
+  "all_matched": true,
+  "files": [
+    {
+      "actual_sha256": "309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc",
+      "expected_sha256": "309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc",
+      "label": "selected_segments_manifest.json",
+      "matched": true,
+      "path": "artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json"
+    },
+    {
+      "actual_sha256": "54a6161f61759d8c7a9d02c6bd08ad8ec35779520464264c2fd5e4c87d62d54d",
+      "expected_sha256": "54a6161f61759d8c7a9d02c6bd08ad8ec35779520464264c2fd5e4c87d62d54d",
+      "label": "external_h12_prospective_preregistration.json",
+      "matched": true,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_prospective_preregistration.json"
+    },
+    {
+      "actual_sha256": "daead5c7bf837d987089bd82644d44a1cb8f88a9e33afcb3a6179cb5d9165817",
+      "expected_sha256": "daead5c7bf837d987089bd82644d44a1cb8f88a9e33afcb3a6179cb5d9165817",
+      "label": "external_h12_paired_trajectory_bootstrap.json",
+      "matched": true,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_paired_trajectory_bootstrap.json"
+    },
+    {
+      "actual_sha256": "25a5c68e9ca040bef90ada60cb6cfe632a828a16805f50efd4dfb31c62eacf6b",
+      "expected_sha256": "25a5c68e9ca040bef90ada60cb6cfe632a828a16805f50efd4dfb31c62eacf6b",
+      "label": "wave16_external_h12_claim_decision.json",
+      "matched": true,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/wave16_external_h12_claim_decision.json"
+    }
+  ]
+}

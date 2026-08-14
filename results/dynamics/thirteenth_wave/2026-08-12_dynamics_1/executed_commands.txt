@@ -1,0 +1,19 @@
+# Formal experimental commands, in execution order. Failed pre-test attempts are retained.
+PYTHONPATH=src:third_party/LaWM PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage prepare --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage validate_solver --device cpu
+# exit=1 before any checkpoint/test metric: development target index bug
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage train --device cpu
+# exit=1 before any checkpoint/test metric: NumPy tuple dimension bug
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage train --device cpu
+# exit=0; then repeated deterministically before final freeze solely to correct parameter-count bookkeeping
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage train --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage freeze --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage train --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage freeze --device cpu
+# The only official-validation model-metric evaluation.
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage evaluate --device cpu
+PYTHONPATH=src:third_party/LaWM PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/pytest_results.xml
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_1.py --config configs/dynamics_1.yaml --stage finalize --device cpu
+PYTHONPATH=src:third_party/LaWM /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/audit_dynamics_1.py --config configs/dynamics_1.yaml
+du -sh . results/dynamics/thirteenth_wave/2026-08-12_dynamics_1

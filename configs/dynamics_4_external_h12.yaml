@@ -1,0 +1,92 @@
+experiment:
+  name: dynamics_4_external_h12
+  wave: sixteenth_wave
+  amendment: post_audit_public_H1_H2_external_replication
+  seed: 160412
+  output_root: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12
+  acquisition_root: artifacts/sixteenth_wave/external_h12
+  report_path: reports/dynamics_4_external_h12_results.md
+
+source:
+  repo_id: VyoJ/calvin-ABCD-D-subsets
+  subset_order:
+    - training/subset_training_023.zip
+    - training/subset_training_000.zip
+    - training/subset_training_001.zip
+    - training/subset_training_002.zip
+    - training/subset_training_003.zip
+    - training/subset_training_004.zip
+    - training/subset_training_005.zip
+    - training/subset_training_006.zip
+    - training/subset_training_007.zip
+    - training/subset_training_008.zip
+    - training/subset_training_009.zip
+    - training/subset_training_010.zip
+    - training/subset_training_011.zip
+    - training/subset_training_012.zip
+    - training/subset_training_013.zip
+    - training/subset_training_014.zip
+    - training/subset_training_015.zip
+    - training/subset_training_016.zip
+    - training/subset_training_017.zip
+    - training/subset_training_018.zip
+    - training/subset_training_019.zip
+    - training/subset_training_020.zip
+    - training/subset_training_021.zip
+    - training/subset_training_022.zip
+
+representation:
+  config: configs/representation.yaml
+  checkpoint_manifest: checkpoints/representation/manifest.json
+  expected_seed_base: 810
+  expected_condition: correct_language
+  text_feature_archive: data/representation/text_features/openclip_vitl14_datacomp_xl.npz
+
+data:
+  staging_root: .staging/sixteenth_wave/external_h12
+  candidate_cache: artifacts/sixteenth_wave/external_h12/candidate_cache
+  candidate_manifest: artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json
+  external_latents: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_frozen_latents.npz
+  external_sequences: results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_sequences.jsonl
+  wave15_frozen_latents: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz
+  wave15_train_sequences: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/train_sequences.jsonl
+  wave15_training_selection: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/training_and_development_selection.json
+  wave15_off_manifold_thresholds: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/off_manifold_thresholds.json
+  chunk_length: 16
+  stride: 16
+  control_frequency_hz: 30
+  minimum_frames: 64
+  windows_per_segment: 4
+  segments_per_task: 10
+  minimum_segments_total: 60
+  tasks:
+    - lift_blue_block_slider
+    - lift_red_block_table
+    - place_in_slider
+    - push_pink_block_right
+    - turn_off_lightbulb
+    - turn_on_lightbulb
+
+models:
+  semantic_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt
+  f1_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt
+  f2_checkpoint: results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt
+  context_dim: 16
+  hidden_dim: 64
+  depth: 3
+  refinement_iterations: 4
+  refinement_step_size: 0.01
+
+evaluation:
+  horizons: [1, 2]
+  bootstrap_replicates: 10000
+  bootstrap_seed: 160412
+  knn_k: 5
+  off_manifold_quantile: 0.99
+  local_pca_variance_fraction: 0.9
+
+storage:
+  minimum_free_bytes: 200000000000
+  planned_largest_subset_bytes: 30000000000
+  planned_selective_extraction_bytes: 2000000000
+  maximum_project_gb: 20

@@ -1,0 +1,17 @@
+{
+  "H1_rollout_starts": 120,
+  "H2_rollout_starts": 60,
+  "H4_H8_run": false,
+  "H4_rollout_starts": 0,
+  "H8_rollout_starts": 0,
+  "per_task": {
+    "lift_blue_block_slider": 10,
+    "lift_red_block_table": 10,
+    "place_in_slider": 10,
+    "push_pink_block_right": 10,
+    "turn_off_lightbulb": 10,
+    "turn_on_lightbulb": 10
+  },
+  "segments": 60,
+  "windows_per_segment": 4
+}

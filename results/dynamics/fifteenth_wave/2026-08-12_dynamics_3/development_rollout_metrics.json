@@ -1,0 +1,487 @@
+{
+  "models": {
+    "F1_execution_mlp": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.026034006848931313,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.8611878453038674,
+            "per_action_dimension_error": [
+              0.03047080524265766,
+              0.020582733675837517,
+              0.027443811297416687,
+              0.02057153731584549,
+              0.020900651812553406,
+              0.036234501749277115,
+              0.1388121546961326
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.37197136878967285,
+            "cosine_similarity": 0.6280286312103271,
+            "mse": 0.7682926654815674
+          },
+          "full_latent": {
+            "execution_mse": 0.7682926654815674,
+            "mse": 0.6109921932220459,
+            "semantic_mse": 0.45369160175323486
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.0,
+            "execution_ground_truth_knn_radius": 1.6985787153244019,
+            "execution_knn_radius": 2.2385544776916504,
+            "execution_knn_radius_ratio_to_ground_truth": 1.3178985804400132,
+            "execution_nearest_training_distance": 2.014347553253174,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.0,
+            "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+            "full_latent_knn_radius": 3.0934624671936035,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "runtime": {
+            "seconds_per_rollout_start": 5.417600276342148e-05,
+            "wall_clock_seconds": 0.019611713000358577
+          },
+          "sample_count": 362,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.5911602209944752,
+            "semantic_cosine_to_task_prototype": 0.27333971858024597
+          },
+          "supported": true
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.03194214031100273,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.884375,
+            "per_action_dimension_error": [
+              0.038685478270053864,
+              0.03394356369972229,
+              0.03848499804735184,
+              0.016750581562519073,
+              0.02719644457101822,
+              0.0365917906165123,
+              0.115625
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.3881104290485382,
+            "cosine_similarity": 0.6118895411491394,
+            "mse": 0.7273793816566467
+          },
+          "full_latent": {
+            "execution_mse": 0.7273793816566467,
+            "mse": 0.6395578980445862,
+            "semantic_mse": 0.5517364144325256
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.0,
+            "execution_ground_truth_knn_radius": 1.583281397819519,
+            "execution_knn_radius": 1.8872849941253662,
+            "execution_knn_radius_ratio_to_ground_truth": 1.1920085694965648,
+            "execution_nearest_training_distance": 1.700677514076233,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.0,
+            "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+            "full_latent_knn_radius": 2.8405213356018066,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "runtime": {
+            "seconds_per_rollout_start": 0.00014150671666660248,
+            "wall_clock_seconds": 0.02547120899998845
+          },
+          "sample_count": 180,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.4,
+            "semantic_cosine_to_task_prototype": 0.23062404990196228
+          },
+          "supported": true
+        }
+      },
+      "model": "F1_execution_mlp",
+      "normalized_execution_rollout_auc": 0.7139115957741845
+    },
+    "F2_matched_refinement": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.023529624566435814,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.861360497237569,
+            "per_action_dimension_error": [
+              0.027149014174938202,
+              0.019603118300437927,
+              0.025733428075909615,
+              0.016826990991830826,
+              0.01945623941719532,
+              0.032408956438302994,
+              0.13863950276243095
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.33537712693214417,
+            "cosine_similarity": 0.6646228432655334,
+            "mse": 0.688568115234375
+          },
+          "full_latent": {
+            "execution_mse": 0.688568115234375,
+            "mse": 0.5711298584938049,
+            "semantic_mse": 0.45369160175323486
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.0,
+            "execution_ground_truth_knn_radius": 1.6985787153244019,
+            "execution_knn_radius": 2.1030871868133545,
+            "execution_knn_radius_ratio_to_ground_truth": 1.2381452609993984,
+            "execution_nearest_training_distance": 1.8790526390075684,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.0,
+            "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+            "full_latent_knn_radius": 2.9858179092407227,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "runtime": {
+            "seconds_per_rollout_start": 0.0007350352734810765,
+            "wall_clock_seconds": 0.2660827690001497
+          },
+          "sample_count": 362,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.5911602209944752,
+            "semantic_cosine_to_task_prototype": 0.27333971858024597
+          },
+          "solver": {
+            "iterations": 4.0,
+            "nonfinite_rate": 0.0
+          },
+          "supported": true
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.028771504759788513,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.8944444444444445,
+            "per_action_dimension_error": [
+              0.03371946141123772,
+              0.031964261084795,
+              0.03725946694612503,
+              0.013141011819243431,
+              0.025357332080602646,
+              0.03118748590350151,
+              0.10555555555555556
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.32755428552627563,
+            "cosine_similarity": 0.6724456548690796,
+            "mse": 0.6132118105888367
+          },
+          "full_latent": {
+            "execution_mse": 0.6132118105888367,
+            "mse": 0.5824741125106812,
+            "semantic_mse": 0.5517364144325256
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.0,
+            "execution_ground_truth_knn_radius": 1.583281397819519,
+            "execution_knn_radius": 1.6666388511657715,
+            "execution_knn_radius_ratio_to_ground_truth": 1.0526485395843415,
+            "execution_nearest_training_distance": 1.4975011348724365,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.0,
+            "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+            "full_latent_knn_radius": 2.672046661376953,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "runtime": {
+            "seconds_per_rollout_start": 0.001460329255554724,
+            "wall_clock_seconds": 0.2628592659998503
+          },
+          "sample_count": 180,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.4,
+            "semantic_cosine_to_task_prototype": 0.23062404990196228
+          },
+          "solver": {
+            "iterations": 4.0,
+            "nonfinite_rate": 0.0
+          },
+          "supported": true
+        }
+      },
+      "model": "F2_matched_refinement",
+      "normalized_execution_rollout_auc": 0.6213633436350284
+    },
+    "F3_free_execution_del": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.04234597459435463,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.742921270718232,
+            "per_action_dimension_error": [
+              0.05183844640851021,
+              0.030113209038972855,
+              0.04500565677881241,
+              0.033477481454610825,
+              0.03887271508574486,
+              0.05476832017302513,
+              0.25707872928176795
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.6037595272064209,
+            "cosine_similarity": 0.3962404429912567,
+            "mse": 1.6356562376022339
+          },
+          "full_latent": {
+            "execution_mse": 1.6356562376022339,
+            "mse": 1.0446738004684448,
+            "semantic_mse": 0.45369160175323486
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.1850828729281768,
+            "execution_ground_truth_knn_radius": 1.6985787153244019,
+            "execution_knn_radius": 3.617555618286133,
+            "execution_knn_radius_ratio_to_ground_truth": 2.12975447393101,
+            "execution_nearest_training_distance": 3.313283681869507,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.04143646408839779,
+            "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+            "full_latent_knn_radius": 4.373908519744873,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "runtime": {
+            "seconds_per_rollout_start": 0.003261507171270514,
+            "wall_clock_seconds": 1.1806655959999262
+          },
+          "sample_count": 362,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.5911602209944752,
+            "semantic_cosine_to_task_prototype": 0.27333971858024597
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "iterations": 4.0,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 0.12575891508993522
+          },
+          "supported": true
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.05882042646408081,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.7392361111111111,
+            "per_action_dimension_error": [
+              0.07906381040811539,
+              0.05852852761745453,
+              0.06785757094621658,
+              0.0370049811899662,
+              0.05496220663189888,
+              0.05550548806786537,
+              0.2607638888888889
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.7584015130996704,
+            "cosine_similarity": 0.24159851670265198,
+            "mse": 2.095496892929077
+          },
+          "full_latent": {
+            "execution_mse": 2.095496892929077,
+            "mse": 1.3236167430877686,
+            "semantic_mse": 0.5517364144325256
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.24444444444444444,
+            "execution_ground_truth_knn_radius": 1.583281397819519,
+            "execution_knn_radius": 3.772804021835327,
+            "execution_knn_radius_ratio_to_ground_truth": 2.3829017551972753,
+            "execution_nearest_training_distance": 3.453974723815918,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.08333333333333333,
+            "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+            "full_latent_knn_radius": 4.58482027053833,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "runtime": {
+            "seconds_per_rollout_start": 0.006427862616667173,
+            "wall_clock_seconds": 1.1570152710000912
+          },
+          "sample_count": 180,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.4,
+            "semantic_cosine_to_task_prototype": 0.23062404990196228
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "iterations": 4.0,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 0.12151677465687195
+          },
+          "supported": true
+        }
+      },
+      "model": "F3_free_execution_del",
+      "normalized_execution_rollout_auc": 1.7809475617279489
+    },
+    "F4_decoder_geometry_del": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.026201581582427025,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.8582527624309392,
+            "per_action_dimension_error": [
+              0.03093411773443222,
+              0.020186297595500946,
+              0.02764013223350048,
+              0.02065516822040081,
+              0.02108418010175228,
+              0.03670959174633026,
+              0.14174723756906077
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.37623971700668335,
+            "cosine_similarity": 0.6237602233886719,
+            "mse": 0.7804055213928223
+          },
+          "full_latent": {
+            "execution_mse": 0.7804055213928223,
+            "mse": 0.6170485615730286,
+            "semantic_mse": 0.45369160175323486
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.0,
+            "execution_ground_truth_knn_radius": 1.6985787153244019,
+            "execution_knn_radius": 2.2618417739868164,
+            "execution_knn_radius_ratio_to_ground_truth": 1.3316084521610412,
+            "execution_nearest_training_distance": 2.0342416763305664,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.0,
+            "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+            "full_latent_knn_radius": 3.110846519470215,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "runtime": {
+            "seconds_per_rollout_start": 0.01419554252486288,
+            "wall_clock_seconds": 5.138786394000363
+          },
+          "sample_count": 362,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.5911602209944752,
+            "semantic_cosine_to_task_prototype": 0.27333971858024597
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "iterations": 4.0,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 2713.0843410175808
+          },
+          "supported": true
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.03222925588488579,
+            "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+            "gripper_accuracy": 0.8777777777777778,
+            "per_action_dimension_error": [
+              0.03947083652019501,
+              0.03418869525194168,
+              0.038916025310754776,
+              0.016912473365664482,
+              0.02723698318004608,
+              0.03665055334568024,
+              0.12222222222222222
+            ]
+          },
+          "execution_state": {
+            "cosine_error": 0.3981764018535614,
+            "cosine_similarity": 0.6018235683441162,
+            "mse": 0.7488197088241577
+          },
+          "full_latent": {
+            "execution_mse": 0.7488197088241577,
+            "mse": 0.6502780318260193,
+            "semantic_mse": 0.5517364144325256
+          },
+          "off_manifold": {
+            "execution_fraction_beyond_train_quantile": 0.0,
+            "execution_ground_truth_knn_radius": 1.583281397819519,
+            "execution_knn_radius": 1.9271548986434937,
+            "execution_knn_radius_ratio_to_ground_truth": 1.217190387822123,
+            "execution_nearest_training_distance": 1.737752914428711,
+            "execution_threshold": 4.259240455627441,
+            "full_latent_fraction_beyond_train_quantile": 0.0,
+            "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+            "full_latent_knn_radius": 2.875636577606201,
+            "full_threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "runtime": {
+            "seconds_per_rollout_start": 0.029004246111111975,
+            "wall_clock_seconds": 5.220764300000155
+          },
+          "sample_count": 180,
+          "semantic_retention": {
+            "predicted_latent_to_text_retrieval_accuracy": 0.4,
+            "semantic_cosine_to_task_prototype": 0.23062404990196228
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "iterations": 4.0,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 1867.5013927671644
+          },
+          "supported": true
+        }
+      },
+      "model": "F4_decoder_geometry_del",
+      "normalized_execution_rollout_auc": 0.7299271431135215
+    }
+  },
+  "primary_ranking": [
+    {
+      "model": "F2_matched_refinement",
+      "normalized_execution_rollout_auc": 0.6213633436350284
+    },
+    {
+      "model": "F1_execution_mlp",
+      "normalized_execution_rollout_auc": 0.7139115957741845
+    },
+    {
+      "model": "F4_decoder_geometry_del",
+      "normalized_execution_rollout_auc": 0.7299271431135215
+    },
+    {
+      "model": "F3_free_execution_del",
+      "normalized_execution_rollout_auc": 1.7809475617279489
+    }
+  ],
+  "split": "development"
+}

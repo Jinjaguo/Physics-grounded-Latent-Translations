@@ -1,0 +1,74 @@
+{
+  "ORACLE_FUTURE_ACTION_DIAGNOSTIC": {
+    "class": "OracleFutureMLPTransition",
+    "information_fields": [
+      "q_previous",
+      "q_current",
+      "context",
+      "future_target_actions_ORACLE"
+    ],
+    "trainable_parameters": 18592
+  },
+  "constant_velocity": {
+    "class": "ConstantVelocityBaseline",
+    "information_fields": [
+      "q_previous",
+      "q_current"
+    ],
+    "trainable_parameters": 0
+  },
+  "copy": {
+    "class": "CopyBaseline",
+    "information_fields": [
+      "q_current"
+    ],
+    "trainable_parameters": 0
+  },
+  "forced_del": {
+    "class": "DELTransition",
+    "information_fields": [
+      "q_previous",
+      "q_current",
+      "context",
+      "causal_history_packet"
+    ],
+    "trainable_parameters": 28609
+  },
+  "history_mlp": {
+    "class": "HistoryMLPTransition",
+    "information_fields": [
+      "q_previous",
+      "q_current",
+      "context",
+      "causal_history_packet"
+    ],
+    "trainable_parameters": 18592
+  },
+  "matched_refinement": {
+    "class": "GenericRefinementTransition",
+    "information_fields": [
+      "q_previous",
+      "q_current",
+      "context"
+    ],
+    "trainable_parameters": 11457
+  },
+  "mlp": {
+    "class": "MLPTransition",
+    "information_fields": [
+      "q_previous",
+      "q_current",
+      "context"
+    ],
+    "trainable_parameters": 11424
+  },
+  "unforced_del": {
+    "class": "DELTransition",
+    "information_fields": [
+      "q_previous",
+      "q_current",
+      "context"
+    ],
+    "trainable_parameters": 10017
+  }
+}

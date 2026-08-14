@@ -1,0 +1,32 @@
+[
+  {
+    "seed_base": 810,
+    "text_to_action": 0.8261959006601864,
+    "action_to_text": 0.6869963303891875
+  },
+  {
+    "seed_base": 1810,
+    "text_to_action": 0.8231583231583232,
+    "action_to_text": 0.7799752826538542
+  },
+  {
+    "seed_base": 2810,
+    "text_to_action": 0.800113702435131,
+    "action_to_text": 0.6628656925085495
+  },
+  {
+    "seed_base": 202128,
+    "text_to_action": 0.6654817536960396,
+    "action_to_text": 0.6186214182642754
+  },
+  {
+    "seed_base": 411223,
+    "text_to_action": 0.9488498075998075,
+    "action_to_text": 0.7227541770398914
+  },
+  {
+    "seed_base": 472026,
+    "text_to_action": 0.8434649015006157,
+    "action_to_text": 0.7319948569948569
+  }
+]

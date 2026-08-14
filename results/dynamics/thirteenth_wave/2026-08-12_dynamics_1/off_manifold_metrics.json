@@ -1,0 +1,170 @@
+{
+  "ORACLE_FUTURE_ACTION_DIAGNOSTIC": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 2.818202257156372,
+      "knn_radius_ratio_to_ground_truth": 1.0950799488053422,
+      "nearest_training_latent_distance": 2.4979610443115234,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 2.9410486221313477,
+      "knn_radius_ratio_to_ground_truth": 1.1975956540497468,
+      "nearest_training_latent_distance": 2.612715244293213,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "constant_velocity": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.7188755020080321,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 7.867153167724609,
+      "knn_radius_ratio_to_ground_truth": 3.0569706862872708,
+      "nearest_training_latent_distance": 7.444814682006836,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 1.0,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 14.721353530883789,
+      "knn_radius_ratio_to_ground_truth": 5.99453843695378,
+      "nearest_training_latent_distance": 14.241734504699707,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "copy": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 2.8920772075653076,
+      "knn_radius_ratio_to_ground_truth": 1.1237858291964264,
+      "nearest_training_latent_distance": 2.4417600631713867,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 3.1442363262176514,
+      "knn_radius_ratio_to_ground_truth": 1.280333732413701,
+      "nearest_training_latent_distance": 2.689763307571411,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "forced_del": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.028112449799196786,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 4.275365352630615,
+      "knn_radius_ratio_to_ground_truth": 1.6612955509470688,
+      "nearest_training_latent_distance": 3.995797634124756,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.1951219512195122,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 5.683175563812256,
+      "knn_radius_ratio_to_ground_truth": 2.3141903555103185,
+      "nearest_training_latent_distance": 5.400802135467529,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "history_mlp": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 3.2091751098632812,
+      "knn_radius_ratio_to_ground_truth": 1.2470018097858135,
+      "nearest_training_latent_distance": 2.941351890563965,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 3.302748680114746,
+      "knn_radius_ratio_to_ground_truth": 1.3448799982291861,
+      "nearest_training_latent_distance": 3.0324716567993164,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "matched_refinement": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 3.1324470043182373,
+      "knn_radius_ratio_to_ground_truth": 1.2171872676681093,
+      "nearest_training_latent_distance": 2.877255916595459,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 2.83271861076355,
+      "knn_radius_ratio_to_ground_truth": 1.1534836492902958,
+      "nearest_training_latent_distance": 2.5799620151519775,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "mlp": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 3.2605788707733154,
+      "knn_radius_ratio_to_ground_truth": 1.2669759715844635,
+      "nearest_training_latent_distance": 2.988302230834961,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.0,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 3.084264039993286,
+      "knn_radius_ratio_to_ground_truth": 1.2559130041043274,
+      "nearest_training_latent_distance": 2.838465690612793,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  },
+  "unforced_del": {
+    "1": {
+      "fraction_beyond_preregistered_train_quantile": 0.12449799196787148,
+      "ground_truth_heldout_knn_radius": 2.5735127925872803,
+      "knn_radius": 5.291259288787842,
+      "knn_radius_ratio_to_ground_truth": 2.0560454581880188,
+      "nearest_training_latent_distance": 4.9711689949035645,
+      "threshold": 6.576994800567626
+    },
+    "16": {},
+    "2": {
+      "fraction_beyond_preregistered_train_quantile": 0.44715447154471544,
+      "ground_truth_heldout_knn_radius": 2.455794334411621,
+      "knn_radius": 6.9969482421875,
+      "knn_radius_ratio_to_ground_truth": 2.849158882787261,
+      "nearest_training_latent_distance": 6.720707893371582,
+      "threshold": 6.576994800567626
+    },
+    "4": {},
+    "8": {}
+  }
+}

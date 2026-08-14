@@ -1,0 +1,18 @@
+{
+  "C1_language_addressable_action_coordinate": "SUPPORTED",
+  "C2_executable_continuous_action_coordinate": "SUPPORTED",
+  "C3a_full_latent_useful_DEL_dynamics": "REJECTED",
+  "C3b_executable_decoder_grounded_variational_dynamics": "REJECTED",
+  "C3c_generic_structured_refinement": "SUPPORTED",
+  "created_at": "2026-08-12T22:23:37-04:00",
+  "development_hard_gate_passed": false,
+  "exact_defensible_paper_story": "Language defines meaningful action coordinates; structured refinement keeps learned transitions near executable regions.",
+  "exact_defensible_paper_story_chinese": "\u8bed\u8a00\u5b9a\u4e49\u6709\u610f\u4e49\u4e14\u53ef\u6267\u884c\u7684\u52a8\u4f5c\u5750\u6807\uff1b\u901a\u7528\u7ed3\u6784\u5316 refinement \u6539\u5584\u5c40\u90e8\u8f6c\u79fb\uff0c\u800c DEL \u4ec5\u4fdd\u7559\u4e3a\u8d1f\u673a\u5236\u57fa\u7ebf\u3002",
+  "models_to_carry_forward": [
+    "F1_execution_mlp",
+    "F2_matched_refinement",
+    "historical_DEL_negative_baseline"
+  ],
+  "next_wave_expose_longer_trajectories": true,
+  "official_validation_direction_agrees_for_F4": false
+}

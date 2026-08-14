@@ -1,0 +1,15 @@
+{
+  "C1": "SUPPORTED",
+  "C2": "SUPPORTED",
+  "C3a_full_DEL": "REJECTED",
+  "C3b_exec_DEL": "REJECTED",
+  "C3c_local_refinement": "STRENGTHENED_BY_INDEPENDENT_PUBLIC_EXTERNAL_REPLICATION",
+  "C3c_long_refinement": "NOT_TESTED; amended wave-16 evaluated H1/H2 only",
+  "C3d_empirical_manifold_restoration": "NOT_CLAIMED_FROM_H1_H2_REPLICATION",
+  "H4_H8_run": false,
+  "created_at": "2026-08-13T15:11:31-04:00",
+  "evaluated_horizons": [
+    1,
+    2
+  ]
+}

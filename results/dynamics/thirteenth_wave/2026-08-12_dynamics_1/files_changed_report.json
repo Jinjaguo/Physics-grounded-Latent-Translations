@@ -1,0 +1,249 @@
+{
+  "created_or_modified_files": [
+    {
+      "bytes": 287,
+      "path": "NEXT_EXPERIMENT.md",
+      "sha256": "499757ee48e1a88c8a58c248882575a2bb1bef2319db5f6a74450ec6cab6c48d"
+    },
+    {
+      "bytes": 338,
+      "path": "RESEARCH_LOG.md",
+      "sha256": "a7cb6914c322a372701c967b452fc40c348cff0ceab272547408fcc5d8063fa8"
+    },
+    {
+      "bytes": 1963,
+      "path": "configs/dynamics_1.yaml",
+      "sha256": "91348e07218b25764fc0b1350d34013254415c7a521759d0b6fdf64306fb5d5e"
+    },
+    {
+      "bytes": 560,
+      "path": "pyproject.toml",
+      "sha256": "77a72b5886bd8b61710af49019c4e4f6b0d4923d85fa284f7b9d8093a809b6e4"
+    },
+    {
+      "bytes": 7498,
+      "path": "reports/dynamics_1_results.md",
+      "sha256": "3dd12b5ec4c02b2d034eaf306b83f6cdff761c78954c9865e8e7b9df95a6b61d"
+    },
+    {
+      "bytes": 606,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/causal_information_set_audit.json",
+      "sha256": "ffc8a5d03c38fdf5d0f18cb5f091d8f068304e49a8e10dac9aa938698351fc58"
+    },
+    {
+      "bytes": 77560,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/checkpoints/ORACLE_FUTURE_ACTION_DIAGNOSTIC.pt",
+      "sha256": "74d769acf60192641c6ae852eda2683498639e1a7c448c97757ce75fdfebb49b"
+    },
+    {
+      "bytes": 121314,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/checkpoints/forced_del.pt",
+      "sha256": "b99860b36411491ce1665544bec76b8df88b478af89473cd842259bc6f812ca4"
+    },
+    {
+      "bytes": 77232,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/checkpoints/history_mlp.pt",
+      "sha256": "7be774d7459a864346f317472bd07af4ee98f1cd44358a3daa0d0810098f143b"
+    },
+    {
+      "bytes": 96546,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/checkpoints/matched_refinement.pt",
+      "sha256": "923cf84d8321540592f09f6ded35b5c1d7bb85256bbdc779dcfbb5033c8b9781"
+    },
+    {
+      "bytes": 48096,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/checkpoints/mlp.pt",
+      "sha256": "3e8b73cd5f74bbf7ffb9ba11dcc32bef737526955aa16d3a23f84f7dd03e0c11"
+    },
+    {
+      "bytes": 45186,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/checkpoints/unforced_del.pt",
+      "sha256": "1a91f5f69c2209319fa4ab6d10032a3374a5dc4a9419ef9d81bbaa96eec5cf90"
+    },
+    {
+      "bytes": 7655,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/decoded_action_metrics.json",
+      "sha256": "46ac5885b328611373c696695bc72ea9a4a76009418218bbd60bc8fe4b7e427b"
+    },
+    {
+      "bytes": 1322,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/del_residual_stability_report.json",
+      "sha256": "0b92a716f262b2b1ffc2506ee0c5c553417131390ef0aaceee14bd99ef7085e1"
+    },
+    {
+      "bytes": 33080,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/development_evaluation.json",
+      "sha256": "dfeb37c8963115a0a41b232d1bb32aab79bdb22c5edf4aa40cc364b99dcfc3fd"
+    },
+    {
+      "bytes": 116281,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/development_sequences.jsonl",
+      "sha256": "b3c5a8e098abac3669c9633e844693380dbf57ea6eaece29d7526402de4e16c5"
+    },
+    {
+      "bytes": 1893,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_confirmation_manifest.json",
+      "sha256": "b67b7d49cdba41a01bc00ae0643a54e6a30ba7ac7b319fd59c84824c9c2aad47"
+    },
+    {
+      "bytes": 522385,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_dataset_audit.jsonl",
+      "sha256": "0ac378f7367ab481cb826facbdf3b6c8a7aa36b5e18700f073857588b7eda468"
+    },
+    {
+      "bytes": 2063,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_dataset_audit_summary.json",
+      "sha256": "82539c85c50fcab3329f714bff8d7c6ed867badbee768d00dee5145403d2e450"
+    },
+    {
+      "bytes": 3697,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_split_preregistration.json",
+      "sha256": "d1d87e6405f4dea4fba3f0307ec45a7269b56c0f5e631d043fdc2a0011431d5f"
+    },
+    {
+      "bytes": 734,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/environment_provenance.json",
+      "sha256": "fe91684ebb0e5d44e6641d6e9603fb58edde57dca7687ea0eb462ad99024f431"
+    },
+    {
+      "bytes": 2791,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/executed_commands.txt",
+      "sha256": "9b446b424749b45b4580a92407c1959c47037ec140a76e9387fa2c63d32c4238"
+    },
+    {
+      "bytes": 588,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latent_serialization_manifest.json",
+      "sha256": "93cc66330f5cba36c18c2095c32b28f44c6d22acf73811c8f02a593a5c5babba"
+    },
+    {
+      "bytes": 3230091,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz",
+      "sha256": "5b60d23d049de2269343093975d819b05ea4280b1a1ed2d8fc95db3f3befdb3a"
+    },
+    {
+      "bytes": 33023,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/held_out_dynamics_evaluation.json",
+      "sha256": "7e1a3c82208ec03aa51c160d570c49c3231c2cc69561cc1a09680096c07e8e5c"
+    },
+    {
+      "bytes": 1526,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/model_specs_and_parameter_counts.json",
+      "sha256": "af44d094d891fa0ed307313f7511265227ff0e65040f5cdd2229183a7c55261f"
+    },
+    {
+      "bytes": 5994,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/off_manifold_metrics.json",
+      "sha256": "4ab1d779b36a868b7ce1f6c3f113f4e530312f6688d2690d4c97c1dd4497e486"
+    },
+    {
+      "bytes": 103,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/off_manifold_threshold.json",
+      "sha256": "fec76b3ea0f1be451bc17e5da1b5ac97554b8e856b71413e169c2ac49715a299"
+    },
+    {
+      "bytes": 3717,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/oracle_future_action_diagnostic.json",
+      "sha256": "b9de4e0ccf2f3ca29ce5c5fba177a11ad8fcaf800fa551afb5716c152159a7aa"
+    },
+    {
+      "bytes": 2797,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/pytest_results.xml",
+      "sha256": "6312941600db8884225876fc77a0744c6020a95ce1826203562ebf6893ac69a5"
+    },
+    {
+      "bytes": 2104,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/representation_checkpoint_hash_audit.json",
+      "sha256": "4ce471f1324ddb1a222316fcf1d92eaee40e956b56b16f99c2f0cfa8a6156cad"
+    },
+    {
+      "bytes": 4967,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/rollout_error_vs_horizon_tables.json",
+      "sha256": "74d15a2fed08ffdc992d22597a3c4303456851afc452cbae78a11765e1080067"
+    },
+    {
+      "bytes": 3952,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/semantic_retention_tables.json",
+      "sha256": "c6127376750158fa48f8abd298a74b03ba5a246eee317e419f9db205b1281d58"
+    },
+    {
+      "bytes": 2527,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/solver_numerical_validation_report.json",
+      "sha256": "6ba2de3012a89217a6c9ff9a66520cfa59f5182110752d571dc53708e208800b"
+    },
+    {
+      "bytes": 38661,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/task_boundary_diagnostic.json",
+      "sha256": "054013720f4d2008863702905e6ceb6d8540c2331eb7afc4faccd3c2d7901a01"
+    },
+    {
+      "bytes": 287,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/thirteenth_wave_next_experiment.md",
+      "sha256": "499757ee48e1a88c8a58c248882575a2bb1bef2319db5f6a74450ec6cab6c48d"
+    },
+    {
+      "bytes": 7498,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/thirteenth_wave_results.md",
+      "sha256": "3dd12b5ec4c02b2d034eaf306b83f6cdff761c78954c9865e8e7b9df95a6b61d"
+    },
+    {
+      "bytes": 320802,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/train_sequences.jsonl",
+      "sha256": "e9d420af001294d78345a58dec390abbf90cd4139e25ec843279889ccc957e78"
+    },
+    {
+      "bytes": 33625,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/training_and_development_selection.json",
+      "sha256": "8bfeddf30c4ac54aaa4b4514751f7b0a4cf552ea0dbeabc9d409edaf507e2a23"
+    },
+    {
+      "bytes": 1814,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/validation_compact_provenance_audit.json",
+      "sha256": "0436c9ffcc4b3d1225e8347c32c5c8f768bbde37b802c7f619201f51d44912fe"
+    },
+    {
+      "bytes": 85302,
+      "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/validation_sequences.jsonl",
+      "sha256": "17a806aecab76472174379b8c96a450bf3e7486bb3ed2a15de63dec1bc9ebc44"
+    },
+    {
+      "bytes": 6865,
+      "path": "scripts/dynamics/audit_dynamics_1.py",
+      "sha256": "2909541aae5d399fc2ae16497211f72f29e949227f86a6b19c2a8ac7dd75b596"
+    },
+    {
+      "bytes": 45845,
+      "path": "scripts/dynamics/run_dynamics_1.py",
+      "sha256": "50f82a4c63d78c0a049c1a3d40d049e5d3590e137c9820088fbcec86b02e553e"
+    },
+    {
+      "bytes": 13985,
+      "path": "src/pglt/dynamics/dynamics_data.py",
+      "sha256": "c873cd67ba0679e92fc8fa4c2de68e8a20fdbbb1bfb3023dfeac92a963a96242"
+    },
+    {
+      "bytes": 5032,
+      "path": "src/pglt/dynamics/frozen_latents.py",
+      "sha256": "8451f63f65fdff059e113e10409305a041a4a8cccedc44f8b5aa43caa3f79904"
+    },
+    {
+      "bytes": 26679,
+      "path": "src/pglt/dynamics/runner.py",
+      "sha256": "38519865fceec4242163a3786833ea04c00487f0b8713dda53c97cd76458f245"
+    },
+    {
+      "bytes": 13320,
+      "path": "src/pglt/dynamics/variational.py",
+      "sha256": "219b1a254c2d8231b0b59a87986462fcf99dcd2f0be799d1e13d9aeb9104ac0a"
+    },
+    {
+      "bytes": 3275,
+      "path": "tests/dynamics/test_dynamics_1_protocol.py",
+      "sha256": "fab6b37f59aaf11008dfeb4275e87a85b6cef124f771f19d55542011bbfd1c49"
+    },
+    {
+      "bytes": 1665,
+      "path": "tests/dynamics/test_frozen_latent_interface.py",
+      "sha256": "9e9d556c7e9c8e08b960e3aa0192e0246ca44d9a2c52738ef458c6cbbbd8db4e"
+    }
+  ]
+}

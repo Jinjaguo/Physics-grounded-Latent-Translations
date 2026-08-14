@@ -1,0 +1,26 @@
+{
+  "per_task_valid_counts": {
+    "lift_blue_block_slider": 0,
+    "lift_red_block_table": 0,
+    "place_in_slider": 0,
+    "push_pink_block_right": 0,
+    "turn_off_lightbulb": 0,
+    "turn_on_lightbulb": 0
+  },
+  "selection_uses_model_outputs": false,
+  "sources": [
+    {
+      "candidate_count_ge_160": 0,
+      "source": "CALVIN D/D LeRobot mirror"
+    },
+    {
+      "candidate_count_ge_160": 0,
+      "source": "RoboVerse CALVIN task trajectory mirror"
+    },
+    {
+      "candidate_count_ge_160": 0,
+      "source": "Original-format CALVIN ABCD subsets"
+    }
+  ],
+  "total_PRIMARY_COMPATIBLE_segments": 0
+}

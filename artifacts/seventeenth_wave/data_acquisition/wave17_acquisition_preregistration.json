@@ -1,0 +1,110 @@
+{
+  "adequacy_gate": {
+    "minimum_blocks": 60,
+    "minimum_distinct_sessions": 10,
+    "minimum_protocol_A_starts": {
+      "1": 300,
+      "2": 250,
+      "4": 150,
+      "8": 60
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "upper_95_required_below_zero": true
+  },
+  "created_at": "2026-08-13T20:46:48-04:00",
+  "wording_correction": {
+    "recorded_before_any_F1_F2_output": true,
+    "selection_or_gate_changed": false,
+    "reason": "Made the deterministic iteration order match the already-frozen implementation exactly; no model output was available or inspected."
+  },
+  "frozen_checkpoints": {
+    "F1": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+      "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+    },
+    "F2": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+      "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+    },
+    "representation": {
+      "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+      "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+    },
+    "semantic": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt",
+      "sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+    }
+  },
+  "future_raw_actions_as_model_input": false,
+  "horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "primary_endpoint": "session-clustered paired block normalized execution-error AUC; F2-F1",
+  "protocol_A": {
+    "context": "annotation active at first frame of current H16 window, held for full rollout",
+    "future_annotation_schedule_used": false,
+    "name": "CAUSAL_CONTEXT_HELD",
+    "unlabeled_start_eligible": false
+  },
+  "protocol_B": {
+    "context": "annotation active at first frame of each current H16 window",
+    "name": "EXOGENOUS_CONTEXT_SCHEDULE_DIAGNOSTIC",
+    "unlabeled_window_eligible": false,
+    "within_window_boundary_switch": "next H16 window at earliest"
+  },
+  "selection": {
+    "block_frames": 160,
+    "block_start": "annotation_start - 16 source frames",
+    "kinematic_threshold_role": "secondary diagnostic only",
+    "maximum_blocks_per_session": 6,
+    "model_output_filtering": false,
+    "no_raw_frame_overlap": true,
+    "ordering": "source shard order, then global unique annotation start/end/task/position; authoritative session-specific cap applied",
+    "session_boundary": "one exact authoritative ep_start_end_ids.npy row",
+    "stride_frames": 16,
+    "window_frames": 16,
+    "windows": 10
+  },
+  "source_order": [
+    "training/subset_training_023.zip",
+    "training/subset_training_000.zip",
+    "training/subset_training_001.zip",
+    "training/subset_training_002.zip",
+    "training/subset_training_003.zip",
+    "training/subset_training_004.zip",
+    "training/subset_training_005.zip",
+    "training/subset_training_006.zip",
+    "training/subset_training_007.zip",
+    "training/subset_training_008.zip",
+    "training/subset_training_009.zip",
+    "training/subset_training_010.zip",
+    "training/subset_training_011.zip",
+    "training/subset_training_012.zip",
+    "training/subset_training_013.zip",
+    "training/subset_training_014.zip",
+    "training/subset_training_015.zip",
+    "training/subset_training_016.zip",
+    "training/subset_training_017.zip",
+    "training/subset_training_018.zip",
+    "training/subset_training_019.zip",
+    "training/subset_training_020.zip",
+    "training/subset_training_021.zip",
+    "training/subset_training_022.zip"
+  ],
+  "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+  "teacher_forcing_after_rollout_start": false,
+  "updates": {
+    "EMA": 0,
+    "F1": 0,
+    "F2": 0,
+    "representation": 0,
+    "semantic": 0
+  },
+  "written_before_any_wave17_F1_F2_outputs": true,
+  "written_before_block_selection": true
+}

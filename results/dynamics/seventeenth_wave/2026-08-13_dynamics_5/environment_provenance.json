@@ -1,0 +1,15 @@
+{
+  "H16_seconds": 0.5333333333333333,
+  "created_at": "2026-08-13T21:51:43-04:00",
+  "horizon_seconds": {
+    "1": 0.5333333333333333,
+    "2": 1.0666666666666667,
+    "4": 2.1333333333333333,
+    "8": 4.266666666666667
+  },
+  "numpy": "1.22.4",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.13 (default, Oct 21 2022, 23:50:54) \n[GCC 11.2.0]",
+  "source_frequency_hz": 30,
+  "torch": "2.4.1+cu121"
+}

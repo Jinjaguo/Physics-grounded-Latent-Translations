@@ -1,0 +1,17 @@
+{
+  "seed": 0,
+  "batch_size": 1,
+  "horizon": 8,
+  "dt": 0.02,
+  "solver_iters": 8,
+  "solver_step_size": 0.25,
+  "forward_losses": {
+    "loss": 9.876884460449219,
+    "traj": 0.3066904544830322,
+    "del": 957.01806640625,
+    "reg": 0.133277028799057
+  },
+  "all_forward_losses_finite": true,
+  "anomaly_detected": true,
+  "exception": "Function 'AddmmBackward0' returned nan values in its 1th output."
+}

@@ -1,0 +1,20 @@
+{
+  "toy_data": "results/dynamics/software_validation/upstream_reference/toy_parabolic.pt",
+  "output_dir": "results/dynamics/software_validation/corrected_solver/stable_smoke",
+  "epochs": 5,
+  "batch_size": 16,
+  "max_samples": 16,
+  "dt": 0.02,
+  "seed": 0,
+  "state_dim": 9,
+  "context_dim": 16,
+  "hidden_dim": 128,
+  "depth": 3,
+  "solver_iters": 8,
+  "solver_coefficient": 0.25,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "lambda_del": 0.01,
+  "lambda_reg": 0.0001,
+  "adapter_change": "q_next += alpha * h_next * DEL_residual / detached_positive_mass"
+}

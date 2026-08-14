@@ -1,0 +1,1327 @@
+{
+  "action_format_probes": [
+    {
+      "actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          0.3269043089657917,
+          0.10014509675989289,
+          0.6704270078151999,
+          3.1415873779532744,
+          0.37644934787279927,
+          3.140634166219038,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -0.3140656678711749,
+          -0.4794158852858171,
+          0.3127272266716158,
+          -3.141590283252501,
+          -0.3767388352982743,
+          -3.1297363338091224,
+          -1.0
+        ],
+        "shape": [
+          19741,
+          7
+        ]
+      },
+      "keys": [
+        "actions",
+        "rel_actions",
+        "robot_obs",
+        "scene_obs",
+        "global_frame_indices"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/data/derived/task_D_D_pglt_compact/training/episode_row_000.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          1.0,
+          0.8045188066963318,
+          1.0,
+          1.0,
+          0.9212185694713337,
+          1.0,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -1.0,
+          -0.9291914657435493,
+          -0.7362024353950669,
+          -1.0,
+          -0.9253068533387587,
+          -1.0,
+          -1.0
+        ],
+        "shape": [
+          19741,
+          7
+        ]
+      },
+      "sha256": "cb62ce1871f6066ad72eb8d66a1bd7a95c57945ce40584b2171857136dd25302"
+    },
+    {
+      "actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          0.36607671937967023,
+          0.09900215275191826,
+          0.6914083167147841,
+          3.141590529464418,
+          0.3217583744847356,
+          3.1414410184217196,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -0.4159155394166811,
+          -0.4605172169537156,
+          0.29691836922613524,
+          -3.1415855319441537,
+          -0.4628057162951279,
+          -3.140000111623322,
+          -1.0
+        ],
+        "shape": [
+          37683,
+          7
+        ]
+      },
+      "keys": [
+        "actions",
+        "rel_actions",
+        "robot_obs",
+        "scene_obs",
+        "global_frame_indices"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/data/derived/task_D_D_pglt_compact/validation/episode_row_000.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.8971873170287736,
+          1.0,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -1.0,
+          -1.0,
+          -0.8011249438930501,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "shape": [
+          37683,
+          7
+        ]
+      },
+      "sha256": "fb6f4f817ecf547a7386504a45b8d1c81f28418a7262e8106bae4efd546d59c4"
+    },
+    {
+      "keys": [
+        "rel_actions",
+        "global_frame_indices"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/data/derived/task_D_D_pglt_fifth_wave_compact/training/episode_row_005.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          1.0,
+          0.9518331041859951,
+          1.0,
+          1.0,
+          0.8823998858581739,
+          1.0,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "shape": [
+          23016,
+          7
+        ]
+      },
+      "sha256": "2b1ef8c8e168545cc7184b50b4b6b062ecdb9e3bda534e48edefc24e5c216442"
+    },
+    {
+      "keys": [
+        "rel_actions",
+        "global_frame_indices"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/data/derived/task_D_D_pglt_twelfth_wave_compact/training/episode_row_004.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          1.0,
+          1.0,
+          0.8282798865188262,
+          1.0,
+          0.6904055076927484,
+          1.0,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -1.0,
+          -0.9891773183926796,
+          -0.5960566638548187,
+          -1.0,
+          -0.650084322646105,
+          -1.0,
+          -1.0
+        ],
+        "shape": [
+          1675,
+          7
+        ]
+      },
+      "sha256": "bf5f7f242d692555381f8ee1edbb81b2d82d09d75ad26990a2eb3d3fafe2d964"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_1810/action_only__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "d24489d579b56435369c47860045ead555c49c4b236a9edde228c0563b4ba660"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_1810/action_only__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "683ac4ebadb68b8d6257b1594fe2e5dad631a1e60f9c4e12328b2c5dc08bcd68"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_1810/action_only__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "20ddcbde624377a19a3cab1a1be0d5a88b60d679d3787a32eacdff376d761703"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_1810/action_only__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "fa950bdc61d8005ff96551aac6527fbf8f1f391f61ec5eaf89cccbd5220ec005"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_1810/action_only__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "16d474668570db4ada0f61758db8249393603902970c1ea8db6c9ee61d96c492"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_1810/action_only__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "4165330482a8c34c593cae7006673d1564fb564b70aea213599df09e8f3f56e8"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_2810/action_only__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "9b932d4835a40efcbeda4b0b6336f4d5785cab2307ef24610cd688bf01601ef0"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_2810/action_only__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "db693a9b42b6a0b5241d736a787ff8980ee66baa411ab976854a96c39012a189"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_2810/action_only__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "29d4c006f049c8648a3c8590e0d5afe7496eedecccdb552acfc43ae8898790bc"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_2810/action_only__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "9a087789c012495c0a0e3a42d5e2fd80777b0f14cc56607dfa892373b5aeffc0"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_2810/action_only__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "ebddd40c4973b8e840a9c5b555282b1c266a21009a96d2c45c21fe9c5b6af7ba"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_2810/action_only__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "f65b18f9060695b6322744f6bae93efc0fe35709547ff0bb1eacb81481036281"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_810/action_only__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "93b172c5fc50d0624f9c5af5cc004d36fafbe52c86514d873ba7e5c1d5f737dc"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_810/action_only__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "4d481f6c35988231308329750bf9f5a0c31207d3dd03812b6967a1317e579411"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_810/action_only__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "901782816a4c1659fa23c7876b6c983975612a36e8e1f279313789711586474d"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_810/action_only__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "04a32b3d982d92f92a726f04f42abbdc088064b9107226849b18bb4b6b1446da"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_810/action_only__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "3ea584bfc6dce888d720a33455198afa95db641df5f4d6585cc4e00ef9b89ca7"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_fourth_wave/confirmation/seed_base_810/action_only__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "bcc31be21038da2c0a15b88012a14315985f562455d44ff4107193c45cd56475"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/action_only__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "dd1a8dcf094a23f5333614afce9f24ef55d3f940308c96aa01774660208adf44"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/action_only__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "778c2b85ca65fb48f1987edce2b81fbd4c4c34290042807b28d6b496e061fe22"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/action_only__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "cbd64338d72bce958a10de2428324184fc106c524aded68ce8a1b0dc3deb9fa8"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/action_only__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "9790c2db488da00e3b1440a90ec3e35e555eeecb1b32bf20639f0473adf19e1a"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/action_only__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "a0529c03c04f4a60221fe1b6da495434243c480d791511e97329df7ffc2c8c76"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/action_only__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "118ab1becef87c9579a2323ca2728d4473ebcda85aa3409811b48ef49906b69e"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/transition_aware__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "c8c6008a003ef117f3538c617b05ff43792f61fae32a4fb1790abb4db3972425"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/transition_aware__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "e768c324650e64fc2ee4348fa3064c8f967f6c4e621575180ee3bddf36fcc789"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/transition_aware__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "b95744740e68a1254ffbf6fcc78a8ae9ff6a4b13d066cfd2bcfbe9c36a440695"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/transition_aware__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "1baf5fc9a5388b4f7885f00d68a71adc0ca724834a15993bfa60c79cd0050778"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/transition_aware__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "3a5f2221394f8582a10a10f13b21228ed1d2bf131c451e8af5800a08848cbfea"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_1810/transition_aware__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "650792739bcbfe5c0fdb5a0c31484bbf5349cfcc6431310544776d330cd9206d"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/action_only__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "dff9308b9d531614023f9bc22f1a7f69b0892cbbd7ca93702fca8429ac835101"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/action_only__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "1d3d8bf692bd05ee45441c315f15dcfcbecdf6804ed21f8115067e5ba4066d1b"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/action_only__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "788d63b5d70e72c7e6d1b5a32efa41a509958088985b34a5aa02b54e80ee823d"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/action_only__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "e20b7a375e45269d2473470aabe65d63f39109c764a2383fe98c326e70aa793b"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/action_only__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "1ccf5de31dfadcd1d1b729b63e25f6b19df0f333a214b2c56c647ac40434dbad"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/action_only__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "8cecf7df09c8f0e61834c38dd5cb9a58efa0f4254101b8e5b735e7b7693cde66"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/transition_aware__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "41d0ddcdd55bf234b5dec973c43b0e6e35971dba20725bf4b4385670aac9974a"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/transition_aware__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "4d09264e9c7faaf84e7233a1cb98a73fe39ddda5818e17a1cb8b286d9b8cb7b2"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/transition_aware__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "0c88a9feadbd43ae339e5e3e890fd9ce885bb3440fa7af09803e12de41d2bf58"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/transition_aware__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "280a9a25b2a4547aa08dd08afd1ef09e30dde81f28182f1d583abe57837839c8"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/transition_aware__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "640be710966d86fbaeaf9ef9cd9c606d1222ff2eb558db0e7e951ab43491bb90"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_2810/transition_aware__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "8bbd472592157f591ebdd7c5e67e255761bc233f2326f7e5337166fa324efc15"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/action_only__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "88a568cf7592e0febe06afc66ee33abf7b72e1873cf9c8f8c6be50b4f3c8682c"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/action_only__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "d279fa64c92bc1404b15442f9f48ecc617e87b8a7c262fc0408aa859bd574311"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/action_only__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "b197ac3b2a60c237435ddb3abefc9219d34ad4b99733a7bf0f31deb30cc594ff"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/action_only__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "3193627851d023a833fe5042cb7cdc8af5d22921231143e2db8ef21e6ededd87"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/action_only__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "aa2fcc4847484c665a3b7d69b26136ec14dc340379968823d792d9f95e7e61f9"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/action_only__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "f7b6076adbdeda0e9bc428902947354b1fd321881221f5dc94b50aea09dc3f3f"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/transition_aware__correct_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "1750196168fbba0b8a5e5454a85f8f9cf6dc67a0f1c3fed8fb0a6249c10fe276"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/transition_aware__correct_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "8b15da946fc6cf130f5a49a19ef9e34e887ffd5955f8cd79a7e9bf9ad7920757"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/transition_aware__reconstruction_only/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "c03c96e1f77780cd670fc8e977a627cee099369fdc51e565bb81b8066d59d729"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/transition_aware__reconstruction_only/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "84224b6b989afc4935a10e15da448a97a6427ac9d592e331505ac62be4a3254c"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/transition_aware__shuffled_language/complete_episode_latents/training/episode_row_000.npz",
+      "sha256": "71c60b37e2e562c595fd05adfbde81b5ce3edcdb74a5e7fa3dc84fd24955a553"
+    },
+    {
+      "keys": [
+        "latents",
+        "episode_id",
+        "window_start_index",
+        "action_end_index_inclusive",
+        "outcome_state_index",
+        "task_labels"
+      ],
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/experiments/2026-08-11_third_wave/seed_base_810/transition_aware__shuffled_language/complete_episode_latents/validation/episode_row_000.npz",
+      "sha256": "6ce69068b006187befeb2961b48ec2f62e66f42fbde8e024b856df34205de54d"
+    },
+    {
+      "keys": [
+        "rel_actions",
+        "global_frame_indices"
+      ],
+      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/episodes/training/episode_row_000.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          1.0,
+          0.8045188066963318,
+          1.0,
+          1.0,
+          0.9212185694713337,
+          1.0,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -1.0,
+          -0.9291914657435493,
+          -0.7362024353950669,
+          -1.0,
+          -0.9253068533387587,
+          -1.0,
+          -1.0
+        ],
+        "shape": [
+          19741,
+          7
+        ]
+      },
+      "sha256": "765f85774115d82f3bb2588828293a9f16c19ab25b6ba4da9a7a3d10c9df0b5d"
+    },
+    {
+      "actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          0.10014743464367104,
+          -0.09120567560271108,
+          0.5708762762430493,
+          3.0973209459996833,
+          0.020885183680769845,
+          1.5007938504378948,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          0.10014743464367104,
+          -0.09120567560271108,
+          0.5708762762430493,
+          3.0973209459996833,
+          0.020885183680769845,
+          1.5007938504378948,
+          1.0
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "keys": [
+        "actions",
+        "rel_actions",
+        "robot_obs",
+        "scene_obs",
+        "rgb_static",
+        "rgb_gripper",
+        "rgb_tactile",
+        "depth_static",
+        "depth_gripper",
+        "depth_tactile"
+      ],
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/episode_0358482.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          -0.010700685593302561,
+          0.011550410743087214,
+          0.00017791820806078995,
+          -0.09644668157565484,
+          0.0007238213760896173,
+          0.000883792501813474,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -0.010700685593302561,
+          0.011550410743087214,
+          0.00017791820806078995,
+          -0.09644668157565484,
+          0.0007238213760896173,
+          0.000883792501813474,
+          1.0
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "sha256": "6bbee1da09cea1f22198872fcc87ce9d6ccc2bfa7f7577a8d3e899e56a981089"
+    },
+    {
+      "actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          -0.027063433021320693,
+          -0.07078590566840881,
+          0.5760693984098018,
+          3.0751319611076666,
+          -0.10462246010909135,
+          1.5319848667466536,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          -0.027063433021320693,
+          -0.07078590566840881,
+          0.5760693984098018,
+          3.0751319611076666,
+          -0.10462246010909135,
+          1.5319848667466536,
+          1.0
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "keys": [
+        "actions",
+        "rel_actions",
+        "robot_obs",
+        "scene_obs",
+        "rgb_static",
+        "rgb_gripper",
+        "rgb_tactile",
+        "depth_static",
+        "depth_gripper",
+        "depth_tactile"
+      ],
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/episode_0553567.npz",
+      "rel_actions": {
+        "dtype": "float64",
+        "maximum_per_dimension": [
+          0.5859155233987081,
+          0.004572015787988187,
+          0.025317225025905943,
+          0.027845802513821738,
+          -0.05213220950115449,
+          -0.478413643417932,
+          1.0
+        ],
+        "minimum_per_dimension": [
+          0.5859155233987081,
+          0.004572015787988187,
+          0.025317225025905943,
+          0.027845802513821738,
+          -0.05213220950115449,
+          -0.478413643417932,
+          1.0
+        ],
+        "shape": [
+          7
+        ]
+      },
+      "sha256": "2a19ef6b4499a0b510cc676ebaf199d8da5b805fef7b7cb4f6bc1524e0464161"
+    }
+  ],
+  "annotation_files": [
+    {
+      "annotation_count": 5124,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 34,
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0",
+      "task_counts": {
+        "close_drawer": 151,
+        "lift_blue_block_drawer": 150,
+        "lift_blue_block_slider": 154,
+        "lift_blue_block_table": 152,
+        "lift_pink_block_drawer": 150,
+        "lift_pink_block_slider": 151,
+        "lift_pink_block_table": 151,
+        "lift_red_block_drawer": 151,
+        "lift_red_block_slider": 151,
+        "lift_red_block_table": 150,
+        "move_slider_left": 151,
+        "move_slider_right": 152,
+        "open_drawer": 152,
+        "place_in_drawer": 152,
+        "place_in_slider": 151,
+        "push_blue_block_left": 150,
+        "push_blue_block_right": 150,
+        "push_into_drawer": 150,
+        "push_pink_block_left": 150,
+        "push_pink_block_right": 150,
+        "push_red_block_left": 150,
+        "push_red_block_right": 150,
+        "rotate_blue_block_left": 150,
+        "rotate_blue_block_right": 150,
+        "rotate_pink_block_left": 151,
+        "rotate_pink_block_right": 150,
+        "rotate_red_block_left": 150,
+        "rotate_red_block_right": 150,
+        "stack_block": 151,
+        "turn_off_led": 150,
+        "turn_off_lightbulb": 152,
+        "turn_on_led": 150,
+        "turn_on_lightbulb": 150,
+        "unstack_block": 151
+      }
+    },
+    {
+      "annotation_count": 1011,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 34,
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf",
+      "task_counts": {
+        "close_drawer": 29,
+        "lift_blue_block_drawer": 30,
+        "lift_blue_block_slider": 29,
+        "lift_blue_block_table": 30,
+        "lift_pink_block_drawer": 30,
+        "lift_pink_block_slider": 31,
+        "lift_pink_block_table": 29,
+        "lift_red_block_drawer": 31,
+        "lift_red_block_slider": 29,
+        "lift_red_block_table": 29,
+        "move_slider_left": 32,
+        "move_slider_right": 29,
+        "open_drawer": 30,
+        "place_in_drawer": 29,
+        "place_in_slider": 30,
+        "push_blue_block_left": 29,
+        "push_blue_block_right": 29,
+        "push_into_drawer": 30,
+        "push_pink_block_left": 29,
+        "push_pink_block_right": 29,
+        "push_red_block_left": 30,
+        "push_red_block_right": 29,
+        "rotate_blue_block_left": 29,
+        "rotate_blue_block_right": 29,
+        "rotate_pink_block_left": 29,
+        "rotate_pink_block_right": 30,
+        "rotate_red_block_left": 31,
+        "rotate_red_block_right": 30,
+        "stack_block": 29,
+        "turn_off_led": 32,
+        "turn_off_lightbulb": 29,
+        "turn_on_led": 29,
+        "turn_on_lightbulb": 33,
+        "unstack_block": 29
+      }
+    },
+    {
+      "annotation_count": 5124,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 34,
+      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/metadata/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0",
+      "task_counts": {
+        "close_drawer": 151,
+        "lift_blue_block_drawer": 150,
+        "lift_blue_block_slider": 154,
+        "lift_blue_block_table": 152,
+        "lift_pink_block_drawer": 150,
+        "lift_pink_block_slider": 151,
+        "lift_pink_block_table": 151,
+        "lift_red_block_drawer": 151,
+        "lift_red_block_slider": 151,
+        "lift_red_block_table": 150,
+        "move_slider_left": 151,
+        "move_slider_right": 152,
+        "open_drawer": 152,
+        "place_in_drawer": 152,
+        "place_in_slider": 151,
+        "push_blue_block_left": 150,
+        "push_blue_block_right": 150,
+        "push_into_drawer": 150,
+        "push_pink_block_left": 150,
+        "push_pink_block_right": 150,
+        "push_red_block_left": 150,
+        "push_red_block_right": 150,
+        "rotate_blue_block_left": 150,
+        "rotate_blue_block_right": 150,
+        "rotate_pink_block_left": 151,
+        "rotate_pink_block_right": 150,
+        "rotate_red_block_left": 150,
+        "rotate_red_block_right": 150,
+        "stack_block": 151,
+        "turn_off_led": 150,
+        "turn_off_lightbulb": 152,
+        "turn_on_led": 150,
+        "turn_on_lightbulb": 150,
+        "unstack_block": 151
+      }
+    },
+    {
+      "annotation_count": 1011,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 34,
+      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/metadata/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf",
+      "task_counts": {
+        "close_drawer": 29,
+        "lift_blue_block_drawer": 30,
+        "lift_blue_block_slider": 29,
+        "lift_blue_block_table": 30,
+        "lift_pink_block_drawer": 30,
+        "lift_pink_block_slider": 31,
+        "lift_pink_block_table": 29,
+        "lift_red_block_drawer": 31,
+        "lift_red_block_slider": 29,
+        "lift_red_block_table": 29,
+        "move_slider_left": 32,
+        "move_slider_right": 29,
+        "open_drawer": 30,
+        "place_in_drawer": 29,
+        "place_in_slider": 30,
+        "push_blue_block_left": 29,
+        "push_blue_block_right": 29,
+        "push_into_drawer": 30,
+        "push_pink_block_left": 29,
+        "push_pink_block_right": 29,
+        "push_red_block_left": 30,
+        "push_red_block_right": 29,
+        "rotate_blue_block_left": 29,
+        "rotate_blue_block_right": 29,
+        "rotate_pink_block_left": 29,
+        "rotate_pink_block_right": 30,
+        "rotate_red_block_left": 31,
+        "rotate_red_block_right": 30,
+        "stack_block": 29,
+        "turn_off_led": 32,
+        "turn_off_lightbulb": 29,
+        "turn_on_led": 29,
+        "turn_on_lightbulb": 33,
+        "unstack_block": 29
+      }
+    },
+    {
+      "annotation_count": 9,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 34,
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08",
+      "task_counts": {
+        "lift_blue_block_slider": 1,
+        "lift_red_block_table": 2,
+        "place_in_slider": 2,
+        "push_pink_block_right": 1,
+        "turn_off_lightbulb": 2,
+        "turn_on_lightbulb": 1
+      }
+    },
+    {
+      "annotation_count": 9,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 34,
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08",
+      "task_counts": {
+        "lift_blue_block_slider": 1,
+        "lift_red_block_table": 2,
+        "place_in_slider": 2,
+        "push_pink_block_right": 1,
+        "turn_off_lightbulb": 2,
+        "turn_on_lightbulb": 1
+      }
+    },
+    {
+      "annotation_count": 8,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 36,
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d",
+      "task_counts": {
+        "lift_blue_block_slider": 3,
+        "lift_red_block_table": 1,
+        "place_in_slider": 1,
+        "push_pink_block_right": 1,
+        "turn_off_lightbulb": 1,
+        "turn_on_lightbulb": 1
+      }
+    },
+    {
+      "annotation_count": 8,
+      "candidate_count_ge_160": 0,
+      "candidate_records": [],
+      "maximum_length": 65,
+      "median_length": 65.0,
+      "minimum_length": 36,
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d",
+      "task_counts": {
+        "lift_blue_block_slider": 3,
+        "lift_red_block_table": 1,
+        "place_in_slider": 1,
+        "push_pink_block_right": 1,
+        "turn_off_lightbulb": 1,
+        "turn_on_lightbulb": 1
+      }
+    }
+  ],
+  "calvin_named_directories": [
+    {
+      "bytes": null,
+      "kind": "local_D_D_derivative",
+      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D"
+    },
+    {
+      "bytes": 1458664875,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/.git/modules/calvin_env"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_env"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_env/calvin_env"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_env/data/calvin_table_A"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_env/data/calvin_table_B"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_env/data/calvin_table_C"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_env/data/calvin_table_D"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_models"
+    },
+    {
+      "bytes": null,
+      "kind": "calvin_code_or_metadata",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/calvin_models/calvin_agent"
+    },
+    {
+      "bytes": null,
+      "kind": "official_debug",
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset"
+    }
+  ],
+  "created_at": "2026-08-13T14:05:48-04:00",
+  "direct_candidate_count_ge_160": 0,
+  "episode_npz_count": 4728,
+  "existing_lerobot_conversions": [],
+  "existing_roboverse_trajectory_files": [],
+  "search_root": "/home/jinjaguo"
+}

@@ -1,0 +1,46 @@
+{
+  "F1": {
+    "1": {
+      "execution_fraction_beyond_frozen_threshold": 0.0,
+      "execution_ground_truth_knn_radius": 1.69393789768219,
+      "execution_knn_radius": 2.268300771713257,
+      "execution_nearest_training_distance": 2.026272773742676,
+      "execution_radius_ratio_to_ground_truth": 1.3390696048736572,
+      "full_fraction_beyond_frozen_threshold": 0.0,
+      "full_knn_radius": 3.159820795059204,
+      "full_nearest_training_distance": 2.9203226566314697
+    },
+    "2": {
+      "execution_fraction_beyond_frozen_threshold": 0.0,
+      "execution_ground_truth_knn_radius": 1.6698464155197144,
+      "execution_knn_radius": 1.9011856317520142,
+      "execution_nearest_training_distance": 1.7291537523269653,
+      "execution_radius_ratio_to_ground_truth": 1.13853919506073,
+      "full_fraction_beyond_frozen_threshold": 0.0,
+      "full_knn_radius": 2.9411847591400146,
+      "full_nearest_training_distance": 2.7048776149749756
+    }
+  },
+  "F2": {
+    "1": {
+      "execution_fraction_beyond_frozen_threshold": 0.0,
+      "execution_ground_truth_knn_radius": 1.69393789768219,
+      "execution_knn_radius": 2.141791820526123,
+      "execution_nearest_training_distance": 1.9066599607467651,
+      "execution_radius_ratio_to_ground_truth": 1.2643862962722778,
+      "full_fraction_beyond_frozen_threshold": 0.0,
+      "full_knn_radius": 3.0700175762176514,
+      "full_nearest_training_distance": 2.8439269065856934
+    },
+    "2": {
+      "execution_fraction_beyond_frozen_threshold": 0.0,
+      "execution_ground_truth_knn_radius": 1.6698464155197144,
+      "execution_knn_radius": 1.7032783031463623,
+      "execution_nearest_training_distance": 1.5261255502700806,
+      "execution_radius_ratio_to_ground_truth": 1.0200209617614746,
+      "full_fraction_beyond_frozen_threshold": 0.0,
+      "full_knn_radius": 2.7726354598999023,
+      "full_nearest_training_distance": 2.544994354248047
+    }
+  }
+}

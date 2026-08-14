@@ -1,0 +1,5 @@
+{
+  "quantile": 0.99,
+  "threshold": 6.576994800567626,
+  "train_mean_knn_radius": 2.857966899871826
+}

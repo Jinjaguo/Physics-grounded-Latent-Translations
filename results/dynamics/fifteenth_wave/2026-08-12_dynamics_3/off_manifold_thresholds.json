@@ -1,0 +1,12 @@
+{
+  "execution": {
+    "quantile": 0.99,
+    "threshold": 4.259240455627441,
+    "train_mean_knn_radius": 1.9549182653427124
+  },
+  "full": {
+    "quantile": 0.99,
+    "threshold": 6.576994800567626,
+    "train_mean_knn_radius": 2.857966899871826
+  }
+}

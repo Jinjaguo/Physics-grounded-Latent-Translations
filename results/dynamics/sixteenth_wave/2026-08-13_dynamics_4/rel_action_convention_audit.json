@@ -1,0 +1,47 @@
+{
+  "abcd_numeric_probe": {
+    "dtype": "float64",
+    "maximum_per_dimension": [
+      0.8121007265341581,
+      -0.030776458494513603,
+      -0.01980721985905265,
+      -0.035504137258186574,
+      0.09535345070946555,
+      -0.34417498193916707,
+      1.0
+    ],
+    "minimum_per_dimension": [
+      0.8121007265341581,
+      -0.030776458494513603,
+      -0.01980721985905265,
+      -0.035504137258186574,
+      0.09535345070946555,
+      -0.34417498193916707,
+      1.0
+    ],
+    "shape": [
+      7
+    ]
+  },
+  "abcd_probe_passed": true,
+  "calvin_source": {
+    "function": "to_relative_action",
+    "gripper": "actions[-1:] unchanged",
+    "output_order": [
+      "relative_tcp_translation_xyz",
+      "relative_tcp_euler_xyz",
+      "gripper"
+    ],
+    "path": "third_party/calvin/calvin_env/calvin_env/utils/utils.py",
+    "rotation": "wrapped Euler delta, clipped to [-0.05, 0.05] / 0.05",
+    "sha256": "7f5f6b10c75e97daf22ceee70d404cbc077d8067168f6dcaf503f4d386935c4a",
+    "translation": "clip(action[:3] - robot_obs[:3], -0.02, 0.02) / 0.02"
+  },
+  "conversion_performed": false,
+  "frozen_representation_consumer": {
+    "normalization": "frozen training-only action_mean/action_std applied to dimensions 0:6; no new-data renormalization",
+    "path": "src/pglt/representation/data.py",
+    "sha256": "5e5b395e035774025eb89c2b05a59b4a36437a290e663cdeb1fd130317704378",
+    "stored_schema": "float64 [T,7] rel_actions"
+  }
+}

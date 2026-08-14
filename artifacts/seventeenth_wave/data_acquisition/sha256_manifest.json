@@ -1,0 +1,268 @@
+{
+  "compact_blocks": [
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2399317.npz",
+      "sha256": "eac3225fe033ab407165dc39d89faf8ce3ed3b004b99ea5bfc1432078a2f3bf6"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2400071.npz",
+      "sha256": "5c942107e6497c748605c8212405fb697126c371c2cd56c65edf7830e873ffb9"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2401084.npz",
+      "sha256": "120023e5c341ff981226ed1ff24ef22caeab2ff60fe2e62a2076b3430e1e3a8e"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2402081.npz",
+      "sha256": "d1823ee90919e79863950f24279498d4222afb3dc01311456947c615de71e71e"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2403339.npz",
+      "sha256": "816d4c2ee64c59ed9cb3da00c8de72ccb1c325e988f33d456fff1351d499a06f"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2403765.npz",
+      "sha256": "f55b0293f1cc2acecdda7b1fb502c0862f30fd9a2a0e89896e163f0ef013dede"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0054447.npz",
+      "sha256": "9822af6edd3a23fc6d2f51db8048337b8113f99f72553fe2ce8ac30ec6a377f9"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0055036.npz",
+      "sha256": "95de3437b8920b009d618f872a5d71f3ec56d3597dbf36060bcef8827253b28b"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0055430.npz",
+      "sha256": "19ab4d9428843231011f06c84c96fa2aab6133f265a609b84aad71a203f01803"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0056251.npz",
+      "sha256": "ae8ee960cc10259b6671616f58d389414f9770d42efa1e2757a29ae33966e343"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0057177.npz",
+      "sha256": "a1b02bdad43ec32c187f515205db0b1761b8ba2fa0ffd54688a0346ca3a26e99"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0057758.npz",
+      "sha256": "44254b426f76f281d142a01ae802181aa6923ea7057cba4da8319518bb1cbdbc"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0064782.npz",
+      "sha256": "f76905b7d63b12c4a1449e816c4510f23acb359d454188b447cf0c71f1d18028"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0065612.npz",
+      "sha256": "04fdcc1847c245f0fb0fc3e67604d6e518e58562491d276b84091f6fcd4dbdc8"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0070168.npz",
+      "sha256": "924441ea19f035ecd08e6e7c4306063b0f92c76953dec6f8106416d4b57fdb31"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0070438.npz",
+      "sha256": "cec55a95141f5ea60ba1fbe9322207b28bff996898f20576f9c5c77823e4f9b5"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0071946.npz",
+      "sha256": "2c88f891f3962de8d680c5b76694de1d22cae0942dbf5770f712e1b91504b6c5"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0072448.npz",
+      "sha256": "9c08d79ab29549caaa02777bafc3b16119350a434e2d50cfaf44914230977c0f"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0084540.npz",
+      "sha256": "5bf87583f3fb35268d4a854a1cc215d3a989333f4007600829e352ff0368a77f"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0084889.npz",
+      "sha256": "365ea34d35d8f9da88134b91f3fc67e2f6a137c2b236ceead64fb13acaeb9adf"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0085079.npz",
+      "sha256": "ece6bf90bf1bcfdc8a28864a7c93f8b18fe8496816f8c15c5deaff810880e3a6"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0087177.npz",
+      "sha256": "a1b7e86c6dba228da7bd4b1eddd9ae4e610ccbdc3d60136d722b49f59168b4a0"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0087452.npz",
+      "sha256": "c1583971a82165bddfb3e298ae7b84939185ddc640d08b8c392847281f71b974"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0087913.npz",
+      "sha256": "cb7312a45ff1596be76507e5eb675c597a38c7f0820225d2b674c7630c1150bd"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0103398.npz",
+      "sha256": "c8396546fe81275466af6b7328e261cf8737981d935feb497c92d9267232bd17"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0103965.npz",
+      "sha256": "27557e4df99bfe8d67e9a217e6212f5dcfbc2198480863221c32f8caed653f92"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0104170.npz",
+      "sha256": "de8615548b1c8f1d4fd3a1b5f49c43a24ed4a8f5b0d4ef834b132862bceb8837"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0104786.npz",
+      "sha256": "cb451b97e2d38999497164ea58d52b1ce9a117db0d5ad3525157847152b31930"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0105912.npz",
+      "sha256": "d91d2e12c725ba60ebf428fe3f5e0fd8e782a89779461a8fe5f7b63a034991e9"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0106326.npz",
+      "sha256": "6876600d2cbf8ec04b6ca436cf05ca7cf167b8c293ca928c6d7f2b4e9105bdb0"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0122500.npz",
+      "sha256": "f3e88c0f116da165f3ab27b900b767921b7640a9b720b7d2d4cc4b9f81ea0fb0"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0123353.npz",
+      "sha256": "ea10dee67b489e18eab8eba7bec4c378b650cc111ac0d18ccb87b86446a3e8cc"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0123757.npz",
+      "sha256": "1be6fe67ad86992baa575cc73a3c8868b779502657276e4ffa7a5c8c1955cdc1"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0125021.npz",
+      "sha256": "34b424f343c349b412af3d26ad3ecf4ff0a446d684f73d121a950ccc79d6ef80"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0125843.npz",
+      "sha256": "9f73ecc28206a0cbb2330ae15588aee167e1ff28bbde8715168b61edfcee2d8e"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0126307.npz",
+      "sha256": "b7fd0df3c04c06c0418e8e840955f9132eca8b61ac82dcb8a389cbeedb460adf"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0147707.npz",
+      "sha256": "5d0c075c2eb1a6e679ec93d442460995f9070b9086ec282b9662527ce3716b47"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0148023.npz",
+      "sha256": "ee07699546bec69578bdef1cc1fb0faff61655ea62f2a8114707c4c977aa2cc7"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0150436.npz",
+      "sha256": "f4ae09b943043515611f1ddf9a81e7661e922c6db7164233b59e37e1356d2d27"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0150944.npz",
+      "sha256": "2e4bac64c993f62b02075ceaa3ab3e60926d2cba36ab8b8be86da425be9487e1"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0151177.npz",
+      "sha256": "7a5be999b36c7b2aa5d61f7e48beff44d8c4f4dada969a1ade76fc5e67ef3575"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0152173.npz",
+      "sha256": "26c6c282ac0bc8bb565c586f08220e12f335e8358ebefd61fd2f413d9df60a97"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0166415.npz",
+      "sha256": "fad88c70a5601411d217680e5d776ceac3258de633855cbc090e926360d5bbb1"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0167504.npz",
+      "sha256": "4536032da8405d29a0fc69a6fbe87f55b6ed2890724db89572ed05b045a4a279"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0168687.npz",
+      "sha256": "909f61042ae3de0b051eb8f8cdcbab8609eba266592ecd932032d9fbb38f5274"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0169355.npz",
+      "sha256": "027b6c173503c34102ee3ad104a2622bcae1444a32534e84fd23cfb1978fd9a1"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0169805.npz",
+      "sha256": "cdc624bddc66f1b62e8affca78cddb767867396ce7a75f6cb607a1d2bfd60462"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0170705.npz",
+      "sha256": "e492818c335d683b48accb3183ea25bad9ceaf050fcc0b625fbde525e8e73211"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0197223.npz",
+      "sha256": "b9b5120a41287e611aae8e5875f9040828aa3dbc98dea26d8aa6163dc695e103"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0197753.npz",
+      "sha256": "ab3418eb710814a04f852179793a0334e0506d8bb8707e6fd4b62de771b2cce8"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0198306.npz",
+      "sha256": "0c65e756d1e447e099fcaecd45846d1777e7a30bfa5a0a32a2d4cd4b8de4bed6"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0198579.npz",
+      "sha256": "70edf942fc7b9c61fb744ab30b6e9981d310971d0ca50fc988d4b79f4fb3e5e9"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0199746.npz",
+      "sha256": "09fbfc3f1c82165c5dba95811141a589d0d8907e8b50dded41d80817254d3e7b"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0199958.npz",
+      "sha256": "3a51c48a7d337ac053db861dea3b3239e9a4faaf5a26dd9dc76c625665eb2628"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0246388.npz",
+      "sha256": "bf515285b7179d263e0852b7926759e4fa7ad76211cb8b157ad0e6de8d5ee088"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0247733.npz",
+      "sha256": "68f2761cc9bccff0fb74f78b0f37807c58d9746a1f9f577fbaccf443566d6531"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0251587.npz",
+      "sha256": "5263807a1ae7138ca25e0bb9c0883592db8fc4e42968039aedf1c9a275ade24e"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0252031.npz",
+      "sha256": "95fcab43811da9b3e4b4d58ae037a7a4a6152e7bf699064f56a629d40e1ed6ac"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0252374.npz",
+      "sha256": "3a597bb0148a6193baee6abd02dbe1b4990ded1b3a5514e83658150b1e322bc1"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0252839.npz",
+      "sha256": "f4d64dfd9c21e14301380b951f24ab7a4294db7a31ce7019f4b1f5ac673340de"
+    },
+    {
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00009_frame_0273960.npz",
+      "sha256": "10b30873fc891dd8a585ee8d24153c0f033e50699e423c4869f88f6b05db67f5"
+    }
+  ],
+  "source_zips": [
+    {
+      "bytes": 2160142328,
+      "repo_path": "training/subset_training_023.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21"
+    },
+    {
+      "bytes": 29194555788,
+      "repo_path": "training/subset_training_000.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af"
+    },
+    {
+      "bytes": 29490888374,
+      "repo_path": "training/subset_training_001.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "d394ff59065a80729ff8990ce21715654b61aa53681cf7fe393d0a6af079f2c2"
+    }
+  ]
+}

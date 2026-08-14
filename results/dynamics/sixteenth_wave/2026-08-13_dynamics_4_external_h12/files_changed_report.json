@@ -1,0 +1,520 @@
+{
+  "created_or_updated": [
+    {
+      "bytes": 310,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/environment_provenance.json",
+      "sha256": "07712745b44d4aaaecf59de2a450a676752db3cb226445de963fe70138c35505"
+    },
+    {
+      "bytes": 1231,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/executed_commands.txt",
+      "sha256": "fe02f344923e69d9f430538c03c0c559fc6e92f50ae709d2050fda8a23ec41ad"
+    },
+    {
+      "bytes": 225423,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_frozen_latents.npz",
+      "sha256": "f8fa58a3d89f80c529c0ec362d4996de9a4115801d2c1d5bec1d9cc1bd590f9d"
+    },
+    {
+      "bytes": 6036,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_correction_alignment.json",
+      "sha256": "97d675c0cde9f7c63fcaf485195456783e16347757dc64b809e4a7f30b31b799"
+    },
+    {
+      "bytes": 1351,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_decoded_action_metrics.json",
+      "sha256": "299495d3b3f9e04033672984bfbeeb9bb44479ee745eb309c53b9e27382fe722"
+    },
+    {
+      "bytes": 7726,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_freezing_and_causality_audit.json",
+      "sha256": "53a4f98a8e49ad86ead72ebdd67563c0b8173426d64cc2f252b0aec7eaceb775"
+    },
+    {
+      "bytes": 1928,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_off_manifold_metrics.json",
+      "sha256": "d7c8c90badeeb26abaf3e9e3c6816797813420166575f2f865659b1975b45125"
+    },
+    {
+      "bytes": 1678,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_paired_trajectory_bootstrap.json",
+      "sha256": "daead5c7bf837d987089bd82644d44a1cb8f88a9e33afcb3a6179cb5d9165817"
+    },
+    {
+      "bytes": 31579,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_per_task_metrics.json",
+      "sha256": "5059a174138f4e5fbd480746128eac5012e99baeedf5d069c8293fa2f7c884e7"
+    },
+    {
+      "bytes": 2497,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_prospective_preregistration.json",
+      "sha256": "54a6161f61759d8c7a9d02c6bd08ad8ec35779520464264c2fd5e4c87d62d54d"
+    },
+    {
+      "bytes": 458152,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_refinement_intermediate_states.json",
+      "sha256": "47f0360a5b45373e0ea5dc4f60484fa4b7d8e63ace36e598d7e1f8d5f0e2823d"
+    },
+    {
+      "bytes": 754,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_replication_decision.json",
+      "sha256": "29ba0d5923504c6e727e8b83d68b4fa7bfc465d29e75aa9b3373ffeaae556c7f"
+    },
+    {
+      "bytes": 40288,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_rollout_metrics.json",
+      "sha256": "a051d32d6b56e73ffdd6956e43d4082316473cd1e72f32b2f896d8cae60f784b"
+    },
+    {
+      "bytes": 383,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_sample_counts.json",
+      "sha256": "3fb8bef03dfa71a165d4bce9a894714b0877a0ff9aff2fcc51f90173ce1e93d0"
+    },
+    {
+      "bytes": 32808,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_trajectory_auc.json",
+      "sha256": "8c63bc6a8dbebf62361e2386185c4dfa9d0e4b296d1fc7fda810cac000057a8d"
+    },
+    {
+      "bytes": 31899,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_sequences.jsonl",
+      "sha256": "23608ee5836f7a79b1cc136f6c1d1b7d0280a7e863113cd5f16c43df7cc3da22"
+    },
+    {
+      "bytes": 577,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/final_audit_report.json",
+      "sha256": "e2e3cea55477d70aacea74a403f9da4cdde857453eacf20ff0ac6880cb07ba87"
+    },
+    {
+      "bytes": 7533,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/frozen_serialization_audit.json",
+      "sha256": "3cd7f15b3d660c7ea8dc9503d687b05bd4de6977d6a950338b409a63d24f1faa"
+    },
+    {
+      "bytes": 7556,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/pytest_results.xml",
+      "sha256": "2077f1340f87b7f581ac9a910069c61e87c906a61b703705bbd0ef97d1e55e44"
+    },
+    {
+      "bytes": 364,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/sixteenth_wave_next_experiment.md",
+      "sha256": "1cb85efb02fb61aab39b7e960fa211d0dd154c23f2772f4338de16987ad7138e"
+    },
+    {
+      "bytes": 1648,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/sixteenth_wave_results.md",
+      "sha256": "dd6a787df70e70f8cad61f3af53b25111857665cf461507c78ba868b2326aab6"
+    },
+    {
+      "bytes": 456,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/wave16_external_h12_claim_decision.json",
+      "sha256": "25a5c68e9ca040bef90ada60cb6cfe632a828a16805f50efd4dfb31c62eacf6b"
+    },
+    {
+      "bytes": 27842,
+      "path": "prompts/dynamics_4.md",
+      "sha256": "35a1ea2a94b408ef786f3bbb74e51273744135ff00521b9cf4e8e4f3eed45ce2"
+    },
+    {
+      "bytes": 3578,
+      "path": "configs/dynamics_4_external_h12.yaml",
+      "sha256": "bb150feff93642f9aaabb9c8f33f78d514e9b655d60d33d5b3ab0477e2ffad2a"
+    },
+    {
+      "bytes": 17404,
+      "path": "scripts/dynamics/acquire_dynamics_4_external_h12.py",
+      "sha256": "5b0544bdc0504e8956673be5641b4bb56ee5a97fef581e43dfca7a5813cea033"
+    },
+    {
+      "bytes": 41056,
+      "path": "scripts/dynamics/run_dynamics_4_external_h12.py",
+      "sha256": "adb600cb98e591cf3573bb71cf748ba421d48d8933df77d7029ac7c2ddfa5a52"
+    },
+    {
+      "bytes": 5810,
+      "path": "scripts/dynamics/audit_dynamics_4_external_h12.py",
+      "sha256": "2897d986d1d76530c74b5278756c2fa5ed8ab79b6f5e3fcfdc6dacc1b94dd43f"
+    },
+    {
+      "bytes": 7256,
+      "path": "tests/dynamics/test_dynamics_4_external_h12.py",
+      "sha256": "6263acb07c89cb648f8788145e6434d047de07506c8eb2a56c6de885fe53429b"
+    },
+    {
+      "bytes": 1648,
+      "path": "reports/dynamics_4_external_h12_results.md",
+      "sha256": "dd6a787df70e70f8cad61f3af53b25111857665cf461507c78ba868b2326aab6"
+    },
+    {
+      "bytes": 1648,
+      "path": "reports/dynamics_4_results.md",
+      "sha256": "dd6a787df70e70f8cad61f3af53b25111857665cf461507c78ba868b2326aab6"
+    },
+    {
+      "bytes": 364,
+      "path": "NEXT_EXPERIMENT.md",
+      "sha256": "1cb85efb02fb61aab39b7e960fa211d0dd154c23f2772f4338de16987ad7138e"
+    },
+    {
+      "bytes": 2350,
+      "path": "RESEARCH_LOG.md",
+      "sha256": "51379cf502e291559b80f0d48e18f6a76c50d79d4b3bc4b49eeec45f3eb08dc5"
+    },
+    {
+      "bytes": 3647,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_01543.npz",
+      "sha256": "8a7d33fa100cbcb2c5cb4b2e4f8331d764dc885a4083445d0ebc2a36fabf4f64"
+    },
+    {
+      "bytes": 3644,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02135.npz",
+      "sha256": "2c65a0e666f3dd9068018659f909a1dcc0c760f257d7a12df80dad655bd1c3e6"
+    },
+    {
+      "bytes": 3647,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02217.npz",
+      "sha256": "1eff664aedc3cf49b862193054be4d77ddac54ca0553271fd21a4cc49f5da8ef"
+    },
+    {
+      "bytes": 3653,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_02246.npz",
+      "sha256": "bed9bce4fe1998d043da2923d3263e5dd2511663fb978c7174e4d78f671accb5"
+    },
+    {
+      "bytes": 3650,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_03235.npz",
+      "sha256": "e8c30d92ae78a6c5db0baa25ee6e816846f26c2f4047e60e588b0a5ecca25cba"
+    },
+    {
+      "bytes": 3642,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_03415.npz",
+      "sha256": "e0493f49183553de877c9631acfc60aaf62e66c07145f5ade78621210879e834"
+    },
+    {
+      "bytes": 3664,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_000_ann_04495.npz",
+      "sha256": "3e58e22051effc964476628c7a3a5215466f30c5434e6e04ea40b052b6d83964"
+    },
+    {
+      "bytes": 3623,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_03722.npz",
+      "sha256": "fbc1f52b2f46b2e1664258ff992dde04976bee20204a73a556171aa0faccc8df"
+    },
+    {
+      "bytes": 3633,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_03808.npz",
+      "sha256": "1f9fbb5c33a1851a8fe050fab11d4f4e6dbcbab9df3cfae3de73ee4c21df5906"
+    },
+    {
+      "bytes": 3639,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_blue_block_slider/subset_training_023_ann_07035.npz",
+      "sha256": "d536f1604ea0695b87fccbdc86544e997560112c1de547952371430efbbda864"
+    },
+    {
+      "bytes": 3666,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00171.npz",
+      "sha256": "fe3584d2697526434a0f2900218188792c4a203c9984bc2a03d410888951b778"
+    },
+    {
+      "bytes": 3637,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00275.npz",
+      "sha256": "7efc2637a4a3d283a74bf9f28066d6c99bb517aefe2a38564fb75a4ce704fdd5"
+    },
+    {
+      "bytes": 3648,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_00555.npz",
+      "sha256": "739762fa26a369cc28495a876421613f79f0f3c571957d995c4924c8eb4de652"
+    },
+    {
+      "bytes": 3645,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_01156.npz",
+      "sha256": "6e647fb3c8ddb4fcf731f062b551856d2d0a114c93281deb5d575cd434b2f9e0"
+    },
+    {
+      "bytes": 3527,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_03907.npz",
+      "sha256": "4ccb64a5c963d9dc4dd1878a274671baf06e21e0436686385370e631028f2927"
+    },
+    {
+      "bytes": 3643,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04000.npz",
+      "sha256": "92636eb2b4352acf68bf72574192f33999e7d5e7bb3c2607d97eee0ffaf03f8c"
+    },
+    {
+      "bytes": 3641,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04199.npz",
+      "sha256": "f28209418bdb62cce9624495df8d94d8d92b8ae5376bb0e8fd28291ea6312cc4"
+    },
+    {
+      "bytes": 3632,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04326.npz",
+      "sha256": "f52f66a8f1243ec99d6f48716c0717c5e214d5249f5313db1f6be7182a49df8d"
+    },
+    {
+      "bytes": 3614,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_04771.npz",
+      "sha256": "5ac006f97548c311fe4b05a91c4336c1128d461eb379e8abc53ea2db102e2691"
+    },
+    {
+      "bytes": 3652,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/lift_red_block_table/subset_training_000_ann_05963.npz",
+      "sha256": "8881b61ae7a5a103d88f3db73dd579c3287b19305cb4731fd2476fc6b5681095"
+    },
+    {
+      "bytes": 3664,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_00265.npz",
+      "sha256": "9fd03811d8d39e87520820c028ca0e0861e38b5f057a610891b0165cb6dd4bf2"
+    },
+    {
+      "bytes": 3672,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_01298.npz",
+      "sha256": "93d58e93e4689f9cdfec768b97683910cd99704b1ff08f37801d578386e26e49"
+    },
+    {
+      "bytes": 3656,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_01374.npz",
+      "sha256": "d5bab83e7cbe9f479d2a0d06e8df0043383b891839d3a9f522ec5021871d9b07"
+    },
+    {
+      "bytes": 3644,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_03975.npz",
+      "sha256": "320432d284f384cb073abff03808f9afcafe60336a600fb87ff1cb513c98891f"
+    },
+    {
+      "bytes": 3646,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_09306.npz",
+      "sha256": "09897897ed06009941cb6337d4e40a972277c7618af25c131f5b414706e62ac7"
+    },
+    {
+      "bytes": 3655,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17553.npz",
+      "sha256": "43f03b50d275407bd7b1e92246a1e24c3339674dfb52e09c49b41dcc92dbe0e4"
+    },
+    {
+      "bytes": 3640,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17591.npz",
+      "sha256": "29799ce8b776dfaf96efecbe0807f2c2896329ced4e184a0d3402088ab2b5537"
+    },
+    {
+      "bytes": 3644,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17966.npz",
+      "sha256": "b99047a7eb8a290863a944af0e41542c96d4366425213b02c28f8c739e21641f"
+    },
+    {
+      "bytes": 3655,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_000_ann_17985.npz",
+      "sha256": "c72e0320c35dd26ae21017c70d386ff890519a1ce811448521b20bee64fe8d2c"
+    },
+    {
+      "bytes": 3634,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/place_in_slider/subset_training_023_ann_00535.npz",
+      "sha256": "346d1dfe6efa3f885872d6fb7cc5602779c869e4caad48a1428dad3838cb31bf"
+    },
+    {
+      "bytes": 3617,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_02310.npz",
+      "sha256": "b1e61ccb80e468653b59b50a8effbb7f4b3c7e89bf3012ef2f24f9f574bd5262"
+    },
+    {
+      "bytes": 3644,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_02695.npz",
+      "sha256": "b377854af8020fe2200788f1d7b59280fb8660c8996d996ebbb571e8b937e997"
+    },
+    {
+      "bytes": 3621,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_04724.npz",
+      "sha256": "0ad2bfb7f7f0c9a8b2856b5fb8f80f86219b53ff4c29eb4b4b792e2b66bd2c67"
+    },
+    {
+      "bytes": 3645,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_05476.npz",
+      "sha256": "f7c0c5eb862753655d2cb6d2d17083fe97ef5bfd7edd02b20c764871ab34896f"
+    },
+    {
+      "bytes": 3648,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_05614.npz",
+      "sha256": "113aca6d6675820bd8710f8cede34ffab5cacc61fbcba62783379d0c5135ffc2"
+    },
+    {
+      "bytes": 3645,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_07695.npz",
+      "sha256": "ffb5bea84a4abb2347171e24a592f8f5d3701cbbf1d1dfb28afce9361446a701"
+    },
+    {
+      "bytes": 3634,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08551.npz",
+      "sha256": "bc3493d43a9cca1e25ba2e25000b9f10c4975d120a17508b14820850fa07e5b1"
+    },
+    {
+      "bytes": 3642,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08587.npz",
+      "sha256": "dea1d75824ac25a7d460dab029172e7756a98543dad97b28427c1ca339c3c644"
+    },
+    {
+      "bytes": 3637,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_08599.npz",
+      "sha256": "2acfec5acfefcb719c5285abbc75abf5a9e47066325ebca1c8c3f30d120dd6cd"
+    },
+    {
+      "bytes": 3645,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/push_pink_block_right/subset_training_000_ann_10029.npz",
+      "sha256": "db3e8cf6e254825395b089899df516b665c3b5b7adeb13cd06f7eff455c3753a"
+    },
+    {
+      "bytes": 3667,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_00441.npz",
+      "sha256": "6e012f41add7098e671b7afc0f7858fc28df62605f66fc4edf3c6a4483986e1a"
+    },
+    {
+      "bytes": 3652,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01474.npz",
+      "sha256": "fd042ef7f4ac4dc4cacd982268fa96ceca285915dcce1e5f61b7ff1c94a8ea3d"
+    },
+    {
+      "bytes": 3652,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01574.npz",
+      "sha256": "9ebb208ed241b12861cda7d87e608efbefa046cff0a0c01412aa55aadee66d86"
+    },
+    {
+      "bytes": 3650,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_01612.npz",
+      "sha256": "0c6f2d3807dc11da75c4adba65615d6821418c7cc96735cf65359688177bcf0c"
+    },
+    {
+      "bytes": 3651,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_03140.npz",
+      "sha256": "814ae60bf0ed8f16604a4ceeb1d88ec0cbea5599a5078d6da213b89c9ae3fa8e"
+    },
+    {
+      "bytes": 3665,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_03951.npz",
+      "sha256": "acd831d4baad59dcd0e7cce836c6e81dcd06a85684af33246475f40442ab1c75"
+    },
+    {
+      "bytes": 3633,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_05898.npz",
+      "sha256": "0909a49a9e1f928aa6c242a1d9b86238e89d0e895fe587ff7fce26392f21573f"
+    },
+    {
+      "bytes": 3635,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_07026.npz",
+      "sha256": "30aee6b0cdef3824289149ab67c9020e0bdda8dd64d99a8923ba9025498cfdef"
+    },
+    {
+      "bytes": 3659,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_000_ann_09695.npz",
+      "sha256": "9fc1d232f5ddbddf8bfd81725d43b354fb1ab5c86b86e3b55ba2bc61abc6828b"
+    },
+    {
+      "bytes": 3627,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_off_lightbulb/subset_training_023_ann_00543.npz",
+      "sha256": "d855c1dfa334f2a253ef3f44021734949abf9c4b930d0bce53f8a6bdd8d5c411"
+    },
+    {
+      "bytes": 3666,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_00080.npz",
+      "sha256": "48f9c1da0220eb89794d51a910ec557cb0dcc7badeade87e1ea12075c4d4c085"
+    },
+    {
+      "bytes": 3651,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_00134.npz",
+      "sha256": "a2fc741f2eac038cd0e9a41c77067c05b74f8a3888c407a8a95956bce5c196f9"
+    },
+    {
+      "bytes": 3637,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01131.npz",
+      "sha256": "1362923f2e0d0055a5ff0d448118088e96a92497fc653455fcc7da0034344d6f"
+    },
+    {
+      "bytes": 3643,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01158.npz",
+      "sha256": "6ddce1d7f1a818799f7dcd77cdf503d4e1fb17d2ff0418de608be34a032c7ac0"
+    },
+    {
+      "bytes": 3654,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01426.npz",
+      "sha256": "379054581659146fdcd155ff7fa3fcbf3635e3fe78cb81d3956a9635e9324d35"
+    },
+    {
+      "bytes": 3631,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_01570.npz",
+      "sha256": "48b95d31e244270694945eed7602baeda54a87804ea9d9882315e086dfd5f444"
+    },
+    {
+      "bytes": 3637,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_03624.npz",
+      "sha256": "1e756f161c2581f032d8b70726f46b7c0be475b92c1d1b138cf4b5aed9788b43"
+    },
+    {
+      "bytes": 3660,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_03713.npz",
+      "sha256": "fe2761e2f15a1a0ff3c01c576631dc10283a0fd138ed620db3e854ce9c07f480"
+    },
+    {
+      "bytes": 3645,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_04402.npz",
+      "sha256": "6f3de799678d6b2e970861a2f62d01c2dabb50aaa82bf4725e2ae4df89dbd7bf"
+    },
+    {
+      "bytes": 3644,
+      "path": "artifacts/sixteenth_wave/external_h12/candidate_cache/turn_on_lightbulb/subset_training_000_ann_05965.npz",
+      "sha256": "8dd08e4221c443faa579b9fde26c0ebbceb3c0975ac3b2a01b1ea3a78ef4f1b0"
+    },
+    {
+      "bytes": 732,
+      "path": "artifacts/sixteenth_wave/external_h12/disk_budget.json",
+      "sha256": "0702f833fb94e087f95c533ab70365cfcc4169d4cbac89425a48fb481e0419ff"
+    },
+    {
+      "bytes": 637,
+      "path": "artifacts/sixteenth_wave/external_h12/download_manifest.json",
+      "sha256": "a470513cc70f9d46b384a29811aedda305507ef8c81f6238680af9443467a54e"
+    },
+    {
+      "bytes": 460,
+      "path": "artifacts/sixteenth_wave/external_h12/download_manifest.partial.json",
+      "sha256": "6da8b5983b27091ed2e9721d229e1fa083ece2b33bc05f2ee3c74e2a3f7883f6"
+    },
+    {
+      "bytes": 410,
+      "path": "artifacts/sixteenth_wave/external_h12/executed_commands.txt",
+      "sha256": "95d8684b08563c3858914099ccd0e95635aa635d506b1603b175275a12c4a888"
+    },
+    {
+      "bytes": 3387,
+      "path": "artifacts/sixteenth_wave/external_h12/external_h12_acquisition_preregistration.json",
+      "sha256": "53d45b874bd10837a572e6145860eb5da32510f9944173d055fd999bf48ea37e"
+    },
+    {
+      "bytes": 791,
+      "path": "artifacts/sixteenth_wave/external_h12/frozen_checkpoint_manifest.json",
+      "sha256": "42ef8e37dcb3d4112a94adfce318f912f24a278367cd19cd432e54319123c8e7"
+    },
+    {
+      "bytes": 113170,
+      "path": "artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json",
+      "sha256": "309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc"
+    },
+    {
+      "bytes": 13786,
+      "path": "artifacts/sixteenth_wave/external_h12/sha256_manifest.json",
+      "sha256": "750205991b421c93898fdd75a2436f3e6accb485e3e0b17950996100dd07d652"
+    },
+    {
+      "bytes": 803,
+      "path": "artifacts/sixteenth_wave/external_h12/staged_cleanup_log.json",
+      "sha256": "aa200133478e700f36324a10968718578377409b1edfce22d449bce5ce5e148b"
+    },
+    {
+      "bytes": 1936,
+      "path": "artifacts/sixteenth_wave/external_h12/subset_audits.json",
+      "sha256": "a84061b32cf319bb614fd5723e0aa7dd801ce13580164d771518fc8bc60187dc"
+    },
+    {
+      "bytes": 1936,
+      "path": "artifacts/sixteenth_wave/external_h12/subset_audits.partial.json",
+      "sha256": "a84061b32cf319bb614fd5723e0aa7dd801ce13580164d771518fc8bc60187dc"
+    }
+  ],
+  "prior_wave_artifacts_overwritten": false
+}

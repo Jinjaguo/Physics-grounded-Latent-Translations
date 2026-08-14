@@ -1,0 +1,106 @@
+{
+  "F1_execution_mlp": {
+    "1": {
+      "execution_fraction_beyond_train_quantile": 0.0,
+      "execution_ground_truth_knn_radius": 1.6985787153244019,
+      "execution_knn_radius": 2.2385544776916504,
+      "execution_knn_radius_ratio_to_ground_truth": 1.3178985804400132,
+      "execution_nearest_training_distance": 2.014347553253174,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.0,
+      "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+      "full_latent_knn_radius": 3.0934624671936035,
+      "full_threshold": 6.576994800567626
+    },
+    "2": {
+      "execution_fraction_beyond_train_quantile": 0.0,
+      "execution_ground_truth_knn_radius": 1.583281397819519,
+      "execution_knn_radius": 1.8872849941253662,
+      "execution_knn_radius_ratio_to_ground_truth": 1.1920085694965648,
+      "execution_nearest_training_distance": 1.700677514076233,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.0,
+      "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+      "full_latent_knn_radius": 2.8405213356018066,
+      "full_threshold": 6.576994800567626
+    }
+  },
+  "F2_matched_refinement": {
+    "1": {
+      "execution_fraction_beyond_train_quantile": 0.0,
+      "execution_ground_truth_knn_radius": 1.6985787153244019,
+      "execution_knn_radius": 2.1030871868133545,
+      "execution_knn_radius_ratio_to_ground_truth": 1.2381452609993984,
+      "execution_nearest_training_distance": 1.8790526390075684,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.0,
+      "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+      "full_latent_knn_radius": 2.9858179092407227,
+      "full_threshold": 6.576994800567626
+    },
+    "2": {
+      "execution_fraction_beyond_train_quantile": 0.0,
+      "execution_ground_truth_knn_radius": 1.583281397819519,
+      "execution_knn_radius": 1.6666388511657715,
+      "execution_knn_radius_ratio_to_ground_truth": 1.0526485395843415,
+      "execution_nearest_training_distance": 1.4975011348724365,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.0,
+      "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+      "full_latent_knn_radius": 2.672046661376953,
+      "full_threshold": 6.576994800567626
+    }
+  },
+  "F3_free_execution_del": {
+    "1": {
+      "execution_fraction_beyond_train_quantile": 0.1850828729281768,
+      "execution_ground_truth_knn_radius": 1.6985787153244019,
+      "execution_knn_radius": 3.617555618286133,
+      "execution_knn_radius_ratio_to_ground_truth": 2.12975447393101,
+      "execution_nearest_training_distance": 3.313283681869507,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.04143646408839779,
+      "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+      "full_latent_knn_radius": 4.373908519744873,
+      "full_threshold": 6.576994800567626
+    },
+    "2": {
+      "execution_fraction_beyond_train_quantile": 0.24444444444444444,
+      "execution_ground_truth_knn_radius": 1.583281397819519,
+      "execution_knn_radius": 3.772804021835327,
+      "execution_knn_radius_ratio_to_ground_truth": 2.3829017551972753,
+      "execution_nearest_training_distance": 3.453974723815918,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.08333333333333333,
+      "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+      "full_latent_knn_radius": 4.58482027053833,
+      "full_threshold": 6.576994800567626
+    }
+  },
+  "F4_decoder_geometry_del": {
+    "1": {
+      "execution_fraction_beyond_train_quantile": 0.0,
+      "execution_ground_truth_knn_radius": 1.6985787153244019,
+      "execution_knn_radius": 2.2618417739868164,
+      "execution_knn_radius_ratio_to_ground_truth": 1.3316084521610412,
+      "execution_nearest_training_distance": 2.0342416763305664,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.0,
+      "full_latent_ground_truth_knn_radius": 2.4028286933898926,
+      "full_latent_knn_radius": 3.110846519470215,
+      "full_threshold": 6.576994800567626
+    },
+    "2": {
+      "execution_fraction_beyond_train_quantile": 0.0,
+      "execution_ground_truth_knn_radius": 1.583281397819519,
+      "execution_knn_radius": 1.9271548986434937,
+      "execution_knn_radius_ratio_to_ground_truth": 1.217190387822123,
+      "execution_nearest_training_distance": 1.737752914428711,
+      "execution_threshold": 4.259240455627441,
+      "full_latent_fraction_beyond_train_quantile": 0.0,
+      "full_latent_ground_truth_knn_radius": 2.2862584590911865,
+      "full_latent_knn_radius": 2.875636577606201,
+      "full_threshold": 6.576994800567626
+    }
+  }
+}

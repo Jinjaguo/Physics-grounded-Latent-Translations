@@ -1,0 +1,107 @@
+{
+  "blocks_within_session_averaged_first": true,
+  "protocol_A": {
+    "F1_mean_session_value": 8.438474400423237,
+    "F2_mean_session_value": 7.422854395792456,
+    "block_or_start_count": 61,
+    "bootstrap_replicates": 10000,
+    "lower_95": -1.211955564948479,
+    "mean_delta_F2_minus_F1": -1.0156200046307817,
+    "session_values": [
+      {
+        "F1": 9.563957401132727,
+        "F2": 8.095107736461351,
+        "delta": -1.4688496646713762,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "F1": 7.286564008583411,
+        "F2": 6.441198556479438,
+        "delta": -0.8453654521039731,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "F1": 9.524124237057062,
+        "F2": 8.17812362311986,
+        "delta": -1.3460006139372016,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "F1": 10.917206023622953,
+        "F2": 9.727697323518285,
+        "delta": -1.1895087001046676,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "F1": 9.868215799108858,
+        "F2": 8.34254171725484,
+        "delta": -1.525674081854019,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "F1": 7.772907441549978,
+        "F2": 6.919999951665955,
+        "delta": -0.8529074898840232,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "F1": 8.186435465031613,
+        "F2": 7.298840173782923,
+        "delta": -0.8875952912486893,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "F1": 8.218921743125941,
+        "F2": 7.307606426919436,
+        "delta": -0.9113153162065055,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "F1": 8.783281577378988,
+        "F2": 7.665003644794756,
+        "delta": -1.118277932584232,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "F1": 6.973348810722655,
+        "F2": 6.737912825058462,
+        "delta": -0.23543598566419277,
+        "source_session_id": "training_ep_row_00009"
+      },
+      {
+        "F1": 5.728255897341423,
+        "F2": 4.937366374661704,
+        "delta": -0.790889522679719,
+        "source_session_id": "training_ep_row_00177"
+      }
+    ],
+    "source_session_count": 11,
+    "upper_95": -0.8001668145298342
+  },
+  "protocol_B": {
+    "F1_mean_session_value": 9.88781265621548,
+    "F2_mean_session_value": 8.501686453022746,
+    "block_or_start_count": 3,
+    "bootstrap_replicates": 10000,
+    "lower_95": -2.101034969462738,
+    "mean_delta_F2_minus_F1": -1.3861262031927346,
+    "session_values": [
+      {
+        "F1": 9.905685223436691,
+        "F2": 9.23446778651396,
+        "delta": -0.6712174369227313,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "F1": 9.869940088994271,
+        "F2": 7.768905119531533,
+        "delta": -2.101034969462738,
+        "source_session_id": "training_ep_row_00004"
+      }
+    ],
+    "source_session_count": 2,
+    "upper_95": -0.6712174369227313
+  },
+  "sampling_unit": "source play session",
+  "window_bootstrap": false
+}

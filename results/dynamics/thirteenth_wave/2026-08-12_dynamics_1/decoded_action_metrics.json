@@ -1,0 +1,266 @@
+{
+  "ORACLE_FUTURE_ACTION_DIAGNOSTIC": {
+    "1": {
+      "continuous_mse": 0.01395389810204506,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.9844377510040161,
+      "per_action_dimension_error": [
+        0.011946838349103928,
+        0.010663875378668308,
+        0.011199189350008965,
+        0.01591070555150509,
+        0.012526780366897583,
+        0.021476002410054207,
+        0.015562248995983935
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.01683051325380802,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.9791666666666666,
+      "per_action_dimension_error": [
+        0.017272282391786575,
+        0.0171955693513155,
+        0.013959916308522224,
+        0.014501738362014294,
+        0.012636723928153515,
+        0.025416847318410873,
+        0.020833333333333332
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "constant_velocity": {
+    "1": {
+      "continuous_mse": 0.15038679540157318,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.5451807228915663,
+      "per_action_dimension_error": [
+        0.16595394909381866,
+        0.11560659110546112,
+        0.20459692180156708,
+        0.10979689657688141,
+        0.16557399928569794,
+        0.1407923847436905,
+        0.45481927710843373
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.45827630162239075,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.266260162601626,
+      "per_action_dimension_error": [
+        0.5297725200653076,
+        0.5652543902397156,
+        0.49092310667037964,
+        0.3010368049144745,
+        0.34749913215637207,
+        0.5151719450950623,
+        0.733739837398374
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "copy": {
+    "1": {
+      "continuous_mse": 0.0708269253373146,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.5291164658634538,
+      "per_action_dimension_error": [
+        0.08160938322544098,
+        0.07219924032688141,
+        0.11202889680862427,
+        0.03784189000725746,
+        0.06963974237442017,
+        0.05164241045713425,
+        0.4708835341365462
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.11416833102703094,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.12754065040650406,
+      "per_action_dimension_error": [
+        0.16775676608085632,
+        0.18928946554660797,
+        0.1322459727525711,
+        0.03874262422323227,
+        0.06526420265436172,
+        0.09171091765165329,
+        0.8724593495934959
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "forced_del": {
+    "1": {
+      "continuous_mse": 0.038563549518585205,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.7916666666666666,
+      "per_action_dimension_error": [
+        0.04228430241346359,
+        0.031810980290174484,
+        0.03909626230597496,
+        0.03934388607740402,
+        0.03201810270547867,
+        0.04682775214314461,
+        0.20833333333333334
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.0681077390909195,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.7728658536585366,
+      "per_action_dimension_error": [
+        0.08739282190799713,
+        0.058369290083646774,
+        0.05511554330587387,
+        0.05951054394245148,
+        0.047536641359329224,
+        0.10072160512208939,
+        0.22713414634146342
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "history_mlp": {
+    "1": {
+      "continuous_mse": 0.025164270773530006,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.8335843373493976,
+      "per_action_dimension_error": [
+        0.025206508114933968,
+        0.01923177018761635,
+        0.027920112013816833,
+        0.024728408083319664,
+        0.022056452929973602,
+        0.031842369586229324,
+        0.1664156626506024
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.029264269396662712,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.864329268292683,
+      "per_action_dimension_error": [
+        0.032097212970256805,
+        0.026715224608778954,
+        0.027804294601082802,
+        0.02138790488243103,
+        0.020536143332719803,
+        0.04704482853412628,
+        0.13567073170731708
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "matched_refinement": {
+    "1": {
+      "continuous_mse": 0.026454567909240723,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.8263052208835341,
+      "per_action_dimension_error": [
+        0.027755122631788254,
+        0.01972847431898117,
+        0.03228582441806793,
+        0.02265804633498192,
+        0.023104362189769745,
+        0.03319557383656502,
+        0.17369477911646586
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.03295723348855972,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.9004065040650406,
+      "per_action_dimension_error": [
+        0.032875604927539825,
+        0.029698163270950317,
+        0.04427589848637581,
+        0.01890098676085472,
+        0.025811731815338135,
+        0.046181004494428635,
+        0.09959349593495935
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "mlp": {
+    "1": {
+      "continuous_mse": 0.02888936549425125,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.8237951807228916,
+      "per_action_dimension_error": [
+        0.030994825065135956,
+        0.020602567121386528,
+        0.03295401483774185,
+        0.02662608213722706,
+        0.024960823357105255,
+        0.03719790279865265,
+        0.17620481927710843
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.037014078348875046,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.8998983739837398,
+      "per_action_dimension_error": [
+        0.039007242769002914,
+        0.032137565314769745,
+        0.04589415714144707,
+        0.02348596230149269,
+        0.02778788097202778,
+        0.05377166345715523,
+        0.10010162601626016
+      ]
+    },
+    "4": {},
+    "8": {}
+  },
+  "unforced_del": {
+    "1": {
+      "continuous_mse": 0.05858518183231354,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.7266566265060241,
+      "per_action_dimension_error": [
+        0.06982205808162689,
+        0.04671997204422951,
+        0.054975271224975586,
+        0.056689824908971786,
+        0.04397440329194069,
+        0.07932955771684647,
+        0.2733433734939759
+      ]
+    },
+    "16": {},
+    "2": {
+      "continuous_mse": 0.10345496237277985,
+      "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+      "gripper_accuracy": 0.6935975609756098,
+      "per_action_dimension_error": [
+        0.11838667839765549,
+        0.11905083805322647,
+        0.08410698175430298,
+        0.08249606937170029,
+        0.08062625676393509,
+        0.13606296479701996,
+        0.30640243902439024
+      ]
+    },
+    "4": {},
+    "8": {}
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "amendment_source": "prompts/dynamics_4.md post-audit amendment",
+  "created_at": "2026-08-13T14:45:00-04:00",
+  "evaluation": {
+    "H4_H8_run": false,
+    "bootstrap_replicates": 10000,
+    "horizons": [
+      1,
+      2
+    ],
+    "primary_endpoint": "paired per-trajectory normalized execution-error AUC; F2-F1",
+    "secondary": [
+      "decoded action error",
+      "off-manifold drift",
+      "refinement correction-target direction",
+      "refinement intermediate states"
+    ],
+    "success_gate": "upper_95_CI(Delta_AUC) < 0"
+  },
+  "frozen_checkpoints": {
+    "F1": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+      "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+    },
+    "F2": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+      "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+    },
+    "representation": {
+      "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+      "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+    },
+    "semantic": {
+      "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/semantic.pt",
+      "sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+    }
+  },
+  "future_target_actions": false,
+  "selection": {
+    "canonical_tasks": [
+      "lift_blue_block_slider",
+      "lift_red_block_table",
+      "place_in_slider",
+      "push_pink_block_right",
+      "turn_off_lightbulb",
+      "turn_on_lightbulb"
+    ],
+    "leftover_65th_frame": "retained in source audit but excluded from four H16 windows",
+    "minimum_contiguous_annotation_frames": 64,
+    "model_dependent_filtering": false,
+    "ordering": "subset order, then source annotation position",
+    "segments_per_task": 10,
+    "stride_frames": 16,
+    "total_segments": 60,
+    "window_frames": 16,
+    "windows": 4
+  },
+  "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+  "subset_order": [
+    "training/subset_training_023.zip",
+    "training/subset_training_000.zip",
+    "training/subset_training_001.zip",
+    "training/subset_training_002.zip",
+    "training/subset_training_003.zip",
+    "training/subset_training_004.zip",
+    "training/subset_training_005.zip",
+    "training/subset_training_006.zip",
+    "training/subset_training_007.zip",
+    "training/subset_training_008.zip",
+    "training/subset_training_009.zip",
+    "training/subset_training_010.zip",
+    "training/subset_training_011.zip",
+    "training/subset_training_012.zip",
+    "training/subset_training_013.zip",
+    "training/subset_training_014.zip",
+    "training/subset_training_015.zip",
+    "training/subset_training_016.zip",
+    "training/subset_training_017.zip",
+    "training/subset_training_018.zip",
+    "training/subset_training_019.zip",
+    "training/subset_training_020.zip",
+    "training/subset_training_021.zip",
+    "training/subset_training_022.zip"
+  ],
+  "updates": {
+    "EMA_updates": 0,
+    "F1_backward_calls": 0,
+    "F1_optimizer_steps": 0,
+    "F2_backward_calls": 0,
+    "F2_optimizer_steps": 0,
+    "representation_backward_calls": 0,
+    "representation_optimizer_steps": 0
+  },
+  "written_after_initial_open_data_audit": true,
+  "written_before_external_F1_F2_outputs": true
+}

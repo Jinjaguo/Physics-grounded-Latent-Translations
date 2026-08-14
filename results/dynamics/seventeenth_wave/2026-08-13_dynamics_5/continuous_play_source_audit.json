@@ -1,0 +1,399 @@
+{
+  "shards": [
+    {
+      "annotation_member": "subset_training_023/training/lang_annotations/auto_lang_ann.npy",
+      "authoritative_session_rows": 178,
+      "episode_member": "subset_training_023/training/ep_start_end_ids.npy",
+      "frame_max": 2406143,
+      "frame_members": 7126,
+      "frame_min": 2399018,
+      "selected_here": 6,
+      "selected_session_counts": {
+        "training_ep_row_00177": 6
+      },
+      "source_bytes": 2160142328,
+      "source_subset": "training/subset_training_023.zip",
+      "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+      "unique_supported_events": 4053
+    },
+    {
+      "annotation_member": "subset_training_000/training/lang_annotations/auto_lang_ann.npy",
+      "authoritative_session_rows": 178,
+      "episode_member": "subset_training_000/training/ep_start_end_ids.npy",
+      "frame_max": 153816,
+      "frame_members": 100000,
+      "frame_min": 37682,
+      "selected_here": 36,
+      "selected_session_counts": {
+        "training_ep_row_00000": 6,
+        "training_ep_row_00001": 6,
+        "training_ep_row_00002": 6,
+        "training_ep_row_00003": 6,
+        "training_ep_row_00004": 6,
+        "training_ep_row_00005": 6
+      },
+      "source_bytes": 29194555788,
+      "source_subset": "training/subset_training_000.zip",
+      "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+      "unique_supported_events": 4053
+    },
+    {
+      "annotation_member": "subset_training_001/training/lang_annotations/auto_lang_ann.npy",
+      "authoritative_session_rows": 178,
+      "episode_member": "subset_training_001/training/ep_start_end_ids.npy",
+      "frame_max": 278465,
+      "frame_members": 100000,
+      "frame_min": 153817,
+      "selected_here": 19,
+      "selected_session_counts": {
+        "training_ep_row_00006": 6,
+        "training_ep_row_00007": 6,
+        "training_ep_row_00008": 6,
+        "training_ep_row_00009": 1
+      },
+      "source_bytes": 29490888374,
+      "source_subset": "training/subset_training_001.zip",
+      "source_zip_sha256": "d394ff59065a80729ff8990ce21715654b61aa53681cf7fe393d0a6af079f2c2",
+      "unique_supported_events": 4053
+    }
+  ],
+  "source_hashes": {
+    "downloaded_bytes": 60845586490,
+    "files": [
+      {
+        "bytes": 2160142328,
+        "repo_path": "training/subset_training_023.zip",
+        "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+        "sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21"
+      },
+      {
+        "bytes": 29194555788,
+        "repo_path": "training/subset_training_000.zip",
+        "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+        "sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af"
+      },
+      {
+        "bytes": 29490888374,
+        "repo_path": "training/subset_training_001.zip",
+        "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+        "sha256": "d394ff59065a80729ff8990ce21715654b61aa53681cf7fe393d0a6af079f2c2"
+      }
+    ],
+    "repo_id": "VyoJ/calvin-ABCD-D-subsets",
+    "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d"
+  },
+  "source_repo": "VyoJ/calvin-ABCD-D-subsets",
+  "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+  "source_zips_deleted_after_compaction": true,
+  "staged_one_at_a_time": true,
+  "wave16_immutable_artifacts": {
+    "all_matched": true,
+    "files": [
+      {
+        "actual_sha256": "309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc",
+        "expected_sha256": "309d51dc3000bb558b59b7ecf4678104afa51e86fee013493cbb326d56cebcbc",
+        "label": "selected_segments_manifest.json",
+        "matched": true,
+        "path": "artifacts/sixteenth_wave/external_h12/selected_segments_manifest.json"
+      },
+      {
+        "actual_sha256": "54a6161f61759d8c7a9d02c6bd08ad8ec35779520464264c2fd5e4c87d62d54d",
+        "expected_sha256": "54a6161f61759d8c7a9d02c6bd08ad8ec35779520464264c2fd5e4c87d62d54d",
+        "label": "external_h12_prospective_preregistration.json",
+        "matched": true,
+        "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_prospective_preregistration.json"
+      },
+      {
+        "actual_sha256": "daead5c7bf837d987089bd82644d44a1cb8f88a9e33afcb3a6179cb5d9165817",
+        "expected_sha256": "daead5c7bf837d987089bd82644d44a1cb8f88a9e33afcb3a6179cb5d9165817",
+        "label": "external_h12_paired_trajectory_bootstrap.json",
+        "matched": true,
+        "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/external_h12_paired_trajectory_bootstrap.json"
+      },
+      {
+        "actual_sha256": "25a5c68e9ca040bef90ada60cb6cfe632a828a16805f50efd4dfb31c62eacf6b",
+        "expected_sha256": "25a5c68e9ca040bef90ada60cb6cfe632a828a16805f50efd4dfb31c62eacf6b",
+        "label": "wave16_external_h12_claim_decision.json",
+        "matched": true,
+        "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4_external_h12/wave16_external_h12_claim_decision.json"
+      }
+    ]
+  },
+  "wave16_wave17_source_overlap": {
+    "novel_confirmatory_evidence": "H4/H8",
+    "overlaps": [
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          2400087,
+          2400151
+        ],
+        "source_subset": "training/subset_training_023.zip",
+        "wave16_segment_id": "subset_training_023_ann_03722",
+        "wave17_block_id": "subset_training_023_session_00177_frame_2400071"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          2401100,
+          2401164
+        ],
+        "source_subset": "training/subset_training_023.zip",
+        "wave16_segment_id": "subset_training_023_ann_00535",
+        "wave17_block_id": "subset_training_023_session_00177_frame_2401084"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          2402097,
+          2402161
+        ],
+        "source_subset": "training/subset_training_023.zip",
+        "wave16_segment_id": "subset_training_023_ann_00543",
+        "wave17_block_id": "subset_training_023_session_00177_frame_2402081"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          2403357,
+          2403421
+        ],
+        "source_subset": "training/subset_training_023.zip",
+        "wave16_segment_id": "subset_training_023_ann_03808",
+        "wave17_block_id": "subset_training_023_session_00177_frame_2403339"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          2403355,
+          2403419
+        ],
+        "source_subset": "training/subset_training_023.zip",
+        "wave16_segment_id": "subset_training_023_ann_07035",
+        "wave17_block_id": "subset_training_023_session_00177_frame_2403339"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          55058,
+          55122
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_10029",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0055036"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          55446,
+          55510
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_01574",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0055430"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          56267,
+          56331
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_01543",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0056251"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          56270,
+          56334
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_02217",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0056251"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          57194,
+          57258
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_01374",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0057177"
+      },
+      {
+        "overlap_frames": 3,
+        "overlap_range": [
+          57334,
+          57336
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_03907",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0057177"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          57193,
+          57257
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_17985",
+        "wave17_block_id": "subset_training_000_session_00000_frame_0057177"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          65628,
+          65692
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_04199",
+        "wave17_block_id": "subset_training_000_session_00001_frame_0065612"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          70184,
+          70248
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_00275",
+        "wave17_block_id": "subset_training_000_session_00001_frame_0070168"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          70191,
+          70255
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_04326",
+        "wave17_block_id": "subset_training_000_session_00001_frame_0070168"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          70454,
+          70518
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_02310",
+        "wave17_block_id": "subset_training_000_session_00001_frame_0070438"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          70463,
+          70527
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_04724",
+        "wave17_block_id": "subset_training_000_session_00001_frame_0070438"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          72464,
+          72528
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_04000",
+        "wave17_block_id": "subset_training_000_session_00001_frame_0072448"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          84556,
+          84620
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_04771",
+        "wave17_block_id": "subset_training_000_session_00002_frame_0084540"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          103981,
+          104045
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_01131",
+        "wave17_block_id": "subset_training_000_session_00003_frame_0103965"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          104247,
+          104311
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_17966",
+        "wave17_block_id": "subset_training_000_session_00003_frame_0104170"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          105977,
+          106041
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_01156",
+        "wave17_block_id": "subset_training_000_session_00003_frame_0105912"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          122516,
+          122580
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_04495",
+        "wave17_block_id": "subset_training_000_session_00004_frame_0122500"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          125037,
+          125101
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_17553",
+        "wave17_block_id": "subset_training_000_session_00004_frame_0125021"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          147723,
+          147787
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_02135",
+        "wave17_block_id": "subset_training_000_session_00005_frame_0147707"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          150452,
+          150516
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_01298",
+        "wave17_block_id": "subset_training_000_session_00005_frame_0150436"
+      },
+      {
+        "overlap_frames": 65,
+        "overlap_range": [
+          151193,
+          151257
+        ],
+        "source_subset": "training/subset_training_000.zip",
+        "wave16_segment_id": "subset_training_000_ann_05963",
+        "wave17_block_id": "subset_training_000_session_00005_frame_0151177"
+      }
+    ],
+    "pair_count": 27,
+    "wave17_H1_H2_not_called_an_independent_replication": true
+  }
+}

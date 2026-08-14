@@ -1,0 +1,2750 @@
+{
+  "forced": {
+    "centers": [
+      "q_current",
+      "mlp_prediction"
+    ],
+    "distinct_root_count": {
+      "count": 12,
+      "maximum": 1.0,
+      "mean": 1.0,
+      "median": 1.0,
+      "minimum": 1.0,
+      "p90": 1.0,
+      "p95": 1.0,
+      "p99": 1.0
+    },
+    "model": "forced",
+    "perturbation_scale_training_std": 0.1,
+    "perturbations_per_center": 6,
+    "records": [
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.105680465698242,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 1.1023738807125483e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105681419372559,
+            "perturbation_index": 0,
+            "residual": 1.3540844520321116e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105681419372559,
+            "perturbation_index": 1,
+            "residual": 1.288304429181153e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105681419372559,
+            "perturbation_index": 2,
+            "residual": 1.406968840456102e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105681896209717,
+            "perturbation_index": 3,
+            "residual": 1.5921052181511186e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105681419372559,
+            "perturbation_index": 4,
+            "residual": 1.4483837730949745e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105681896209717,
+            "perturbation_index": 5,
+            "residual": 1.5417561371577904e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105678081512451,
+            "perturbation_index": 0,
+            "residual": 1.5764562704134732e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105682373046875,
+            "perturbation_index": 1,
+            "residual": 1.1023738807125483e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105678081512451,
+            "perturbation_index": 2,
+            "residual": 1.897984475363046e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105679035186768,
+            "perturbation_index": 3,
+            "residual": 1.629110010981094e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105677604675293,
+            "perturbation_index": 4,
+            "residual": 1.8281441953149624e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.105678558349609,
+            "perturbation_index": 5,
+            "residual": 1.535069168312475e-05
+          }
+        ],
+        "transition_index": 0
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 4.599770545959473,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 2.872726872737985e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599771976470947,
+            "perturbation_index": 0,
+            "residual": 2.9707169233006425e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.59977388381958,
+            "perturbation_index": 1,
+            "residual": 2.872726872737985e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599774360656738,
+            "perturbation_index": 2,
+            "residual": 3.293302870588377e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.59977388381958,
+            "perturbation_index": 3,
+            "residual": 3.5041979572270066e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.59977388381958,
+            "perturbation_index": 4,
+            "residual": 3.09611095872242e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599769115447998,
+            "perturbation_index": 5,
+            "residual": 3.5341960028745234e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599771976470947,
+            "perturbation_index": 0,
+            "residual": 4.436467497725971e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599765300750732,
+            "perturbation_index": 1,
+            "residual": 4.8476918891537935e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599766731262207,
+            "perturbation_index": 2,
+            "residual": 4.944703687215224e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599768161773682,
+            "perturbation_index": 3,
+            "residual": 4.792627805727534e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599764347076416,
+            "perturbation_index": 4,
+            "residual": 8.298936154460534e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.599775314331055,
+            "perturbation_index": 5,
+            "residual": 5.818196586915292e-05
+          }
+        ],
+        "transition_index": 32
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 8.069418907165527,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 2.7798363589681685e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069417953491211,
+            "perturbation_index": 0,
+            "residual": 2.976917130581569e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069416999816895,
+            "perturbation_index": 1,
+            "residual": 2.7798363589681685e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069414138793945,
+            "perturbation_index": 2,
+            "residual": 2.950502857856918e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069417953491211,
+            "perturbation_index": 3,
+            "residual": 3.105007635895163e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069416999816895,
+            "perturbation_index": 4,
+            "residual": 2.885972207877785e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069415092468262,
+            "perturbation_index": 5,
+            "residual": 3.3878441172419116e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.06942081451416,
+            "perturbation_index": 0,
+            "residual": 4.955820259056054e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069417953491211,
+            "perturbation_index": 1,
+            "residual": 3.585555896279402e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069424629211426,
+            "perturbation_index": 2,
+            "residual": 5.3185034630587325e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069424629211426,
+            "perturbation_index": 3,
+            "residual": 5.114754821988754e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.06942367553711,
+            "perturbation_index": 4,
+            "residual": 6.207387923495844e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 8.069421768188477,
+            "perturbation_index": 5,
+            "residual": 5.672554107150063e-05
+          }
+        ],
+        "transition_index": 65
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.545282363891602,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 1.7651784219196998e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.5452880859375,
+            "perturbation_index": 0,
+            "residual": 1.7794040104490705e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545287132263184,
+            "perturbation_index": 1,
+            "residual": 1.871677341114264e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545286655426025,
+            "perturbation_index": 2,
+            "residual": 1.9899089238606393e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545287609100342,
+            "perturbation_index": 3,
+            "residual": 1.93215164472349e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545287132263184,
+            "perturbation_index": 4,
+            "residual": 1.872380744316615e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545287132263184,
+            "perturbation_index": 5,
+            "residual": 2.1372874471126124e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545276641845703,
+            "perturbation_index": 0,
+            "residual": 2.0882409444311634e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545280456542969,
+            "perturbation_index": 1,
+            "residual": 1.7651784219196998e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545276641845703,
+            "perturbation_index": 2,
+            "residual": 2.1367559384088963e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.5452775955200195,
+            "perturbation_index": 3,
+            "residual": 1.944634823303204e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545276641845703,
+            "perturbation_index": 4,
+            "residual": 2.4190010663005523e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.545276641845703,
+            "perturbation_index": 5,
+            "residual": 2.0037663489347324e-05
+          }
+        ],
+        "transition_index": 98
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 9.034418106079102,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 1.810357025533449e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034415245056152,
+            "perturbation_index": 0,
+            "residual": 1.8433516743243672e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034415245056152,
+            "perturbation_index": 1,
+            "residual": 1.8288448700332083e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034415245056152,
+            "perturbation_index": 2,
+            "residual": 1.8931965314550325e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034415245056152,
+            "perturbation_index": 3,
+            "residual": 1.8737067875918e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034415245056152,
+            "perturbation_index": 4,
+            "residual": 1.8901842850027606e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034411430358887,
+            "perturbation_index": 5,
+            "residual": 1.810357025533449e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034421920776367,
+            "perturbation_index": 0,
+            "residual": 2.7303052775096148e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034415245056152,
+            "perturbation_index": 1,
+            "residual": 2.147528539353516e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034421920776367,
+            "perturbation_index": 2,
+            "residual": 2.8530892450362444e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034422874450684,
+            "perturbation_index": 3,
+            "residual": 2.7609034077613614e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034422874450684,
+            "perturbation_index": 4,
+            "residual": 3.222971281502396e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.034421920776367,
+            "perturbation_index": 5,
+            "residual": 2.9386508686002344e-05
+          }
+        ],
+        "transition_index": 131
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 7.010276794433594,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 2.006301292567514e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.0102691650390625,
+            "perturbation_index": 0,
+            "residual": 2.2251577320275828e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.01027250289917,
+            "perturbation_index": 1,
+            "residual": 2.0947631128365174e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010269641876221,
+            "perturbation_index": 2,
+            "residual": 2.3576458261231892e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010273456573486,
+            "perturbation_index": 3,
+            "residual": 2.006301292567514e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.01027250289917,
+            "perturbation_index": 4,
+            "residual": 2.0421541194082238e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010262966156006,
+            "perturbation_index": 5,
+            "residual": 3.558816752047278e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010284900665283,
+            "perturbation_index": 0,
+            "residual": 4.310454096412286e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010276794433594,
+            "perturbation_index": 1,
+            "residual": 3.1878425943432376e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010280609130859,
+            "perturbation_index": 2,
+            "residual": 4.950522634317167e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010281085968018,
+            "perturbation_index": 3,
+            "residual": 4.941686711390503e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.010284423828125,
+            "perturbation_index": 4,
+            "residual": 5.2289426093921065e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 7.0102949142456055,
+            "perturbation_index": 5,
+            "residual": 3.1512412533629686e-05
+          }
+        ],
+        "transition_index": 164
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 4.4439544677734375,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 7.096151875884971e-06
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953514099121,
+            "perturbation_index": 0,
+            "residual": 7.739969078102149e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953514099121,
+            "perturbation_index": 1,
+            "residual": 7.630597792740446e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953514099121,
+            "perturbation_index": 2,
+            "residual": 8.30307908472605e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953990936279,
+            "perturbation_index": 3,
+            "residual": 7.096151875884971e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.4439544677734375,
+            "perturbation_index": 4,
+            "residual": 8.03956572781317e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953514099121,
+            "perturbation_index": 5,
+            "residual": 9.23758307180833e-06
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953990936279,
+            "perturbation_index": 0,
+            "residual": 1.2896251064375974e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443953990936279,
+            "perturbation_index": 1,
+            "residual": 7.692177860008087e-06
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.443954944610596,
+            "perturbation_index": 2,
+            "residual": 1.449792762286961e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.44395637512207,
+            "perturbation_index": 3,
+            "residual": 1.5945148334139958e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.4439544677734375,
+            "perturbation_index": 4,
+            "residual": 1.338695983577054e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.4439544677734375,
+            "perturbation_index": 5,
+            "residual": 1.0965365618176293e-05
+          }
+        ],
+        "transition_index": 196
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.182180881500244,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 8.920058462535962e-06
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182187557220459,
+            "perturbation_index": 0,
+            "residual": 1.1167627235408872e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182187080383301,
+            "perturbation_index": 1,
+            "residual": 8.920058462535962e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182187557220459,
+            "perturbation_index": 2,
+            "residual": 9.808770300878678e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182187080383301,
+            "perturbation_index": 3,
+            "residual": 9.698080248199403e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182187557220459,
+            "perturbation_index": 4,
+            "residual": 1.0197666597377975e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.18218469619751,
+            "perturbation_index": 5,
+            "residual": 1.0820464012795128e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.1821746826171875,
+            "perturbation_index": 0,
+            "residual": 1.4945385373721365e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182181358337402,
+            "perturbation_index": 1,
+            "residual": 1.0046921488537919e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182173252105713,
+            "perturbation_index": 2,
+            "residual": 1.8447839465807192e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182173252105713,
+            "perturbation_index": 3,
+            "residual": 1.4940199434931856e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.1821722984313965,
+            "perturbation_index": 4,
+            "residual": 1.6836334907566197e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 5.182175636291504,
+            "perturbation_index": 5,
+            "residual": 1.4278999515227042e-05
+          }
+        ],
+        "transition_index": 229
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 4.175816535949707,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 5.652052550431108e-06
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175817012786865,
+            "perturbation_index": 0,
+            "residual": 6.2966992118163034e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816059112549,
+            "perturbation_index": 1,
+            "residual": 5.652052550431108e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816059112549,
+            "perturbation_index": 2,
+            "residual": 7.039536285446957e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816059112549,
+            "perturbation_index": 3,
+            "residual": 7.10434915163205e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816535949707,
+            "perturbation_index": 4,
+            "residual": 7.028388608887326e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816535949707,
+            "perturbation_index": 5,
+            "residual": 7.399123205686919e-06
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816059112549,
+            "perturbation_index": 0,
+            "residual": 1.0150564776267856e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816535949707,
+            "perturbation_index": 1,
+            "residual": 9.851196409726981e-06
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175815582275391,
+            "perturbation_index": 2,
+            "residual": 1.2658675586862955e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.17581844329834,
+            "perturbation_index": 3,
+            "residual": 1.3878381651011296e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175817012786865,
+            "perturbation_index": 4,
+            "residual": 1.319294733548304e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.175816535949707,
+            "perturbation_index": 5,
+            "residual": 1.1240754247410223e-05
+          }
+        ],
+        "transition_index": 262
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 9.528975486755371,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 1.5021441868157126e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528973579406738,
+            "perturbation_index": 0,
+            "residual": 1.5021441868157126e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528973579406738,
+            "perturbation_index": 1,
+            "residual": 1.578207411512267e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528973579406738,
+            "perturbation_index": 2,
+            "residual": 1.5489333236473612e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528973579406738,
+            "perturbation_index": 3,
+            "residual": 1.617805719433818e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528973579406738,
+            "perturbation_index": 4,
+            "residual": 1.592239823366981e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528973579406738,
+            "perturbation_index": 5,
+            "residual": 2.0209079593769275e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528979301452637,
+            "perturbation_index": 0,
+            "residual": 2.546789801272098e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528976440429688,
+            "perturbation_index": 1,
+            "residual": 2.446251892251894e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528979301452637,
+            "perturbation_index": 2,
+            "residual": 2.594364013930317e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.52897834777832,
+            "perturbation_index": 3,
+            "residual": 2.472661253705155e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528977394104004,
+            "perturbation_index": 4,
+            "residual": 2.7086200134363025e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 9.528979301452637,
+            "perturbation_index": 5,
+            "residual": 2.6474550395505503e-05
+          }
+        ],
+        "transition_index": 295
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 4.534217834472656,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 1.1933383575524203e-05
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534219741821289,
+            "perturbation_index": 0,
+            "residual": 1.2296473869355395e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534220218658447,
+            "perturbation_index": 1,
+            "residual": 1.2788278581865598e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534219741821289,
+            "perturbation_index": 2,
+            "residual": 1.1933383575524203e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534219741821289,
+            "perturbation_index": 3,
+            "residual": 1.2431096365617123e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534219264984131,
+            "perturbation_index": 4,
+            "residual": 1.3507966286852024e-05
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.5342183113098145,
+            "perturbation_index": 5,
+            "residual": 1.4055571227800101e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534215927124023,
+            "perturbation_index": 0,
+            "residual": 2.6010320652858354e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534217834472656,
+            "perturbation_index": 1,
+            "residual": 1.623820571694523e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534216403961182,
+            "perturbation_index": 2,
+            "residual": 2.8278045647311956e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534216403961182,
+            "perturbation_index": 3,
+            "residual": 2.8238851882633753e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534214496612549,
+            "perturbation_index": 4,
+            "residual": 3.075279892073013e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.534214019775391,
+            "perturbation_index": 5,
+            "residual": 2.7759919248637743e-05
+          }
+        ],
+        "transition_index": 328
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 4.647883415222168,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 5.8331338550488e-06
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647885799407959,
+            "perturbation_index": 0,
+            "residual": 5.8331338550488e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647885322570801,
+            "perturbation_index": 1,
+            "residual": 6.644447694270639e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647885322570801,
+            "perturbation_index": 2,
+            "residual": 7.021862984402105e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647885799407959,
+            "perturbation_index": 3,
+            "residual": 6.077774287405191e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647885799407959,
+            "perturbation_index": 4,
+            "residual": 6.8842073233099654e-06
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647885322570801,
+            "perturbation_index": 5,
+            "residual": 6.306308023340534e-06
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647881507873535,
+            "perturbation_index": 0,
+            "residual": 1.2716776836896315e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647883892059326,
+            "perturbation_index": 1,
+            "residual": 1.2254889043106232e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647879123687744,
+            "perturbation_index": 2,
+            "residual": 1.4762727005290799e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647881031036377,
+            "perturbation_index": 3,
+            "residual": 1.2904009963676799e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647880554199219,
+            "perturbation_index": 4,
+            "residual": 1.4838691640761681e-05
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": true,
+            "distance_to_ground_truth": 4.647881984710693,
+            "perturbation_index": 5,
+            "residual": 1.288418843614636e-05
+          }
+        ],
+        "transition_index": 361
+      }
+    ],
+    "root_cluster_threshold": 0.2694511651992798,
+    "subset_indices": [
+      0,
+      32,
+      65,
+      98,
+      131,
+      164,
+      196,
+      229,
+      262,
+      295,
+      328,
+      361
+    ]
+  },
+  "unforced": {
+    "centers": [
+      "q_current",
+      "mlp_prediction"
+    ],
+    "distinct_root_count": {
+      "count": 12,
+      "maximum": 2.0,
+      "mean": 1.1666666666666667,
+      "median": 1.0,
+      "minimum": 1.0,
+      "p90": 1.9000000000000004,
+      "p95": 2.0,
+      "p99": 2.0
+    },
+    "model": "unforced",
+    "perturbation_scale_training_std": 0.1,
+    "perturbations_per_center": 6,
+    "records": [
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.709686279296875,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.013401276431977749
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.71160888671875,
+            "perturbation_index": 0,
+            "residual": 0.021731792017817497
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.7107439041137695,
+            "perturbation_index": 1,
+            "residual": 0.022358277812600136
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.713901996612549,
+            "perturbation_index": 2,
+            "residual": 0.022957216948270798
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.711244583129883,
+            "perturbation_index": 3,
+            "residual": 0.023043286055326462
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.717902660369873,
+            "perturbation_index": 4,
+            "residual": 0.019582143053412437
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.715413570404053,
+            "perturbation_index": 5,
+            "residual": 0.021448176354169846
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.706550598144531,
+            "perturbation_index": 0,
+            "residual": 0.013401276431977749
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.711191177368164,
+            "perturbation_index": 1,
+            "residual": 0.016002114862203598
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.714117050170898,
+            "perturbation_index": 2,
+            "residual": 0.01431839819997549
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.702483654022217,
+            "perturbation_index": 3,
+            "residual": 0.01665096916258335
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.700653076171875,
+            "perturbation_index": 4,
+            "residual": 0.015344571322202682
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.715240478515625,
+            "perturbation_index": 5,
+            "residual": 0.015841910615563393
+          }
+        ],
+        "transition_index": 0
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 7.7601237297058105,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.015596776269376278
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.761767387390137,
+            "perturbation_index": 0,
+            "residual": 0.022335397079586983
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.7539496421813965,
+            "perturbation_index": 1,
+            "residual": 0.02135877124965191
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.750463485717773,
+            "perturbation_index": 2,
+            "residual": 0.028603551909327507
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.745790481567383,
+            "perturbation_index": 3,
+            "residual": 0.01732766255736351
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.746540546417236,
+            "perturbation_index": 4,
+            "residual": 0.015596776269376278
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.770115852355957,
+            "perturbation_index": 5,
+            "residual": 0.029387610033154488
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.760834693908691,
+            "perturbation_index": 0,
+            "residual": 0.0189853236079216
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.765082836151123,
+            "perturbation_index": 1,
+            "residual": 0.02359967678785324
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.769629001617432,
+            "perturbation_index": 2,
+            "residual": 0.020225320011377335
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.76198148727417,
+            "perturbation_index": 3,
+            "residual": 0.02108711749315262
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.764778137207031,
+            "perturbation_index": 4,
+            "residual": 0.02545294724404812
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.772408485412598,
+            "perturbation_index": 5,
+            "residual": 0.02249635010957718
+          }
+        ],
+        "transition_index": 32
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 7.050309658050537,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.012430232018232346
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.033084392547607,
+            "perturbation_index": 0,
+            "residual": 0.02490593120455742
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.042426586151123,
+            "perturbation_index": 1,
+            "residual": 0.024666493758559227
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.040438175201416,
+            "perturbation_index": 2,
+            "residual": 0.02443566732108593
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.05018949508667,
+            "perturbation_index": 3,
+            "residual": 0.026569819077849388
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.047207832336426,
+            "perturbation_index": 4,
+            "residual": 0.027034856379032135
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.029617786407471,
+            "perturbation_index": 5,
+            "residual": 0.029165763407945633
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.061229228973389,
+            "perturbation_index": 0,
+            "residual": 0.013661537319421768
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.063748836517334,
+            "perturbation_index": 1,
+            "residual": 0.013273028656840324
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.0569658279418945,
+            "perturbation_index": 2,
+            "residual": 0.012430232018232346
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.0677409172058105,
+            "perturbation_index": 3,
+            "residual": 0.013502714224159718
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.064333438873291,
+            "perturbation_index": 4,
+            "residual": 0.015937447547912598
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.059106349945068,
+            "perturbation_index": 5,
+            "residual": 0.014571401290595531
+          }
+        ],
+        "transition_index": 65
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.328855037689209,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.012137182988226414
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.309625148773193,
+            "perturbation_index": 0,
+            "residual": 0.027954287827014923
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.318302154541016,
+            "perturbation_index": 1,
+            "residual": 0.03623285889625549
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.317000389099121,
+            "perturbation_index": 2,
+            "residual": 0.0336797758936882
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.3186469078063965,
+            "perturbation_index": 3,
+            "residual": 0.03319503366947174
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.3174967765808105,
+            "perturbation_index": 4,
+            "residual": 0.03392338380217552
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.299256324768066,
+            "perturbation_index": 5,
+            "residual": 0.0403861328959465
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.348809719085693,
+            "perturbation_index": 0,
+            "residual": 0.015058915130794048
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.343438625335693,
+            "perturbation_index": 1,
+            "residual": 0.012661994434893131
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.363921642303467,
+            "perturbation_index": 2,
+            "residual": 0.014243677258491516
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.337020397186279,
+            "perturbation_index": 3,
+            "residual": 0.014349255710840225
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.331937313079834,
+            "perturbation_index": 4,
+            "residual": 0.012819083407521248
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.357391357421875,
+            "perturbation_index": 5,
+            "residual": 0.012137182988226414
+          }
+        ],
+        "transition_index": 98
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 8.769326210021973,
+            "cluster": 0,
+            "members": 6,
+            "minimum_residual": 0.030653297901153564
+          },
+          {
+            "center_distance_to_ground_truth": 8.706331253051758,
+            "cluster": 1,
+            "members": 6,
+            "minimum_residual": 0.025085171684622765
+          }
+        ],
+        "distinct_root_count": 2,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 8.760683059692383,
+            "perturbation_index": 0,
+            "residual": 0.030653297901153564
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 8.769940376281738,
+            "perturbation_index": 1,
+            "residual": 0.04819360375404358
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 8.765090942382812,
+            "perturbation_index": 2,
+            "residual": 0.046779144555330276
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 8.781097412109375,
+            "perturbation_index": 3,
+            "residual": 0.036819521337747574
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 8.764307975769043,
+            "perturbation_index": 4,
+            "residual": 0.0338054820895195
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 8.77629280090332,
+            "perturbation_index": 5,
+            "residual": 0.03541002795100212
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 8.699613571166992,
+            "perturbation_index": 0,
+            "residual": 0.025085171684622765
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 8.712668418884277,
+            "perturbation_index": 1,
+            "residual": 0.026354890316724777
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 8.712120056152344,
+            "perturbation_index": 2,
+            "residual": 0.025487208738923073
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 8.707006454467773,
+            "perturbation_index": 3,
+            "residual": 0.026800373569130898
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 8.696632385253906,
+            "perturbation_index": 4,
+            "residual": 0.033300675451755524
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 8.711396217346191,
+            "perturbation_index": 5,
+            "residual": 0.028056787326931953
+          }
+        ],
+        "transition_index": 131
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.278163433074951,
+            "cluster": 0,
+            "members": 6,
+            "minimum_residual": 0.045908745378255844
+          },
+          {
+            "center_distance_to_ground_truth": 5.265501499176025,
+            "cluster": 1,
+            "members": 6,
+            "minimum_residual": 0.030773257836699486
+          }
+        ],
+        "distinct_root_count": 2,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.291566371917725,
+            "perturbation_index": 0,
+            "residual": 0.04604954272508621
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.285459041595459,
+            "perturbation_index": 1,
+            "residual": 0.05248695984482765
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.276155471801758,
+            "perturbation_index": 2,
+            "residual": 0.05355242267251015
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.280573844909668,
+            "perturbation_index": 3,
+            "residual": 0.05063651502132416
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.239805221557617,
+            "perturbation_index": 4,
+            "residual": 0.05333863943815231
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.299609184265137,
+            "perturbation_index": 5,
+            "residual": 0.045908745378255844
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 5.272074222564697,
+            "perturbation_index": 0,
+            "residual": 0.03483035787940025
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 5.302791595458984,
+            "perturbation_index": 1,
+            "residual": 0.03319915011525154
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 5.25619649887085,
+            "perturbation_index": 2,
+            "residual": 0.03356783837080002
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 5.260268211364746,
+            "perturbation_index": 3,
+            "residual": 0.035224586725234985
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 5.242327690124512,
+            "perturbation_index": 4,
+            "residual": 0.03619914501905441
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 1,
+            "converged": false,
+            "distance_to_ground_truth": 5.265936374664307,
+            "perturbation_index": 5,
+            "residual": 0.030773257836699486
+          }
+        ],
+        "transition_index": 164
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 7.318576812744141,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.034415025264024734
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.309937953948975,
+            "perturbation_index": 0,
+            "residual": 0.0354640819132328
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.331467628479004,
+            "perturbation_index": 1,
+            "residual": 0.036830030381679535
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.330711364746094,
+            "perturbation_index": 2,
+            "residual": 0.034415025264024734
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.338263988494873,
+            "perturbation_index": 3,
+            "residual": 0.038623783737421036
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.334421634674072,
+            "perturbation_index": 4,
+            "residual": 0.03542239964008331
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.311106204986572,
+            "perturbation_index": 5,
+            "residual": 0.037173762917518616
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.324036121368408,
+            "perturbation_index": 0,
+            "residual": 0.04217733070254326
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.308760643005371,
+            "perturbation_index": 1,
+            "residual": 0.04081140458583832
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.3142499923706055,
+            "perturbation_index": 2,
+            "residual": 0.038330078125
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.306135654449463,
+            "perturbation_index": 3,
+            "residual": 0.04248298332095146
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.305357933044434,
+            "perturbation_index": 4,
+            "residual": 0.04768390208482742
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.316440105438232,
+            "perturbation_index": 5,
+            "residual": 0.03838050737977028
+          }
+        ],
+        "transition_index": 196
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 5.097396373748779,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.015759671106934547
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.117487907409668,
+            "perturbation_index": 0,
+            "residual": 0.01596834883093834
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.117650985717773,
+            "perturbation_index": 1,
+            "residual": 0.017753448337316513
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.117668151855469,
+            "perturbation_index": 2,
+            "residual": 0.018061844632029533
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.123039245605469,
+            "perturbation_index": 3,
+            "residual": 0.0189269557595253
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.105379104614258,
+            "perturbation_index": 4,
+            "residual": 0.018839672207832336
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.114038467407227,
+            "perturbation_index": 5,
+            "residual": 0.015759671106934547
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.09754753112793,
+            "perturbation_index": 0,
+            "residual": 0.018863845616579056
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.080916881561279,
+            "perturbation_index": 1,
+            "residual": 0.02200058288872242
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.07882022857666,
+            "perturbation_index": 2,
+            "residual": 0.022481732070446014
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.072298526763916,
+            "perturbation_index": 3,
+            "residual": 0.021943483501672745
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.069202423095703,
+            "perturbation_index": 4,
+            "residual": 0.025713477283716202
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 5.090758323669434,
+            "perturbation_index": 5,
+            "residual": 0.02060873433947563
+          }
+        ],
+        "transition_index": 229
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 7.014377593994141,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.04176676273345947
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.023375511169434,
+            "perturbation_index": 0,
+            "residual": 0.04476195201277733
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.045876979827881,
+            "perturbation_index": 1,
+            "residual": 0.05354583263397217
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.03558349609375,
+            "perturbation_index": 2,
+            "residual": 0.053221121430397034
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.047696113586426,
+            "perturbation_index": 3,
+            "residual": 0.049408480525016785
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.026892185211182,
+            "perturbation_index": 4,
+            "residual": 0.0528087317943573
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.040075778961182,
+            "perturbation_index": 5,
+            "residual": 0.04176676273345947
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.010864734649658,
+            "perturbation_index": 0,
+            "residual": 0.05357906222343445
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.992090702056885,
+            "perturbation_index": 1,
+            "residual": 0.05985310301184654
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.000945091247559,
+            "perturbation_index": 2,
+            "residual": 0.05808801203966141
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.987148284912109,
+            "perturbation_index": 3,
+            "residual": 0.0672554224729538
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.968111515045166,
+            "perturbation_index": 4,
+            "residual": 0.06545189768075943
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.005225658416748,
+            "perturbation_index": 5,
+            "residual": 0.05727064236998558
+          }
+        ],
+        "transition_index": 262
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 6.388012409210205,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.022126775234937668
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.372136116027832,
+            "perturbation_index": 0,
+            "residual": 0.028377875685691833
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.389583110809326,
+            "perturbation_index": 1,
+            "residual": 0.028994789347052574
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.3846869468688965,
+            "perturbation_index": 2,
+            "residual": 0.026642896234989166
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.389608860015869,
+            "perturbation_index": 3,
+            "residual": 0.026191821321845055
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.368184566497803,
+            "perturbation_index": 4,
+            "residual": 0.026841159909963608
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.39131498336792,
+            "perturbation_index": 5,
+            "residual": 0.02642018347978592
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.384927272796631,
+            "perturbation_index": 0,
+            "residual": 0.025570185855031013
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.39608907699585,
+            "perturbation_index": 1,
+            "residual": 0.026407435536384583
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.405172824859619,
+            "perturbation_index": 2,
+            "residual": 0.022606080397963524
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.395491123199463,
+            "perturbation_index": 3,
+            "residual": 0.024558469653129578
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.387831211090088,
+            "perturbation_index": 4,
+            "residual": 0.025653421878814697
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.410579204559326,
+            "perturbation_index": 5,
+            "residual": 0.022126775234937668
+          }
+        ],
+        "transition_index": 295
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 6.591856479644775,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.01084835547953844
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.594282627105713,
+            "perturbation_index": 0,
+            "residual": 0.013698194175958633
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.59902811050415,
+            "perturbation_index": 1,
+            "residual": 0.013319334015250206
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.595967769622803,
+            "perturbation_index": 2,
+            "residual": 0.012156091630458832
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.588187217712402,
+            "perturbation_index": 3,
+            "residual": 0.011848971247673035
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.5915093421936035,
+            "perturbation_index": 4,
+            "residual": 0.01084835547953844
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.594013690948486,
+            "perturbation_index": 5,
+            "residual": 0.03695044293999672
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.59112024307251,
+            "perturbation_index": 0,
+            "residual": 0.013189591467380524
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.591395378112793,
+            "perturbation_index": 1,
+            "residual": 0.01370130106806755
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.5872344970703125,
+            "perturbation_index": 2,
+            "residual": 0.013816972263157368
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.593985557556152,
+            "perturbation_index": 3,
+            "residual": 0.013642075471580029
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.5934062004089355,
+            "perturbation_index": 4,
+            "residual": 0.014807420782744884
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 6.584316730499268,
+            "perturbation_index": 5,
+            "residual": 0.013893184252083302
+          }
+        ],
+        "transition_index": 328
+      },
+      {
+        "cluster_threshold": 0.2694511651992798,
+        "clusters": [
+          {
+            "center_distance_to_ground_truth": 7.893192768096924,
+            "cluster": 0,
+            "members": 12,
+            "minimum_residual": 0.021197665482759476
+          }
+        ],
+        "distinct_root_count": 1,
+        "initialization_to_root_mapping": [
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.902482032775879,
+            "perturbation_index": 0,
+            "residual": 0.021197665482759476
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.909697532653809,
+            "perturbation_index": 1,
+            "residual": 0.023332925513386726
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.9062018394470215,
+            "perturbation_index": 2,
+            "residual": 0.0221942737698555
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.911736488342285,
+            "perturbation_index": 3,
+            "residual": 0.024220619350671768
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.896493434906006,
+            "perturbation_index": 4,
+            "residual": 0.02358159050345421
+          },
+          {
+            "center": "q_current",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.912710666656494,
+            "perturbation_index": 5,
+            "residual": 0.02312782220542431
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.889171123504639,
+            "perturbation_index": 0,
+            "residual": 0.02989693358540535
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.886929512023926,
+            "perturbation_index": 1,
+            "residual": 0.03062693029642105
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.888216495513916,
+            "perturbation_index": 2,
+            "residual": 0.03298386558890343
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.869115829467773,
+            "perturbation_index": 3,
+            "residual": 0.030142350122332573
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.861547946929932,
+            "perturbation_index": 4,
+            "residual": 0.030236493796110153
+          },
+          {
+            "center": "mlp_prediction",
+            "cluster": 0,
+            "converged": false,
+            "distance_to_ground_truth": 7.886988162994385,
+            "perturbation_index": 5,
+            "residual": 0.03449029102921486
+          }
+        ],
+        "transition_index": 361
+      }
+    ],
+    "root_cluster_threshold": 0.2694511651992798,
+    "subset_indices": [
+      0,
+      32,
+      65,
+      98,
+      131,
+      164,
+      196,
+      229,
+      262,
+      295,
+      328,
+      361
+    ]
+  }
+}

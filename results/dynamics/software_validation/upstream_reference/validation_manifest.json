@@ -1,0 +1,70 @@
+{
+  "status": "failed_upstream_training_sanity_check",
+  "upstream_commit": "52f56983608953d846a6d7de1ec2488b97bb6741",
+  "environment": {
+    "python": "Python 3.10 (original run)",
+    "torch": "2.10.0+cu128",
+    "device": "cpu"
+  },
+  "official_readme_run": {
+    "toy_generation": {
+      "status": "passed",
+      "samples": 128,
+      "steps": 64,
+      "state_dimension": 9,
+      "dt": 0.02,
+      "output": "results/dynamics/software_validation/upstream_reference/toy_parabolic.pt"
+    },
+    "training": {
+      "status": "failed_and_interrupted_after_epoch_1",
+      "epochs_requested": 10,
+      "batch_size": 16,
+      "solver_step_size_from_upstream_cli_default": 0.25,
+      "epoch_1": {
+        "train_trajectory": 424.5588393807411,
+        "train_del": "NaN",
+        "train_regularization": "NaN",
+        "train_total": "NaN"
+      },
+      "log": "results/dynamics/software_validation/upstream_reference/run/train_log.jsonl",
+      "interpretation": "The exact README training configuration did not pass the required unchanged-upstream software sanity check in this environment."
+    }
+  },
+  "diagnostics": {
+    "reduced_step_run": {
+      "status": "finite_forward_metrics_but_nonfinite_parameters_after_optimizer_step",
+      "changes_from_readme": {
+        "solver_step_size": 0.05,
+        "max_train_samples": 16,
+        "epochs": 1
+      },
+      "reported_epoch_1": {
+        "train_trajectory": 1.2992039918899536,
+        "train_del": 0.013542454689741135,
+        "train_regularization": 0.1332770437002182,
+        "train_total": 1.299352765083313
+      },
+      "checkpoint_nonfinite_evidence": "Every listed learned parameter tensor contained nonfinite entries after the optimizer step; upstream evaluation consequently returned NaN learned-model metrics.",
+      "checkpoint": "results/dynamics/software_validation/upstream_reference/diagnostic_step_005/lawm_final.pth"
+    },
+    "upstream_evaluator": {
+      "unmodified_status": "failed",
+      "reason": "PyTorch 2.6+ weights_only loading rejected pathlib.PosixPath checkpoint metadata.",
+      "compatibility_wrapper": "scripts/dynamics/evaluate_upstream_compatibility.py",
+      "wrapper_scope": "Allow-lists only pathlib.Path and pathlib.PosixPath, then calls the upstream evaluator without modifying LaWM.",
+      "learned_stationary_action_residual": "NaN",
+      "learned_model_relative_energy_drift": "NaN",
+      "state_energy_mode": "translational_gravity",
+      "state_relative_energy_drift": 1.0610138190259022e-07,
+      "state_relative_energy_variation": 4.1812708673205634e-07
+    },
+    "upstream_tests": {
+      "status": "no_tests_discovered",
+      "note": "The repository contains no pytest tests. The tvl environment also does not include pytest; a plugin-isolated invocation from the libero environment discovered zero tests."
+    }
+  },
+  "decision": {
+    "latent_adapter_implemented": false,
+    "reason": "Do not build a scientific latent-dynamics comparison on an upstream variational solver that has not passed its own official toy training sanity check. The representation evidence is also only descriptive and based on one seed and one episode per split."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "checks": [
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977950687232,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "prepare",
+      "planned_bytes": 32000000000,
+      "projected_free_bytes": 945950687232,
+      "total_capacity": 1795564949504,
+      "used_bytes": 726329438208
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977950314496,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "before_download",
+      "planned_bytes": 4160142328,
+      "projected_free_bytes": 973790172168,
+      "subset": "training/subset_training_023.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 726329810944
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977947148288,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "after_cleanup",
+      "planned_bytes": 0,
+      "projected_free_bytes": 977947148288,
+      "subset": "training/subset_training_023.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 726332977152
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977947099136,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "before_download",
+      "planned_bytes": 31194555788,
+      "projected_free_bytes": 946752543348,
+      "subset": "training/subset_training_000.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 726333026304
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 955885498368,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "authorization_pause",
+      "planned_bytes": 0,
+      "projected_free_bytes": 955885498368,
+      "staging_incomplete_logical_bytes": 27917287424,
+      "subset": "training/subset_training_000.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 748394627072
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 955888959488,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "before_download",
+      "planned_bytes": 31194555788,
+      "projected_free_bytes": 924694403700,
+      "subset": "training/subset_training_000.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 748391165952
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977833586688,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "after_cleanup",
+      "planned_bytes": 0,
+      "projected_free_bytes": 977833586688,
+      "subset": "training/subset_training_000.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 726446538752
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977833328640,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "before_download",
+      "planned_bytes": 31490888374,
+      "projected_free_bytes": 946342440266,
+      "subset": "training/subset_training_001.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 726446796800
+    },
+    {
+      "filesystem": 5881437477724468019,
+      "free_bytes": 977768456192,
+      "mount_probe": "/home/jinjaguo/PGLT",
+      "passed": true,
+      "phase": "after_cleanup",
+      "planned_bytes": 0,
+      "projected_free_bytes": 977768456192,
+      "subset": "training/subset_training_001.zip",
+      "total_capacity": 1795564949504,
+      "used_bytes": 726511669248
+    }
+  ],
+  "created_at": "2026-08-13T20:46:48-04:00",
+  "final": {
+    "filesystem": 5881437477724468019,
+    "free_bytes": 977767796736,
+    "mount_probe": "/home/jinjaguo/PGLT",
+    "passed": true,
+    "planned_bytes": 0,
+    "projected_free_bytes": 977767796736,
+    "total_capacity": 1795564949504,
+    "used_bytes": 726512328704
+  },
+  "initial": {
+    "filesystem": 5881437477724468019,
+    "free_bytes": 977950687232,
+    "mount_probe": "/home/jinjaguo/PGLT",
+    "passed": true,
+    "planned_bytes": 32000000000,
+    "projected_free_bytes": 945950687232,
+    "total_capacity": 1795564949504,
+    "used_bytes": 726329438208
+  },
+  "minimum_free_bytes": 200000000000,
+  "planned_compact_bytes": 2000000000,
+  "planned_largest_subset_bytes": 30000000000,
+  "updated_at": "2026-08-13T21:48:25-04:00"
+}

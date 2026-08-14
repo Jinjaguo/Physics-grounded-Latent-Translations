@@ -1,0 +1,88 @@
+{
+  "all_models_frozen": true,
+  "created_at": "2026-08-12T17:53:05-04:00",
+  "frozen_latents_sha256": "5b60d23d049de2269343093975d819b05ea4280b1a1ed2d8fc95db3f3befdb3a",
+  "latent_serialization_manifest_sha256": "93cc66330f5cba36c18c2095c32b28f44c6d22acf73811c8f02a593a5c5babba",
+  "learned_optimizer_steps": 0,
+  "representation_audit": {
+    "all_representation_parameters_require_grad_false": true,
+    "ema_updates": 0,
+    "initial_state_tensor_hashes": {
+      "decoder.0.bias": "8740448cda422dc2c01f4eea7c3893fcbffe5002977a7bdd797d7ff1a203c55b",
+      "decoder.0.weight": "07e940dcef4d7d763b60bd62fc0cb86dc7feb7e33f905e228efcee5986206a20",
+      "decoder.2.bias": "0841abc243dfc06c7cf77948ba4d09fceb967e0557ebe3f984d8b366b4668f04",
+      "decoder.2.weight": "c99282bded3a164704626d830b181ba614a2d39a0b74304b131a1a4194ab30bc",
+      "decoder.4.bias": "37b61a06f54053c36fe07ff213f528c5e1e326569b068d1bf8d6ae5591917f5c",
+      "decoder.4.weight": "4effa9e3e56f451d8fbc3ca63bc9f7d11bb6a7debcce1aa55ec7578daa315d72",
+      "encoder.0.bias": "588a93bd88c4eaf0a98ab9fd54544544009677b38f8778ce4f4e88f6176cb355",
+      "encoder.0.weight": "28e4c6e6357c083b16e9c6543b9e0e92cd00dcbb52836749ca737d3df6c53d1a",
+      "encoder.2.bias": "d9c0ee6833bae1d2e38de5c4d3cf6b952383a841b1681c0b79dd8f7119a7f82f",
+      "encoder.2.weight": "274c451665356b173fbdc506d44a9142667591adb2b51df344cc640ae17a58a7",
+      "encoder.4.bias": "7126afc8574ac23f6d399e39a0ce0cd9eb18b032d90adcb4b533fd674355d474",
+      "encoder.4.weight": "b62a95910772f89c16f4a41f4edb7403dda29dc7ffc7ccfddf5b60073b544088",
+      "text_projection.weight": "2858f9deac95c452df3d364c8ad7e7c7f937ed96dea9d11db2bfd1763c4af385"
+    },
+    "observed_sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+    "representation_backward_calls": 0,
+    "representation_optimizer_steps": 0,
+    "selected_checkpoint": {
+      "bytes": 337087,
+      "condition": "correct_language",
+      "ema_decay": 0.999,
+      "epoch": 40,
+      "normalization_source_rows": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        11,
+        14,
+        16,
+        17,
+        23,
+        27,
+        30
+      ],
+      "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+      "seed_base": 810,
+      "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+      "source_payload_condition": "ema_isolated_correct_language"
+    },
+    "selection_rule": "first_manifest_entry_with_condition_correct_language"
+  },
+  "split_preregistration_sha256": "d1d87e6405f4dea4fba3f0307ec45a7269b56c0f5e631d043fdc2a0011431d5f",
+  "wave13_checkpoint_audit": {
+    "ORACLE_FUTURE_ACTION_DIAGNOSTIC.pt": {
+      "expected_sha256": "74d769acf60192641c6ae852eda2683498639e1a7c448c97757ce75fdfebb49b",
+      "observed_sha256": "74d769acf60192641c6ae852eda2683498639e1a7c448c97757ce75fdfebb49b",
+      "unchanged": true
+    },
+    "forced_del.pt": {
+      "expected_sha256": "b99860b36411491ce1665544bec76b8df88b478af89473cd842259bc6f812ca4",
+      "observed_sha256": "b99860b36411491ce1665544bec76b8df88b478af89473cd842259bc6f812ca4",
+      "unchanged": true
+    },
+    "history_mlp.pt": {
+      "expected_sha256": "7be774d7459a864346f317472bd07af4ee98f1cd44358a3daa0d0810098f143b",
+      "observed_sha256": "7be774d7459a864346f317472bd07af4ee98f1cd44358a3daa0d0810098f143b",
+      "unchanged": true
+    },
+    "matched_refinement.pt": {
+      "expected_sha256": "923cf84d8321540592f09f6ded35b5c1d7bb85256bbdc779dcfbb5033c8b9781",
+      "observed_sha256": "923cf84d8321540592f09f6ded35b5c1d7bb85256bbdc779dcfbb5033c8b9781",
+      "unchanged": true
+    },
+    "mlp.pt": {
+      "expected_sha256": "3e8b73cd5f74bbf7ffb9ba11dcc32bef737526955aa16d3a23f84f7dd03e0c11",
+      "observed_sha256": "3e8b73cd5f74bbf7ffb9ba11dcc32bef737526955aa16d3a23f84f7dd03e0c11",
+      "unchanged": true
+    },
+    "unforced_del.pt": {
+      "expected_sha256": "1a91f5f69c2209319fa4ab6d10032a3374a5dc4a9419ef9d81bbaa96eec5cf90",
+      "observed_sha256": "1a91f5f69c2209319fa4ab6d10032a3374a5dc4a9419ef9d81bbaa96eec5cf90",
+      "unchanged": true
+    }
+  }
+}

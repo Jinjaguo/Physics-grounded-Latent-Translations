@@ -1,0 +1,36 @@
+{
+  "downloaded_bytes": 12614629,
+  "files": [
+    {
+      "bytes": 449843,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/episodes.jsonl",
+      "sha256": "cf48ccfba3f86613d672963873df56138bb9ea2da3855600779a7148dd08ac12"
+    },
+    {
+      "bytes": 12135544,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/episodes_stats.jsonl",
+      "sha256": "0e8d40783209f6d219b7078a7124534ca5714377a6e81170da54ccfe31e99a1c"
+    },
+    {
+      "bytes": 3111,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/info.json",
+      "sha256": "79d7bbe37fe87b4fb7551446efa08c7b08e5e4b13f09f86687cc2c5d74e9532d"
+    },
+    {
+      "bytes": 26131,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/tasks.jsonl",
+      "sha256": "1f5a20fb973a3967cc08ac1948287fc5b96575e25f6a4a630d1f14915a7d78a3"
+    }
+  ],
+  "license": "apache-2.0",
+  "repo_id": "CollisionCode/calvin_d_d_lerobot_v2.1",
+  "repository_file_count": 15378,
+  "revision": "437ab85fe61d38fb68ac235db9c3965a05cece18",
+  "selected_files": [
+    "meta/episodes.jsonl",
+    "meta/episodes_stats.jsonl",
+    "meta/info.json",
+    "meta/tasks.jsonl"
+  ],
+  "tier": "1A"
+}

@@ -1,0 +1,544 @@
+{
+  "manifest": {
+    "created_at": "2026-08-11T23:09:18.496646-04:00",
+    "created_after_complete_development_before_confirmation_access": true,
+    "confirmation_metrics_accessed": false,
+    "confirmation_authorized": true,
+    "development_gate": "results/representation/development_validation/development_gate_decision.json",
+    "development_gate_sha256": "73303bdb873a623ba8889c88304efc01778a269fb55e6ffb0c48797eeb54ee63",
+    "ema_decay": 0.999,
+    "selected_epoch": 40,
+    "seeds": [
+      810,
+      1810,
+      2810,
+      202128,
+      472026,
+      411223
+    ],
+    "conditions": [
+      "correct_language",
+      "shuffled_language",
+      "reconstruction_only"
+    ],
+    "architecture": {
+      "latent_dim": 32,
+      "semantic_dim": 16,
+      "execution_dim": 16
+    },
+    "optimizer": "AdamW",
+    "gate_thresholds": {
+      "relative_mse": 0.2,
+      "gripper_drop": 0.05
+    },
+    "confirmation_episode_rows": [
+      29,
+      20,
+      22,
+      9
+    ],
+    "training_episode_rows": [
+      0,
+      1,
+      2,
+      3,
+      16,
+      5,
+      6,
+      11,
+      30,
+      23,
+      27,
+      17,
+      14
+    ],
+    "normalization_rule": "historical_plus_all_development_episodes_only",
+    "confirmation_description": "previously unseen training-distribution confirmation episodes",
+    "run_limit": 1,
+    "adaptation_after_metrics_forbidden": true,
+    "checkpoint_index_sha256": "3dce6b4ebafaf231c243b495bc7d7d80cbe07548ec659dbfa873559b6b4a92b0"
+  },
+  "missing_units": [],
+  "cells": [
+    {
+      "seed_base": 810,
+      "confirmation_episode_row": 29,
+      "correct_mse": 0.0031291780660549543,
+      "baseline_mse": 0.003096083569374683,
+      "relative_mse_increase": 0.010689148383341358,
+      "gripper_drop": 0.0005580357142856984,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.8703703703703703,
+          "action_to_text": 0.562962962962963
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8518518518518519,
+          "action_to_text": 0.562962962962963
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 810,
+      "confirmation_episode_row": 20,
+      "correct_mse": 0.0036348067162900056,
+      "baseline_mse": 0.003503390026756804,
+      "relative_mse_increase": 0.037511292927569904,
+      "gripper_drop": 0.0010416666666667185,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.9,
+          "action_to_text": 0.6000000000000001
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.5333333333333334
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 810,
+      "confirmation_episode_row": 22,
+      "correct_mse": 0.003950982868150096,
+      "baseline_mse": 0.0038642537576979094,
+      "relative_mse_increase": 0.02244394801439082,
+      "gripper_drop": -0.0018382352941176405,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.5
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.9,
+          "action_to_text": 0.75
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 810,
+      "confirmation_episode_row": 9,
+      "correct_mse": 0.004306257038171535,
+      "baseline_mse": 0.004457098315409523,
+      "relative_mse_increase": -0.03384293245596221,
+      "gripper_drop": -0.0016891891891891442,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.39999999999999997,
+          "action_to_text": 0.39999999999999997
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.9333333333333333,
+          "action_to_text": 0.3333333333333333
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 1810,
+      "confirmation_episode_row": 29,
+      "correct_mse": 0.0031568062218962256,
+      "baseline_mse": 0.0030190393366825337,
+      "relative_mse_increase": 0.04563268969031614,
+      "gripper_drop": 0.0011160714285713969,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.8777777777777778,
+          "action_to_text": 0.8092592592592595
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8333333333333334,
+          "action_to_text": 0.6370370370370371
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 1810,
+      "confirmation_episode_row": 20,
+      "correct_mse": 0.003652449703320367,
+      "baseline_mse": 0.0037327397180616346,
+      "relative_mse_increase": -0.021509674074719858,
+      "gripper_drop": -0.002083333333333326,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.8444444444444444
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.6000000000000001
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 1810,
+      "confirmation_episode_row": 22,
+      "correct_mse": 0.004066102064497543,
+      "baseline_mse": 0.004020293996343481,
+      "relative_mse_increase": 0.011394208531944432,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.7000000000000001,
+          "action_to_text": 0.8
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 1.0,
+          "action_to_text": 0.7000000000000001
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 1810,
+      "confirmation_episode_row": 9,
+      "correct_mse": 0.004571050496217597,
+      "baseline_mse": 0.0044742893795659535,
+      "relative_mse_increase": 0.021626030067154443,
+      "gripper_drop": -0.0016891891891891442,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.7333333333333334,
+          "action_to_text": 0.7333333333333334
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.7333333333333332
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 2810,
+      "confirmation_episode_row": 29,
+      "correct_mse": 0.0030320430829938335,
+      "baseline_mse": 0.0031096738357689778,
+      "relative_mse_increase": -0.024964274993151268,
+      "gripper_drop": 0.0011160714285713969,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.8222222222222222,
+          "action_to_text": 0.6166666666666668
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.7777777777777779,
+          "action_to_text": 0.7277777777777777
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 2810,
+      "confirmation_episode_row": 20,
+      "correct_mse": 0.0035883234669552636,
+      "baseline_mse": 0.003909851639461661,
+      "relative_mse_increase": -0.08223538951229062,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.9333333333333333,
+          "action_to_text": 0.7111111111111111
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.9333333333333333,
+          "action_to_text": 0.8333333333333334
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 2810,
+      "confirmation_episode_row": 22,
+      "correct_mse": 0.003980836191674211,
+      "baseline_mse": 0.00403610384591931,
+      "relative_mse_increase": -0.013693318198682521,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.55,
+          "action_to_text": 0.6000000000000001
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.6000000000000001,
+          "action_to_text": 0.8
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 2810,
+      "confirmation_episode_row": 9,
+      "correct_mse": 0.004546966619924169,
+      "baseline_mse": 0.004584516479710368,
+      "relative_mse_increase": -0.008190582355278506,
+      "gripper_drop": -0.005067567567567655,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.6666666666666667,
+          "action_to_text": 0.7333333333333334
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.7333333333333332,
+          "action_to_text": 0.8
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 202128,
+      "confirmation_episode_row": 29,
+      "correct_mse": 0.003171987388012869,
+      "baseline_mse": 0.0030726695335819313,
+      "relative_mse_increase": 0.032322986037212724,
+      "gripper_drop": 0.0011160714285715079,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.7703703703703704,
+          "action_to_text": 0.7296296296296296
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.5833333333333333,
+          "action_to_text": 0.6833333333333333
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 202128,
+      "confirmation_episode_row": 20,
+      "correct_mse": 0.003774953210870012,
+      "baseline_mse": 0.003860778068898247,
+      "relative_mse_increase": -0.022229938239554575,
+      "gripper_drop": -0.0010416666666666075,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.6000000000000001,
+          "action_to_text": 0.33333333333333337
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.6,
+          "action_to_text": 0.6111111111111112
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 202128,
+      "confirmation_episode_row": 22,
+      "correct_mse": 0.0040144228602093926,
+      "baseline_mse": 0.004064274212722078,
+      "relative_mse_increase": -0.012265745346768187,
+      "gripper_drop": 0.0018382352941176405,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.7000000000000001,
+          "action_to_text": 0.7000000000000001
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.75
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 202128,
+      "confirmation_episode_row": 9,
+      "correct_mse": 0.0044674512495169695,
+      "baseline_mse": 0.004502143399856105,
+      "relative_mse_increase": -0.007705696433446407,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.26666666666666666,
+          "action_to_text": 0.3333333333333333
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.2
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 472026,
+      "confirmation_episode_row": 29,
+      "correct_mse": 0.003075920008587812,
+      "baseline_mse": 0.0031176086116722975,
+      "relative_mse_increase": -0.013371980988377956,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.7685185185185185,
+          "action_to_text": 0.9481481481481482
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8888888888888888,
+          "action_to_text": 0.7759259259259259
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 472026,
+      "confirmation_episode_row": 20,
+      "correct_mse": 0.0036495687139476425,
+      "baseline_mse": 0.003807842914069786,
+      "relative_mse_increase": -0.04156531760733313,
+      "gripper_drop": 0.0010416666666667185,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.9333333333333333,
+          "action_to_text": 0.7000000000000001
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 1.0,
+          "action_to_text": 0.6666666666666667
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 472026,
+      "confirmation_episode_row": 22,
+      "correct_mse": 0.0039020948565914033,
+      "baseline_mse": 0.004151882313145431,
+      "relative_mse_increase": -0.06016246071406374,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.35,
+          "action_to_text": 0.6000000000000001
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.7000000000000001
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 472026,
+      "confirmation_episode_row": 9,
+      "correct_mse": 0.004182185586722079,
+      "baseline_mse": 0.004720520156981519,
+      "relative_mse_increase": -0.1140413667047387,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.6666666666666667,
+          "action_to_text": 0.4666666666666666
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8666666666666667,
+          "action_to_text": 0.3333333333333333
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 411223,
+      "confirmation_episode_row": 29,
+      "correct_mse": 0.0030954433683775488,
+      "baseline_mse": 0.003188653494731889,
+      "relative_mse_increase": -0.02923181415238027,
+      "gripper_drop": 0.0,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.7611111111111112,
+          "action_to_text": 0.7111111111111111
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.8333333333333334,
+          "action_to_text": 0.6777777777777779
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 411223,
+      "confirmation_episode_row": 20,
+      "correct_mse": 0.003714772135233873,
+      "baseline_mse": 0.003913778867995711,
+      "relative_mse_increase": -0.05084772018909467,
+      "gripper_drop": 0.002083333333333326,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.8,
+          "action_to_text": 0.7777777777777778
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 1.0,
+          "action_to_text": 0.7222222222222222
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 411223,
+      "confirmation_episode_row": 22,
+      "correct_mse": 0.003935522897699221,
+      "baseline_mse": 0.004084376984977125,
+      "relative_mse_increase": -0.03644474734467677,
+      "gripper_drop": 0.0018382352941176405,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.3,
+          "action_to_text": 0.2
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 1.0,
+          "action_to_text": 0.1499999999999999
+        }
+      },
+      "semantic_passed": true
+    },
+    {
+      "seed_base": 411223,
+      "confirmation_episode_row": 9,
+      "correct_mse": 0.004524729766009678,
+      "baseline_mse": 0.004554574617405106,
+      "relative_mse_increase": -0.006552719826210925,
+      "gripper_drop": -0.0033783783783783994,
+      "motor_passed": true,
+      "semantic_delta": {
+        "semantic_retrieval": {
+          "text_to_action": 0.46666666666666673,
+          "action_to_text": 0.1333333333333333
+        },
+        "cross_episode_retrieval": {
+          "text_to_action": 0.9333333333333333,
+          "action_to_text": -0.06666666666666665
+        }
+      },
+      "semantic_passed": false
+    }
+  ]
+}

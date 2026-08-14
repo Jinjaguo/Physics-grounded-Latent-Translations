@@ -1,0 +1,77 @@
+{
+  "development": {
+    "all_sequences_with_at_least_one_latent": 242,
+    "all_windows_inside_one_annotation": true,
+    "any_primary_window_overlap": false,
+    "any_task_boundary": false,
+    "horizon_sample_counts": {
+      "1": 362,
+      "16": 0,
+      "2": 180,
+      "4": 0,
+      "8": 0
+    },
+    "latent_windows": 846,
+    "sequences_with_at_least_two_latents": 242,
+    "sequences_with_trainable_triples": 182,
+    "task_sequence_counts": {
+      "lift_blue_block_slider": 35,
+      "lift_red_block_table": 37,
+      "place_in_slider": 46,
+      "push_pink_block_right": 45,
+      "turn_off_lightbulb": 38,
+      "turn_on_lightbulb": 41
+    },
+    "transitions": 362
+  },
+  "official_validation": {
+    "all_sequences_with_at_least_one_latent": 179,
+    "all_windows_inside_one_annotation": true,
+    "any_primary_window_overlap": false,
+    "any_task_boundary": false,
+    "horizon_sample_counts": {
+      "1": 249,
+      "16": 0,
+      "2": 123,
+      "4": 0,
+      "8": 0
+    },
+    "latent_windows": 607,
+    "sequences_with_at_least_two_latents": 179,
+    "sequences_with_trainable_triples": 126,
+    "task_sequence_counts": {
+      "lift_blue_block_slider": 29,
+      "lift_red_block_table": 29,
+      "place_in_slider": 30,
+      "push_pink_block_right": 29,
+      "turn_off_lightbulb": 29,
+      "turn_on_lightbulb": 33
+    },
+    "transitions": 249
+  },
+  "train": {
+    "all_sequences_with_at_least_one_latent": 665,
+    "all_windows_inside_one_annotation": true,
+    "any_primary_window_overlap": false,
+    "any_task_boundary": false,
+    "horizon_sample_counts": {
+      "1": 1015,
+      "16": 0,
+      "2": 504,
+      "4": 0,
+      "8": 0
+    },
+    "latent_windows": 2345,
+    "sequences_with_at_least_two_latents": 665,
+    "sequences_with_trainable_triples": 511,
+    "task_sequence_counts": {
+      "lift_blue_block_slider": 119,
+      "lift_red_block_table": 113,
+      "place_in_slider": 105,
+      "push_pink_block_right": 105,
+      "turn_off_lightbulb": 114,
+      "turn_on_lightbulb": 109
+    },
+    "transitions": 1015
+  }
+}

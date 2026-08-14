@@ -1,0 +1,22 @@
+{
+  "train_pt": "results/dynamics/software_validation/upstream_reference/toy_parabolic.pt",
+  "val_pt": null,
+  "dt": 0.02,
+  "epochs": 10,
+  "batch_size": 16,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "state_dim": 9,
+  "context_dim": 16,
+  "hidden_dim": 128,
+  "depth": 3,
+  "solver_iters": 8,
+  "solver_step_size": 0.25,
+  "lambda_del": 0.01,
+  "lambda_reg": 0.0001,
+  "max_train_samples": null,
+  "max_val_samples": null,
+  "save_every": 100,
+  "out_dir": "results/dynamics/software_validation/upstream_reference/run",
+  "device": "cpu"
+}

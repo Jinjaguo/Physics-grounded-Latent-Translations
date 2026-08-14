@@ -1,0 +1,58 @@
+[
+  {
+    "annotation_member": "subset_training_023/training/lang_annotations/auto_lang_ann.npy",
+    "authoritative_session_rows": 178,
+    "episode_member": "subset_training_023/training/ep_start_end_ids.npy",
+    "frame_max": 2406143,
+    "frame_members": 7126,
+    "frame_min": 2399018,
+    "selected_here": 6,
+    "selected_session_counts": {
+      "training_ep_row_00177": 6
+    },
+    "source_bytes": 2160142328,
+    "source_subset": "training/subset_training_023.zip",
+    "source_zip_sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21",
+    "unique_supported_events": 4053
+  },
+  {
+    "annotation_member": "subset_training_000/training/lang_annotations/auto_lang_ann.npy",
+    "authoritative_session_rows": 178,
+    "episode_member": "subset_training_000/training/ep_start_end_ids.npy",
+    "frame_max": 153816,
+    "frame_members": 100000,
+    "frame_min": 37682,
+    "selected_here": 36,
+    "selected_session_counts": {
+      "training_ep_row_00000": 6,
+      "training_ep_row_00001": 6,
+      "training_ep_row_00002": 6,
+      "training_ep_row_00003": 6,
+      "training_ep_row_00004": 6,
+      "training_ep_row_00005": 6
+    },
+    "source_bytes": 29194555788,
+    "source_subset": "training/subset_training_000.zip",
+    "source_zip_sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af",
+    "unique_supported_events": 4053
+  },
+  {
+    "annotation_member": "subset_training_001/training/lang_annotations/auto_lang_ann.npy",
+    "authoritative_session_rows": 178,
+    "episode_member": "subset_training_001/training/ep_start_end_ids.npy",
+    "frame_max": 278465,
+    "frame_members": 100000,
+    "frame_min": 153817,
+    "selected_here": 19,
+    "selected_session_counts": {
+      "training_ep_row_00006": 6,
+      "training_ep_row_00007": 6,
+      "training_ep_row_00008": 6,
+      "training_ep_row_00009": 1
+    },
+    "source_bytes": 29490888374,
+    "source_subset": "training/subset_training_001.zip",
+    "source_zip_sha256": "d394ff59065a80729ff8990ce21715654b61aa53681cf7fe393d0a6af079f2c2",
+    "unique_supported_events": 4053
+  }
+]

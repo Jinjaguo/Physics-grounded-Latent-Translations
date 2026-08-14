@@ -1,0 +1,94 @@
+{
+  "authoritative_boundary": "one ep_start_end_ids.npy row",
+  "eligible_blocks": 61,
+  "numeric_frame_continuity_required": true,
+  "physically_continuous_sessions_reconstructed": 11,
+  "raw_frame_overlap_between_blocks": false,
+  "reset_crossing": false,
+  "session_to_blocks": {
+    "training_ep_row_00000": [
+      "subset_training_000_session_00000_frame_0054447",
+      "subset_training_000_session_00000_frame_0055036",
+      "subset_training_000_session_00000_frame_0055430",
+      "subset_training_000_session_00000_frame_0056251",
+      "subset_training_000_session_00000_frame_0057177",
+      "subset_training_000_session_00000_frame_0057758"
+    ],
+    "training_ep_row_00001": [
+      "subset_training_000_session_00001_frame_0064782",
+      "subset_training_000_session_00001_frame_0065612",
+      "subset_training_000_session_00001_frame_0070168",
+      "subset_training_000_session_00001_frame_0070438",
+      "subset_training_000_session_00001_frame_0071946",
+      "subset_training_000_session_00001_frame_0072448"
+    ],
+    "training_ep_row_00002": [
+      "subset_training_000_session_00002_frame_0084540",
+      "subset_training_000_session_00002_frame_0084889",
+      "subset_training_000_session_00002_frame_0085079",
+      "subset_training_000_session_00002_frame_0087177",
+      "subset_training_000_session_00002_frame_0087452",
+      "subset_training_000_session_00002_frame_0087913"
+    ],
+    "training_ep_row_00003": [
+      "subset_training_000_session_00003_frame_0103398",
+      "subset_training_000_session_00003_frame_0103965",
+      "subset_training_000_session_00003_frame_0104170",
+      "subset_training_000_session_00003_frame_0104786",
+      "subset_training_000_session_00003_frame_0105912",
+      "subset_training_000_session_00003_frame_0106326"
+    ],
+    "training_ep_row_00004": [
+      "subset_training_000_session_00004_frame_0122500",
+      "subset_training_000_session_00004_frame_0123353",
+      "subset_training_000_session_00004_frame_0123757",
+      "subset_training_000_session_00004_frame_0125021",
+      "subset_training_000_session_00004_frame_0125843",
+      "subset_training_000_session_00004_frame_0126307"
+    ],
+    "training_ep_row_00005": [
+      "subset_training_000_session_00005_frame_0147707",
+      "subset_training_000_session_00005_frame_0148023",
+      "subset_training_000_session_00005_frame_0150436",
+      "subset_training_000_session_00005_frame_0150944",
+      "subset_training_000_session_00005_frame_0151177",
+      "subset_training_000_session_00005_frame_0152173"
+    ],
+    "training_ep_row_00006": [
+      "subset_training_001_session_00006_frame_0166415",
+      "subset_training_001_session_00006_frame_0167504",
+      "subset_training_001_session_00006_frame_0168687",
+      "subset_training_001_session_00006_frame_0169355",
+      "subset_training_001_session_00006_frame_0169805",
+      "subset_training_001_session_00006_frame_0170705"
+    ],
+    "training_ep_row_00007": [
+      "subset_training_001_session_00007_frame_0197223",
+      "subset_training_001_session_00007_frame_0197753",
+      "subset_training_001_session_00007_frame_0198306",
+      "subset_training_001_session_00007_frame_0198579",
+      "subset_training_001_session_00007_frame_0199746",
+      "subset_training_001_session_00007_frame_0199958"
+    ],
+    "training_ep_row_00008": [
+      "subset_training_001_session_00008_frame_0246388",
+      "subset_training_001_session_00008_frame_0247733",
+      "subset_training_001_session_00008_frame_0251587",
+      "subset_training_001_session_00008_frame_0252031",
+      "subset_training_001_session_00008_frame_0252374",
+      "subset_training_001_session_00008_frame_0252839"
+    ],
+    "training_ep_row_00009": [
+      "subset_training_001_session_00009_frame_0273960"
+    ],
+    "training_ep_row_00177": [
+      "subset_training_023_session_00177_frame_2399317",
+      "subset_training_023_session_00177_frame_2400071",
+      "subset_training_023_session_00177_frame_2401084",
+      "subset_training_023_session_00177_frame_2402081",
+      "subset_training_023_session_00177_frame_2403339",
+      "subset_training_023_session_00177_frame_2403765"
+    ]
+  },
+  "synthetic_concatenation": false
+}

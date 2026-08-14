@@ -1,0 +1,889 @@
+{
+  "models": {
+    "ORACLE_FUTURE_ACTION_DIAGNOSTIC": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.012361614033579826,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.9832527624309392,
+            "per_action_dimension_error": [
+              0.012195568531751633,
+              0.010379293002188206,
+              0.01014578714966774,
+              0.012289495207369328,
+              0.011484584771096706,
+              0.017674952745437622,
+              0.016747237569060772
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.13386501371860504,
+            "cosine_similarity": 0.8661350011825562,
+            "execution_mse": 0.2688497006893158,
+            "full_mse": 0.26410627365112305,
+            "normalized_full_mse": 0.2910103998712741,
+            "semantic_mse": 0.2593628764152527
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0027624309392265192,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 2.651524066925049,
+            "knn_radius_ratio_to_ground_truth": 1.1035010836266894,
+            "nearest_training_latent_distance": 2.32617449760437,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.574585635359116,
+            "predicted_latent_to_text_retrieval_accuracy": 0.574585635359116,
+            "semantic_cosine_to_frozen_task_prototype": 0.27368924021720886
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.014596137218177319,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.9805555555555555,
+            "per_action_dimension_error": [
+              0.015889843925833702,
+              0.01657852903008461,
+              0.012844286859035492,
+              0.010975155979394913,
+              0.012982020154595375,
+              0.01830698922276497,
+              0.019444444444444445
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.13585588335990906,
+            "cosine_similarity": 0.8641441464424133,
+            "execution_mse": 0.2994039058685303,
+            "full_mse": 0.29502758383750916,
+            "normalized_full_mse": 0.32508161945074754,
+            "semantic_mse": 0.2906512916088104
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 2.713974952697754,
+            "knn_radius_ratio_to_ground_truth": 1.18708142638282,
+            "nearest_training_latent_distance": 2.4341351985931396,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.3277777777777778,
+            "predicted_latent_to_text_retrieval_accuracy": 0.3277777777777778,
+            "semantic_cosine_to_frozen_task_prototype": 0.20587018132209778
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "ORACLE_FUTURE_ACTION_DIAGNOSTIC",
+      "normalized_rollout_error_auc": 0.3080460096610108
+    },
+    "constant_velocity": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.14111356437206268,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.575621546961326,
+            "per_action_dimension_error": [
+              0.15539002418518066,
+              0.1106308326125145,
+              0.19916610419750214,
+              0.08742891997098923,
+              0.16277292370796204,
+              0.13129258155822754,
+              0.42437845303867405
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.889930009841919,
+            "cosine_similarity": 0.11007001250982285,
+            "execution_mse": 6.159653186798096,
+            "full_mse": 4.355672359466553,
+            "normalized_full_mse": 4.79937843775347,
+            "semantic_mse": 2.551692485809326
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.6298342541436464,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 7.290638446807861,
+            "knn_radius_ratio_to_ground_truth": 3.0341898558412352,
+            "nearest_training_latent_distance": 6.867250442504883,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.47513812154696133,
+            "predicted_latent_to_text_retrieval_accuracy": 0.47513812154696133,
+            "semantic_cosine_to_frozen_task_prototype": 0.15435267984867096
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.3886992633342743,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.31631944444444443,
+            "per_action_dimension_error": [
+              0.485411673784256,
+              0.4748011827468872,
+              0.382781058549881,
+              0.23361456394195557,
+              0.3579840064048767,
+              0.3976030945777893,
+              0.6836805555555555
+            ]
+          },
+          "latent": {
+            "cosine_error": 1.1205220222473145,
+            "cosine_similarity": -0.12052202224731445,
+            "execution_mse": 12.222965240478516,
+            "full_mse": 10.629844665527344,
+            "normalized_full_mse": 11.712691652190475,
+            "semantic_mse": 9.036723136901855
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.9111111111111111,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 13.281917572021484,
+            "knn_radius_ratio_to_ground_truth": 5.809455846606773,
+            "nearest_training_latent_distance": 12.83022689819336,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.4222222222222222,
+            "predicted_latent_to_text_retrieval_accuracy": 0.4222222222222222,
+            "semantic_cosine_to_frozen_task_prototype": 0.10657228529453278
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "constant_velocity",
+      "normalized_rollout_error_auc": 8.256035044971973
+    },
+    "copy": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.06537406146526337,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.569578729281768,
+            "per_action_dimension_error": [
+              0.07759695500135422,
+              0.06546315550804138,
+              0.10220323503017426,
+              0.030562521889805794,
+              0.06655503064393997,
+              0.04986345022916794,
+              0.43042127071823205
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.8254746794700623,
+            "cosine_similarity": 0.17452524602413177,
+            "execution_mse": 2.4346823692321777,
+            "full_mse": 1.6950604915618896,
+            "normalized_full_mse": 1.8677338657506986,
+            "semantic_mse": 0.9554386138916016
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.011049723756906077,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 2.6980669498443604,
+            "knn_radius_ratio_to_ground_truth": 1.1228711215521352,
+            "nearest_training_latent_distance": 2.238654136657715,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.7071823204419889,
+            "predicted_latent_to_text_retrieval_accuracy": 0.7071823204419889,
+            "semantic_cosine_to_frozen_task_prototype": 0.32063037157058716
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.09694395214319229,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.20868055555555556,
+            "per_action_dimension_error": [
+              0.15478572249412537,
+              0.14450445771217346,
+              0.10995014756917953,
+              0.032696790993213654,
+              0.07286395132541656,
+              0.06686263531446457,
+              0.7913194444444445
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.9113287925720215,
+            "cosine_similarity": 0.08867117017507553,
+            "execution_mse": 2.4903275966644287,
+            "full_mse": 1.9285008907318115,
+            "normalized_full_mse": 2.124954502615566,
+            "semantic_mse": 1.3666740655899048
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.016666666666666666,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 2.8818817138671875,
+            "knn_radius_ratio_to_ground_truth": 1.2605231496935687,
+            "nearest_training_latent_distance": 2.408579111099243,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.6277777777777778,
+            "predicted_latent_to_text_retrieval_accuracy": 0.6277777777777778,
+            "semantic_cosine_to_frozen_task_prototype": 0.3043077290058136
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "copy",
+      "normalized_rollout_error_auc": 1.9963441841831322
+    },
+    "forced_del": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.03524547442793846,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.8304558011049724,
+            "per_action_dimension_error": [
+              0.040864285081624985,
+              0.029890570789575577,
+              0.03405933082103729,
+              0.03286847472190857,
+              0.029451578855514526,
+              0.044338591396808624,
+              0.16954419889502761
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.43923115730285645,
+            "cosine_similarity": 0.5607689023017883,
+            "execution_mse": 0.9769745469093323,
+            "full_mse": 0.8858715295791626,
+            "normalized_full_mse": 0.9761139881059887,
+            "semantic_mse": 0.7947685122489929
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.03591160220994475,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 4.106716632843018,
+            "knn_radius_ratio_to_ground_truth": 1.7091175264139586,
+            "nearest_training_latent_distance": 3.834587574005127,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.292817679558011,
+            "predicted_latent_to_text_retrieval_accuracy": 0.292817679558011,
+            "semantic_cosine_to_frozen_task_prototype": 0.18352942168712616
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+            "iterations": 4.0,
+            "learned_energy_change_abs": 8.074347221390319,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 2.150649682263643
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.06355553865432739,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.7878472222222223,
+            "per_action_dimension_error": [
+              0.08730088919401169,
+              0.06656627357006073,
+              0.04687878116965294,
+              0.055754099041223526,
+              0.04166930541396141,
+              0.08316392451524734,
+              0.21215277777777777
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.485300749540329,
+            "cosine_similarity": 0.5146992802619934,
+            "execution_mse": 1.4335917234420776,
+            "full_mse": 1.5272159576416016,
+            "normalized_full_mse": 1.682791250578774,
+            "semantic_mse": 1.620840072631836
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.19444444444444445,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 5.467460632324219,
+            "knn_radius_ratio_to_ground_truth": 2.3914446814108654,
+            "nearest_training_latent_distance": 5.1867594718933105,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.12222222222222222,
+            "predicted_latent_to_text_retrieval_accuracy": 0.12222222222222222,
+            "semantic_cosine_to_frozen_task_prototype": 0.09813090413808823
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+            "iterations": 4.0,
+            "learned_energy_change_abs": 6.649984608756172,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 1.946187471350034
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "forced_del",
+      "normalized_rollout_error_auc": 1.3294526193423815
+    },
+    "history_mlp": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.022636177018284798,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.8566988950276243,
+            "per_action_dimension_error": [
+              0.023692307993769646,
+              0.020570391789078712,
+              0.02510315366089344,
+              0.018807105720043182,
+              0.020566079765558243,
+              0.027078023180365562,
+              0.1433011049723757
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.3370975852012634,
+            "cosine_similarity": 0.6629024147987366,
+            "execution_mse": 0.7147321105003357,
+            "full_mse": 0.5774394273757935,
+            "normalized_full_mse": 0.636262351283811,
+            "semantic_mse": 0.44014668464660645
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0027624309392265192,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 3.1180036067962646,
+            "knn_radius_ratio_to_ground_truth": 1.2976387436082297,
+            "nearest_training_latent_distance": 2.8414924144744873,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.5828729281767956,
+            "predicted_latent_to_text_retrieval_accuracy": 0.5828729281767956,
+            "semantic_cosine_to_frozen_task_prototype": 0.27386051416397095
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.029239092022180557,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.8708333333333333,
+            "per_action_dimension_error": [
+              0.03999409079551697,
+              0.03568931296467781,
+              0.025600183755159378,
+              0.01728956401348114,
+              0.023142389953136444,
+              0.0337190143764019,
+              0.12916666666666668
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.3182898759841919,
+            "cosine_similarity": 0.6817101240158081,
+            "execution_mse": 0.6560899615287781,
+            "full_mse": 0.6130210161209106,
+            "normalized_full_mse": 0.675468585295692,
+            "semantic_mse": 0.5699520707130432
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 3.2159879207611084,
+            "knn_radius_ratio_to_ground_truth": 1.4066598235964536,
+            "nearest_training_latent_distance": 2.9592463970184326,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.3333333333333333,
+            "predicted_latent_to_text_retrieval_accuracy": 0.3333333333333333,
+            "semantic_cosine_to_frozen_task_prototype": 0.221435084939003
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "history_mlp",
+      "normalized_rollout_error_auc": 0.6558654682897516
+    },
+    "matched_refinement": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.023969687521457672,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.8585980662983426,
+            "per_action_dimension_error": [
+              0.02845652960240841,
+              0.02033114805817604,
+              0.026769280433654785,
+              0.017682604491710663,
+              0.019969362765550613,
+              0.030609196051955223,
+              0.14140193370165746
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.33689239621162415,
+            "cosine_similarity": 0.6631075739860535,
+            "execution_mse": 0.723253607749939,
+            "full_mse": 0.5736285448074341,
+            "normalized_full_mse": 0.6320632595895876,
+            "semantic_mse": 0.42400339245796204
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 3.0175743103027344,
+            "knn_radius_ratio_to_ground_truth": 1.255842465425849,
+            "nearest_training_latent_distance": 2.7732672691345215,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.5911602209944752,
+            "predicted_latent_to_text_retrieval_accuracy": 0.5911602209944752,
+            "semantic_cosine_to_frozen_task_prototype": 0.26713865995407104
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.02995937131345272,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.9027777777777778,
+            "per_action_dimension_error": [
+              0.03980070352554321,
+              0.03528616204857826,
+              0.035100698471069336,
+              0.015510013327002525,
+              0.0253593809902668,
+              0.028699258342385292,
+              0.09722222222222222
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.32194656133651733,
+            "cosine_similarity": 0.6780534386634827,
+            "execution_mse": 0.6253753304481506,
+            "full_mse": 0.6022466421127319,
+            "normalized_full_mse": 0.6635966413045977,
+            "semantic_mse": 0.5791179537773132
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 2.7630271911621094,
+            "knn_radius_ratio_to_ground_truth": 1.208536672734912,
+            "nearest_training_latent_distance": 2.5080878734588623,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.34444444444444444,
+            "predicted_latent_to_text_retrieval_accuracy": 0.34444444444444444,
+            "semantic_cosine_to_frozen_task_prototype": 0.1968134492635727
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "matched_refinement",
+      "normalized_rollout_error_auc": 0.6478299504470927
+    },
+    "mlp": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.026148483157157898,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.8530732044198895,
+            "per_action_dimension_error": [
+              0.03133004531264305,
+              0.021461138501763344,
+              0.027661653235554695,
+              0.02024628408253193,
+              0.0219303909689188,
+              0.03426138311624527,
+              0.1469267955801105
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.35907894372940063,
+            "cosine_similarity": 0.6409210562705994,
+            "execution_mse": 0.770664632320404,
+            "full_mse": 0.6104583740234375,
+            "normalized_full_mse": 0.6726448905337199,
+            "semantic_mse": 0.4502522945404053
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 3.1344215869903564,
+            "knn_radius_ratio_to_ground_truth": 1.3044715154322293,
+            "nearest_training_latent_distance": 2.8807878494262695,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.5828729281767956,
+            "predicted_latent_to_text_retrieval_accuracy": 0.5828729281767956,
+            "semantic_cosine_to_frozen_task_prototype": 0.2580444812774658
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.03321588784456253,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.8930555555555556,
+            "per_action_dimension_error": [
+              0.043758928775787354,
+              0.0383281372487545,
+              0.03593667224049568,
+              0.018624765798449516,
+              0.028043998405337334,
+              0.0346028171479702,
+              0.10694444444444444
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.3605034649372101,
+            "cosine_similarity": 0.6394965052604675,
+            "execution_mse": 0.7029372453689575,
+            "full_mse": 0.6639150381088257,
+            "normalized_full_mse": 0.7315471081002092,
+            "semantic_mse": 0.6248928308486938
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.0,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 2.960529327392578,
+            "knn_radius_ratio_to_ground_truth": 1.2949232907680184,
+            "nearest_training_latent_distance": 2.703185796737671,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.3888888888888889,
+            "predicted_latent_to_text_retrieval_accuracy": 0.3888888888888889,
+            "semantic_cosine_to_frozen_task_prototype": 0.19244541227817535
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "mlp",
+      "normalized_rollout_error_auc": 0.7020959993169645
+    },
+    "unforced_del": {
+      "auc_supported_horizons": [
+        1,
+        2
+      ],
+      "horizons": {
+        "1": {
+          "decoded_actions": {
+            "continuous_mse": 0.05525221675634384,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.7090814917127072,
+            "per_action_dimension_error": [
+              0.07797525823116302,
+              0.04442862048745155,
+              0.043658602982759476,
+              0.0501132495701313,
+              0.03943132609128952,
+              0.07590623199939728,
+              0.2909185082872928
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.6224411725997925,
+            "cosine_similarity": 0.3775588274002075,
+            "execution_mse": 1.624900221824646,
+            "full_mse": 1.5047876834869385,
+            "normalized_full_mse": 1.6580782403956351,
+            "semantic_mse": 1.3846750259399414
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.09116022099447514,
+            "ground_truth_heldout_knn_radius": 2.4028286933898926,
+            "knn_radius": 5.062376022338867,
+            "knn_radius_ratio_to_ground_truth": 2.1068401739438634,
+            "nearest_training_latent_distance": 4.7474212646484375,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 0.5333333333333333,
+          "sample_count": 362,
+          "semantic_retention": {
+            "correct_task_assignment": 0.287292817679558,
+            "predicted_latent_to_text_retrieval_accuracy": 0.287292817679558,
+            "semantic_cosine_to_frozen_task_prototype": 0.13992814719676971
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+            "iterations": 4.0,
+            "learned_energy_change_abs": 2.279114365907005,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 0.1614643237785081
+          },
+          "supported": true
+        },
+        "16": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "2": {
+          "decoded_actions": {
+            "continuous_mse": 0.09906161576509476,
+            "dimension_7_metric": "gripper_classification_error; dimensions_1_to_6_are_mse",
+            "gripper_accuracy": 0.6701388888888888,
+            "per_action_dimension_error": [
+              0.12520422041416168,
+              0.11407553404569626,
+              0.08264782279729843,
+              0.08063270896673203,
+              0.0847540944814682,
+              0.10705526173114777,
+              0.3298611111111111
+            ]
+          },
+          "latent": {
+            "cosine_error": 0.6639317274093628,
+            "cosine_similarity": 0.336068332195282,
+            "execution_mse": 2.2664618492126465,
+            "full_mse": 2.6790847778320312,
+            "normalized_full_mse": 2.9519992906939705,
+            "semantic_mse": 3.091707944869995
+          },
+          "off_manifold": {
+            "fraction_beyond_preregistered_train_quantile": 0.4,
+            "ground_truth_heldout_knn_radius": 2.2862584590911865,
+            "knn_radius": 6.657534599304199,
+            "knn_radius_ratio_to_ground_truth": 2.911978115523581,
+            "nearest_training_latent_distance": 6.365675926208496,
+            "threshold": 6.576994800567626
+          },
+          "physical_duration_seconds": 1.0666666666666667,
+          "sample_count": 180,
+          "semantic_retention": {
+            "correct_task_assignment": 0.17222222222222222,
+            "predicted_latent_to_text_retrieval_accuracy": 0.17222222222222222,
+            "semantic_cosine_to_frozen_task_prototype": 0.12666410207748413
+          },
+          "solver": {
+            "convergence_rate": 0.0,
+            "energy_interpretation": "diagnostic learned energy only; not physical energy conservation",
+            "iterations": 4.0,
+            "learned_energy_change_abs": 1.651294000281228,
+            "nonfinite_rate": 0.0,
+            "residual_norm": 0.15606763884425162
+          },
+          "supported": true
+        },
+        "4": {
+          "sample_count": 0,
+          "supported": false
+        },
+        "8": {
+          "sample_count": 0,
+          "supported": false
+        }
+      },
+      "model": "unforced_del",
+      "normalized_rollout_error_auc": 2.305038765544803
+    }
+  },
+  "primary_aggregate": {
+    "block_a_autonomous": [
+      {
+        "model": "matched_refinement",
+        "normalized_rollout_error_auc": 0.6478299504470927
+      },
+      {
+        "model": "mlp",
+        "normalized_rollout_error_auc": 0.7020959993169645
+      },
+      {
+        "model": "copy",
+        "normalized_rollout_error_auc": 1.9963441841831322
+      },
+      {
+        "model": "unforced_del",
+        "normalized_rollout_error_auc": 2.305038765544803
+      },
+      {
+        "model": "constant_velocity",
+        "normalized_rollout_error_auc": 8.256035044971973
+      }
+    ],
+    "block_b_causal_history": [
+      {
+        "model": "history_mlp",
+        "normalized_rollout_error_auc": 0.6558654682897516
+      },
+      {
+        "model": "forced_del",
+        "normalized_rollout_error_auc": 1.3294526193423815
+      }
+    ],
+    "oracle_excluded_from_primary": true,
+    "oracle_name": "ORACLE_FUTURE_ACTION_DIAGNOSTIC"
+  },
+  "split": "dynamics_development"
+}

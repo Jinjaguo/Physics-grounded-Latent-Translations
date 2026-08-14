@@ -1,0 +1,3 @@
+# Sixteenth-wave next experiment
+
+Open data supplies zero PRIMARY_COMPATIBLE >=160-frame segments, so collect only the exact missing cells in `targeted_missing_data_acquisition_plan.json`: 10 prospective segments for each frozen task (60 total), each with >=160 contiguous 30-Hz original CALVIN 7-D `rel_actions`. Preserve successes and failures without model-dependent selection. Once the 10/task and 60-total gate passes, evaluate the already-frozen semantic/F1/F2 checkpoints at H1/H2/H4/H8 with the preregistered 10,000-replicate paired whole-trajectory bootstrap. Do not adapt representation/F1/F2, read future actions, or reopen DEL.

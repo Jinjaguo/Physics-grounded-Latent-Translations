@@ -1,0 +1,20 @@
+{
+  "config": "configs/representation.yaml",
+  "config_sha256": "b682126fd717507098fd7267260ae35bdb0c77e96462f6b028d46c08f5668e61",
+  "compact_official_episodes": 31,
+  "bad_episodes": [],
+  "checkpoint_count": 18,
+  "checkpoint_hashes_valid": true,
+  "inference_record_count": 18,
+  "missing_inference_records": [],
+  "read_only_inference": true,
+  "candidate_query_exclusion_exact": true,
+  "readiness_gate_passed": true,
+  "representation_ready": true,
+  "tests": {
+    "tests": 9,
+    "failures": 0,
+    "errors": 0
+  },
+  "complete": true
+}

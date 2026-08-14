@@ -1,0 +1,2840 @@
+{
+  "historical_gate_a_preserved": true,
+  "source_scope": "already-observed historical confirmation only",
+  "failure_seed": 411223,
+  "failure_episode": 9,
+  "direction": "cross_episode_action_to_text",
+  "delta": -0.06666666666666665,
+  "stronger_control": "reconstruction_only",
+  "exact_task_causes": [
+    "lift_red_block_table",
+    "push_pink_block_right"
+  ],
+  "classification": "seed-specific stronger-control/ranking instability with task-specific misses",
+  "classification_basis": "Correct-language episode-9 A\u2192T equals seed 472026 at macro/per-task level, but seed 411223 reconstruction-only is much stronger; negative contributions are concentrated in lift_red_block_table and push_pink_block_right. Other seeds and the other three seed-411223 episodes pass.",
+  "rankings": {
+    "correct_language": {
+      "candidate_annotation_count": 340,
+      "candidate_episode_count": 13,
+      "query_annotation_count": 11,
+      "queries": [
+        {
+          "query_episode": 9,
+          "query_annotation_id": 66,
+          "overlap_group_id": 1,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "slide up the switch",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.4055018126964569,
+          "best_relevant_candidate": {
+            "episode_id": 3,
+            "annotation_id": 4804,
+            "task": "turn_on_lightbulb",
+            "text": "toggle the light switch to turn on the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.4055018126964569,
+              "episode_id": 3,
+              "annotation_id": 4804,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.4055018126964569,
+              "episode_id": 14,
+              "annotation_id": 257,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.4055018126964569,
+              "episode_id": 3,
+              "annotation_id": 3948,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.4055018126964569,
+              "episode_id": 11,
+              "annotation_id": 1500,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.396266371011734,
+              "episode_id": 14,
+              "annotation_id": 3279,
+              "task": "turn_on_lightbulb",
+              "text": "move up the switch",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 247,
+          "overlap_group_id": 7,
+          "query_task": "place_in_slider",
+          "query_text": "place the grasped object in the slider",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.2954748868942261,
+          "best_relevant_candidate": {
+            "episode_id": 27,
+            "annotation_id": 2256,
+            "task": "place_in_slider",
+            "text": "put the grasped object in the slider"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.2954748868942261,
+              "episode_id": 27,
+              "annotation_id": 2256,
+              "task": "place_in_slider",
+              "text": "put the grasped object in the slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.2894827127456665,
+              "episode_id": 16,
+              "annotation_id": 59,
+              "task": "turn_on_lightbulb",
+              "text": "move the light switch to turn on the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.2894827127456665,
+              "episode_id": 3,
+              "annotation_id": 889,
+              "task": "turn_on_lightbulb",
+              "text": "move the light switch to turn on the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.2894827127456665,
+              "episode_id": 17,
+              "annotation_id": 3250,
+              "task": "turn_on_lightbulb",
+              "text": "move the light switch to turn on the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.2894827127456665,
+              "episode_id": 14,
+              "annotation_id": 945,
+              "task": "turn_on_lightbulb",
+              "text": "move the light switch to turn on the yellow light",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1480,
+          "overlap_group_id": 1,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "slide up the switch",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.43963465094566345,
+          "best_relevant_candidate": {
+            "episode_id": 5,
+            "annotation_id": 4677,
+            "task": "turn_on_lightbulb",
+            "text": "toggle the light switch to turn on the yellow light"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.43963465094566345,
+              "episode_id": 5,
+              "annotation_id": 4677,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.43963465094566345,
+              "episode_id": 3,
+              "annotation_id": 958,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.43963465094566345,
+              "episode_id": 14,
+              "annotation_id": 2137,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.43963465094566345,
+              "episode_id": 14,
+              "annotation_id": 753,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.43963465094566345,
+              "episode_id": 2,
+              "annotation_id": 299,
+              "task": "turn_on_lightbulb",
+              "text": "toggle the light switch to turn on the yellow light",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1538,
+          "overlap_group_id": 14,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "push the switch downwards",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.32294347882270813,
+          "best_relevant_candidate": {
+            "episode_id": 0,
+            "annotation_id": 207,
+            "task": "turn_off_lightbulb",
+            "text": "toggle the light switch to turn off the yellow light"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.32294347882270813,
+              "episode_id": 0,
+              "annotation_id": 207,
+              "task": "turn_off_lightbulb",
+              "text": "toggle the light switch to turn off the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.32294347882270813,
+              "episode_id": 1,
+              "annotation_id": 3276,
+              "task": "turn_off_lightbulb",
+              "text": "toggle the light switch to turn off the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.32294347882270813,
+              "episode_id": 5,
+              "annotation_id": 4007,
+              "task": "turn_off_lightbulb",
+              "text": "toggle the light switch to turn off the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.32294347882270813,
+              "episode_id": 14,
+              "annotation_id": 2232,
+              "task": "turn_off_lightbulb",
+              "text": "toggle the light switch to turn off the yellow light",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.32294347882270813,
+              "episode_id": 11,
+              "annotation_id": 4709,
+              "task": "turn_off_lightbulb",
+              "text": "toggle the light switch to turn off the yellow light",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1565,
+          "overlap_group_id": 16,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "toggle the light switch to turn on the light bulb",
+          "best_relevant_rank": 21,
+          "best_relevant_score": 0.33586961030960083,
+          "best_relevant_candidate": {
+            "episode_id": 1,
+            "annotation_id": 2725,
+            "task": "turn_on_lightbulb",
+            "text": "turn on the yellow lamp"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.34147024154663086,
+              "episode_id": 17,
+              "annotation_id": 25,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.34147024154663086,
+              "episode_id": 14,
+              "annotation_id": 2855,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.34147024154663086,
+              "episode_id": 3,
+              "annotation_id": 4570,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.34147024154663086,
+              "episode_id": 5,
+              "annotation_id": 208,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.34147024154663086,
+              "episode_id": 17,
+              "annotation_id": 1553,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2041,
+          "overlap_group_id": 19,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "turn off the yellow light",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.4730440378189087,
+          "best_relevant_candidate": {
+            "episode_id": 3,
+            "annotation_id": 4570,
+            "task": "turn_off_lightbulb",
+            "text": "turn off the yellow lamp"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.4730440378189087,
+              "episode_id": 3,
+              "annotation_id": 4570,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.4730440378189087,
+              "episode_id": 3,
+              "annotation_id": 1934,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.4730440378189087,
+              "episode_id": 14,
+              "annotation_id": 2806,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.4730440378189087,
+              "episode_id": 14,
+              "annotation_id": 2855,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.4730440378189087,
+              "episode_id": 17,
+              "annotation_id": 25,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2248,
+          "overlap_group_id": 7,
+          "query_task": "place_in_slider",
+          "query_text": "put the object in the cabinet",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.4399156868457794,
+          "best_relevant_candidate": {
+            "episode_id": 16,
+            "annotation_id": 1998,
+            "task": "place_in_slider",
+            "text": "place in slider"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.4399156868457794,
+              "episode_id": 16,
+              "annotation_id": 1998,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.4399156868457794,
+              "episode_id": 3,
+              "annotation_id": 938,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.4399156868457794,
+              "episode_id": 6,
+              "annotation_id": 194,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.3892155885696411,
+              "episode_id": 27,
+              "annotation_id": 2256,
+              "task": "place_in_slider",
+              "text": "put the grasped object in the slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.3773307502269745,
+              "episode_id": 14,
+              "annotation_id": 2869,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2592,
+          "overlap_group_id": 25,
+          "query_task": "place_in_slider",
+          "query_text": "place the block in the slider",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.7048672437667847,
+          "best_relevant_candidate": {
+            "episode_id": 6,
+            "annotation_id": 194,
+            "task": "place_in_slider",
+            "text": "place in slider"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.7048672437667847,
+              "episode_id": 6,
+              "annotation_id": 194,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.7048672437667847,
+              "episode_id": 16,
+              "annotation_id": 1998,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.7048672437667847,
+              "episode_id": 3,
+              "annotation_id": 938,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.614197313785553,
+              "episode_id": 11,
+              "annotation_id": 4079,
+              "task": "place_in_slider",
+              "text": "place the grasped object in the sliding cabinet",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.614197313785553,
+              "episode_id": 17,
+              "annotation_id": 97,
+              "task": "place_in_slider",
+              "text": "place the grasped object in the sliding cabinet",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2739,
+          "overlap_group_id": 30,
+          "query_task": "push_pink_block_right",
+          "query_text": "go slide the pink block to the right",
+          "best_relevant_rank": 58,
+          "best_relevant_score": 0.23766793310642242,
+          "best_relevant_candidate": {
+            "episode_id": 0,
+            "annotation_id": 2493,
+            "task": "push_pink_block_right",
+            "text": "push the pink block towards the right"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.31581202149391174,
+              "episode_id": 0,
+              "annotation_id": 2872,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block, then lift it up",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.31581202149391174,
+              "episode_id": 14,
+              "annotation_id": 3528,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block, then lift it up",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.31581202149391174,
+              "episode_id": 27,
+              "annotation_id": 2186,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block, then lift it up",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.31581202149391174,
+              "episode_id": 3,
+              "annotation_id": 669,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block, then lift it up",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.3129320442676544,
+              "episode_id": 3,
+              "annotation_id": 3289,
+              "task": "lift_red_block_table",
+              "text": "pick up the red block",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 3319,
+          "overlap_group_id": 19,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "move the light switch to turn off the light bulb",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.4058239758014679,
+          "best_relevant_candidate": {
+            "episode_id": 17,
+            "annotation_id": 1362,
+            "task": "turn_off_lightbulb",
+            "text": "turn off the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.4058239758014679,
+              "episode_id": 17,
+              "annotation_id": 1362,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.4058239758014679,
+              "episode_id": 3,
+              "annotation_id": 1966,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.4058239758014679,
+              "episode_id": 14,
+              "annotation_id": 4594,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.4058239758014679,
+              "episode_id": 17,
+              "annotation_id": 144,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.4058239758014679,
+              "episode_id": 0,
+              "annotation_id": 1596,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the light bulb",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 4667,
+          "overlap_group_id": 46,
+          "query_task": "lift_red_block_table",
+          "query_text": "grasp the red block and lift it up",
+          "best_relevant_rank": 14,
+          "best_relevant_score": 0.20940566062927246,
+          "best_relevant_candidate": {
+            "episode_id": 14,
+            "annotation_id": 4870,
+            "task": "lift_red_block_table",
+            "text": "pick up the red block from the table"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.22204788029193878,
+              "episode_id": 1,
+              "annotation_id": 2157,
+              "task": "turn_off_lightbulb",
+              "text": "slide down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.22204788029193878,
+              "episode_id": 1,
+              "annotation_id": 4768,
+              "task": "turn_off_lightbulb",
+              "text": "slide down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.22204788029193878,
+              "episode_id": 16,
+              "annotation_id": 1605,
+              "task": "turn_off_lightbulb",
+              "text": "slide down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.22204788029193878,
+              "episode_id": 14,
+              "annotation_id": 81,
+              "task": "turn_off_lightbulb",
+              "text": "slide down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.22204788029193878,
+              "episode_id": 27,
+              "annotation_id": 2,
+              "task": "turn_off_lightbulb",
+              "text": "slide down the switch",
+              "task_relevant": false
+            }
+          ]
+        }
+      ]
+    },
+    "shuffled_language": {
+      "candidate_annotation_count": 340,
+      "candidate_episode_count": 13,
+      "query_annotation_count": 11,
+      "queries": [
+        {
+          "query_episode": 9,
+          "query_annotation_id": 66,
+          "overlap_group_id": 1,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "slide up the switch",
+          "best_relevant_rank": 145,
+          "best_relevant_score": 0.06039268523454666,
+          "best_relevant_candidate": {
+            "episode_id": 3,
+            "annotation_id": 4804,
+            "task": "turn_on_lightbulb",
+            "text": "toggle the light switch to turn on the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.11883457750082016,
+              "episode_id": 14,
+              "annotation_id": 1461,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.11883457750082016,
+              "episode_id": 6,
+              "annotation_id": 4965,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.11883457750082016,
+              "episode_id": 14,
+              "annotation_id": 2213,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.11743627488613129,
+              "episode_id": 1,
+              "annotation_id": 1834,
+              "task": "push_pink_block_right",
+              "text": "go slide the pink block to the right",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.11743627488613129,
+              "episode_id": 14,
+              "annotation_id": 3629,
+              "task": "push_pink_block_right",
+              "text": "go slide the pink block to the right",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 247,
+          "overlap_group_id": 7,
+          "query_task": "place_in_slider",
+          "query_text": "place the grasped object in the slider",
+          "best_relevant_rank": 99,
+          "best_relevant_score": 0.07634290307760239,
+          "best_relevant_candidate": {
+            "episode_id": 5,
+            "annotation_id": 2169,
+            "task": "place_in_slider",
+            "text": "put the grasped object in the cabinet"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.13613148033618927,
+              "episode_id": 30,
+              "annotation_id": 1457,
+              "task": "push_pink_block_right",
+              "text": "slide the pink block towards the right",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.13613148033618927,
+              "episode_id": 0,
+              "annotation_id": 3280,
+              "task": "push_pink_block_right",
+              "text": "slide the pink block towards the right",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.13613148033618927,
+              "episode_id": 6,
+              "annotation_id": 4006,
+              "task": "push_pink_block_right",
+              "text": "slide the pink block towards the right",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.13613148033618927,
+              "episode_id": 23,
+              "annotation_id": 601,
+              "task": "push_pink_block_right",
+              "text": "slide the pink block towards the right",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.13613148033618927,
+              "episode_id": 11,
+              "annotation_id": 824,
+              "task": "push_pink_block_right",
+              "text": "slide the pink block towards the right",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1480,
+          "overlap_group_id": 1,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "slide up the switch",
+          "best_relevant_rank": 122,
+          "best_relevant_score": 0.061012182384729385,
+          "best_relevant_candidate": {
+            "episode_id": 1,
+            "annotation_id": 941,
+            "task": "turn_on_lightbulb",
+            "text": "slide up the switch"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.13157014548778534,
+              "episode_id": 1,
+              "annotation_id": 3408,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.13157014548778534,
+              "episode_id": 1,
+              "annotation_id": 4144,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.13157014548778534,
+              "episode_id": 3,
+              "annotation_id": 2853,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.13157014548778534,
+              "episode_id": 17,
+              "annotation_id": 2275,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow light",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.13157014548778534,
+              "episode_id": 17,
+              "annotation_id": 3272,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow light",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1538,
+          "overlap_group_id": 14,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "push the switch downwards",
+          "best_relevant_rank": 86,
+          "best_relevant_score": 0.0667751133441925,
+          "best_relevant_candidate": {
+            "episode_id": 1,
+            "annotation_id": 991,
+            "task": "turn_off_lightbulb",
+            "text": "toggle the light switch to turn off the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.1376754641532898,
+              "episode_id": 3,
+              "annotation_id": 4663,
+              "task": "place_in_slider",
+              "text": "put the block in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.1376754641532898,
+              "episode_id": 3,
+              "annotation_id": 3399,
+              "task": "place_in_slider",
+              "text": "put the block in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.1376754641532898,
+              "episode_id": 1,
+              "annotation_id": 4621,
+              "task": "place_in_slider",
+              "text": "put the block in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.13685080409049988,
+              "episode_id": 14,
+              "annotation_id": 2783,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.13685080409049988,
+              "episode_id": 14,
+              "annotation_id": 4699,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1565,
+          "overlap_group_id": 16,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "toggle the light switch to turn on the light bulb",
+          "best_relevant_rank": 58,
+          "best_relevant_score": 0.08016340434551239,
+          "best_relevant_candidate": {
+            "episode_id": 30,
+            "annotation_id": 3461,
+            "task": "turn_on_lightbulb",
+            "text": "move the light switch to turn on the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.10437630861997604,
+              "episode_id": 30,
+              "annotation_id": 1226,
+              "task": "push_pink_block_right",
+              "text": "push right the pink block",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.10437630861997604,
+              "episode_id": 14,
+              "annotation_id": 3134,
+              "task": "push_pink_block_right",
+              "text": "push right the pink block",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.10437630861997604,
+              "episode_id": 30,
+              "annotation_id": 3116,
+              "task": "push_pink_block_right",
+              "text": "push right the pink block",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.10437630861997604,
+              "episode_id": 3,
+              "annotation_id": 1819,
+              "task": "push_pink_block_right",
+              "text": "push right the pink block",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.10437630861997604,
+              "episode_id": 11,
+              "annotation_id": 2120,
+              "task": "push_pink_block_right",
+              "text": "push right the pink block",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2041,
+          "overlap_group_id": 19,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "turn off the yellow light",
+          "best_relevant_rank": 121,
+          "best_relevant_score": 0.05010288953781128,
+          "best_relevant_candidate": {
+            "episode_id": 0,
+            "annotation_id": 4045,
+            "task": "turn_off_lightbulb",
+            "text": "move the light switch to turn off the yellow light"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.15242962539196014,
+              "episode_id": 17,
+              "annotation_id": 2881,
+              "task": "place_in_slider",
+              "text": "put the object in the cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.1443835198879242,
+              "episode_id": 17,
+              "annotation_id": 436,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.1443835198879242,
+              "episode_id": 14,
+              "annotation_id": 443,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.1443835198879242,
+              "episode_id": 1,
+              "annotation_id": 2903,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.13984329998493195,
+              "episode_id": 3,
+              "annotation_id": 2318,
+              "task": "lift_red_block_table",
+              "text": "lift the red block from the table",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2248,
+          "overlap_group_id": 7,
+          "query_task": "place_in_slider",
+          "query_text": "put the object in the cabinet",
+          "best_relevant_rank": 64,
+          "best_relevant_score": 0.09165261685848236,
+          "best_relevant_candidate": {
+            "episode_id": 0,
+            "annotation_id": 1496,
+            "task": "place_in_slider",
+            "text": "put the grasped object in the cabinet"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.17535875737667084,
+              "episode_id": 0,
+              "annotation_id": 3313,
+              "task": "turn_off_lightbulb",
+              "text": "move down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.17535875737667084,
+              "episode_id": 17,
+              "annotation_id": 4057,
+              "task": "turn_off_lightbulb",
+              "text": "move down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.17535875737667084,
+              "episode_id": 17,
+              "annotation_id": 4726,
+              "task": "turn_off_lightbulb",
+              "text": "move down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.17535875737667084,
+              "episode_id": 0,
+              "annotation_id": 2258,
+              "task": "turn_off_lightbulb",
+              "text": "move down the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.1556142419576645,
+              "episode_id": 17,
+              "annotation_id": 1553,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the yellow lamp",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2592,
+          "overlap_group_id": 25,
+          "query_task": "place_in_slider",
+          "query_text": "place the block in the slider",
+          "best_relevant_rank": 136,
+          "best_relevant_score": 0.04858456552028656,
+          "best_relevant_candidate": {
+            "episode_id": 17,
+            "annotation_id": 2881,
+            "task": "place_in_slider",
+            "text": "put the object in the cabinet"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.20474757254123688,
+              "episode_id": 14,
+              "annotation_id": 4701,
+              "task": "turn_on_lightbulb",
+              "text": "move up the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.20474757254123688,
+              "episode_id": 0,
+              "annotation_id": 1485,
+              "task": "turn_on_lightbulb",
+              "text": "move up the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.20474757254123688,
+              "episode_id": 14,
+              "annotation_id": 3279,
+              "task": "turn_on_lightbulb",
+              "text": "move up the switch",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.18385687470436096,
+              "episode_id": 27,
+              "annotation_id": 4203,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block and lift it up",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.18385687470436096,
+              "episode_id": 3,
+              "annotation_id": 4816,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block and lift it up",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2739,
+          "overlap_group_id": 30,
+          "query_task": "push_pink_block_right",
+          "query_text": "go slide the pink block to the right",
+          "best_relevant_rank": 90,
+          "best_relevant_score": 0.07561377435922623,
+          "best_relevant_candidate": {
+            "episode_id": 23,
+            "annotation_id": 577,
+            "task": "push_pink_block_right",
+            "text": "go slide the pink block to the right"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.1427948772907257,
+              "episode_id": 16,
+              "annotation_id": 1998,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.1427948772907257,
+              "episode_id": 3,
+              "annotation_id": 938,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.1427948772907257,
+              "episode_id": 6,
+              "annotation_id": 194,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.11067698150873184,
+              "episode_id": 1,
+              "annotation_id": 3205,
+              "task": "lift_blue_block_slider",
+              "text": "grasp the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.11067698150873184,
+              "episode_id": 0,
+              "annotation_id": 4256,
+              "task": "lift_blue_block_slider",
+              "text": "grasp the blue block lying on the shelf",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 3319,
+          "overlap_group_id": 19,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "move the light switch to turn off the light bulb",
+          "best_relevant_rank": 99,
+          "best_relevant_score": 0.057008739560842514,
+          "best_relevant_candidate": {
+            "episode_id": 30,
+            "annotation_id": 856,
+            "task": "turn_off_lightbulb",
+            "text": "move the light switch to turn off the yellow light"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.15610216557979584,
+              "episode_id": 1,
+              "annotation_id": 2903,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.15610216557979584,
+              "episode_id": 17,
+              "annotation_id": 436,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.15610216557979584,
+              "episode_id": 14,
+              "annotation_id": 443,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying on the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.1483948975801468,
+              "episode_id": 5,
+              "annotation_id": 1744,
+              "task": "lift_blue_block_slider",
+              "text": "pick up the blue block from the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.1483948975801468,
+              "episode_id": 30,
+              "annotation_id": 4656,
+              "task": "lift_blue_block_slider",
+              "text": "pick up the blue block from the sliding cabinet",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 4667,
+          "overlap_group_id": 46,
+          "query_task": "lift_red_block_table",
+          "query_text": "grasp the red block and lift it up",
+          "best_relevant_rank": 152,
+          "best_relevant_score": 0.05280784144997597,
+          "best_relevant_candidate": {
+            "episode_id": 2,
+            "annotation_id": 3532,
+            "task": "lift_red_block_table",
+            "text": "pick up the red block from the table"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.10399330407381058,
+              "episode_id": 3,
+              "annotation_id": 4566,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.10399330407381058,
+              "episode_id": 5,
+              "annotation_id": 1973,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.10399330407381058,
+              "episode_id": 30,
+              "annotation_id": 2614,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.10399330407381058,
+              "episode_id": 0,
+              "annotation_id": 3485,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.0941086933016777,
+              "episode_id": 14,
+              "annotation_id": 3648,
+              "task": "push_pink_block_right",
+              "text": "slide right the pink block",
+              "task_relevant": false
+            }
+          ]
+        }
+      ]
+    },
+    "reconstruction_only": {
+      "candidate_annotation_count": 340,
+      "candidate_episode_count": 13,
+      "query_annotation_count": 11,
+      "queries": [
+        {
+          "query_episode": 9,
+          "query_annotation_id": 66,
+          "overlap_group_id": 1,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "slide up the switch",
+          "best_relevant_rank": 11,
+          "best_relevant_score": 0.4254000782966614,
+          "best_relevant_candidate": {
+            "episode_id": 0,
+            "annotation_id": 877,
+            "task": "turn_on_lightbulb",
+            "text": "slide up the switch"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.4884313642978668,
+              "episode_id": 14,
+              "annotation_id": 4654,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.4884313642978668,
+              "episode_id": 14,
+              "annotation_id": 4699,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.4884313642978668,
+              "episode_id": 14,
+              "annotation_id": 2869,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.4884313642978668,
+              "episode_id": 14,
+              "annotation_id": 2783,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.4884313642978668,
+              "episode_id": 14,
+              "annotation_id": 3265,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 247,
+          "overlap_group_id": 7,
+          "query_task": "place_in_slider",
+          "query_text": "place the grasped object in the slider",
+          "best_relevant_rank": 22,
+          "best_relevant_score": 0.10531192272901535,
+          "best_relevant_candidate": {
+            "episode_id": 3,
+            "annotation_id": 4663,
+            "task": "place_in_slider",
+            "text": "put the block in the sliding cabinet"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.356207013130188,
+              "episode_id": 1,
+              "annotation_id": 2446,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.356207013130188,
+              "episode_id": 1,
+              "annotation_id": 2002,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.356207013130188,
+              "episode_id": 1,
+              "annotation_id": 5003,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.356207013130188,
+              "episode_id": 3,
+              "annotation_id": 3410,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.356207013130188,
+              "episode_id": 0,
+              "annotation_id": 1737,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1480,
+          "overlap_group_id": 1,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "slide up the switch",
+          "best_relevant_rank": 30,
+          "best_relevant_score": 0.33369287848472595,
+          "best_relevant_candidate": {
+            "episode_id": 11,
+            "annotation_id": 1500,
+            "task": "turn_on_lightbulb",
+            "text": "toggle the light switch to turn on the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.48367398977279663,
+              "episode_id": 16,
+              "annotation_id": 1998,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.48367398977279663,
+              "episode_id": 6,
+              "annotation_id": 194,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.48367398977279663,
+              "episode_id": 3,
+              "annotation_id": 938,
+              "task": "place_in_slider",
+              "text": "place in slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.47213229537010193,
+              "episode_id": 14,
+              "annotation_id": 4699,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.47213229537010193,
+              "episode_id": 14,
+              "annotation_id": 2783,
+              "task": "place_in_slider",
+              "text": "put it in the slider",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1538,
+          "overlap_group_id": 14,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "push the switch downwards",
+          "best_relevant_rank": 31,
+          "best_relevant_score": 0.44377070665359497,
+          "best_relevant_candidate": {
+            "episode_id": 17,
+            "annotation_id": 2033,
+            "task": "turn_off_lightbulb",
+            "text": "push the switch downwards"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.5796417593955994,
+              "episode_id": 6,
+              "annotation_id": 1936,
+              "task": "place_in_slider",
+              "text": "put the block in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.5796417593955994,
+              "episode_id": 23,
+              "annotation_id": 2206,
+              "task": "place_in_slider",
+              "text": "put the block in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.5465940833091736,
+              "episode_id": 0,
+              "annotation_id": 1945,
+              "task": "place_in_slider",
+              "text": "place the block in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.5465940833091736,
+              "episode_id": 3,
+              "annotation_id": 2151,
+              "task": "place_in_slider",
+              "text": "place the block in the slider",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.5013595223426819,
+              "episode_id": 1,
+              "annotation_id": 1930,
+              "task": "turn_on_lightbulb",
+              "text": "push the switch upwards",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 1565,
+          "overlap_group_id": 16,
+          "query_task": "turn_on_lightbulb",
+          "query_text": "toggle the light switch to turn on the light bulb",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.3834494948387146,
+          "best_relevant_candidate": {
+            "episode_id": 17,
+            "annotation_id": 2700,
+            "task": "turn_on_lightbulb",
+            "text": "turn on the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.3834494948387146,
+              "episode_id": 17,
+              "annotation_id": 2700,
+              "task": "turn_on_lightbulb",
+              "text": "turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.3834494948387146,
+              "episode_id": 0,
+              "annotation_id": 4032,
+              "task": "turn_on_lightbulb",
+              "text": "turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.3834494948387146,
+              "episode_id": 30,
+              "annotation_id": 2892,
+              "task": "turn_on_lightbulb",
+              "text": "turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.3834494948387146,
+              "episode_id": 0,
+              "annotation_id": 1947,
+              "task": "turn_on_lightbulb",
+              "text": "turn on the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.3452858626842499,
+              "episode_id": 27,
+              "annotation_id": 2085,
+              "task": "turn_off_lightbulb",
+              "text": "turn off the light bulb",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2041,
+          "overlap_group_id": 19,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "turn off the yellow light",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.44806286692619324,
+          "best_relevant_candidate": {
+            "episode_id": 3,
+            "annotation_id": 4566,
+            "task": "turn_off_lightbulb",
+            "text": "move the light switch to turn off the light bulb"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.44806286692619324,
+              "episode_id": 3,
+              "annotation_id": 4566,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.44806286692619324,
+              "episode_id": 5,
+              "annotation_id": 1973,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.44806286692619324,
+              "episode_id": 0,
+              "annotation_id": 3485,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.44806286692619324,
+              "episode_id": 30,
+              "annotation_id": 2614,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the light bulb",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.4479588568210602,
+              "episode_id": 5,
+              "annotation_id": 705,
+              "task": "turn_off_lightbulb",
+              "text": "move the light switch to turn off the yellow light",
+              "task_relevant": true
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2248,
+          "overlap_group_id": 7,
+          "query_task": "place_in_slider",
+          "query_text": "put the object in the cabinet",
+          "best_relevant_rank": 12,
+          "best_relevant_score": -0.010959520004689693,
+          "best_relevant_candidate": {
+            "episode_id": 1,
+            "annotation_id": 4621,
+            "task": "place_in_slider",
+            "text": "put the block in the sliding cabinet"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.1089041531085968,
+              "episode_id": 1,
+              "annotation_id": 2002,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.1089041531085968,
+              "episode_id": 1,
+              "annotation_id": 2446,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.1089041531085968,
+              "episode_id": 3,
+              "annotation_id": 3410,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.1089041531085968,
+              "episode_id": 14,
+              "annotation_id": 2274,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.1089041531085968,
+              "episode_id": 1,
+              "annotation_id": 5003,
+              "task": "lift_blue_block_slider",
+              "text": "lift the blue block lying in the sliding cabinet",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2592,
+          "overlap_group_id": 25,
+          "query_task": "place_in_slider",
+          "query_text": "place the block in the slider",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.35524284839630127,
+          "best_relevant_candidate": {
+            "episode_id": 0,
+            "annotation_id": 4138,
+            "task": "place_in_slider",
+            "text": "put the block in the cabinet"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.35524284839630127,
+              "episode_id": 0,
+              "annotation_id": 4138,
+              "task": "place_in_slider",
+              "text": "put the block in the cabinet",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.35524284839630127,
+              "episode_id": 5,
+              "annotation_id": 1525,
+              "task": "place_in_slider",
+              "text": "put the block in the cabinet",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.35524284839630127,
+              "episode_id": 2,
+              "annotation_id": 4773,
+              "task": "place_in_slider",
+              "text": "put the block in the cabinet",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.35199418663978577,
+              "episode_id": 30,
+              "annotation_id": 4976,
+              "task": "lift_blue_block_slider",
+              "text": "pick up the blue block from the shelf",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.35199418663978577,
+              "episode_id": 30,
+              "annotation_id": 1051,
+              "task": "lift_blue_block_slider",
+              "text": "pick up the blue block from the shelf",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 2739,
+          "overlap_group_id": 30,
+          "query_task": "push_pink_block_right",
+          "query_text": "go slide the pink block to the right",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.29777735471725464,
+          "best_relevant_candidate": {
+            "episode_id": 23,
+            "annotation_id": 1854,
+            "task": "push_pink_block_right",
+            "text": "sweep the pink block to the right"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.29777735471725464,
+              "episode_id": 23,
+              "annotation_id": 1854,
+              "task": "push_pink_block_right",
+              "text": "sweep the pink block to the right",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.29777735471725464,
+              "episode_id": 14,
+              "annotation_id": 3805,
+              "task": "push_pink_block_right",
+              "text": "sweep the pink block to the right",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.29777735471725464,
+              "episode_id": 3,
+              "annotation_id": 4427,
+              "task": "push_pink_block_right",
+              "text": "sweep the pink block to the right",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.29777735471725464,
+              "episode_id": 16,
+              "annotation_id": 585,
+              "task": "push_pink_block_right",
+              "text": "sweep the pink block to the right",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.06874146312475204,
+              "episode_id": 14,
+              "annotation_id": 1466,
+              "task": "lift_red_block_table",
+              "text": "grasp the red block and lift it up",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 3319,
+          "overlap_group_id": 19,
+          "query_task": "turn_off_lightbulb",
+          "query_text": "move the light switch to turn off the light bulb",
+          "best_relevant_rank": 13,
+          "best_relevant_score": 0.39840027689933777,
+          "best_relevant_candidate": {
+            "episode_id": 5,
+            "annotation_id": 4007,
+            "task": "turn_off_lightbulb",
+            "text": "toggle the light switch to turn off the yellow light"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.43873244524002075,
+              "episode_id": 14,
+              "annotation_id": 3353,
+              "task": "turn_on_lightbulb",
+              "text": "push the switch upwards",
+              "task_relevant": false
+            },
+            {
+              "rank": 2,
+              "score": 0.43873244524002075,
+              "episode_id": 27,
+              "annotation_id": 2130,
+              "task": "turn_on_lightbulb",
+              "text": "push the switch upwards",
+              "task_relevant": false
+            },
+            {
+              "rank": 3,
+              "score": 0.43873244524002075,
+              "episode_id": 3,
+              "annotation_id": 5,
+              "task": "turn_on_lightbulb",
+              "text": "push the switch upwards",
+              "task_relevant": false
+            },
+            {
+              "rank": 4,
+              "score": 0.43873244524002075,
+              "episode_id": 1,
+              "annotation_id": 1930,
+              "task": "turn_on_lightbulb",
+              "text": "push the switch upwards",
+              "task_relevant": false
+            },
+            {
+              "rank": 5,
+              "score": 0.43873244524002075,
+              "episode_id": 1,
+              "annotation_id": 697,
+              "task": "turn_on_lightbulb",
+              "text": "push the switch upwards",
+              "task_relevant": false
+            }
+          ]
+        },
+        {
+          "query_episode": 9,
+          "query_annotation_id": 4667,
+          "overlap_group_id": 46,
+          "query_task": "lift_red_block_table",
+          "query_text": "grasp the red block and lift it up",
+          "best_relevant_rank": 1,
+          "best_relevant_score": 0.20717042684555054,
+          "best_relevant_candidate": {
+            "episode_id": 17,
+            "annotation_id": 1965,
+            "task": "lift_red_block_table",
+            "text": "lift the red block from the table"
+          },
+          "top5_candidates": [
+            {
+              "rank": 1,
+              "score": 0.20717042684555054,
+              "episode_id": 17,
+              "annotation_id": 1965,
+              "task": "lift_red_block_table",
+              "text": "lift the red block from the table",
+              "task_relevant": true
+            },
+            {
+              "rank": 2,
+              "score": 0.20717042684555054,
+              "episode_id": 17,
+              "annotation_id": 380,
+              "task": "lift_red_block_table",
+              "text": "lift the red block from the table",
+              "task_relevant": true
+            },
+            {
+              "rank": 3,
+              "score": 0.20717042684555054,
+              "episode_id": 11,
+              "annotation_id": 3502,
+              "task": "lift_red_block_table",
+              "text": "lift the red block from the table",
+              "task_relevant": true
+            },
+            {
+              "rank": 4,
+              "score": 0.20717042684555054,
+              "episode_id": 14,
+              "annotation_id": 3405,
+              "task": "lift_red_block_table",
+              "text": "lift the red block from the table",
+              "task_relevant": true
+            },
+            {
+              "rank": 5,
+              "score": 0.20717042684555054,
+              "episode_id": 3,
+              "annotation_id": 2318,
+              "task": "lift_red_block_table",
+              "text": "lift the red block from the table",
+              "task_relevant": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "seed_episode_comparison": {
+    "810": {
+      "29": {
+        "correct_macro_r1": 0.7907407407407407,
+        "control_macro_r1": {
+          "shuffled_language": 0.07407407407407407,
+          "reconstruction_only": 0.22777777777777777
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.562962962962963,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "lift_red_block_table": 0.8,
+          "place_in_slider": 0.7777777777777778,
+          "push_pink_block_right": 0.5,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.5,
+          "lift_red_block_table": 0.2,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 0.5,
+          "lift_red_block_table": 0.6000000000000001,
+          "place_in_slider": 0.11111111111111116,
+          "push_pink_block_right": 0.5,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "20": {
+        "correct_macro_r1": 0.9,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.36666666666666664
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.5333333333333334,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666667
+        }
+      },
+      "22": {
+        "correct_macro_r1": 0.8,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.05
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.75,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "place_in_slider": 0.25,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 0.75,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      },
+      "9": {
+        "correct_macro_r1": 0.6,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.26666666666666666
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.3333333333333333,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.3333333333333333,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.3333333333333333,
+          "push_pink_block_right": -1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        }
+      }
+    },
+    "1810": {
+      "29": {
+        "correct_macro_r1": 0.7444444444444445,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.1074074074074074
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.6370370370370371,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 0.6666666666666666,
+          "lift_red_block_table": 0.8,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.3333333333333333,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.3333333333333333,
+          "lift_red_block_table": 0.2,
+          "place_in_slider": 0.1111111111111111,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 0.3333333333333333,
+          "lift_red_block_table": 0.6000000000000001,
+          "place_in_slider": 0.8888888888888888,
+          "push_pink_block_right": 0.3333333333333333,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "20": {
+        "correct_macro_r1": 0.8333333333333334,
+        "control_macro_r1": {
+          "shuffled_language": 0.16666666666666666,
+          "reconstruction_only": 0.2333333333333333
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.6000000000000001,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 0.3333333333333333,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.6666666666666667,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        }
+      },
+      "22": {
+        "correct_macro_r1": 0.8,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.1
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.7000000000000001,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.5
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.5
+        }
+      },
+      "9": {
+        "correct_macro_r1": 0.9333333333333332,
+        "control_macro_r1": {
+          "shuffled_language": 0.2,
+          "reconstruction_only": 0.06666666666666667
+        },
+        "stronger_control": "shuffled_language",
+        "delta": 0.7333333333333332,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      }
+    },
+    "2810": {
+      "29": {
+        "correct_macro_r1": 0.8833333333333333,
+        "control_macro_r1": {
+          "shuffled_language": 0.05555555555555555,
+          "reconstruction_only": 0.15555555555555556
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.7277777777777777,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "lift_red_block_table": 0.8,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.8333333333333334,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "lift_red_block_table": 0.6,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.3333333333333333,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "lift_red_block_table": 0.20000000000000007,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.8333333333333334,
+          "turn_off_lightbulb": 0.6666666666666667,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "20": {
+        "correct_macro_r1": 0.8333333333333334,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.0
+        },
+        "stronger_control": "shuffled_language",
+        "delta": 0.8333333333333334,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "22": {
+        "correct_macro_r1": 0.8,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.0
+        },
+        "stronger_control": "shuffled_language",
+        "delta": 0.8,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      },
+      "9": {
+        "correct_macro_r1": 0.8,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.0
+        },
+        "stronger_control": "shuffled_language",
+        "delta": 0.8,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      }
+    },
+    "202128": {
+      "29": {
+        "correct_macro_r1": 0.9111111111111111,
+        "control_macro_r1": {
+          "shuffled_language": 0.08333333333333333,
+          "reconstruction_only": 0.22777777777777777
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.6833333333333333,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "lift_red_block_table": 0.8,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.3333333333333333,
+          "lift_red_block_table": 0.2,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 0.16666666666666666,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 0.6666666666666667,
+          "lift_red_block_table": 0.6000000000000001,
+          "place_in_slider": 0.33333333333333337,
+          "push_pink_block_right": 0.8333333333333334,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "20": {
+        "correct_macro_r1": 0.8111111111111111,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.2
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.6111111111111112,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.8888888888888888,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 0.33333333333333337,
+          "push_pink_block_right": 0.8888888888888888,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        }
+      },
+      "22": {
+        "correct_macro_r1": 0.8,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.05
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.75,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "place_in_slider": 0.25,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 0.75,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      },
+      "9": {
+        "correct_macro_r1": 0.6,
+        "control_macro_r1": {
+          "shuffled_language": 0.06666666666666667,
+          "reconstruction_only": 0.39999999999999997
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.2,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.6666666666666666,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.33333333333333337,
+          "push_pink_block_right": -1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666667
+        }
+      }
+    },
+    "472026": {
+      "29": {
+        "correct_macro_r1": 0.8833333333333333,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.10740740740740741
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.7759259259259259,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 0.8333333333333334,
+          "lift_red_block_table": 0.8,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.6666666666666666,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.16666666666666666,
+          "lift_red_block_table": 0.2,
+          "place_in_slider": 0.1111111111111111,
+          "push_pink_block_right": 0.16666666666666666,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 0.6666666666666667,
+          "lift_red_block_table": 0.6000000000000001,
+          "place_in_slider": 0.8888888888888888,
+          "push_pink_block_right": 0.5,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      },
+      "20": {
+        "correct_macro_r1": 0.8333333333333334,
+        "control_macro_r1": {
+          "shuffled_language": 0.02222222222222222,
+          "reconstruction_only": 0.16666666666666666
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.6666666666666667,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.3333333333333333
+        }
+      },
+      "22": {
+        "correct_macro_r1": 0.8,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.1
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.7000000000000001,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.5,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        }
+      },
+      "9": {
+        "correct_macro_r1": 0.5333333333333333,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.2
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.3333333333333333,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": -1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      }
+    },
+    "411223": {
+      "29": {
+        "correct_macro_r1": 0.925925925925926,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.24814814814814812
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.6777777777777779,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.8888888888888888,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "lift_red_block_table": 0.6,
+          "place_in_slider": 0.5555555555555556,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.3333333333333333,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "lift_red_block_table": 0.4,
+          "place_in_slider": 0.33333333333333326,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 0.6666666666666667,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "20": {
+        "correct_macro_r1": 0.7888888888888889,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.06666666666666667
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.7222222222222222,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.7777777777777778,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 0.3333333333333333,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": 0.0
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": 0.5,
+          "place_in_slider": 0.6666666666666667,
+          "push_pink_block_right": 0.7777777777777778,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        }
+      },
+      "22": {
+        "correct_macro_r1": 0.7,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.55
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": 0.1499999999999999,
+        "correct_per_task_r1": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.5
+        },
+        "stronger_per_task_r1": {
+          "lift_blue_block_slider": 0.0,
+          "place_in_slider": 0.75,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 1.0
+        },
+        "per_task_contribution": {
+          "lift_blue_block_slider": 1.0,
+          "place_in_slider": 0.25,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 0.0,
+          "turn_on_lightbulb": -0.5
+        }
+      },
+      "9": {
+        "correct_macro_r1": 0.5333333333333333,
+        "control_macro_r1": {
+          "shuffled_language": 0.0,
+          "reconstruction_only": 0.6
+        },
+        "stronger_control": "reconstruction_only",
+        "delta": -0.06666666666666665,
+        "correct_per_task_r1": {
+          "lift_red_block_table": 0.0,
+          "place_in_slider": 1.0,
+          "push_pink_block_right": 0.0,
+          "turn_off_lightbulb": 1.0,
+          "turn_on_lightbulb": 0.6666666666666666
+        },
+        "stronger_per_task_r1": {
+          "lift_red_block_table": 1.0,
+          "place_in_slider": 0.3333333333333333,
+          "push_pink_block_right": 1.0,
+          "turn_off_lightbulb": 0.3333333333333333,
+          "turn_on_lightbulb": 0.3333333333333333
+        },
+        "per_task_contribution": {
+          "lift_red_block_table": -1.0,
+          "place_in_slider": 0.6666666666666667,
+          "push_pink_block_right": -1.0,
+          "turn_off_lightbulb": 0.6666666666666667,
+          "turn_on_lightbulb": 0.3333333333333333
+        }
+      }
+    }
+  },
+  "parameter_tensors_unchanged": true,
+  "optimizer_steps": 0,
+  "ema_updates": 0,
+  "backward_calls": 0
+}

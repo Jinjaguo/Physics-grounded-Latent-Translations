@@ -1,0 +1,68 @@
+experiment:
+  name: dynamics_1
+  wave: thirteenth_wave
+  seed: 1301
+  split_meta_seed: 1301
+  train_episode_count: 24
+  output_root: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1
+  report_path: reports/dynamics_1_results.md
+
+representation:
+  config: configs/representation.yaml
+  checkpoint_manifest: checkpoints/representation/manifest.json
+  checkpoint_selection_rule: first_manifest_entry_with_condition_correct_language
+  expected_seed_base: 810
+  expected_condition: correct_language
+
+data:
+  metadata_root: data/representation/calvin_task_D_D/metadata
+  training_compact_root: data/representation/calvin_task_D_D/episodes/training
+  validation_compact_root: archive/retired_snapshot/data/derived/task_D_D_pglt_compact/validation
+  validation_compact_manifest: archive/retired_snapshot/data/derived/task_D_D_pglt_compact/manifest.json
+  text_feature_archive: data/representation/text_features/openclip_vitl14_datacomp_xl.npz
+  tasks:
+    - lift_blue_block_slider
+    - lift_red_block_table
+    - place_in_slider
+    - push_pink_block_right
+    - turn_off_lightbulb
+    - turn_on_lightbulb
+  chunk_length: 16
+  stride: 16
+  control_frequency_hz: 30
+
+models:
+  context_dim: 16
+  mlp_hidden_dim: 64
+  mlp_depth: 3
+  del_mass_hidden_dim: 32
+  del_potential_hidden_dim: 64
+  del_depth: 3
+  force_hidden_dim: 64
+  refinement_hidden_dim: 64
+  solver_iterations: 4
+  solver_step_size: 0.25
+  solver_tolerance: 0.001
+  mass_epsilon: 0.001
+  refinement_step_size: 0.01
+
+optimization:
+  epochs: 20
+  evaluation_interval: 5
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+  lambda_del: 0.0001
+
+evaluation:
+  rollout_horizons: [1, 2, 4, 8, 16]
+  primary_auc_horizons: [1, 2, 4, 8]
+  knn_k: 5
+  off_manifold_quantile: 0.99
+  oracle_name: ORACLE_FUTURE_ACTION_DIAGNOSTIC
+  task_boundary_rule: consecutive_chronological_annotations_nonoverlapping_two_source_windows_one_target_window
+
+storage:
+  maximum_workspace_gb: 20
+

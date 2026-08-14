@@ -1,0 +1,36 @@
+{
+  "F3_free_execution_del": {
+    "bootstrap_95_interval": {
+      "draws": 500,
+      "finite_draws": 500,
+      "lower_95": -0.6443624318664738,
+      "upper_95": -0.5775031327678344
+    },
+    "candidate_groups": [
+      "true_next",
+      "execution_mlp",
+      "matched_refinement",
+      "F3_free_execution_del"
+    ],
+    "points": 1448,
+    "positive_alignment": false,
+    "spearman_residual_norm_vs_execution_mse": -0.6112258587751401
+  },
+  "F4_decoder_geometry_del": {
+    "bootstrap_95_interval": {
+      "draws": 500,
+      "finite_draws": 500,
+      "lower_95": -0.2587869615094045,
+      "upper_95": -0.15983035997876632
+    },
+    "candidate_groups": [
+      "true_next",
+      "execution_mlp",
+      "matched_refinement",
+      "F4_decoder_geometry_del"
+    ],
+    "points": 1448,
+    "positive_alignment": false,
+    "spearman_residual_norm_vs_execution_mse": -0.20863569190925707
+  }
+}

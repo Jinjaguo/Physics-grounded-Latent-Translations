@@ -1,0 +1,51 @@
+experiment:
+  name: dynamics_2
+  wave: fourteenth_wave
+  seed: 1402
+  output_root: results/dynamics/fourteenth_wave/2026-08-12_dynamics_2
+  report_path: reports/dynamics_2_results.md
+  wave13_root: results/dynamics/thirteenth_wave/2026-08-12_dynamics_1
+
+data:
+  step_size_seconds: 0.5333333333333333
+  latent_dim: 32
+  semantic_dim: 16
+
+historical_solver:
+  iteration_budgets: [4, 8, 16, 32]
+  step_size: 0.25
+  tolerance: 0.001
+  initialization: constant_velocity
+
+robust_solver:
+  type: LBFGS_residual_least_squares
+  max_iterations: 32
+  tolerance_gradient: 1.0e-7
+  tolerance_change: 1.0e-9
+  history_size: 10
+  line_search: strong_wolfe
+  convergence_residual_tolerance: 0.001
+  gt_near_perturbation_scale_training_std: 0.05
+
+jacobian:
+  development_subset_size: 24
+  deterministic_rule: evenly_spaced_transition_indices
+  singular_value_epsilon: 1.0e-6
+  effective_rank_relative_epsilon: 1.0e-5
+  nearly_singular_condition_threshold: 1000000.0
+
+multiplicity:
+  development_subset_size: 12
+  deterministic_rule: evenly_spaced_transition_indices
+  perturbations_per_center: 6
+  centers: [q_current, mlp_prediction]
+  perturbation_scale_training_std: 0.10
+  root_cluster_distance_training_rms_fraction: 0.05
+
+metrics:
+  nearest_training_latent_k: 1
+  task_prototype_source: frozen_training_contexts
+
+storage:
+  minimum_filesystem_available_gb: 20
+

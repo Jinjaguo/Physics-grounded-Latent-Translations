@@ -1,0 +1,7 @@
+df -h /home/jinjaguo/PGLT && df -B1 /home/jinjaguo/PGLT
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_5.py --config configs/dynamics_5.yaml --stage prepare
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_5.py --config configs/dynamics_5.yaml --stage acquire
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_5.py --config configs/dynamics_5.yaml --stage serialize --device cpu
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_5.py --config configs/dynamics_5.yaml --stage evaluate --device cpu
+PYTHONPATH=src:third_party/LaWM PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/pytest_results.xml
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_5.py --config configs/dynamics_5.yaml --stage finalize --device cpu

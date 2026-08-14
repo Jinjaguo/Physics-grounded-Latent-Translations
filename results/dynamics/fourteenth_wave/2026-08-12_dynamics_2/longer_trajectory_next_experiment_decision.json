@@ -1,0 +1,6 @@
+{
+  "collect_or_expose_longer_trajectories_next": true,
+  "del_remains_primary": false,
+  "diagnosis": "variational_model_mismatch",
+  "single_next_experiment": "Expose longer annotation-consistent trajectories; make MLP versus matched refinement the primary comparison and retain DEL only as a frozen negative/diagnostic baseline."
+}

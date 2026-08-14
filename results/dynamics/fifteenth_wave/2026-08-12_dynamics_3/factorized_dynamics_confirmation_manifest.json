@@ -1,0 +1,185 @@
+{
+  "checkpoints": {
+    "F1_execution_mlp.pt": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0",
+    "F2_matched_refinement.pt": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308",
+    "F3_free_execution_del.pt": "eb239d9c96e6b30c2dc8cb70c2269cc4dba2e524d8d5e7b2a7a79d3dcef6c85c",
+    "F4_decoder_geometry_del.pt": "3c43093fe30324308a63800ed9b6dd2fca72262339109d2f473af034376f77b9",
+    "semantic.pt": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617"
+  },
+  "compatibility_preflight": {
+    "F4_alignment_passed": false,
+    "F4_compatibility_passed": false,
+    "created_at": "2026-08-12T22:22:09-04:00",
+    "official_validation_metrics_read": false,
+    "positive_DEL_claim_allowed_to_proceed": false,
+    "residuals": {
+      "F3_free_execution_del": {
+        "compatibility_true_lower_than_execution_mlp": false,
+        "del_prediction": {
+          "mean": 0.12575891613960266,
+          "median": 0.08625074476003647,
+          "p90": 0.2394354224205019,
+          "sample_count": 362
+        },
+        "execution_mlp": {
+          "mean": 0.7350447177886963,
+          "median": 0.6769459247589111,
+          "p90": 1.133237731456757,
+          "sample_count": 362
+        },
+        "matched_refinement": {
+          "mean": 0.7420037388801575,
+          "median": 0.6841119527816772,
+          "p90": 1.1639444589614876,
+          "sample_count": 362
+        },
+        "true_next": {
+          "mean": 1.0276775360107422,
+          "median": 0.9193964004516602,
+          "p90": 1.45905499458313,
+          "sample_count": 362
+        }
+      },
+      "F4_decoder_geometry_del": {
+        "compatibility_true_lower_than_execution_mlp": false,
+        "del_prediction": {
+          "mean": 2713.084228515625,
+          "median": 1549.859130859375,
+          "p90": 6477.602734375002,
+          "sample_count": 362
+        },
+        "execution_mlp": {
+          "mean": 2909.1123046875,
+          "median": 1701.320556640625,
+          "p90": 6831.864355468753,
+          "sample_count": 362
+        },
+        "matched_refinement": {
+          "mean": 2910.470947265625,
+          "median": 1760.139892578125,
+          "p90": 6790.100390625001,
+          "sample_count": 362
+        },
+        "true_next": {
+          "mean": 3659.19970703125,
+          "median": 3522.53759765625,
+          "p90": 7233.416845703126,
+          "sample_count": 362
+        }
+      }
+    },
+    "split": "development_only"
+  },
+  "created_at": "2026-08-12T22:22:34-04:00",
+  "development_gate": {
+    "C3b_development_decision": "REJECTED",
+    "all_conditions_passed": false,
+    "conditions": {
+      "beats_F1_rollout_auc": false,
+      "beats_F2_rollout_auc": false,
+      "lowers_two_step_execution_off_manifold_drift": false,
+      "one_step_decoded_action_not_materially_worse": true,
+      "residual_compatibility": false,
+      "residual_error_positive_alignment": false,
+      "solver_convergence_materially_above_historical_zero": false,
+      "solver_nonfinite_rate_zero": true
+    },
+    "created_at": "2026-08-12T22:22:09-04:00",
+    "gate_relaxed_after_results": false,
+    "split": "development"
+  },
+  "frozen_before_official_validation_metrics": true,
+  "metric_code_sha256": {
+    "scripts/dynamics/run_dynamics_3.py": "779526d767f0359a1e35f4435f5fcaed93fd9f53c319228bee9f5ebd18fb055f",
+    "src/pglt/dynamics/dynamics_data.py": "c873cd67ba0679e92fc8fa4c2de68e8a20fdbbb1bfb3023dfeac92a963a96242",
+    "src/pglt/dynamics/factorized.py": "9a88496af14d7bfeec17a1a7765c21589a380d36ffbbcd0add69aa3e1b283343",
+    "src/pglt/dynamics/runner.py": "38519865fceec4242163a3786833ea04c00487f0b8713dda53c97cd76458f245"
+  },
+  "off_manifold_thresholds": {
+    "execution": {
+      "quantile": 0.99,
+      "threshold": 4.259240455627441,
+      "train_mean_knn_radius": 1.9549182653427124
+    },
+    "full": {
+      "quantile": 0.99,
+      "threshold": 6.576994800567626,
+      "train_mean_knn_radius": 2.857966899871826
+    }
+  },
+  "official_validation_metrics_read": false,
+  "settings": {
+    "data": {
+      "chunk_length": 16,
+      "control_frequency_hz": 30,
+      "development_sequences": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/development_sequences.jsonl",
+      "execution_dim": 16,
+      "frozen_latents": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz",
+      "semantic_dim": 16,
+      "split_preregistration": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/dynamics_split_preregistration.json",
+      "train_sequences": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/train_sequences.jsonl",
+      "validation_sequences": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/validation_sequences.jsonl"
+    },
+    "evaluation": {
+      "decoded_action_material_worsening_relative": 0.05,
+      "knn_k": 5,
+      "off_manifold_quantile": 0.99,
+      "primary_auc_horizons": [
+        1,
+        2
+      ],
+      "rollout_horizons": [
+        1,
+        2
+      ],
+      "semantic_retention_tolerance_absolute": 0.02
+    },
+    "experiment": {
+      "name": "dynamics_3",
+      "output_root": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3",
+      "report_path": "reports/dynamics_3_results.md",
+      "seed": 1503,
+      "wave": "fifteenth_wave",
+      "wave13_root": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1",
+      "wave14_root": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2"
+    },
+    "models": {
+      "context_dim": 16,
+      "depth": 3,
+      "free_del_step_size": 0.25,
+      "free_mass_hidden_dim": 32,
+      "generic_refinement_step_size": 0.01,
+      "geometry_del_step_size": 0.01,
+      "hidden_dim": 64,
+      "metric_epsilon": 0.001,
+      "potential_hidden_dim": 64,
+      "refinement_iterations": 4,
+      "solver_tolerance": 0.001
+    },
+    "optimization": {
+      "batch_size": 128,
+      "epochs": 20,
+      "evaluation_interval": 5,
+      "gradient_clip_norm": 5.0,
+      "lambda_del": 0.0001,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001
+    },
+    "representation": {
+      "checkpoint_manifest": "checkpoints/representation/manifest.json",
+      "config": "configs/representation.yaml",
+      "expected_condition": "correct_language",
+      "expected_seed_base": 810
+    },
+    "storage": {
+      "minimum_filesystem_available_gb": 20
+    }
+  },
+  "storage_at_freeze": {
+    "filesystem_available_bytes": 299891044352,
+    "filesystem_total_bytes": 1081101176832,
+    "filesystem_used_bytes": 726217777152,
+    "minimum_available_bytes": 21474836480,
+    "passed": true
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "EMA_updates": 0,
+  "F1_optimizer_steps": 0,
+  "F2_optimizer_steps": 0,
+  "all_parameters_unchanged": true,
+  "future_annotations_used_in_protocol_A": false,
+  "future_raw_actions_as_input": false,
+  "future_robot_states_as_input": false,
+  "inference_autograd_grad_calls": "exact frozen four-step F2 refinement only",
+  "loss_backward_calls": 0,
+  "representation_optimizer_steps": 0,
+  "teacher_forcing_after_start": false,
+  "tensor_hashes_after": {
+    "F1": {
+      "network.0.bias": "ab45c0e56573f6bfff9d382656a46a883ee74bf5ee98e2888ea4cb1b2418985f",
+      "network.0.weight": "35646ce006625310c67df5e6bbe79aac582e1c1e204d9b092ff95174a120532e",
+      "network.2.bias": "9936d51b043cbce224df7ed35f7bc16894c536a941c5a7ff19bdeefd0b3c9506",
+      "network.2.weight": "1cc662736ecee3145d3aba8b143966fea6cc6dae348aa82e71a0ba400e58a23e",
+      "network.4.bias": "32648d7aabefcca4e0e38a4466a3af05e6b5c131e87aeeb027df11711da3a51a",
+      "network.4.weight": "1634fb6921198716559c5faf3add0b5931f6da8e82a771ab963413ceb524f94c"
+    },
+    "F2": {
+      "energy_network.0.bias": "8490f41da7d097addff32afd7da1908fc97a73609b28c30bb71d95a0e3a7d1c0",
+      "energy_network.0.weight": "7ae680069bc2ff42f2f1561be269ba01a3f2a1a0f6d54513490f1cdd29216a7b",
+      "energy_network.2.bias": "4b54027a61614ec671ce9c7af4f727a3bb88050cbaa77b8f026739cd8cd2e417",
+      "energy_network.2.weight": "878246e0b0bf814f7ef48592d6e00f7e6ab220efdff33e1675dd79f370b0e18b",
+      "energy_network.4.bias": "d15c12b3031b6fd9205ddbc8cfee578f27d1b4b671b5c8543f869d6fef4398dd",
+      "energy_network.4.weight": "47859a177a7329061ba2e1538533616243e01ca6999df6849a3be3545fe67a92",
+      "initializer.network.0.bias": "ab45c0e56573f6bfff9d382656a46a883ee74bf5ee98e2888ea4cb1b2418985f",
+      "initializer.network.0.weight": "35646ce006625310c67df5e6bbe79aac582e1c1e204d9b092ff95174a120532e",
+      "initializer.network.2.bias": "9936d51b043cbce224df7ed35f7bc16894c536a941c5a7ff19bdeefd0b3c9506",
+      "initializer.network.2.weight": "1cc662736ecee3145d3aba8b143966fea6cc6dae348aa82e71a0ba400e58a23e",
+      "initializer.network.4.bias": "32648d7aabefcca4e0e38a4466a3af05e6b5c131e87aeeb027df11711da3a51a",
+      "initializer.network.4.weight": "1634fb6921198716559c5faf3add0b5931f6da8e82a771ab963413ceb524f94c"
+    },
+    "representation": {
+      "decoder.0.bias": "8740448cda422dc2c01f4eea7c3893fcbffe5002977a7bdd797d7ff1a203c55b",
+      "decoder.0.weight": "07e940dcef4d7d763b60bd62fc0cb86dc7feb7e33f905e228efcee5986206a20",
+      "decoder.2.bias": "0841abc243dfc06c7cf77948ba4d09fceb967e0557ebe3f984d8b366b4668f04",
+      "decoder.2.weight": "c99282bded3a164704626d830b181ba614a2d39a0b74304b131a1a4194ab30bc",
+      "decoder.4.bias": "37b61a06f54053c36fe07ff213f528c5e1e326569b068d1bf8d6ae5591917f5c",
+      "decoder.4.weight": "4effa9e3e56f451d8fbc3ca63bc9f7d11bb6a7debcce1aa55ec7578daa315d72",
+      "encoder.0.bias": "588a93bd88c4eaf0a98ab9fd54544544009677b38f8778ce4f4e88f6176cb355",
+      "encoder.0.weight": "28e4c6e6357c083b16e9c6543b9e0e92cd00dcbb52836749ca737d3df6c53d1a",
+      "encoder.2.bias": "d9c0ee6833bae1d2e38de5c4d3cf6b952383a841b1681c0b79dd8f7119a7f82f",
+      "encoder.2.weight": "274c451665356b173fbdc506d44a9142667591adb2b51df344cc640ae17a58a7",
+      "encoder.4.bias": "7126afc8574ac23f6d399e39a0ce0cd9eb18b032d90adcb4b533fd674355d474",
+      "encoder.4.weight": "b62a95910772f89c16f4a41f4edb7403dda29dc7ffc7ccfddf5b60073b544088",
+      "text_projection.weight": "2858f9deac95c452df3d364c8ad7e7c7f937ed96dea9d11db2bfd1763c4af385"
+    },
+    "semantic": {
+      "network.0.bias": "a82b17541d1c9a93d59750715de6c8088a36d8f1db94acace66a746222f9b75d",
+      "network.0.weight": "bf04a424e890cc95cedd904ec01195f961e21e153984d99885aa731cb027eb99",
+      "network.2.bias": "1aca043025135845267f8cf930020ab5487c124bbe7314c9c37b27764c27228d",
+      "network.2.weight": "9ef1ad6b274528fa4a38ce2bc5f48fca6ee56ecd21717b67b73370b50f98eff3",
+      "network.4.bias": "74a804453134e968eac4aedadaa24fd7a4e65a78f149b488651e5817969f5e16",
+      "network.4.weight": "580346dda1f8db70e8b6b69ac245b87298f8ff55251b3bc8dc3f236e605d1f4a"
+    }
+  },
+  "tensor_hashes_before": {
+    "F1": {
+      "network.0.bias": "ab45c0e56573f6bfff9d382656a46a883ee74bf5ee98e2888ea4cb1b2418985f",
+      "network.0.weight": "35646ce006625310c67df5e6bbe79aac582e1c1e204d9b092ff95174a120532e",
+      "network.2.bias": "9936d51b043cbce224df7ed35f7bc16894c536a941c5a7ff19bdeefd0b3c9506",
+      "network.2.weight": "1cc662736ecee3145d3aba8b143966fea6cc6dae348aa82e71a0ba400e58a23e",
+      "network.4.bias": "32648d7aabefcca4e0e38a4466a3af05e6b5c131e87aeeb027df11711da3a51a",
+      "network.4.weight": "1634fb6921198716559c5faf3add0b5931f6da8e82a771ab963413ceb524f94c"
+    },
+    "F2": {
+      "energy_network.0.bias": "8490f41da7d097addff32afd7da1908fc97a73609b28c30bb71d95a0e3a7d1c0",
+      "energy_network.0.weight": "7ae680069bc2ff42f2f1561be269ba01a3f2a1a0f6d54513490f1cdd29216a7b",
+      "energy_network.2.bias": "4b54027a61614ec671ce9c7af4f727a3bb88050cbaa77b8f026739cd8cd2e417",
+      "energy_network.2.weight": "878246e0b0bf814f7ef48592d6e00f7e6ab220efdff33e1675dd79f370b0e18b",
+      "energy_network.4.bias": "d15c12b3031b6fd9205ddbc8cfee578f27d1b4b671b5c8543f869d6fef4398dd",
+      "energy_network.4.weight": "47859a177a7329061ba2e1538533616243e01ca6999df6849a3be3545fe67a92",
+      "initializer.network.0.bias": "ab45c0e56573f6bfff9d382656a46a883ee74bf5ee98e2888ea4cb1b2418985f",
+      "initializer.network.0.weight": "35646ce006625310c67df5e6bbe79aac582e1c1e204d9b092ff95174a120532e",
+      "initializer.network.2.bias": "9936d51b043cbce224df7ed35f7bc16894c536a941c5a7ff19bdeefd0b3c9506",
+      "initializer.network.2.weight": "1cc662736ecee3145d3aba8b143966fea6cc6dae348aa82e71a0ba400e58a23e",
+      "initializer.network.4.bias": "32648d7aabefcca4e0e38a4466a3af05e6b5c131e87aeeb027df11711da3a51a",
+      "initializer.network.4.weight": "1634fb6921198716559c5faf3add0b5931f6da8e82a771ab963413ceb524f94c"
+    },
+    "representation": {
+      "decoder.0.bias": "8740448cda422dc2c01f4eea7c3893fcbffe5002977a7bdd797d7ff1a203c55b",
+      "decoder.0.weight": "07e940dcef4d7d763b60bd62fc0cb86dc7feb7e33f905e228efcee5986206a20",
+      "decoder.2.bias": "0841abc243dfc06c7cf77948ba4d09fceb967e0557ebe3f984d8b366b4668f04",
+      "decoder.2.weight": "c99282bded3a164704626d830b181ba614a2d39a0b74304b131a1a4194ab30bc",
+      "decoder.4.bias": "37b61a06f54053c36fe07ff213f528c5e1e326569b068d1bf8d6ae5591917f5c",
+      "decoder.4.weight": "4effa9e3e56f451d8fbc3ca63bc9f7d11bb6a7debcce1aa55ec7578daa315d72",
+      "encoder.0.bias": "588a93bd88c4eaf0a98ab9fd54544544009677b38f8778ce4f4e88f6176cb355",
+      "encoder.0.weight": "28e4c6e6357c083b16e9c6543b9e0e92cd00dcbb52836749ca737d3df6c53d1a",
+      "encoder.2.bias": "d9c0ee6833bae1d2e38de5c4d3cf6b952383a841b1681c0b79dd8f7119a7f82f",
+      "encoder.2.weight": "274c451665356b173fbdc506d44a9142667591adb2b51df344cc640ae17a58a7",
+      "encoder.4.bias": "7126afc8574ac23f6d399e39a0ce0cd9eb18b032d90adcb4b533fd674355d474",
+      "encoder.4.weight": "b62a95910772f89c16f4a41f4edb7403dda29dc7ffc7ccfddf5b60073b544088",
+      "text_projection.weight": "2858f9deac95c452df3d364c8ad7e7c7f937ed96dea9d11db2bfd1763c4af385"
+    },
+    "semantic": {
+      "network.0.bias": "a82b17541d1c9a93d59750715de6c8088a36d8f1db94acace66a746222f9b75d",
+      "network.0.weight": "bf04a424e890cc95cedd904ec01195f961e21e153984d99885aa731cb027eb99",
+      "network.2.bias": "1aca043025135845267f8cf930020ab5487c124bbe7314c9c37b27764c27228d",
+      "network.2.weight": "9ef1ad6b274528fa4a38ce2bc5f48fca6ee56ecd21717b67b73370b50f98eff3",
+      "network.4.bias": "74a804453134e968eac4aedadaa24fd7a4e65a78f149b488651e5817969f5e16",
+      "network.4.weight": "580346dda1f8db70e8b6b69ac245b87298f8ff55251b3bc8dc3f236e605d1f4a"
+    }
+  }
+}

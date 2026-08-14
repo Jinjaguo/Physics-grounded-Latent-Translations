@@ -1,0 +1,966 @@
+{
+  "block_annotation_boundary_counts": {
+    "2+": 61
+  },
+  "boundary_H8_same_start_AUC": {
+    "bootstrap": {
+      "F1_mean_session_value": 8.700563554255133,
+      "F2_mean_session_value": 7.456734168065418,
+      "block_or_start_count": 61,
+      "bootstrap_replicates": 10000,
+      "lower_95": -1.520072895647435,
+      "mean_delta_F2_minus_F1": -1.2438293861897156,
+      "session_values": [
+        {
+          "F1": 9.568763912001666,
+          "F2": 7.743518193604573,
+          "delta": -1.8252457183970927,
+          "source_session_id": "training_ep_row_00000"
+        },
+        {
+          "F1": 7.676098358446869,
+          "F2": 6.439887255293013,
+          "delta": -1.236211103153856,
+          "source_session_id": "training_ep_row_00001"
+        },
+        {
+          "F1": 9.634476373111411,
+          "F2": 7.877483133093826,
+          "delta": -1.756993240017585,
+          "source_session_id": "training_ep_row_00002"
+        },
+        {
+          "F1": 10.981176608198846,
+          "F2": 9.56779930877701,
+          "delta": -1.4133772994218354,
+          "source_session_id": "training_ep_row_00003"
+        },
+        {
+          "F1": 10.318013255679713,
+          "F2": 8.243815725370473,
+          "delta": -2.07419753030924,
+          "source_session_id": "training_ep_row_00004"
+        },
+        {
+          "F1": 7.226662096206991,
+          "F2": 6.565517272494876,
+          "delta": -0.6611448237121147,
+          "source_session_id": "training_ep_row_00005"
+        },
+        {
+          "F1": 9.285524721469773,
+          "F2": 8.461463703225148,
+          "delta": -0.8240610182446257,
+          "source_session_id": "training_ep_row_00006"
+        },
+        {
+          "F1": 8.571438205609876,
+          "F2": 7.441602693839972,
+          "delta": -1.1298355117699046,
+          "source_session_id": "training_ep_row_00007"
+        },
+        {
+          "F1": 9.927371408902188,
+          "F2": 8.763668729528286,
+          "delta": -1.1637026793739018,
+          "source_session_id": "training_ep_row_00008"
+        },
+        {
+          "F1": 6.798928575533555,
+          "F2": 6.009377361026408,
+          "delta": -0.7895512145071475,
+          "source_session_id": "training_ep_row_00009"
+        },
+        {
+          "F1": 5.717745581645571,
+          "F2": 4.909942472466001,
+          "delta": -0.8078031091795701,
+          "source_session_id": "training_ep_row_00177"
+        }
+      ],
+      "source_session_count": 11,
+      "upper_95": -0.9783019401951306
+    },
+    "rows": [
+      {
+        "Delta_AUC_F2_minus_F1": -0.7302696004097768,
+        "F1_AUC": 5.2671711166674084,
+        "F2_AUC": 4.536901516257632,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_023_session_00177_frame_2399317",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00177"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.4448008455909913,
+        "F1_AUC": 4.24724469391766,
+        "F2_AUC": 3.8024438483266683,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_023_session_00177_frame_2400071",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00177"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.2657596716802697,
+        "F1_AUC": 5.375383297825355,
+        "F2_AUC": 4.109623626145085,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_023_session_00177_frame_2401084",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00177"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.8598443513522529,
+        "F1_AUC": 7.29568736530876,
+        "F2_AUC": 6.435843013956507,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_023_session_00177_frame_2402081",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00177"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.1327309229635238,
+        "F1_AUC": 7.415890160798167,
+        "F2_AUC": 6.283159237834643,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_023_session_00177_frame_2403339",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00177"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.41341326308060466,
+        "F1_AUC": 4.705096855356075,
+        "F2_AUC": 4.29168359227547,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_023_session_00177_frame_2403765",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00177"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.5904898951626043,
+        "F1_AUC": 8.656951533174231,
+        "F2_AUC": 7.066461638011627,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00000_frame_0054447",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.0464613580598288,
+        "F1_AUC": 9.70641870296511,
+        "F2_AUC": 7.659957344905281,
+        "H8_boundaries_crossed": 5,
+        "block_id": "subset_training_000_session_00000_frame_0055036",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.3467177984590606,
+        "F1_AUC": 12.004274442893077,
+        "F2_AUC": 10.657556644434017,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00000_frame_0055430",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.808951703421341,
+        "F1_AUC": 11.642323397358462,
+        "F2_AUC": 8.83337169393712,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00000_frame_0056251",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.914839715646358,
+        "F1_AUC": 7.946047584180993,
+        "F2_AUC": 6.0312078685346355,
+        "H8_boundaries_crossed": 7,
+        "block_id": "subset_training_000_session_00000_frame_0057177",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.244013839633368,
+        "F1_AUC": 7.456567811438125,
+        "F2_AUC": 6.212553971804757,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00000_frame_0057758",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.6059243575931283,
+        "F1_AUC": 4.94575366324325,
+        "F2_AUC": 4.339829305650122,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00001_frame_0064782",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.5263616724593554,
+        "F1_AUC": 7.22470274183198,
+        "F2_AUC": 6.698341069372624,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00001_frame_0065612",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.2443139343048726,
+        "F1_AUC": 7.468321803909243,
+        "F2_AUC": 5.22400786960437,
+        "H8_boundaries_crossed": 9,
+        "block_id": "subset_training_000_session_00001_frame_0070168",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.4962593574742069,
+        "F1_AUC": 4.574377602285681,
+        "F2_AUC": 4.078118244811474,
+        "H8_boundaries_crossed": 9,
+        "block_id": "subset_training_000_session_00001_frame_0070438",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.0721155832209632,
+        "F1_AUC": 14.1673530227454,
+        "F2_AUC": 12.095237439524437,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00001_frame_0071946",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.4722917138705984,
+        "F1_AUC": 7.676081316665655,
+        "F2_AUC": 6.203789602795057,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00001_frame_0072448",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.6683650029753423,
+        "F1_AUC": 10.917666858953343,
+        "F2_AUC": 9.249301855978,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00002_frame_0084540",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.2963121642356583,
+        "F1_AUC": 8.391487212063602,
+        "F2_AUC": 8.095175047827944,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00002_frame_0084889",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.7234444950608427,
+        "F1_AUC": 10.873232818498941,
+        "F2_AUC": 8.149788323438099,
+        "H8_boundaries_crossed": 5,
+        "block_id": "subset_training_000_session_00002_frame_0085079",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.9059855856688355,
+        "F1_AUC": 10.779098059035007,
+        "F2_AUC": 7.873112473366172,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00002_frame_0087177",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.3863476498331044,
+        "F1_AUC": 7.740567302972827,
+        "F2_AUC": 5.354219653139722,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00002_frame_0087452",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.5615045423317255,
+        "F1_AUC": 9.104805987144749,
+        "F2_AUC": 8.543301444813023,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00002_frame_0087913",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.582130972603757,
+        "F1_AUC": 15.525486254082203,
+        "F2_AUC": 12.943355281478446,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00003_frame_0103398",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.8313231807941222,
+        "F1_AUC": 12.647989917638409,
+        "F2_AUC": 11.816666736844287,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00003_frame_0103965",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.9255512575241305,
+        "F1_AUC": 10.164723979476118,
+        "F2_AUC": 9.239172721951988,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00003_frame_0104170",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.8363481448698202,
+        "F1_AUC": 11.610338221602788,
+        "F2_AUC": 9.773990076732968,
+        "H8_boundaries_crossed": 2,
+        "block_id": "subset_training_000_session_00003_frame_0104786",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.8725097803891941,
+        "F1_AUC": 8.35775962086788,
+        "F2_AUC": 6.485249840478685,
+        "H8_boundaries_crossed": 9,
+        "block_id": "subset_training_000_session_00003_frame_0105912",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.4324004603500047,
+        "F1_AUC": 7.580761655525684,
+        "F2_AUC": 7.14836119517568,
+        "H8_boundaries_crossed": 5,
+        "block_id": "subset_training_000_session_00003_frame_0106326",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.5631071668001741,
+        "F1_AUC": 11.364059446740137,
+        "F2_AUC": 10.800952279939963,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00004_frame_0122500",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.0637021212721596,
+        "F1_AUC": 9.300457812231322,
+        "F2_AUC": 7.236755690959162,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00004_frame_0123353",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -2.2309068037049693,
+        "F1_AUC": 9.29937681136495,
+        "F2_AUC": 7.068470007659982,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00004_frame_0123757",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -3.5890214284893274,
+        "F1_AUC": 11.366979992664351,
+        "F2_AUC": 7.777958564175024,
+        "H8_boundaries_crossed": 5,
+        "block_id": "subset_training_000_session_00004_frame_0125021",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -3.2984697277081843,
+        "F1_AUC": 11.214921954332123,
+        "F2_AUC": 7.916452226623939,
+        "H8_boundaries_crossed": 5,
+        "block_id": "subset_training_000_session_00004_frame_0125843",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.6999779338806196,
+        "F1_AUC": 9.362283516745384,
+        "F2_AUC": 8.662305582864764,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00004_frame_0126307",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.6751692257409543,
+        "F1_AUC": 8.153521099432165,
+        "F2_AUC": 6.478351873691211,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00005_frame_0147707",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.4546968002533678,
+        "F1_AUC": 6.779163096617397,
+        "F2_AUC": 6.3244662963640295,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00005_frame_0148023",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.7399242957988914,
+        "F1_AUC": 7.759784599851581,
+        "F2_AUC": 7.019860304052689,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00005_frame_0150436",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.4252434243476344,
+        "F1_AUC": 8.78631592196264,
+        "F2_AUC": 8.361072497615005,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_000_session_00005_frame_0150944",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": 0.04488889100053939,
+        "F1_AUC": 4.466464164405904,
+        "F2_AUC": 4.511353055406444,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00005_frame_0151177",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.7167240871323797,
+        "F1_AUC": 7.41472369497226,
+        "F2_AUC": 6.69799960783988,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_000_session_00005_frame_0152173",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.8504297203201858,
+        "F1_AUC": 11.585490337281602,
+        "F2_AUC": 10.735060616961416,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00006_frame_0166415",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.300432718990872,
+        "F1_AUC": 5.2595750343083205,
+        "F2_AUC": 4.9591423153174485,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00006_frame_0167504",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.5453856205148675,
+        "F1_AUC": 8.945965291439496,
+        "F2_AUC": 8.400579670924628,
+        "H8_boundaries_crossed": 5,
+        "block_id": "subset_training_001_session_00006_frame_0168687",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.3322960275181233,
+        "F1_AUC": 8.733268327994713,
+        "F2_AUC": 7.40097230047659,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00006_frame_0169355",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.6262987174452199,
+        "F1_AUC": 9.479857980225162,
+        "F2_AUC": 8.853559262779942,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00006_frame_0169805",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.289523304678486,
+        "F1_AUC": 11.708991357569346,
+        "F2_AUC": 10.41946805289086,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00006_frame_0170705",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.6245754420023522,
+        "F1_AUC": 7.92879613784872,
+        "F2_AUC": 6.304220695846368,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_001_session_00007_frame_0197223",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.8773109537286317,
+        "F1_AUC": 11.299452147987072,
+        "F2_AUC": 9.42214119425844,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00007_frame_0197753",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.0387477187057996,
+        "F1_AUC": 10.389788268813358,
+        "F2_AUC": 9.351040550107559,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00007_frame_0198306",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.8013884812580807,
+        "F1_AUC": 7.247531502258904,
+        "F2_AUC": 6.4461430210008235,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00007_frame_0198579",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.070446228372159,
+        "F1_AUC": 9.67734064455146,
+        "F2_AUC": 8.606894416179301,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_001_session_00007_frame_0199746",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.3665442465524116,
+        "F1_AUC": 4.885720532199749,
+        "F2_AUC": 4.519176285647338,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00007_frame_0199958",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.3016538380082814,
+        "F1_AUC": 9.489165296401243,
+        "F2_AUC": 8.187511458392962,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00008_frame_0246388",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": 0.21016825046172105,
+        "F1_AUC": 7.0862829650355,
+        "F2_AUC": 7.296451215497221,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00008_frame_0247733",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.7857330304543169,
+        "F1_AUC": 9.879302025542302,
+        "F2_AUC": 9.093568995087985,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00008_frame_0251587",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -1.5871700480709103,
+        "F1_AUC": 7.106042611622529,
+        "F2_AUC": 5.518872563551619,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00008_frame_0252031",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -3.234688599714108,
+        "F1_AUC": 12.528858193830658,
+        "F2_AUC": 9.29416959411655,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00008_frame_0252374",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.2831388104574959,
+        "F1_AUC": 13.474577360980886,
+        "F2_AUC": 13.19143855052339,
+        "H8_boundaries_crossed": 1,
+        "block_id": "subset_training_001_session_00008_frame_0252839",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "Delta_AUC_F2_minus_F1": -0.7895512145071475,
+        "F1_AUC": 6.798928575533555,
+        "F2_AUC": 6.009377361026408,
+        "H8_boundaries_crossed": 3,
+        "block_id": "subset_training_001_session_00009_frame_0273960",
+        "offset": 0,
+        "source_session_id": "training_ep_row_00009"
+      }
+    ]
+  },
+  "protocol_A": {
+    "1": {
+      "0": {
+        "F1_normalized_execution_error": {
+          "count": 137,
+          "maximum": 2.5944161906822254,
+          "mean": 0.8469204696119728,
+          "median": 0.7728039801407202,
+          "minimum": 0.0970681934130073
+        },
+        "F2_normalized_execution_error": {
+          "count": 137,
+          "maximum": 2.454320572348933,
+          "mean": 0.7722965107095116,
+          "median": 0.7199744583814667,
+          "minimum": 0.07440916798894577
+        },
+        "delta_F2_minus_F1": {
+          "count": 137,
+          "maximum": 0.056044301575457194,
+          "mean": -0.07462395890246132,
+          "median": -0.056095227766393196,
+          "minimum": -0.5013224308419482
+        },
+        "sample_count": 137,
+        "source_session_count": 11,
+        "transition_kinds": {}
+      },
+      "1": {
+        "F1_normalized_execution_error": {
+          "count": 107,
+          "maximum": 3.8260042673302967,
+          "mean": 0.9854364143875787,
+          "median": 0.8662040937374214,
+          "minimum": 0.15483182294027456
+        },
+        "F2_normalized_execution_error": {
+          "count": 107,
+          "maximum": 3.2892087572108926,
+          "mean": 0.8995875465381444,
+          "median": 0.7686185300550447,
+          "minimum": 0.13130375202552524
+        },
+        "delta_F2_minus_F1": {
+          "count": 107,
+          "maximum": 0.07304727646161867,
+          "mean": -0.08584886784943435,
+          "median": -0.06170570078592484,
+          "minimum": -0.536795510119404
+        },
+        "sample_count": 107,
+        "source_session_count": 11,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 80,
+          "same_annotated_task": 26,
+          "task_changes": 1
+        }
+      },
+      "2+": {
+        "F1_normalized_execution_error": {
+          "count": 59,
+          "maximum": 3.2203349247720583,
+          "mean": 0.9702605045899123,
+          "median": 0.8641880993856196,
+          "minimum": 0.1542883778921382
+        },
+        "F2_normalized_execution_error": {
+          "count": 59,
+          "maximum": 2.8141403425676836,
+          "mean": 0.8841904810494072,
+          "median": 0.7836517140162648,
+          "minimum": 0.1513301209812834
+        },
+        "delta_F2_minus_F1": {
+          "count": 59,
+          "maximum": 0.06825019997776317,
+          "mean": -0.0860700235405052,
+          "median": -0.06161044889360432,
+          "minimum": -0.4061945822043746
+        },
+        "sample_count": 59,
+        "source_session_count": 10,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 42,
+          "same_annotated_task": 59,
+          "task_changes": 6,
+          "unlabeled_to_labeled": 2
+        }
+      }
+    },
+    "2": {
+      "0": {
+        "F1_normalized_execution_error": {
+          "count": 78,
+          "maximum": 4.335329905554961,
+          "mean": 1.0843553895592741,
+          "median": 0.6661067820371547,
+          "minimum": 0.126388791367288
+        },
+        "F2_normalized_execution_error": {
+          "count": 78,
+          "maximum": 4.274572171630481,
+          "mean": 0.9857550497582225,
+          "median": 0.6557899039139423,
+          "minimum": 0.08750930469874058
+        },
+        "delta_F2_minus_F1": {
+          "count": 78,
+          "maximum": 0.2415518570306651,
+          "mean": -0.0986003398010515,
+          "median": -0.0770296334668491,
+          "minimum": -0.46547665150792167
+        },
+        "sample_count": 78,
+        "source_session_count": 11,
+        "transition_kinds": {}
+      },
+      "1": {
+        "F1_normalized_execution_error": {
+          "count": 134,
+          "maximum": 4.035049054724545,
+          "mean": 1.2286322012893036,
+          "median": 1.1012873572060902,
+          "minimum": 0.24758077832745187
+        },
+        "F2_normalized_execution_error": {
+          "count": 134,
+          "maximum": 3.732164424567614,
+          "mean": 1.129653005852326,
+          "median": 1.0111798636816824,
+          "minimum": 0.21404916761567672
+        },
+        "delta_F2_minus_F1": {
+          "count": 134,
+          "maximum": 0.11307480733114099,
+          "mean": -0.09897919543697797,
+          "median": -0.07866767866586352,
+          "minimum": -0.6308800262016675
+        },
+        "sample_count": 134,
+        "source_session_count": 11,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 114,
+          "same_annotated_task": 19,
+          "task_changes": 1
+        }
+      },
+      "2+": {
+        "F1_normalized_execution_error": {
+          "count": 88,
+          "maximum": 3.0481670725019394,
+          "mean": 1.1486964152433465,
+          "median": 1.0189139873136315,
+          "minimum": 0.2214581317860572
+        },
+        "F2_normalized_execution_error": {
+          "count": 88,
+          "maximum": 2.780948756644161,
+          "mean": 1.040140499916423,
+          "median": 0.9526667514108831,
+          "minimum": 0.16634431430984997
+        },
+        "delta_F2_minus_F1": {
+          "count": 88,
+          "maximum": 0.10867182559412657,
+          "mean": -0.10855591532692334,
+          "median": -0.08230224392746427,
+          "minimum": -0.5694822723937825
+        },
+        "sample_count": 88,
+        "source_session_count": 10,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 67,
+          "same_annotated_task": 88,
+          "task_changes": 9,
+          "unlabeled_to_labeled": 3
+        }
+      }
+    },
+    "4": {
+      "0": {
+        "F1_normalized_execution_error": {
+          "count": 0
+        },
+        "F2_normalized_execution_error": {
+          "count": 0
+        },
+        "delta_F2_minus_F1": {
+          "count": 0
+        },
+        "sample_count": 0,
+        "source_session_count": 0,
+        "transition_kinds": {}
+      },
+      "1": {
+        "F1_normalized_execution_error": {
+          "count": 164,
+          "maximum": 3.4273082964625816,
+          "mean": 1.1502096157130866,
+          "median": 1.0162335626472379,
+          "minimum": 0.2991574588889077
+        },
+        "F2_normalized_execution_error": {
+          "count": 164,
+          "maximum": 3.2994142520729235,
+          "mean": 1.0502277251991206,
+          "median": 0.9683206089930304,
+          "minimum": 0.22577379928844446
+        },
+        "delta_F2_minus_F1": {
+          "count": 164,
+          "maximum": 0.1503006579891472,
+          "mean": -0.099981890513966,
+          "median": -0.09576149563451586,
+          "minimum": -0.44643162171638445
+        },
+        "sample_count": 164,
+        "source_session_count": 10,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 164
+        }
+      },
+      "2+": {
+        "F1_normalized_execution_error": {
+          "count": 126,
+          "maximum": 3.119787391403454,
+          "mean": 1.2664363698690428,
+          "median": 1.161185206664173,
+          "minimum": 0.2267823512468723
+        },
+        "F2_normalized_execution_error": {
+          "count": 126,
+          "maximum": 2.9250328914912522,
+          "mean": 1.1317363772881808,
+          "median": 1.0545846829722278,
+          "minimum": 0.15704504959300586
+        },
+        "delta_F2_minus_F1": {
+          "count": 126,
+          "maximum": 0.1831425317679855,
+          "mean": -0.1346999925808619,
+          "median": -0.08438556611772975,
+          "minimum": -0.5858908618156786
+        },
+        "sample_count": 126,
+        "source_session_count": 10,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 116,
+          "same_annotated_task": 123,
+          "task_changes": 15,
+          "unlabeled_to_labeled": 8
+        }
+      }
+    },
+    "8": {
+      "0": {
+        "F1_normalized_execution_error": {
+          "count": 0
+        },
+        "F2_normalized_execution_error": {
+          "count": 0
+        },
+        "delta_F2_minus_F1": {
+          "count": 0
+        },
+        "sample_count": 0,
+        "source_session_count": 0,
+        "transition_kinds": {}
+      },
+      "1": {
+        "F1_normalized_execution_error": {
+          "count": 33,
+          "maximum": 2.5139603199052445,
+          "mean": 1.1796038296509377,
+          "median": 1.0529334225689173,
+          "minimum": 0.2603613176261408
+        },
+        "F2_normalized_execution_error": {
+          "count": 33,
+          "maximum": 2.0955794131641303,
+          "mean": 0.9442906413703629,
+          "median": 0.7631812060846954,
+          "minimum": 0.1716286321043032
+        },
+        "delta_F2_minus_F1": {
+          "count": 33,
+          "maximum": 0.07706384505601141,
+          "mean": -0.23531318828057496,
+          "median": -0.21527946188257113,
+          "minimum": -0.6890155449495046
+        },
+        "sample_count": 33,
+        "source_session_count": 9,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 33
+        }
+      },
+      "2+": {
+        "F1_normalized_execution_error": {
+          "count": 28,
+          "maximum": 3.0974208359474495,
+          "mean": 1.5643612496541042,
+          "median": 1.337797123028687,
+          "minimum": 0.4316673508036153
+        },
+        "F2_normalized_execution_error": {
+          "count": 28,
+          "maximum": 2.9589671462908607,
+          "mean": 1.2599149285296227,
+          "median": 1.2333046022368603,
+          "minimum": 0.22343574656714799
+        },
+        "delta_F2_minus_F1": {
+          "count": 28,
+          "maximum": 0.02899526779039622,
+          "mean": -0.3044463211244815,
+          "median": -0.23722677245051255,
+          "minimum": -0.935314633387757
+        },
+        "sample_count": 28,
+        "source_session_count": 10,
+        "transition_kinds": {
+          "labeled_to_unlabeled": 28,
+          "same_annotated_task": 27,
+          "task_changes": 4,
+          "unlabeled_to_labeled": 3
+        }
+      }
+    }
+  }
+}

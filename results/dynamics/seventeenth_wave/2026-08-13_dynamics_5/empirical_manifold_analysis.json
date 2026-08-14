@@ -1,0 +1,13 @@
+{
+  "H4_H8_normal_reduction": {
+    "count": 351,
+    "maximum": 1.2130847246188032,
+    "mean": 0.3294161064262039,
+    "median": 0.31629834733637185,
+    "minimum": -0.7049911829730606
+  },
+  "local_pca_variance_fraction": 0.9,
+  "pearson_normal_reduction_vs_decoded_improvement": 0.2781078670655782,
+  "reference": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz",
+  "training_only": true
+}

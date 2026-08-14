@@ -1,0 +1,3567 @@
+{
+  "H4_H8": {
+    "correction_target_cosine": {
+      "count": 351,
+      "maximum": 0.8245740532875061,
+      "mean": 0.1437338624203291,
+      "median": 0.1563880294561386,
+      "minimum": -0.5655540823936462
+    },
+    "decoded_improvement_F1_minus_F2": {
+      "count": 351,
+      "maximum": 0.038664788007736206,
+      "mean": 0.003635850792055541,
+      "median": 0.00292804092168808,
+      "minimum": -0.012260772287845612
+    },
+    "execution_radius_reduction_F1_minus_F2": {
+      "count": 351,
+      "maximum": 1.4473552703857422,
+      "mean": 0.3955359216089602,
+      "median": 0.31971848011016846,
+      "minimum": -0.09839141368865967
+    },
+    "fraction_positive": 0.6638176638176638,
+    "normal_distance_reduction_F1_minus_F2": {
+      "count": 351,
+      "maximum": 1.2130847246188032,
+      "mean": 0.3294161064262039,
+      "median": 0.31629834733637185,
+      "minimum": -0.7049911829730606
+    }
+  },
+  "by_horizon": {
+    "4": {
+      "correction_target_cosine": {
+        "count": 290,
+        "maximum": 0.8245740532875061,
+        "mean": 0.13042291835600767,
+        "median": 0.13757683336734772,
+        "minimum": -0.5655540823936462
+      },
+      "fraction_positive": 0.6586206896551724
+    },
+    "8": {
+      "correction_target_cosine": {
+        "count": 61,
+        "maximum": 0.5862923860549927,
+        "mean": 0.20701539977529987,
+        "median": 0.2903600037097931,
+        "minimum": -0.4176120162010193
+      },
+      "fraction_positive": 0.6885245901639344
+    }
+  },
+  "records": [
+    {
+      "block_id": "subset_training_023_session_00177_frame_2399317",
+      "correction_target_cosine": -0.34291186928749084,
+      "decoded_improvement_F1_minus_F2": -0.0010499358177185059,
+      "execution_radius_reduction_F1_minus_F2": 0.32725465297698975,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.30738195642838884,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2399317",
+      "correction_target_cosine": 0.1612967699766159,
+      "decoded_improvement_F1_minus_F2": -0.003713618963956833,
+      "execution_radius_reduction_F1_minus_F2": 0.3307011127471924,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3001465862419148,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2399317",
+      "correction_target_cosine": 0.3401211202144623,
+      "decoded_improvement_F1_minus_F2": 0.0034323707222938538,
+      "execution_radius_reduction_F1_minus_F2": 0.26223111152648926,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.27160282099252075,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "correction_target_cosine": 0.1845284253358841,
+      "decoded_improvement_F1_minus_F2": 0.002163095399737358,
+      "execution_radius_reduction_F1_minus_F2": 0.28058183193206787,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.33914010995817845,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "correction_target_cosine": -0.059761472046375275,
+      "decoded_improvement_F1_minus_F2": 0.0012401286512613297,
+      "execution_radius_reduction_F1_minus_F2": 0.4113670587539673,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4141370182309374,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "correction_target_cosine": 0.28515729308128357,
+      "decoded_improvement_F1_minus_F2": 0.0029858089983463287,
+      "execution_radius_reduction_F1_minus_F2": 0.39476335048675537,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.48685927979054777,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "correction_target_cosine": 0.34192758798599243,
+      "decoded_improvement_F1_minus_F2": 0.0008797738701105118,
+      "execution_radius_reduction_F1_minus_F2": 0.31971848011016846,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3669722383592735,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "correction_target_cosine": 0.5290138721466064,
+      "decoded_improvement_F1_minus_F2": 0.002587050199508667,
+      "execution_radius_reduction_F1_minus_F2": 0.12419271469116211,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.17427743283029407,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "correction_target_cosine": 0.3334183692932129,
+      "decoded_improvement_F1_minus_F2": 0.003057878464460373,
+      "execution_radius_reduction_F1_minus_F2": 0.3808434009552002,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7354407044741529,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "correction_target_cosine": 0.4343087375164032,
+      "decoded_improvement_F1_minus_F2": 0.0040334053337574005,
+      "execution_radius_reduction_F1_minus_F2": 0.1552208662033081,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3614646252768794,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "correction_target_cosine": 0.3222574293613434,
+      "decoded_improvement_F1_minus_F2": 0.0002689734101295471,
+      "execution_radius_reduction_F1_minus_F2": 0.11295497417449951,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.22159903403116843,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "correction_target_cosine": -0.3554484248161316,
+      "decoded_improvement_F1_minus_F2": 0.0033662691712379456,
+      "execution_radius_reduction_F1_minus_F2": 0.41461336612701416,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3781771683081454,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "correction_target_cosine": 0.14326725900173187,
+      "decoded_improvement_F1_minus_F2": 0.0020002126693725586,
+      "execution_radius_reduction_F1_minus_F2": 0.13433778285980225,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1521005863845557,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "correction_target_cosine": 0.08737308531999588,
+      "decoded_improvement_F1_minus_F2": 0.0015933513641357422,
+      "execution_radius_reduction_F1_minus_F2": 0.3107346296310425,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.25094214923804326,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "correction_target_cosine": -0.011783038266003132,
+      "decoded_improvement_F1_minus_F2": 0.00017698481678962708,
+      "execution_radius_reduction_F1_minus_F2": 0.40975821018218994,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4605248449793682,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "correction_target_cosine": 0.5915393829345703,
+      "decoded_improvement_F1_minus_F2": 0.004525931552052498,
+      "execution_radius_reduction_F1_minus_F2": 0.525090217590332,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7337631747823901,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "correction_target_cosine": 0.37448742985725403,
+      "decoded_improvement_F1_minus_F2": 0.01031879335641861,
+      "execution_radius_reduction_F1_minus_F2": 0.27919435501098633,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.013589176908140432,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "correction_target_cosine": -0.13401074707508087,
+      "decoded_improvement_F1_minus_F2": 0.002068033441901207,
+      "execution_radius_reduction_F1_minus_F2": 0.3031543493270874,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.23004729709782334,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "correction_target_cosine": 0.013340605422854424,
+      "decoded_improvement_F1_minus_F2": 0.002184745855629444,
+      "execution_radius_reduction_F1_minus_F2": 0.47964584827423096,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5539443707346261,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "correction_target_cosine": 0.20268255472183228,
+      "decoded_improvement_F1_minus_F2": 0.0017506154254078865,
+      "execution_radius_reduction_F1_minus_F2": 0.24707245826721191,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.19918755314319359,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "correction_target_cosine": 0.6336406469345093,
+      "decoded_improvement_F1_minus_F2": 0.002185205928981304,
+      "execution_radius_reduction_F1_minus_F2": 0.16416478157043457,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.17850975804374714,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "correction_target_cosine": 0.5322699546813965,
+      "decoded_improvement_F1_minus_F2": 0.0024069524370133877,
+      "execution_radius_reduction_F1_minus_F2": 0.025211691856384277,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.032470164948569025,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "correction_target_cosine": 0.326747328042984,
+      "decoded_improvement_F1_minus_F2": 0.002614951226860285,
+      "execution_radius_reduction_F1_minus_F2": 0.11265838146209717,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2998337504129849,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403765",
+      "correction_target_cosine": -0.10358112305402756,
+      "decoded_improvement_F1_minus_F2": -0.0009152665734291077,
+      "execution_radius_reduction_F1_minus_F2": -0.007929563522338867,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6032683219721715,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403765",
+      "correction_target_cosine": -0.1400402933359146,
+      "decoded_improvement_F1_minus_F2": 5.373917520046234e-05,
+      "execution_radius_reduction_F1_minus_F2": 0.09366011619567871,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13125755049861465,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403765",
+      "correction_target_cosine": 0.35662412643432617,
+      "decoded_improvement_F1_minus_F2": 0.0061286743730306625,
+      "execution_radius_reduction_F1_minus_F2": 0.35621941089630127,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3505107530934233,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "correction_target_cosine": 0.24539083242416382,
+      "decoded_improvement_F1_minus_F2": 0.004386419430375099,
+      "execution_radius_reduction_F1_minus_F2": 0.5880165100097656,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6411327733533967,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "correction_target_cosine": -0.11092697083950043,
+      "decoded_improvement_F1_minus_F2": 0.0012917295098304749,
+      "execution_radius_reduction_F1_minus_F2": 0.15849339962005615,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.030538696585688196,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "correction_target_cosine": 0.020389661192893982,
+      "decoded_improvement_F1_minus_F2": 0.00673259049654007,
+      "execution_radius_reduction_F1_minus_F2": 0.4534430503845215,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5247524168003392,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "correction_target_cosine": -0.14896613359451294,
+      "decoded_improvement_F1_minus_F2": -0.0003866869956254959,
+      "execution_radius_reduction_F1_minus_F2": 0.24617481231689453,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.3441981907789238,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "correction_target_cosine": 0.3774011731147766,
+      "decoded_improvement_F1_minus_F2": 0.0057424865663051605,
+      "execution_radius_reduction_F1_minus_F2": 0.02775430679321289,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2763425591832518,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "correction_target_cosine": 0.1343998908996582,
+      "decoded_improvement_F1_minus_F2": 0.009565211832523346,
+      "execution_radius_reduction_F1_minus_F2": 1.1010066270828247,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.9114335504075586,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "correction_target_cosine": 0.5398278832435608,
+      "decoded_improvement_F1_minus_F2": -0.0012439452111721039,
+      "execution_radius_reduction_F1_minus_F2": 0.43303442001342773,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13410525670249496,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "correction_target_cosine": 0.21395157277584076,
+      "decoded_improvement_F1_minus_F2": -0.0003108065575361252,
+      "execution_radius_reduction_F1_minus_F2": 0.06155896186828613,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.04483430541185962,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "correction_target_cosine": -0.059312302619218826,
+      "decoded_improvement_F1_minus_F2": 0.0013478174805641174,
+      "execution_radius_reduction_F1_minus_F2": 0.06362414360046387,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13355704488428644,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "correction_target_cosine": 0.23413316905498505,
+      "decoded_improvement_F1_minus_F2": 0.005283072590827942,
+      "execution_radius_reduction_F1_minus_F2": 0.3102504014968872,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.32939099291243534,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "correction_target_cosine": 0.053049974143505096,
+      "decoded_improvement_F1_minus_F2": 0.008285965770483017,
+      "execution_radius_reduction_F1_minus_F2": 0.3893340826034546,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5625589089058347,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "correction_target_cosine": -0.026434872299432755,
+      "decoded_improvement_F1_minus_F2": 0.004038810729980469,
+      "execution_radius_reduction_F1_minus_F2": 0.4875321388244629,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.006883761457934012,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "correction_target_cosine": -0.0589446984231472,
+      "decoded_improvement_F1_minus_F2": 0.005009010434150696,
+      "execution_radius_reduction_F1_minus_F2": 0.3036324977874756,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3568791203710442,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "correction_target_cosine": 0.10204137861728668,
+      "decoded_improvement_F1_minus_F2": 0.007465265691280365,
+      "execution_radius_reduction_F1_minus_F2": 0.2859795093536377,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.15682915837510358,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "correction_target_cosine": 0.20538651943206787,
+      "decoded_improvement_F1_minus_F2": 0.006285667419433594,
+      "execution_radius_reduction_F1_minus_F2": 0.48578131198883057,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.23760099785811417,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "correction_target_cosine": 0.28559190034866333,
+      "decoded_improvement_F1_minus_F2": 0.013202860951423645,
+      "execution_radius_reduction_F1_minus_F2": 0.9997096061706543,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3433531789685934,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "correction_target_cosine": -0.14466418325901031,
+      "decoded_improvement_F1_minus_F2": 0.0021641943603754044,
+      "execution_radius_reduction_F1_minus_F2": 0.24440383911132812,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.276256034584758,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "correction_target_cosine": -0.10383065789937973,
+      "decoded_improvement_F1_minus_F2": -0.006004739552736282,
+      "execution_radius_reduction_F1_minus_F2": 0.10218775272369385,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1711949762824705,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "correction_target_cosine": -0.14005599915981293,
+      "decoded_improvement_F1_minus_F2": -0.00020457059144973755,
+      "execution_radius_reduction_F1_minus_F2": 0.16472625732421875,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.09938343870937394,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "correction_target_cosine": 0.5628706216812134,
+      "decoded_improvement_F1_minus_F2": 0.0012481603771448135,
+      "execution_radius_reduction_F1_minus_F2": -0.05403125286102295,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.07803183201827046,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "correction_target_cosine": 0.12507806718349457,
+      "decoded_improvement_F1_minus_F2": 0.002219654619693756,
+      "execution_radius_reduction_F1_minus_F2": 0.22955083847045898,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.31568274366931015,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "correction_target_cosine": 0.5585309863090515,
+      "decoded_improvement_F1_minus_F2": 0.0022342540323734283,
+      "execution_radius_reduction_F1_minus_F2": 0.21402525901794434,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3054971784281544,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "correction_target_cosine": 0.24273525178432465,
+      "decoded_improvement_F1_minus_F2": 0.006824970245361328,
+      "execution_radius_reduction_F1_minus_F2": 0.3040260076522827,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.11334002535820575,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "correction_target_cosine": 0.5386272072792053,
+      "decoded_improvement_F1_minus_F2": 0.005115881562232971,
+      "execution_radius_reduction_F1_minus_F2": 0.5232690572738647,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.519290927408766,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "correction_target_cosine": 0.005993931088596582,
+      "decoded_improvement_F1_minus_F2": 0.0028873756527900696,
+      "execution_radius_reduction_F1_minus_F2": -0.02960789203643799,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.11085426276729549,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057758",
+      "correction_target_cosine": 0.1063879057765007,
+      "decoded_improvement_F1_minus_F2": 0.00292804092168808,
+      "execution_radius_reduction_F1_minus_F2": 0.39470553398132324,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.10515849830717605,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057758",
+      "correction_target_cosine": 0.1563880294561386,
+      "decoded_improvement_F1_minus_F2": 0.002478182315826416,
+      "execution_radius_reduction_F1_minus_F2": 0.38738036155700684,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.10101228599245604,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057758",
+      "correction_target_cosine": 0.8245740532875061,
+      "decoded_improvement_F1_minus_F2": 0.012411629781126976,
+      "execution_radius_reduction_F1_minus_F2": 0.40773260593414307,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6271097349205397,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "correction_target_cosine": -0.4430958330631256,
+      "decoded_improvement_F1_minus_F2": 0.0020805541425943375,
+      "execution_radius_reduction_F1_minus_F2": 0.45643413066864014,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4997860172836399,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "correction_target_cosine": -0.05447082221508026,
+      "decoded_improvement_F1_minus_F2": -0.00011955201625823975,
+      "execution_radius_reduction_F1_minus_F2": 0.21270620822906494,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.14445192266096907,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "correction_target_cosine": 0.17302130162715912,
+      "decoded_improvement_F1_minus_F2": 0.0032941438257694244,
+      "execution_radius_reduction_F1_minus_F2": 0.1764843463897705,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.013555147756743935,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "correction_target_cosine": 0.23338836431503296,
+      "decoded_improvement_F1_minus_F2": 0.0015605166554450989,
+      "execution_radius_reduction_F1_minus_F2": 0.2806129455566406,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3891587406182113,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "correction_target_cosine": 0.11485797166824341,
+      "decoded_improvement_F1_minus_F2": 0.00013994425535202026,
+      "execution_radius_reduction_F1_minus_F2": 0.2196352481842041,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.11833531629529603,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "correction_target_cosine": 0.3751541078090668,
+      "decoded_improvement_F1_minus_F2": 0.00919416919350624,
+      "execution_radius_reduction_F1_minus_F2": 0.19517457485198975,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.20534822613191261,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "correction_target_cosine": -0.0923677608370781,
+      "decoded_improvement_F1_minus_F2": 0.0023754164576530457,
+      "execution_radius_reduction_F1_minus_F2": 0.054909348487854004,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.014853272034664133,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "correction_target_cosine": -0.03650021553039551,
+      "decoded_improvement_F1_minus_F2": -0.00042682886123657227,
+      "execution_radius_reduction_F1_minus_F2": -0.0545954704284668,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.06629287376335635,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "correction_target_cosine": 0.14505407214164734,
+      "decoded_improvement_F1_minus_F2": 0.004521504044532776,
+      "execution_radius_reduction_F1_minus_F2": 0.2411668300628662,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.21909247243873398,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "correction_target_cosine": -0.24701714515686035,
+      "decoded_improvement_F1_minus_F2": 0.0053657591342926025,
+      "execution_radius_reduction_F1_minus_F2": 0.2054750919342041,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.35018936365944664,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "correction_target_cosine": 0.307104229927063,
+      "decoded_improvement_F1_minus_F2": -0.0014811456203460693,
+      "execution_radius_reduction_F1_minus_F2": 0.964153528213501,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5620650946164523,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "correction_target_cosine": 0.3725576400756836,
+      "decoded_improvement_F1_minus_F2": 0.004116125404834747,
+      "execution_radius_reduction_F1_minus_F2": 0.061566710472106934,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.028219984233597062,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "correction_target_cosine": -0.19610771536827087,
+      "decoded_improvement_F1_minus_F2": -1.7609447240829468e-05,
+      "execution_radius_reduction_F1_minus_F2": -0.04795646667480469,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.023180090967420908,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "correction_target_cosine": -0.006823668256402016,
+      "decoded_improvement_F1_minus_F2": -0.008829057216644287,
+      "execution_radius_reduction_F1_minus_F2": 0.23434066772460938,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4175378753366894,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "correction_target_cosine": -0.2705886662006378,
+      "decoded_improvement_F1_minus_F2": -0.006774231791496277,
+      "execution_radius_reduction_F1_minus_F2": 0.09734582901000977,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.19676143880801078,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "correction_target_cosine": -0.16516242921352386,
+      "decoded_improvement_F1_minus_F2": 0.0005698911845684052,
+      "execution_radius_reduction_F1_minus_F2": 0.3236297369003296,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2794313533039119,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "correction_target_cosine": 0.18118715286254883,
+      "decoded_improvement_F1_minus_F2": 0.0014350749552249908,
+      "execution_radius_reduction_F1_minus_F2": 0.27101147174835205,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.24666084998783044,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "correction_target_cosine": 0.42958468198776245,
+      "decoded_improvement_F1_minus_F2": 0.0009150169789791107,
+      "execution_radius_reduction_F1_minus_F2": 0.10833323001861572,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.7049911829730606,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "correction_target_cosine": 0.26832833886146545,
+      "decoded_improvement_F1_minus_F2": 0.0027891062200069427,
+      "execution_radius_reduction_F1_minus_F2": 0.045569658279418945,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.07248667094200201,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "correction_target_cosine": 0.5932900905609131,
+      "decoded_improvement_F1_minus_F2": 0.004817744717001915,
+      "execution_radius_reduction_F1_minus_F2": 0.5583239793777466,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.43406300795118513,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "correction_target_cosine": 0.11906850337982178,
+      "decoded_improvement_F1_minus_F2": 0.0002132803201675415,
+      "execution_radius_reduction_F1_minus_F2": 0.7064330577850342,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13649125952951557,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "correction_target_cosine": 0.17122620344161987,
+      "decoded_improvement_F1_minus_F2": 0.010395914316177368,
+      "execution_radius_reduction_F1_minus_F2": 0.8236894607543945,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.9521097548352044,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "correction_target_cosine": -0.10461115092039108,
+      "decoded_improvement_F1_minus_F2": 0.004266228526830673,
+      "execution_radius_reduction_F1_minus_F2": 0.45723676681518555,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5531707654991711,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "correction_target_cosine": 0.03295671194791794,
+      "decoded_improvement_F1_minus_F2": 0.00870247557759285,
+      "execution_radius_reduction_F1_minus_F2": 0.31945133209228516,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3382790009807083,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "correction_target_cosine": -0.0511450469493866,
+      "decoded_improvement_F1_minus_F2": 0.004539012908935547,
+      "execution_radius_reduction_F1_minus_F2": 0.2891416549682617,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.419375406080172,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "correction_target_cosine": 0.06551138311624527,
+      "decoded_improvement_F1_minus_F2": 0.007171235978603363,
+      "execution_radius_reduction_F1_minus_F2": 0.43281280994415283,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.29194010897797695,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "correction_target_cosine": 0.09621986746788025,
+      "decoded_improvement_F1_minus_F2": 0.0038427840918302536,
+      "execution_radius_reduction_F1_minus_F2": 0.16543149948120117,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.16067444076886073,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "correction_target_cosine": 0.1703510731458664,
+      "decoded_improvement_F1_minus_F2": 0.004870198667049408,
+      "execution_radius_reduction_F1_minus_F2": 0.21915793418884277,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.30607396576187074,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "correction_target_cosine": 0.13675987720489502,
+      "decoded_improvement_F1_minus_F2": -0.0008861590176820755,
+      "execution_radius_reduction_F1_minus_F2": 0.10800313949584961,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.043072426396024266,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "correction_target_cosine": 0.3168495297431946,
+      "decoded_improvement_F1_minus_F2": 0.00037375837564468384,
+      "execution_radius_reduction_F1_minus_F2": 0.46457576751708984,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4696480426042109,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "correction_target_cosine": 0.35060155391693115,
+      "decoded_improvement_F1_minus_F2": 0.009673342108726501,
+      "execution_radius_reduction_F1_minus_F2": 0.6357748508453369,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.3586762250758764,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "correction_target_cosine": 0.03886543586850166,
+      "decoded_improvement_F1_minus_F2": 0.0057380832731723785,
+      "execution_radius_reduction_F1_minus_F2": 0.19572293758392334,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1306047538987325,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "correction_target_cosine": -0.08793507516384125,
+      "decoded_improvement_F1_minus_F2": 0.001405235379934311,
+      "execution_radius_reduction_F1_minus_F2": -0.09839141368865967,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7716402804058621,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "correction_target_cosine": -0.24116936326026917,
+      "decoded_improvement_F1_minus_F2": -0.0022112373262643814,
+      "execution_radius_reduction_F1_minus_F2": 0.4744575023651123,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5357144099146733,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "correction_target_cosine": 0.28160321712493896,
+      "decoded_improvement_F1_minus_F2": 0.007586471736431122,
+      "execution_radius_reduction_F1_minus_F2": 0.3188505172729492,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.25704191623814765,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "correction_target_cosine": 0.2787453532218933,
+      "decoded_improvement_F1_minus_F2": 0.0002123415470123291,
+      "execution_radius_reduction_F1_minus_F2": 0.3012152910232544,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.24572856364946283,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "correction_target_cosine": -0.09163114428520203,
+      "decoded_improvement_F1_minus_F2": -0.0012037679553031921,
+      "execution_radius_reduction_F1_minus_F2": 0.4264565706253052,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.02066239853888341,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "correction_target_cosine": 0.11771019548177719,
+      "decoded_improvement_F1_minus_F2": -0.0014280006289482117,
+      "execution_radius_reduction_F1_minus_F2": 0.26869404315948486,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3654649913031107,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "correction_target_cosine": 0.2276260405778885,
+      "decoded_improvement_F1_minus_F2": 0.009389892220497131,
+      "execution_radius_reduction_F1_minus_F2": 0.2793464660644531,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3540961851262798,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "correction_target_cosine": 0.3311500549316406,
+      "decoded_improvement_F1_minus_F2": 0.011768409982323647,
+      "execution_radius_reduction_F1_minus_F2": 0.3949258327484131,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3409487776886533,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0085079",
+      "correction_target_cosine": 0.45670267939567566,
+      "decoded_improvement_F1_minus_F2": 0.014276444911956787,
+      "execution_radius_reduction_F1_minus_F2": 1.1992038488388062,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5985111527792548,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0085079",
+      "correction_target_cosine": 0.4480879604816437,
+      "decoded_improvement_F1_minus_F2": 0.0034475624561309814,
+      "execution_radius_reduction_F1_minus_F2": 0.059346914291381836,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.09204771713613646,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0085079",
+      "correction_target_cosine": 0.029656419530510902,
+      "decoded_improvement_F1_minus_F2": -0.007908470928668976,
+      "execution_radius_reduction_F1_minus_F2": 0.8169816732406616,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3985915269190794,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "correction_target_cosine": -0.1418859213590622,
+      "decoded_improvement_F1_minus_F2": 0.018044888973236084,
+      "execution_radius_reduction_F1_minus_F2": 0.7930532693862915,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4955899307452942,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "correction_target_cosine": -0.27844640612602234,
+      "decoded_improvement_F1_minus_F2": -0.00638069212436676,
+      "execution_radius_reduction_F1_minus_F2": 0.07188200950622559,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1838841276547376,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "correction_target_cosine": -0.08840020000934601,
+      "decoded_improvement_F1_minus_F2": 0.011274836957454681,
+      "execution_radius_reduction_F1_minus_F2": 0.3723471164703369,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.26689654136386864,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "correction_target_cosine": 0.2147507220506668,
+      "decoded_improvement_F1_minus_F2": 0.038664788007736206,
+      "execution_radius_reduction_F1_minus_F2": 0.8158979415893555,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6573252418859896,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "correction_target_cosine": 0.6780139803886414,
+      "decoded_improvement_F1_minus_F2": 0.02959076315164566,
+      "execution_radius_reduction_F1_minus_F2": 0.3898296356201172,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.25972483164770077,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "correction_target_cosine": 0.17438720166683197,
+      "decoded_improvement_F1_minus_F2": 0.006062507629394531,
+      "execution_radius_reduction_F1_minus_F2": 0.92909836769104,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.9061413734687698,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "correction_target_cosine": -0.06745404750108719,
+      "decoded_improvement_F1_minus_F2": -0.001047767698764801,
+      "execution_radius_reduction_F1_minus_F2": 0.07314527034759521,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.23714645646482957,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "correction_target_cosine": -0.24680204689502716,
+      "decoded_improvement_F1_minus_F2": -0.00018623284995555878,
+      "execution_radius_reduction_F1_minus_F2": 0.21553587913513184,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.24062150346614763,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "correction_target_cosine": 0.23538130521774292,
+      "decoded_improvement_F1_minus_F2": 0.00015164725482463837,
+      "execution_radius_reduction_F1_minus_F2": 0.1903473138809204,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3520550521249617,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "correction_target_cosine": -0.07956575602293015,
+      "decoded_improvement_F1_minus_F2": 0.0016875583678483963,
+      "execution_radius_reduction_F1_minus_F2": 0.22348260879516602,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3364927674484044,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "correction_target_cosine": -0.13477861881256104,
+      "decoded_improvement_F1_minus_F2": 0.0037678778171539307,
+      "execution_radius_reduction_F1_minus_F2": 0.502464771270752,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5441129542088472,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "correction_target_cosine": -0.042021360248327255,
+      "decoded_improvement_F1_minus_F2": 1.1369585990905762e-05,
+      "execution_radius_reduction_F1_minus_F2": 0.5302842855453491,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.29747154851775526,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "correction_target_cosine": -0.031509626656770706,
+      "decoded_improvement_F1_minus_F2": 0.0027898401021957397,
+      "execution_radius_reduction_F1_minus_F2": 0.31384992599487305,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3976220999851179,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "correction_target_cosine": 0.18613596260547638,
+      "decoded_improvement_F1_minus_F2": 0.0003578886389732361,
+      "execution_radius_reduction_F1_minus_F2": 0.5417079925537109,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.005304082061983184,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "correction_target_cosine": 0.15490108728408813,
+      "decoded_improvement_F1_minus_F2": 0.018723689019680023,
+      "execution_radius_reduction_F1_minus_F2": 0.6220579147338867,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6049868763122666,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "correction_target_cosine": 0.6884514689445496,
+      "decoded_improvement_F1_minus_F2": 0.00950527936220169,
+      "execution_radius_reduction_F1_minus_F2": 0.6167147159576416,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.49190806274250476,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "correction_target_cosine": 0.16586993634700775,
+      "decoded_improvement_F1_minus_F2": 0.008742071688175201,
+      "execution_radius_reduction_F1_minus_F2": 0.4760681390762329,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.45736742400496233,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "correction_target_cosine": 0.08700001239776611,
+      "decoded_improvement_F1_minus_F2": -0.002703070640563965,
+      "execution_radius_reduction_F1_minus_F2": 0.1896275281906128,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.21899508943286894,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "correction_target_cosine": 0.39189764857292175,
+      "decoded_improvement_F1_minus_F2": 0.003349095582962036,
+      "execution_radius_reduction_F1_minus_F2": 0.7545928955078125,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.9956301168834483,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "correction_target_cosine": 0.3911055028438568,
+      "decoded_improvement_F1_minus_F2": 0.001592518761754036,
+      "execution_radius_reduction_F1_minus_F2": 0.058502912521362305,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.07177361707676977,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "correction_target_cosine": -0.281722754240036,
+      "decoded_improvement_F1_minus_F2": 0.004094723612070084,
+      "execution_radius_reduction_F1_minus_F2": 0.3160855770111084,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.31036832338742704,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "correction_target_cosine": -0.2917492985725403,
+      "decoded_improvement_F1_minus_F2": 0.011551335453987122,
+      "execution_radius_reduction_F1_minus_F2": 0.6788893938064575,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7453269363734729,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "correction_target_cosine": 0.21575403213500977,
+      "decoded_improvement_F1_minus_F2": 0.008973956108093262,
+      "execution_radius_reduction_F1_minus_F2": 0.4332149028778076,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4312540069864115,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "correction_target_cosine": -0.13709741830825806,
+      "decoded_improvement_F1_minus_F2": 0.0019934438169002533,
+      "execution_radius_reduction_F1_minus_F2": 0.2862517833709717,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3066299111447599,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "correction_target_cosine": 0.546694278717041,
+      "decoded_improvement_F1_minus_F2": 0.005437497049570084,
+      "execution_radius_reduction_F1_minus_F2": 0.5587871074676514,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.29130686138981554,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "correction_target_cosine": 0.1447376310825348,
+      "decoded_improvement_F1_minus_F2": 0.0011630058288574219,
+      "execution_radius_reduction_F1_minus_F2": 0.4079856872558594,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5077342145135234,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "correction_target_cosine": -0.17640608549118042,
+      "decoded_improvement_F1_minus_F2": -0.008999224752187729,
+      "execution_radius_reduction_F1_minus_F2": -0.05696415901184082,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.11152597778234519,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "correction_target_cosine": 0.3656807243824005,
+      "decoded_improvement_F1_minus_F2": 0.003297964110970497,
+      "execution_radius_reduction_F1_minus_F2": 0.005856990814208984,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.006703721456470024,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "correction_target_cosine": -0.19066110253334045,
+      "decoded_improvement_F1_minus_F2": 0.0018353983759880066,
+      "execution_radius_reduction_F1_minus_F2": 0.4907522201538086,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.008760019253013507,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "correction_target_cosine": 0.4497191309928894,
+      "decoded_improvement_F1_minus_F2": 0.007239162921905518,
+      "execution_radius_reduction_F1_minus_F2": 0.15180683135986328,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.26188366316942324,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "correction_target_cosine": 0.7971810698509216,
+      "decoded_improvement_F1_minus_F2": 0.016959629952907562,
+      "execution_radius_reduction_F1_minus_F2": 0.5370296239852905,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5679390965094917,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "correction_target_cosine": 0.43573176860809326,
+      "decoded_improvement_F1_minus_F2": 0.00710923969745636,
+      "execution_radius_reduction_F1_minus_F2": 0.23820006847381592,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.29220550587509286,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "correction_target_cosine": -0.5655540823936462,
+      "decoded_improvement_F1_minus_F2": 0.0021813660860061646,
+      "execution_radius_reduction_F1_minus_F2": -0.038579702377319336,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.008694899321609828,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "correction_target_cosine": 0.22315029799938202,
+      "decoded_improvement_F1_minus_F2": 0.005276545882225037,
+      "execution_radius_reduction_F1_minus_F2": 0.2511589527130127,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3778954839087023,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "correction_target_cosine": -0.11472701281309128,
+      "decoded_improvement_F1_minus_F2": -0.0006276965141296387,
+      "execution_radius_reduction_F1_minus_F2": 0.19487571716308594,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.38183221474477835,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "correction_target_cosine": 0.11707068234682083,
+      "decoded_improvement_F1_minus_F2": 0.014725800603628159,
+      "execution_radius_reduction_F1_minus_F2": 0.32706427574157715,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.32463380512800444,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "correction_target_cosine": 0.18276463449001312,
+      "decoded_improvement_F1_minus_F2": -0.001915610395371914,
+      "execution_radius_reduction_F1_minus_F2": 0.25722765922546387,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.19305531823232092,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "correction_target_cosine": 0.3857642412185669,
+      "decoded_improvement_F1_minus_F2": 0.012488208711147308,
+      "execution_radius_reduction_F1_minus_F2": 0.3970043659210205,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3643928061372308,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "correction_target_cosine": 0.024727491661906242,
+      "decoded_improvement_F1_minus_F2": -0.007866248488426208,
+      "execution_radius_reduction_F1_minus_F2": 0.3090946674346924,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.14180615506361804,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "correction_target_cosine": -0.2813715636730194,
+      "decoded_improvement_F1_minus_F2": -0.0009816288948059082,
+      "execution_radius_reduction_F1_minus_F2": 0.3765751123428345,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.41903883454739566,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "correction_target_cosine": -0.26337072253227234,
+      "decoded_improvement_F1_minus_F2": 0.0042348504066467285,
+      "execution_radius_reduction_F1_minus_F2": 0.31841814517974854,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3453981087484055,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "correction_target_cosine": 0.13858601450920105,
+      "decoded_improvement_F1_minus_F2": 0.00824059545993805,
+      "execution_radius_reduction_F1_minus_F2": 0.5902650356292725,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.4199511970569343,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "correction_target_cosine": 0.5244234204292297,
+      "decoded_improvement_F1_minus_F2": 0.006103333085775375,
+      "execution_radius_reduction_F1_minus_F2": 0.7109732627868652,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.8458876450474255,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "correction_target_cosine": 0.2806708812713623,
+      "decoded_improvement_F1_minus_F2": 0.008574068546295166,
+      "execution_radius_reduction_F1_minus_F2": 0.7508697509765625,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6588975709686307,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "correction_target_cosine": 0.45138901472091675,
+      "decoded_improvement_F1_minus_F2": 0.004177190363407135,
+      "execution_radius_reduction_F1_minus_F2": 0.6169040203094482,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4449594758490303,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "correction_target_cosine": -0.04072660952806473,
+      "decoded_improvement_F1_minus_F2": -0.0003409348428249359,
+      "execution_radius_reduction_F1_minus_F2": 0.331415057182312,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.11702218013672439,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "correction_target_cosine": -0.12311244755983353,
+      "decoded_improvement_F1_minus_F2": 0.005188271403312683,
+      "execution_radius_reduction_F1_minus_F2": 0.2572054862976074,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6180131128709145,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "correction_target_cosine": 0.3396783173084259,
+      "decoded_improvement_F1_minus_F2": 0.005663730204105377,
+      "execution_radius_reduction_F1_minus_F2": 0.25776398181915283,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.36392629527163334,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "correction_target_cosine": 0.07223854959011078,
+      "decoded_improvement_F1_minus_F2": 0.0041605159640312195,
+      "execution_radius_reduction_F1_minus_F2": 0.4738483428955078,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4947064278474793,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "correction_target_cosine": 0.3602921962738037,
+      "decoded_improvement_F1_minus_F2": 0.010625902563333511,
+      "execution_radius_reduction_F1_minus_F2": 0.757835865020752,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.37846484057586705,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "correction_target_cosine": 0.2850130498409271,
+      "decoded_improvement_F1_minus_F2": 0.009221533313393593,
+      "execution_radius_reduction_F1_minus_F2": 0.9868666529655457,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.8648087913236209,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "correction_target_cosine": 0.06002706661820412,
+      "decoded_improvement_F1_minus_F2": -0.005175679922103882,
+      "execution_radius_reduction_F1_minus_F2": 0.2777293920516968,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.16832410788447594,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "correction_target_cosine": 0.3350057601928711,
+      "decoded_improvement_F1_minus_F2": 0.0007474943995475769,
+      "execution_radius_reduction_F1_minus_F2": 0.2717912197113037,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.27499227330042575,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "correction_target_cosine": 0.4040558934211731,
+      "decoded_improvement_F1_minus_F2": 0.005890026688575745,
+      "execution_radius_reduction_F1_minus_F2": 0.3071558475494385,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.38377252107580917,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "correction_target_cosine": -0.1584281027317047,
+      "decoded_improvement_F1_minus_F2": 0.003914986737072468,
+      "execution_radius_reduction_F1_minus_F2": 0.08981943130493164,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.007443755966214827,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "correction_target_cosine": 0.13839378952980042,
+      "decoded_improvement_F1_minus_F2": 0.013223223388195038,
+      "execution_radius_reduction_F1_minus_F2": 0.824765682220459,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.44300899470487876,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "correction_target_cosine": -0.026659490540623665,
+      "decoded_improvement_F1_minus_F2": 0.0037399157881736755,
+      "execution_radius_reduction_F1_minus_F2": 0.46976161003112793,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4717317091656372,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "correction_target_cosine": -0.0674232468008995,
+      "decoded_improvement_F1_minus_F2": 0.002913370728492737,
+      "execution_radius_reduction_F1_minus_F2": 0.04366481304168701,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.046603694754346,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "correction_target_cosine": 0.025185268372297287,
+      "decoded_improvement_F1_minus_F2": 0.0015723668038845062,
+      "execution_radius_reduction_F1_minus_F2": 0.056763648986816406,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.24552732178332404,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "correction_target_cosine": 0.39426088333129883,
+      "decoded_improvement_F1_minus_F2": 0.002660732716321945,
+      "execution_radius_reduction_F1_minus_F2": 0.3935353755950928,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.36337823342678544,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "correction_target_cosine": 0.48449286818504333,
+      "decoded_improvement_F1_minus_F2": 0.01681412011384964,
+      "execution_radius_reduction_F1_minus_F2": 0.9213292598724365,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 1.1426678077549326,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "correction_target_cosine": 0.16837911307811737,
+      "decoded_improvement_F1_minus_F2": 0.0007996298372745514,
+      "execution_radius_reduction_F1_minus_F2": 0.3782634735107422,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4048976890198167,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "correction_target_cosine": 0.2309306114912033,
+      "decoded_improvement_F1_minus_F2": 0.007496347650885582,
+      "execution_radius_reduction_F1_minus_F2": 0.5327085256576538,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.12396233859396655,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "correction_target_cosine": 0.15645992755889893,
+      "decoded_improvement_F1_minus_F2": -0.0007070116698741913,
+      "execution_radius_reduction_F1_minus_F2": 0.3137974739074707,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.14486662650502047,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "correction_target_cosine": 0.0914539098739624,
+      "decoded_improvement_F1_minus_F2": 0.00539880245923996,
+      "execution_radius_reduction_F1_minus_F2": 0.20059442520141602,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3053753063365525,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "correction_target_cosine": 0.09750313311815262,
+      "decoded_improvement_F1_minus_F2": 0.010622076690196991,
+      "execution_radius_reduction_F1_minus_F2": 0.8329578638076782,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6088773065772641,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "correction_target_cosine": -0.009241283871233463,
+      "decoded_improvement_F1_minus_F2": 0.00035463273525238037,
+      "execution_radius_reduction_F1_minus_F2": 0.07944023609161377,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.08408017674031565,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "correction_target_cosine": -0.02285878174006939,
+      "decoded_improvement_F1_minus_F2": -0.0011450424790382385,
+      "execution_radius_reduction_F1_minus_F2": 0.21833133697509766,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.15864159143090162,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "correction_target_cosine": -0.12994937598705292,
+      "decoded_improvement_F1_minus_F2": -0.004819899797439575,
+      "execution_radius_reduction_F1_minus_F2": 0.2564878463745117,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4887682248805092,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "correction_target_cosine": 0.22064155340194702,
+      "decoded_improvement_F1_minus_F2": 0.00012117624282836914,
+      "execution_radius_reduction_F1_minus_F2": 0.09873747825622559,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.26652884460111026,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "correction_target_cosine": 0.007592191454023123,
+      "decoded_improvement_F1_minus_F2": 0.001926211640238762,
+      "execution_radius_reduction_F1_minus_F2": 0.5665500164031982,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.06318727543966407,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "correction_target_cosine": 0.14436276257038116,
+      "decoded_improvement_F1_minus_F2": 0.0007794089615345001,
+      "execution_radius_reduction_F1_minus_F2": 0.13716447353363037,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.12242384142034068,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "correction_target_cosine": 0.35333290696144104,
+      "decoded_improvement_F1_minus_F2": 0.004629142582416534,
+      "execution_radius_reduction_F1_minus_F2": 0.32835865020751953,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.5182281518775687,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "correction_target_cosine": 0.055737946182489395,
+      "decoded_improvement_F1_minus_F2": 0.010828539729118347,
+      "execution_radius_reduction_F1_minus_F2": 0.38146233558654785,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4595408891192787,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "correction_target_cosine": -0.1508292555809021,
+      "decoded_improvement_F1_minus_F2": 0.0015679746866226196,
+      "execution_radius_reduction_F1_minus_F2": 0.6312685012817383,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5209724195699377,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "correction_target_cosine": 0.20723338425159454,
+      "decoded_improvement_F1_minus_F2": 0.012707944959402084,
+      "execution_radius_reduction_F1_minus_F2": 0.9220144748687744,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5851560402751854,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "correction_target_cosine": 0.254306823015213,
+      "decoded_improvement_F1_minus_F2": 0.004847360774874687,
+      "execution_radius_reduction_F1_minus_F2": 0.38228845596313477,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2587172138840459,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "correction_target_cosine": 0.005517377518117428,
+      "decoded_improvement_F1_minus_F2": -0.0016001015901565552,
+      "execution_radius_reduction_F1_minus_F2": 0.2806316614151001,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4342821528584442,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "correction_target_cosine": -0.22744619846343994,
+      "decoded_improvement_F1_minus_F2": -0.0026609227061271667,
+      "execution_radius_reduction_F1_minus_F2": 0.2569807767868042,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.37998206279892655,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "correction_target_cosine": 0.17645971477031708,
+      "decoded_improvement_F1_minus_F2": -1.1160969734191895e-05,
+      "execution_radius_reduction_F1_minus_F2": 0.201820969581604,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.14029103188047376,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0148023",
+      "correction_target_cosine": -0.1409420222043991,
+      "decoded_improvement_F1_minus_F2": 0.0038089975714683533,
+      "execution_radius_reduction_F1_minus_F2": 0.292901873588562,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.46205407751128846,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0148023",
+      "correction_target_cosine": -0.07005497068166733,
+      "decoded_improvement_F1_minus_F2": 0.005858674645423889,
+      "execution_radius_reduction_F1_minus_F2": 0.21564149856567383,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3732524073359771,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0148023",
+      "correction_target_cosine": 0.575205385684967,
+      "decoded_improvement_F1_minus_F2": 0.0005511268973350525,
+      "execution_radius_reduction_F1_minus_F2": 0.05164837837219238,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.06292524087507712,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "correction_target_cosine": -0.13818763196468353,
+      "decoded_improvement_F1_minus_F2": 0.004930704832077026,
+      "execution_radius_reduction_F1_minus_F2": 0.29280996322631836,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.18179238589455227,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "correction_target_cosine": -0.10367142409086227,
+      "decoded_improvement_F1_minus_F2": 0.0026538558304309845,
+      "execution_radius_reduction_F1_minus_F2": 0.281780481338501,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3022350847680595,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "correction_target_cosine": -0.0927056148648262,
+      "decoded_improvement_F1_minus_F2": 3.4347176551818848e-06,
+      "execution_radius_reduction_F1_minus_F2": 0.11367511749267578,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.02055924125208697,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "correction_target_cosine": 0.25990474224090576,
+      "decoded_improvement_F1_minus_F2": 0.005413079634308815,
+      "execution_radius_reduction_F1_minus_F2": 0.3295121192932129,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.49875849864651967,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "correction_target_cosine": 0.31394556164741516,
+      "decoded_improvement_F1_minus_F2": 0.007803991436958313,
+      "execution_radius_reduction_F1_minus_F2": 0.27924656867980957,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.303882247509595,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150944",
+      "correction_target_cosine": -0.007082185707986355,
+      "decoded_improvement_F1_minus_F2": 0.004491955041885376,
+      "execution_radius_reduction_F1_minus_F2": 0.3934895992279053,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.34341762979060864,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150944",
+      "correction_target_cosine": 0.19519080221652985,
+      "decoded_improvement_F1_minus_F2": 0.011982837691903114,
+      "execution_radius_reduction_F1_minus_F2": 0.1069493293762207,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7113706392538617,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150944",
+      "correction_target_cosine": 0.6396832466125488,
+      "decoded_improvement_F1_minus_F2": 0.0072036124765872955,
+      "execution_radius_reduction_F1_minus_F2": 0.8093253374099731,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5835461809663007,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150944",
+      "correction_target_cosine": 0.1315438598394394,
+      "decoded_improvement_F1_minus_F2": 0.01222207397222519,
+      "execution_radius_reduction_F1_minus_F2": 0.7817366123199463,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5268408975833949,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "correction_target_cosine": 0.045222342014312744,
+      "decoded_improvement_F1_minus_F2": -0.0008339844644069672,
+      "execution_radius_reduction_F1_minus_F2": 0.09424126148223877,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13041338048620132,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "correction_target_cosine": -0.2015545666217804,
+      "decoded_improvement_F1_minus_F2": 0.001520000398159027,
+      "execution_radius_reduction_F1_minus_F2": 0.09950423240661621,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.10670079925462805,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "correction_target_cosine": 0.16760802268981934,
+      "decoded_improvement_F1_minus_F2": 0.006725195795297623,
+      "execution_radius_reduction_F1_minus_F2": 0.3229050636291504,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3975501801734689,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "correction_target_cosine": 0.49154627323150635,
+      "decoded_improvement_F1_minus_F2": 0.005447305738925934,
+      "execution_radius_reduction_F1_minus_F2": 0.24154233932495117,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4360490226538394,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "correction_target_cosine": -0.4333533048629761,
+      "decoded_improvement_F1_minus_F2": -0.007732890546321869,
+      "execution_radius_reduction_F1_minus_F2": 0.09889411926269531,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.0815586223490512,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "correction_target_cosine": 0.11113526672124863,
+      "decoded_improvement_F1_minus_F2": 0.0012414045631885529,
+      "execution_radius_reduction_F1_minus_F2": 0.5479220151901245,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.35084202479471727,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "correction_target_cosine": 0.12023842334747314,
+      "decoded_improvement_F1_minus_F2": 0.0034747235476970673,
+      "execution_radius_reduction_F1_minus_F2": 0.6917829513549805,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.733463440154388,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "correction_target_cosine": -0.06814394891262054,
+      "decoded_improvement_F1_minus_F2": 0.0026316866278648376,
+      "execution_radius_reduction_F1_minus_F2": 0.3994404077529907,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.08765122531742331,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "correction_target_cosine": 0.1990504115819931,
+      "decoded_improvement_F1_minus_F2": 0.0037441235035657883,
+      "execution_radius_reduction_F1_minus_F2": 0.34524524211883545,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.45267061642642115,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "correction_target_cosine": -0.03308689221739769,
+      "decoded_improvement_F1_minus_F2": -0.0019109845161437988,
+      "execution_radius_reduction_F1_minus_F2": 0.15024828910827637,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.12532490947478347,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "correction_target_cosine": 0.019447268918156624,
+      "decoded_improvement_F1_minus_F2": 0.003594033420085907,
+      "execution_radius_reduction_F1_minus_F2": 0.32870757579803467,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.16636733794646474,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "correction_target_cosine": 0.42344963550567627,
+      "decoded_improvement_F1_minus_F2": 0.00393420085310936,
+      "execution_radius_reduction_F1_minus_F2": 0.2240082025527954,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.11315636647862526,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "correction_target_cosine": -0.07392925024032593,
+      "decoded_improvement_F1_minus_F2": -0.0011432189494371414,
+      "execution_radius_reduction_F1_minus_F2": 0.15619432926177979,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.29024759074979634,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "correction_target_cosine": -0.06371453404426575,
+      "decoded_improvement_F1_minus_F2": 0.0023492611944675446,
+      "execution_radius_reduction_F1_minus_F2": 0.3069446086883545,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.33256674235870465,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "correction_target_cosine": 0.308700829744339,
+      "decoded_improvement_F1_minus_F2": 0.001248796470463276,
+      "execution_radius_reduction_F1_minus_F2": 0.21348309516906738,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.24120522663699773,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "correction_target_cosine": -0.0891662985086441,
+      "decoded_improvement_F1_minus_F2": 0.001131819561123848,
+      "execution_radius_reduction_F1_minus_F2": 0.268123984336853,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.17988363675035424,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "correction_target_cosine": 0.20174358785152435,
+      "decoded_improvement_F1_minus_F2": 0.005460008978843689,
+      "execution_radius_reduction_F1_minus_F2": 0.5461958646774292,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.16799922553338265,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "correction_target_cosine": -0.07069171220064163,
+      "decoded_improvement_F1_minus_F2": 0.009239278733730316,
+      "execution_radius_reduction_F1_minus_F2": 0.25206494331359863,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2665637856286238,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "correction_target_cosine": -0.3526613712310791,
+      "decoded_improvement_F1_minus_F2": 0.0005425363779067993,
+      "execution_radius_reduction_F1_minus_F2": 0.15402626991271973,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.15292099439692985,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "correction_target_cosine": 0.31398263573646545,
+      "decoded_improvement_F1_minus_F2": 0.00013929791748523712,
+      "execution_radius_reduction_F1_minus_F2": 0.3419293165206909,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.35268000347225725,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "correction_target_cosine": -0.05761711671948433,
+      "decoded_improvement_F1_minus_F2": -0.007285192608833313,
+      "execution_radius_reduction_F1_minus_F2": 0.09400296211242676,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.14789289664766359,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "correction_target_cosine": -0.11931030452251434,
+      "decoded_improvement_F1_minus_F2": -0.012260772287845612,
+      "execution_radius_reduction_F1_minus_F2": 0.5797820091247559,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7610349629164108,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "correction_target_cosine": 0.46522054076194763,
+      "decoded_improvement_F1_minus_F2": 0.0020028091967105865,
+      "execution_radius_reduction_F1_minus_F2": 0.12354350090026855,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1019092918588489,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "correction_target_cosine": 0.2849505841732025,
+      "decoded_improvement_F1_minus_F2": 0.003658875823020935,
+      "execution_radius_reduction_F1_minus_F2": 0.5682499408721924,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6424284322048293,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "correction_target_cosine": 0.35577288269996643,
+      "decoded_improvement_F1_minus_F2": 0.00974876806139946,
+      "execution_radius_reduction_F1_minus_F2": 0.8789496421813965,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.9007234695043491,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "correction_target_cosine": 0.06830880790948868,
+      "decoded_improvement_F1_minus_F2": 0.004827648401260376,
+      "execution_radius_reduction_F1_minus_F2": 0.583584189414978,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.662207293890068,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "correction_target_cosine": -0.001803147024475038,
+      "decoded_improvement_F1_minus_F2": 0.004093192517757416,
+      "execution_radius_reduction_F1_minus_F2": 0.23708033561706543,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.12329221684258806,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "correction_target_cosine": 0.22491717338562012,
+      "decoded_improvement_F1_minus_F2": 0.0030043460428714752,
+      "execution_radius_reduction_F1_minus_F2": 0.28314876556396484,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2685969665751424,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "correction_target_cosine": 0.5832496285438538,
+      "decoded_improvement_F1_minus_F2": -5.252659320831299e-07,
+      "execution_radius_reduction_F1_minus_F2": 0.0042650699615478516,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.09575391553320967,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "correction_target_cosine": -0.05601682886481285,
+      "decoded_improvement_F1_minus_F2": -0.0015092231333255768,
+      "execution_radius_reduction_F1_minus_F2": 0.8459755182266235,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7686606310787218,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "correction_target_cosine": -0.11017575860023499,
+      "decoded_improvement_F1_minus_F2": 0.0008079297840595245,
+      "execution_radius_reduction_F1_minus_F2": 0.5294481515884399,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2826340371227627,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "correction_target_cosine": -0.19035208225250244,
+      "decoded_improvement_F1_minus_F2": -0.004557192325592041,
+      "execution_radius_reduction_F1_minus_F2": 0.4534848928451538,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13833180391376665,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "correction_target_cosine": -0.08112458139657974,
+      "decoded_improvement_F1_minus_F2": 0.006268179044127464,
+      "execution_radius_reduction_F1_minus_F2": 0.6579861640930176,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5945884196910964,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "correction_target_cosine": 0.03433717414736748,
+      "decoded_improvement_F1_minus_F2": 0.002406647428870201,
+      "execution_radius_reduction_F1_minus_F2": 0.3830723762512207,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4272272576501128,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "correction_target_cosine": 0.4516238272190094,
+      "decoded_improvement_F1_minus_F2": 0.0026351436972618103,
+      "execution_radius_reduction_F1_minus_F2": 0.17085015773773193,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.05401997455830854,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "correction_target_cosine": -0.1032244861125946,
+      "decoded_improvement_F1_minus_F2": 0.0004900190979242325,
+      "execution_radius_reduction_F1_minus_F2": 0.678890585899353,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7190515108086413,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "correction_target_cosine": 0.09614583849906921,
+      "decoded_improvement_F1_minus_F2": -0.005116350948810577,
+      "execution_radius_reduction_F1_minus_F2": 0.2961411476135254,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.33384760667879376,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "correction_target_cosine": -0.1941680759191513,
+      "decoded_improvement_F1_minus_F2": -0.004020266234874725,
+      "execution_radius_reduction_F1_minus_F2": 0.22685682773590088,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.489282835923879,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "correction_target_cosine": 0.49058300256729126,
+      "decoded_improvement_F1_minus_F2": 0.004867620766162872,
+      "execution_radius_reduction_F1_minus_F2": 0.15122556686401367,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.18670594800080953,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "correction_target_cosine": 0.47138071060180664,
+      "decoded_improvement_F1_minus_F2": 0.0077874064445495605,
+      "execution_radius_reduction_F1_minus_F2": 0.7423360347747803,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.40710666497379044,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "correction_target_cosine": 0.21646161377429962,
+      "decoded_improvement_F1_minus_F2": 0.010969594120979309,
+      "execution_radius_reduction_F1_minus_F2": 0.5276098251342773,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.46281366334148233,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "correction_target_cosine": 0.15926508605480194,
+      "decoded_improvement_F1_minus_F2": 0.0038548633456230164,
+      "execution_radius_reduction_F1_minus_F2": 0.12376594543457031,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.0050124505704935984,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "correction_target_cosine": 0.1409924030303955,
+      "decoded_improvement_F1_minus_F2": 0.005374036729335785,
+      "execution_radius_reduction_F1_minus_F2": 0.2603874206542969,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.22639284654416247,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "correction_target_cosine": 0.2678684592247009,
+      "decoded_improvement_F1_minus_F2": 0.012012861669063568,
+      "execution_radius_reduction_F1_minus_F2": 0.6588132381439209,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6142711655735182,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "correction_target_cosine": -0.3761548399925232,
+      "decoded_improvement_F1_minus_F2": -0.006935965269804001,
+      "execution_radius_reduction_F1_minus_F2": 0.14653193950653076,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.08571177535231467,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "correction_target_cosine": -0.07140231877565384,
+      "decoded_improvement_F1_minus_F2": 0.00487971305847168,
+      "execution_radius_reduction_F1_minus_F2": 0.7174533605575562,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6605438933035079,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "correction_target_cosine": 0.1790524125099182,
+      "decoded_improvement_F1_minus_F2": 0.00925040990114212,
+      "execution_radius_reduction_F1_minus_F2": 0.41478633880615234,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.10802943130860077,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "correction_target_cosine": 0.33575326204299927,
+      "decoded_improvement_F1_minus_F2": -0.0024817585945129395,
+      "execution_radius_reduction_F1_minus_F2": 0.132851243019104,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.10098618855054475,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "correction_target_cosine": 0.3621130883693695,
+      "decoded_improvement_F1_minus_F2": 0.006271131336688995,
+      "execution_radius_reduction_F1_minus_F2": 0.19035768508911133,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.21868565515295568,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "correction_target_cosine": -0.2125743180513382,
+      "decoded_improvement_F1_minus_F2": -0.0018284991383552551,
+      "execution_radius_reduction_F1_minus_F2": 0.5899430513381958,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3644900751384901,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "correction_target_cosine": 0.125650554895401,
+      "decoded_improvement_F1_minus_F2": 0.0021089501678943634,
+      "execution_radius_reduction_F1_minus_F2": 0.24150753021240234,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1985633713045658,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "correction_target_cosine": -0.24091677367687225,
+      "decoded_improvement_F1_minus_F2": 0.0010621082037687302,
+      "execution_radius_reduction_F1_minus_F2": 0.3422766923904419,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4267028085115565,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "correction_target_cosine": 0.1053706482052803,
+      "decoded_improvement_F1_minus_F2": 0.005715996026992798,
+      "execution_radius_reduction_F1_minus_F2": 0.5085186958312988,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5492923433356333,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "correction_target_cosine": 0.2059585005044937,
+      "decoded_improvement_F1_minus_F2": 0.006295293569564819,
+      "execution_radius_reduction_F1_minus_F2": 0.05348348617553711,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.06635671525884623,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "correction_target_cosine": 0.47828033566474915,
+      "decoded_improvement_F1_minus_F2": 0.0018997779116034508,
+      "execution_radius_reduction_F1_minus_F2": 0.0058324337005615234,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1752076633703965,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "correction_target_cosine": 0.4581811726093292,
+      "decoded_improvement_F1_minus_F2": 0.005722261965274811,
+      "execution_radius_reduction_F1_minus_F2": 0.18779730796813965,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.26794294236937977,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "correction_target_cosine": 0.47418349981307983,
+      "decoded_improvement_F1_minus_F2": 0.00619787722826004,
+      "execution_radius_reduction_F1_minus_F2": 0.1664508581161499,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1355732705691055,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "correction_target_cosine": 0.4285830855369568,
+      "decoded_improvement_F1_minus_F2": 0.0029436741024255753,
+      "execution_radius_reduction_F1_minus_F2": -0.09199774265289307,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.032052724646352226,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "correction_target_cosine": -0.38879984617233276,
+      "decoded_improvement_F1_minus_F2": 0.0011716000735759735,
+      "execution_radius_reduction_F1_minus_F2": 0.09580230712890625,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.5210187096765508,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "correction_target_cosine": 0.22954487800598145,
+      "decoded_improvement_F1_minus_F2": 0.0036741606891155243,
+      "execution_radius_reduction_F1_minus_F2": 0.010320425033569336,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.6043674059325175,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "correction_target_cosine": -0.13937382400035858,
+      "decoded_improvement_F1_minus_F2": 0.00043873488903045654,
+      "execution_radius_reduction_F1_minus_F2": 0.3099585771560669,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.24333662059351036,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "correction_target_cosine": 0.3980858325958252,
+      "decoded_improvement_F1_minus_F2": 0.006117776036262512,
+      "execution_radius_reduction_F1_minus_F2": 0.8762385845184326,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6671603005246569,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "correction_target_cosine": 0.24200648069381714,
+      "decoded_improvement_F1_minus_F2": -0.0010717594996094704,
+      "execution_radius_reduction_F1_minus_F2": 0.26333868503570557,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3412550782347352,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "correction_target_cosine": 0.37651875615119934,
+      "decoded_improvement_F1_minus_F2": 0.0036711953580379486,
+      "execution_radius_reduction_F1_minus_F2": 0.22318077087402344,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.17936200886637677,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "correction_target_cosine": 0.43472689390182495,
+      "decoded_improvement_F1_minus_F2": 0.0016184523701667786,
+      "execution_radius_reduction_F1_minus_F2": 0.060974836349487305,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.093581303439211,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199958",
+      "correction_target_cosine": 0.2776690423488617,
+      "decoded_improvement_F1_minus_F2": 0.0033510858193039894,
+      "execution_radius_reduction_F1_minus_F2": 0.04483461380004883,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.1120356582916271,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199958",
+      "correction_target_cosine": -0.15745526552200317,
+      "decoded_improvement_F1_minus_F2": 0.0007782634347677231,
+      "execution_radius_reduction_F1_minus_F2": 0.31616926193237305,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.27057069706613923,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199958",
+      "correction_target_cosine": 0.2771640419960022,
+      "decoded_improvement_F1_minus_F2": 0.001642625778913498,
+      "execution_radius_reduction_F1_minus_F2": 0.15544629096984863,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2706926164642214,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0246388",
+      "correction_target_cosine": -0.010994302108883858,
+      "decoded_improvement_F1_minus_F2": 0.006301507353782654,
+      "execution_radius_reduction_F1_minus_F2": 0.24065208435058594,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3151494854892498,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0246388",
+      "correction_target_cosine": 0.156679168343544,
+      "decoded_improvement_F1_minus_F2": 0.0039051957428455353,
+      "execution_radius_reduction_F1_minus_F2": 0.26757073402404785,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.28134815256831613,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0246388",
+      "correction_target_cosine": 0.43616804480552673,
+      "decoded_improvement_F1_minus_F2": -0.0002640187740325928,
+      "execution_radius_reduction_F1_minus_F2": 0.7049944400787354,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3534424626517214,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "correction_target_cosine": -0.05809484422206879,
+      "decoded_improvement_F1_minus_F2": 0.00033076852560043335,
+      "execution_radius_reduction_F1_minus_F2": 0.3223785161972046,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4648816916513778,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "correction_target_cosine": -0.0399007648229599,
+      "decoded_improvement_F1_minus_F2": 0.00010040402412414551,
+      "execution_radius_reduction_F1_minus_F2": 0.16734397411346436,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.22384749227565637,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "correction_target_cosine": -0.1341426819562912,
+      "decoded_improvement_F1_minus_F2": 0.000172346830368042,
+      "execution_radius_reduction_F1_minus_F2": 0.0946958065032959,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3364552463409439,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "correction_target_cosine": -0.1352624148130417,
+      "decoded_improvement_F1_minus_F2": 3.102049231529236e-05,
+      "execution_radius_reduction_F1_minus_F2": 0.15979838371276855,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.12841009746169174,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "correction_target_cosine": 0.7480190992355347,
+      "decoded_improvement_F1_minus_F2": 0.0035458942875266075,
+      "execution_radius_reduction_F1_minus_F2": 0.3890519142150879,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.36390573420222383,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "correction_target_cosine": -0.2372545599937439,
+      "decoded_improvement_F1_minus_F2": 0.0052010491490364075,
+      "execution_radius_reduction_F1_minus_F2": 0.4323064088821411,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.5455772900503695,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "correction_target_cosine": 0.12459999322891235,
+      "decoded_improvement_F1_minus_F2": 0.004497598856687546,
+      "execution_radius_reduction_F1_minus_F2": 0.3358469009399414,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.31629834733637185,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "correction_target_cosine": 0.57884281873703,
+      "decoded_improvement_F1_minus_F2": 0.0032862983644008636,
+      "execution_radius_reduction_F1_minus_F2": 0.28850483894348145,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.3892173142153379,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "correction_target_cosine": 0.22836126387119293,
+      "decoded_improvement_F1_minus_F2": 0.005658343434333801,
+      "execution_radius_reduction_F1_minus_F2": 0.2998008728027344,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2566580187676515,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "correction_target_cosine": 0.11072573065757751,
+      "decoded_improvement_F1_minus_F2": 0.0075449757277965546,
+      "execution_radius_reduction_F1_minus_F2": 0.48099565505981445,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.483727362280443,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "correction_target_cosine": 0.40003806352615356,
+      "decoded_improvement_F1_minus_F2": 0.00597467552870512,
+      "execution_radius_reduction_F1_minus_F2": 0.7044135332107544,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7899966709087725,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "correction_target_cosine": 0.2907382547855377,
+      "decoded_improvement_F1_minus_F2": 0.00312734954059124,
+      "execution_radius_reduction_F1_minus_F2": 0.14644944667816162,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13287514197219652,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "correction_target_cosine": 0.37950003147125244,
+      "decoded_improvement_F1_minus_F2": -0.0003969278186559677,
+      "execution_radius_reduction_F1_minus_F2": 0.1694728136062622,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.13763067596998013,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "correction_target_cosine": 0.28914493322372437,
+      "decoded_improvement_F1_minus_F2": 0.002555479295551777,
+      "execution_radius_reduction_F1_minus_F2": 0.07594966888427734,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.0901654813357522,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "correction_target_cosine": -0.04357549920678139,
+      "decoded_improvement_F1_minus_F2": -0.0010004844516515732,
+      "execution_radius_reduction_F1_minus_F2": 0.07862639427185059,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.0580787500944564,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "correction_target_cosine": 0.01629716530442238,
+      "decoded_improvement_F1_minus_F2": 0.011464659124612808,
+      "execution_radius_reduction_F1_minus_F2": 1.2845377922058105,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.7627208769395732,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "correction_target_cosine": 0.0435253381729126,
+      "decoded_improvement_F1_minus_F2": -0.0003896467387676239,
+      "execution_radius_reduction_F1_minus_F2": 0.018643498420715332,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.012752700419668805,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "correction_target_cosine": 0.3490354120731354,
+      "decoded_improvement_F1_minus_F2": 0.0012014061212539673,
+      "execution_radius_reduction_F1_minus_F2": 0.27250051498413086,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.35247837473779176,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "correction_target_cosine": 0.13146111369132996,
+      "decoded_improvement_F1_minus_F2": 0.00027444958686828613,
+      "execution_radius_reduction_F1_minus_F2": 0.049292802810668945,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.021644699150032976,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "correction_target_cosine": -0.3611038625240326,
+      "decoded_improvement_F1_minus_F2": 0.0019838809967041016,
+      "execution_radius_reduction_F1_minus_F2": 0.2121567726135254,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.203352968565931,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "correction_target_cosine": -0.06841764599084854,
+      "decoded_improvement_F1_minus_F2": -0.0028676986694335938,
+      "execution_radius_reduction_F1_minus_F2": 0.2606236934661865,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.18284958782281957,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "correction_target_cosine": 0.17118199169635773,
+      "decoded_improvement_F1_minus_F2": 0.0023980364203453064,
+      "execution_radius_reduction_F1_minus_F2": 0.3626589775085449,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.3896516663545653,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "correction_target_cosine": 0.031293950974941254,
+      "decoded_improvement_F1_minus_F2": 0.007630974054336548,
+      "execution_radius_reduction_F1_minus_F2": 0.5166604518890381,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": -0.19164677805727126,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "correction_target_cosine": 0.17793801426887512,
+      "decoded_improvement_F1_minus_F2": 0.004403464496135712,
+      "execution_radius_reduction_F1_minus_F2": 0.32767724990844727,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4475784624294037,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "correction_target_cosine": 0.31256014108657837,
+      "decoded_improvement_F1_minus_F2": 0.0033062994480133057,
+      "execution_radius_reduction_F1_minus_F2": 0.9921135902404785,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.9102119356449554,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "correction_target_cosine": 0.38225963711738586,
+      "decoded_improvement_F1_minus_F2": 0.005009859800338745,
+      "execution_radius_reduction_F1_minus_F2": 0.6352111101150513,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.6467489438103329,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00009"
+    },
+    {
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "correction_target_cosine": 0.16062286496162415,
+      "decoded_improvement_F1_minus_F2": 0.0028072986751794815,
+      "execution_radius_reduction_F1_minus_F2": 0.18377149105072021,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.2575064787731164,
+      "offset": 1,
+      "source_session_id": "training_ep_row_00009"
+    },
+    {
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "correction_target_cosine": 0.06525868922472,
+      "decoded_improvement_F1_minus_F2": 0.002812866121530533,
+      "execution_radius_reduction_F1_minus_F2": 0.10706448554992676,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.14876354886094867,
+      "offset": 2,
+      "source_session_id": "training_ep_row_00009"
+    },
+    {
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "correction_target_cosine": -0.09461808949708939,
+      "decoded_improvement_F1_minus_F2": 0.0039163678884506226,
+      "execution_radius_reduction_F1_minus_F2": 0.1973249912261963,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.4478150033653151,
+      "offset": 3,
+      "source_session_id": "training_ep_row_00009"
+    },
+    {
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "correction_target_cosine": -0.2673134505748749,
+      "decoded_improvement_F1_minus_F2": -0.00497879832983017,
+      "execution_radius_reduction_F1_minus_F2": 0.1890101432800293,
+      "horizon": 4,
+      "normal_distance_reduction_F1_minus_F2": 0.10063388784323446,
+      "offset": 4,
+      "source_session_id": "training_ep_row_00009"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2399317",
+      "correction_target_cosine": -0.10571835935115814,
+      "decoded_improvement_F1_minus_F2": 0.004251389764249325,
+      "execution_radius_reduction_F1_minus_F2": 0.6038932800292969,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": -0.14770117930074123,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2400071",
+      "correction_target_cosine": 0.5543504357337952,
+      "decoded_improvement_F1_minus_F2": 0.002257267013192177,
+      "execution_radius_reduction_F1_minus_F2": 0.37482762336730957,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.35221729643458466,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2401084",
+      "correction_target_cosine": 0.23625437915325165,
+      "decoded_improvement_F1_minus_F2": 0.006479587405920029,
+      "execution_radius_reduction_F1_minus_F2": 0.686920166015625,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8028378952708892,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2402081",
+      "correction_target_cosine": 0.3711700737476349,
+      "decoded_improvement_F1_minus_F2": 0.00803840160369873,
+      "execution_radius_reduction_F1_minus_F2": 0.6044449806213379,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.36651861767958804,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403339",
+      "correction_target_cosine": 0.5366783142089844,
+      "decoded_improvement_F1_minus_F2": 0.005072093103080988,
+      "execution_radius_reduction_F1_minus_F2": 0.6242319345474243,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5510146846960509,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_023_session_00177_frame_2403765",
+      "correction_target_cosine": -0.018784696236252785,
+      "decoded_improvement_F1_minus_F2": 0.0008465759456157684,
+      "execution_radius_reduction_F1_minus_F2": 0.45523548126220703,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.48069739702607706,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00177"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0054447",
+      "correction_target_cosine": 0.5075366497039795,
+      "decoded_improvement_F1_minus_F2": 0.010361786931753159,
+      "execution_radius_reduction_F1_minus_F2": 0.6968519687652588,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8395956626508216,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055036",
+      "correction_target_cosine": -0.1304837018251419,
+      "decoded_improvement_F1_minus_F2": 0.019456692039966583,
+      "execution_radius_reduction_F1_minus_F2": 1.4204883575439453,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5640811890172035,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0055430",
+      "correction_target_cosine": 0.3107016086578369,
+      "decoded_improvement_F1_minus_F2": 0.0010805800557136536,
+      "execution_radius_reduction_F1_minus_F2": 0.4323391914367676,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.9724960093500052,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0056251",
+      "correction_target_cosine": 0.5763423442840576,
+      "decoded_improvement_F1_minus_F2": 0.0036732126027345657,
+      "execution_radius_reduction_F1_minus_F2": 0.9019814729690552,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.7149890938703634,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057177",
+      "correction_target_cosine": 0.28450530767440796,
+      "decoded_improvement_F1_minus_F2": 0.023251235485076904,
+      "execution_radius_reduction_F1_minus_F2": 0.4127495288848877,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.27803822409484047,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00000_frame_0057758",
+      "correction_target_cosine": 0.16814453899860382,
+      "decoded_improvement_F1_minus_F2": 0.0009960513561964035,
+      "execution_radius_reduction_F1_minus_F2": 0.6456618309020996,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.0294390670675726,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00000"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0064782",
+      "correction_target_cosine": 0.23302815854549408,
+      "decoded_improvement_F1_minus_F2": 0.0026145130395889282,
+      "execution_radius_reduction_F1_minus_F2": 0.5471885204315186,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5068977595635995,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0065612",
+      "correction_target_cosine": -0.17635680735111237,
+      "decoded_improvement_F1_minus_F2": -0.004599995911121368,
+      "execution_radius_reduction_F1_minus_F2": 0.2895796298980713,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": -0.21587280209826165,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070168",
+      "correction_target_cosine": -0.043682388961315155,
+      "decoded_improvement_F1_minus_F2": -0.0019520074129104614,
+      "execution_radius_reduction_F1_minus_F2": 1.0051987171173096,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.06556522369652673,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0070438",
+      "correction_target_cosine": 0.40399667620658875,
+      "decoded_improvement_F1_minus_F2": 0.0048147086054086685,
+      "execution_radius_reduction_F1_minus_F2": 0.5354568958282471,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.6560915033136707,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0071946",
+      "correction_target_cosine": -0.18010003864765167,
+      "decoded_improvement_F1_minus_F2": 0.005647748708724976,
+      "execution_radius_reduction_F1_minus_F2": 0.824580192565918,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.7234175271044054,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00001_frame_0072448",
+      "correction_target_cosine": 0.3041048049926758,
+      "decoded_improvement_F1_minus_F2": 0.0022984184324741364,
+      "execution_radius_reduction_F1_minus_F2": 0.16164374351501465,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": -0.012906666124382404,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00001"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084540",
+      "correction_target_cosine": 0.3302706480026245,
+      "decoded_improvement_F1_minus_F2": 0.009385764598846436,
+      "execution_radius_reduction_F1_minus_F2": 0.617866039276123,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.3088320898390622,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0084889",
+      "correction_target_cosine": 0.07177122682332993,
+      "decoded_improvement_F1_minus_F2": 0.0015083327889442444,
+      "execution_radius_reduction_F1_minus_F2": 0.23664212226867676,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.2598572339255967,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0085079",
+      "correction_target_cosine": 0.13120751082897186,
+      "decoded_improvement_F1_minus_F2": 0.0018333308398723602,
+      "execution_radius_reduction_F1_minus_F2": 1.1614625453948975,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8746687202699912,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087177",
+      "correction_target_cosine": 0.46875810623168945,
+      "decoded_improvement_F1_minus_F2": 0.015348844230175018,
+      "execution_radius_reduction_F1_minus_F2": 0.7624251842498779,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8141593347201204,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087452",
+      "correction_target_cosine": -0.05098377540707588,
+      "decoded_improvement_F1_minus_F2": 0.009641788899898529,
+      "execution_radius_reduction_F1_minus_F2": 1.3181524276733398,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 1.2130847246188032,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00002_frame_0087913",
+      "correction_target_cosine": -0.042779263108968735,
+      "decoded_improvement_F1_minus_F2": -0.008690327405929565,
+      "execution_radius_reduction_F1_minus_F2": 0.4474825859069824,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.44600434449574666,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00002"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103398",
+      "correction_target_cosine": 0.5359762907028198,
+      "decoded_improvement_F1_minus_F2": 0.0164827648550272,
+      "execution_radius_reduction_F1_minus_F2": 0.6182293891906738,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.497642031796272,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0103965",
+      "correction_target_cosine": 0.48624810576438904,
+      "decoded_improvement_F1_minus_F2": 0.003488462418317795,
+      "execution_radius_reduction_F1_minus_F2": 0.7489578723907471,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.6469107861798933,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104170",
+      "correction_target_cosine": 0.34862348437309265,
+      "decoded_improvement_F1_minus_F2": -0.0017881616950035095,
+      "execution_radius_reduction_F1_minus_F2": 0.10108232498168945,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": -0.42586445022710673,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0104786",
+      "correction_target_cosine": 0.03687283769249916,
+      "decoded_improvement_F1_minus_F2": -0.0035513341426849365,
+      "execution_radius_reduction_F1_minus_F2": 0.8789875507354736,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8307622300144195,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0105912",
+      "correction_target_cosine": -0.22494390606880188,
+      "decoded_improvement_F1_minus_F2": 0.00019410252571105957,
+      "execution_radius_reduction_F1_minus_F2": 1.155944585800171,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5923951669133214,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00003_frame_0106326",
+      "correction_target_cosine": 0.3412312865257263,
+      "decoded_improvement_F1_minus_F2": 0.0024291127920150757,
+      "execution_radius_reduction_F1_minus_F2": 0.346895694732666,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5137459010107199,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00003"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0122500",
+      "correction_target_cosine": 0.5862923860549927,
+      "decoded_improvement_F1_minus_F2": -0.0007825158536434174,
+      "execution_radius_reduction_F1_minus_F2": 0.5430443286895752,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5451160935488137,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123353",
+      "correction_target_cosine": -0.2382543683052063,
+      "decoded_improvement_F1_minus_F2": 0.009416253305971622,
+      "execution_radius_reduction_F1_minus_F2": 1.0423545837402344,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.39245752865159034,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0123757",
+      "correction_target_cosine": 0.22674301266670227,
+      "decoded_improvement_F1_minus_F2": 0.0028866343200206757,
+      "execution_radius_reduction_F1_minus_F2": 1.1615138053894043,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.24629741187150467,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125021",
+      "correction_target_cosine": 0.3992341458797455,
+      "decoded_improvement_F1_minus_F2": 0.018264874815940857,
+      "execution_radius_reduction_F1_minus_F2": 1.3651390075683594,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5189463602694837,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0125843",
+      "correction_target_cosine": 0.3616158068180084,
+      "decoded_improvement_F1_minus_F2": 0.019627399742603302,
+      "execution_radius_reduction_F1_minus_F2": 0.8060479164123535,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.6858575716938313,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00004_frame_0126307",
+      "correction_target_cosine": -0.12730488181114197,
+      "decoded_improvement_F1_minus_F2": 0.0047428421676158905,
+      "execution_radius_reduction_F1_minus_F2": 0.6875560283660889,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.7145257232408484,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00004"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0147707",
+      "correction_target_cosine": 0.5247600674629211,
+      "decoded_improvement_F1_minus_F2": 0.003046952188014984,
+      "execution_radius_reduction_F1_minus_F2": 1.2774276733398438,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5712889797303327,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0148023",
+      "correction_target_cosine": -0.011446338146924973,
+      "decoded_improvement_F1_minus_F2": 0.004510816186666489,
+      "execution_radius_reduction_F1_minus_F2": 0.44031739234924316,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.42793994567804994,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150436",
+      "correction_target_cosine": 0.35431352257728577,
+      "decoded_improvement_F1_minus_F2": 0.00915788859128952,
+      "execution_radius_reduction_F1_minus_F2": 0.8715724945068359,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.059435630399136574,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0150944",
+      "correction_target_cosine": 0.3328716456890106,
+      "decoded_improvement_F1_minus_F2": 0.001752857118844986,
+      "execution_radius_reduction_F1_minus_F2": 0.45479273796081543,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.4603733345712948,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0151177",
+      "correction_target_cosine": -0.4176120162010193,
+      "decoded_improvement_F1_minus_F2": -0.004934312775731087,
+      "execution_radius_reduction_F1_minus_F2": 0.21134376525878906,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.45762636576247817,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_000_session_00005_frame_0152173",
+      "correction_target_cosine": 0.3072723150253296,
+      "decoded_improvement_F1_minus_F2": 0.0018895938992500305,
+      "execution_radius_reduction_F1_minus_F2": 0.9024631977081299,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8981252747284381,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00005"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0166415",
+      "correction_target_cosine": 0.5413917899131775,
+      "decoded_improvement_F1_minus_F2": -0.0005357302725315094,
+      "execution_radius_reduction_F1_minus_F2": 0.4810410737991333,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.510563904201043,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0167504",
+      "correction_target_cosine": 0.2874130308628082,
+      "decoded_improvement_F1_minus_F2": 0.005119225010275841,
+      "execution_radius_reduction_F1_minus_F2": 0.2589690685272217,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.4491455275654026,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0168687",
+      "correction_target_cosine": 0.24483656883239746,
+      "decoded_improvement_F1_minus_F2": 0.0014722347259521484,
+      "execution_radius_reduction_F1_minus_F2": 0.2546689510345459,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.3737070230344779,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169355",
+      "correction_target_cosine": 0.3606323003768921,
+      "decoded_improvement_F1_minus_F2": 0.011761549860239029,
+      "execution_radius_reduction_F1_minus_F2": 0.6879556179046631,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.4056716301084917,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0169805",
+      "correction_target_cosine": 0.38493990898132324,
+      "decoded_improvement_F1_minus_F2": 0.003946483135223389,
+      "execution_radius_reduction_F1_minus_F2": 0.465470552444458,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.7759153174093982,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00006_frame_0170705",
+      "correction_target_cosine": 0.5529536604881287,
+      "decoded_improvement_F1_minus_F2": 0.011714480817317963,
+      "execution_radius_reduction_F1_minus_F2": 0.7916254997253418,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8321711120058395,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00006"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197223",
+      "correction_target_cosine": -0.13227903842926025,
+      "decoded_improvement_F1_minus_F2": 0.006891362369060516,
+      "execution_radius_reduction_F1_minus_F2": 0.8752669095993042,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.9285200252703489,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0197753",
+      "correction_target_cosine": -0.16847552359104156,
+      "decoded_improvement_F1_minus_F2": 0.002620220184326172,
+      "execution_radius_reduction_F1_minus_F2": 0.7382174730300903,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.8787156377657799,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198306",
+      "correction_target_cosine": 0.5121873617172241,
+      "decoded_improvement_F1_minus_F2": 0.0023248381912708282,
+      "execution_radius_reduction_F1_minus_F2": 0.48227059841156006,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5798625438188323,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0198579",
+      "correction_target_cosine": 0.3090376555919647,
+      "decoded_improvement_F1_minus_F2": 0.0036630555987358093,
+      "execution_radius_reduction_F1_minus_F2": 0.4438985586166382,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5835820941708687,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199746",
+      "correction_target_cosine": 0.39842602610588074,
+      "decoded_improvement_F1_minus_F2": 0.003965560346841812,
+      "execution_radius_reduction_F1_minus_F2": 0.6110801696777344,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.7310324807967867,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00007_frame_0199958",
+      "correction_target_cosine": -0.2782054543495178,
+      "decoded_improvement_F1_minus_F2": -0.0015204865485429764,
+      "execution_radius_reduction_F1_minus_F2": 0.23465490341186523,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.26661806440194113,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00007"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0246388",
+      "correction_target_cosine": 0.2903600037097931,
+      "decoded_improvement_F1_minus_F2": 0.010471023619174957,
+      "execution_radius_reduction_F1_minus_F2": 0.6206088066101074,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.6686670704417983,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0247733",
+      "correction_target_cosine": 0.5721071362495422,
+      "decoded_improvement_F1_minus_F2": 0.000386703759431839,
+      "execution_radius_reduction_F1_minus_F2": 0.24481773376464844,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.24506956661220713,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0251587",
+      "correction_target_cosine": -0.03684169054031372,
+      "decoded_improvement_F1_minus_F2": 0.003895137459039688,
+      "execution_radius_reduction_F1_minus_F2": 0.5792725086212158,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 1.1202744662025357,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252031",
+      "correction_target_cosine": 0.16349472105503082,
+      "decoded_improvement_F1_minus_F2": 0.0007960423827171326,
+      "execution_radius_reduction_F1_minus_F2": 0.5816363096237183,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5937315889232788,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252374",
+      "correction_target_cosine": -0.3211325407028198,
+      "decoded_improvement_F1_minus_F2": 0.007397543638944626,
+      "execution_radius_reduction_F1_minus_F2": 1.4473552703857422,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 1.0805775439677001,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00008_frame_0252839",
+      "correction_target_cosine": 0.569327175617218,
+      "decoded_improvement_F1_minus_F2": 0.009296856820583344,
+      "execution_radius_reduction_F1_minus_F2": 0.5563786029815674,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.5107382603995472,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00008"
+    },
+    {
+      "block_id": "subset_training_001_session_00009_frame_0273960",
+      "correction_target_cosine": -0.18465885519981384,
+      "decoded_improvement_F1_minus_F2": -0.006082713603973389,
+      "execution_radius_reduction_F1_minus_F2": 0.7699184417724609,
+      "horizon": 8,
+      "normal_distance_reduction_F1_minus_F2": 0.279253650128783,
+      "offset": 0,
+      "source_session_id": "training_ep_row_00009"
+    }
+  ]
+}

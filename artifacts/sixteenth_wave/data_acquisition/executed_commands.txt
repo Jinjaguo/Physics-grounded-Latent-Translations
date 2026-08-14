@@ -1,0 +1,7 @@
+df -B1 /home/jinjaguo
+du -sh /home/jinjaguo/PGLT /home/jinjaguo/PGLT/data/representation/calvin_task_D_D /home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset 2>/dev/null || true
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage inventory
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier1
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier1
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier1b_resume
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier2

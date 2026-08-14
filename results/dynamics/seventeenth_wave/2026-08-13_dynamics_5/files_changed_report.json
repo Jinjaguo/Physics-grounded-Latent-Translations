@@ -1,0 +1,590 @@
+{
+  "created_or_updated": [
+    {
+      "bytes": 275,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/H1_H2_H4_H8_support_table.json",
+      "sha256": "29aa48396bb3c368419abeb3d2d8c7e03a0524190e42a6ae8ca36eb1a2a86816"
+    },
+    {
+      "bytes": 272411,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/annotation_boundary_metadata.json",
+      "sha256": "baac68eeda400b87c9853d8d88e944c75ef7f857050798ad4eacc784d36b500e"
+    },
+    {
+      "bytes": 48019,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/block_auc_distribution.json",
+      "sha256": "02cb85ee703cd769f87f9b4039c9d5380e35e94d3d2f43619b4806c54b2d6696"
+    },
+    {
+      "bytes": 32307,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/boundary_stratified_analysis.json",
+      "sha256": "456b1f457b0b16de0b028c0fdcbe2fc6e919a76200a6f309f12a9b7ede3ed65c"
+    },
+    {
+      "bytes": 1927,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/context_sensitivity_analysis.json",
+      "sha256": "c582939bfa9136417b3208a50d9332d0d02af25ae93fdebf174551262692828a"
+    },
+    {
+      "bytes": 13911,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/continuous_play_source_audit.json",
+      "sha256": "76bf55f8625de1a2bcff52dca03de59e308749c1dd59679c853cba0e56f38820"
+    },
+    {
+      "bytes": 5790,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/decoded_action_metrics.json",
+      "sha256": "f949fe870c125cd20494b5d329ad924ad73d0a294ae9cb345c5c3c6220e7733e"
+    },
+    {
+      "bytes": 421,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/empirical_manifold_analysis.json",
+      "sha256": "8df85194e25b66c218007c3522a0dd7687140407522fcd62cadf73240b9c878a"
+    },
+    {
+      "bytes": 452,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/environment_provenance.json",
+      "sha256": "458625b318caf7defe1cc30ed334cb7f878cdde8351f9c97f70e68fa131be52a"
+    },
+    {
+      "bytes": 1090,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/executed_commands.txt",
+      "sha256": "46948a5abc032af481bf5e057cfb6ca26ac58d490b16ae6ad6aef07449550377"
+    },
+    {
+      "bytes": 7798,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/freezing_and_causality_audit.json",
+      "sha256": "08fb9a50676ce3a01d111efb71f69cb58c4256587f16d7d9cb36e8c4ea076fe6"
+    },
+    {
+      "bytes": 140,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/frozen_DEL_negative_baseline_note.json",
+      "sha256": "395e3b6bd1c9b66610b6d5caa00ba8207be38a933dc6f8ecb6e803d069f9bd99"
+    },
+    {
+      "bytes": 7542,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/frozen_serialization_audit.json",
+      "sha256": "aaecd4ab13b2c4f911be39850515aa16e8f4c282b4f30e6bdf5717f970bb4813"
+    },
+    {
+      "bytes": 23231,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/horizon_wise_latent_metrics.json",
+      "sha256": "4de7a6e5c54d99a5e942779662b259371c0cc8b8d36d9ea2f2adeb5fc12299ae"
+    },
+    {
+      "bytes": 7809,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/off_manifold_metrics.json",
+      "sha256": "c7364d920a9b95aa18092599d77cb107f7304070034a7411d34a5f506b263bef"
+    },
+    {
+      "bytes": 57806,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/physical_continuity_audit.json",
+      "sha256": "c8a35a8b559f78694578d9cb9185aff16b555e5213b1c669ed59037e439d1777"
+    },
+    {
+      "bytes": 10414,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/protocol_A_results.json",
+      "sha256": "65e457bdf949ccf5c844a6af57051b2e437040a09f95cfad782044f90fd8068e"
+    },
+    {
+      "bytes": 10421,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/protocol_B_results.json",
+      "sha256": "676e81ce541462381e26d4f3a3a8be4b67dd059634cd186cfa14f3ff2905e7f1"
+    },
+    {
+      "bytes": 1406,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/protocol_C_boundary_free_results.json",
+      "sha256": "dd1fc67ec853b8e8805e9e636274f6a7cc67357bfb1f8234dce66ffeb69c2c06"
+    },
+    {
+      "bytes": 9051,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/pytest_results.xml",
+      "sha256": "3996857fdada8cd78ad037fa2ee540a987c95257f10d9cfc76fe52c97b29aa29"
+    },
+    {
+      "bytes": 898,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/q_space_diagnostic.json",
+      "sha256": "2e90ebb042aa18911d7f904aecaeb2124373b2365616d2557a9b62ec092ed522"
+    },
+    {
+      "bytes": 151295,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/refinement_correction_alignment.json",
+      "sha256": "52c0366427c56731e3f083ceca2170e23288a5629eeaffe65389aef3ed9e0165"
+    },
+    {
+      "bytes": 12933,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/refinement_iteration_curves.json",
+      "sha256": "db9fadcce670e9324bd1933e8e6922d1349896c690c6f726c9c65b4bd95b5d3c"
+    },
+    {
+      "bytes": 342,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/seventeenth_wave_next_experiment.md",
+      "sha256": "7d716b06d09c085e942c9f07bd63b7f54eaffa238083343253df9d00fa467c87"
+    },
+    {
+      "bytes": 3714,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/seventeenth_wave_results.md",
+      "sha256": "16a730835795e4474cb24c386bcca4a0fda7d44efd04ce3adf09d9bb59d82b17"
+    },
+    {
+      "bytes": 625,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/source_frequency_verification.json",
+      "sha256": "7ea237e1e9a8c1b2290b7dc6677d2af88a98df31928deae1e4f4cc1158e2c170"
+    },
+    {
+      "bytes": 3118,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/source_session_clustered_paired_bootstrap.json",
+      "sha256": "aca654199351c700bf25d8235a093dd1f6609571a35de428970aed5de1a41b42"
+    },
+    {
+      "bytes": 4208,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/source_session_reconstruction_report.json",
+      "sha256": "d97d10e3ae37b1b37948a708b4f8646a47ff066476d58fbaf37f91e12ed93a5a"
+    },
+    {
+      "bytes": 8228,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave16_wave17_source_overlap.json",
+      "sha256": "f17fa194e4767e909f30a2095c87466fa8dcad0279dd87b102712efd52d75b6f"
+    },
+    {
+      "bytes": 5988,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave17_claim_decision.json",
+      "sha256": "8692fd494fbb8011730a07a089e703a3ddf8a9eac859c49cf3ea6a462e2c8461"
+    },
+    {
+      "bytes": 339584,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave17_continuous_play_preregistration.json",
+      "sha256": "8bc1968100ad9bfa728690662fabc1c5f7535301689dd3e782abf055291b87d5"
+    },
+    {
+      "bytes": 1133606,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave17_frozen_latents.npz",
+      "sha256": "b0c86900e63dd7c62adcd6ab0f1b7ad093f3068c88665817f8eab979c1932467"
+    },
+    {
+      "bytes": 306339,
+      "path": "results/dynamics/seventeenth_wave/2026-08-13_dynamics_5/wave17_sequences.jsonl",
+      "sha256": "488848ea881c7ad116aa73651d8b9a582a0b893ac1cdc4db00df18f8e53021dd"
+    },
+    {
+      "bytes": 24279,
+      "path": "prompts/dynamics_5.md",
+      "sha256": "5d53c48e4f25275ef2e9d5fce6d158f94b09a6b7f99b3b71f1a7372312a89111"
+    },
+    {
+      "bytes": 4462,
+      "path": "configs/dynamics_5.yaml",
+      "sha256": "de1a4673a988b0405d592b5f6045497b16c71df85333d0244728cdc9f0fd9a98"
+    },
+    {
+      "bytes": 29133,
+      "path": "scripts/dynamics/acquire_dynamics_5.py",
+      "sha256": "6c259768fdfe7db060c1f1ac3ca36b160303a87ace235c3a0d424517c4057fc2"
+    },
+    {
+      "bytes": 67665,
+      "path": "scripts/dynamics/run_dynamics_5.py",
+      "sha256": "42241f7c62e01c56bd01bae319e0ff4eeafd938f35098a9dbde174e108165ca7"
+    },
+    {
+      "bytes": 6298,
+      "path": "tests/dynamics/test_dynamics_5.py",
+      "sha256": "bf757f0ac0554a71d5de9f5abadaecbf4564b683f5ae0f7460103ccc5f196c1a"
+    },
+    {
+      "bytes": 3714,
+      "path": "reports/dynamics_5_results.md",
+      "sha256": "16a730835795e4474cb24c386bcca4a0fda7d44efd04ce3adf09d9bb59d82b17"
+    },
+    {
+      "bytes": 342,
+      "path": "NEXT_EXPERIMENT.md",
+      "sha256": "7d716b06d09c085e942c9f07bd63b7f54eaffa238083343253df9d00fa467c87"
+    },
+    {
+      "bytes": 2874,
+      "path": "RESEARCH_LOG.md",
+      "sha256": "b32533bf467b99e473d78b57c9d2333eb4c1adf43b50e9ba956ba458aa99e847"
+    },
+    {
+      "bytes": 1063,
+      "path": "artifacts/seventeenth_wave/data_acquisition/authorization_pause.json",
+      "sha256": "deeaca8f5d407c187ad883a94a322dbb583f08f235929c4ef3da3c7ddc5a4a94"
+    },
+    {
+      "bytes": 438720,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_block_manifest.json",
+      "sha256": "81a1db3099e7685165eabe59f21d36259e145eda6928152ab40713aa2eaa87fe"
+    },
+    {
+      "bytes": 40077,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0054447.npz",
+      "sha256": "9822af6edd3a23fc6d2f51db8048337b8113f99f72553fe2ce8ac30ec6a377f9"
+    },
+    {
+      "bytes": 44537,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0055036.npz",
+      "sha256": "95de3437b8920b009d618f872a5d71f3ec56d3597dbf36060bcef8827253b28b"
+    },
+    {
+      "bytes": 42218,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0055430.npz",
+      "sha256": "19ab4d9428843231011f06c84c96fa2aab6133f265a609b84aad71a203f01803"
+    },
+    {
+      "bytes": 45890,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0056251.npz",
+      "sha256": "ae8ee960cc10259b6671616f58d389414f9770d42efa1e2757a29ae33966e343"
+    },
+    {
+      "bytes": 46054,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0057177.npz",
+      "sha256": "a1b02bdad43ec32c187f515205db0b1761b8ba2fa0ffd54688a0346ca3a26e99"
+    },
+    {
+      "bytes": 46470,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00000_frame_0057758.npz",
+      "sha256": "44254b426f76f281d142a01ae802181aa6923ea7057cba4da8319518bb1cbdbc"
+    },
+    {
+      "bytes": 47662,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0064782.npz",
+      "sha256": "f76905b7d63b12c4a1449e816c4510f23acb359d454188b447cf0c71f1d18028"
+    },
+    {
+      "bytes": 47088,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0065612.npz",
+      "sha256": "04fdcc1847c245f0fb0fc3e67604d6e518e58562491d276b84091f6fcd4dbdc8"
+    },
+    {
+      "bytes": 43973,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0070168.npz",
+      "sha256": "924441ea19f035ecd08e6e7c4306063b0f92c76953dec6f8106416d4b57fdb31"
+    },
+    {
+      "bytes": 43756,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0070438.npz",
+      "sha256": "cec55a95141f5ea60ba1fbe9322207b28bff996898f20576f9c5c77823e4f9b5"
+    },
+    {
+      "bytes": 39978,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0071946.npz",
+      "sha256": "2c88f891f3962de8d680c5b76694de1d22cae0942dbf5770f712e1b91504b6c5"
+    },
+    {
+      "bytes": 43186,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00001_frame_0072448.npz",
+      "sha256": "9c08d79ab29549caaa02777bafc3b16119350a434e2d50cfaf44914230977c0f"
+    },
+    {
+      "bytes": 45690,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0084540.npz",
+      "sha256": "5bf87583f3fb35268d4a854a1cc215d3a989333f4007600829e352ff0368a77f"
+    },
+    {
+      "bytes": 45813,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0084889.npz",
+      "sha256": "365ea34d35d8f9da88134b91f3fc67e2f6a137c2b236ceead64fb13acaeb9adf"
+    },
+    {
+      "bytes": 46177,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0085079.npz",
+      "sha256": "ece6bf90bf1bcfdc8a28864a7c93f8b18fe8496816f8c15c5deaff810880e3a6"
+    },
+    {
+      "bytes": 45963,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0087177.npz",
+      "sha256": "a1b7e86c6dba228da7bd4b1eddd9ae4e610ccbdc3d60136d722b49f59168b4a0"
+    },
+    {
+      "bytes": 46454,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0087452.npz",
+      "sha256": "c1583971a82165bddfb3e298ae7b84939185ddc640d08b8c392847281f71b974"
+    },
+    {
+      "bytes": 43554,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00002_frame_0087913.npz",
+      "sha256": "cb7312a45ff1596be76507e5eb675c597a38c7f0820225d2b674c7630c1150bd"
+    },
+    {
+      "bytes": 45932,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0103398.npz",
+      "sha256": "c8396546fe81275466af6b7328e261cf8737981d935feb497c92d9267232bd17"
+    },
+    {
+      "bytes": 44419,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0103965.npz",
+      "sha256": "27557e4df99bfe8d67e9a217e6212f5dcfbc2198480863221c32f8caed653f92"
+    },
+    {
+      "bytes": 46060,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0104170.npz",
+      "sha256": "de8615548b1c8f1d4fd3a1b5f49c43a24ed4a8f5b0d4ef834b132862bceb8837"
+    },
+    {
+      "bytes": 43877,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0104786.npz",
+      "sha256": "cb451b97e2d38999497164ea58d52b1ce9a117db0d5ad3525157847152b31930"
+    },
+    {
+      "bytes": 44872,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0105912.npz",
+      "sha256": "d91d2e12c725ba60ebf428fe3f5e0fd8e782a89779461a8fe5f7b63a034991e9"
+    },
+    {
+      "bytes": 41826,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00003_frame_0106326.npz",
+      "sha256": "6876600d2cbf8ec04b6ca436cf05ca7cf167b8c293ca928c6d7f2b4e9105bdb0"
+    },
+    {
+      "bytes": 45630,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0122500.npz",
+      "sha256": "f3e88c0f116da165f3ab27b900b767921b7640a9b720b7d2d4cc4b9f81ea0fb0"
+    },
+    {
+      "bytes": 43752,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0123353.npz",
+      "sha256": "ea10dee67b489e18eab8eba7bec4c378b650cc111ac0d18ccb87b86446a3e8cc"
+    },
+    {
+      "bytes": 45553,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0123757.npz",
+      "sha256": "1be6fe67ad86992baa575cc73a3c8868b779502657276e4ffa7a5c8c1955cdc1"
+    },
+    {
+      "bytes": 44165,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0125021.npz",
+      "sha256": "34b424f343c349b412af3d26ad3ecf4ff0a446d684f73d121a950ccc79d6ef80"
+    },
+    {
+      "bytes": 46534,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0125843.npz",
+      "sha256": "9f73ecc28206a0cbb2330ae15588aee167e1ff28bbde8715168b61edfcee2d8e"
+    },
+    {
+      "bytes": 44257,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00004_frame_0126307.npz",
+      "sha256": "b7fd0df3c04c06c0418e8e840955f9132eca8b61ac82dcb8a389cbeedb460adf"
+    },
+    {
+      "bytes": 44301,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0147707.npz",
+      "sha256": "5d0c075c2eb1a6e679ec93d442460995f9070b9086ec282b9662527ce3716b47"
+    },
+    {
+      "bytes": 42058,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0148023.npz",
+      "sha256": "ee07699546bec69578bdef1cc1fb0faff61655ea62f2a8114707c4c977aa2cc7"
+    },
+    {
+      "bytes": 43730,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0150436.npz",
+      "sha256": "f4ae09b943043515611f1ddf9a81e7661e922c6db7164233b59e37e1356d2d27"
+    },
+    {
+      "bytes": 46024,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0150944.npz",
+      "sha256": "2e4bac64c993f62b02075ceaa3ab3e60926d2cba36ab8b8be86da425be9487e1"
+    },
+    {
+      "bytes": 45316,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0151177.npz",
+      "sha256": "7a5be999b36c7b2aa5d61f7e48beff44d8c4f4dada969a1ade76fc5e67ef3575"
+    },
+    {
+      "bytes": 46677,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_000_session_00005_frame_0152173.npz",
+      "sha256": "26c6c282ac0bc8bb565c586f08220e12f335e8358ebefd61fd2f413d9df60a97"
+    },
+    {
+      "bytes": 44383,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0166415.npz",
+      "sha256": "fad88c70a5601411d217680e5d776ceac3258de633855cbc090e926360d5bbb1"
+    },
+    {
+      "bytes": 45381,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0167504.npz",
+      "sha256": "4536032da8405d29a0fc69a6fbe87f55b6ed2890724db89572ed05b045a4a279"
+    },
+    {
+      "bytes": 42428,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0168687.npz",
+      "sha256": "909f61042ae3de0b051eb8f8cdcbab8609eba266592ecd932032d9fbb38f5274"
+    },
+    {
+      "bytes": 43457,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0169355.npz",
+      "sha256": "027b6c173503c34102ee3ad104a2622bcae1444a32534e84fd23cfb1978fd9a1"
+    },
+    {
+      "bytes": 41828,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0169805.npz",
+      "sha256": "cdc624bddc66f1b62e8affca78cddb767867396ce7a75f6cb607a1d2bfd60462"
+    },
+    {
+      "bytes": 41807,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00006_frame_0170705.npz",
+      "sha256": "e492818c335d683b48accb3183ea25bad9ceaf050fcc0b625fbde525e8e73211"
+    },
+    {
+      "bytes": 46875,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0197223.npz",
+      "sha256": "b9b5120a41287e611aae8e5875f9040828aa3dbc98dea26d8aa6163dc695e103"
+    },
+    {
+      "bytes": 42676,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0197753.npz",
+      "sha256": "ab3418eb710814a04f852179793a0334e0506d8bb8707e6fd4b62de771b2cce8"
+    },
+    {
+      "bytes": 45546,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0198306.npz",
+      "sha256": "0c65e756d1e447e099fcaecd45846d1777e7a30bfa5a0a32a2d4cd4b8de4bed6"
+    },
+    {
+      "bytes": 41660,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0198579.npz",
+      "sha256": "70edf942fc7b9c61fb744ab30b6e9981d310971d0ca50fc988d4b79f4fb3e5e9"
+    },
+    {
+      "bytes": 45854,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0199746.npz",
+      "sha256": "09fbfc3f1c82165c5dba95811141a589d0d8907e8b50dded41d80817254d3e7b"
+    },
+    {
+      "bytes": 46647,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00007_frame_0199958.npz",
+      "sha256": "3a51c48a7d337ac053db861dea3b3239e9a4faaf5a26dd9dc76c625665eb2628"
+    },
+    {
+      "bytes": 45484,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0246388.npz",
+      "sha256": "bf515285b7179d263e0852b7926759e4fa7ad76211cb8b157ad0e6de8d5ee088"
+    },
+    {
+      "bytes": 43204,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0247733.npz",
+      "sha256": "68f2761cc9bccff0fb74f78b0f37807c58d9746a1f9f577fbaccf443566d6531"
+    },
+    {
+      "bytes": 43546,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0251587.npz",
+      "sha256": "5263807a1ae7138ca25e0bb9c0883592db8fc4e42968039aedf1c9a275ade24e"
+    },
+    {
+      "bytes": 45369,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0252031.npz",
+      "sha256": "95fcab43811da9b3e4b4d58ae037a7a4a6152e7bf699064f56a629d40e1ed6ac"
+    },
+    {
+      "bytes": 42845,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0252374.npz",
+      "sha256": "3a597bb0148a6193baee6abd02dbe1b4990ded1b3a5514e83658150b1e322bc1"
+    },
+    {
+      "bytes": 42206,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00008_frame_0252839.npz",
+      "sha256": "f4d64dfd9c21e14301380b951f24ab7a4294db7a31ce7019f4b1f5ac673340de"
+    },
+    {
+      "bytes": 44710,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_001_session_00009_frame_0273960.npz",
+      "sha256": "10b30873fc891dd8a585ee8d24153c0f033e50699e423c4869f88f6b05db67f5"
+    },
+    {
+      "bytes": 40586,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2399317.npz",
+      "sha256": "eac3225fe033ab407165dc39d89faf8ce3ed3b004b99ea5bfc1432078a2f3bf6"
+    },
+    {
+      "bytes": 46403,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2400071.npz",
+      "sha256": "5c942107e6497c748605c8212405fb697126c371c2cd56c65edf7830e873ffb9"
+    },
+    {
+      "bytes": 43391,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2401084.npz",
+      "sha256": "120023e5c341ff981226ed1ff24ef22caeab2ff60fe2e62a2076b3430e1e3a8e"
+    },
+    {
+      "bytes": 40941,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2402081.npz",
+      "sha256": "d1823ee90919e79863950f24279498d4222afb3dc01311456947c615de71e71e"
+    },
+    {
+      "bytes": 39342,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2403339.npz",
+      "sha256": "816d4c2ee64c59ed9cb3da00c8de72ccb1c325e988f33d456fff1351d499a06f"
+    },
+    {
+      "bytes": 41554,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks/subset_training_023_session_00177_frame_2403765.npz",
+      "sha256": "f55b0293f1cc2acecdda7b1fb502c0862f30fd9a2a0e89896e163f0ef013dede"
+    },
+    {
+      "bytes": 434469,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_blocks.partial.json",
+      "sha256": "8abf4ba4ae7a98cecaaa170d8d9e3dd9447871a9686006137380e4bfb5d44636"
+    },
+    {
+      "bytes": 57806,
+      "path": "artifacts/seventeenth_wave/data_acquisition/continuous_play_integrity_audit.json",
+      "sha256": "c8a35a8b559f78694578d9cb9185aff16b555e5213b1c669ed59037e439d1777"
+    },
+    {
+      "bytes": 4297,
+      "path": "artifacts/seventeenth_wave/data_acquisition/disk_budget.json",
+      "sha256": "93fb59b88501975e3e9e83a07f9f26daa5e65efa7a3cd5ae189283eeff43f513"
+    },
+    {
+      "bytes": 878,
+      "path": "artifacts/seventeenth_wave/data_acquisition/download_manifest.json",
+      "sha256": "1d8c29577a6834093de7cf2eb1fde4f3b4a0f3b253db9df06c56b2880195d0de"
+    },
+    {
+      "bytes": 358,
+      "path": "artifacts/seventeenth_wave/data_acquisition/executed_commands.txt",
+      "sha256": "883150e4ab2128c2bf47d420afa6033007d9a1eb3f912ac98dbd1c0c5393f8c8"
+    },
+    {
+      "bytes": 1557,
+      "path": "artifacts/seventeenth_wave/data_acquisition/frozen_kinematic_thresholds.json",
+      "sha256": "21a53004d24e725d4346a29544b6b82cae2067cf44589787f8688a0e9457d2e1"
+    },
+    {
+      "bytes": 791,
+      "path": "artifacts/seventeenth_wave/data_acquisition/frozen_model_hash_manifest.json",
+      "sha256": "42ef8e37dcb3d4112a94adfce318f912f24a278367cd19cd432e54319123c8e7"
+    },
+    {
+      "bytes": 14621,
+      "path": "artifacts/seventeenth_wave/data_acquisition/sha256_manifest.json",
+      "sha256": "6d0ed8591387b2041a673e0769f338fd42278a8f327fd2f2189c7e618da99c18"
+    },
+    {
+      "bytes": 2105,
+      "path": "artifacts/seventeenth_wave/data_acquisition/source_shard_audits.json",
+      "sha256": "f7c25ba67749ab1dfc702f27b798cc11939cdc5c8f5c553d58e16bb020d0d3d6"
+    },
+    {
+      "bytes": 2105,
+      "path": "artifacts/seventeenth_wave/data_acquisition/source_shard_audits.partial.json",
+      "sha256": "f7c25ba67749ab1dfc702f27b798cc11939cdc5c8f5c553d58e16bb020d0d3d6"
+    },
+    {
+      "bytes": 949,
+      "path": "artifacts/seventeenth_wave/data_acquisition/staged_cleanup_log.json",
+      "sha256": "56f8a23c3e86729ee8a0b3bf13b1cf9738ad5642ad4a7d7022491f0ac70ff5d9"
+    },
+    {
+      "bytes": 1626,
+      "path": "artifacts/seventeenth_wave/data_acquisition/wave16_immutable_artifact_audit.json",
+      "sha256": "3d3161f71f8fa48fc107f0b5f7b33f91ac692a5822fa932fa587c2397a964ab9"
+    },
+    {
+      "bytes": 3960,
+      "path": "artifacts/seventeenth_wave/data_acquisition/wave17_acquisition_preregistration.json",
+      "sha256": "7ef481e2d4c7cb227434dd34ed850b0c8ce6c1c9fedab574fd8a88734cce025a"
+    }
+  ],
+  "prior_wave_artifacts_overwritten": false
+}

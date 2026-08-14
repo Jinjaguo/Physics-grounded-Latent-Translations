@@ -1,0 +1,367 @@
+{
+  "created_or_updated_files": [
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/F1_F2_decoded_action_metrics.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/F1_F2_horizon_wise_latent_metrics.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/F1_F2_off_manifold_metrics.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/F1_F2_semantic_retention_metrics.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 2983,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/collection_protocol.json",
+      "sha256": "8670629c7720717143dce5ecf34bd6d6e1d09475fecb4e3264902ac8be557b2b"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/correction_vector_alignment_report.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 2200,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/data_adequacy_failure.json",
+      "sha256": "c2bad1a002161f71c9db333d9a270e60973545398238ddae7b60bce1aae772d7"
+    },
+    {
+      "bytes": 702,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/data_adequacy_gate.json",
+      "sha256": "2f5933d0150c993ca39c01354b440b6b70c355d1aee1d9722a8e18398f70c278"
+    },
+    {
+      "bytes": 650,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/environment_provenance.json",
+      "sha256": "4604db6eaac787507b940c2f8e044e001d962dfbb073d0fe13a74a40a762d1d3"
+    },
+    {
+      "bytes": 1702,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/executed_commands.txt",
+      "sha256": "715b58c130b6fb82d126587f456d79c51338a190f43641f8298f2fcda32d4790"
+    },
+    {
+      "bytes": 596,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/final_paper_claim_decision.json",
+      "sha256": "f9b0cf70ead91089c59f758549c1e0970066eb9ed18636bcd08769900293eb5b"
+    },
+    {
+      "bytes": 406,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/frozen_DEL_negative_baseline_report.json",
+      "sha256": "bded12fb01541e616b063c2b56c788b4f79aa83dd17dc8125f464293352a201a"
+    },
+    {
+      "bytes": 2141,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/frozen_model_hash_manifest.json",
+      "sha256": "fa660207836703fbe017bb8d4b62bfe47619659dfc435bde04480451da72235b"
+    },
+    {
+      "bytes": 504,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/horizon_sample_count_table.json",
+      "sha256": "3a146ecd9b115ba544a07d786e279b8233b8c1e36a9f1ab209a0ae0dfe2335d4"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/local_tangent_normal_manifold_audit.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 74986,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/long_horizon_open_data_preregistration.json",
+      "sha256": "bf593e82c2832c0c3a4796cf1acd99483d608ee1a22c7b15ca3e2474d2a1ebe7"
+    },
+    {
+      "bytes": 325,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/long_latent_serialization_manifest.json",
+      "sha256": "d5308e674dd07dd1e355523799b48f90fef5e044e7767643eb60030331234e69"
+    },
+    {
+      "bytes": 43466,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/long_trajectory_availability_audit.json",
+      "sha256": "8a674309f2e3124d29246d2bf1e80a98e8eb0a9e23275ae4a4b80acd831fb9a2"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/per_source_per_task_metrics.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 1282,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/primary_compatibility_audit.json",
+      "sha256": "24a930237bc278f0965af37f4a614e2bcd11dd58108f4ba461dc186f00e1213e"
+    },
+    {
+      "bytes": 141,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/project_storage_audit.json",
+      "sha256": "1611037db585768961f245d4ea779ccc01b6bb76ae0845244a09e3fbf8a7b152"
+    },
+    {
+      "bytes": 74986,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/prospective_evaluation_preregistration.json",
+      "sha256": "bf593e82c2832c0c3a4796cf1acd99483d608ee1a22c7b15ca3e2474d2a1ebe7"
+    },
+    {
+      "bytes": 6351,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/pytest_results.xml",
+      "sha256": "b6a67dee4fb98f00db2ca6cca37f950c94e0d1e5500807ed2694b20093a98ea0"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/refinement_intermediate_state_table.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 291,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/refinement_mechanism_decision.json",
+      "sha256": "c336551c4f0e6d3da8f0d63e8041b89877db74a56a537b3b476b6f6c1584639e"
+    },
+    {
+      "bytes": 1442,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/rel_action_convention_audit.json",
+      "sha256": "f20b077b5aa45649946725ae8f1baa62520f21954d834eb8e9c7b5177dddc8b4"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/rollout_error_growth_curves.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 640,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/sixteenth_wave_next_experiment.md",
+      "sha256": "e1c346319a5af5f98cbc06f3b29398c98ef3f02a2f86fa88648dc4dae1ed37f7"
+    },
+    {
+      "bytes": 5413,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/sixteenth_wave_results.md",
+      "sha256": "5424ff680d981d79046dc2cc6f96ab5a5fbb5cd08af4f6fbf52a4932699434f3"
+    },
+    {
+      "bytes": 244,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/source_stratified_bootstrap.json",
+      "sha256": "583f77b5bad9c1bfd5fa630f1c002d4e76d033202e500693fb2e9639334974d8"
+    },
+    {
+      "bytes": 1966,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/targeted_missing_data_acquisition_plan.json",
+      "sha256": "09b678724ecb0c461c99cfcf410a77f878f526d91f85b33a56084af891e96a12"
+    },
+    {
+      "bytes": 285,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/trajectory_level_paired_bootstrap.json",
+      "sha256": "3885fa9f1f9d5b00b19d4af4a110464f2b6c8eeea4a4d75697dd6f57a5d30bb3"
+    },
+    {
+      "bytes": 596,
+      "path": "results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/wave16_claim_decision.json",
+      "sha256": "f9b0cf70ead91089c59f758549c1e0970066eb9ed18636bcd08769900293eb5b"
+    },
+    {
+      "bytes": 6303,
+      "path": "artifacts/sixteenth_wave/data_acquisition/canonical_task_mapping.json",
+      "sha256": "6d2b0a58286768c48a9c990d6fd0c4ce9352d50cb4ce7916feb47f4266bf51ad"
+    },
+    {
+      "bytes": 919,
+      "path": "artifacts/sixteenth_wave/data_acquisition/disk_budget.json",
+      "sha256": "5f142f1868f6fc458c095383974ac5c5b0d713ea98c4a12bf275f94e5e89d277"
+    },
+    {
+      "bytes": 1270,
+      "path": "artifacts/sixteenth_wave/data_acquisition/download_manifest_tier1a_lerobot.json",
+      "sha256": "03d3d0b293f55ba8014ae7f03e91bc7821b1a3047c91b497bedf752c0b16fe1c"
+    },
+    {
+      "bytes": 93121,
+      "path": "artifacts/sixteenth_wave/data_acquisition/download_manifest_tier1b_roboverse.json",
+      "sha256": "411ef2edd0155dfc0ef167f0ecfcccf17beed7ac37dc7d51535773e70416dc6b"
+    },
+    {
+      "bytes": 499,
+      "path": "artifacts/sixteenth_wave/data_acquisition/download_manifest_tier2_abcd.json",
+      "sha256": "47d3d4ea2d537e8d706a91417bde1f9551179a70bc56a6370cd0b3e26f99ec6b"
+    },
+    {
+      "bytes": 950,
+      "path": "artifacts/sixteenth_wave/data_acquisition/executed_commands.txt",
+      "sha256": "cb5762cb5226f5f2cdd2fa3e92a8f2d7bf57c1a67e3d7bd8f6e8e0809fd6ce3a"
+    },
+    {
+      "bytes": 1,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/.gitignore",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "bytes": 0,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/episodes.jsonl.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 101,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/episodes.jsonl.metadata",
+      "sha256": "11f530d8cda3157693d92a42f3bd9f9bfe67917cc500450e939320b7ae42f81c"
+    },
+    {
+      "bytes": 0,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/episodes_stats.jsonl.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 125,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/episodes_stats.jsonl.metadata",
+      "sha256": "2e4eb5d6be5474b7f5cff4bc1da6dbe16f143dc0d9e0269351ee047bfa39b4dc"
+    },
+    {
+      "bytes": 0,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/info.json.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 101,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/info.json.metadata",
+      "sha256": "7ca9d81dd2f544c7c4a721771ab0b24067b0fc3173b086e7bd6d16deb84d6fee"
+    },
+    {
+      "bytes": 0,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/tasks.jsonl.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 101,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/.cache/huggingface/download/meta/tasks.jsonl.metadata",
+      "sha256": "17bf229ce630caf60f411f661bebf60c582e7c9824d5352c9883cd977e625fa3"
+    },
+    {
+      "bytes": 449843,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/episodes.jsonl",
+      "sha256": "cf48ccfba3f86613d672963873df56138bb9ea2da3855600779a7148dd08ac12"
+    },
+    {
+      "bytes": 12135544,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/episodes_stats.jsonl",
+      "sha256": "0e8d40783209f6d219b7078a7124534ca5714377a6e81170da54ccfe31e99a1c"
+    },
+    {
+      "bytes": 3111,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/info.json",
+      "sha256": "79d7bbe37fe87b4fb7551446efa08c7b08e5e4b13f09f86687cc2c5d74e9532d"
+    },
+    {
+      "bytes": 26131,
+      "path": "artifacts/sixteenth_wave/data_acquisition/hf_calvin_d_d_lerobot_meta/meta/tasks.jsonl",
+      "sha256": "1f5a20fb973a3967cc08ac1948287fc5b96575e25f6a4a630d1f14915a7d78a3"
+    },
+    {
+      "bytes": 46122,
+      "path": "artifacts/sixteenth_wave/data_acquisition/local_calvin_inventory.json",
+      "sha256": "bab70778ccaa89182e06915ecc3aa114f8807394f9f2313f6f6d1b10cd17a454"
+    },
+    {
+      "bytes": 617,
+      "path": "artifacts/sixteenth_wave/data_acquisition/long_trajectory_availability_audit.json",
+      "sha256": "993494dc7f1a9ecd65a9f21bdbf7c0345df76c31c45b67f1ff20132b20f81b2a"
+    },
+    {
+      "bytes": 34899,
+      "path": "artifacts/sixteenth_wave/data_acquisition/open_data_source_audit.json",
+      "sha256": "5e68529586a5fa7338035f16c34504d7e168822c0f2b39e4e422f06e26999adf"
+    },
+    {
+      "bytes": 33761,
+      "path": "artifacts/sixteenth_wave/data_acquisition/open_data_source_audit.partial.json",
+      "sha256": "820665f69e5a620ee6d93efaa8e9177a2ac5f99579c5b01bc480285129bd2131"
+    },
+    {
+      "bytes": 99340,
+      "path": "artifacts/sixteenth_wave/data_acquisition/per_source_download_manifest.json",
+      "sha256": "0330d44606ab264ae416fdca8b3ea18921ed00b9433309182d1f469d74abc0d1"
+    },
+    {
+      "bytes": 98802,
+      "path": "artifacts/sixteenth_wave/data_acquisition/per_source_download_manifest.partial.json",
+      "sha256": "266f392222f07964b743f8ae6bf18e66962857a6f724184357d914fabe0b6625"
+    },
+    {
+      "bytes": 71578,
+      "path": "artifacts/sixteenth_wave/data_acquisition/sha256_manifest.json",
+      "sha256": "f6248934a6db4a428f14adf8c2d2476f19708dc436934a58aa9e142f2e2fba06"
+    },
+    {
+      "bytes": 2191,
+      "path": "artifacts/sixteenth_wave/data_acquisition/staged_download_cleanup_log.json",
+      "sha256": "8166bfda056c38340d2194dce669f29cf9f750ed7c763844e364e130826327e0"
+    },
+    {
+      "bytes": 1129231,
+      "path": "artifacts/sixteenth_wave/data_acquisition/tier1a_metadata_audit.json",
+      "sha256": "59aebce5f158ca439ffeb40d348cc94fa2b0c18d637f088034ff6401b1f58790"
+    },
+    {
+      "bytes": 4966717,
+      "path": "artifacts/sixteenth_wave/data_acquisition/tier1b_trajectory_audit.json",
+      "sha256": "9ec427a0135b3b6756800a56fe48e1ae48caf80dd6a83aef21792d12b7e4725f"
+    },
+    {
+      "bytes": 3907,
+      "path": "artifacts/sixteenth_wave/data_acquisition/tier2_subset_training_023_audit.json",
+      "sha256": "3981d450d0260e1251147d7cef4b474cae7d6f8050ebd1026dd856dca2322411"
+    },
+    {
+      "bytes": 5413,
+      "path": "reports/dynamics_4_results.md",
+      "sha256": "5424ff680d981d79046dc2cc6f96ab5a5fbb5cd08af4f6fbf52a4932699434f3"
+    },
+    {
+      "bytes": 640,
+      "path": "NEXT_EXPERIMENT.md",
+      "sha256": "e1c346319a5af5f98cbc06f3b29398c98ef3f02a2f86fa88648dc4dae1ed37f7"
+    },
+    {
+      "bytes": 1840,
+      "path": "RESEARCH_LOG.md",
+      "sha256": "3db6550da917524d891c64c4dba95064707e3ef4c674484b9bb580b2b757ea1e"
+    },
+    {
+      "bytes": 1877,
+      "path": "configs/dynamics_4.yaml",
+      "sha256": "c9387b74bc225df05c16c12a027876a856e4f3572b5b1076b2f693165af338b4"
+    },
+    {
+      "bytes": 29694,
+      "path": "scripts/dynamics/acquire_dynamics_4.py",
+      "sha256": "5e4eb687aabbda1e4b0ff782357ea47885d1114a84b2043883c8bb4ed41274f4"
+    },
+    {
+      "bytes": 33182,
+      "path": "scripts/dynamics/run_dynamics_4.py",
+      "sha256": "e2fd913de716f8d17b92c6573da2cc5a32bfe794afa6e93664fc53998006059d"
+    },
+    {
+      "bytes": 5306,
+      "path": "scripts/dynamics/audit_dynamics_4.py",
+      "sha256": "8af7d04c853bcd7e88f5b34ad64830fbddfc9d3729f6319f9b80e6a2a7b5a4d2"
+    },
+    {
+      "bytes": 13433,
+      "path": "src/pglt/dynamics/open_data.py",
+      "sha256": "88625e55949d0f2cc6be7a40800538e10fe525961265dc3c7e873385e311de8e"
+    },
+    {
+      "bytes": 11125,
+      "path": "tests/dynamics/test_dynamics_4_long_horizon.py",
+      "sha256": "4926a7b6447f960687222532af22f7ae491f9fdb2d313e3da7fb30c5fe696025"
+    }
+  ],
+  "generated_after_this_report": "final_audit_report.json",
+  "prior_dynamics_artifacts_overwritten": false,
+  "self_excluded_to_avoid_recursive_hash": "files_changed_report.json"
+}

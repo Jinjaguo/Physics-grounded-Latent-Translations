@@ -1,0 +1,21 @@
+{
+  "causal_history_indices_rule": "window_start through prediction_issue_frame-1 inclusive",
+  "checksum_provenance": "checkpoint SHA-256 plus serialized NPZ SHA-256",
+  "created_at": "2026-08-12T05:36:13-04:00",
+  "execution_shape": [
+    3798,
+    16
+  ],
+  "issue_frame_saved": true,
+  "latent_shape": [
+    3798,
+    32
+  ],
+  "path": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1/frozen_latents.npz",
+  "semantic_shape": [
+    3798,
+    16
+  ],
+  "sha256": "5b60d23d049de2269343093975d819b05ea4280b1a1ed2d8fc95db3f3befdb3a",
+  "source_action_window_indices_saved": true
+}

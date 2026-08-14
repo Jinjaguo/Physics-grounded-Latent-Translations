@@ -1,0 +1,21 @@
+{
+  "calvin_collection_dependencies": {
+    "hydra": true,
+    "omegaconf": true,
+    "pybullet": false,
+    "quaternion": false
+  },
+  "created_at": "2026-08-13T14:29:34-04:00",
+  "cuda_available": false,
+  "executable": "/home/jinjaguo/anaconda3/envs/libero/bin/python",
+  "numpy": "1.22.4",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "project_storage_before": {
+    "maximum_project_bytes": 21474836480,
+    "passed": true,
+    "project_bytes": 3204777631,
+    "remaining_project_budget_bytes": 18270058849
+  },
+  "python": "3.8.13 (default, Oct 21 2022, 23:50:54) \n[GCC 11.2.0]",
+  "torch": "2.4.1+cu121"
+}

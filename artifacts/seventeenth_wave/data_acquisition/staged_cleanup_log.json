@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "created_at": "2026-08-13T20:48:35-04:00",
+      "free_bytes_after_cleanup": 977947148288,
+      "removed": ".staging/seventeenth_wave/subset_training_023",
+      "removed_temporary_bytes": 2160142454,
+      "retained_compact_blocks": 6,
+      "subset": "training/subset_training_023.zip"
+    },
+    {
+      "created_at": "2026-08-13T21:33:19-04:00",
+      "free_bytes_after_cleanup": 977833586688,
+      "removed": ".staging/seventeenth_wave/subset_training_000",
+      "removed_temporary_bytes": 29194555914,
+      "retained_compact_blocks": 36,
+      "subset": "training/subset_training_000.zip"
+    },
+    {
+      "created_at": "2026-08-13T21:48:25-04:00",
+      "free_bytes_after_cleanup": 977768456192,
+      "removed": ".staging/seventeenth_wave/subset_training_001",
+      "removed_temporary_bytes": 29490888498,
+      "retained_compact_blocks": 19,
+      "subset": "training/subset_training_001.zip"
+    }
+  ]
+}

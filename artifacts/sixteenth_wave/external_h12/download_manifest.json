@@ -1,0 +1,19 @@
+{
+  "downloaded_bytes": 31354698116,
+  "files": [
+    {
+      "bytes": 2160142328,
+      "repo_path": "training/subset_training_023.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "f237fedf404018b4667de367b61f02e3d24db2951e2b9edfd4e24d06fd9f9d21"
+    },
+    {
+      "bytes": 29194555788,
+      "repo_path": "training/subset_training_000.zip",
+      "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d",
+      "sha256": "e1244a656de230451e3142d3debcf3a04fa9a32a1ab2753d5b67a6d8f54ed2af"
+    }
+  ],
+  "repo_id": "VyoJ/calvin-ABCD-D-subsets",
+  "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d"
+}

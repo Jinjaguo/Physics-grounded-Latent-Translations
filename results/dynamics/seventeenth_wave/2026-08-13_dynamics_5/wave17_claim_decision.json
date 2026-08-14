@@ -1,0 +1,193 @@
+{
+  "C1": "SUPPORTED",
+  "C2": "SUPPORTED",
+  "C3a_full_DEL": "REJECTED",
+  "C3b_exec_DEL": "REJECTED",
+  "C3c_local": "STRENGTHENED_BY_INDEPENDENT_PUBLIC_EXTERNAL_REPLICATION",
+  "C3c_long": "SUPPORTED",
+  "C3d_refinement_manifold_stabilization": "SUPPORTED",
+  "DEL_role": "permanent historical negative baseline; not run",
+  "boundary_support": {
+    "H8_starts": 61,
+    "adequate": true,
+    "bootstrap": {
+      "F1_mean_session_value": 8.700563554255133,
+      "F2_mean_session_value": 7.456734168065418,
+      "block_or_start_count": 61,
+      "bootstrap_replicates": 10000,
+      "lower_95": -1.520072895647435,
+      "mean_delta_F2_minus_F1": -1.2438293861897156,
+      "session_values": [
+        {
+          "F1": 9.568763912001666,
+          "F2": 7.743518193604573,
+          "delta": -1.8252457183970927,
+          "source_session_id": "training_ep_row_00000"
+        },
+        {
+          "F1": 7.676098358446869,
+          "F2": 6.439887255293013,
+          "delta": -1.236211103153856,
+          "source_session_id": "training_ep_row_00001"
+        },
+        {
+          "F1": 9.634476373111411,
+          "F2": 7.877483133093826,
+          "delta": -1.756993240017585,
+          "source_session_id": "training_ep_row_00002"
+        },
+        {
+          "F1": 10.981176608198846,
+          "F2": 9.56779930877701,
+          "delta": -1.4133772994218354,
+          "source_session_id": "training_ep_row_00003"
+        },
+        {
+          "F1": 10.318013255679713,
+          "F2": 8.243815725370473,
+          "delta": -2.07419753030924,
+          "source_session_id": "training_ep_row_00004"
+        },
+        {
+          "F1": 7.226662096206991,
+          "F2": 6.565517272494876,
+          "delta": -0.6611448237121147,
+          "source_session_id": "training_ep_row_00005"
+        },
+        {
+          "F1": 9.285524721469773,
+          "F2": 8.461463703225148,
+          "delta": -0.8240610182446257,
+          "source_session_id": "training_ep_row_00006"
+        },
+        {
+          "F1": 8.571438205609876,
+          "F2": 7.441602693839972,
+          "delta": -1.1298355117699046,
+          "source_session_id": "training_ep_row_00007"
+        },
+        {
+          "F1": 9.927371408902188,
+          "F2": 8.763668729528286,
+          "delta": -1.1637026793739018,
+          "source_session_id": "training_ep_row_00008"
+        },
+        {
+          "F1": 6.798928575533555,
+          "F2": 6.009377361026408,
+          "delta": -0.7895512145071475,
+          "source_session_id": "training_ep_row_00009"
+        },
+        {
+          "F1": 5.717745581645571,
+          "F2": 4.909942472466001,
+          "delta": -0.8078031091795701,
+          "source_session_id": "training_ep_row_00177"
+        }
+      ],
+      "source_session_count": 11,
+      "upper_95": -0.9783019401951306
+    },
+    "sessions": 11
+  },
+  "context_dependency": "ROBUST_TO_BOUNDARIES",
+  "created_at": "2026-08-13T21:50:27-04:00",
+  "data_adequacy": true,
+  "hard_H4_H8_gate": {
+    "F2_H4_execution_MSE_lower": true,
+    "F2_H8_decoded_MSE_lower": true,
+    "F2_H8_execution_MSE_lower": true,
+    "F2_H8_execution_kNN_radius_lower": true
+  },
+  "mechanism_gate": {
+    "final_decoded_error_lower_than_F1": true,
+    "final_execution_kNN_lower_than_F1": true,
+    "fraction_positive_above_half": true,
+    "iteration_net_execution_improvement": true,
+    "mean_correction_target_cosine_positive": true,
+    "mean_normal_distance_decreases": true,
+    "normal_reduction_decoded_improvement_positive_association": true,
+    "pearson_association": 0.2781078670655782
+  },
+  "protocol_A_bootstrap": {
+    "F1_mean_session_value": 8.438474400423237,
+    "F2_mean_session_value": 7.422854395792456,
+    "block_or_start_count": 61,
+    "bootstrap_replicates": 10000,
+    "lower_95": -1.211955564948479,
+    "mean_delta_F2_minus_F1": -1.0156200046307817,
+    "session_values": [
+      {
+        "F1": 9.563957401132727,
+        "F2": 8.095107736461351,
+        "delta": -1.4688496646713762,
+        "source_session_id": "training_ep_row_00000"
+      },
+      {
+        "F1": 7.286564008583411,
+        "F2": 6.441198556479438,
+        "delta": -0.8453654521039731,
+        "source_session_id": "training_ep_row_00001"
+      },
+      {
+        "F1": 9.524124237057062,
+        "F2": 8.17812362311986,
+        "delta": -1.3460006139372016,
+        "source_session_id": "training_ep_row_00002"
+      },
+      {
+        "F1": 10.917206023622953,
+        "F2": 9.727697323518285,
+        "delta": -1.1895087001046676,
+        "source_session_id": "training_ep_row_00003"
+      },
+      {
+        "F1": 9.868215799108858,
+        "F2": 8.34254171725484,
+        "delta": -1.525674081854019,
+        "source_session_id": "training_ep_row_00004"
+      },
+      {
+        "F1": 7.772907441549978,
+        "F2": 6.919999951665955,
+        "delta": -0.8529074898840232,
+        "source_session_id": "training_ep_row_00005"
+      },
+      {
+        "F1": 8.186435465031613,
+        "F2": 7.298840173782923,
+        "delta": -0.8875952912486893,
+        "source_session_id": "training_ep_row_00006"
+      },
+      {
+        "F1": 8.218921743125941,
+        "F2": 7.307606426919436,
+        "delta": -0.9113153162065055,
+        "source_session_id": "training_ep_row_00007"
+      },
+      {
+        "F1": 8.783281577378988,
+        "F2": 7.665003644794756,
+        "delta": -1.118277932584232,
+        "source_session_id": "training_ep_row_00008"
+      },
+      {
+        "F1": 6.973348810722655,
+        "F2": 6.737912825058462,
+        "delta": -0.23543598566419277,
+        "source_session_id": "training_ep_row_00009"
+      },
+      {
+        "F1": 5.728255897341423,
+        "F2": 4.937366374661704,
+        "delta": -0.790889522679719,
+        "source_session_id": "training_ep_row_00177"
+      }
+    ],
+    "source_session_count": 11,
+    "upper_95": -0.8001668145298342
+  },
+  "protocol_A_primary_gate": true,
+  "protocol_B_clustered_gate": false,
+  "protocol_B_data_adequacy": false
+}

@@ -1,0 +1,17 @@
+{
+  "C3b_development_decision": "REJECTED",
+  "all_conditions_passed": false,
+  "conditions": {
+    "beats_F1_rollout_auc": false,
+    "beats_F2_rollout_auc": false,
+    "lowers_two_step_execution_off_manifold_drift": false,
+    "one_step_decoded_action_not_materially_worse": true,
+    "residual_compatibility": false,
+    "residual_error_positive_alignment": false,
+    "solver_convergence_materially_above_historical_zero": false,
+    "solver_nonfinite_rate_zero": true
+  },
+  "created_at": "2026-08-12T22:22:09-04:00",
+  "gate_relaxed_after_results": false,
+  "split": "development"
+}

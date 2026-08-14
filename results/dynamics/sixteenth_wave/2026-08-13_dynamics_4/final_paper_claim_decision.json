@@ -1,0 +1,12 @@
+{
+  "C1": "SUPPORTED",
+  "C2": "SUPPORTED",
+  "C3a_full_DEL": "REJECTED",
+  "C3b_exec_DEL": "REJECTED",
+  "C3c_local_refinement": "SUPPORTED",
+  "C3c_long_refinement": "NOT_TESTED_INSUFFICIENT_DATA",
+  "C3d_empirical_manifold_restoration": "NOT_TESTED",
+  "DEL_future_role": "negative baseline only; no further rescue",
+  "created_at": "2026-08-13T14:31:40-04:00",
+  "paper_story": "Language-grounded action coordinates are semantically addressable, executable, and locally predictable; refinement improves short-horizon prediction, but stable long-horizon latent dynamics remains unresolved."
+}

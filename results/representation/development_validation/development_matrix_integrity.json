@@ -1,0 +1,14 @@
+{
+  "expected_units": 144,
+  "observed_units": 144,
+  "missing_units": [],
+  "extra_units": [],
+  "duplicates": [],
+  "nonfinite_units": [],
+  "raw_checkpoints": 144,
+  "ema_checkpoints": 144,
+  "primary_epoch": 40,
+  "legacy_epoch_label_corrected": true,
+  "confirmation_rows_accessed": false,
+  "complete": true
+}

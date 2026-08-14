@@ -1,0 +1,36 @@
+{
+  "F2_F4_initializer_state_exactly_equal_to_F1": true,
+  "F2_iterations": 4,
+  "F4_iterations": 4,
+  "all_execution_information_fields": {
+    "F1_execution_mlp": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "F2_matched_refinement": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "F3_free_execution_del": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "F4_decoder_geometry_del": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ]
+  },
+  "future_target_actions_accessed": false,
+  "identical_iteration_counts": true,
+  "line_search_evaluations_each": 0,
+  "shared_semantic_predictor_checkpoint": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617",
+  "shared_semantic_predictor_object_used_by_all_evaluations": true
+}

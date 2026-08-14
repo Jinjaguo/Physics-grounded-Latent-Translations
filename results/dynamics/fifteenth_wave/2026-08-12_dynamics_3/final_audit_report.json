@@ -1,0 +1,18 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_required_deliverables_present": true,
+    "checkpoint_hashes_match_confirmation_manifest": true,
+    "fair_information_and_refinement_budget": true,
+    "filesystem_at_least_20GiB_free": true,
+    "historical_full_latent_negative_artifacts_unchanged": true,
+    "manifest_precedes_exactly_one_validation": true,
+    "metric_code_hashes_match_confirmation_manifest": true,
+    "pytest_passed": true,
+    "representation_checkpoint_unchanged": true,
+    "representation_optimizer_steps_zero": true
+  },
+  "filesystem_available_bytes": 299890753536,
+  "minimum_available_bytes": 21474836480,
+  "missing": []
+}

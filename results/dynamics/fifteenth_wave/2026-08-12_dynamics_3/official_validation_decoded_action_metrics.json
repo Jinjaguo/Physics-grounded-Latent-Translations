@@ -1,0 +1,122 @@
+{
+  "F1_execution_mlp": {
+    "1": {
+      "continuous_mse": 0.027886850759387016,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.8305722891566265,
+      "per_action_dimension_error": [
+        0.029159249737858772,
+        0.019266385585069656,
+        0.031060248613357544,
+        0.026279231533408165,
+        0.023634593933820724,
+        0.03792141005396843,
+        0.1694277108433735
+      ]
+    },
+    "2": {
+      "continuous_mse": 0.03594144061207771,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.8958333333333334,
+      "per_action_dimension_error": [
+        0.03434675559401512,
+        0.030243001878261566,
+        0.046730656176805496,
+        0.02165188081562519,
+        0.02678663469851017,
+        0.055889733135700226,
+        0.10416666666666667
+      ]
+    }
+  },
+  "F2_matched_refinement": {
+    "1": {
+      "continuous_mse": 0.025330018252134323,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.831074297188755,
+      "per_action_dimension_error": [
+        0.02582652121782303,
+        0.01824192889034748,
+        0.030038626864552498,
+        0.021251719444990158,
+        0.022227436304092407,
+        0.03439388796687126,
+        0.16892570281124497
+      ]
+    },
+    "2": {
+      "continuous_mse": 0.03219253942370415,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.8927845528455285,
+      "per_action_dimension_error": [
+        0.02909332700073719,
+        0.028631919994950294,
+        0.045915935188531876,
+        0.017013851553201675,
+        0.025234078988432884,
+        0.04726611450314522,
+        0.10721544715447154
+      ]
+    }
+  },
+  "F3_free_execution_del": {
+    "1": {
+      "continuous_mse": 0.04622470960021019,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.7590361445783133,
+      "per_action_dimension_error": [
+        0.054562799632549286,
+        0.027977613732218742,
+        0.05432664975523949,
+        0.040500763803720474,
+        0.0432935394346714,
+        0.0566868856549263,
+        0.24096385542168675
+      ]
+    },
+    "2": {
+      "continuous_mse": 0.0631406232714653,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.7698170731707317,
+      "per_action_dimension_error": [
+        0.07183679938316345,
+        0.05303945764899254,
+        0.07603850215673447,
+        0.03731705993413925,
+        0.055778440088033676,
+        0.08483347296714783,
+        0.2301829268292683
+      ]
+    }
+  },
+  "F4_decoder_geometry_del": {
+    "1": {
+      "continuous_mse": 0.028037047013640404,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.8247991967871486,
+      "per_action_dimension_error": [
+        0.02924007549881935,
+        0.019070347771048546,
+        0.03145653009414673,
+        0.026400811970233917,
+        0.02391650155186653,
+        0.0381380170583725,
+        0.17520080321285142
+      ]
+    },
+    "2": {
+      "continuous_mse": 0.03625435754656792,
+      "dimension_7_metric": "gripper classification error; dimensions 1-6 are MSE",
+      "gripper_accuracy": 0.8866869918699187,
+      "per_action_dimension_error": [
+        0.035129230469465256,
+        0.030588869005441666,
+        0.04686924070119858,
+        0.021713992580771446,
+        0.02708164043724537,
+        0.05614317208528519,
+        0.1133130081300813
+      ]
+    }
+  }
+}

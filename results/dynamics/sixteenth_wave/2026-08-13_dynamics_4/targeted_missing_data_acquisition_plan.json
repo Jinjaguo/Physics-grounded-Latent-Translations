@@ -1,0 +1,49 @@
+{
+  "collect_only_missing_cells": true,
+  "manual_or_vr_collection_authorized": true,
+  "missing": [
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "lift_blue_block_slider"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "lift_red_block_table"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "place_in_slider"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "push_pink_block_right"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "turn_off_lightbulb"
+    },
+    {
+      "minimum_frames": 160,
+      "missing_count_to_reach_10": 10,
+      "open_data_valid_count": 0,
+      "required_action_format": "30-Hz original CALVIN 7-D rel_actions: relative TCP translation (0:3), relative TCP Euler rotation (3:6), gripper (6)",
+      "task": "turn_on_lightbulb"
+    }
+  ],
+  "total_new_segments_required": 60
+}

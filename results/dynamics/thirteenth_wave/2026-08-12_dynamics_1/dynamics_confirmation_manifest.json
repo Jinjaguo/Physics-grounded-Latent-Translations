@@ -1,0 +1,53 @@
+{
+  "checkpoint_sha256": {
+    "ORACLE_FUTURE_ACTION_DIAGNOSTIC.pt": "74d769acf60192641c6ae852eda2683498639e1a7c448c97757ce75fdfebb49b",
+    "forced_del.pt": "b99860b36411491ce1665544bec76b8df88b478af89473cd842259bc6f812ca4",
+    "history_mlp.pt": "7be774d7459a864346f317472bd07af4ee98f1cd44358a3daa0d0810098f143b",
+    "matched_refinement.pt": "923cf84d8321540592f09f6ded35b5c1d7bb85256bbdc779dcfbb5033c8b9781",
+    "mlp.pt": "3e8b73cd5f74bbf7ffb9ba11dcc32bef737526955aa16d3a23f84f7dd03e0c11",
+    "unforced_del.pt": "1a91f5f69c2209319fa4ab6d10032a3374a5dc4a9419ef9d81bbaa96eec5cf90"
+  },
+  "created_at": "2026-08-12T05:38:44-04:00",
+  "frozen_before_official_validation_metrics": true,
+  "metric_code_sha256": {
+    "scripts/dynamics/run_dynamics_1.py": "50f82a4c63d78c0a049c1a3d40d049e5d3590e137c9820088fbcec86b02e553e",
+    "src/pglt/dynamics/dynamics_data.py": "c873cd67ba0679e92fc8fa4c2de68e8a20fdbbb1bfb3023dfeac92a963a96242",
+    "src/pglt/dynamics/runner.py": "38519865fceec4242163a3786833ea04c00487f0b8713dda53c97cd76458f245",
+    "src/pglt/dynamics/variational.py": "219b1a254c2d8231b0b59a87986462fcf99dcd2f0be799d1e13d9aeb9104ac0a"
+  },
+  "off_manifold_threshold": {
+    "quantile": 0.99,
+    "threshold": 6.576994800567626,
+    "train_mean_knn_radius": 2.857966899871826
+  },
+  "official_validation_metrics_read": false,
+  "oracle_excluded_from_primary": true,
+  "primary_auc_horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "rollout_horizons": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "solver_settings": {
+    "context_dim": 16,
+    "del_depth": 3,
+    "del_mass_hidden_dim": 32,
+    "del_potential_hidden_dim": 64,
+    "force_hidden_dim": 64,
+    "mass_epsilon": 0.001,
+    "mlp_depth": 3,
+    "mlp_hidden_dim": 64,
+    "refinement_hidden_dim": 64,
+    "refinement_step_size": 0.01,
+    "solver_iterations": 4,
+    "solver_step_size": 0.25,
+    "solver_tolerance": 0.001
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "created_or_modified_files": [
+    {
+      "bytes": 205,
+      "path": "NEXT_EXPERIMENT.md",
+      "sha256": "596b9352bab22ea51c4acdf56bfa544b9c0a7219e159847379e8c8597fb2db77"
+    },
+    {
+      "bytes": 568,
+      "path": "RESEARCH_LOG.md",
+      "sha256": "3b055ab255dbc964a716892b762b56991c50f97511a4efc91b65a747fd3edcf4"
+    },
+    {
+      "bytes": 1351,
+      "path": "configs/dynamics_2.yaml",
+      "sha256": "abfd74e030ec417c3d74595b8b5b3d942dada054c2b50cbd7c3e6d83326b283f"
+    },
+    {
+      "bytes": 4065,
+      "path": "reports/dynamics_2_results.md",
+      "sha256": "15d3378f319d62de8be07d242be4bb0124dc3e3d3205e01e7dde52dc90fa9e6f"
+    },
+    {
+      "bytes": 1312050,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/development_diagnostic_raw_arrays.npz",
+      "sha256": "cb9ba8b1d29e1fe7b8c69b46276446df539b80abdb5208b28b5513ca21fde57a"
+    },
+    {
+      "bytes": 526724,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/development_diagnostic_results.json",
+      "sha256": "8bb7dddc31b40f44a9305524d71b80dc46c9d3168ad496f196e00236f904fa88"
+    },
+    {
+      "bytes": 1267,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/diagnostic_confirmation_manifest.json",
+      "sha256": "7894d62c9670549e2b4a8d4b31ef44426bde26b4aac300fd052440d914d6ca00"
+    },
+    {
+      "bytes": 3878,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/diagnostic_settings_preregistration.json",
+      "sha256": "af3864c16b8544ff2eca8fb85ecfae615d93886cbf8c0a547e30500615cdce1e"
+    },
+    {
+      "bytes": 684,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/environment_provenance.json",
+      "sha256": "ffc673de7cb70d4c2d5ab539c1fdd2075825759328ff7d23c92f8f1c6b5ba2a0"
+    },
+    {
+      "bytes": 369,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/exact_del_residual_regression.json",
+      "sha256": "8bb711cdc352d091163389a84cfcad8c6cfd43b8a9329173f07e0fb38000ac52"
+    },
+    {
+      "bytes": 1297,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/executed_commands.txt",
+      "sha256": "64a4898022974f92c5aa04e91b38e1a884f9aba7f3d27f8d861541527279f3a2"
+    },
+    {
+      "bytes": 818,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/final_del_failure_mechanism.json",
+      "sha256": "4ba1c9002f1a1c88221b9df1d21cc2c1599340c85acbefa98515a91504f25134"
+    },
+    {
+      "bytes": 205,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/fourteenth_wave_next_experiment.md",
+      "sha256": "596b9352bab22ea51c4acdf56bfa544b9c0a7219e159847379e8c8597fb2db77"
+    },
+    {
+      "bytes": 4065,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/fourteenth_wave_results.md",
+      "sha256": "15d3378f319d62de8be07d242be4bb0124dc3e3d3205e01e7dde52dc90fa9e6f"
+    },
+    {
+      "bytes": 4141,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/frozen_model_checkpoint_audit.json",
+      "sha256": "2579a73cbc0aadb19345e513f723b9e027557bd9ab2e5b52d105413271fe9e93"
+    },
+    {
+      "bytes": 101113,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/ground_truth_residual_compatibility_table.json",
+      "sha256": "97691cd031c9ac42f8ee95cece0de80527a55d466c551afbc22c92c91186b12f"
+    },
+    {
+      "bytes": 41495,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/initialization_basin_report.json",
+      "sha256": "5fc463892fe78861227e9e21784fd3772214ed24363056bfacdf077ea98018a0"
+    },
+    {
+      "bytes": 218922,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/jacobian_conditioning_report.json",
+      "sha256": "6b2154e7b6881144861b20ec7ab4e8fea24270b4bb25c7f427c53e5606ae731b"
+    },
+    {
+      "bytes": 335,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/longer_trajectory_next_experiment_decision.json",
+      "sha256": "8c64f2573b79eb5dc85430d65868c51316a6da30a4b6c72b21e8c143c38693f9"
+    },
+    {
+      "bytes": 959,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/matched_refinement_interpretation.json",
+      "sha256": "927811b4645745b465d657f092a07b12901f294bac9480de91705a8d6db56353"
+    },
+    {
+      "bytes": 3498,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/pytest_results.xml",
+      "sha256": "7406590d01bdc0a5c3ab3256db0664d5b2411eba351d49eaeb8539020a94bb22"
+    },
+    {
+      "bytes": 1275,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/residual_vs_error_analysis.json",
+      "sha256": "d6db19fbe537a7d2b19a0e1679eb9b484742d34bbc1b46b7338591c15f60322c"
+    },
+    {
+      "bytes": 41495,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/robust_root_solver_report.json",
+      "sha256": "5fc463892fe78861227e9e21784fd3772214ed24363056bfacdf077ea98018a0"
+    },
+    {
+      "bytes": 86906,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/root_multiplicity_diagnostic.json",
+      "sha256": "ca67a048df4a562a6b709f3679487f8560776e2f452a175e776724c4cb72f74a"
+    },
+    {
+      "bytes": 14240,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/root_proximity_report.json",
+      "sha256": "1d5836800b6964cd8c4a38b3acc9e5383edc6451e18087d85e23a02f126603fa"
+    },
+    {
+      "bytes": 17522,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/solver_budget_report.json",
+      "sha256": "82e1c1feb15a8a05c0acc83b46faf4a43f08c472376644ada2d07bb664438d5e"
+    },
+    {
+      "bytes": 818,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/unforced_vs_forced_failure_comparison.json",
+      "sha256": "4ba1c9002f1a1c88221b9df1d21cc2c1599340c85acbefa98515a91504f25134"
+    },
+    {
+      "bytes": 509231,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/validation_descriptive_replication.json",
+      "sha256": "03875ad71023901756c2574b972b7eff6701a1759c7269349ca9b5d1295c3960"
+    },
+    {
+      "bytes": 907065,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/validation_diagnostic_raw_arrays.npz",
+      "sha256": "73048b3778cda4e473772685c0c1e7e0312bd38518263bc7cfb1cc845ef691b9"
+    },
+    {
+      "bytes": 509231,
+      "path": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2/validation_diagnostic_results.json",
+      "sha256": "03875ad71023901756c2574b972b7eff6701a1759c7269349ca9b5d1295c3960"
+    },
+    {
+      "bytes": 8072,
+      "path": "scripts/dynamics/audit_dynamics_2.py",
+      "sha256": "0a3332b90535fc4ed153271cc1100abd2dbca0086d77ade5a68b85f34bd1a0ad"
+    },
+    {
+      "bytes": 52693,
+      "path": "scripts/dynamics/run_dynamics_2.py",
+      "sha256": "dd421cfaf9193c96d8745d7330aec7399f7217e553ec45ada71b7537ed9169da"
+    },
+    {
+      "bytes": 9001,
+      "path": "src/pglt/dynamics/del_diagnostics.py",
+      "sha256": "de459858814f22dfedb4839521b2f817c38bb8cdc1a0fecb879983bec661e4b4"
+    },
+    {
+      "bytes": 3395,
+      "path": "tests/dynamics/test_dynamics_2_diagnostics.py",
+      "sha256": "aff01a0b82a2b3612a0199cad460c06650d81e01f56c6394fbc8776030c3df77"
+    }
+  ]
+}

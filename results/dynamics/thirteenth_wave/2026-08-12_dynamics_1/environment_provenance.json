@@ -1,0 +1,18 @@
+{
+  "control_frequency_evidence": "third_party/calvin/calvin_env/calvin_env/envs/play_table_env.py default control_freq=30 and archived merged config audit",
+  "control_frequency_hz": 30,
+  "created_at": "2026-08-12T05:36:13-04:00",
+  "cuda_available": false,
+  "numpy": "1.22.4",
+  "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+  "python": "3.8.13 (default, Oct 21 2022, 23:50:54) \n[GCC 11.2.0]",
+  "python_executable": "/home/jinjaguo/anaconda3/envs/libero/bin/python",
+  "requested_device_deferred_to_stage": true,
+  "storage": {
+    "maximum_bytes": 21474836480,
+    "remaining_budget_bytes": 18299979083,
+    "within_limit": true,
+    "workspace_bytes": 3174857397
+  },
+  "torch": "2.4.1+cu121"
+}

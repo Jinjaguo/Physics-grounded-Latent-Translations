@@ -1,0 +1,147 @@
+{
+  "ambiguous_mapping_policy": "reject_ambiguous_task_mapping",
+  "created_before_inference": true,
+  "mapping_method": "exact frozen CALVIN task ID; no semantic classifier",
+  "sources": [
+    {
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/metadata/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/metadata/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/lang_annotations/auto_lang_ann.npy",
+      "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/auto_lang_ann.npy",
+      "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d"
+    },
+    {
+      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d"
+    }
+  ],
+  "tasks": {
+    "lift_blue_block_slider": {
+      "canonical_task": "lift_blue_block_slider",
+      "paraphrases": [
+        "grasp the blue block lying in the cabinet",
+        "grasp the blue block lying in the slider",
+        "grasp the blue block lying in the sliding cabinet",
+        "grasp the blue block lying on the shelf",
+        "in the cabinet grasp the blue block",
+        "in the cabinet pick up the blue block",
+        "in the slider grasp the blue block",
+        "in the slider pick up the blue block",
+        "in the sliding cabinet grasp the blue block",
+        "lift the blue block lying in the cabinet",
+        "lift the blue block lying in the slider",
+        "lift the blue block lying in the sliding cabinet",
+        "lift the blue block lying on the shelf",
+        "lift the blue block on the shelf",
+        "pick up the blue block from the shelf",
+        "pick up the blue block from the sliding cabinet",
+        "pick up the blue block in the sliding cabinet"
+      ]
+    },
+    "lift_red_block_table": {
+      "canonical_task": "lift_red_block_table",
+      "paraphrases": [
+        "grasp the red block and lift it up",
+        "grasp the red block on the table and lift it up",
+        "grasp the red block on the table, then lift it up",
+        "grasp the red block, then lift it up",
+        "lift the red block",
+        "lift the red block from the table",
+        "lift the red block up",
+        "pick up the red block",
+        "pick up the red block from the table",
+        "pick up the red block on the table"
+      ]
+    },
+    "place_in_slider": {
+      "canonical_task": "place_in_slider",
+      "paraphrases": [
+        "place in slider",
+        "place the block in the cabinet",
+        "place the block in the slider",
+        "place the block in the sliding cabinet",
+        "place the grasped object in the cabinet",
+        "place the grasped object in the slider",
+        "place the grasped object in the sliding cabinet",
+        "place the object in the cabinet",
+        "place the object in the slider",
+        "place the object in the sliding cabinet",
+        "put it in the slider",
+        "put the block in the cabinet",
+        "put the block in the slider",
+        "put the block in the sliding cabinet",
+        "put the grasped object in the cabinet",
+        "put the grasped object in the slider",
+        "put the grasped object in the sliding cabinet",
+        "put the object in the cabinet",
+        "put the object in the slider",
+        "put the object in the sliding cabinet"
+      ]
+    },
+    "push_pink_block_right": {
+      "canonical_task": "push_pink_block_right",
+      "paraphrases": [
+        "go push the pink block to the right",
+        "go slide the pink block to the right",
+        "push right the pink block",
+        "push the pink block to the right",
+        "push the pink block towards the right",
+        "slide right the pink block",
+        "slide the pink block to the right",
+        "slide the pink block towards the right",
+        "sweep the pink block to the right"
+      ]
+    },
+    "turn_off_lightbulb": {
+      "canonical_task": "turn_off_lightbulb",
+      "paraphrases": [
+        "move down the switch",
+        "move the light switch to turn off the light bulb",
+        "move the light switch to turn off the yellow light",
+        "push the switch downwards",
+        "slide down the switch",
+        "toggle the light switch to turn off the light bulb",
+        "toggle the light switch to turn off the yellow light",
+        "turn off the light bulb",
+        "turn off the yellow lamp",
+        "turn off the yellow light"
+      ]
+    },
+    "turn_on_lightbulb": {
+      "canonical_task": "turn_on_lightbulb",
+      "paraphrases": [
+        "move the light switch to turn on the light bulb",
+        "move the light switch to turn on the yellow light",
+        "move up the switch",
+        "push the switch upwards",
+        "slide up the switch",
+        "toggle the light switch to turn on the light bulb",
+        "toggle the light switch to turn on the yellow light",
+        "turn on the light bulb",
+        "turn on the yellow lamp",
+        "turn on the yellow light"
+      ]
+    }
+  }
+}

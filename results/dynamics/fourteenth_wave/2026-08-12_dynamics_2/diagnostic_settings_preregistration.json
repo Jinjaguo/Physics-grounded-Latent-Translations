@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-08-12T17:53:05-04:00",
+  "diagnosis_rules": {
+    "conditioning_basin": "GT-near useful convergence with causal failure plus ill-conditioning/basin sensitivity",
+    "mixed": "unforced and forced mechanisms clearly differ",
+    "solver_bottleneck": "true residual relatively low AND robust causal convergence improves prediction/decoded error AND roots remain on-manifold",
+    "variational_model_mismatch": "true residual not low OR residual reduction fails to improve prediction OR low-residual roots remain far/off-manifold"
+  },
+  "future_target_actions_forced_del": false,
+  "gt_near_initialization_oracle_only": true,
+  "historical_solver": {
+    "initialization": "constant_velocity",
+    "iteration_budgets": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "step_size": 0.25,
+    "tolerance": 0.001
+  },
+  "jacobian": {
+    "deterministic_rule": "evenly_spaced_transition_indices",
+    "development_subset_size": 24,
+    "effective_rank_relative_epsilon": 1e-05,
+    "nearly_singular_condition_threshold": 1000000.0,
+    "singular_value_epsilon": 1e-06
+  },
+  "learned_models_retrained": false,
+  "multiplicity": {
+    "centers": [
+      "q_current",
+      "mlp_prediction"
+    ],
+    "deterministic_rule": "evenly_spaced_transition_indices",
+    "development_subset_size": 12,
+    "perturbation_scale_training_std": 0.1,
+    "perturbations_per_center": 6,
+    "root_cluster_distance_training_rms_fraction": 0.05
+  },
+  "official_validation_excluded_from_setting_selection": true,
+  "robust_solver": {
+    "convergence_residual_tolerance": 0.001,
+    "gt_near_perturbation_scale_training_std": 0.05,
+    "history_size": 10,
+    "line_search": "strong_wolfe",
+    "max_iterations": 32,
+    "tolerance_change": 1e-09,
+    "tolerance_gradient": 1e-07,
+    "type": "LBFGS_residual_least_squares"
+  },
+  "source_config": {
+    "data": {
+      "latent_dim": 32,
+      "semantic_dim": 16,
+      "step_size_seconds": 0.5333333333333333
+    },
+    "experiment": {
+      "name": "dynamics_2",
+      "output_root": "results/dynamics/fourteenth_wave/2026-08-12_dynamics_2",
+      "report_path": "reports/dynamics_2_results.md",
+      "seed": 1402,
+      "wave": "fourteenth_wave",
+      "wave13_root": "results/dynamics/thirteenth_wave/2026-08-12_dynamics_1"
+    },
+    "historical_solver": {
+      "initialization": "constant_velocity",
+      "iteration_budgets": [
+        4,
+        8,
+        16,
+        32
+      ],
+      "step_size": 0.25,
+      "tolerance": 0.001
+    },
+    "jacobian": {
+      "deterministic_rule": "evenly_spaced_transition_indices",
+      "development_subset_size": 24,
+      "effective_rank_relative_epsilon": 1e-05,
+      "nearly_singular_condition_threshold": 1000000.0,
+      "singular_value_epsilon": 1e-06
+    },
+    "metrics": {
+      "nearest_training_latent_k": 1,
+      "task_prototype_source": "frozen_training_contexts"
+    },
+    "multiplicity": {
+      "centers": [
+        "q_current",
+        "mlp_prediction"
+      ],
+      "deterministic_rule": "evenly_spaced_transition_indices",
+      "development_subset_size": 12,
+      "perturbation_scale_training_std": 0.1,
+      "perturbations_per_center": 6,
+      "root_cluster_distance_training_rms_fraction": 0.05
+    },
+    "robust_solver": {
+      "convergence_residual_tolerance": 0.001,
+      "gt_near_perturbation_scale_training_std": 0.05,
+      "history_size": 10,
+      "line_search": "strong_wolfe",
+      "max_iterations": 32,
+      "tolerance_change": 1e-09,
+      "tolerance_gradient": 1e-07,
+      "type": "LBFGS_residual_least_squares"
+    },
+    "storage": {
+      "minimum_filesystem_available_gb": 20
+    }
+  },
+  "storage": {
+    "available_bytes": 299831595008,
+    "minimum_available_bytes": 21474836480,
+    "passed": true,
+    "total_bytes": 1081101176832,
+    "used_bytes": 726277226496
+  },
+  "written_before_development_diagnostics": true
+}

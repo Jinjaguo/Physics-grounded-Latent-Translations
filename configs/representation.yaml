@@ -1,0 +1,102 @@
+release:
+  name: pglt_calvin_action_representation
+  checkpoint_root: checkpoints/representation
+  development_root: results/representation/development_validation/runs
+  inference_root: results/representation/independent_replication/inference
+  results_root: results/representation
+
+source:
+  archive_url: http://calvin.cs.uni-freiburg.de/dataset/task_D_D.zip
+  archive_expected_bytes: 177379436142
+  archive_sha256: 45efc2fb24a09a50ab3ed6cdc7637604ee857d3ba1bab23d63925c2d71e79d4f
+  metadata_root: data/representation/calvin_task_D_D/metadata
+  compact_root: data/representation/calvin_task_D_D/episodes
+  calvin_commit: fa03f01f19c65920e18cf37398a9ce859274af76
+  lawm_commit: 52f56983608953d846a6d7de1ec2488b97bb6741
+
+selection:
+  official_split: training
+  historical_training_episode_rows: [0, 1, 2, 3, 16]
+  development_episode_rows: [5, 6, 11, 30, 23, 27, 17, 14]
+  confirmation_episode_rows: [29, 20, 22, 9]
+  independent_replication_episode_rows: [4, 7, 8, 10, 12, 13, 15, 18, 19, 21, 24, 25, 26, 28]
+
+data:
+  dataset_variant: task_D_D
+  action_field: rel_actions
+  retained_compact_fields: [rel_actions]
+  tasks:
+    - lift_blue_block_slider
+    - lift_red_block_table
+    - place_in_slider
+    - push_pink_block_right
+    - turn_off_lightbulb
+    - turn_on_lightbulb
+  chunk_length: 16
+  train_stride: 4
+  evaluation_stride: 16
+  cross_episode_candidate_stride: 16
+  normalization_rule: training_episodes_only
+
+text:
+  feature_archive: data/representation/text_features/openclip_vitl14_datacomp_xl.npz
+  model_name: ViT-L-14
+  pretrained: datacomp_xl_s13b_b90k
+  frozen_feature_dim: 768
+  tower_frozen: true
+
+model:
+  input_mode: action_only
+  action_dim: 7
+  latent_dim: 32
+  semantic_dim: 16
+  execution_dim: 16
+  hidden_dim: 128
+  depth: 3
+  decoder_conditioning: []
+  isolate_language_gradient_from_shared_trunk: true
+
+optimization:
+  epochs: 40
+  batch_size: 6
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  temperature: 0.07
+  lambda_clip: 1.0
+  lambda_reconstruction: 1.0
+  continuous_reconstruction_weight: 1.0
+  gripper_reconstruction_weight: 1.0
+  gradient_clip_norm: 5.0
+  ema_decay: 0.999
+
+replication:
+  seeds: [810, 1810, 2810, 202128, 472026, 411223]
+  conditions:
+    - correct_language
+    - shuffled_language
+    - reconstruction_only
+  condition_seed_offsets:
+    correct_language: 2
+    shuffled_language: 1
+    reconstruction_only: 0
+
+evaluation:
+  annotation_aggregation: mean_of_l2_normalized_chunk_embeddings
+  task_balance: macro_average_over_tasks_present_in_query_episode
+  stronger_control: directionwise_max_of_shuffled_language_and_reconstruction_only
+  query_candidate_rule: all_other_independent_replication_episodes
+  knn_k: 5
+  bootstrap_seed: 120812
+  bootstrap_replicates: 10000
+
+readiness_gate:
+  require_every_episode_seed_mean_positive_both_directions: true
+  require_every_seed_episode_mean_positive_both_directions: true
+  require_bootstrap_lower_95_positive_both_directions: true
+  max_relative_continuous_mse_increase: 0.20
+  max_absolute_gripper_accuracy_drop: 0.05
+  require_read_only_inference: true
+
+runtime:
+  device: cuda:0
+  torch_cpu_threads_per_process: 4

@@ -1,0 +1,8 @@
+{
+  "historical_all_cell_gate": "FAIL",
+  "independent_replication": "PASS",
+  "representation_ready": true,
+  "representation_frozen_for_paper": true,
+  "latent_dynamics_authorized": true,
+  "historical_failure_erased": false
+}

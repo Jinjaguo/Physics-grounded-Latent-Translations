@@ -1,0 +1,289 @@
+{
+  "label": "CAUSAL_CONTEXT_HELD",
+  "models": {
+    "F1": {
+      "1": {
+        "decoded_actions": {
+          "continuous_mse": 0.0410352423787117,
+          "gripper_accuracy": 0.7852722772277227,
+          "per_continuous_dimension_mse": [
+            0.06809927523136139,
+            0.03799454867839813,
+            0.03652563691139221,
+            0.030448416247963905,
+            0.030175892636179924,
+            0.04296768456697464
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.41782039403915405,
+          "mse": 0.9635626077651978,
+          "normalized_mse": 0.9198520762010587
+        },
+        "full_latent": {
+          "execution_mse": 0.9635626077651978,
+          "mse": 0.9666251540184021,
+          "semantic_mse": 0.9696874618530273
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.414577140990982,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 1.9564698934555054,
+          "execution_knn_radius": 2.2870094776153564,
+          "execution_nearest_training_distance": 2.0572919845581055,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 3.232057571411133,
+          "full_nearest_training_distance": 2.9604437351226807
+        },
+        "sample_count": 303
+      },
+      "2": {
+        "decoded_actions": {
+          "continuous_mse": 0.05204910412430763,
+          "gripper_accuracy": 0.6160416666666667,
+          "per_continuous_dimension_mse": [
+            0.0863809734582901,
+            0.061334267258644104,
+            0.05162877216935158,
+            0.02513331174850464,
+            0.034222934395074844,
+            0.05359437316656113
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.1859847456216812,
+          "mse": 1.2231590747833252,
+          "normalized_mse": 1.1676723498778396
+        },
+        "full_latent": {
+          "execution_mse": 1.2231590747833252,
+          "mse": 1.2215029001235962,
+          "semantic_mse": 1.2198468446731567
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.4497763886081927,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 1.9973340034484863,
+          "execution_knn_radius": 2.060328722000122,
+          "execution_nearest_training_distance": 1.8871783018112183,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 3.050626754760742,
+          "full_nearest_training_distance": 2.8343517780303955
+        },
+        "sample_count": 300
+      },
+      "4": {
+        "decoded_actions": {
+          "continuous_mse": 0.054265089333057404,
+          "gripper_accuracy": 0.4836206896551724,
+          "per_continuous_dimension_mse": [
+            0.09842131286859512,
+            0.06380695104598999,
+            0.04782305657863617,
+            0.02666150964796543,
+            0.030221866443753242,
+            0.058655835688114166
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.07518215477466583,
+          "mse": 1.2577646970748901,
+          "normalized_mse": 1.2007081414876388
+        },
+        "full_latent": {
+          "execution_mse": 1.2577646970748901,
+          "mse": 1.3274046182632446,
+          "semantic_mse": 1.39704430103302
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.6021632055091273,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 2.118424654006958,
+          "execution_knn_radius": 2.1881022453308105,
+          "execution_nearest_training_distance": 2.038767099380493,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 3.1579513549804688,
+          "full_nearest_training_distance": 2.966336488723755
+        },
+        "sample_count": 290
+      },
+      "8": {
+        "decoded_actions": {
+          "continuous_mse": 0.05276603251695633,
+          "gripper_accuracy": 0.5491803278688525,
+          "per_continuous_dimension_mse": [
+            0.10967345535755157,
+            0.042147185653448105,
+            0.04410060495138168,
+            0.032578445971012115,
+            0.03366590663790703,
+            0.054430633783340454
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.08963655680418015,
+          "mse": 1.4206598997116089,
+          "normalized_mse": 1.3562138544958495
+        },
+        "full_latent": {
+          "execution_mse": 1.4206598997116089,
+          "mse": 1.3568147420883179,
+          "semantic_mse": 1.2929699420928955
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 2.1593596889897433,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 2.1510567665100098,
+          "execution_knn_radius": 2.859240770339966,
+          "execution_nearest_training_distance": 2.6973280906677246,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 3.7277045249938965,
+          "full_nearest_training_distance": 3.585116386413574
+        },
+        "sample_count": 61
+      }
+    },
+    "F2": {
+      "1": {
+        "decoded_actions": {
+          "continuous_mse": 0.03805036470293999,
+          "gripper_accuracy": 0.7852722772277227,
+          "per_continuous_dimension_mse": [
+            0.06334744393825531,
+            0.037410154938697815,
+            0.034688279032707214,
+            0.02527157962322235,
+            0.028658030554652214,
+            0.03892669826745987
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.44843557476997375,
+          "mse": 0.8789056539535522,
+          "normalized_mse": 0.8390354545296258
+        },
+        "full_latent": {
+          "execution_mse": 0.8789056539535522,
+          "mse": 0.9242965579032898,
+          "semantic_mse": 0.9696874618530273
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.2990197851452272,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 1.9564698934555054,
+          "execution_knn_radius": 2.149728775024414,
+          "execution_nearest_training_distance": 1.9229373931884766,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 3.126460075378418,
+          "full_nearest_training_distance": 2.865675210952759
+        },
+        "sample_count": 303
+      },
+      "2": {
+        "decoded_actions": {
+          "continuous_mse": 0.04875205457210541,
+          "gripper_accuracy": 0.6127083333333333,
+          "per_continuous_dimension_mse": [
+            0.08034311980009079,
+            0.05967018008232117,
+            0.05018649250268936,
+            0.021432075649499893,
+            0.03228771686553955,
+            0.04859273508191109
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.2087831199169159,
+          "mse": 1.1166369915008545,
+          "normalized_mse": 1.0659824766106532
+        },
+        "full_latent": {
+          "execution_mse": 1.1166369915008545,
+          "mse": 1.1682419776916504,
+          "semantic_mse": 1.2198468446731567
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.2818741668020055,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 1.9973340034484863,
+          "execution_knn_radius": 1.8265525102615356,
+          "execution_nearest_training_distance": 1.670328974723816,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 2.888226270675659,
+          "full_nearest_training_distance": 2.677274227142334
+        },
+        "sample_count": 300
+      },
+      "4": {
+        "decoded_actions": {
+          "continuous_mse": 0.050857678055763245,
+          "gripper_accuracy": 0.47758620689655173,
+          "per_continuous_dimension_mse": [
+            0.09117545932531357,
+            0.06231219694018364,
+            0.046592023223638535,
+            0.02228565514087677,
+            0.02795214205980301,
+            0.054828573018312454
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.09478182345628738,
+          "mse": 1.137230634689331,
+          "normalized_mse": 1.0856419209381982
+        },
+        "full_latent": {
+          "execution_mse": 1.137230634689331,
+          "mse": 1.2671375274658203,
+          "semantic_mse": 1.39704430103302
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.3134265468492752,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 2.118424654006958,
+          "execution_knn_radius": 1.8490432500839233,
+          "execution_nearest_training_distance": 1.7216898202896118,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 2.969299793243408,
+          "full_nearest_training_distance": 2.7653584480285645
+        },
+        "sample_count": 290
+      },
+      "8": {
+        "decoded_actions": {
+          "continuous_mse": 0.04804417863488197,
+          "gripper_accuracy": 0.5450819672131147,
+          "per_continuous_dimension_mse": [
+            0.10006313771009445,
+            0.04174334183335304,
+            0.04337628558278084,
+            0.02315068617463112,
+            0.02703339047729969,
+            0.05289822071790695
+          ]
+        },
+        "execution": {
+          "cosine_similarity": 0.14422377943992615,
+          "mse": 1.1409235000610352,
+          "normalized_mse": 1.0891672651679534
+        },
+        "full_latent": {
+          "execution_mse": 1.1409235000610352,
+          "mse": 1.2169468402862549,
+          "semantic_mse": 1.2929699420928955
+        },
+        "off_manifold": {
+          "empirical_normal_distance": 1.6365494866251442,
+          "execution_fraction_beyond_frozen_threshold": 0.0,
+          "execution_ground_truth_knn_radius": 2.1510567665100098,
+          "execution_knn_radius": 2.1952061653137207,
+          "execution_nearest_training_distance": 2.0525591373443604,
+          "full_fraction_beyond_frozen_threshold": 0.0,
+          "full_knn_radius": 3.270156145095825,
+          "full_nearest_training_distance": 3.128655433654785
+        },
+        "sample_count": 61
+      }
+    }
+  }
+}

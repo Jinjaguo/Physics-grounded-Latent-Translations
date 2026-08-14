@@ -1,0 +1,15 @@
+{
+  "development_complete": true,
+  "primary_epoch": 40,
+  "ema_motor_failures": 0,
+  "ema_semantic_violations": 0,
+  "raw_motor_failures": 11,
+  "raw_semantic_violations": 2,
+  "worst_ema_relative_mse": 0.07249950788829787,
+  "thresholds": {
+    "relative_mse": 0.2,
+    "gripper_drop": 0.05
+  },
+  "development_passed": true,
+  "confirmation_authorized": true
+}

@@ -1,0 +1,51 @@
+{
+  "F1_execution_mlp": {
+    "class": "ExecutionMLP",
+    "information_fields": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "trainable_parameters": 9360
+  },
+  "F2_matched_refinement": {
+    "class": "ExecutionMatchedRefinement",
+    "information_fields": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "trainable_parameters": 9409
+  },
+  "F3_free_execution_del": {
+    "class": "FreeExecutionDEL",
+    "information_fields": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "trainable_parameters": 10001
+  },
+  "F4_decoder_geometry_del": {
+    "class": "DecoderGeometryDEL",
+    "information_fields": [
+      "e_previous",
+      "e_current",
+      "s_current",
+      "context"
+    ],
+    "trainable_parameters": 7361
+  },
+  "semantic": {
+    "class": "SemanticPredictor",
+    "information_fields": [
+      "s_previous",
+      "s_current",
+      "context"
+    ],
+    "trainable_parameters": 8336
+  }
+}
