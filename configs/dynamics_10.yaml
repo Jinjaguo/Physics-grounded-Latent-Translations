@@ -1,0 +1,42 @@
+experiment:
+  name: dynamics_10
+  wave: twenty_second_wave
+  output_root: results/dynamics/twenty_second_wave/2026-08-14_dynamics_10
+  wave21_root: results/dynamics/twenty_first_wave/2026-08-14_dynamics_9
+  report_path: reports/dynamics_10_results.md
+
+wave21_config: configs/dynamics_9.yaml
+
+model:
+  name: LCT-CC
+  seeds: [210821, 210822, 210823, 210824, 210825, 210826]
+  lambda_cycle_candidates: [0.1, 0.3, 1.0]
+  lambda_latent: 1.0
+  lambda_decode: 1.0
+  epochs: 240
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+
+evaluation:
+  cycle_iterations: 4
+  cycle_tolerance: 1.4341662526130676
+  endpoint_accuracy_threshold: 0.60
+  redirect_retention: 0.90
+  knn_k: 20
+  local_pca_neighbors: 64
+  local_pca_tangent_dim: 16
+  jacobian_points: 12
+  bootstrap_replicates: 10000
+  bootstrap_seed: 220822
+  phase_a:
+    material_rollout_increase_lower_ci: 0.0
+    execution_nontrivial_mean: 0.25
+    association_positive_lower_ci: 0.0
+    projection_reduction_lower_ci: 0.0
+    projection_redirect_lower_ci: 0.0
+
+runtime:
+  device: cuda:0
+  torch_cpu_threads: 4

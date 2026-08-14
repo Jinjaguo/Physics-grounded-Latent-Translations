@@ -1,0 +1,30 @@
+{
+  "architecture": "exact Wave21 B1 LCT architecture",
+  "created_before_training": true,
+  "cycle_map": "E(D(z)) with decoder gripper thresholded to CALVIN -1/+1 convention before E",
+  "forbidden_losses": {
+    "endpoint_classification": 0.0,
+    "knn": 0.0,
+    "pca": 0.0,
+    "prototype": 0.0,
+    "target_region": 0.0
+  },
+  "frozen": [
+    "representation encoder",
+    "representation decoder",
+    "text projection"
+  ],
+  "lambda_candidates": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "objective": {
+    "cycle_consistency": "selected development-only from [0.1, 0.3, 1.0]",
+    "decoded_action": 1.0,
+    "latent_prediction": 1.0
+  },
+  "same_wave21_split_inventory_chunking_and_gap_handling": true,
+  "selection_split": "development only",
+  "trainable": "transition model only (state, goal, transition submodules)"
+}

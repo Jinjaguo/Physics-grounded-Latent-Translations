@@ -1,0 +1,8 @@
+timestamp=2026-08-14T17:50:14.747324-04:00
+python=3.8.13 (default, Oct 21 2022, 23:50:54) [GCC 11.2.0]
+platform=Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.17
+torch=2.4.1+cu121
+numpy=1.23.5
+scipy=installed
+cuda_available=True
+cuda_device=NVIDIA GeForce RTX 4090

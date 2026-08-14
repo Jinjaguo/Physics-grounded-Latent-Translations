@@ -1,0 +1,50 @@
+{
+  "C10_language_as_executable_target_coordinate": "NOT_TESTED",
+  "C9_executable_language_redirect": "NOT_TESTED",
+  "M0_decoder_consistency_mechanism": "REJECTED",
+  "continuity_repaired": "inconclusive",
+  "current_state_still_matters": "inconclusive",
+  "cycle_consistency_repaired": "inconclusive",
+  "decode_reencode_identity_repaired": "inconclusive",
+  "diagnostic_metrics": {
+    "cycle0": 2.9396917819976807,
+    "cycle4": 0.2723560035228729,
+    "endpoint_accuracy0": 0.516260162601626,
+    "endpoint_accuracy4": 0.4014227642276423,
+    "execution_redirect4": {
+      "cluster": "source_session",
+      "lower_95": 0.21637101471424103,
+      "mean": 0.2677459220091502,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.31212547918160755
+    },
+    "redirect0": {
+      "cluster": "source_session",
+      "lower_95": 0.14041765127331018,
+      "mean": 0.2501257487262289,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.37079838414986926
+    },
+    "redirect4": {
+      "cluster": "source_session",
+      "lower_95": -0.0006942243004838625,
+      "mean": 0.09441894696404536,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.1718790978193283
+    }
+  },
+  "endpoint_identity_repaired": "inconclusive",
+  "execution_redirect_preserved": "inconclusive",
+  "language_redirect_preserved": "inconclusive",
+  "phaseA_gates": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "A5": false
+  },
+  "stop_reason": "A5 failed: exact K=4 frozen cycle projection did not retain a strictly positive session-clustered lower 95% bound for full RedirectGain"
+}

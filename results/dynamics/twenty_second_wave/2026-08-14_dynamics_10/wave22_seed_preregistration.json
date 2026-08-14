@@ -1,0 +1,13 @@
+{
+  "created_before_training": true,
+  "no_seed_addition_after_test": true,
+  "paired_with_wave21_B1": true,
+  "seeds": [
+    210821,
+    210822,
+    210823,
+    210824,
+    210825,
+    210826
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "candidates": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "held_out_LCTCC_test_used": false,
+  "reason": "M0 rejected before optimizer; candidate training was forbidden",
+  "selected_lambda_cycle": null,
+  "selection_split": "development only",
+  "status": "NOT_TESTED_PHASE_A_STOP"
+}

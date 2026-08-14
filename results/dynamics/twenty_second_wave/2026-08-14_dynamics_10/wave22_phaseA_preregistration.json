@@ -1,0 +1,15 @@
+{
+  "A1": "lower95 of B1 H4 cycle minus ground-truth H4 cycle > 0 and mean B1 H4 > B1 H0",
+  "A2": "mean B1 H4 execution-cycle residual > 0.25",
+  "A3": "lower95 Pearson or Spearman association is >0 for decoded-action error or endpoint-classification error",
+  "A4": "lower95 of cycle0 minus cycle4 residual >0",
+  "A5": "cycle4 RedirectGain clustered lower95 >0",
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 220822
+  },
+  "created_before_phase_a_metrics": true,
+  "cycle_iterations": 4,
+  "historical_wave21_test_disclosure": "Wave21 held-out test was opened in Wave21 and is required by the prompt for frozen-model mechanism diagnosis; no new LCT-CC test prediction exists."
+}

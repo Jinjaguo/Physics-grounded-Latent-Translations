@@ -1,0 +1,8 @@
+configs/dynamics_10.yaml
+scripts/dynamics/run_dynamics_10.py
+tests/dynamics/test_dynamics_10_cycle_consistency.py
+reports/dynamics_10_results.md
+RESEARCH_LOG.md
+NEXT_EXPERIMENT.md
+prompts/dynamics_10.md
+results/dynamics/twenty_second_wave/2026-08-14_dynamics_10/

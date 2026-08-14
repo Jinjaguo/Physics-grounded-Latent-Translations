@@ -1,0 +1,97 @@
+{
+  "ExecutionRedirectGain_LCT": {
+    "cluster": "source_session",
+    "lower_95": 0.1009165261251231,
+    "mean": 0.18385539498801032,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 0.26862073441346485
+  },
+  "ExecutionRedirectGain_cycle4": {
+    "cluster": "source_session",
+    "lower_95": 0.21637101471424103,
+    "mean": 0.2677459220091502,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 0.31212547918160755
+  },
+  "K_cycle": 4,
+  "RedirectGain_LCT": {
+    "cluster": "source_session",
+    "lower_95": 0.14041765127331018,
+    "mean": 0.2501257487262289,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 0.37079838414986926
+  },
+  "RedirectGain_cycle4": {
+    "cluster": "source_session",
+    "lower_95": -0.0006942243004838625,
+    "mean": 0.09441894696404536,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 0.1718790978193283
+  },
+  "cycle_reduction": {
+    "cluster": "source_session",
+    "lower_95": 2.5877424081166587,
+    "mean": 2.667153755823771,
+    "replicates": 10000,
+    "source_sessions": 6,
+    "upper_95": 2.743540048599243
+  },
+  "direction_cosine": {
+    "mean": 0.8312535285949707,
+    "median": 0.8678066730499268,
+    "p90": 0.9604091286659241,
+    "p95": 0.9710032731294632
+  },
+  "iterations": [
+    {
+      "cycle_residual": 2.9396917819976807,
+      "decoded_action_mse": 0.05211549624800682,
+      "endpoint_accuracy": 0.516260162601626,
+      "execution_knn_radius": 2.464789867401123,
+      "execution_target_distance": 2.464789867401123,
+      "iteration": 0,
+      "target_distance": 3.642787218093872
+    },
+    {
+      "cycle_residual": 0.5388293266296387,
+      "decoded_action_mse": 0.051124200224876404,
+      "endpoint_accuracy": 0.43597560975609756,
+      "execution_knn_radius": 2.3242311477661133,
+      "execution_target_distance": 2.3242311477661133,
+      "iteration": 1,
+      "target_distance": 3.2921395301818848
+    },
+    {
+      "cycle_residual": 0.3402895927429199,
+      "decoded_action_mse": 0.05067569389939308,
+      "endpoint_accuracy": 0.4268292682926829,
+      "execution_knn_radius": 2.3336493968963623,
+      "execution_target_distance": 2.3336493968963623,
+      "iteration": 2,
+      "target_distance": 3.3008174896240234
+    },
+    {
+      "cycle_residual": 0.29108676314353943,
+      "decoded_action_mse": 0.050641391426324844,
+      "endpoint_accuracy": 0.4115853658536585,
+      "execution_knn_radius": 2.3471696376800537,
+      "execution_target_distance": 2.3471696376800537,
+      "iteration": 3,
+      "target_distance": 3.3247485160827637
+    },
+    {
+      "cycle_residual": 0.2723560035228729,
+      "decoded_action_mse": 0.05089566484093666,
+      "endpoint_accuracy": 0.4014227642276423,
+      "execution_knn_radius": 2.373908758163452,
+      "execution_target_distance": 2.373908758163452,
+      "iteration": 4,
+      "target_distance": 3.368619680404663
+    }
+  ],
+  "name": "CYCLE_FIXED_POINT_DIAGNOSTIC"
+}

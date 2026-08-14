@@ -1,0 +1,107 @@
+{
+  "decoded_action_mse": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.2419889522439277,
+      "lower_95": 0.0838047549116027,
+      "upper_95": 0.39086280089707726
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.2922612327071402,
+      "lower_95": 0.12296416938110745,
+      "upper_95": 0.43492254094558797
+    }
+  },
+  "endpoint_error": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.3211939815648125,
+      "lower_95": 0.13044514701853854,
+      "upper_95": 0.5171159619686179
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.33084739023139015,
+      "lower_95": 0.12384963470032553,
+      "upper_95": 0.5282205909369511
+    }
+  },
+  "execution_knn_radius": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.390115506240039,
+      "lower_95": 0.23817475551904738,
+      "upper_95": 0.5308756714602958
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.4636921360847741,
+      "lower_95": 0.3074141132704448,
+      "upper_95": 0.6069824371687395
+    }
+  },
+  "future_latent_mse": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.2454177350703065,
+      "lower_95": 0.14125349505391435,
+      "upper_95": 0.3106520841474787
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.28004026498714507,
+      "lower_95": 0.11334228037801264,
+      "upper_95": 0.3604234565332964
+    }
+  },
+  "local_pca_normal_distance": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.3542276567285486,
+      "lower_95": 0.2899966900159934,
+      "upper_95": 0.39702503531529393
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.37020663011984273,
+      "lower_95": 0.2920280432713575,
+      "upper_95": 0.4580864289368929
+    }
+  },
+  "target_distance": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.407545664817618,
+      "lower_95": 0.2963858733378313,
+      "upper_95": 0.5121463698786399
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.4907839429760722,
+      "lower_95": 0.3599523241954708,
+      "upper_95": 0.5982863237030389
+    }
+  },
+  "trajectory_jump": {
+    "cluster": "source_session",
+    "pearson": {
+      "estimate": 0.13560670953289325,
+      "lower_95": 0.04793586171590589,
+      "upper_95": 0.2438034828299858
+    },
+    "replicates": 10000,
+    "source_sessions": 6,
+    "spearman": {
+      "estimate": 0.16023288397970425,
+      "lower_95": 0.04275453535727508,
+      "upper_95": 0.27021033873807443
+    }
+  }
+}

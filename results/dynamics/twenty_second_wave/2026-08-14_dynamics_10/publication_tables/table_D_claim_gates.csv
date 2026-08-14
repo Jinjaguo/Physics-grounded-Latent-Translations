@@ -1,0 +1,9 @@
+claim_or_gate,decision
+A1,True
+A2,True
+A3,True
+A4,True
+A5,False
+M0,REJECTED
+C9,NOT_TESTED
+C10,NOT_TESTED

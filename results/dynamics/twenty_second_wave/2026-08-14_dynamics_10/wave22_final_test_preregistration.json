@@ -1,0 +1,23 @@
+{
+  "LCT_CC_checkpoints": [],
+  "LCT_CC_heldout_predictions_opened": false,
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 220822
+  },
+  "gates": "prompts/dynamics_10.md C9 G1-G7 and C10",
+  "historical_wave21_test_used_for_required_phaseA": true,
+  "metrics": "not evaluated because intervention was not authorized",
+  "model_seeds": [
+    210821,
+    210822,
+    210823,
+    210824,
+    210825,
+    210826
+  ],
+  "post_stop_rescue_allowed": false,
+  "selected_lambda_cycle": null,
+  "status": "NOT_ACTIVATED_PHASE_A_STOP"
+}

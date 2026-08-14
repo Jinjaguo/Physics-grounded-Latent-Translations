@@ -1,0 +1,19 @@
+Wave 22 validation
+==================
+
+Command
+-------
+PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest \
+  tests/dynamics/test_dynamics_10_cycle_consistency.py -q \
+  --junitxml=results/dynamics/twenty_second_wave/2026-08-14_dynamics_10/pytest_results.xml
+
+Result
+------
+7 passed in 0.95s
+
+Validated frozen Wave21 hashes and protocol identities; exact E(D(.)) cycle
+map and K=4 diagnostic; transition-only cycle gradients; absent forbidden
+losses; unchanged split/inventory/gap handling; development-only registered
+lambda candidates; source-session 10,000-replicate bootstrap seed 220822;
+Phase-A stop with no checkpoint or LCT-CC test opening; valid finite JSON;
+and all required stop-branch reports, tables, and figures.

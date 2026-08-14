@@ -1,0 +1,26 @@
+{
+  "0": {
+    "cycle_residual": 0.9631423354148865,
+    "decoded_reencoded_target_accuracy": 0.16666666666666666,
+    "endpoint_target_accuracy": 0.16666666666666666,
+    "execution_cycle_residual": 0.5402249097824097
+  },
+  "1": {
+    "cycle_residual": 2.2286295890808105,
+    "decoded_reencoded_target_accuracy": 0.2682926829268293,
+    "endpoint_target_accuracy": 0.26727642276422764,
+    "execution_cycle_residual": 1.1940239667892456
+  },
+  "2": {
+    "cycle_residual": 2.492527484893799,
+    "decoded_reencoded_target_accuracy": 0.4349593495934959,
+    "endpoint_target_accuracy": 0.47764227642276424,
+    "execution_cycle_residual": 1.3850771188735962
+  },
+  "4": {
+    "cycle_residual": 2.9396917819976807,
+    "decoded_reencoded_target_accuracy": 0.43597560975609756,
+    "endpoint_target_accuracy": 0.516260162601626,
+    "execution_cycle_residual": 1.633400797843933
+  }
+}
