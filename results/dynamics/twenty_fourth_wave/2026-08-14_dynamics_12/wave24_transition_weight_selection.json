@@ -1,0 +1,12 @@
+{
+  "candidate_set": [
+    0.03,
+    0.1,
+    0.3
+  ],
+  "development_training_started": false,
+  "heldout_opened": false,
+  "no_extra_lambda": true,
+  "selected_lambda_TM": null,
+  "status": "NOT_RUN_M2_REJECTED"
+}

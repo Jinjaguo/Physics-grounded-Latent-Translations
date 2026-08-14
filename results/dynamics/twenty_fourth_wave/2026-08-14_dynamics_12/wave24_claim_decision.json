@@ -1,0 +1,23 @@
+{
+  "C13_language_selects_state_conditioned_transition_family": "NOT_TESTED",
+  "C14_language_as_state_horizon_conditioned_executable_transition_selector": "NOT_TESTED",
+  "M2_state_horizon_conditioned_displacement_family": "REJECTED",
+  "continuity_preserved": false,
+  "decode_reencode_identity_repaired": "inconclusive",
+  "endpoint_identity_repaired": false,
+  "execution_redirect_preserved": "inconclusive",
+  "full_redirect_preserved": "inconclusive",
+  "gates": {
+    "A1": false,
+    "A2": true,
+    "A3": true,
+    "A4": false,
+    "A5": false,
+    "A6": false
+  },
+  "heldout_arrays_opened": false,
+  "horizon_specific_support_better_than_static": false,
+  "paired_displacement_predicts_future": true,
+  "scientific_summary": "Source-conditioned paired displacements predict direction and beat goal+horizon means, but weighted averaging shrinks magnitude and fails static baselines, endpoint identity, and continuity.",
+  "source_state_conditioning_matters": true
+}

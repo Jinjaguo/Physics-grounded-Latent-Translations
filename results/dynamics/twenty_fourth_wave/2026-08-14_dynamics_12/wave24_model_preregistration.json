@@ -1,0 +1,31 @@
+{
+  "K": 20,
+  "architecture": "exact Wave21 B1 LCT",
+  "created_before_phaseA_training_decision": true,
+  "forbidden": {
+    "DEL": false,
+    "F2": false,
+    "PCA_loss": 0.0,
+    "classification_loss": 0.0,
+    "cycle_loss": 0.0,
+    "endpoint_attraction": 0.0,
+    "goal_core_softmin": 0.0,
+    "prototype_loss": 0.0
+  },
+  "horizon_weights": {
+    "1": 1.0,
+    "2": 1.0,
+    "4": 1.0
+  },
+  "horizons": [
+    1,
+    2,
+    4
+  ],
+  "lambda_TM_candidates": [
+    0.03,
+    0.1,
+    0.3
+  ],
+  "only_new_factor_if_M2_passes": "horizon-specific source-conditioned transition-displacement softmin"
+}

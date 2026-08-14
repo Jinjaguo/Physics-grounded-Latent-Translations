@@ -1,0 +1,93 @@
+{
+  "boundary": "next annotation true start",
+  "chunk_frames": 16,
+  "development_mechanism_only": true,
+  "disjoint": true,
+  "heldout_arrays_opened": false,
+  "horizons": {
+    "H1": 16,
+    "H2": 32,
+    "H4": 64
+  },
+  "session_names": {
+    "development": [
+      "training_ep_row_00003",
+      "training_ep_row_00010",
+      "training_ep_row_00020",
+      "training_ep_row_00021",
+      "training_ep_row_00025",
+      "training_ep_row_00029"
+    ],
+    "test": [
+      "training_ep_row_00000",
+      "training_ep_row_00008",
+      "training_ep_row_00014",
+      "training_ep_row_00024",
+      "training_ep_row_00026",
+      "training_ep_row_00030"
+    ],
+    "train": [
+      "training_ep_row_00001",
+      "training_ep_row_00002",
+      "training_ep_row_00004",
+      "training_ep_row_00005",
+      "training_ep_row_00006",
+      "training_ep_row_00007",
+      "training_ep_row_00009",
+      "training_ep_row_00011",
+      "training_ep_row_00012",
+      "training_ep_row_00013",
+      "training_ep_row_00015",
+      "training_ep_row_00016",
+      "training_ep_row_00017",
+      "training_ep_row_00018",
+      "training_ep_row_00019",
+      "training_ep_row_00022",
+      "training_ep_row_00023",
+      "training_ep_row_00027",
+      "training_ep_row_00028"
+    ]
+  },
+  "sessions": {
+    "development": [
+      3,
+      10,
+      20,
+      21,
+      25,
+      29
+    ],
+    "test": [
+      0,
+      8,
+      14,
+      24,
+      26,
+      30
+    ],
+    "train": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      27,
+      28
+    ]
+  },
+  "source": "exact Wave21 source-session split",
+  "sparse_annotation_gaps_preserved": true,
+  "train_support_only": true
+}

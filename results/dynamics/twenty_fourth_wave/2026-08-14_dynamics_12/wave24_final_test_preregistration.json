@@ -1,0 +1,13 @@
+{
+  "M2": "REJECTED",
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 240824
+  },
+  "heldout_arrays_opened": false,
+  "masked_test_rows": 164,
+  "post_stop_rescue": false,
+  "selected_lambda_TM": null,
+  "status": "NOT_ACTIVATED_M2_REJECTED"
+}

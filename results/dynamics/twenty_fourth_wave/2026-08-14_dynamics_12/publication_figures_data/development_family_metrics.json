@@ -1,0 +1,62 @@
+{
+  "1": {
+    "execution_family_identity": 0.40505078148756307,
+    "execution_family_margin": {
+      "cluster": "source_session",
+      "lower_95": 0.2846474250157674,
+      "mean": 0.3578948179880778,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.42363522450129193
+    },
+    "full_family_identity": 0.4625635927191032,
+    "full_family_margin": {
+      "cluster": "source_session",
+      "lower_95": 0.5630728105703989,
+      "mean": 0.6558617254098257,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.7438156604766846
+    }
+  },
+  "2": {
+    "execution_family_identity": 0.8950349790444448,
+    "execution_family_margin": {
+      "cluster": "source_session",
+      "lower_95": 0.8075410723686218,
+      "mean": 0.9901966253916422,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 1.1648831963539124
+    },
+    "full_family_identity": 0.7862499231667589,
+    "full_family_margin": {
+      "cluster": "source_session",
+      "lower_95": 0.9463548759619395,
+      "mean": 1.2395889659722645,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 1.4696982502937317
+    }
+  },
+  "4": {
+    "execution_family_identity": 0.7142857142857143,
+    "execution_family_margin": {
+      "cluster": "source_session",
+      "lower_95": 0.7516566514968872,
+      "mean": 0.8456230660279592,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 0.9236424962679545
+    },
+    "full_family_identity": 0.7091576442489221,
+    "full_family_margin": {
+      "cluster": "source_session",
+      "lower_95": 0.9737964967886606,
+      "mean": 1.0769366721312206,
+      "replicates": 10000,
+      "source_sessions": 6,
+      "upper_95": 1.1850608785947163
+    }
+  }
+}

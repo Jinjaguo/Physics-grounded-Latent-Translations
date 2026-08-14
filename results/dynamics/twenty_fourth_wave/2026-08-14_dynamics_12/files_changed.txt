@@ -1,0 +1,8 @@
+configs/dynamics_12.yaml
+prompts/dynamics_12.md
+scripts/dynamics/run_dynamics_12.py
+tests/dynamics/test_dynamics_12_displacement_family.py
+reports/dynamics_12_results.md
+RESEARCH_LOG.md
+NEXT_EXPERIMENT.md
+results/dynamics/twenty_fourth_wave/2026-08-14_dynamics_12/

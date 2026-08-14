@@ -1,0 +1,13 @@
+{
+  "M2_state_horizon_conditioned_displacement_family": "REJECTED",
+  "definitions_frozen_before_development": true,
+  "gates": {
+    "A1": false,
+    "A2": true,
+    "A3": true,
+    "A4": false,
+    "A5": false,
+    "A6": false
+  },
+  "test_arrays_opened": false
+}

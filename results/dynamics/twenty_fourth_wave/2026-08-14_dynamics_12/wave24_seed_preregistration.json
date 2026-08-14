@@ -1,0 +1,13 @@
+{
+  "created_before_training": true,
+  "no_replacement": true,
+  "paired_with_Wave21": true,
+  "seeds": [
+    210821,
+    210822,
+    210823,
+    210824,
+    210825,
+    210826
+  ]
+}

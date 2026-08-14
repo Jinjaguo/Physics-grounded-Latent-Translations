@@ -1,0 +1,25 @@
+{
+  "M2": {
+    "A1": "HorizonCoreGain clustered lower95>0",
+    "A2": "D2 full and execution cosine clustered lower95>0",
+    "A3": "goal+horizon mean minus D2 full and execution MSE clustered lower95>0",
+    "A4": "D2 H2 full MSE and H4 decoded MSE each below both static-core retrieval and language prototype",
+    "A5": "D2 aggregate macro endpoint and decoded/reencoded identity each >= B1 under identical train-region classifier",
+    "A6": "D2 aggregate continuity error <= B1"
+  },
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 240824
+  },
+  "created_before_development_metrics": true,
+  "development_gate": true,
+  "heldout_arrays_opened": false,
+  "primary": {
+    "K": 20,
+    "predictor": "D2",
+    "source_distance": "execution L2",
+    "tau": "train-only per-goal/horizon median K-neighbor source distance"
+  },
+  "train_support": true
+}

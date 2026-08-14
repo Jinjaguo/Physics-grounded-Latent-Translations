@@ -1,0 +1,18 @@
+{
+  "D2_diagnostic": {
+    "lift_blue_block_slider": 0.7841726618705036,
+    "lift_red_block_table": 0.23741007194244604,
+    "place_in_slider": 0.22302158273381295,
+    "push_pink_block_right": 0.22302158273381295,
+    "turn_off_lightbulb": 0.6330935251798561,
+    "turn_on_lightbulb": 0.4028776978417266
+  },
+  "Wave21_B1": {
+    "lift_blue_block_slider": 0.7338129496402878,
+    "lift_red_block_table": 0.3669064748201439,
+    "place_in_slider": 0.08633093525179857,
+    "push_pink_block_right": 0.5971223021582733,
+    "turn_off_lightbulb": 0.6834532374100719,
+    "turn_on_lightbulb": 0.460431654676259
+  }
+}

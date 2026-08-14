@@ -1,0 +1,14 @@
+{
+  "D2_diagnostic": {
+    "Execution_RedirectGain": 0.3882335424423218,
+    "RedirectGain": 0.36515966057777405,
+    "decode_reencode_macro_accuracy": 0.4016786570743405,
+    "endpoint_macro_accuracy": 0.4172661870503597
+  },
+  "Wave21_B1": {
+    "Execution_RedirectGain": 0.11849243193864822,
+    "RedirectGain": 0.20005632936954498,
+    "decode_reencode_macro_accuracy": 0.4148681055155876,
+    "endpoint_macro_accuracy": 0.488009592326139
+  }
+}

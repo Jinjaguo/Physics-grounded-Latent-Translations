@@ -1,0 +1,136 @@
+{
+  "archive": "results/dynamics/twenty_fourth_wave/2026-08-14_dynamics_12/wave24_horizon_cores.npz",
+  "archive_sha256": "782fa806e9e223e14e36b7917f622f0fac8db7f1dddebc9356d248adc70ec28e",
+  "cells": {
+    "lift_blue_block_slider__H1": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "lift_blue_block_slider",
+      "horizon": 1,
+      "train_transition_count": 39
+    },
+    "lift_blue_block_slider__H2": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "lift_blue_block_slider",
+      "horizon": 2,
+      "train_transition_count": 39
+    },
+    "lift_blue_block_slider__H4": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "lift_blue_block_slider",
+      "horizon": 4,
+      "train_transition_count": 39
+    },
+    "lift_red_block_table__H1": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "lift_red_block_table",
+      "horizon": 1,
+      "train_transition_count": 41
+    },
+    "lift_red_block_table__H2": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "lift_red_block_table",
+      "horizon": 2,
+      "train_transition_count": 41
+    },
+    "lift_red_block_table__H4": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "lift_red_block_table",
+      "horizon": 4,
+      "train_transition_count": 41
+    },
+    "place_in_slider__H1": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "place_in_slider",
+      "horizon": 1,
+      "train_transition_count": 46
+    },
+    "place_in_slider__H2": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "place_in_slider",
+      "horizon": 2,
+      "train_transition_count": 46
+    },
+    "place_in_slider__H4": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "place_in_slider",
+      "horizon": 4,
+      "train_transition_count": 46
+    },
+    "push_pink_block_right__H1": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "push_pink_block_right",
+      "horizon": 1,
+      "train_transition_count": 32
+    },
+    "push_pink_block_right__H2": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "push_pink_block_right",
+      "horizon": 2,
+      "train_transition_count": 32
+    },
+    "push_pink_block_right__H4": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "push_pink_block_right",
+      "horizon": 4,
+      "train_transition_count": 32
+    },
+    "turn_off_lightbulb__H1": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "turn_off_lightbulb",
+      "horizon": 1,
+      "train_transition_count": 51
+    },
+    "turn_off_lightbulb__H2": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "turn_off_lightbulb",
+      "horizon": 2,
+      "train_transition_count": 51
+    },
+    "turn_off_lightbulb__H4": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "turn_off_lightbulb",
+      "horizon": 4,
+      "train_transition_count": 51
+    },
+    "turn_on_lightbulb__H1": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "turn_on_lightbulb",
+      "horizon": 1,
+      "train_transition_count": 48
+    },
+    "turn_on_lightbulb__H2": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "turn_on_lightbulb",
+      "horizon": 2,
+      "train_transition_count": 48
+    },
+    "turn_on_lightbulb__H4": {
+      "K_used": 20,
+      "adequate": true,
+      "goal": "turn_on_lightbulb",
+      "horizon": 4,
+      "train_transition_count": 48
+    }
+  },
+  "created_before_development_metrics": true,
+  "horizons_separate": true,
+  "source_split": "train_only",
+  "test_used": false
+}

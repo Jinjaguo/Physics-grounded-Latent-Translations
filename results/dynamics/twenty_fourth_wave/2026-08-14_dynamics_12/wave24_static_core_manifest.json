@@ -1,0 +1,6 @@
+{
+  "archive_sha256": "045fe55d40a45a2468e46eed2028d1cd510874784a4b57a1fbfbe398b49263bf",
+  "manifest_sha256": "baa993a330d4715b28f8957f06c52a8766d9f3200e42efb21b3ec619a6d7a038",
+  "source": "Wave23 exact train-only static 75th-percentile cores",
+  "test_used": false
+}

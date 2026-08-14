@@ -1,0 +1,44 @@
+experiment:
+  name: dynamics_12
+  wave: twenty_fourth_wave
+  output_root: results/dynamics/twenty_fourth_wave/2026-08-14_dynamics_12
+  wave21_root: results/dynamics/twenty_first_wave/2026-08-14_dynamics_9
+  wave23_root: results/dynamics/twenty_third_wave/2026-08-14_dynamics_11
+  report_path: reports/dynamics_12_results.md
+
+wave21_config: configs/dynamics_9.yaml
+
+transition_family:
+  horizons: [1, 2, 4]
+  neighbors: 20
+  minimum_cell_support: 8
+  source_distance: execution_latent_l2
+  tau_rule: median_train_leave_one_out_K_neighbor_source_distance_per_goal_horizon
+  primary_predictor: distance_weighted_paired_displacement_D2
+
+model:
+  name: LCT-TD
+  seeds: [210821, 210822, 210823, 210824, 210825, 210826]
+  lambda_TM_candidates: [0.03, 0.1, 0.3]
+  lambda_latent: 1.0
+  lambda_decode: 1.0
+  epochs: 240
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+  softmin_temperature: 0.10
+  horizon_weights: {1: 1.0, 2: 1.0, 4: 1.0}
+
+evaluation:
+  bootstrap_replicates: 10000
+  bootstrap_seed: 240824
+  redirect_retention: 0.90
+  endpoint_accuracy_threshold: 0.60
+  stronger_accuracy_threshold: 0.65
+  breadth_goals: 5
+  dominance_threshold: 0.40
+
+runtime:
+  device: cuda:0
+  torch_cpu_threads: 4
