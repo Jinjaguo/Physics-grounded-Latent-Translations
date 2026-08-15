@@ -1,6 +1,6 @@
 # Wave28–Wave78 自主实验总结
 
-本轮从 Wave28 开始，最多允许 50 个自主 wave。Wave34 已满足项目提示中“representation stop”条件，因此没有继续执行 Wave35–Wave78；下面逐个说明每个编号的状态，未执行的 wave 也明确写出原因。
+本轮从 Wave28 开始，最多允许 50 个自主 wave。研究只有两个结束条件：成功，或完成 Wave78；Wave79 永不启动。Wave34 只停止了重复堆叠旧 adapter，不能停止整个研究，因此 Wave35 已恢复执行；下面逐个说明每个编号的状态，未执行的 wave 也明确写出原因。
 
 ## Wave28
 
@@ -32,23 +32,23 @@ Wave34 没有再训练模型，而是审计 Wave28–33 的完整 development/he
 
 ## Wave35
 
-未执行。Wave34 已确认 frozen action representation 是主要瓶颈，继续训练另一个 adapter 会重复已有失败。
+Wave35 转向时序/状态-动作桥接，测试了 90 个 development 候选和 8 个冻结 held-out 候选，覆盖 text-delta、state、history/contact、phase-gated 和 integrated 五类桥接，以及 q=2/4/8、PCA/随机基和三种连续性权重。Wave27 最好候选是 `delta_q2_pca_w0.3`，execution redirect 约 0.0047、continuity 约 2.76、endpoint 约 0.21，仍未成功。加入当前 latent、过去动作和历史接触摘要没有解决动作连续性，因此 Wave36 必须继续寻找新的时序/数据对齐方法。
 
 ## Wave36
 
-未执行。没有再做新的语言投影消融，避免把同一问题包装成更多 encoding 版本。
+Wave36 先预测 6 维动作变化，再用 frozen decoder 的局部 Jacobian 转回 latent force，比较了 144 个候选，包括 Jacobian transpose、阻尼伪逆、execution-only、phase/cycle 版本、q=2/4/6、PCA/随机基和连续性权重。Wave27 held-out 最好是 `execution_only_plain_q4_pca_w0.2`，execution redirect 约 0.0012，仍没有可执行重定向成功。说明即便动作方向被显式纳入，当前事件数据和 decoder 局部映射仍不足以保持目标身份与连续性，因此继续 Wave37。
 
 ## Wave37
 
-未执行。没有再增加 q 的维度，因为 Wave28 已经覆盖到 8 维并包含 full-rank 对照。
+Wave37 加入了反向 cycle consistency、no-switch anchor 和 task-balanced loss，比较了 144 个 pair-only、state-pair、phase-pair 候选，覆盖 q=2/4/8、PCA/随机基和不同 cycle/anchor 权重。Wave27 held-out 最好 `delta_q2_pca_cy0.5_an0.05_bal1` 的 execution redirect 约 0.0043、continuity 约 2.76，仍未成功。说明强制 current→target 与 target→current 的力近似相反，不能弥补当前表示与目标动作之间的错位，因此继续 Wave38。
 
 ## Wave38
 
-未执行。没有再尝试新的 gate 或 norm cap，Wave29 和 Wave31 已直接测试这条路线。
+Wave38 测试了 288 个阶段/接触转换门控候选，包含 hazard、contact/history、monotonic、two-stage 四种门控，q=2/4/8、PCA/随机基和多种 gate/anchor 权重。门控能减少部分无关干扰，但 Wave27 held-out 最好 `delta_q2_pca_contact_gw0.8_aw0.2` 的 execution redirect 约 0.0039、continuity 约 2.77，仍未成功。说明仅仅决定“什么时候施力”还不够，目标方向和 latent/action 对齐仍是主问题，因此继续 Wave39。
 
 ## Wave39
 
-未执行。没有再加入新的 retrieval intervention，Wave28 已经包含 retrieval field，且 Wave27 retrieval 本身不能解决连续性。
+Wave39 比较了 72 个 semantic/action anchor 候选：预测 latent 的 semantic 部分靠近新指令并远离旧指令，同时保留 decoder action loss，覆盖 delta/state/integrated 输入、q=2/4/8、PCA/随机基、两种 anchor 权重和两种 hard-negative margin。Wave27 held-out 最好 `delta_q2_pca_aw0.2_m0.05` 的 execution redirect 约 0.0042、continuity 约 2.76，仍未成功。语义方向约束没有自动变成可执行动作方向，因此继续 Wave40。
 
 ## Wave40
 
@@ -204,4 +204,4 @@ Wave34 没有再训练模型，而是审计 Wave28–33 的完整 development/he
 
 ## Wave78
 
-未执行。Wave34 已在 Wave78 上限之前触发合理的 representation stop，因此本轮停止。下一步应收集带有当前指令、新指令到达时间、匹配物理状态、未来 action chunk 和 return/recoverability 标注的新数据，并重新设计 temporally structured state-action representation；Wave28–33 的 frozen-adapter 结果应作为负对照保留。
+未执行。按照新终止规则，Wave78 仍是最后允许启动的 wave；在完成 Wave78 或提前达到成功门槛前，不能结束研究。当前 Wave35 失败，因此 Wave36–Wave78 继续推进，并保留 Wave28–35 的所有负结果作为对照。

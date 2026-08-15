@@ -1,5 +1,6 @@
 {
   "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
   "REPRESENTATION_STOP": "SUPPORTED",
-  "next_wave_required": false
+  "next_wave_required": true,
+  "program_termination": "success or Wave78 only; never Wave79"
 }

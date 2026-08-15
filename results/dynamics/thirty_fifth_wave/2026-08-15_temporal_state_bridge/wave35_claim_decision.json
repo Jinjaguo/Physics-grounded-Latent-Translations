@@ -1,0 +1,7 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "delta_q2_pca_w0.3",
+  "representation_stop": false,
+  "termination_rule": "only success or Wave78; continue otherwise"
+}

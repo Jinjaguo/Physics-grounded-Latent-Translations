@@ -131,3 +131,27 @@ Read-only representation-stop audit: REPRESENTATION_STOP=True; adapter stacking 
 ## Wave 34 — 2026-08-15T03:30:01.227844-04:00
 
 Read-only representation-stop audit: REPRESENTATION_STOP=True; adapter stacking stops and a temporal/state-action representation is required. See `results/dynamics/thirty_fourth_wave/2026-08-15_representation_stop`.
+
+## Wave 35 — 2026-08-15T03:42:29.732252-04:00
+
+Tested five temporal/state-action bridge families with q=2/4/8 and PCA/random projections. Best `delta_q2_pca_w0.3` had Wave27 execution redirect 0.004693; SUCCESS=False. Under the user termination rule, continue to Wave36 unless success or Wave78.
+
+## Wave 36 — 2026-08-15T03:45:58.896797-04:00
+
+Tested decoder-Jacobian action transport with transpose, damped pseudoinverse, execution-only, phase, q=2/4/6, PCA/random bases. Best `execution_only_plain_q4_pca_w0.2` had Wave27 execution redirect 0.001227; SUCCESS=False. Continue to Wave37 or until Wave78.
+
+## Wave 37 — 2026-08-15T03:48:15.867433-04:00
+
+Tested cycle-consistent task-balanced bridges with q=2/4/8, PCA/random bases, no-switch anchors, and reverse objectives. Best `delta_q2_pca_cy0.1_an0.05_bal0` had Wave27 execution redirect 0.004254; SUCCESS=False. Continue to Wave38 or Wave78.
+
+## Wave 37 — 2026-08-15T03:49:01.477305-04:00
+
+Tested cycle-consistent task-balanced bridges with q=2/4/8, PCA/random bases, no-switch anchors, and reverse objectives. Best `delta_q2_pca_cy0.5_an0.05_bal1` had Wave27 execution redirect 0.004334; SUCCESS=False. Continue to Wave38 or Wave78.
+
+## Wave 38 — 2026-08-15T03:51:59.993550-04:00
+
+Tested phase/contact transition gates (hazard, contact, monotonic, two-stage) with q=2/4/8 and PCA/random bases. Best `delta_q2_pca_contact_gw0.8_aw0.2` had Wave27 execution redirect 0.003855; SUCCESS=False. Continue to Wave39 or Wave78.
+
+## Wave 39 — 2026-08-15T03:53:50.216390-04:00
+
+Tested semantic target anchors and current-instruction hard negatives with q=2/4/8 and PCA/random bases. Best `delta_q2_pca_aw0.2_m0.05` had Wave27 execution redirect 0.004189; SUCCESS=False. Continue to Wave40 or Wave78.

@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "development": 139,
+    "test": 164,
+    "train": 257,
+    "wave27": 86
+  },
+  "created_at": "2026-08-15T03:51:03.510676-04:00",
+  "families": [
+    "delta",
+    "state",
+    "integrated"
+  ],
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "gates": [
+    "hazard",
+    "contact",
+    "monotonic",
+    "two_stage"
+  ],
+  "q": [
+    2,
+    4,
+    8
+  ],
+  "termination_rule": "success or Wave78 only; never Wave79"
+}

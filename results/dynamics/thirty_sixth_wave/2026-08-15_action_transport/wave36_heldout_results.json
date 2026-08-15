@@ -1,0 +1,232 @@
+{
+  "execution_only_cycle_q2_pca_w0.05": {
+    "spec": {
+      "damping": 0.03,
+      "family": "cycle",
+      "kind": "pca",
+      "name": "execution_only_cycle_q2_pca_w0.05",
+      "q": 2,
+      "transport": "execution_only",
+      "weight": 0.05
+    },
+    "test": {
+      "Execution_RedirectGain": 9.269903239328414e-05,
+      "H4_full_mse": 1.167196273803711,
+      "RedirectGain": 4.6327619202202186e-05,
+      "adapter_norm": 0.0077841379679739475
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00011482054833322763,
+      "H4_full_mse": 1.7914115190505981,
+      "RedirectGain": -5.743202200392261e-05,
+      "adapter_norm": 0.01244000531733036
+    }
+  },
+  "execution_only_plain_q4_pca_w0.2": {
+    "spec": {
+      "damping": 0.03,
+      "family": "plain",
+      "kind": "pca",
+      "name": "execution_only_plain_q4_pca_w0.2",
+      "q": 4,
+      "transport": "execution_only",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0008874977356754243,
+      "H4_full_mse": 1.1667988300323486,
+      "RedirectGain": 0.0004437296011019498,
+      "adapter_norm": 0.019416630268096924
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0012268282007426023,
+      "H4_full_mse": 1.7907406091690063,
+      "RedirectGain": 0.0006133991992101073,
+      "adapter_norm": 0.03264414519071579
+    }
+  },
+  "pinv_cycle_q4_pca_w0.2": {
+    "spec": {
+      "damping": 0.15,
+      "family": "cycle",
+      "kind": "pca",
+      "name": "pinv_cycle_q4_pca_w0.2",
+      "q": 4,
+      "transport": "pinv",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0008087959722615778,
+      "H4_full_mse": 1.1668587923049927,
+      "RedirectGain": 0.00038390388363040984,
+      "adapter_norm": 0.02733166702091694
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0005109672201797366,
+      "H4_full_mse": 1.7915863990783691,
+      "RedirectGain": -0.00023243749456014484,
+      "adapter_norm": 0.032608430832624435
+    }
+  },
+  "pinv_phase_q4_pca_w0.2": {
+    "spec": {
+      "damping": 0.15,
+      "family": "phase",
+      "kind": "pca",
+      "name": "pinv_phase_q4_pca_w0.2",
+      "q": 4,
+      "transport": "pinv",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0012863535666838288,
+      "H4_full_mse": 1.1665122509002686,
+      "RedirectGain": 0.0007303120801225305,
+      "adapter_norm": 0.12415549904108047
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004617756698280573,
+      "H4_full_mse": 1.7919543981552124,
+      "RedirectGain": -0.000600432395003736,
+      "adapter_norm": 0.14349444210529327
+    }
+  },
+  "pinv_phase_q6_random_w0.05": {
+    "spec": {
+      "damping": 0.15,
+      "family": "phase",
+      "kind": "random",
+      "name": "pinv_phase_q6_random_w0.05",
+      "q": 6,
+      "transport": "pinv",
+      "weight": 0.05
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0019307638285681605,
+      "H4_full_mse": 1.1667490005493164,
+      "RedirectGain": 0.0004935727920383215,
+      "adapter_norm": 0.14040201902389526
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.010404331609606743,
+      "H4_full_mse": 1.7954719066619873,
+      "RedirectGain": -0.004117976408451796,
+      "adapter_norm": 0.17547965049743652
+    }
+  },
+  "pinv_phase_q6_random_w0.2": {
+    "spec": {
+      "damping": 0.15,
+      "family": "phase",
+      "kind": "random",
+      "name": "pinv_phase_q6_random_w0.2",
+      "q": 6,
+      "transport": "pinv",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": -0.002062834333628416,
+      "H4_full_mse": 1.1667015552520752,
+      "RedirectGain": 0.0005411363672465086,
+      "adapter_norm": 0.15012520551681519
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.007666292600333691,
+      "H4_full_mse": 1.792985439300537,
+      "RedirectGain": -0.0016314337262883782,
+      "adapter_norm": 0.17677649855613708
+    }
+  },
+  "pinv_plain_q4_pca_w0.2": {
+    "spec": {
+      "damping": 0.15,
+      "family": "plain",
+      "kind": "pca",
+      "name": "pinv_plain_q4_pca_w0.2",
+      "q": 4,
+      "transport": "pinv",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0023027744609862566,
+      "H4_full_mse": 1.1666568517684937,
+      "RedirectGain": 0.0005857390351593494,
+      "adapter_norm": 0.1300925612449646
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.008355582132935524,
+      "H4_full_mse": 1.7932543754577637,
+      "RedirectGain": -0.001900379778817296,
+      "adapter_norm": 0.15287622809410095
+    }
+  },
+  "pinv_plain_q6_random_w0.2": {
+    "spec": {
+      "damping": 0.15,
+      "family": "plain",
+      "kind": "random",
+      "name": "pinv_plain_q6_random_w0.2",
+      "q": 6,
+      "transport": "pinv",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.00013149139704182744,
+      "H4_full_mse": 1.1672477722167969,
+      "RedirectGain": -5.1732472456933465e-06,
+      "adapter_norm": 0.029606228694319725
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0007012119167484343,
+      "H4_full_mse": 1.7907147407531738,
+      "RedirectGain": 0.0006392570212483406,
+      "adapter_norm": 0.043368030339479446
+    }
+  },
+  "transpose_cycle_q2_pca_w0.2": {
+    "spec": {
+      "damping": 0.0,
+      "family": "cycle",
+      "kind": "pca",
+      "name": "transpose_cycle_q2_pca_w0.2",
+      "q": 2,
+      "transport": "transpose",
+      "weight": 0.2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.00011398325295886025,
+      "H4_full_mse": 1.1675429344177246,
+      "RedirectGain": -0.0003002480370923877,
+      "adapter_norm": 0.05389568209648132
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0016534602036699653,
+      "H4_full_mse": 1.792431354522705,
+      "RedirectGain": -0.0010773047106340528,
+      "adapter_norm": 0.08189989626407623
+    }
+  },
+  "transpose_plain_q4_pca_w0.05": {
+    "spec": {
+      "damping": 0.0,
+      "family": "plain",
+      "kind": "pca",
+      "name": "transpose_plain_q4_pca_w0.05",
+      "q": 4,
+      "transport": "transpose",
+      "weight": 0.05
+    },
+    "test": {
+      "Execution_RedirectGain": 7.214597280835733e-05,
+      "H4_full_mse": 1.1672457456588745,
+      "RedirectGain": -3.047469135708525e-06,
+      "adapter_norm": 0.06030823290348053
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0032498263753950596,
+      "H4_full_mse": 1.7923966646194458,
+      "RedirectGain": -0.0010426995577290654,
+      "adapter_norm": 0.08869904279708862
+    }
+  }
+}

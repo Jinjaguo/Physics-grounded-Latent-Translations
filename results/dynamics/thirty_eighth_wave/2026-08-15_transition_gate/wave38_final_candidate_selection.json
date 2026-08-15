@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-15T03:51:56.218240-04:00",
+  "heldout_opened": true,
+  "selected": [
+    "delta_q2_pca_hazard_gw0.2_aw0.05",
+    "delta_q2_pca_hazard_gw0.2_aw0.2",
+    "delta_q2_pca_contact_gw0.8_aw0.2",
+    "delta_q2_pca_contact_gw0.8_aw0.05",
+    "delta_q2_pca_monotonic_gw0.2_aw0.05",
+    "delta_q2_pca_monotonic_gw0.2_aw0.2",
+    "delta_q2_pca_two_stage_gw0.8_aw0.05",
+    "delta_q2_pca_two_stage_gw0.2_aw0.05",
+    "delta_q2_pca_monotonic_gw0.8_aw0.2",
+    "delta_q2_pca_two_stage_gw0.2_aw0.2",
+    "delta_q2_pca_two_stage_gw0.8_aw0.2",
+    "delta_q2_pca_contact_gw0.2_aw0.05"
+  ]
+}

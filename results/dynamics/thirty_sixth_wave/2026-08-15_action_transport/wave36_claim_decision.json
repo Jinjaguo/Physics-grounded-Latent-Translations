@@ -1,0 +1,6 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "execution_only_plain_q4_pca_w0.2",
+  "termination_rule": "success or Wave78 only; continue otherwise"
+}

@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "development": 139,
+    "test": 164,
+    "train": 257,
+    "wave27": 86
+  },
+  "created_at": "2026-08-15T03:45:51.757445-04:00",
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "q": [
+    2,
+    4,
+    6
+  ],
+  "termination_rule": "success or Wave78 only; never Wave79",
+  "transports": [
+    "transpose",
+    "damped_pseudoinverse",
+    "execution_only"
+  ]
+}
