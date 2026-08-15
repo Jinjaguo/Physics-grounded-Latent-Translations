@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:08:57.035369-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "task_conditioned_scale_integrated_q2_pca_w0.1",
+    "task_conditioned_scale_integrated_q2_pca_w0.4",
+    "task_conditioned_scale_delta_q2_pca_w0.4",
+    "task_conditioned_scale_delta_q2_pca_w0.1",
+    "task_conditioned_scale_delta_q8_pca_w0.4",
+    "task_conditioned_scale_delta_q8_pca_w0.1",
+    "task_conditioned_scale_integrated_q4_random_w0.1",
+    "task_conditioned_scale_delta_q4_pca_w0.4"
+  ]
+}

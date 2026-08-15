@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-15T04:08:58.095790-04:00",
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "method": "history_delta_bridge",
+  "termination_rule": "success or Wave78 only; never Wave79",
+  "wave": 49
+}

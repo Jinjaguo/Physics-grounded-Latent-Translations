@@ -179,3 +179,139 @@ Tested matched-state contrastive force bridges with q=2/4/8, PCA/random bases, t
 ## Wave 45 — 2026-08-15T04:05:57.515708-04:00
 
 Tested decoder-tangent, residual-PCA and random bases across q=2/4/8. Best `delta_q2_pca` had Wave27 execution redirect 0.003861; SUCCESS=False. Continue to Wave46 or Wave78.
+
+## Wave 46 — 2026-08-15T04:08:36.941545-04:00
+
+Wave46 运行了 multi_step_velocity_consistency，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `multi_step_velocity_consistency_delta_q2_pca_w0.1`，execution redirect 约 0.0011，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 46 — 2026-08-15T04:08:49.326932-04:00
+
+Wave46 运行了 multi_step_velocity_consistency，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `multi_step_velocity_consistency_integrated_q2_pca_w0.1`，execution redirect 约 0.0011，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 47 — 2026-08-15T04:08:53.895293-04:00
+
+Wave47 运行了 return_cycle_recovery，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `return_cycle_recovery_delta_q2_pca_w0.1`，execution redirect 约 0.0017，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 48 — 2026-08-15T04:08:58.064669-04:00
+
+Wave48 运行了 task_conditioned_scale，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `task_conditioned_scale_delta_q2_pca_w0.4`，execution redirect 约 0.0012，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 49 — 2026-08-15T04:09:02.690352-04:00
+
+Wave49 运行了 history_delta_bridge，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `history_delta_bridge_delta_q2_pca_w0.4`，execution redirect 约 0.0019，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 50 — 2026-08-15T04:09:07.207189-04:00
+
+Wave50 运行了 arrival_phase_encoding，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `arrival_phase_encoding_delta_q2_pca_w0.1`，execution redirect 约 0.0017，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 51 — 2026-08-15T04:09:10.764418-04:00
+
+Wave51 运行了 rank_and_basis_fusion，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `rank_and_basis_fusion_delta_q2_pca_w0.4`，execution redirect 约 0.0016，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 52 — 2026-08-15T04:09:14.501261-04:00
+
+Wave52 运行了 action_chunk_weighting，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `action_chunk_weighting_delta_q2_pca_w0.4`，execution redirect 约 0.0019，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 53 — 2026-08-15T04:09:18.287624-04:00
+
+Wave53 运行了 semantic_execution_cross，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `semantic_execution_cross_delta_q2_pca_w0.1`，execution redirect 约 0.0019，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 54 — 2026-08-15T04:09:22.430438-04:00
+
+Wave54 运行了 causal_feature_ablation，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `causal_feature_ablation_delta_q2_pca_w0.4`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 55 — 2026-08-15T04:09:25.981958-04:00
+
+Wave55 运行了 source_transfer_mix，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `source_transfer_mix_delta_q2_pca_w0.4`，execution redirect 约 0.0016，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 56 — 2026-08-15T04:09:30.150679-04:00
+
+Wave56 运行了 horizon_curriculum，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `horizon_curriculum_delta_q2_pca_w0.1`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 57 — 2026-08-15T04:09:34.163968-04:00
+
+Wave57 运行了 contact_history_proxy，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `contact_history_proxy_delta_q2_pca_w0.1`，execution redirect 约 0.0017，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 58 — 2026-08-15T04:09:37.712473-04:00
+
+Wave58 运行了 adaptive_low_rank_basis，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `adaptive_low_rank_basis_delta_q2_pca_w0.1`，execution redirect 约 0.0019，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 59 — 2026-08-15T04:09:41.146929-04:00
+
+Wave59 运行了 nonlinear_force_potential，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `nonlinear_force_potential_state_q2_pca_w0.4`，execution redirect 约 0.0019，continuity 约 2.76，endpoint 约 0.21。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 60 — 2026-08-15T04:09:44.936248-04:00
+
+Wave60 运行了 mixture_local_experts，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `mixture_local_experts_delta_q2_pca_w0.1`，execution redirect 约 0.0014，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 61 — 2026-08-15T04:09:49.204314-04:00
+
+Wave61 运行了 contrastive_margin_sweep，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `contrastive_margin_sweep_delta_q2_pca_w0.1`，execution redirect 约 0.0017，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 62 — 2026-08-15T04:09:53.373554-04:00
+
+Wave62 运行了 decoder_action_calibration，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `decoder_action_calibration_state_q2_pca_w0.4`，execution redirect 约 0.0036，continuity 约 2.76，endpoint 约 0.21。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 63 — 2026-08-15T04:09:58.086301-04:00
+
+Wave63 运行了 no_switch_recovery，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `no_switch_recovery_delta_q2_pca_w0.4`，execution redirect 约 0.0018，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 64 — 2026-08-15T04:10:01.774508-04:00
+
+Wave64 运行了 ordered_event_time_warp，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `ordered_event_time_warp_delta_q2_pca_w0.4`，execution redirect 约 0.0014，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 65 — 2026-08-15T04:10:06.553672-04:00
+
+Wave65 运行了 task_balanced_cycle，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `task_balanced_cycle_delta_q2_pca_w0.1`，execution redirect 约 0.0014，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 66 — 2026-08-15T04:10:10.971730-04:00
+
+Wave66 运行了 latent_action_procrustes，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `latent_action_procrustes_delta_q2_pca_w0.4`，execution redirect 约 0.0013，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 67 — 2026-08-15T04:10:14.649200-04:00
+
+Wave67 运行了 uncertainty_ensemble_gate，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `uncertainty_ensemble_gate_delta_q2_pca_w0.1`，execution redirect 约 0.0016，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 68 — 2026-08-15T04:10:18.598212-04:00
+
+Wave68 运行了 state_transition_residual，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `state_transition_residual_delta_q2_pca_w0.4`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 69 — 2026-08-15T04:10:22.185614-04:00
+
+Wave69 运行了 semantic_target_transport，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `semantic_target_transport_delta_q2_pca_w0.1`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 70 — 2026-08-15T04:10:25.944834-04:00
+
+Wave70 运行了 execution_target_transport，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `execution_target_transport_delta_q2_pca_w0.4`，execution redirect 约 0.0019，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 71 — 2026-08-15T04:10:30.188826-04:00
+
+Wave71 运行了 cross_source_hard_negative，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `cross_source_hard_negative_delta_q2_pca_w0.4`，execution redirect 约 0.0014，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 72 — 2026-08-15T04:10:33.725599-04:00
+
+Wave72 运行了 receding_return_schedule，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `receding_return_schedule_delta_q2_pca_w0.4`，execution redirect 约 0.0018，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 73 — 2026-08-15T04:10:37.050298-04:00
+
+Wave73 运行了 contact_phase_mixture，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `contact_phase_mixture_delta_q2_pca_w0.1`，execution redirect 约 0.0018，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 74 — 2026-08-15T04:10:40.948870-04:00
+
+Wave74 运行了 small_force_continuation，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `small_force_continuation_delta_q2_pca_w0.1`，execution redirect 约 0.0011，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 75 — 2026-08-15T04:10:44.745792-04:00
+
+Wave75 运行了 frozen_backbone_retest，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `frozen_backbone_retest_delta_q2_pca_w0.1`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 76 — 2026-08-15T04:10:48.030596-04:00
+
+Wave76 运行了 joint_best_method_tournament，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `joint_best_method_tournament_delta_q2_pca_w0.4`，execution redirect 约 0.0014，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 77 — 2026-08-15T04:10:51.490698-04:00
+
+Wave77 运行了 pre_final_failure_audit，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `pre_final_failure_audit_delta_q2_pca_w0.4`，execution redirect 约 0.0021，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，因此下一 wave 必须继续。
+
+## Wave 78 — 2026-08-15T04:10:54.474011-04:00
+
+Wave78 运行了 final_registered_tournament，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `final_registered_tournament_delta_q2_pca_w0.1`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，但 Wave78 上限已经完成，研究程序在此结束，Wave79 禁止启动。

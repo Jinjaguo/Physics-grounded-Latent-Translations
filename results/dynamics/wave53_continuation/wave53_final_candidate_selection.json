@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:17.196762-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "semantic_execution_cross_state_q2_pca_w0.4",
+    "semantic_execution_cross_integrated_q2_pca_w0.4",
+    "semantic_execution_cross_state_q2_pca_w0.1",
+    "semantic_execution_cross_integrated_q2_pca_w0.1",
+    "semantic_execution_cross_delta_q2_pca_w0.1",
+    "semantic_execution_cross_delta_q2_pca_w0.4",
+    "semantic_execution_cross_delta_q8_pca_w0.4",
+    "semantic_execution_cross_delta_q8_pca_w0.1"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:25.056608-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "source_transfer_mix_integrated_q2_pca_w0.1",
+    "source_transfer_mix_integrated_q2_pca_w0.4",
+    "source_transfer_mix_delta_q2_pca_w0.4",
+    "source_transfer_mix_delta_q2_pca_w0.1",
+    "source_transfer_mix_delta_q8_pca_w0.1",
+    "source_transfer_mix_delta_q8_pca_w0.4",
+    "source_transfer_mix_integrated_q8_pca_w0.4",
+    "source_transfer_mix_delta_q4_pca_w0.1"
+  ]
+}

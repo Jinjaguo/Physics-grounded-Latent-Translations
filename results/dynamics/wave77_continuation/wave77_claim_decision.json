@@ -1,0 +1,8 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "pre_final_failure_audit_delta_q2_pca_w0.4",
+  "method": "pre_final_failure_audit",
+  "termination_rule": "success or Wave78 only; continue otherwise",
+  "wave": 77
+}

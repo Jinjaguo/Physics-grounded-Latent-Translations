@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-15T04:09:41.176368-04:00",
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "method": "mixture_local_experts",
+  "termination_rule": "success or Wave78 only; never Wave79",
+  "wave": 60
+}

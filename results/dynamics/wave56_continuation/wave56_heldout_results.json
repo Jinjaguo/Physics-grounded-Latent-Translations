@@ -1,0 +1,298 @@
+{
+  "horizon_curriculum_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "horizon_curriculum_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.002330153714865446,
+      "H2_full_mse": 1.1272536516189575,
+      "H4_continuity": 2.494389533996582,
+      "H4_decoded_mse": 1.2490448951721191,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1554712057113647,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.011771420016884804,
+      "adapter_norm": 0.062373433262109756,
+      "name": "horizon_curriculum_delta_q2_pca_w0.1",
+      "q_path_length": 0.5470486283302307,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0015430112835019827,
+      "H2_full_mse": 1.8345104455947876,
+      "H4_continuity": 2.757204532623291,
+      "H4_decoded_mse": 1.718850016593933,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.777790904045105,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.013563099317252636,
+      "adapter_norm": 0.05356096476316452,
+      "name": "horizon_curriculum_delta_q2_pca_w0.1",
+      "q_path_length": 0.45954516530036926,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "horizon_curriculum_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.002198420697823167,
+      "H2_full_mse": 1.1268008947372437,
+      "H4_continuity": 2.4943668842315674,
+      "H4_decoded_mse": 1.2493915557861328,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1550273895263672,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.012215236201882362,
+      "adapter_norm": 0.06591445207595825,
+      "name": "horizon_curriculum_delta_q2_pca_w0.4",
+      "q_path_length": 0.5839913487434387,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0011074487119913101,
+      "H2_full_mse": 1.8327372074127197,
+      "H4_continuity": 2.756972312927246,
+      "H4_decoded_mse": 1.718786358833313,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.775736927986145,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.015617064200341702,
+      "adapter_norm": 0.057233572006225586,
+      "name": "horizon_curriculum_delta_q2_pca_w0.4",
+      "q_path_length": 0.49534162878990173,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "horizon_curriculum_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.008953709155321121,
+      "H2_full_mse": 1.119740605354309,
+      "H4_continuity": 2.4945573806762695,
+      "H4_decoded_mse": 1.2501786947250366,
+      "H4_endpoint_accuracy": 0.23170731707317074,
+      "H4_full_mse": 1.161500096321106,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.005742499139159918,
+      "adapter_norm": 0.14900195598602295,
+      "name": "horizon_curriculum_delta_q8_pca_w0.1",
+      "q_path_length": 1.3320364952087402,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00809741672128439,
+      "H2_full_mse": 1.8241596221923828,
+      "H4_continuity": 2.7573723793029785,
+      "H4_decoded_mse": 1.7192370891571045,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7819114923477173,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.009442465379834175,
+      "adapter_norm": 0.12638849020004272,
+      "name": "horizon_curriculum_delta_q8_pca_w0.1",
+      "q_path_length": 1.1027507781982422,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "horizon_curriculum_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.007730678655207157,
+      "H2_full_mse": 1.1197197437286377,
+      "H4_continuity": 2.494457244873047,
+      "H4_decoded_mse": 1.2503241300582886,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.160031795501709,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.0072107817977666855,
+      "adapter_norm": 0.14248009026050568,
+      "name": "horizon_curriculum_delta_q8_pca_w0.4",
+      "q_path_length": 1.2775202989578247,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0024318089708685875,
+      "H2_full_mse": 1.8242499828338623,
+      "H4_continuity": 2.7563161849975586,
+      "H4_decoded_mse": 1.7179224491119385,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7777552604675293,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.013598719611763954,
+      "adapter_norm": 0.11090661585330963,
+      "name": "horizon_curriculum_delta_q8_pca_w0.4",
+      "q_path_length": 0.964207649230957,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "horizon_curriculum_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.01037092786282301,
+      "H2_full_mse": 1.108292818069458,
+      "H4_continuity": 2.495155096054077,
+      "H4_decoded_mse": 1.24037504196167,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.1373459100723267,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02989673987030983,
+      "adapter_norm": 0.27547597885131836,
+      "name": "horizon_curriculum_integrated_q2_pca_w0.1",
+      "q_path_length": 5.760971546173096,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.003269101958721876,
+      "H2_full_mse": 1.7989161014556885,
+      "H4_continuity": 2.7579879760742188,
+      "H4_decoded_mse": 1.712137222290039,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7424465417861938,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04890739545226097,
+      "adapter_norm": 0.28925660252571106,
+      "name": "horizon_curriculum_integrated_q2_pca_w0.1",
+      "q_path_length": 6.316489219665527,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "horizon_curriculum_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.01022458914667368,
+      "H2_full_mse": 1.1090306043624878,
+      "H4_continuity": 2.4953203201293945,
+      "H4_decoded_mse": 1.2412227392196655,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.137675166130066,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.029567454010248184,
+      "adapter_norm": 0.26992741227149963,
+      "name": "horizon_curriculum_integrated_q2_pca_w0.4",
+      "q_path_length": 5.643491268157959,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0031517106108367443,
+      "H2_full_mse": 1.7978765964508057,
+      "H4_continuity": 2.7586629390716553,
+      "H4_decoded_mse": 1.7124943733215332,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7425618171691895,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.048792120069265366,
+      "adapter_norm": 0.30613604187965393,
+      "name": "horizon_curriculum_integrated_q2_pca_w0.4",
+      "q_path_length": 6.944847583770752,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_state_q2_pca_w0.1": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "horizon_curriculum_state_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.01009325496852398,
+      "H2_full_mse": 1.1091108322143555,
+      "H4_continuity": 2.4949989318847656,
+      "H4_decoded_mse": 1.2407517433166504,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.1401135921478271,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.027129022404551506,
+      "adapter_norm": 0.24793438613414764,
+      "name": "horizon_curriculum_state_q2_pca_w0.1",
+      "q_path_length": 3.527702808380127,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.002214767038822174,
+      "H2_full_mse": 1.804206132888794,
+      "H4_continuity": 2.7589683532714844,
+      "H4_decoded_mse": 1.714837908744812,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7468971014022827,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04445696249604225,
+      "adapter_norm": 0.2577228844165802,
+      "name": "horizon_curriculum_state_q2_pca_w0.1",
+      "q_path_length": 3.8712122440338135,
+      "samples": 86
+    }
+  },
+  "horizon_curriculum_state_q2_pca_w0.4": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "horizon_curriculum_state_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.012406165711581707,
+      "H2_full_mse": 1.1089136600494385,
+      "H4_continuity": 2.495539426803589,
+      "H4_decoded_mse": 1.2407355308532715,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.1385918855667114,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.028650755062699318,
+      "adapter_norm": 0.2605176568031311,
+      "name": "horizon_curriculum_state_q2_pca_w0.4",
+      "q_path_length": 3.7302498817443848,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0003180067287757993,
+      "H2_full_mse": 1.8027606010437012,
+      "H4_continuity": 2.759813070297241,
+      "H4_decoded_mse": 1.7149330377578735,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7448551654815674,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.046498868614435196,
+      "adapter_norm": 0.28237399458885193,
+      "name": "horizon_curriculum_state_q2_pca_w0.4",
+      "q_path_length": 4.274768352508545,
+      "samples": 86
+    }
+  }
+}

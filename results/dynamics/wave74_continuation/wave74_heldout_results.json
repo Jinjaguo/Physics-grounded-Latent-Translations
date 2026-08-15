@@ -1,0 +1,298 @@
+{
+  "small_force_continuation_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "small_force_continuation_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0023882577661424875,
+      "H2_full_mse": 1.1274542808532715,
+      "H4_continuity": 2.4943900108337402,
+      "H4_decoded_mse": 1.2496057748794556,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1556042432785034,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.011638343334197998,
+      "adapter_norm": 0.05945724621415138,
+      "name": "small_force_continuation_delta_q2_pca_w0.1",
+      "q_path_length": 0.5215045809745789,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.001116174622438848,
+      "H2_full_mse": 1.833667516708374,
+      "H4_continuity": 2.756894588470459,
+      "H4_decoded_mse": 1.7188477516174316,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7770570516586304,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.014297026209533215,
+      "adapter_norm": 0.05168340355157852,
+      "name": "small_force_continuation_delta_q2_pca_w0.1",
+      "q_path_length": 0.4448857307434082,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "small_force_continuation_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0008919324609450996,
+      "H2_full_mse": 1.1292527914047241,
+      "H4_continuity": 2.494344472885132,
+      "H4_decoded_mse": 1.2512462139129639,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.158719539642334,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.008523110300302505,
+      "adapter_norm": 0.0440412275493145,
+      "name": "small_force_continuation_delta_q2_pca_w0.4",
+      "q_path_length": 0.3808799982070923,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0001321351737715304,
+      "H2_full_mse": 1.8333897590637207,
+      "H4_continuity": 2.7563974857330322,
+      "H4_decoded_mse": 1.7188836336135864,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7788288593292236,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.012525140307843685,
+      "adapter_norm": 0.04228679835796356,
+      "name": "small_force_continuation_delta_q2_pca_w0.4",
+      "q_path_length": 0.3622727394104004,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "small_force_continuation_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0049972557462751865,
+      "H2_full_mse": 1.121727705001831,
+      "H4_continuity": 2.4943885803222656,
+      "H4_decoded_mse": 1.2500836849212646,
+      "H4_endpoint_accuracy": 0.23170731707317074,
+      "H4_full_mse": 1.1595509052276611,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.007691686972975731,
+      "adapter_norm": 0.11739631742238998,
+      "name": "small_force_continuation_delta_q8_pca_w0.1",
+      "q_path_length": 1.024341106414795,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.003915661945939064,
+      "H2_full_mse": 1.825756311416626,
+      "H4_continuity": 2.756669759750366,
+      "H4_decoded_mse": 1.7185890674591064,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7793419361114502,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.012012215331196785,
+      "adapter_norm": 0.09994427114725113,
+      "name": "small_force_continuation_delta_q8_pca_w0.1",
+      "q_path_length": 0.8570505380630493,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "small_force_continuation_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.007090183440595865,
+      "H2_full_mse": 1.1220632791519165,
+      "H4_continuity": 2.4944663047790527,
+      "H4_decoded_mse": 1.2506136894226074,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.1620622873306274,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.00518030347302556,
+      "adapter_norm": 0.11729934811592102,
+      "name": "small_force_continuation_delta_q8_pca_w0.4",
+      "q_path_length": 1.0278725624084473,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.005014960654079914,
+      "H2_full_mse": 1.8260173797607422,
+      "H4_continuity": 2.7564594745635986,
+      "H4_decoded_mse": 1.7185951471328735,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.783407211303711,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.007946760393679142,
+      "adapter_norm": 0.10319183021783829,
+      "name": "small_force_continuation_delta_q8_pca_w0.4",
+      "q_path_length": 0.8877203464508057,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "small_force_continuation_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.003996978979557753,
+      "H2_full_mse": 1.1231364011764526,
+      "H4_continuity": 2.494506359100342,
+      "H4_decoded_mse": 1.2487772703170776,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1490671634674072,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.01817542128264904,
+      "adapter_norm": 0.10408184677362442,
+      "name": "small_force_continuation_integrated_q2_pca_w0.1",
+      "q_path_length": 1.2812238931655884,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0007528543355874717,
+      "H2_full_mse": 1.8181570768356323,
+      "H4_continuity": 2.75638747215271,
+      "H4_decoded_mse": 1.7164748907089233,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7551629543304443,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.03619105741381645,
+      "adapter_norm": 0.127435103058815,
+      "name": "small_force_continuation_integrated_q2_pca_w0.1",
+      "q_path_length": 1.6549872159957886,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "small_force_continuation_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0014531424967572093,
+      "H2_full_mse": 1.128601312637329,
+      "H4_continuity": 2.494375228881836,
+      "H4_decoded_mse": 1.250878095626831,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1569750308990479,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.010267676785588264,
+      "adapter_norm": 0.04932599514722824,
+      "name": "small_force_continuation_integrated_q2_pca_w0.4",
+      "q_path_length": 0.521652340888977,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0007322164019569755,
+      "H2_full_mse": 1.8290098905563354,
+      "H4_continuity": 2.7560455799102783,
+      "H4_decoded_mse": 1.7180908918380737,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.769456148147583,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.02189776301383972,
+      "adapter_norm": 0.06269409507513046,
+      "name": "small_force_continuation_integrated_q2_pca_w0.4",
+      "q_path_length": 0.6903777122497559,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_integrated_q8_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "small_force_continuation_integrated_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.006486217956990004,
+      "H2_full_mse": 1.114096999168396,
+      "H4_continuity": 2.492884635925293,
+      "H4_decoded_mse": 1.2486974000930786,
+      "H4_endpoint_accuracy": 0.22560975609756098,
+      "H4_full_mse": 1.1570390462875366,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.010203555226325989,
+      "adapter_norm": 0.16365168988704681,
+      "name": "small_force_continuation_integrated_q8_pca_w0.4",
+      "q_path_length": 1.784170389175415,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.009436774998903275,
+      "H2_full_mse": 1.8021519184112549,
+      "H4_continuity": 2.754741668701172,
+      "H4_decoded_mse": 1.7161388397216797,
+      "H4_endpoint_accuracy": 0.2558139534883721,
+      "H4_full_mse": 1.7680000066757202,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.023353921249508858,
+      "adapter_norm": 0.19765250384807587,
+      "name": "small_force_continuation_integrated_q8_pca_w0.4",
+      "q_path_length": 2.2192184925079346,
+      "samples": 86
+    }
+  },
+  "small_force_continuation_state_q2_pca_w0.1": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "small_force_continuation_state_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.003794146701693535,
+      "H2_full_mse": 1.121216058731079,
+      "H4_continuity": 2.494340181350708,
+      "H4_decoded_mse": 1.2488371133804321,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1486374139785767,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.018605150282382965,
+      "adapter_norm": 0.1185426339507103,
+      "name": "small_force_continuation_state_q2_pca_w0.1",
+      "q_path_length": 1.2703711986541748,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00023053829499986023,
+      "H2_full_mse": 1.8166826963424683,
+      "H4_continuity": 2.7558724880218506,
+      "H4_decoded_mse": 1.7162461280822754,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7561219930648804,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.035232044756412506,
+      "adapter_norm": 0.13305318355560303,
+      "name": "small_force_continuation_state_q2_pca_w0.1",
+      "q_path_length": 1.4790774583816528,
+      "samples": 86
+    }
+  }
+}

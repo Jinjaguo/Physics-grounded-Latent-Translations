@@ -1,0 +1,298 @@
+{
+  "causal_feature_ablation_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "causal_feature_ablation_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0032538154628127813,
+      "H2_full_mse": 1.1259779930114746,
+      "H4_continuity": 2.4944026470184326,
+      "H4_decoded_mse": 1.2492207288742065,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1532281637191772,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.014014368876814842,
+      "adapter_norm": 0.07474811375141144,
+      "name": "causal_feature_ablation_delta_q2_pca_w0.1",
+      "q_path_length": 0.6742750406265259,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.001493442920036614,
+      "H2_full_mse": 1.8329288959503174,
+      "H4_continuity": 2.7569949626922607,
+      "H4_decoded_mse": 1.7191245555877686,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7752392292022705,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01611470989882946,
+      "adapter_norm": 0.06096132472157478,
+      "name": "causal_feature_ablation_delta_q2_pca_w0.1",
+      "q_path_length": 0.5320958495140076,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "causal_feature_ablation_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.002933316631242633,
+      "H2_full_mse": 1.1269906759262085,
+      "H4_continuity": 2.4944422245025635,
+      "H4_decoded_mse": 1.2488882541656494,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1553373336791992,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.011905224062502384,
+      "adapter_norm": 0.06485267728567123,
+      "name": "causal_feature_ablation_delta_q2_pca_w0.4",
+      "q_path_length": 0.5670904517173767,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.001527512795291841,
+      "H2_full_mse": 1.8347713947296143,
+      "H4_continuity": 2.757089853286743,
+      "H4_decoded_mse": 1.718924641609192,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7786403894424438,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.012713517993688583,
+      "adapter_norm": 0.050020135939121246,
+      "name": "causal_feature_ablation_delta_q2_pca_w0.4",
+      "q_path_length": 0.4285479187965393,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_delta_q4_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "causal_feature_ablation_delta_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.003389983205124736,
+      "H2_full_mse": 1.1241042613983154,
+      "H4_continuity": 2.495769500732422,
+      "H4_decoded_mse": 1.251909613609314,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.1580708026885986,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.00917182769626379,
+      "adapter_norm": 0.10437048971652985,
+      "name": "causal_feature_ablation_delta_q4_pca_w0.1",
+      "q_path_length": 0.9155356884002686,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004324684850871563,
+      "H2_full_mse": 1.829542636871338,
+      "H4_continuity": 2.7593586444854736,
+      "H4_decoded_mse": 1.7226608991622925,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7791777849197388,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01217612810432911,
+      "adapter_norm": 0.09255063533782959,
+      "name": "causal_feature_ablation_delta_q4_pca_w0.1",
+      "q_path_length": 0.7977831363677979,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_delta_q4_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "causal_feature_ablation_delta_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0043373689986765385,
+      "H2_full_mse": 1.1262215375900269,
+      "H4_continuity": 2.4960474967956543,
+      "H4_decoded_mse": 1.2524030208587646,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.1616910696029663,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.00555160129442811,
+      "adapter_norm": 0.0867060050368309,
+      "name": "causal_feature_ablation_delta_q4_pca_w0.4",
+      "q_path_length": 0.7447365522384644,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004849483259022236,
+      "H2_full_mse": 1.83416748046875,
+      "H4_continuity": 2.7597291469573975,
+      "H4_decoded_mse": 1.7228978872299194,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7849717140197754,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0063822269439697266,
+      "adapter_norm": 0.07252354919910431,
+      "name": "causal_feature_ablation_delta_q4_pca_w0.4",
+      "q_path_length": 0.6161768436431885,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "causal_feature_ablation_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0073910667560994625,
+      "H2_full_mse": 1.120268702507019,
+      "H4_continuity": 2.4937360286712646,
+      "H4_decoded_mse": 1.2510318756103516,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.1608620882034302,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.006380505859851837,
+      "adapter_norm": 0.1427401453256607,
+      "name": "causal_feature_ablation_delta_q8_pca_w0.1",
+      "q_path_length": 1.2908865213394165,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0031672304030507803,
+      "H2_full_mse": 1.8224989175796509,
+      "H4_continuity": 2.7552273273468018,
+      "H4_decoded_mse": 1.7173994779586792,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.779537320137024,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.011816640384495258,
+      "adapter_norm": 0.11997763067483902,
+      "name": "causal_feature_ablation_delta_q8_pca_w0.1",
+      "q_path_length": 1.0519028902053833,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "causal_feature_ablation_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.008724046871066093,
+      "H2_full_mse": 1.1200473308563232,
+      "H4_continuity": 2.494771718978882,
+      "H4_decoded_mse": 1.2507888078689575,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.1613739728927612,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.005868647713214159,
+      "adapter_norm": 0.13667242228984833,
+      "name": "causal_feature_ablation_delta_q8_pca_w0.4",
+      "q_path_length": 1.2151825428009033,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.005721102934330702,
+      "H2_full_mse": 1.8238983154296875,
+      "H4_continuity": 2.756178140640259,
+      "H4_decoded_mse": 1.7189886569976807,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7807039022445679,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.010650155134499073,
+      "adapter_norm": 0.11129862815141678,
+      "name": "causal_feature_ablation_delta_q8_pca_w0.4",
+      "q_path_length": 0.964637041091919,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "causal_feature_ablation_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.009384415112435818,
+      "H2_full_mse": 1.1091251373291016,
+      "H4_continuity": 2.494896411895752,
+      "H4_decoded_mse": 1.2421892881393433,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1382582187652588,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02898435853421688,
+      "adapter_norm": 0.2716492712497711,
+      "name": "causal_feature_ablation_integrated_q2_pca_w0.1",
+      "q_path_length": 5.80211067199707,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0055105374194681644,
+      "H2_full_mse": 1.797127604484558,
+      "H4_continuity": 2.7577531337738037,
+      "H4_decoded_mse": 1.7138105630874634,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7438762187957764,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04747767373919487,
+      "adapter_norm": 0.30452996492385864,
+      "name": "causal_feature_ablation_integrated_q2_pca_w0.1",
+      "q_path_length": 7.101128101348877,
+      "samples": 86
+    }
+  },
+  "causal_feature_ablation_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "causal_feature_ablation_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.009715045802295208,
+      "H2_full_mse": 1.1085572242736816,
+      "H4_continuity": 2.495242118835449,
+      "H4_decoded_mse": 1.2406623363494873,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.137389063835144,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.029853634536266327,
+      "adapter_norm": 0.27908697724342346,
+      "name": "causal_feature_ablation_integrated_q2_pca_w0.4",
+      "q_path_length": 6.066262722015381,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004346803296357393,
+      "H2_full_mse": 1.7970566749572754,
+      "H4_continuity": 2.7586042881011963,
+      "H4_decoded_mse": 1.7115528583526611,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7421377897262573,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04921623691916466,
+      "adapter_norm": 0.3138231337070465,
+      "name": "causal_feature_ablation_integrated_q2_pca_w0.4",
+      "q_path_length": 7.430939197540283,
+      "samples": 86
+    }
+  }
+}

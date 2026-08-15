@@ -1,0 +1,298 @@
+{
+  "nonlinear_force_potential_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0036090565845370293,
+      "H2_full_mse": 1.1251702308654785,
+      "H4_continuity": 2.494417190551758,
+      "H4_decoded_mse": 1.2483092546463013,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1527292728424072,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.014513228088617325,
+      "adapter_norm": 0.08183211088180542,
+      "name": "nonlinear_force_potential_delta_q2_pca_w0.1",
+      "q_path_length": 0.7333953976631165,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.001511206617578864,
+      "H2_full_mse": 1.831605076789856,
+      "H4_continuity": 2.7571372985839844,
+      "H4_decoded_mse": 1.7188663482666016,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7732511758804321,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.018102675676345825,
+      "adapter_norm": 0.06946954131126404,
+      "name": "nonlinear_force_potential_delta_q2_pca_w0.1",
+      "q_path_length": 0.6074375510215759,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0021624260116368532,
+      "H2_full_mse": 1.1268359422683716,
+      "H4_continuity": 2.4943203926086426,
+      "H4_decoded_mse": 1.2499231100082397,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1546666622161865,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.0125759681686759,
+      "adapter_norm": 0.06580174714326859,
+      "name": "nonlinear_force_potential_delta_q2_pca_w0.4",
+      "q_path_length": 0.5888608694076538,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0006448770291171968,
+      "H2_full_mse": 1.831778645515442,
+      "H4_continuity": 2.7566490173339844,
+      "H4_decoded_mse": 1.7187681198120117,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7746912240982056,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.016662772744894028,
+      "adapter_norm": 0.05821605399250984,
+      "name": "nonlinear_force_potential_delta_q2_pca_w0.4",
+      "q_path_length": 0.5105423331260681,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.007390138693153858,
+      "H2_full_mse": 1.1211647987365723,
+      "H4_continuity": 2.4946653842926025,
+      "H4_decoded_mse": 1.250826358795166,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.1611995697021484,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.006043004337698221,
+      "adapter_norm": 0.13586604595184326,
+      "name": "nonlinear_force_potential_delta_q8_pca_w0.1",
+      "q_path_length": 1.2155287265777588,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.003073025494813919,
+      "H2_full_mse": 1.8267754316329956,
+      "H4_continuity": 2.7567543983459473,
+      "H4_decoded_mse": 1.7185993194580078,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7826858758926392,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.00866805762052536,
+      "adapter_norm": 0.10990899801254272,
+      "name": "nonlinear_force_potential_delta_q8_pca_w0.1",
+      "q_path_length": 0.9536968469619751,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0066184401512146,
+      "H2_full_mse": 1.1212459802627563,
+      "H4_continuity": 2.494232654571533,
+      "H4_decoded_mse": 1.2505992650985718,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.160300850868225,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.006941829342395067,
+      "adapter_norm": 0.12814243137836456,
+      "name": "nonlinear_force_potential_delta_q8_pca_w0.4",
+      "q_path_length": 1.1352086067199707,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004681040067225695,
+      "H2_full_mse": 1.8265178203582764,
+      "H4_continuity": 2.7570693492889404,
+      "H4_decoded_mse": 1.718907356262207,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7816569805145264,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0096968999132514,
+      "adapter_norm": 0.10684893280267715,
+      "name": "nonlinear_force_potential_delta_q8_pca_w0.4",
+      "q_path_length": 0.9246270060539246,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011662610806524754,
+      "H2_full_mse": 1.108083724975586,
+      "H4_continuity": 2.4951331615448,
+      "H4_decoded_mse": 1.23995041847229,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.1367864608764648,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.03045620210468769,
+      "adapter_norm": 0.2742770314216614,
+      "name": "nonlinear_force_potential_integrated_q2_pca_w0.1",
+      "q_path_length": 5.63937520980835,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0028244557324796915,
+      "H2_full_mse": 1.7983601093292236,
+      "H4_continuity": 2.7585196495056152,
+      "H4_decoded_mse": 1.712952733039856,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7420047521591187,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04934922605752945,
+      "adapter_norm": 0.3072100579738617,
+      "name": "nonlinear_force_potential_integrated_q2_pca_w0.1",
+      "q_path_length": 6.870527267456055,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010811691172420979,
+      "H2_full_mse": 1.108156681060791,
+      "H4_continuity": 2.4952235221862793,
+      "H4_decoded_mse": 1.2403490543365479,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.1372158527374268,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.030026746913790703,
+      "adapter_norm": 0.2774347960948944,
+      "name": "nonlinear_force_potential_integrated_q2_pca_w0.4",
+      "q_path_length": 5.787891864776611,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0038133973721414804,
+      "H2_full_mse": 1.798077940940857,
+      "H4_continuity": 2.7583110332489014,
+      "H4_decoded_mse": 1.713281512260437,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7428524494171143,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0485016368329525,
+      "adapter_norm": 0.30633407831192017,
+      "name": "nonlinear_force_potential_integrated_q2_pca_w0.4",
+      "q_path_length": 6.901887893676758,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_state_q2_pca_w0.1": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_state_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.012779171578586102,
+      "H2_full_mse": 1.1121838092803955,
+      "H4_continuity": 2.495022773742676,
+      "H4_decoded_mse": 1.2434223890304565,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1400651931762695,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.027177436277270317,
+      "adapter_norm": 0.2268006056547165,
+      "name": "nonlinear_force_potential_state_q2_pca_w0.1",
+      "q_path_length": 2.874208688735962,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0007397629669867456,
+      "H2_full_mse": 1.8069854974746704,
+      "H4_continuity": 2.7583086490631104,
+      "H4_decoded_mse": 1.717340111732483,
+      "H4_endpoint_accuracy": 0.22093023255813954,
+      "H4_full_mse": 1.7475643157958984,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04378960654139519,
+      "adapter_norm": 0.24631604552268982,
+      "name": "nonlinear_force_potential_state_q2_pca_w0.1",
+      "q_path_length": 3.272113084793091,
+      "samples": 86
+    }
+  },
+  "nonlinear_force_potential_state_q2_pca_w0.4": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "nonlinear_force_potential_state_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.013239067979156971,
+      "H2_full_mse": 1.1096038818359375,
+      "H4_continuity": 2.4952526092529297,
+      "H4_decoded_mse": 1.2404738664627075,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.138946771621704,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.028295796364545822,
+      "adapter_norm": 0.24879883229732513,
+      "name": "nonlinear_force_potential_state_q2_pca_w0.4",
+      "q_path_length": 3.3084936141967773,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0019408495863899589,
+      "H2_full_mse": 1.8053869009017944,
+      "H4_continuity": 2.7594945430755615,
+      "H4_decoded_mse": 1.7148669958114624,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.745500922203064,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.045853037387132645,
+      "adapter_norm": 0.26639214158058167,
+      "name": "nonlinear_force_potential_state_q2_pca_w0.4",
+      "q_path_length": 3.724309206008911,
+      "samples": 86
+    }
+  }
+}

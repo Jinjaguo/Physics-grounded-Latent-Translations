@@ -1,0 +1,298 @@
+{
+  "final_registered_tournament_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "final_registered_tournament_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.004061524290591478,
+      "H2_full_mse": 1.1253201961517334,
+      "H4_continuity": 2.494502067565918,
+      "H4_decoded_mse": 1.2479774951934814,
+      "H4_endpoint_accuracy": 0.21341463414634146,
+      "H4_full_mse": 1.1543231010437012,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.012919568456709385,
+      "adapter_norm": 0.07900597900152206,
+      "name": "final_registered_tournament_delta_q2_pca_w0.1",
+      "q_path_length": 0.6885503530502319,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.001531548798084259,
+      "H2_full_mse": 1.8320282697677612,
+      "H4_continuity": 2.7572622299194336,
+      "H4_decoded_mse": 1.7190814018249512,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7752110958099365,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.016142843291163445,
+      "adapter_norm": 0.06853969395160675,
+      "name": "final_registered_tournament_delta_q2_pca_w0.1",
+      "q_path_length": 0.588080883026123,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "final_registered_tournament_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.003368180710822344,
+      "H2_full_mse": 1.1254124641418457,
+      "H4_continuity": 2.494452953338623,
+      "H4_decoded_mse": 1.248642921447754,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1539816856384277,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.013260975480079651,
+      "adapter_norm": 0.07721184194087982,
+      "name": "final_registered_tournament_delta_q2_pca_w0.4",
+      "q_path_length": 0.68264240026474,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0012770891189575195,
+      "H2_full_mse": 1.8307124376296997,
+      "H4_continuity": 2.7571277618408203,
+      "H4_decoded_mse": 1.719122290611267,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7730770111083984,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.018277036026120186,
+      "adapter_norm": 0.07322975248098373,
+      "name": "final_registered_tournament_delta_q2_pca_w0.4",
+      "q_path_length": 0.6361860036849976,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_delta_q4_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "final_registered_tournament_delta_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0026999551337212324,
+      "H2_full_mse": 1.1249738931655884,
+      "H4_continuity": 2.4956600666046143,
+      "H4_decoded_mse": 1.2511956691741943,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.1595338582992554,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.007708866614848375,
+      "adapter_norm": 0.09449969977140427,
+      "name": "final_registered_tournament_delta_q4_pca_w0.4",
+      "q_path_length": 0.8154516220092773,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004061528015881777,
+      "H2_full_mse": 1.8309845924377441,
+      "H4_continuity": 2.7596938610076904,
+      "H4_decoded_mse": 1.7224680185317993,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7812310457229614,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.010122944600880146,
+      "adapter_norm": 0.08808809518814087,
+      "name": "final_registered_tournament_delta_q4_pca_w0.4",
+      "q_path_length": 0.7527356743812561,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_delta_q4_random_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "final_registered_tournament_delta_q4_random_w0.1",
+      "q": 4,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -8.911557961255312e-05,
+      "H2_full_mse": 1.1331090927124023,
+      "H4_continuity": 2.494492769241333,
+      "H4_decoded_mse": 1.2519075870513916,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.167752981185913,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.0005103950970806181,
+      "adapter_norm": 0.01183992251753807,
+      "name": "final_registered_tournament_delta_q4_random_w0.1",
+      "q_path_length": 0.09872457385063171,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -7.882471982156858e-05,
+      "H2_full_mse": 1.8404861688613892,
+      "H4_continuity": 2.756486654281616,
+      "H4_decoded_mse": 1.7193455696105957,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7926634550094604,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.0013093940215185285,
+      "adapter_norm": 0.012280614115297794,
+      "name": "final_registered_tournament_delta_q4_random_w0.1",
+      "q_path_length": 0.10239734500646591,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "final_registered_tournament_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.007990713231265545,
+      "H2_full_mse": 1.1203151941299438,
+      "H4_continuity": 2.4945287704467773,
+      "H4_decoded_mse": 1.2492033243179321,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.1616750955581665,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.00556750176474452,
+      "adapter_norm": 0.13607558608055115,
+      "name": "final_registered_tournament_delta_q8_pca_w0.1",
+      "q_path_length": 1.1984870433807373,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00554879754781723,
+      "H2_full_mse": 1.8252177238464355,
+      "H4_continuity": 2.75631046295166,
+      "H4_decoded_mse": 1.7178243398666382,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7826040983200073,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.00874990876764059,
+      "adapter_norm": 0.11468743532896042,
+      "name": "final_registered_tournament_delta_q8_pca_w0.1",
+      "q_path_length": 0.9889563918113708,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "final_registered_tournament_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0074742319993674755,
+      "H2_full_mse": 1.1202785968780518,
+      "H4_continuity": 2.4944067001342773,
+      "H4_decoded_mse": 1.2494523525238037,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.161156177520752,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.006086463108658791,
+      "adapter_norm": 0.14176058769226074,
+      "name": "final_registered_tournament_delta_q8_pca_w0.4",
+      "q_path_length": 1.2659223079681396,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00627839146181941,
+      "H2_full_mse": 1.8238681554794312,
+      "H4_continuity": 2.756211280822754,
+      "H4_decoded_mse": 1.7177850008010864,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7819238901138306,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.009430094622075558,
+      "adapter_norm": 0.12287955731153488,
+      "name": "final_registered_tournament_delta_q8_pca_w0.4",
+      "q_path_length": 1.0713633298873901,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "final_registered_tournament_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.01027415506541729,
+      "H2_full_mse": 1.1084295511245728,
+      "H4_continuity": 2.4950907230377197,
+      "H4_decoded_mse": 1.2404277324676514,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1374098062515259,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.029832711443305016,
+      "adapter_norm": 0.2732880711555481,
+      "name": "final_registered_tournament_integrated_q2_pca_w0.1",
+      "q_path_length": 5.681303977966309,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.002992647932842374,
+      "H2_full_mse": 1.798025131225586,
+      "H4_continuity": 2.7584002017974854,
+      "H4_decoded_mse": 1.7124502658843994,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.742094874382019,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.049259085208177567,
+      "adapter_norm": 0.30616286396980286,
+      "name": "final_registered_tournament_integrated_q2_pca_w0.1",
+      "q_path_length": 6.89702033996582,
+      "samples": 86
+    }
+  },
+  "final_registered_tournament_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "final_registered_tournament_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011475558392703533,
+      "H2_full_mse": 1.1083461046218872,
+      "H4_continuity": 2.495100975036621,
+      "H4_decoded_mse": 1.239922285079956,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1368693113327026,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.03037332370877266,
+      "adapter_norm": 0.26994428038597107,
+      "name": "final_registered_tournament_integrated_q2_pca_w0.4",
+      "q_path_length": 5.481822490692139,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0028710043989121914,
+      "H2_full_mse": 1.7991325855255127,
+      "H4_continuity": 2.7580785751342773,
+      "H4_decoded_mse": 1.7124797105789185,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7421479225158691,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04920615628361702,
+      "adapter_norm": 0.2924990653991699,
+      "name": "final_registered_tournament_integrated_q2_pca_w0.4",
+      "q_path_length": 6.349390029907227,
+      "samples": 86
+    }
+  }
+}

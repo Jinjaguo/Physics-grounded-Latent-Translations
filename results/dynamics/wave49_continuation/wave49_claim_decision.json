@@ -1,0 +1,8 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "history_delta_bridge_delta_q2_pca_w0.4",
+  "method": "history_delta_bridge",
+  "termination_rule": "success or Wave78 only; continue otherwise",
+  "wave": 49
+}

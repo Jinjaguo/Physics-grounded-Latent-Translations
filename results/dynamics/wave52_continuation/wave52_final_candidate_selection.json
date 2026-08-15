@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:13.554006-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "action_chunk_weighting_integrated_q2_pca_w0.4",
+    "action_chunk_weighting_integrated_q2_pca_w0.1",
+    "action_chunk_weighting_delta_q2_pca_w0.4",
+    "action_chunk_weighting_delta_q2_pca_w0.1",
+    "action_chunk_weighting_delta_q8_pca_w0.4",
+    "action_chunk_weighting_delta_q8_pca_w0.1",
+    "action_chunk_weighting_delta_q4_pca_w0.4",
+    "action_chunk_weighting_integrated_q2_random_w0.1"
+  ]
+}

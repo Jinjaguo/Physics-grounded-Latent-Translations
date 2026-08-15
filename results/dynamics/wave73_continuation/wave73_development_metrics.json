@@ -1,0 +1,674 @@
+{
+  "contact_phase_mixture_delta_q2_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1656910181045532,
+      "best_epoch": 35,
+      "runtime_seconds": 0.10377637500641868
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0030797887593507767,
+      "H2_full_mse": 1.1099120378494263,
+      "H4_continuity": 2.4003260135650635,
+      "H4_decoded_mse": 1.2568721771240234,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1072620153427124,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.012522956356406212,
+      "adapter_norm": 0.07284290343523026,
+      "name": "contact_phase_mixture_delta_q2_pca_w0.1",
+      "q_path_length": 0.638963520526886,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contact_phase_mixture_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_delta_q2_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1658557653427124,
+      "best_epoch": 35,
+      "runtime_seconds": 0.08966579800471663
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0026026007253676653,
+      "H2_full_mse": 1.1097561120986938,
+      "H4_continuity": 2.400350332260132,
+      "H4_decoded_mse": 1.2561416625976562,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1077735424041748,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.012011389248073101,
+      "adapter_norm": 0.07204099744558334,
+      "name": "contact_phase_mixture_delta_q2_pca_w0.4",
+      "q_path_length": 0.6290172338485718,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contact_phase_mixture_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_delta_q2_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1733427047729492,
+      "best_epoch": 7,
+      "runtime_seconds": 0.01201856101397425
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0008917150553315878,
+      "H2_full_mse": 1.1163955926895142,
+      "H4_continuity": 2.3999974727630615,
+      "H4_decoded_mse": 1.260955572128296,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.120617389678955,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0008324854425154626,
+      "adapter_norm": 0.01001120638102293,
+      "name": "contact_phase_mixture_delta_q2_random_w0.1",
+      "q_path_length": 0.08347058296203613,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "contact_phase_mixture_delta_q2_random_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_delta_q2_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1731445789337158,
+      "best_epoch": 7,
+      "runtime_seconds": 0.010475233022589236
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.00024033343652263284,
+      "H2_full_mse": 1.1164733171463013,
+      "H4_continuity": 2.3998095989227295,
+      "H4_decoded_mse": 1.260912299156189,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.120040774345398,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.000255871593253687,
+      "adapter_norm": 0.004688539542257786,
+      "name": "contact_phase_mixture_delta_q2_random_w0.4",
+      "q_path_length": 0.0390826091170311,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "contact_phase_mixture_delta_q2_random_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_delta_q4_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1677794456481934,
+      "best_epoch": 35,
+      "runtime_seconds": 0.10172050699475221
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.006519176997244358,
+      "H2_full_mse": 1.1075724363327026,
+      "H4_continuity": 2.4035634994506836,
+      "H4_decoded_mse": 1.2616149187088013,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1147335767745972,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0050513786263763905,
+      "adapter_norm": 0.1131003275513649,
+      "name": "contact_phase_mixture_delta_q4_pca_w0.1",
+      "q_path_length": 0.9877386093139648,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contact_phase_mixture_delta_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_delta_q4_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1674787998199463,
+      "best_epoch": 35,
+      "runtime_seconds": 0.08877841700450517
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.00614143256098032,
+      "H2_full_mse": 1.1072794198989868,
+      "H4_continuity": 2.40362811088562,
+      "H4_decoded_mse": 1.2615058422088623,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.114244818687439,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.005540019366890192,
+      "adapter_norm": 0.1158311665058136,
+      "name": "contact_phase_mixture_delta_q4_pca_w0.4",
+      "q_path_length": 1.0134978294372559,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contact_phase_mixture_delta_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_delta_q4_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1726971864700317,
+      "best_epoch": 16,
+      "runtime_seconds": 0.0324828689917922
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0007952884770929813,
+      "H2_full_mse": 1.1160186529159546,
+      "H4_continuity": 2.399341106414795,
+      "H4_decoded_mse": 1.2608532905578613,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.119397759437561,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.00038721042801626027,
+      "adapter_norm": 0.020053649321198463,
+      "name": "contact_phase_mixture_delta_q4_random_w0.1",
+      "q_path_length": 0.16736683249473572,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "contact_phase_mixture_delta_q4_random_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_delta_q4_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1724624633789062,
+      "best_epoch": 14,
+      "runtime_seconds": 0.024140074994647875
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0005379343056119978,
+      "H2_full_mse": 1.115818977355957,
+      "H4_continuity": 2.399393320083618,
+      "H4_decoded_mse": 1.260447382926941,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1188732385635376,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0009116886067204177,
+      "adapter_norm": 0.021640537306666374,
+      "name": "contact_phase_mixture_delta_q4_random_w0.4",
+      "q_path_length": 0.18056751787662506,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "contact_phase_mixture_delta_q4_random_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_delta_q8_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.164487361907959,
+      "best_epoch": 35,
+      "runtime_seconds": 0.09658995299832895
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0010067005641758442,
+      "H2_full_mse": 1.10382080078125,
+      "H4_continuity": 2.3997068405151367,
+      "H4_decoded_mse": 1.2577491998672485,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1103096008300781,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.009475339204072952,
+      "adapter_norm": 0.1258702427148819,
+      "name": "contact_phase_mixture_delta_q8_pca_w0.1",
+      "q_path_length": 1.111285924911499,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contact_phase_mixture_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_delta_q8_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1638513803482056,
+      "best_epoch": 35,
+      "runtime_seconds": 0.1030576380144339
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.004920087289065123,
+      "H2_full_mse": 1.1008024215698242,
+      "H4_continuity": 2.4007041454315186,
+      "H4_decoded_mse": 1.258466362953186,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.1120827198028564,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0077022709883749485,
+      "adapter_norm": 0.1505119651556015,
+      "name": "contact_phase_mixture_delta_q8_pca_w0.4",
+      "q_path_length": 1.3632326126098633,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contact_phase_mixture_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_delta_q8_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1674418449401855,
+      "best_epoch": 35,
+      "runtime_seconds": 0.055773657019017264
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.004225211217999458,
+      "H2_full_mse": 1.1118844747543335,
+      "H4_continuity": 2.4031755924224854,
+      "H4_decoded_mse": 1.262521505355835,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.109141230583191,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.010643748566508293,
+      "adapter_norm": 0.12851107120513916,
+      "name": "contact_phase_mixture_delta_q8_random_w0.1",
+      "q_path_length": 1.1735777854919434,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "contact_phase_mixture_delta_q8_random_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_delta_q8_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1680879592895508,
+      "best_epoch": 35,
+      "runtime_seconds": 0.06787062698276713
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0034036829601973295,
+      "H2_full_mse": 1.1123648881912231,
+      "H4_continuity": 2.403334140777588,
+      "H4_decoded_mse": 1.2617141008377075,
+      "H4_endpoint_accuracy": 0.17266187050359713,
+      "H4_full_mse": 1.1105132102966309,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.009271697141230106,
+      "adapter_norm": 0.12181942164897919,
+      "name": "contact_phase_mixture_delta_q8_random_w0.4",
+      "q_path_length": 1.0744357109069824,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "contact_phase_mixture_delta_q8_random_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_integrated_q2_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1519279479980469,
+      "best_epoch": 35,
+      "runtime_seconds": 0.1193605600274168
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0044219642877578735,
+      "H2_full_mse": 1.0949795246124268,
+      "H4_continuity": 2.401463270187378,
+      "H4_decoded_mse": 1.252434253692627,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.0946775674819946,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.025107456371188164,
+      "adapter_norm": 0.28372037410736084,
+      "name": "contact_phase_mixture_integrated_q2_pca_w0.1",
+      "q_path_length": 6.358172416687012,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contact_phase_mixture_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_integrated_q2_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1519501209259033,
+      "best_epoch": 35,
+      "runtime_seconds": 0.12432159899617545
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.004722430370748043,
+      "H2_full_mse": 1.0947871208190918,
+      "H4_continuity": 2.401777744293213,
+      "H4_decoded_mse": 1.2517460584640503,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.0945329666137695,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.02525205723941326,
+      "adapter_norm": 0.28139135241508484,
+      "name": "contact_phase_mixture_integrated_q2_pca_w0.4",
+      "q_path_length": 6.109477519989014,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contact_phase_mixture_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_integrated_q2_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1737231016159058,
+      "best_epoch": 7,
+      "runtime_seconds": 0.021942165010841563
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.002028200775384903,
+      "H2_full_mse": 1.1165145635604858,
+      "H4_continuity": 2.3992929458618164,
+      "H4_decoded_mse": 1.262074589729309,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1215171813964844,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0017321713967248797,
+      "adapter_norm": 0.01978069730103016,
+      "name": "contact_phase_mixture_integrated_q2_random_w0.1",
+      "q_path_length": 0.19709566235542297,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "contact_phase_mixture_integrated_q2_random_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_integrated_q2_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1736822128295898,
+      "best_epoch": 7,
+      "runtime_seconds": 0.01771029000519775
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.001617946894839406,
+      "H2_full_mse": 1.1163514852523804,
+      "H4_continuity": 2.400364398956299,
+      "H4_decoded_mse": 1.2610528469085693,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1215256452560425,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.00174063874874264,
+      "adapter_norm": 0.020538846030831337,
+      "name": "contact_phase_mixture_integrated_q2_random_w0.4",
+      "q_path_length": 0.20439672470092773,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "contact_phase_mixture_integrated_q2_random_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_integrated_q4_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.165819525718689,
+      "best_epoch": 21,
+      "runtime_seconds": 0.08526097098365426
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.024791723117232323,
+      "H2_full_mse": 1.1004539728164673,
+      "H4_continuity": 2.4046876430511475,
+      "H4_decoded_mse": 1.2652168273925781,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.1190725564956665,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0007123820832930505,
+      "adapter_norm": 0.22156096994876862,
+      "name": "contact_phase_mixture_integrated_q4_pca_w0.1",
+      "q_path_length": 2.752448081970215,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contact_phase_mixture_integrated_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_integrated_q4_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1656193733215332,
+      "best_epoch": 23,
+      "runtime_seconds": 0.09324360699974932
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.028468633070588112,
+      "H2_full_mse": 1.0986703634262085,
+      "H4_continuity": 2.4052326679229736,
+      "H4_decoded_mse": 1.2667104005813599,
+      "H4_endpoint_accuracy": 0.20863309352517986,
+      "H4_full_mse": 1.121260166168213,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0014752346323803067,
+      "adapter_norm": 0.23714850842952728,
+      "name": "contact_phase_mixture_integrated_q4_pca_w0.4",
+      "q_path_length": 3.061962604522705,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contact_phase_mixture_integrated_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_integrated_q4_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1733449697494507,
+      "best_epoch": 8,
+      "runtime_seconds": 0.022088959987740964
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0003169045958202332,
+      "H2_full_mse": 1.1159441471099854,
+      "H4_continuity": 2.399754762649536,
+      "H4_decoded_mse": 1.2604337930679321,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1209166049957275,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.00113160430919379,
+      "adapter_norm": 0.028613056987524033,
+      "name": "contact_phase_mixture_integrated_q4_random_w0.1",
+      "q_path_length": 0.28509920835494995,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "contact_phase_mixture_integrated_q4_random_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_integrated_q4_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1729363203048706,
+      "best_epoch": 8,
+      "runtime_seconds": 0.02008038602070883
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0020143839064985514,
+      "H2_full_mse": 1.1158047914505005,
+      "H4_continuity": 2.3994922637939453,
+      "H4_decoded_mse": 1.2612502574920654,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.120468020439148,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0006830284837633371,
+      "adapter_norm": 0.02948838472366333,
+      "name": "contact_phase_mixture_integrated_q4_random_w0.4",
+      "q_path_length": 0.29394271969795227,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "contact_phase_mixture_integrated_q4_random_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_integrated_q8_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1603641510009766,
+      "best_epoch": 29,
+      "runtime_seconds": 0.10946549501386471
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.04093753919005394,
+      "H2_full_mse": 1.080984354019165,
+      "H4_continuity": 2.3973629474639893,
+      "H4_decoded_mse": 1.263244867324829,
+      "H4_endpoint_accuracy": 0.20863309352517986,
+      "H4_full_mse": 1.1296507120132446,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.009865726344287395,
+      "adapter_norm": 0.33920323848724365,
+      "name": "contact_phase_mixture_integrated_q8_pca_w0.1",
+      "q_path_length": 5.57789421081543,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contact_phase_mixture_integrated_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_integrated_q8_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.160928726196289,
+      "best_epoch": 28,
+      "runtime_seconds": 0.10652098199352622
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.03501524403691292,
+      "H2_full_mse": 1.0815602540969849,
+      "H4_continuity": 2.397986888885498,
+      "H4_decoded_mse": 1.2610715627670288,
+      "H4_endpoint_accuracy": 0.2158273381294964,
+      "H4_full_mse": 1.1297436952590942,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.009958749637007713,
+      "adapter_norm": 0.33738067746162415,
+      "name": "contact_phase_mixture_integrated_q8_pca_w0.4",
+      "q_path_length": 5.380618572235107,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contact_phase_mixture_integrated_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "contact_phase_mixture_integrated_q8_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1558406352996826,
+      "best_epoch": 35,
+      "runtime_seconds": 0.0987410899833776
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.003007226623594761,
+      "H2_full_mse": 1.0934851169586182,
+      "H4_continuity": 2.420502185821533,
+      "H4_decoded_mse": 1.2664142847061157,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.1015996932983398,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.01818525604903698,
+      "adapter_norm": 0.48690956830978394,
+      "name": "contact_phase_mixture_integrated_q8_random_w0.1",
+      "q_path_length": 12.54881763458252,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "contact_phase_mixture_integrated_q8_random_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "contact_phase_mixture_integrated_q8_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1547670364379883,
+      "best_epoch": 35,
+      "runtime_seconds": 0.09341326900175773
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0024400821421295404,
+      "H2_full_mse": 1.0931651592254639,
+      "H4_continuity": 2.421328067779541,
+      "H4_decoded_mse": 1.2670336961746216,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.098836064338684,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.02094883844256401,
+      "adapter_norm": 0.4993666708469391,
+      "name": "contact_phase_mixture_integrated_q8_random_w0.4",
+      "q_path_length": 14.116738319396973,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "contact_phase_mixture_integrated_q8_random_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  }
+}

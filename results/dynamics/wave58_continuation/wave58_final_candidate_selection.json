@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:36.807005-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "adaptive_low_rank_basis_integrated_q2_pca_w0.4",
+    "adaptive_low_rank_basis_integrated_q2_pca_w0.1",
+    "adaptive_low_rank_basis_delta_q2_pca_w0.1",
+    "adaptive_low_rank_basis_delta_q2_pca_w0.4",
+    "adaptive_low_rank_basis_delta_q8_pca_w0.1",
+    "adaptive_low_rank_basis_delta_q8_pca_w0.4",
+    "adaptive_low_rank_basis_delta_q4_pca_w0.1",
+    "adaptive_low_rank_basis_delta_q4_pca_w0.4"
+  ]
+}

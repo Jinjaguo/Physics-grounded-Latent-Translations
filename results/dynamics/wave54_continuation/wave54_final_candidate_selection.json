@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:21.587236-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "causal_feature_ablation_integrated_q2_pca_w0.4",
+    "causal_feature_ablation_integrated_q2_pca_w0.1",
+    "causal_feature_ablation_delta_q2_pca_w0.1",
+    "causal_feature_ablation_delta_q2_pca_w0.4",
+    "causal_feature_ablation_delta_q8_pca_w0.4",
+    "causal_feature_ablation_delta_q8_pca_w0.1",
+    "causal_feature_ablation_delta_q4_pca_w0.1",
+    "causal_feature_ablation_delta_q4_pca_w0.4"
+  ]
+}

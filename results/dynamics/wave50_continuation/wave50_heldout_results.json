@@ -1,0 +1,298 @@
+{
+  "arrival_phase_encoding_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.003721101675182581,
+      "H2_full_mse": 1.1257752180099487,
+      "H4_continuity": 2.494447946548462,
+      "H4_decoded_mse": 1.2483364343643188,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1535935401916504,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.01364926341921091,
+      "adapter_norm": 0.07601795345544815,
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.1",
+      "q_path_length": 0.6717040538787842,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0017471401952207088,
+      "H2_full_mse": 1.832441806793213,
+      "H4_continuity": 2.7572927474975586,
+      "H4_decoded_mse": 1.719095230102539,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.774480938911438,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.016873078420758247,
+      "adapter_norm": 0.07030139863491058,
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.1",
+      "q_path_length": 0.6071756482124329,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0028490223921835423,
+      "H2_full_mse": 1.1273548603057861,
+      "H4_continuity": 2.4944474697113037,
+      "H4_decoded_mse": 1.248595118522644,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1551889181137085,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.012053621001541615,
+      "adapter_norm": 0.06386198848485947,
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.4",
+      "q_path_length": 0.5575682520866394,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0016884367214515805,
+      "H2_full_mse": 1.8346071243286133,
+      "H4_continuity": 2.757234573364258,
+      "H4_decoded_mse": 1.7187224626541138,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7777267694473267,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.013627157546579838,
+      "adapter_norm": 0.0545828714966774,
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.4",
+      "q_path_length": 0.4678639769554138,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.007490810938179493,
+      "H2_full_mse": 1.1192480325698853,
+      "H4_continuity": 2.494267463684082,
+      "H4_decoded_mse": 1.2495306730270386,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.1609562635421753,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.006286413408815861,
+      "adapter_norm": 0.13785810768604279,
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.1",
+      "q_path_length": 1.2214998006820679,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.005090828984975815,
+      "H2_full_mse": 1.8227161169052124,
+      "H4_continuity": 2.7557592391967773,
+      "H4_decoded_mse": 1.717917561531067,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7805548906326294,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.010799222625792027,
+      "adapter_norm": 0.11433634907007217,
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.1",
+      "q_path_length": 0.9867112040519714,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.01048635970801115,
+      "H2_full_mse": 1.1191238164901733,
+      "H4_continuity": 2.494856357574463,
+      "H4_decoded_mse": 1.2502049207687378,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.161399245262146,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.0058433059602975845,
+      "adapter_norm": 0.14158298075199127,
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.4",
+      "q_path_length": 1.2527157068252563,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.008789139799773693,
+      "H2_full_mse": 1.8226559162139893,
+      "H4_continuity": 2.756974935531616,
+      "H4_decoded_mse": 1.7192274332046509,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7807791233062744,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01057475060224533,
+      "adapter_norm": 0.12405632436275482,
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.4",
+      "q_path_length": 1.0754603147506714,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.012034311890602112,
+      "H2_full_mse": 1.108080506324768,
+      "H4_continuity": 2.4950408935546875,
+      "H4_decoded_mse": 1.2400158643722534,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.1367579698562622,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.030484691262245178,
+      "adapter_norm": 0.2744998335838318,
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.1",
+      "q_path_length": 5.637815952301025,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0034009453374892473,
+      "H2_full_mse": 1.7981196641921997,
+      "H4_continuity": 2.7582337856292725,
+      "H4_decoded_mse": 1.7136175632476807,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7429958581924438,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04835829138755798,
+      "adapter_norm": 0.3059549629688263,
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.1",
+      "q_path_length": 6.870233535766602,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010441271588206291,
+      "H2_full_mse": 1.1083706617355347,
+      "H4_continuity": 2.4950039386749268,
+      "H4_decoded_mse": 1.2400118112564087,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.1372021436691284,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.03004046157002449,
+      "adapter_norm": 0.27241432666778564,
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.4",
+      "q_path_length": 5.613430023193359,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0027306305710226297,
+      "H2_full_mse": 1.7987971305847168,
+      "H4_continuity": 2.758143186569214,
+      "H4_decoded_mse": 1.7121368646621704,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7416644096374512,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0496893972158432,
+      "adapter_norm": 0.29523760080337524,
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.4",
+      "q_path_length": 6.507873058319092,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_state_q2_pca_w0.1": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010939816944301128,
+      "H2_full_mse": 1.1102949380874634,
+      "H4_continuity": 2.49477219581604,
+      "H4_decoded_mse": 1.2409249544143677,
+      "H4_endpoint_accuracy": 0.18902439024390244,
+      "H4_full_mse": 1.1394301652908325,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.027812466025352478,
+      "adapter_norm": 0.23489689826965332,
+      "name": "arrival_phase_encoding_state_q2_pca_w0.1",
+      "q_path_length": 3.1743364334106445,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0007386557408608496,
+      "H2_full_mse": 1.80412757396698,
+      "H4_continuity": 2.7583165168762207,
+      "H4_decoded_mse": 1.7131322622299194,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.744768738746643,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0465853177011013,
+      "adapter_norm": 0.2499368041753769,
+      "name": "arrival_phase_encoding_state_q2_pca_w0.1",
+      "q_path_length": 3.532421350479126,
+      "samples": 86
+    }
+  },
+  "arrival_phase_encoding_state_q2_pca_w0.4": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.01211311761289835,
+      "H2_full_mse": 1.1098957061767578,
+      "H4_continuity": 2.4952030181884766,
+      "H4_decoded_mse": 1.2408652305603027,
+      "H4_endpoint_accuracy": 0.18902439024390244,
+      "H4_full_mse": 1.139036774635315,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02820580266416073,
+      "adapter_norm": 0.2463178038597107,
+      "name": "arrival_phase_encoding_state_q2_pca_w0.4",
+      "q_path_length": 3.3049476146698,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0005912361666560173,
+      "H2_full_mse": 1.8044352531433105,
+      "H4_continuity": 2.7592337131500244,
+      "H4_decoded_mse": 1.7149040699005127,
+      "H4_endpoint_accuracy": 0.22093023255813954,
+      "H4_full_mse": 1.7445125579833984,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04684147611260414,
+      "adapter_norm": 0.26715490221977234,
+      "name": "arrival_phase_encoding_state_q2_pca_w0.4",
+      "q_path_length": 3.7981882095336914,
+      "samples": 86
+    }
+  }
+}

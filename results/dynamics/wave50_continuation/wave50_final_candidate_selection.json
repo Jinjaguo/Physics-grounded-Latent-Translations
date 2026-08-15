@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:06.131385-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "arrival_phase_encoding_integrated_q2_pca_w0.1",
+    "arrival_phase_encoding_state_q2_pca_w0.1",
+    "arrival_phase_encoding_state_q2_pca_w0.4",
+    "arrival_phase_encoding_integrated_q2_pca_w0.4",
+    "arrival_phase_encoding_delta_q2_pca_w0.1",
+    "arrival_phase_encoding_delta_q2_pca_w0.4",
+    "arrival_phase_encoding_delta_q8_pca_w0.4",
+    "arrival_phase_encoding_delta_q8_pca_w0.1"
+  ]
+}

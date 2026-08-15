@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:09:40.305106-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "nonlinear_force_potential_state_q2_pca_w0.4",
+    "nonlinear_force_potential_state_q2_pca_w0.1",
+    "nonlinear_force_potential_integrated_q2_pca_w0.1",
+    "nonlinear_force_potential_integrated_q2_pca_w0.4",
+    "nonlinear_force_potential_delta_q2_pca_w0.4",
+    "nonlinear_force_potential_delta_q2_pca_w0.1",
+    "nonlinear_force_potential_delta_q8_pca_w0.1",
+    "nonlinear_force_potential_delta_q8_pca_w0.4"
+  ]
+}

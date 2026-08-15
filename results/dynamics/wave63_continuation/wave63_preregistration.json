@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-15T04:09:53.404071-04:00",
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "method": "no_switch_recovery",
+  "termination_rule": "success or Wave78 only; never Wave79",
+  "wave": 63
+}

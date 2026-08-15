@@ -1,0 +1,8 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "latent_action_procrustes_delta_q2_pca_w0.4",
+  "method": "latent_action_procrustes",
+  "termination_rule": "success or Wave78 only; continue otherwise",
+  "wave": 66
+}

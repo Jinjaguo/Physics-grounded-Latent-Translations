@@ -1,0 +1,298 @@
+{
+  "semantic_target_transport_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "semantic_target_transport_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0028458894230425358,
+      "H2_full_mse": 1.1263539791107178,
+      "H4_continuity": 2.4943735599517822,
+      "H4_decoded_mse": 1.2492194175720215,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1534020900726318,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.01384054310619831,
+      "adapter_norm": 0.07215046137571335,
+      "name": "semantic_target_transport_delta_q2_pca_w0.1",
+      "q_path_length": 0.6536127328872681,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0015344605781137943,
+      "H2_full_mse": 1.8331629037857056,
+      "H4_continuity": 2.757018804550171,
+      "H4_decoded_mse": 1.7188868522644043,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7752833366394043,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01607067510485649,
+      "adapter_norm": 0.059141676872968674,
+      "name": "semantic_target_transport_delta_q2_pca_w0.1",
+      "q_path_length": 0.5183269381523132,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "semantic_target_transport_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0023338187020272017,
+      "H2_full_mse": 1.126130223274231,
+      "H4_continuity": 2.49434494972229,
+      "H4_decoded_mse": 1.2497446537017822,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1539602279663086,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.013282335363328457,
+      "adapter_norm": 0.07137347757816315,
+      "name": "semantic_target_transport_delta_q2_pca_w0.4",
+      "q_path_length": 0.6476336121559143,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0010904839728027582,
+      "H2_full_mse": 1.8317757844924927,
+      "H4_continuity": 2.756868600845337,
+      "H4_decoded_mse": 1.719090461730957,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7739027738571167,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01745123416185379,
+      "adapter_norm": 0.06322571635246277,
+      "name": "semantic_target_transport_delta_q2_pca_w0.4",
+      "q_path_length": 0.556547999382019,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_delta_q4_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "semantic_target_transport_delta_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.004071330651640892,
+      "H2_full_mse": 1.1241847276687622,
+      "H4_continuity": 2.4957966804504395,
+      "H4_decoded_mse": 1.2518231868743896,
+      "H4_endpoint_accuracy": 0.25,
+      "H4_full_mse": 1.1591612100601196,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.008081387728452682,
+      "adapter_norm": 0.10381735861301422,
+      "name": "semantic_target_transport_delta_q4_pca_w0.4",
+      "q_path_length": 0.9108851552009583,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004703125916421413,
+      "H2_full_mse": 1.8320711851119995,
+      "H4_continuity": 2.759671211242676,
+      "H4_decoded_mse": 1.7227321863174438,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7824867963790894,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.008867143653333187,
+      "adapter_norm": 0.08446839451789856,
+      "name": "semantic_target_transport_delta_q4_pca_w0.4",
+      "q_path_length": 0.7262305021286011,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_delta_q4_random_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "semantic_target_transport_delta_q4_random_w0.4",
+      "q": 4,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0023411668371409178,
+      "H2_full_mse": 1.132066249847412,
+      "H4_continuity": 2.4942004680633545,
+      "H4_decoded_mse": 1.2517975568771362,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.1685539484024048,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.0013112927554175258,
+      "adapter_norm": 0.04009298235177994,
+      "name": "semantic_target_transport_delta_q4_random_w0.4",
+      "q_path_length": 0.3362288475036621,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.002335520926862955,
+      "H2_full_mse": 1.839171290397644,
+      "H4_continuity": 2.755826950073242,
+      "H4_decoded_mse": 1.7186857461929321,
+      "H4_endpoint_accuracy": 0.23255813953488372,
+      "H4_full_mse": 1.7928225994110107,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.0014685946516692638,
+      "adapter_norm": 0.03212351351976395,
+      "name": "semantic_target_transport_delta_q4_random_w0.4",
+      "q_path_length": 0.2687312364578247,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "semantic_target_transport_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.006300947163254023,
+      "H2_full_mse": 1.1198902130126953,
+      "H4_continuity": 2.4941487312316895,
+      "H4_decoded_mse": 1.248539686203003,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.1610047817230225,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.006237869616597891,
+      "adapter_norm": 0.13196595013141632,
+      "name": "semantic_target_transport_delta_q8_pca_w0.1",
+      "q_path_length": 1.1553646326065063,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.005525324493646622,
+      "H2_full_mse": 1.8240505456924438,
+      "H4_continuity": 2.756333351135254,
+      "H4_decoded_mse": 1.7182461023330688,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7812272310256958,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.010126754641532898,
+      "adapter_norm": 0.12170185148715973,
+      "name": "semantic_target_transport_delta_q8_pca_w0.1",
+      "q_path_length": 1.0496788024902344,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "semantic_target_transport_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.014089315198361874,
+      "H2_full_mse": 1.1182198524475098,
+      "H4_continuity": 2.4941623210906982,
+      "H4_decoded_mse": 1.251435399055481,
+      "H4_endpoint_accuracy": 0.25609756097560976,
+      "H4_full_mse": 1.1646784543991089,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.0025641240645200014,
+      "adapter_norm": 0.15427768230438232,
+      "name": "semantic_target_transport_delta_q8_pca_w0.4",
+      "q_path_length": 1.3987962007522583,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.01215999387204647,
+      "H2_full_mse": 1.818925380706787,
+      "H4_continuity": 2.756704807281494,
+      "H4_decoded_mse": 1.718829870223999,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7823268175125122,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.009027168154716492,
+      "adapter_norm": 0.1457337737083435,
+      "name": "semantic_target_transport_delta_q8_pca_w0.4",
+      "q_path_length": 1.2863352298736572,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "semantic_target_transport_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011570008471608162,
+      "H2_full_mse": 1.1084681749343872,
+      "H4_continuity": 2.495137929916382,
+      "H4_decoded_mse": 1.2399864196777344,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1370375156402588,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.030205033719539642,
+      "adapter_norm": 0.27032873034477234,
+      "name": "semantic_target_transport_integrated_q2_pca_w0.1",
+      "q_path_length": 5.375043869018555,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.001390320947393775,
+      "H2_full_mse": 1.7988280057907104,
+      "H4_continuity": 2.7582292556762695,
+      "H4_decoded_mse": 1.711769938468933,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7416141033172607,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04973989352583885,
+      "adapter_norm": 0.29325681924819946,
+      "name": "semantic_target_transport_integrated_q2_pca_w0.1",
+      "q_path_length": 6.18681526184082,
+      "samples": 86
+    }
+  },
+  "semantic_target_transport_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "semantic_target_transport_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010022028349339962,
+      "H2_full_mse": 1.1078513860702515,
+      "H4_continuity": 2.4950432777404785,
+      "H4_decoded_mse": 1.240964412689209,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.1374236345291138,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.029818950220942497,
+      "adapter_norm": 0.2844325006008148,
+      "name": "semantic_target_transport_integrated_q2_pca_w0.4",
+      "q_path_length": 6.200046539306641,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.004931443836539984,
+      "H2_full_mse": 1.7969601154327393,
+      "H4_continuity": 2.7582387924194336,
+      "H4_decoded_mse": 1.7134106159210205,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.742577314376831,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.048776671290397644,
+      "adapter_norm": 0.31647005677223206,
+      "name": "semantic_target_transport_integrated_q2_pca_w0.4",
+      "q_path_length": 7.563979625701904,
+      "samples": 86
+    }
+  }
+}

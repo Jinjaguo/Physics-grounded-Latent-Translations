@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:10:29.227106-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "cross_source_hard_negative_state_q2_pca_w0.1",
+    "cross_source_hard_negative_integrated_q2_pca_w0.1",
+    "cross_source_hard_negative_state_q2_pca_w0.4",
+    "cross_source_hard_negative_integrated_q2_pca_w0.4",
+    "cross_source_hard_negative_delta_q2_pca_w0.1",
+    "cross_source_hard_negative_delta_q2_pca_w0.4",
+    "cross_source_hard_negative_delta_q8_pca_w0.1",
+    "cross_source_hard_negative_delta_q8_pca_w0.4"
+  ]
+}

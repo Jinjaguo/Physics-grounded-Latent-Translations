@@ -1,0 +1,8 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "nonlinear_force_potential_state_q2_pca_w0.4",
+  "method": "nonlinear_force_potential",
+  "termination_rule": "success or Wave78 only; continue otherwise",
+  "wave": 59
+}

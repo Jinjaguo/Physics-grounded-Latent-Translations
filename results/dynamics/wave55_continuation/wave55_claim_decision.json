@@ -1,0 +1,8 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "source_transfer_mix_delta_q2_pca_w0.4",
+  "method": "source_transfer_mix",
+  "termination_rule": "success or Wave78 only; continue otherwise",
+  "wave": 55
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:10:00.784171-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "ordered_event_time_warp_integrated_q2_pca_w0.1",
+    "ordered_event_time_warp_integrated_q2_pca_w0.4",
+    "ordered_event_time_warp_delta_q2_pca_w0.4",
+    "ordered_event_time_warp_delta_q2_pca_w0.1",
+    "ordered_event_time_warp_delta_q8_pca_w0.1",
+    "ordered_event_time_warp_delta_q8_pca_w0.4",
+    "ordered_event_time_warp_integrated_q8_pca_w0.1",
+    "ordered_event_time_warp_delta_q4_pca_w0.1"
+  ]
+}

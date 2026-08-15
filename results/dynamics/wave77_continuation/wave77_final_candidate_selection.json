@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:10:50.660322-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "pre_final_failure_audit_state_q2_pca_w0.4",
+    "pre_final_failure_audit_state_q2_pca_w0.1",
+    "pre_final_failure_audit_integrated_q2_pca_w0.1",
+    "pre_final_failure_audit_integrated_q2_pca_w0.4",
+    "pre_final_failure_audit_delta_q2_pca_w0.1",
+    "pre_final_failure_audit_delta_q2_pca_w0.4",
+    "pre_final_failure_audit_delta_q8_pca_w0.1",
+    "pre_final_failure_audit_delta_q8_pca_w0.4"
+  ]
+}

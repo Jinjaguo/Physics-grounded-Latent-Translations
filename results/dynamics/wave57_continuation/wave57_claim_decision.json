@@ -1,0 +1,8 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "SUCCESS": false,
+  "best": "contact_history_proxy_delta_q2_pca_w0.1",
+  "method": "contact_history_proxy",
+  "termination_rule": "success or Wave78 only; continue otherwise",
+  "wave": 57
+}

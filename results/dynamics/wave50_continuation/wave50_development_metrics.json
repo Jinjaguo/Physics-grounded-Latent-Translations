@@ -1,0 +1,1010 @@
+{
+  "arrival_phase_encoding_delta_q2_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1653367280960083,
+      "best_epoch": 35,
+      "runtime_seconds": 0.12199972500093281
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.003685485105961561,
+      "H2_full_mse": 1.109661340713501,
+      "H4_continuity": 2.400499105453491,
+      "H4_decoded_mse": 1.2562557458877563,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1061698198318481,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.013615146279335022,
+      "adapter_norm": 0.076236791908741,
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.1",
+      "q_path_length": 0.6725407838821411,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_delta_q2_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1656205654144287,
+      "best_epoch": 35,
+      "runtime_seconds": 0.12808168501942419
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.003462795400992036,
+      "H2_full_mse": 1.1102323532104492,
+      "H4_continuity": 2.400377035140991,
+      "H4_decoded_mse": 1.257144570350647,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.106390118598938,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.013394854962825775,
+      "adapter_norm": 0.07200457155704498,
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.4",
+      "q_path_length": 0.637205183506012,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_delta_q2_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1732228994369507,
+      "best_epoch": 7,
+      "runtime_seconds": 0.011404833989217877
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.00029281125171110034,
+      "H2_full_mse": 1.1165863275527954,
+      "H4_continuity": 2.3997857570648193,
+      "H4_decoded_mse": 1.261078953742981,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1201542615890503,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0003694533952511847,
+      "adapter_norm": 0.0055364337749779224,
+      "name": "arrival_phase_encoding_delta_q2_random_w0.1",
+      "q_path_length": 0.04615195095539093,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "arrival_phase_encoding_delta_q2_random_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_delta_q2_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1726744174957275,
+      "best_epoch": 7,
+      "runtime_seconds": 0.01107953002792783
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.001388026401400566,
+      "H2_full_mse": 1.1166421175003052,
+      "H4_continuity": 2.399705171585083,
+      "H4_decoded_mse": 1.2601737976074219,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1186974048614502,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0010875234147533774,
+      "adapter_norm": 0.011392444372177124,
+      "name": "arrival_phase_encoding_delta_q2_random_w0.4",
+      "q_path_length": 0.09499319642782211,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "arrival_phase_encoding_delta_q2_random_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_delta_q4_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1668199300765991,
+      "best_epoch": 35,
+      "runtime_seconds": 0.12216268799966201
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.003144670045003295,
+      "H2_full_mse": 1.1079380512237549,
+      "H4_continuity": 2.402418375015259,
+      "H4_decoded_mse": 1.2599917650222778,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1123946905136108,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.007390277925878763,
+      "adapter_norm": 0.09924774616956711,
+      "name": "arrival_phase_encoding_delta_q4_pca_w0.1",
+      "q_path_length": 0.8608278632164001,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_delta_q4_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1670597791671753,
+      "best_epoch": 35,
+      "runtime_seconds": 0.14241946299443953
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.003239136189222336,
+      "H2_full_mse": 1.1080812215805054,
+      "H4_continuity": 2.402381181716919,
+      "H4_decoded_mse": 1.2604717016220093,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1125812530517578,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.007203750312328339,
+      "adapter_norm": 0.09886571764945984,
+      "name": "arrival_phase_encoding_delta_q4_pca_w0.4",
+      "q_path_length": 0.857085645198822,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_delta_q4_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.172714114189148,
+      "best_epoch": 7,
+      "runtime_seconds": 0.02046244899975136
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0003886297927238047,
+      "H2_full_mse": 1.1164759397506714,
+      "H4_continuity": 2.3995203971862793,
+      "H4_decoded_mse": 1.2610923051834106,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1191362142562866,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0006487718783318996,
+      "adapter_norm": 0.013199959881603718,
+      "name": "arrival_phase_encoding_delta_q4_random_w0.1",
+      "q_path_length": 0.11008211970329285,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "arrival_phase_encoding_delta_q4_random_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_delta_q4_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1727596521377563,
+      "best_epoch": 22,
+      "runtime_seconds": 0.05998299102066085
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0005890310858376324,
+      "H2_full_mse": 1.116001844406128,
+      "H4_continuity": 2.399352550506592,
+      "H4_decoded_mse": 1.2607555389404297,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.119269847869873,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0005151050281710923,
+      "adapter_norm": 0.03154189884662628,
+      "name": "arrival_phase_encoding_delta_q4_random_w0.4",
+      "q_path_length": 0.26375868916511536,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "arrival_phase_encoding_delta_q4_random_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_delta_q8_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.164764165878296,
+      "best_epoch": 35,
+      "runtime_seconds": 0.14009860399528407
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.004470026586204767,
+      "H2_full_mse": 1.1022071838378906,
+      "H4_continuity": 2.400697946548462,
+      "H4_decoded_mse": 1.2570226192474365,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.1126675605773926,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.007117338012903929,
+      "adapter_norm": 0.14333964884281158,
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.1",
+      "q_path_length": 1.2808196544647217,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_delta_q8_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1642563343048096,
+      "best_epoch": 35,
+      "runtime_seconds": 0.15386836000834592
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0026707747019827366,
+      "H2_full_mse": 1.1028778553009033,
+      "H4_continuity": 2.400703191757202,
+      "H4_decoded_mse": 1.2565193176269531,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.110737919807434,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.009047039784491062,
+      "adapter_norm": 0.13505440950393677,
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.4",
+      "q_path_length": 1.1882609128952026,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_delta_q8_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1674349308013916,
+      "best_epoch": 35,
+      "runtime_seconds": 0.08224672000505961
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.003456564387306571,
+      "H2_full_mse": 1.1116341352462769,
+      "H4_continuity": 2.4037532806396484,
+      "H4_decoded_mse": 1.2623387575149536,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1094439029693604,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.010341021232306957,
+      "adapter_norm": 0.14254674315452576,
+      "name": "arrival_phase_encoding_delta_q8_random_w0.1",
+      "q_path_length": 1.3008148670196533,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "arrival_phase_encoding_delta_q8_random_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_delta_q8_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1672918796539307,
+      "best_epoch": 35,
+      "runtime_seconds": 0.07185607100836933
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.002174842869862914,
+      "H2_full_mse": 1.1109002828598022,
+      "H4_continuity": 2.404217004776001,
+      "H4_decoded_mse": 1.2627596855163574,
+      "H4_endpoint_accuracy": 0.17266187050359713,
+      "H4_full_mse": 1.1101369857788086,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.009647957049310207,
+      "adapter_norm": 0.1550053507089615,
+      "name": "arrival_phase_encoding_delta_q8_random_w0.4",
+      "q_path_length": 1.4201440811157227,
+      "samples": 139
+    },
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "arrival_phase_encoding_delta_q8_random_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_integrated_q2_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1519328355789185,
+      "best_epoch": 35,
+      "runtime_seconds": 0.15011177500127815
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0052755726501345634,
+      "H2_full_mse": 1.0945781469345093,
+      "H4_continuity": 2.401658296585083,
+      "H4_decoded_mse": 1.2507222890853882,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.094345211982727,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.025439715012907982,
+      "adapter_norm": 0.27447429299354553,
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.1",
+      "q_path_length": 5.630012035369873,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_integrated_q2_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1522551774978638,
+      "best_epoch": 35,
+      "runtime_seconds": 0.14672614799928851
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0022103129886090755,
+      "H2_full_mse": 1.0955348014831543,
+      "H4_continuity": 2.40151047706604,
+      "H4_decoded_mse": 1.2541509866714478,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.0958770513534546,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.02390797808766365,
+      "adapter_norm": 0.2927559018135071,
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.4",
+      "q_path_length": 6.9376678466796875,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_integrated_q2_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1730254888534546,
+      "best_epoch": 7,
+      "runtime_seconds": 0.017675003997283056
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.0006894899997860193,
+      "H2_full_mse": 1.1165025234222412,
+      "H4_continuity": 2.400130033493042,
+      "H4_decoded_mse": 1.2603237628936768,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1197142601013184,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 7.073570304783061e-05,
+      "adapter_norm": 0.012448281049728394,
+      "name": "arrival_phase_encoding_integrated_q2_random_w0.1",
+      "q_path_length": 0.1236497089266777,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "arrival_phase_encoding_integrated_q2_random_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_integrated_q2_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.173323392868042,
+      "best_epoch": 7,
+      "runtime_seconds": 0.018928333010990173
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0008260984905064106,
+      "H2_full_mse": 1.1162728071212769,
+      "H4_continuity": 2.400214910507202,
+      "H4_decoded_mse": 1.260975956916809,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1206576824188232,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0008728086249902844,
+      "adapter_norm": 0.013466399163007736,
+      "name": "arrival_phase_encoding_integrated_q2_random_w0.4",
+      "q_path_length": 0.13375863432884216,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "arrival_phase_encoding_integrated_q2_random_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_integrated_q4_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1638754606246948,
+      "best_epoch": 21,
+      "runtime_seconds": 0.11088192299939692
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.020862411707639694,
+      "H2_full_mse": 1.0988492965698242,
+      "H4_continuity": 2.4037978649139404,
+      "H4_decoded_mse": 1.2625532150268555,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1158950328826904,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0038899800274521112,
+      "adapter_norm": 0.21708141267299652,
+      "name": "arrival_phase_encoding_integrated_q4_pca_w0.1",
+      "q_path_length": 2.7328004837036133,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_integrated_q4_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1647080183029175,
+      "best_epoch": 22,
+      "runtime_seconds": 0.11707882001064718
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.025032788515090942,
+      "H2_full_mse": 1.0985031127929688,
+      "H4_continuity": 2.4044575691223145,
+      "H4_decoded_mse": 1.2643628120422363,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.1189348697662354,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0008500889525748789,
+      "adapter_norm": 0.22399261593818665,
+      "name": "arrival_phase_encoding_integrated_q4_pca_w0.4",
+      "q_path_length": 2.856325387954712,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_integrated_q4_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1735643148422241,
+      "best_epoch": 7,
+      "runtime_seconds": 0.018463079002685845
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0013072480214759707,
+      "H2_full_mse": 1.1163932085037231,
+      "H4_continuity": 2.3997342586517334,
+      "H4_decoded_mse": 1.2608624696731567,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1212096214294434,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0014247015351429582,
+      "adapter_norm": 0.021566936746239662,
+      "name": "arrival_phase_encoding_integrated_q4_random_w0.1",
+      "q_path_length": 0.2146856188774109,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "arrival_phase_encoding_integrated_q4_random_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_integrated_q4_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1733052730560303,
+      "best_epoch": 9,
+      "runtime_seconds": 0.022166934999404475
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.002987478394061327,
+      "H2_full_mse": 1.1152150630950928,
+      "H4_continuity": 2.3994743824005127,
+      "H4_decoded_mse": 1.261272668838501,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.1218297481536865,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0020448537543416023,
+      "adapter_norm": 0.046108901500701904,
+      "name": "arrival_phase_encoding_integrated_q4_random_w0.4",
+      "q_path_length": 0.4619421660900116,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "arrival_phase_encoding_integrated_q4_random_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_integrated_q8_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1608949899673462,
+      "best_epoch": 26,
+      "runtime_seconds": 0.13361682699178346
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.03736962005496025,
+      "H2_full_mse": 1.0811004638671875,
+      "H4_continuity": 2.400322675704956,
+      "H4_decoded_mse": 1.2613657712936401,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.1302101612091064,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.010425260290503502,
+      "adapter_norm": 0.34729310870170593,
+      "name": "arrival_phase_encoding_integrated_q8_pca_w0.1",
+      "q_path_length": 5.609346866607666,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_integrated_q8_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.161692500114441,
+      "best_epoch": 28,
+      "runtime_seconds": 0.13357660500332713
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.04254475235939026,
+      "H2_full_mse": 1.080861210823059,
+      "H4_continuity": 2.3982746601104736,
+      "H4_decoded_mse": 1.2661738395690918,
+      "H4_endpoint_accuracy": 0.20863309352517986,
+      "H4_full_mse": 1.1337963342666626,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.014011337421834469,
+      "adapter_norm": 0.3601004183292389,
+      "name": "arrival_phase_encoding_integrated_q8_pca_w0.4",
+      "q_path_length": 6.405028343200684,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_integrated_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_integrated_q8_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1535935401916504,
+      "best_epoch": 35,
+      "runtime_seconds": 0.10009402799187228
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0009293292532674968,
+      "H2_full_mse": 1.0914431810379028,
+      "H4_continuity": 2.416025161743164,
+      "H4_decoded_mse": 1.2670059204101562,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.097456932067871,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.02232816070318222,
+      "adapter_norm": 0.49481379985809326,
+      "name": "arrival_phase_encoding_integrated_q8_random_w0.1",
+      "q_path_length": 12.804793357849121,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "arrival_phase_encoding_integrated_q8_random_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_integrated_q8_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1550445556640625,
+      "best_epoch": 35,
+      "runtime_seconds": 0.09852255700388923
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.00174424285069108,
+      "H2_full_mse": 1.092464804649353,
+      "H4_continuity": 2.418760299682617,
+      "H4_decoded_mse": 1.26608407497406,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.0996007919311523,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.020184198394417763,
+      "adapter_norm": 0.48391255736351013,
+      "name": "arrival_phase_encoding_integrated_q8_random_w0.4",
+      "q_path_length": 13.483138084411621,
+      "samples": 139
+    },
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "arrival_phase_encoding_integrated_q8_random_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_state_q2_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1527903079986572,
+      "best_epoch": 35,
+      "runtime_seconds": 0.13470394400064833
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.004387392196804285,
+      "H2_full_mse": 1.0953819751739502,
+      "H4_continuity": 2.4019901752471924,
+      "H4_decoded_mse": 1.2504256963729858,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.0977941751480103,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.02199077606201172,
+      "adapter_norm": 0.24895058572292328,
+      "name": "arrival_phase_encoding_state_q2_pca_w0.1",
+      "q_path_length": 3.5818023681640625,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_state_q2_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.152613639831543,
+      "best_epoch": 35,
+      "runtime_seconds": 0.1329256879980676
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.005911172833293676,
+      "H2_full_mse": 1.0958794355392456,
+      "H4_continuity": 2.4022302627563477,
+      "H4_decoded_mse": 1.2517070770263672,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.096359372138977,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.023425636813044548,
+      "adapter_norm": 0.25554150342941284,
+      "name": "arrival_phase_encoding_state_q2_pca_w0.4",
+      "q_path_length": 3.643477439880371,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_state_q2_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.173140048980713,
+      "best_epoch": 7,
+      "runtime_seconds": 0.015978902985807508
+    },
+    "metrics": {
+      "Execution_RedirectGain": 0.00033234606962651014,
+      "H2_full_mse": 1.1164839267730713,
+      "H4_continuity": 2.4001457691192627,
+      "H4_decoded_mse": 1.260562539100647,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1199589967727661,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.00017403849051333964,
+      "adapter_norm": 0.010656235739588737,
+      "name": "arrival_phase_encoding_state_q2_random_w0.1",
+      "q_path_length": 0.08885511010885239,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "arrival_phase_encoding_state_q2_random_w0.1",
+      "q": 2,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_state_q2_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1733571290969849,
+      "best_epoch": 7,
+      "runtime_seconds": 0.016019735019654036
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0012711635790765285,
+      "H2_full_mse": 1.1164392232894897,
+      "H4_continuity": 2.3994760513305664,
+      "H4_decoded_mse": 1.261427879333496,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.120587944984436,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.000802947033662349,
+      "adapter_norm": 0.010702059604227543,
+      "name": "arrival_phase_encoding_state_q2_random_w0.4",
+      "q_path_length": 0.08924948424100876,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "arrival_phase_encoding_state_q2_random_w0.4",
+      "q": 2,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_state_q4_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1631979942321777,
+      "best_epoch": 31,
+      "runtime_seconds": 0.13837160199182108
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.02567925676703453,
+      "H2_full_mse": 1.0969382524490356,
+      "H4_continuity": 2.4085605144500732,
+      "H4_decoded_mse": 1.2637879848480225,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.1196718215942383,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0001131594181060791,
+      "adapter_norm": 0.24486397206783295,
+      "name": "arrival_phase_encoding_state_q4_pca_w0.1",
+      "q_path_length": 2.678809642791748,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_state_q4_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1666111946105957,
+      "best_epoch": 26,
+      "runtime_seconds": 0.13791022202349268
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.031125051900744438,
+      "H2_full_mse": 1.0992984771728516,
+      "H4_continuity": 2.4095842838287354,
+      "H4_decoded_mse": 1.267003059387207,
+      "H4_endpoint_accuracy": 0.20863309352517986,
+      "H4_full_mse": 1.1245790719985962,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0047941808588802814,
+      "adapter_norm": 0.24839194118976593,
+      "name": "arrival_phase_encoding_state_q4_pca_w0.4",
+      "q_path_length": 2.5428993701934814,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_state_q4_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1733371019363403,
+      "best_epoch": 7,
+      "runtime_seconds": 0.02151507799862884
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0008496556547470391,
+      "H2_full_mse": 1.1162782907485962,
+      "H4_continuity": 2.3998403549194336,
+      "H4_decoded_mse": 1.2608851194381714,
+      "H4_endpoint_accuracy": 0.18705035971223022,
+      "H4_full_mse": 1.120785117149353,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0010001679183915257,
+      "adapter_norm": 0.01366457063704729,
+      "name": "arrival_phase_encoding_state_q4_random_w0.1",
+      "q_path_length": 0.11397632211446762,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "arrival_phase_encoding_state_q4_random_w0.1",
+      "q": 4,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_state_q4_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1732378005981445,
+      "best_epoch": 9,
+      "runtime_seconds": 0.020904291013721377
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0008429466979578137,
+      "H2_full_mse": 1.1164647340774536,
+      "H4_continuity": 2.399729013442993,
+      "H4_decoded_mse": 1.2610993385314941,
+      "H4_endpoint_accuracy": 0.17985611510791366,
+      "H4_full_mse": 1.1203974485397339,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.0006125039653852582,
+      "adapter_norm": 0.014682876877486706,
+      "name": "arrival_phase_encoding_state_q4_random_w0.4",
+      "q_path_length": 0.12249618768692017,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "arrival_phase_encoding_state_q4_random_w0.4",
+      "q": 4,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_state_q8_pca_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1610444784164429,
+      "best_epoch": 34,
+      "runtime_seconds": 0.167885089002084
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.040609944611787796,
+      "H2_full_mse": 1.0813143253326416,
+      "H4_continuity": 2.404824733734131,
+      "H4_decoded_mse": 1.2635276317596436,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.133573293685913,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.013788210228085518,
+      "adapter_norm": 0.37708669900894165,
+      "name": "arrival_phase_encoding_state_q8_pca_w0.1",
+      "q_path_length": 4.731677055358887,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_state_q8_pca_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1606724262237549,
+      "best_epoch": 35,
+      "runtime_seconds": 0.1561393569863867
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.047156959772109985,
+      "H2_full_mse": 1.0781683921813965,
+      "H4_continuity": 2.4117541313171387,
+      "H4_decoded_mse": 1.2651983499526978,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.1396796703338623,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": -0.019894598051905632,
+      "adapter_norm": 0.45509496331214905,
+      "name": "arrival_phase_encoding_state_q8_pca_w0.4",
+      "q_path_length": 6.570931434631348,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "arrival_phase_encoding_state_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  },
+  "arrival_phase_encoding_state_q8_random_w0.1": {
+    "fit": {
+      "best_dev_latent_loss": 1.1584433317184448,
+      "best_epoch": 35,
+      "runtime_seconds": 0.08348904500599019
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0013716070679947734,
+      "H2_full_mse": 1.099404215812683,
+      "H4_continuity": 2.421205759048462,
+      "H4_decoded_mse": 1.2663096189498901,
+      "H4_endpoint_accuracy": 0.19424460431654678,
+      "H4_full_mse": 1.103196620941162,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.0165883619338274,
+      "adapter_norm": 0.4348621368408203,
+      "name": "arrival_phase_encoding_state_q8_random_w0.1",
+      "q_path_length": 6.126852989196777,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "arrival_phase_encoding_state_q8_random_w0.1",
+      "q": 8,
+      "weight": 0.1
+    }
+  },
+  "arrival_phase_encoding_state_q8_random_w0.4": {
+    "fit": {
+      "best_dev_latent_loss": 1.1587127447128296,
+      "best_epoch": 35,
+      "runtime_seconds": 0.08687403000658378
+    },
+    "metrics": {
+      "Execution_RedirectGain": -0.0029636065009981394,
+      "H2_full_mse": 1.098819375038147,
+      "H4_continuity": 2.4251911640167236,
+      "H4_decoded_mse": 1.2666327953338623,
+      "H4_endpoint_accuracy": 0.2014388489208633,
+      "H4_full_mse": 1.105025053024292,
+      "H4_true_continuity": 0.8130121231079102,
+      "RedirectGain": 0.014759976416826248,
+      "adapter_norm": 0.4502311050891876,
+      "name": "arrival_phase_encoding_state_q8_random_w0.4",
+      "q_path_length": 6.661196708679199,
+      "samples": 139
+    },
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "arrival_phase_encoding_state_q8_random_w0.4",
+      "q": 8,
+      "weight": 0.4
+    }
+  }
+}

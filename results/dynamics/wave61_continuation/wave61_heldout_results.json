@@ -1,0 +1,298 @@
+{
+  "contrastive_margin_sweep_delta_q2_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_delta_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.002957816468551755,
+      "H2_full_mse": 1.1265119314193726,
+      "H4_continuity": 2.4943783283233643,
+      "H4_decoded_mse": 1.248847246170044,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.153395652770996,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.013846978545188904,
+      "adapter_norm": 0.07225886732339859,
+      "name": "contrastive_margin_sweep_delta_q2_pca_w0.1",
+      "q_path_length": 0.6498749256134033,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.001689621014520526,
+      "H2_full_mse": 1.8339207172393799,
+      "H4_continuity": 2.7570817470550537,
+      "H4_decoded_mse": 1.7186933755874634,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7757121324539185,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.015641892328858376,
+      "adapter_norm": 0.057192862033843994,
+      "name": "contrastive_margin_sweep_delta_q2_pca_w0.1",
+      "q_path_length": 0.5005016326904297,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_delta_q2_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_delta_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0016150989104062319,
+      "H2_full_mse": 1.1272835731506348,
+      "H4_continuity": 2.4942750930786133,
+      "H4_decoded_mse": 1.2495102882385254,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.1535333395004272,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.013709332793951035,
+      "adapter_norm": 0.07469169050455093,
+      "name": "contrastive_margin_sweep_delta_q2_pca_w0.4",
+      "q_path_length": 0.6877718567848206,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0014657566789537668,
+      "H2_full_mse": 1.8346823453903198,
+      "H4_continuity": 2.756962537765503,
+      "H4_decoded_mse": 1.7183383703231812,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7757188081741333,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01563519611954689,
+      "adapter_norm": 0.05266367644071579,
+      "name": "contrastive_margin_sweep_delta_q2_pca_w0.4",
+      "q_path_length": 0.4703350067138672,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_delta_q4_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_delta_q4_pca_w0.1",
+      "q": 4,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0042395200580358505,
+      "H2_full_mse": 1.1249964237213135,
+      "H4_continuity": 2.495582103729248,
+      "H4_decoded_mse": 1.2513805627822876,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.160083532333374,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.007159086875617504,
+      "adapter_norm": 0.09915927052497864,
+      "name": "contrastive_margin_sweep_delta_q4_pca_w0.1",
+      "q_path_length": 0.8630793690681458,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0051779733039438725,
+      "H2_full_mse": 1.8324666023254395,
+      "H4_continuity": 2.7605981826782227,
+      "H4_decoded_mse": 1.7229942083358765,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7822065353393555,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.009147479198873043,
+      "adapter_norm": 0.08799245953559875,
+      "name": "contrastive_margin_sweep_delta_q4_pca_w0.1",
+      "q_path_length": 0.7546435594558716,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_delta_q4_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_delta_q4_pca_w0.4",
+      "q": 4,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.002461241092532873,
+      "H2_full_mse": 1.1253408193588257,
+      "H4_continuity": 2.4949705600738525,
+      "H4_decoded_mse": 1.251008152961731,
+      "H4_endpoint_accuracy": 0.24390243902439024,
+      "H4_full_mse": 1.1574913263320923,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.009751193225383759,
+      "adapter_norm": 0.10854493081569672,
+      "name": "contrastive_margin_sweep_delta_q4_pca_w0.4",
+      "q_path_length": 0.9540764689445496,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0014229693915694952,
+      "H2_full_mse": 1.834153652191162,
+      "H4_continuity": 2.7592451572418213,
+      "H4_decoded_mse": 1.7217047214508057,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7819888591766357,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.009365148842334747,
+      "adapter_norm": 0.08232267200946808,
+      "name": "contrastive_margin_sweep_delta_q4_pca_w0.4",
+      "q_path_length": 0.7102455496788025,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_delta_q8_pca_w0.1": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_delta_q8_pca_w0.1",
+      "q": 8,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": -0.006003718823194504,
+      "H2_full_mse": 1.1196534633636475,
+      "H4_continuity": 2.4943885803222656,
+      "H4_decoded_mse": 1.2482880353927612,
+      "H4_endpoint_accuracy": 0.23780487804878048,
+      "H4_full_mse": 1.1587551832199097,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.008487323299050331,
+      "adapter_norm": 0.14137400686740875,
+      "name": "contrastive_margin_sweep_delta_q8_pca_w0.1",
+      "q_path_length": 1.2525261640548706,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.007029492408037186,
+      "H2_full_mse": 1.8225523233413696,
+      "H4_continuity": 2.756877899169922,
+      "H4_decoded_mse": 1.7178878784179688,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7787060737609863,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.012647843919694424,
+      "adapter_norm": 0.13051937520503998,
+      "name": "contrastive_margin_sweep_delta_q8_pca_w0.1",
+      "q_path_length": 1.1352081298828125,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_delta_q8_pca_w0.4": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_delta_q8_pca_w0.4",
+      "q": 8,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0031379687134176493,
+      "H2_full_mse": 1.1222529411315918,
+      "H4_continuity": 2.493311882019043,
+      "H4_decoded_mse": 1.2491716146469116,
+      "H4_endpoint_accuracy": 0.21951219512195122,
+      "H4_full_mse": 1.1561610698699951,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.01108156144618988,
+      "adapter_norm": 0.13734348118305206,
+      "name": "contrastive_margin_sweep_delta_q8_pca_w0.4",
+      "q_path_length": 1.2275540828704834,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0002081262500723824,
+      "H2_full_mse": 1.8283538818359375,
+      "H4_continuity": 2.756425380706787,
+      "H4_decoded_mse": 1.7176522016525269,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.778152585029602,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.01320132240653038,
+      "adapter_norm": 0.09943435341119766,
+      "name": "contrastive_margin_sweep_delta_q8_pca_w0.4",
+      "q_path_length": 0.8631466031074524,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_integrated_q2_pca_w0.1": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_integrated_q2_pca_w0.1",
+      "q": 2,
+      "weight": 0.1
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011328192427754402,
+      "H2_full_mse": 1.1088037490844727,
+      "H4_continuity": 2.4951510429382324,
+      "H4_decoded_mse": 1.2390793561935425,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1363269090652466,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.030915873125195503,
+      "adapter_norm": 0.26585760712623596,
+      "name": "contrastive_margin_sweep_integrated_q2_pca_w0.1",
+      "q_path_length": 5.35427713394165,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00030409908504225314,
+      "H2_full_mse": 1.7986435890197754,
+      "H4_continuity": 2.75807785987854,
+      "H4_decoded_mse": 1.708970546722412,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7394874095916748,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.051866564899683,
+      "adapter_norm": 0.29356884956359863,
+      "name": "contrastive_margin_sweep_integrated_q2_pca_w0.1",
+      "q_path_length": 6.395153045654297,
+      "samples": 86
+    }
+  },
+  "contrastive_margin_sweep_integrated_q2_pca_w0.4": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "contrastive_margin_sweep_integrated_q2_pca_w0.4",
+      "q": 2,
+      "weight": 0.4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010768451727926731,
+      "H2_full_mse": 1.110714077949524,
+      "H4_continuity": 2.4956119060516357,
+      "H4_decoded_mse": 1.239762783050537,
+      "H4_endpoint_accuracy": 0.17073170731707318,
+      "H4_full_mse": 1.1357401609420776,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.03150249645113945,
+      "adapter_norm": 0.26058652997016907,
+      "name": "contrastive_margin_sweep_integrated_q2_pca_w0.4",
+      "q_path_length": 5.609238624572754,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.001328050740994513,
+      "H2_full_mse": 1.7998501062393188,
+      "H4_continuity": 2.758350372314453,
+      "H4_decoded_mse": 1.7091752290725708,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7414263486862183,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04992767795920372,
+      "adapter_norm": 0.3047108054161072,
+      "name": "contrastive_margin_sweep_integrated_q2_pca_w0.4",
+      "q_path_length": 7.475028991699219,
+      "samples": 86
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:10:36.349945-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "contact_phase_mixture_integrated_q2_pca_w0.4",
+    "contact_phase_mixture_integrated_q2_pca_w0.1",
+    "contact_phase_mixture_delta_q2_pca_w0.4",
+    "contact_phase_mixture_delta_q2_pca_w0.1",
+    "contact_phase_mixture_delta_q8_pca_w0.1",
+    "contact_phase_mixture_delta_q8_pca_w0.4",
+    "contact_phase_mixture_delta_q4_random_w0.4",
+    "contact_phase_mixture_delta_q4_random_w0.1"
+  ]
+}

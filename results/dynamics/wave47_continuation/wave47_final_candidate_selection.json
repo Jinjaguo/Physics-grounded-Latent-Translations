@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-08-15T04:08:52.778525-04:00",
+  "heldout_opened": false,
+  "selected": [
+    "return_cycle_recovery_integrated_q2_pca_w0.4",
+    "return_cycle_recovery_state_q2_pca_w0.1",
+    "return_cycle_recovery_integrated_q2_pca_w0.1",
+    "return_cycle_recovery_state_q2_pca_w0.4",
+    "return_cycle_recovery_delta_q2_pca_w0.1",
+    "return_cycle_recovery_delta_q2_pca_w0.4",
+    "return_cycle_recovery_delta_q8_pca_w0.4",
+    "return_cycle_recovery_delta_q8_pca_w0.1"
+  ]
+}
