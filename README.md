@@ -11,6 +11,26 @@ separate prospective Representation Readiness Gate is `PASS`. The latter
 freezes the representation for the paper and authorizes the next latent
 dynamics stage without erasing the historical failed cell.
 
+## Project north star: Actions as Coordinates
+
+The project-level paper story, supported claims, rejected interpretations, and
+long-term system target are maintained in
+[`actions_as_coordinates_project_paper_outline.md`](actions_as_coordinates_project_paper_outline.md).
+
+**Required pre-run protocol:** before planning or executing every new
+experimental wave, collaborators and coding agents must read that outline in
+full and align the experiment with it. In particular, keep the Wave21 causal
+language-redirection result central, preserve all historical claim decisions,
+do not present distributional transition structure or interactive capabilities
+as established before their gates pass, and prefer experiments that identify
+the missing transition structure over repeated threshold or attraction-loss
+tuning.
+
+The outline is the research north star; frozen manifests, preregistrations, and
+recorded experimental results remain the source of truth for exact protocol and
+claim status. Update the outline only when a new experiment materially changes
+the scientific interpretation.
+
 ## Released method
 
 - Input: an action-only `H=16` CALVIN `rel_actions` window.
@@ -37,6 +57,8 @@ dynamics stage without erasing the historical failed cell.
 - `results/representation/`: development evidence, historical gate evidence,
   independent replication metrics, and release integrity.
 - `paper/representation_iclr2026.tex`: ICLR 2026-style representation draft.
+- `actions_as_coordinates_project_paper_outline.md`: project/paper north star;
+  required reading before every new experimental wave.
 - `archive/representation_development/`: local, Git-ignored development
   prompts, logs, manifests, and iteration reports. It is not imported by
   released code.
