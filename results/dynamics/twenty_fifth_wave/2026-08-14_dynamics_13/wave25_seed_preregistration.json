@@ -1,0 +1,12 @@
+{
+  "frozen_sampling_and_final_seeds": [
+    250825,
+    250826,
+    250827,
+    250828,
+    250829,
+    250830
+  ],
+  "no_seed_addition_after_heldout": true,
+  "sweep_training_seed": 250825
+}

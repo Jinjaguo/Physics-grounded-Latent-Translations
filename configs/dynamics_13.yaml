@@ -1,0 +1,46 @@
+experiment:
+  name: dynamics_13
+  wave: twenty_fifth_wave
+  output_root: results/dynamics/twenty_fifth_wave/2026-08-14_dynamics_13
+  report_path: reports/dynamics_13_results.md
+  wave21_root: results/dynamics/twenty_first_wave/2026-08-14_dynamics_9
+  wave24_root: results/dynamics/twenty_fourth_wave/2026-08-14_dynamics_12
+
+wave21_config: configs/dynamics_9.yaml
+
+data:
+  horizons: [1, 2, 4]
+  horizon_indices: [0, 1, 3]
+  retrieval_k: 20
+  mode_counts: [1, 2, 3, 4]
+  local_ridge_alpha: [0.001, 0.01, 0.1, 1.0]
+
+training:
+  sweep_seed: 250825
+  final_seeds: [250825, 250826, 250827, 250828, 250829, 250830]
+  epochs: 140
+  patience: 24
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 5.0
+  hidden_dim: 128
+  depth: 2
+  cvae_latent_dims: [2, 4]
+  flow_steps: [8, 16]
+  diffusion_train_steps: 30
+  diffusion_inference_steps: [8, 16]
+  generated_samples: 8
+
+evaluation:
+  bootstrap_replicates: 10000
+  bootstrap_seed: 250825
+  wave21_redirect_gain: 0.250126
+  wave21_execution_redirect_gain: 0.183855
+  preferred_retention: 0.75
+  endpoint_strong_threshold: 0.60
+  goals_for_positive_margin: 5
+
+runtime:
+  device: cuda:0
+  torch_cpu_threads: 4

@@ -1,0 +1,45 @@
+{
+  "causal_inputs": [
+    "z_previous",
+    "z_current",
+    "delta_previous",
+    "next language embedding",
+    "horizon embedding"
+  ],
+  "created_before_diagnostics_and_sweep": true,
+  "development_minimums": [
+    "positive RedirectGain",
+    "positive execution RedirectGain",
+    "H2 full MSE below Wave24 D2",
+    "H4 decoded MSE below Wave24 D2",
+    "endpoint accuracy above Wave24 D2",
+    "continuity below Wave24 D2"
+  ],
+  "families": [
+    "historical",
+    "deterministic_local",
+    "direction_magnitude",
+    "discrete_modes",
+    "MDN",
+    "MoE",
+    "cVAE-D",
+    "Latent-CFM",
+    "Latent-Diff",
+    "RAT",
+    "phase_augmented"
+  ],
+  "forbidden_inputs": [
+    "future latent",
+    "future action",
+    "future task label",
+    "future contact",
+    "future simulator state"
+  ],
+  "heldout_opened": false,
+  "optional_phase_inputs": [
+    "history latent norms",
+    "current action translation/rotation mean/std",
+    "current gripper mean"
+  ],
+  "selection": "Pareto filter then lexicographic H4 decoded, H2 full, endpoint, continuity, decode/reencode, parameters; at most one compact and one continuous model"
+}

@@ -1,0 +1,43 @@
+{
+  "DDIM_steps": [
+    8,
+    16
+  ],
+  "ODE_steps": [
+    8,
+    16
+  ],
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 250825
+  },
+  "checkpoint_hashes": {},
+  "claims": [
+    "C15",
+    "C16",
+    "C17"
+  ],
+  "created_at": "2026-08-14T21:10:19.320883-04:00",
+  "generated_samples": 8,
+  "heldout_opened_before_freeze": false,
+  "metrics": "prompt sections 21,27-29",
+  "mode_counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "phase_features": "as frozen in wave25_feature_manifest.json",
+  "post_test_tuning": false,
+  "retrieval_K": 20,
+  "sampling_seeds": [
+    250825,
+    250826,
+    250827,
+    250828,
+    250829,
+    250830
+  ],
+  "selected_models": []
+}

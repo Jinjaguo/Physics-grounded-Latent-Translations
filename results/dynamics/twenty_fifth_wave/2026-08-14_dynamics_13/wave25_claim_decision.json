@@ -1,0 +1,7 @@
+{
+  "C15_distributional_language_conditioned_transition": "NOT_TESTED_NO_DEVELOPMENT_CANDIDATE",
+  "C16_executable_language_conditioned_transition_modes": "NOT_TESTED",
+  "C17_language_and_state_shape_transition_distribution": "NOT_TESTED",
+  "heldout_opened": false,
+  "recommended_wave26_family": "phase-aware latent flow with richer causal history/contact state and explicit identity-continuity mechanism diagnostics"
+}

@@ -1,0 +1,9 @@
+configs/dynamics_13.yaml
+prompts/dynamics_13.md
+src/pglt/dynamics/wave25_models.py
+scripts/dynamics/run_dynamics_13.py
+tests/dynamics/test_dynamics_13_broad_sweep.py
+reports/dynamics_13_results.md
+RESEARCH_LOG.md
+NEXT_EXPERIMENT.md
+results/dynamics/twenty_fifth_wave/2026-08-14_dynamics_13/

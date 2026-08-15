@@ -1,0 +1,9 @@
+{
+  "created_before_heldout_materialization": true,
+  "eligible_models": [],
+  "heldout_opened": false,
+  "maximum_candidates": 2,
+  "pareto_frontier": [],
+  "selected_models": [],
+  "selection_rule": "frozen Pareto then compact/continuous lexicographic"
+}

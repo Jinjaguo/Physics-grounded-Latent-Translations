@@ -1,0 +1,35 @@
+{
+  "majority_joint_improvement": true,
+  "phase_pairs": {
+    "Phase_D5_factored_MLP": {
+      "H2_gain": 0.03172743320465088,
+      "H4_decoded_gain": 0.006641194224357605,
+      "base": "D5_global_factored_MLP"
+    },
+    "Phase_cvae": {
+      "H2_gain": -0.04067510366439819,
+      "H4_decoded_gain": 0.0005257576704025269,
+      "base": "cVAE_D_z4_mean8"
+    },
+    "Phase_diffusion": {
+      "H2_gain": 0.006258487701416016,
+      "H4_decoded_gain": 0.00018197298049926758,
+      "base": "Latent_Diff_8step_mean8"
+    },
+    "Phase_flow": {
+      "H2_gain": 0.028521835803985596,
+      "H4_decoded_gain": 0.003070831298828125,
+      "base": "Latent_CFM_8step_mean8"
+    },
+    "Phase_mdn": {
+      "H2_gain": 0.05218958854675293,
+      "H4_decoded_gain": -0.0009705200791358948,
+      "base": "MDN_K3_argmax"
+    },
+    "Phase_moe": {
+      "H2_gain": 0.001735091209411621,
+      "H4_decoded_gain": 0.0032676532864570618,
+      "base": "MoE_K3_hard"
+    }
+  }
+}
