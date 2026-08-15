@@ -1,0 +1,23 @@
+{
+  "F1_checkpoint_sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0",
+  "F1_updates": 0,
+  "F2_checkpoint_sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308",
+  "F2_updates": 0,
+  "created_before_any_sweep_metric": true,
+  "decoder_and_encoder_interface": {
+    "chunk": [
+      16,
+      7
+    ],
+    "latent_dim": 32,
+    "semantic_dim": 16
+  },
+  "decoder_updates": 0,
+  "future_inputs": [],
+  "heldout_arrays_materialized": false,
+  "representation_checkpoint": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+  "representation_sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+  "representation_updates": 0,
+  "semantic_checkpoint_sha256": "9b85b797cf9a1df90074efc7e73d862968a73e94c44df61c7fc5f781b10f0617",
+  "semantic_updates": 0
+}

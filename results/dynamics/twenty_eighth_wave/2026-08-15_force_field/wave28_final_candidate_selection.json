@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-08-15T03:16:59.973410-04:00",
+  "development_only": true,
+  "heldout_opened": true,
+  "pareto": [
+    "BACKBONE_F1_q2",
+    "BACKBONE_F2_q2",
+    "S2_q4_C1_pca_FF4_state_conditioned",
+    "S2_q8_C1_pca_FF4_state_conditioned"
+  ],
+  "post_selection_changes_forbidden": true,
+  "selected": [
+    "S2_q8_C1_pca_FF4_state_conditioned",
+    "S3_q2_FF5_nonlinear",
+    "S4_q2_C3_block_separable",
+    "E_E4_antisymmetric",
+    "L_G",
+    "CTRL_full_rank",
+    "BACKBONE_F1_q2",
+    "BACKBONE_F2_q2"
+  ],
+  "selection_rule": "Pareto then composite H2+decoded+continuity-redirect; preserve distinct mechanisms and controls"
+}

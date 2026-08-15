@@ -1,0 +1,31 @@
+{
+  "encodings": [
+    "E0",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E6"
+  ],
+  "fields": [
+    "FF0",
+    "FF1",
+    "FF2",
+    "FF3",
+    "FF4",
+    "FF5",
+    "FF7",
+    "FF8",
+    "FF9"
+  ],
+  "future_inputs": [],
+  "heldout_opened": false,
+  "models": 65,
+  "q_dimensions": [
+    1,
+    2,
+    4,
+    8,
+    32
+  ]
+}

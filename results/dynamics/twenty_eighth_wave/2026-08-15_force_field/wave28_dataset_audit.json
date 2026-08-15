@@ -1,0 +1,39 @@
+{
+  "future_as_input": false,
+  "previous_language_wave27": "unavailable; no imputation",
+  "test_selection": "development only before prospective open",
+  "wave21": {
+    "development": {
+      "records": 139,
+      "sessions": 6,
+      "source": "ordered annotation transition"
+    },
+    "test": {
+      "records": 164,
+      "sessions": 6,
+      "source": "ordered annotation transition"
+    },
+    "train": {
+      "records": 257,
+      "sessions": 19,
+      "source": "ordered annotation transition"
+    }
+  },
+  "wave27": {
+    "development": {
+      "records": 87,
+      "sessions": 8,
+      "source": "official independent prospective transition"
+    },
+    "test": {
+      "records": 86,
+      "sessions": 8,
+      "source": "official independent prospective transition"
+    },
+    "train": {
+      "records": 234,
+      "sessions": 36,
+      "source": "official independent prospective transition"
+    }
+  }
+}

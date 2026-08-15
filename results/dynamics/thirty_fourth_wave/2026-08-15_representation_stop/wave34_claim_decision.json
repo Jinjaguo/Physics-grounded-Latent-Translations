@@ -1,0 +1,5 @@
+{
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "REPRESENTATION_STOP": "SUPPORTED",
+  "next_wave_required": false
+}

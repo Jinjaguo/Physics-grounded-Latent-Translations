@@ -1,0 +1,31 @@
+{
+  "alphas": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "caps": [
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    null
+  ],
+  "created_at": "2026-08-15T03:20:29.372465-04:00",
+  "forbidden_inputs": [
+    "future latent",
+    "future action",
+    "future contact",
+    "success"
+  ],
+  "heldout_opened": false,
+  "q_dimensions": [
+    2,
+    4,
+    8
+  ],
+  "return_scope": "Wave21 intention direction only; Wave27 previous instruction unavailable",
+  "selection": "development decoded/continuity/redirect composite"
+}

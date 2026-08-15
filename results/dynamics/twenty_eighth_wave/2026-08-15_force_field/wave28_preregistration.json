@@ -1,0 +1,112 @@
+{
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 280828,
+    "unit": "source session"
+  },
+  "compositions": [
+    "COMP0_additive",
+    "COMP1_gated_additive",
+    "COMP2_normalized",
+    "COMP3_film",
+    "COMP4_rotation"
+  ],
+  "created_at": "2026-08-15T03:15:37.696016-04:00",
+  "fields": [
+    "FF0_none",
+    "FF1_direct",
+    "FF2_accumulating",
+    "FF3_attractor",
+    "FF4_state_conditioned",
+    "FF5_nonlinear",
+    "FF7_gated",
+    "FF8_velocity",
+    "FF9_retrieval"
+  ],
+  "forbidden_inputs": [
+    "future latent",
+    "future action",
+    "future simulator state",
+    "future contact",
+    "success label"
+  ],
+  "heldout_opened": false,
+  "language_encodings": [
+    "E0_linear",
+    "E1_normalized_linear",
+    "E2_mlp",
+    "E3_pairwise",
+    "E4_antisymmetric",
+    "E6_dictionary"
+  ],
+  "loss_groups": {
+    "A": [
+      "L0",
+      "L2",
+      "L5"
+    ],
+    "B": [
+      "L0",
+      "L2",
+      "L5",
+      "L4"
+    ],
+    "C": [
+      "L0",
+      "L2",
+      "L5",
+      "L1"
+    ],
+    "D": [
+      "L0",
+      "L2",
+      "L5",
+      "L4",
+      "L1"
+    ],
+    "E": [
+      "D",
+      "L7",
+      "L8"
+    ],
+    "F": [
+      "D",
+      "L3"
+    ],
+    "G": [
+      "D",
+      "L12"
+    ],
+    "H": [
+      "E",
+      "L9",
+      "L3",
+      "L12"
+    ]
+  },
+  "primary_inputs": [
+    "z_previous",
+    "z_current",
+    "query-time current language",
+    "query-time target language",
+    "causal current action/history where available"
+  ],
+  "q_dimensions": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "selection": "development Pareto/composite then one frozen heldout opening",
+  "splits": "Wave21 session-disjoint ordered train/development/test plus Wave27 independent train/development/prospective test",
+  "subspaces": [
+    "C0_random",
+    "C1_pca",
+    "C2_learned",
+    "C3_block_separable",
+    "C4_execution_only",
+    "C5_semantic_only",
+    "C6_state_dependent"
+  ],
+  "written_before_any_sweep_metric": true
+}

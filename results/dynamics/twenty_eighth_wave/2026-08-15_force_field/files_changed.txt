@@ -1,0 +1,16 @@
+prompts/dynamics_wave28.md
+src/pglt/dynamics/wave28_force_field.py
+scripts/dynamics/run_wave28_force_field.py
+scripts/dynamics/run_wave29_damped_field.py
+scripts/dynamics/run_wave30_jacobian_field.py
+scripts/dynamics/run_wave31_zero_gate.py
+scripts/dynamics/run_wave32_state_field.py
+scripts/dynamics/run_wave33_mixture_field.py
+scripts/dynamics/run_wave34_representation_stop.py
+prompts/dynamics_wave29.md
+prompts/dynamics_wave30.md
+prompts/dynamics_wave31.md
+prompts/dynamics_wave32.md
+prompts/dynamics_wave33.md
+prompts/dynamics_wave34.md
+results/dynamics/wave28_to_wave78_autonomous_summary.md

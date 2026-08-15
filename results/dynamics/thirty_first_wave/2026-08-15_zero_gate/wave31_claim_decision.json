@@ -1,0 +1,8 @@
+{
+  "C42_zero_gate_preserves_base": "SUPPORTED",
+  "C43_trainable_gate_improves_continuity": "NOT_SUPPORTED",
+  "C44_gate_preserves_execution_redirect": "SUPPORTED",
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "next_wave_required": true,
+  "selected": "q8_c3.0"
+}

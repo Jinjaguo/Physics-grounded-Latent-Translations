@@ -1,0 +1,6 @@
+{
+  "F2_frozen": true,
+  "created_before_metrics": true,
+  "trainable": "two q experts + causal gate",
+  "vae_decoder_frozen": true
+}

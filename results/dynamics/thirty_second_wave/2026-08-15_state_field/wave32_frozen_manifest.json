@@ -1,0 +1,6 @@
+{
+  "F1_F2_frozen": true,
+  "created_before_metrics": true,
+  "new_trainable": "C6 state-conditioned low-rank adapter",
+  "vae_decoder_frozen": true
+}

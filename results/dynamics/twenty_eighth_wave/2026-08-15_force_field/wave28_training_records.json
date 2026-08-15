@@ -1,0 +1,1042 @@
+{
+  "BACKBONE_F1_q2": {
+    "best_dev_latent_loss": 1.2746645212173462,
+    "best_epoch": 35,
+    "runtime_seconds": 0.17580557000474073,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "BACKBONE_F1_q2",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "BACKBONE_F2_q2": {
+    "best_dev_latent_loss": 1.2743996381759644,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1713924419891555,
+    "spec": {
+      "backbone": "F2",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "BACKBONE_F2_q2",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "CTRL_full_rank": {
+    "best_dev_latent_loss": 1.3227919340133667,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13186129400855862,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "CTRL_full_rank",
+      "q_dim": 32,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 1536
+  },
+  "CTRL_static_residual": {
+    "best_dev_latent_loss": 1.3485625982284546,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1425484530045651,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "CTRL_static_residual",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "E_E1_normalized_linear": {
+    "best_dev_latent_loss": 1.3437474966049194,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13570326400804333,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E1_normalized_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "E_E1_normalized_linear",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "E_E2_mlp": {
+    "best_dev_latent_loss": 1.352441430091858,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13459236797643825,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E2_mlp",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "E_E2_mlp",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 978
+  },
+  "E_E3_pairwise": {
+    "best_dev_latent_loss": 1.318225383758545,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1289503860170953,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E3_pairwise",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "E_E3_pairwise",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 2514
+  },
+  "E_E4_antisymmetric": {
+    "best_dev_latent_loss": 1.3236336708068848,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1305138279858511,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E4_antisymmetric",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "E_E4_antisymmetric",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 2514
+  },
+  "E_E6_dictionary": {
+    "best_dev_latent_loss": 1.3559284210205078,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13268047600286081,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E6_dictionary",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "E_E6_dictionary",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 76
+  },
+  "L_A": {
+    "best_dev_latent_loss": 1.3550682067871094,
+    "best_epoch": 35,
+    "runtime_seconds": 0.10253168697818182,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "A",
+      "name": "L_A",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_B": {
+    "best_dev_latent_loss": 1.3547970056533813,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1387584789772518,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "B",
+      "name": "L_B",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_C": {
+    "best_dev_latent_loss": 1.3542588949203491,
+    "best_epoch": 35,
+    "runtime_seconds": 0.21521531799226068,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "C",
+      "name": "L_C",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_D": {
+    "best_dev_latent_loss": 1.353371262550354,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13088890898507088,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "L_D",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_E": {
+    "best_dev_latent_loss": 1.3553283214569092,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13468978001037613,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "E",
+      "name": "L_E",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_F": {
+    "best_dev_latent_loss": 1.3545141220092773,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13344992499332875,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "F",
+      "name": "L_F",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_G": {
+    "best_dev_latent_loss": 1.353635549545288,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13157560597755946,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "G",
+      "name": "L_G",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "L_H": {
+    "best_dev_latent_loss": 1.3547931909561157,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13912477300618775,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "H",
+      "name": "L_H",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S2_q1_C0_random_FF1_direct": {
+    "best_dev_latent_loss": 1.3570594787597656,
+    "best_epoch": 26,
+    "runtime_seconds": 0.08590873397770338,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q1_C0_random_FF1_direct",
+      "q_dim": 1,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 16
+  },
+  "S2_q1_C0_random_FF3_attractor": {
+    "best_dev_latent_loss": 1.356919765472412,
+    "best_epoch": 9,
+    "runtime_seconds": 0.026337649003835395,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q1_C0_random_FF3_attractor",
+      "q_dim": 1,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 16
+  },
+  "S2_q1_C0_random_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3565590381622314,
+    "best_epoch": 11,
+    "runtime_seconds": 0.06206977998954244,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q1_C0_random_FF4_state_conditioned",
+      "q_dim": 1,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 1745
+  },
+  "S2_q1_C1_pca_FF1_direct": {
+    "best_dev_latent_loss": 1.3485467433929443,
+    "best_epoch": 35,
+    "runtime_seconds": 0.12059042500914074,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q1_C1_pca_FF1_direct",
+      "q_dim": 1,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 16
+  },
+  "S2_q1_C1_pca_FF3_attractor": {
+    "best_dev_latent_loss": 1.3522659540176392,
+    "best_epoch": 35,
+    "runtime_seconds": 0.14536340901395306,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q1_C1_pca_FF3_attractor",
+      "q_dim": 1,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 16
+  },
+  "S2_q1_C1_pca_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.290897011756897,
+    "best_epoch": 30,
+    "runtime_seconds": 0.2347447290085256,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q1_C1_pca_FF4_state_conditioned",
+      "q_dim": 1,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 1745
+  },
+  "S2_q1_C2_learned_FF1_direct": {
+    "best_dev_latent_loss": 1.3577576875686646,
+    "best_epoch": 9,
+    "runtime_seconds": 0.028903731988975778,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q1_C2_learned_FF1_direct",
+      "q_dim": 1,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 48
+  },
+  "S2_q1_C2_learned_FF3_attractor": {
+    "best_dev_latent_loss": 1.3549795150756836,
+    "best_epoch": 35,
+    "runtime_seconds": 0.10593739300384186,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q1_C2_learned_FF3_attractor",
+      "q_dim": 1,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 48
+  },
+  "S2_q1_C2_learned_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3583487272262573,
+    "best_epoch": 9,
+    "runtime_seconds": 0.05294416699325666,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q1_C2_learned_FF4_state_conditioned",
+      "q_dim": 1,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 1777
+  },
+  "S2_q2_C0_random_FF1_direct": {
+    "best_dev_latent_loss": 1.3553675413131714,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11104566400172189,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q2_C0_random_FF1_direct",
+      "q_dim": 2,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 32
+  },
+  "S2_q2_C0_random_FF3_attractor": {
+    "best_dev_latent_loss": 1.3564804792404175,
+    "best_epoch": 17,
+    "runtime_seconds": 0.054458197992062196,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q2_C0_random_FF3_attractor",
+      "q_dim": 2,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 32
+  },
+  "S2_q2_C0_random_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.354995608329773,
+    "best_epoch": 14,
+    "runtime_seconds": 0.08404617101768963,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q2_C0_random_FF4_state_conditioned",
+      "q_dim": 2,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 1906
+  },
+  "S2_q2_C1_pca_FF1_direct": {
+    "best_dev_latent_loss": 1.3463703393936157,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1587355800147634,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q2_C1_pca_FF1_direct",
+      "q_dim": 2,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 32
+  },
+  "S2_q2_C1_pca_FF3_attractor": {
+    "best_dev_latent_loss": 1.3506391048431396,
+    "best_epoch": 35,
+    "runtime_seconds": 0.15839217498432845,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q2_C1_pca_FF3_attractor",
+      "q_dim": 2,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 32
+  },
+  "S2_q2_C1_pca_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.2871863842010498,
+    "best_epoch": 33,
+    "runtime_seconds": 0.2511112260108348,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q2_C1_pca_FF4_state_conditioned",
+      "q_dim": 2,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 1906
+  },
+  "S2_q2_C2_learned_FF1_direct": {
+    "best_dev_latent_loss": 1.351725697517395,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11705544299911708,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q2_C2_learned_FF1_direct",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S2_q2_C2_learned_FF3_attractor": {
+    "best_dev_latent_loss": 1.3526697158813477,
+    "best_epoch": 35,
+    "runtime_seconds": 0.10749206997570582,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q2_C2_learned_FF3_attractor",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S2_q2_C2_learned_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3380314111709595,
+    "best_epoch": 23,
+    "runtime_seconds": 0.13455089900526218,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q2_C2_learned_FF4_state_conditioned",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 1970
+  },
+  "S2_q4_C0_random_FF1_direct": {
+    "best_dev_latent_loss": 1.3526053428649902,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1076233230123762,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q4_C0_random_FF1_direct",
+      "q_dim": 4,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 64
+  },
+  "S2_q4_C0_random_FF3_attractor": {
+    "best_dev_latent_loss": 1.3537386655807495,
+    "best_epoch": 35,
+    "runtime_seconds": 0.10903550000512041,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q4_C0_random_FF3_attractor",
+      "q_dim": 4,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 64
+  },
+  "S2_q4_C0_random_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3546408414840698,
+    "best_epoch": 12,
+    "runtime_seconds": 0.0692452400107868,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q4_C0_random_FF4_state_conditioned",
+      "q_dim": 4,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 2228
+  },
+  "S2_q4_C1_pca_FF1_direct": {
+    "best_dev_latent_loss": 1.3443485498428345,
+    "best_epoch": 35,
+    "runtime_seconds": 0.16447344500920735,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q4_C1_pca_FF1_direct",
+      "q_dim": 4,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 64
+  },
+  "S2_q4_C1_pca_FF3_attractor": {
+    "best_dev_latent_loss": 1.3504514694213867,
+    "best_epoch": 35,
+    "runtime_seconds": 0.16057948401430622,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q4_C1_pca_FF3_attractor",
+      "q_dim": 4,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 64
+  },
+  "S2_q4_C1_pca_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.247313141822815,
+    "best_epoch": 35,
+    "runtime_seconds": 0.2554536369862035,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q4_C1_pca_FF4_state_conditioned",
+      "q_dim": 4,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 2228
+  },
+  "S2_q4_C2_learned_FF1_direct": {
+    "best_dev_latent_loss": 1.3460239171981812,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11085332202492282,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q4_C2_learned_FF1_direct",
+      "q_dim": 4,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 192
+  },
+  "S2_q4_C2_learned_FF3_attractor": {
+    "best_dev_latent_loss": 1.3498977422714233,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1247617120097857,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q4_C2_learned_FF3_attractor",
+      "q_dim": 4,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 192
+  },
+  "S2_q4_C2_learned_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3536391258239746,
+    "best_epoch": 14,
+    "runtime_seconds": 0.09258942300220951,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q4_C2_learned_FF4_state_conditioned",
+      "q_dim": 4,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 2356
+  },
+  "S2_q8_C0_random_FF1_direct": {
+    "best_dev_latent_loss": 1.352657437324524,
+    "best_epoch": 35,
+    "runtime_seconds": 0.1007745600072667,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q8_C0_random_FF1_direct",
+      "q_dim": 8,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 128
+  },
+  "S2_q8_C0_random_FF3_attractor": {
+    "best_dev_latent_loss": 1.3502717018127441,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11866119899787009,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q8_C0_random_FF3_attractor",
+      "q_dim": 8,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 128
+  },
+  "S2_q8_C0_random_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3416754007339478,
+    "best_epoch": 19,
+    "runtime_seconds": 0.11560825697961263,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q8_C0_random_FF4_state_conditioned",
+      "q_dim": 8,
+      "subspace": "C0_random"
+    },
+    "trainable_parameters": 2872
+  },
+  "S2_q8_C1_pca_FF1_direct": {
+    "best_dev_latent_loss": 1.3468607664108276,
+    "best_epoch": 35,
+    "runtime_seconds": 0.15822392699192278,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q8_C1_pca_FF1_direct",
+      "q_dim": 8,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 128
+  },
+  "S2_q8_C1_pca_FF3_attractor": {
+    "best_dev_latent_loss": 1.3470923900604248,
+    "best_epoch": 35,
+    "runtime_seconds": 0.16257186298025772,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q8_C1_pca_FF3_attractor",
+      "q_dim": 8,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 128
+  },
+  "S2_q8_C1_pca_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.2457441091537476,
+    "best_epoch": 35,
+    "runtime_seconds": 0.2622432630159892,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q8_C1_pca_FF4_state_conditioned",
+      "q_dim": 8,
+      "subspace": "C1_pca"
+    },
+    "trainable_parameters": 2872
+  },
+  "S2_q8_C2_learned_FF1_direct": {
+    "best_dev_latent_loss": 1.3445831537246704,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11533946299459785,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF1_direct",
+      "group": "D",
+      "name": "S2_q8_C2_learned_FF1_direct",
+      "q_dim": 8,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 384
+  },
+  "S2_q8_C2_learned_FF3_attractor": {
+    "best_dev_latent_loss": 1.3409801721572876,
+    "best_epoch": 35,
+    "runtime_seconds": 0.12538204301381484,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S2_q8_C2_learned_FF3_attractor",
+      "q_dim": 8,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 384
+  },
+  "S2_q8_C2_learned_FF4_state_conditioned": {
+    "best_dev_latent_loss": 1.3488844633102417,
+    "best_epoch": 18,
+    "runtime_seconds": 0.10655856900848448,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF4_state_conditioned",
+      "group": "D",
+      "name": "S2_q8_C2_learned_FF4_state_conditioned",
+      "q_dim": 8,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 3128
+  },
+  "S3_q2_FF5_nonlinear": {
+    "best_dev_latent_loss": 1.3441680669784546,
+    "best_epoch": 18,
+    "runtime_seconds": 0.10455429001012817,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF5_nonlinear",
+      "group": "D",
+      "name": "S3_q2_FF5_nonlinear",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 1970
+  },
+  "S3_q2_FF7_gated": {
+    "best_dev_latent_loss": 1.351141333580017,
+    "best_epoch": 35,
+    "runtime_seconds": 0.24856881599407643,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF7_gated",
+      "group": "D",
+      "name": "S3_q2_FF7_gated",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 3699
+  },
+  "S3_q2_FF8_velocity": {
+    "best_dev_latent_loss": 1.3530235290527344,
+    "best_epoch": 15,
+    "runtime_seconds": 0.09044950001407415,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF8_velocity",
+      "group": "D",
+      "name": "S3_q2_FF8_velocity",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 3506
+  },
+  "S3_q2_FF9_retrieval": {
+    "best_dev_latent_loss": 1.3530914783477783,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11910539600648917,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF9_retrieval",
+      "group": "D",
+      "name": "S3_q2_FF9_retrieval",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S4_q2_C3_block_separable": {
+    "best_dev_latent_loss": 1.3560943603515625,
+    "best_epoch": 35,
+    "runtime_seconds": 0.12577695300569758,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_C3_block_separable",
+      "q_dim": 2,
+      "subspace": "C3_block_separable"
+    },
+    "trainable_parameters": 32
+  },
+  "S4_q2_C4_execution_only": {
+    "best_dev_latent_loss": 1.3565524816513062,
+    "best_epoch": 32,
+    "runtime_seconds": 0.12430129098356701,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_C4_execution_only",
+      "q_dim": 2,
+      "subspace": "C4_execution_only"
+    },
+    "trainable_parameters": 32
+  },
+  "S4_q2_C5_semantic_only": {
+    "best_dev_latent_loss": 1.3550807237625122,
+    "best_epoch": 35,
+    "runtime_seconds": 0.11061195901129395,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_C5_semantic_only",
+      "q_dim": 2,
+      "subspace": "C5_semantic_only"
+    },
+    "trainable_parameters": 32
+  },
+  "S4_q2_C6_state_dependent": {
+    "best_dev_latent_loss": 1.3515338897705078,
+    "best_epoch": 35,
+    "runtime_seconds": 0.43616063697845675,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP0_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_C6_state_dependent",
+      "q_dim": 2,
+      "subspace": "C6_state_dependent"
+    },
+    "trainable_parameters": 1876
+  },
+  "S4_q2_COMP1_gated_additive": {
+    "best_dev_latent_loss": 1.3548778295516968,
+    "best_epoch": 35,
+    "runtime_seconds": 0.12686347897397354,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP1_gated_additive",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_COMP1_gated_additive",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S4_q2_COMP2_normalized": {
+    "best_dev_latent_loss": 1.356668472290039,
+    "best_epoch": 35,
+    "runtime_seconds": 0.14681388999451883,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP2_normalized",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_COMP2_normalized",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S4_q2_COMP3_film": {
+    "best_dev_latent_loss": 1.3566224575042725,
+    "best_epoch": 35,
+    "runtime_seconds": 0.13718765799421817,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP3_film",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_COMP3_film",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  },
+  "S4_q2_COMP4_rotation": {
+    "best_dev_latent_loss": 1.3565616607666016,
+    "best_epoch": 35,
+    "runtime_seconds": 0.12219727100455202,
+    "spec": {
+      "backbone": "F1",
+      "composition": "COMP4_rotation",
+      "encoding": "E0_linear",
+      "field": "FF3_attractor",
+      "group": "D",
+      "name": "S4_q2_COMP4_rotation",
+      "q_dim": 2,
+      "subspace": "C2_learned"
+    },
+    "trainable_parameters": 96
+  }
+}

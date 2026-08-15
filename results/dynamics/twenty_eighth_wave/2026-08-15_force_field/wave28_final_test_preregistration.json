@@ -1,0 +1,28 @@
+{
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 280828,
+    "unit": "source session"
+  },
+  "candidates": [
+    "S2_q8_C1_pca_FF4_state_conditioned",
+    "S3_q2_FF5_nonlinear",
+    "S4_q2_C3_block_separable",
+    "E_E4_antisymmetric",
+    "L_G",
+    "CTRL_full_rank",
+    "BACKBONE_F1_q2",
+    "BACKBONE_F2_q2"
+  ],
+  "created_before_heldout": true,
+  "post_test_tuning_allowed": false,
+  "seeds": [
+    280828,
+    280829
+  ],
+  "test_sets": [
+    "Wave21 session-disjoint test",
+    "Wave27 prospective test"
+  ],
+  "thresholds_derived_from": "Wave28 development only"
+}

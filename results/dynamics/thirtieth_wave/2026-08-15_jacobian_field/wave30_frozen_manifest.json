@@ -1,0 +1,7 @@
+{
+  "created_before_metrics": true,
+  "trainable_parameters": 0,
+  "vae_decoder_frozen": true,
+  "wave28_selection_sha256": "42b97918742e78fca7d85d1190c1b1629f043ef0949c7344125fe045c288e9a3",
+  "wave29_selection_sha256": "52c0535d2137abb816ca938b4ae5e320793f9c00a77966ca7d45e4aef488cb31"
+}

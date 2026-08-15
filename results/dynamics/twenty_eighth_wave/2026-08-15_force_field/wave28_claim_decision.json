@@ -1,0 +1,22 @@
+{
+  "C30_low_dim_adapter_preserves_frozen_behavior": "SUPPORTED",
+  "C31_low_dim_intention_field_improves_retargeting": "MIXED",
+  "C32_dynamic_field_beats_static_residual": "NOT_SUPPORTED",
+  "C33_learned_low_rank_subspace_beats_random_or_pca": "NOT_SUPPORTED",
+  "C34_intention_return_symmetry_supported": "NOT_TESTED",
+  "C35_continuity_anchor_improve_editability": "NOT_SUPPORTED",
+  "C36_adapter_generalizes_across_backbones": "MIXED",
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "adapter_fraction_of_total_parameters": 8.727272727272727e-05,
+  "adapter_parameter_count": 96,
+  "best_backbone": "F2",
+  "best_composition": "COMP0_additive",
+  "best_field_form": "FF3_attractor",
+  "best_language_encoding": "E0_linear",
+  "best_loss_group": "D",
+  "best_overall_adapter": "BACKBONE_F2_q2",
+  "best_q_dimension": 2,
+  "best_subspace_form": "C2_learned",
+  "next_wave_number": 29,
+  "next_wave_required": true
+}

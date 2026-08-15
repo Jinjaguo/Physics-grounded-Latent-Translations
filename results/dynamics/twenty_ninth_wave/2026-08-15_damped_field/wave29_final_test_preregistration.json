@@ -1,0 +1,9 @@
+{
+  "candidate": "q8_a0.75_cnone",
+  "created_before_heldout": true,
+  "heldout": [
+    "Wave21 test",
+    "Wave27 prospective test"
+  ],
+  "post_test_tuning": false
+}

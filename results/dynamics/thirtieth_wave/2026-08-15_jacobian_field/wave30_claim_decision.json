@@ -1,0 +1,7 @@
+{
+  "C40_decoder_aware_projection_reduces_continuity": "NOT_SUPPORTED",
+  "C41_decoder_aware_projection_preserves_redirect": "SUPPORTED",
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "next_wave_required": true,
+  "selected": "jac_cap_none"
+}

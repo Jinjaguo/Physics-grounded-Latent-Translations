@@ -1,0 +1,5 @@
+py_compile Wave28--Wave34 scripts/modules: PASS
+tests/test_dynamics_15.py: 8 passed
+Wave34 representation-stop audit: PASS (REPRESENTATION_STOP=true)
+CUDA/NVML check: unavailable in this operating system; CPU fallback used
+Known historical repository disk-threshold test was not rerun; it predates Wave28 and concerns pre-existing data size.

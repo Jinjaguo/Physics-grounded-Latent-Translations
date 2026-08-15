@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    "S2_q8_C1_pca_FF4_state_conditioned",
+    "S3_q2_FF5_nonlinear",
+    "S4_q2_C3_block_separable",
+    "E_E4_antisymmetric",
+    "L_G",
+    "CTRL_full_rank",
+    "BACKBONE_F1_q2",
+    "BACKBONE_F2_q2"
+  ],
+  "opened_at": "2026-08-15T03:17:12.545411-04:00",
+  "post_selection_tuning": false,
+  "selection_sha256": "71779e0f70b60f90d3dd6516309e73aa8d04411e4428ea73444cf70936ba6192"
+}

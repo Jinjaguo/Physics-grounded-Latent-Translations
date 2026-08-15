@@ -1,0 +1,7 @@
+{
+  "C45_state_conditioned_field_improves_executable_loss": "NOT_SUPPORTED",
+  "C46_state_conditioned_field_preserves_redirect": "NOT_SUPPORTED",
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "next_wave_required": true,
+  "selected": "q4_l1.0"
+}

@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-08-15T03:21:17.584391-04:00",
+  "development_only": true,
+  "heldout_opened": true,
+  "selected": [
+    "q8_a0.75_cnone"
+  ],
+  "selection_rule": "decoded MSE + continuity - 0.25 execution redirect"
+}

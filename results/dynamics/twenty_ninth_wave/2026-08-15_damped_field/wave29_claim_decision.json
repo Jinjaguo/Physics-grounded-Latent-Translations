@@ -1,0 +1,8 @@
+{
+  "C37_damping_repairs_continuity": "NOT_SUPPORTED",
+  "C38_damping_preserves_execution_redirect": "SUPPORTED",
+  "C39_small_q_remains_competitive": "MIXED",
+  "READY_FOR_CLOSED_LOOP_RETARGET": "NOT_SUPPORTED",
+  "next_wave_required": true,
+  "selected": "q8_a0.75_cnone"
+}

@@ -1,0 +1,652 @@
+{
+  "BACKBONE_F1_q2": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "BACKBONE_F1_q2",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "BACKBONE_F2_q2": {
+    "backbone": "F2",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "BACKBONE_F2_q2",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "CTRL_full_rank": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "CTRL_full_rank",
+    "q_dim": 32,
+    "subspace": "C2_learned"
+  },
+  "CTRL_static_residual": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "CTRL_static_residual",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "E_E1_normalized_linear": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E1_normalized_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "E_E1_normalized_linear",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "E_E2_mlp": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E2_mlp",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "E_E2_mlp",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "E_E3_pairwise": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E3_pairwise",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "E_E3_pairwise",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "E_E4_antisymmetric": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E4_antisymmetric",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "E_E4_antisymmetric",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "E_E6_dictionary": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E6_dictionary",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "E_E6_dictionary",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_A": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "A",
+    "name": "L_A",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_B": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "B",
+    "name": "L_B",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_C": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "C",
+    "name": "L_C",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_D": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "L_D",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_E": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "E",
+    "name": "L_E",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_F": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "F",
+    "name": "L_F",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_G": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "G",
+    "name": "L_G",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "L_H": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "H",
+    "name": "L_H",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S2_q1_C0_random_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q1_C0_random_FF1_direct",
+    "q_dim": 1,
+    "subspace": "C0_random"
+  },
+  "S2_q1_C0_random_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q1_C0_random_FF3_attractor",
+    "q_dim": 1,
+    "subspace": "C0_random"
+  },
+  "S2_q1_C0_random_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q1_C0_random_FF4_state_conditioned",
+    "q_dim": 1,
+    "subspace": "C0_random"
+  },
+  "S2_q1_C1_pca_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q1_C1_pca_FF1_direct",
+    "q_dim": 1,
+    "subspace": "C1_pca"
+  },
+  "S2_q1_C1_pca_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q1_C1_pca_FF3_attractor",
+    "q_dim": 1,
+    "subspace": "C1_pca"
+  },
+  "S2_q1_C1_pca_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q1_C1_pca_FF4_state_conditioned",
+    "q_dim": 1,
+    "subspace": "C1_pca"
+  },
+  "S2_q1_C2_learned_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q1_C2_learned_FF1_direct",
+    "q_dim": 1,
+    "subspace": "C2_learned"
+  },
+  "S2_q1_C2_learned_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q1_C2_learned_FF3_attractor",
+    "q_dim": 1,
+    "subspace": "C2_learned"
+  },
+  "S2_q1_C2_learned_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q1_C2_learned_FF4_state_conditioned",
+    "q_dim": 1,
+    "subspace": "C2_learned"
+  },
+  "S2_q2_C0_random_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q2_C0_random_FF1_direct",
+    "q_dim": 2,
+    "subspace": "C0_random"
+  },
+  "S2_q2_C0_random_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q2_C0_random_FF3_attractor",
+    "q_dim": 2,
+    "subspace": "C0_random"
+  },
+  "S2_q2_C0_random_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q2_C0_random_FF4_state_conditioned",
+    "q_dim": 2,
+    "subspace": "C0_random"
+  },
+  "S2_q2_C1_pca_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q2_C1_pca_FF1_direct",
+    "q_dim": 2,
+    "subspace": "C1_pca"
+  },
+  "S2_q2_C1_pca_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q2_C1_pca_FF3_attractor",
+    "q_dim": 2,
+    "subspace": "C1_pca"
+  },
+  "S2_q2_C1_pca_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q2_C1_pca_FF4_state_conditioned",
+    "q_dim": 2,
+    "subspace": "C1_pca"
+  },
+  "S2_q2_C2_learned_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q2_C2_learned_FF1_direct",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S2_q2_C2_learned_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q2_C2_learned_FF3_attractor",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S2_q2_C2_learned_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q2_C2_learned_FF4_state_conditioned",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S2_q4_C0_random_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q4_C0_random_FF1_direct",
+    "q_dim": 4,
+    "subspace": "C0_random"
+  },
+  "S2_q4_C0_random_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q4_C0_random_FF3_attractor",
+    "q_dim": 4,
+    "subspace": "C0_random"
+  },
+  "S2_q4_C0_random_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q4_C0_random_FF4_state_conditioned",
+    "q_dim": 4,
+    "subspace": "C0_random"
+  },
+  "S2_q4_C1_pca_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q4_C1_pca_FF1_direct",
+    "q_dim": 4,
+    "subspace": "C1_pca"
+  },
+  "S2_q4_C1_pca_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q4_C1_pca_FF3_attractor",
+    "q_dim": 4,
+    "subspace": "C1_pca"
+  },
+  "S2_q4_C1_pca_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q4_C1_pca_FF4_state_conditioned",
+    "q_dim": 4,
+    "subspace": "C1_pca"
+  },
+  "S2_q4_C2_learned_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q4_C2_learned_FF1_direct",
+    "q_dim": 4,
+    "subspace": "C2_learned"
+  },
+  "S2_q4_C2_learned_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q4_C2_learned_FF3_attractor",
+    "q_dim": 4,
+    "subspace": "C2_learned"
+  },
+  "S2_q4_C2_learned_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q4_C2_learned_FF4_state_conditioned",
+    "q_dim": 4,
+    "subspace": "C2_learned"
+  },
+  "S2_q8_C0_random_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q8_C0_random_FF1_direct",
+    "q_dim": 8,
+    "subspace": "C0_random"
+  },
+  "S2_q8_C0_random_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q8_C0_random_FF3_attractor",
+    "q_dim": 8,
+    "subspace": "C0_random"
+  },
+  "S2_q8_C0_random_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q8_C0_random_FF4_state_conditioned",
+    "q_dim": 8,
+    "subspace": "C0_random"
+  },
+  "S2_q8_C1_pca_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q8_C1_pca_FF1_direct",
+    "q_dim": 8,
+    "subspace": "C1_pca"
+  },
+  "S2_q8_C1_pca_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q8_C1_pca_FF3_attractor",
+    "q_dim": 8,
+    "subspace": "C1_pca"
+  },
+  "S2_q8_C1_pca_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q8_C1_pca_FF4_state_conditioned",
+    "q_dim": 8,
+    "subspace": "C1_pca"
+  },
+  "S2_q8_C2_learned_FF1_direct": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF1_direct",
+    "group": "D",
+    "name": "S2_q8_C2_learned_FF1_direct",
+    "q_dim": 8,
+    "subspace": "C2_learned"
+  },
+  "S2_q8_C2_learned_FF3_attractor": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S2_q8_C2_learned_FF3_attractor",
+    "q_dim": 8,
+    "subspace": "C2_learned"
+  },
+  "S2_q8_C2_learned_FF4_state_conditioned": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF4_state_conditioned",
+    "group": "D",
+    "name": "S2_q8_C2_learned_FF4_state_conditioned",
+    "q_dim": 8,
+    "subspace": "C2_learned"
+  },
+  "S3_q2_FF5_nonlinear": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF5_nonlinear",
+    "group": "D",
+    "name": "S3_q2_FF5_nonlinear",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S3_q2_FF7_gated": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF7_gated",
+    "group": "D",
+    "name": "S3_q2_FF7_gated",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S3_q2_FF8_velocity": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF8_velocity",
+    "group": "D",
+    "name": "S3_q2_FF8_velocity",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S3_q2_FF9_retrieval": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF9_retrieval",
+    "group": "D",
+    "name": "S3_q2_FF9_retrieval",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S4_q2_C3_block_separable": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_C3_block_separable",
+    "q_dim": 2,
+    "subspace": "C3_block_separable"
+  },
+  "S4_q2_C4_execution_only": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_C4_execution_only",
+    "q_dim": 2,
+    "subspace": "C4_execution_only"
+  },
+  "S4_q2_C5_semantic_only": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_C5_semantic_only",
+    "q_dim": 2,
+    "subspace": "C5_semantic_only"
+  },
+  "S4_q2_C6_state_dependent": {
+    "backbone": "F1",
+    "composition": "COMP0_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_C6_state_dependent",
+    "q_dim": 2,
+    "subspace": "C6_state_dependent"
+  },
+  "S4_q2_COMP1_gated_additive": {
+    "backbone": "F1",
+    "composition": "COMP1_gated_additive",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_COMP1_gated_additive",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S4_q2_COMP2_normalized": {
+    "backbone": "F1",
+    "composition": "COMP2_normalized",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_COMP2_normalized",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S4_q2_COMP3_film": {
+    "backbone": "F1",
+    "composition": "COMP3_film",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_COMP3_film",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  },
+  "S4_q2_COMP4_rotation": {
+    "backbone": "F1",
+    "composition": "COMP4_rotation",
+    "encoding": "E0_linear",
+    "field": "FF3_attractor",
+    "group": "D",
+    "name": "S4_q2_COMP4_rotation",
+    "q_dim": 2,
+    "subspace": "C2_learned"
+  }
+}

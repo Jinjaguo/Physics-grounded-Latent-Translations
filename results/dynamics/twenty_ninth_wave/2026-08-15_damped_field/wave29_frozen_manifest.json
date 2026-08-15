@@ -1,0 +1,8 @@
+{
+  "F1_F2_frozen": true,
+  "created_before_metrics": true,
+  "decoder_frozen": true,
+  "new_trainable_parameters": 0,
+  "vae_frozen": true,
+  "wave28_selection_sha256": "42b97918742e78fca7d85d1190c1b1629f043ef0949c7344125fe045c288e9a3"
+}
