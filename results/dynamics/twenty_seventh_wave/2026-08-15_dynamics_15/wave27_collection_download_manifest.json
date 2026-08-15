@@ -1,0 +1,92 @@
+{
+  "downloads": [
+    {
+      "selected": 107,
+      "sessions": [
+        "prospective_training_ep_row_00031",
+        "prospective_training_ep_row_00032",
+        "prospective_training_ep_row_00033",
+        "prospective_training_ep_row_00034",
+        "prospective_training_ep_row_00035",
+        "prospective_training_ep_row_00036",
+        "prospective_training_ep_row_00037",
+        "prospective_training_ep_row_00038",
+        "prospective_training_ep_row_00039",
+        "prospective_training_ep_row_00040",
+        "prospective_training_ep_row_00041",
+        "prospective_training_ep_row_00042",
+        "prospective_training_ep_row_00043",
+        "prospective_training_ep_row_00044",
+        "prospective_training_ep_row_00045",
+        "prospective_training_ep_row_00046",
+        "prospective_training_ep_row_00047",
+        "prospective_training_ep_row_00048",
+        "prospective_training_ep_row_00049"
+      ],
+      "shard": "training/subset_training_005.zip",
+      "source_bytes": 29664846718,
+      "transfer_mode": "remote_member_range_stream"
+    },
+    {
+      "selected": 94,
+      "sessions": [
+        "prospective_training_ep_row_00050",
+        "prospective_training_ep_row_00051",
+        "prospective_training_ep_row_00054",
+        "prospective_training_ep_row_00055",
+        "prospective_training_ep_row_00056",
+        "prospective_training_ep_row_00057",
+        "prospective_training_ep_row_00058",
+        "prospective_training_ep_row_00059",
+        "prospective_training_ep_row_00060",
+        "prospective_training_ep_row_00061",
+        "prospective_training_ep_row_00063",
+        "prospective_training_ep_row_00064",
+        "prospective_training_ep_row_00065"
+      ],
+      "shard": "training/subset_training_006.zip",
+      "source_bytes": 29898738146,
+      "transfer_mode": "remote_member_range_stream"
+    },
+    {
+      "selected": 101,
+      "sessions": [
+        "prospective_training_ep_row_00065",
+        "prospective_training_ep_row_00066",
+        "prospective_training_ep_row_00067",
+        "prospective_training_ep_row_00068",
+        "prospective_training_ep_row_00069",
+        "prospective_training_ep_row_00070",
+        "prospective_training_ep_row_00071",
+        "prospective_training_ep_row_00072",
+        "prospective_training_ep_row_00073",
+        "prospective_training_ep_row_00074",
+        "prospective_training_ep_row_00075",
+        "prospective_training_ep_row_00076",
+        "prospective_training_ep_row_00078",
+        "prospective_training_ep_row_00079"
+      ],
+      "shard": "training/subset_training_007.zip",
+      "source_bytes": 29971894648,
+      "transfer_mode": "remote_member_range_stream"
+    },
+    {
+      "selected": 105,
+      "sessions": [
+        "prospective_training_ep_row_00079",
+        "prospective_training_ep_row_00080",
+        "prospective_training_ep_row_00081",
+        "prospective_training_ep_row_00082",
+        "prospective_training_ep_row_00083",
+        "prospective_training_ep_row_00084",
+        "prospective_training_ep_row_00085",
+        "prospective_training_ep_row_00086"
+      ],
+      "shard": "training/subset_training_008.zip",
+      "source_bytes": 29694141933,
+      "transfer_mode": "remote_member_range_stream"
+    }
+  ],
+  "repo": "VyoJ/calvin-ABCD-D-subsets",
+  "revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d"
+}

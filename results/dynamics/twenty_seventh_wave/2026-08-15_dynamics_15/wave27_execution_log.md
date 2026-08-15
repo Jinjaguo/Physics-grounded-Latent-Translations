@@ -1,0 +1,119 @@
+# Wave 27 execution log
+
+- 2026-08-15T00:58:51.710543-04:00 — stage `encode` started on cuda:0
+- 2026-08-15T00:58:52.552679-04:00 — stage `encode` completed
+- 2026-08-15T00:59:03.935651-04:00 — stage `audit` started on cuda:0
+- 2026-08-15T00:59:04.469064-04:00 — stage `audit` completed
+- 2026-08-15T00:59:24.133866-04:00 — stage `sweep` started on cuda:0
+- 2026-08-15T00:59:25.023755-04:00 — development `L0_B1_correct_language`: H2=1.188424, H4-decoded=0.045588, endpoint=0.5040, redirect=0.260733
+- 2026-08-15T00:59:25.170166-04:00 — development `L0_D2_Wave24`: H2=2.067528, H4-decoded=0.081677, endpoint=0.3138, redirect=0.533238
+- 2026-08-15T00:59:25.253650-04:00 — development `L0_language_prototype`: H2=0.939191, H4-decoded=0.047994, endpoint=0.8333, redirect=0.595219
+- 2026-08-15T00:59:39.707987-04:00 — development `L0_D4_weighted_affine`: H2=2.889800, H4-decoded=0.099299, endpoint=0.5182, redirect=1.260676
+- 2026-08-15T00:59:41.417564-04:00 — development `Retrieval_R0_goal_mean_K4`: H2=2.453228, H4-decoded=0.089378, endpoint=0.3307, redirect=0.698386
+- 2026-08-15T00:59:41.522949-04:00 — development `Retrieval_R0_goal_mean_K8`: H2=2.453228, H4-decoded=0.089378, endpoint=0.3307, redirect=0.698386
+- 2026-08-15T00:59:41.627497-04:00 — development `Retrieval_R0_goal_mean_K16`: H2=2.453228, H4-decoded=0.089378, endpoint=0.3307, redirect=0.698386
+- 2026-08-15T00:59:41.760691-04:00 — development `Retrieval_R0_goal_mean_K32`: H2=2.453228, H4-decoded=0.089378, endpoint=0.3307, redirect=0.698386
+- 2026-08-15T00:59:41.880474-04:00 — development `Retrieval_R1_state_K4`: H2=1.894251, H4-decoded=0.071911, endpoint=0.5027, redirect=1.065305
+- 2026-08-15T00:59:41.995387-04:00 — development `Retrieval_R1_state_K8`: H2=1.855553, H4-decoded=0.071252, endpoint=0.4560, redirect=1.025840
+- 2026-08-15T00:59:42.109800-04:00 — development `Retrieval_R1_state_K16`: H2=1.972280, H4-decoded=0.075122, endpoint=0.3921, redirect=0.922868
+- 2026-08-15T00:59:42.223364-04:00 — development `Retrieval_R1_state_K32`: H2=2.164150, H4-decoded=0.079182, endpoint=0.3335, redirect=0.859510
+- 2026-08-15T00:59:42.562633-04:00 — development `Retrieval_R2_goal_phase_K4`: H2=2.654275, H4-decoded=0.091734, endpoint=0.4028, redirect=1.026427
+- 2026-08-15T00:59:42.928358-04:00 — development `Retrieval_R2_goal_phase_K8`: H2=2.453064, H4-decoded=0.087887, endpoint=0.3913, redirect=1.060219
+- 2026-08-15T00:59:43.306740-04:00 — development `Retrieval_R2_goal_phase_K16`: H2=2.377366, H4-decoded=0.085643, endpoint=0.3913, redirect=0.999751
+- 2026-08-15T00:59:43.664786-04:00 — development `Retrieval_R2_goal_phase_K32`: H2=2.347896, H4-decoded=0.084988, endpoint=0.3941, redirect=0.982921
+- 2026-08-15T00:59:43.802450-04:00 — development `Retrieval_R3_endpoint_K4`: H2=1.694951, H4-decoded=0.071120, endpoint=0.5553, redirect=1.013835
+- 2026-08-15T00:59:43.917680-04:00 — development `Retrieval_R3_endpoint_K8`: H2=1.626605, H4-decoded=0.069618, endpoint=0.5494, redirect=1.004813
+- 2026-08-15T00:59:44.026815-04:00 — development `Retrieval_R3_endpoint_K16`: H2=1.705127, H4-decoded=0.073596, endpoint=0.5181, redirect=0.972685
+- 2026-08-15T00:59:44.133390-04:00 — development `Retrieval_R3_endpoint_K32`: H2=1.904083, H4-decoded=0.077842, endpoint=0.4359, redirect=0.929716
+- 2026-08-15T00:59:44.244617-04:00 — development `Retrieval_R4_factored_K4`: H2=1.675959, H4-decoded=0.070047, endpoint=0.5285, redirect=1.062343
+- 2026-08-15T00:59:44.360336-04:00 — development `Retrieval_R4_factored_K8`: H2=1.608357, H4-decoded=0.070618, endpoint=0.5374, redirect=1.029363
+- 2026-08-15T00:59:44.471817-04:00 — development `Retrieval_R4_factored_K16`: H2=1.689612, H4-decoded=0.073432, endpoint=0.5222, redirect=0.991739
+- 2026-08-15T00:59:44.589386-04:00 — development `Retrieval_R4_factored_K32`: H2=1.896576, H4-decoded=0.078227, endpoint=0.4609, redirect=0.928700
+- 2026-08-15T00:59:44.719254-04:00 — development `Retrieval_R5_learned_scorer_K4`: H2=1.750589, H4-decoded=0.072478, endpoint=0.4986, redirect=1.113554
+- 2026-08-15T00:59:44.853482-04:00 — development `Retrieval_R5_learned_scorer_K8`: H2=1.693677, H4-decoded=0.072174, endpoint=0.4755, redirect=1.133093
+- 2026-08-15T00:59:44.987347-04:00 — development `Retrieval_R5_learned_scorer_K16`: H2=1.760342, H4-decoded=0.076145, endpoint=0.4240, redirect=1.055951
+- 2026-08-15T00:59:45.116971-04:00 — development `Retrieval_R5_learned_scorer_K32`: H2=1.931824, H4-decoded=0.079007, endpoint=0.3928, redirect=0.942756
+- 2026-08-15T00:59:45.268064-04:00 — development `Retrieval_R6_hybrid_K4`: H2=1.992163, H4-decoded=0.074401, endpoint=0.4665, redirect=1.045240
+- 2026-08-15T00:59:45.440873-04:00 — development `Retrieval_R6_hybrid_K8`: H2=1.943795, H4-decoded=0.073509, endpoint=0.4706, redirect=0.994254
+- 2026-08-15T00:59:45.598592-04:00 — development `Retrieval_R6_hybrid_K16`: H2=1.956460, H4-decoded=0.074347, endpoint=0.4742, redirect=0.954083
+- 2026-08-15T00:59:45.761618-04:00 — development `Retrieval_R6_hybrid_K32`: H2=2.022843, H4-decoded=0.075437, endpoint=0.4336, redirect=0.919985
+- 2026-08-15T00:59:46.847716-04:00 — development `Scale_L0_F2-C`: H2=1.343510, H4-decoded=0.061668, endpoint=0.3419, redirect=0.215322
+- 2026-08-15T00:59:48.270647-04:00 — development `Scale_L0_Prior-CFM`: H2=1.487735, H4-decoded=0.062968, endpoint=0.2978, redirect=0.170683
+- 2026-08-15T00:59:48.655515-04:00 — development `Scale_L0_RIF-C`: H2=1.847472, H4-decoded=0.084003, endpoint=0.3465, redirect=0.659815
+- 2026-08-15T00:59:49.262110-04:00 — development `Scale_NEW-only_F2-C`: H2=1.169986, H4-decoded=0.055747, endpoint=0.3570, redirect=0.428721
+- 2026-08-15T00:59:50.207531-04:00 — development `Scale_NEW-only_Prior-CFM`: H2=1.266137, H4-decoded=0.057909, endpoint=0.4034, redirect=0.480124
+- 2026-08-15T00:59:50.538948-04:00 — development `Scale_NEW-only_RIF-C`: H2=1.704656, H4-decoded=0.076378, endpoint=0.4505, redirect=1.014040
+- 2026-08-15T00:59:51.323243-04:00 — development `Scale_LN25_F2-C`: H2=1.193048, H4-decoded=0.053046, endpoint=0.4255, redirect=0.338271
+- 2026-08-15T00:59:52.543762-04:00 — development `Scale_LN25_Prior-CFM`: H2=1.237899, H4-decoded=0.053431, endpoint=0.4081, redirect=0.301850
+- 2026-08-15T00:59:52.961705-04:00 — development `Scale_LN25_RIF-C`: H2=1.745926, H4-decoded=0.080428, endpoint=0.3647, redirect=0.772131
+- 2026-08-15T00:59:53.776381-04:00 — development `Scale_LN50_F2-C`: H2=1.105615, H4-decoded=0.050683, endpoint=0.4431, redirect=0.396423
+- 2026-08-15T00:59:55.079320-04:00 — development `Scale_LN50_Prior-CFM`: H2=1.142121, H4-decoded=0.051065, endpoint=0.4274, redirect=0.390904
+- 2026-08-15T00:59:54.990011-04:00 — development `Scale_LN50_RIF-C`: H2=1.659875, H4-decoded=0.076882, endpoint=0.4239, redirect=0.811268
+- 2026-08-15T00:59:55.883303-04:00 — development `Scale_LN100_F2-C`: H2=1.033662, H4-decoded=0.048567, endpoint=0.4340, redirect=0.474962
+- 2026-08-15T00:59:57.175240-04:00 — development `Scale_LN100_Prior-CFM`: H2=1.076380, H4-decoded=0.047525, endpoint=0.4515, redirect=0.513141
+- 2026-08-15T00:59:57.615414-04:00 — development `Scale_LN100_RIF-C`: H2=1.549481, H4-decoded=0.072749, endpoint=0.4029, redirect=0.872168
+- 2026-08-15T00:59:58.204173-04:00 — development `Physical_PH0_F2-C`: H2=1.169986, H4-decoded=0.055747, endpoint=0.3570, redirect=0.428721
+- 2026-08-15T00:59:59.263865-04:00 — development `Physical_PH0_Prior-CFM`: H2=1.266137, H4-decoded=0.057909, endpoint=0.4034, redirect=0.480124
+- 2026-08-15T00:59:59.601242-04:00 — development `Physical_PH0_RIF-C`: H2=1.700315, H4-decoded=0.075762, endpoint=0.4922, redirect=1.014466
+- 2026-08-15T01:00:00.184287-04:00 — development `Physical_PH1_F2-C`: H2=1.152565, H4-decoded=0.054411, endpoint=0.4023, redirect=0.383397
+- 2026-08-15T01:00:01.275256-04:00 — development `Physical_PH1_Prior-CFM`: H2=1.250153, H4-decoded=0.056303, endpoint=0.4117, redirect=0.362411
+- 2026-08-15T01:00:01.659534-04:00 — development `Physical_PH1_RIF-C`: H2=1.691224, H4-decoded=0.075588, endpoint=0.5053, redirect=1.023733
+- 2026-08-15T01:00:02.393771-04:00 — development `Physical_PH2_F2-C`: H2=1.141827, H4-decoded=0.056096, endpoint=0.3868, redirect=0.345339
+- 2026-08-15T01:00:03.492235-04:00 — development `Physical_PH2_Prior-CFM`: H2=1.269238, H4-decoded=0.057631, endpoint=0.4167, redirect=0.391963
+- 2026-08-15T01:00:03.849594-04:00 — development `Physical_PH2_RIF-C`: H2=1.700099, H4-decoded=0.074796, endpoint=0.5031, redirect=0.973601
+- 2026-08-15T01:00:04.464689-04:00 — development `Physical_PH3_F2-C`: H2=1.117661, H4-decoded=0.055493, endpoint=0.4125, redirect=0.365097
+- 2026-08-15T01:00:05.502471-04:00 — development `Physical_PH3_Prior-CFM`: H2=1.266640, H4-decoded=0.055993, endpoint=0.4272, redirect=0.378535
+- 2026-08-15T01:00:05.834818-04:00 — development `Physical_PH3_RIF-C`: H2=1.701063, H4-decoded=0.074549, endpoint=0.4892, redirect=0.968293
+- 2026-08-15T01:00:06.421095-04:00 — development `Physical_PH4_F2-C`: H2=1.170574, H4-decoded=0.055954, endpoint=0.4090, redirect=0.323823
+- 2026-08-15T01:00:07.461962-04:00 — development `Physical_PH4_Prior-CFM`: H2=1.269915, H4-decoded=0.064454, endpoint=0.2614, redirect=0.258286
+- 2026-08-15T01:00:07.831356-04:00 — development `Physical_PH4_RIF-C`: H2=1.662316, H4-decoded=0.073916, endpoint=0.5429, redirect=1.023703
+- 2026-08-15T01:00:08.290720-04:00 — development `Physical_PH5_F2-C`: H2=1.343055, H4-decoded=0.065282, endpoint=0.3210, redirect=0.178015
+- 2026-08-15T01:00:09.399383-04:00 — development `Physical_PH5_Prior-CFM`: H2=1.474616, H4-decoded=0.070124, endpoint=0.2236, redirect=0.163776
+- 2026-08-15T01:00:09.748431-04:00 — development `Physical_PH5_RIF-C`: H2=1.700924, H4-decoded=0.072067, endpoint=0.5252, redirect=1.008156
+- 2026-08-15T01:00:10.786899-04:00 — development `Core_L0_PH0_RAT-C`: H2=1.416008, H4-decoded=0.056905, endpoint=0.5381, redirect=0.714940
+- 2026-08-15T01:00:12.308547-04:00 — development `Core_L0_PH0_TC-CFM`: H2=1.669959, H4-decoded=0.069831, endpoint=0.2686, redirect=0.123320
+- 2026-08-15T01:00:15.576078-04:00 — development `Core_L0_PH0_Phys-F2C`: H2=1.344050, H4-decoded=0.059148, endpoint=0.3557, redirect=0.261599
+- 2026-08-15T01:00:16.176578-04:00 — development `Core_NEW-only_PH0_RAT-C`: H2=1.166914, H4-decoded=0.057006, endpoint=0.5249, redirect=0.904267
+- 2026-08-15T01:00:17.496633-04:00 — development `Core_NEW-only_PH0_TC-CFM`: H2=1.247790, H4-decoded=0.057223, endpoint=0.3655, redirect=0.407248
+- 2026-08-15T01:00:19.292144-04:00 — development `Core_NEW-only_PH0_Phys-F2C`: H2=1.155825, H4-decoded=0.054621, endpoint=0.4345, redirect=0.504336
+- 2026-08-15T01:00:19.985249-04:00 — development `Core_LN25_PH0_RAT-C`: H2=1.273564, H4-decoded=0.051538, endpoint=0.5057, redirect=0.802981
+- 2026-08-15T01:00:21.213884-04:00 — development `Core_LN25_PH0_TC-CFM`: H2=1.293415, H4-decoded=0.057215, endpoint=0.4277, redirect=0.249264
+- 2026-08-15T01:00:23.501157-04:00 — development `Core_LN25_PH0_Phys-F2C`: H2=1.178658, H4-decoded=0.050779, endpoint=0.4387, redirect=0.411305
+- 2026-08-15T01:00:24.422162-04:00 — development `Core_LN50_PH0_RAT-C`: H2=1.172650, H4-decoded=0.050735, endpoint=0.5029, redirect=0.840550
+- 2026-08-15T01:00:26.151964-04:00 — development `Core_LN50_PH0_TC-CFM`: H2=1.172722, H4-decoded=0.050776, endpoint=0.4840, redirect=0.355716
+- 2026-08-15T01:00:27.955959-04:00 — development `Core_LN50_PH0_Phys-F2C`: H2=1.098340, H4-decoded=0.049748, endpoint=0.4859, redirect=0.460283
+- 2026-08-15T01:00:28.752614-04:00 — development `Core_LN100_PH0_RAT-C`: H2=1.062382, H4-decoded=0.050057, endpoint=0.5026, redirect=0.896349
+- 2026-08-15T01:00:30.803682-04:00 — development `Core_LN100_PH0_TC-CFM`: H2=1.134046, H4-decoded=0.050820, endpoint=0.4809, redirect=0.432309
+- 2026-08-15T01:00:33.363912-04:00 — development `Core_LN100_PH0_Phys-F2C`: H2=1.032489, H4-decoded=0.047081, endpoint=0.4572, redirect=0.547895
+- 2026-08-15T01:00:33.857349-04:00 — development `Core_NEW-only_PH1_RAT-C`: H2=1.173160, H4-decoded=0.056056, endpoint=0.5158, redirect=0.887563
+- 2026-08-15T01:00:34.145313-04:00 — development `Core_NEW-only_PH1_RIF`: H2=1.697986, H4-decoded=0.076361, endpoint=0.5198, redirect=1.014588
+- 2026-08-15T01:00:35.060211-04:00 — development `Core_NEW-only_PH1_Prior-CFM`: H2=1.250153, H4-decoded=0.056303, endpoint=0.4117, redirect=0.362411
+- 2026-08-15T01:00:36.269908-04:00 — development `Core_NEW-only_PH1_TC-CFM`: H2=1.250038, H4-decoded=0.057847, endpoint=0.4175, redirect=0.403905
+- 2026-08-15T01:00:37.941824-04:00 — development `Core_NEW-only_PH1_Phys-F2C`: H2=1.141022, H4-decoded=0.053596, endpoint=0.4149, redirect=0.460400
+- 2026-08-15T01:00:38.973197-04:00 — development `Flow_PH1_RIF-A_random`: H2=1.178220, H4-decoded=0.057967, endpoint=0.4692, redirect=0.424216
+- 2026-08-15T01:00:39.898169-04:00 — development `Flow_PH1_RIF-B_condition`: H2=1.187569, H4-decoded=0.057650, endpoint=0.4370, redirect=0.475779
+- 2026-08-15T01:00:40.261472-04:00 — development `Flow_PH1_RIF-C_initialize`: H2=1.679184, H4-decoded=0.076287, endpoint=0.4868, redirect=1.013257
+- 2026-08-15T01:00:40.647243-04:00 — development `Flow_PH1_RIF-D_causal_select`: H2=1.720773, H4-decoded=0.079492, endpoint=0.4707, redirect=0.981454
+- 2026-08-15T01:00:41.645554-04:00 — development `Flow_PH1_Prior-CFM`: H2=1.250153, H4-decoded=0.056303, endpoint=0.4117, redirect=0.362411
+- 2026-08-15T01:00:42.756528-04:00 — development `Flow_PH1_Streaming-CFM`: H2=1.267407, H4-decoded=0.065254, endpoint=0.3269, redirect=0.239603
+- 2026-08-15T01:00:44.047741-04:00 — development `Flow_PH1_Temporal-CFM`: H2=1.179428, H4-decoded=0.058081, endpoint=0.4692, redirect=0.422825
+- 2026-08-15T01:00:45.057489-04:00 — development `Flow_PH1_Hetero-CFM`: H2=1.250153, H4-decoded=0.056303, endpoint=0.4117, redirect=0.362411
+- 2026-08-15T01:00:45.421349-04:00 — development `Flow_PH1_MultiCandidate-CFM`: H2=1.899016, H4-decoded=0.081055, endpoint=0.4609, redirect=1.030523
+- 2026-08-15T01:00:46.093875-04:00 — development `Objective_PH1_latent`: H2=1.152565, H4-decoded=0.054411, endpoint=0.4023, redirect=0.383397
+- 2026-08-15T01:00:46.982152-04:00 — development `Objective_PH1_decoded`: H2=1.143193, H4-decoded=0.053723, endpoint=0.4149, redirect=0.450429
+- 2026-08-15T01:00:48.252251-04:00 — development `Objective_PH1_contrastive`: H2=1.151470, H4-decoded=0.054263, endpoint=0.4023, redirect=0.394612
+- 2026-08-15T01:00:49.936368-04:00 — development `Objective_PH1_combined`: H2=1.141022, H4-decoded=0.053596, endpoint=0.4149, redirect=0.460400
+- 2026-08-15T01:00:50.529918-04:00 — development `Control_PH1_Phys-MLP`: H2=1.152565, H4-decoded=0.054411, endpoint=0.4023, redirect=0.383397
+- 2026-08-15T01:00:52.050559-04:00 — development `Control_PH1_Phys-F2C`: H2=1.141022, H4-decoded=0.053596, endpoint=0.4149, redirect=0.460400
+- 2026-08-15T01:00:52.697341-04:00 — development `Control_PH1_Phys-MoE`: H2=1.529941, H4-decoded=0.073623, endpoint=0.3297, redirect=0.285520
+- 2026-08-15T01:00:53.186328-04:00 — development `Control_PH1_RAT-C`: H2=1.173160, H4-decoded=0.056056, endpoint=0.5158, redirect=0.887563
+- 2026-08-15T01:01:14.152146-04:00 — development `Control_PH0_D4`: H2=2.530947, H4-decoded=0.088050, endpoint=0.5408, redirect=1.532104
+- 2026-08-15T01:01:15.435488-04:00 — development `Control_PH1_VQ32`: H2=1.712603, H4-decoded=0.076469, endpoint=0.2562, redirect=0.131113
+- 2026-08-15T01:01:15.502420-04:00 — stage `sweep` completed
+- 2026-08-15T01:01:31.496127-04:00 — stage `select` started on cuda:0
+- 2026-08-15T01:01:31.514828-04:00 — stage `select` completed
+- 2026-08-15T01:01:47.185426-04:00 — stage `final` started on cuda:0
+- 2026-08-15T01:02:08.738928-04:00 — stage `final` completed
+- 2026-08-15T01:02:31.743450-04:00 — stage `report` started on cuda:0
+- 2026-08-15T01:02:32.269608-04:00 — stage `report` completed
+- Final Wave27 integrity suite: 8/8 passed. Full repository suite required the documented LIBERO/LaWM PYTHONPATH and NUMBA_DISABLE_JIT=1; 138 tests passed. One historical repository-size assertion was deselected after attribution showed 50 GB pre-existing data versus about 33 MB Wave27 additions; no user data or old threshold was changed.

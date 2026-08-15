@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-08-15T00:58:52.551669-04:00",
+  "future_as_input": false,
+  "physical_alignment": "query state is source frame t-1; four causal snapshots end at t-1",
+  "prospective_test_encoded": false,
+  "representation_sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+  "splits": {
+    "new_development": {
+      "per_goal": {
+        "lift_blue_block_slider": 13,
+        "lift_red_block_table": 15,
+        "place_in_slider": 17,
+        "push_pink_block_right": 18,
+        "turn_off_lightbulb": 12,
+        "turn_on_lightbulb": 12
+      },
+      "sessions": 8,
+      "sha256": "b3cf5f7f3ee3b3542507d04b2e154d2b0cb05dfdb3bb97497487774c112b42f4",
+      "transitions": 87
+    },
+    "new_train": {
+      "per_goal": {
+        "lift_blue_block_slider": 50,
+        "lift_red_block_table": 56,
+        "place_in_slider": 47,
+        "push_pink_block_right": 23,
+        "turn_off_lightbulb": 29,
+        "turn_on_lightbulb": 29
+      },
+      "sessions": 36,
+      "sha256": "9e67ef1109fafc433c97ac5af983a788e21f6b91f510d2874052a16c83f3f85f",
+      "transitions": 234
+    }
+  }
+}

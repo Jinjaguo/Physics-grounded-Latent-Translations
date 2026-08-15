@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-08-15T01:01:31.514113-04:00",
+  "development_metrics_sha256": "0b748b210b106e272541a91622c207c9d041701dc178604d0fbc9b62ddafed01",
+  "frozen_before_prospective_test": true,
+  "maximum_candidates": 4,
+  "model_specs": {
+    "Core_LN100_PH0_Phys-F2C": {
+      "data_regime": "LN100",
+      "model_kind": "mlp",
+      "objective": "combined",
+      "physical": "PH0",
+      "sampling_seed": 271078
+    },
+    "Core_LN100_PH0_RAT-C": {
+      "anchor": "retrieval",
+      "data_regime": "LN100",
+      "k": 16,
+      "model_kind": "mlp",
+      "objective": "latent",
+      "physical": "PH0",
+      "residual_anchor": true,
+      "retrieval_family": "R4_factored",
+      "sampling_seed": 271078
+    },
+    "Flow_PH1_RIF-A_random": {
+      "data_regime": "NEW-only",
+      "model_kind": "flow",
+      "physical": "PH1",
+      "samples": 8,
+      "sampling_seed": 271134,
+      "steps": 8
+    },
+    "Scale_LN100_Prior-CFM": {
+      "data_regime": "LN100",
+      "model_kind": "hetero",
+      "physical": "PH0",
+      "sampling_seed": 270928
+    }
+  },
+  "pareto": [
+    "Control_PH1_Phys-F2C",
+    "Control_PH1_RAT-C",
+    "Core_L0_PH0_RAT-C",
+    "Core_LN100_PH0_Phys-F2C",
+    "Core_LN100_PH0_RAT-C",
+    "Core_LN100_PH0_TC-CFM",
+    "Core_LN25_PH0_RAT-C",
+    "Core_LN25_PH0_TC-CFM",
+    "Core_LN50_PH0_Phys-F2C",
+    "Core_LN50_PH0_RAT-C",
+    "Core_LN50_PH0_TC-CFM",
+    "Core_NEW-only_PH0_Phys-F2C",
+    "Core_NEW-only_PH0_RAT-C",
+    "Core_NEW-only_PH0_TC-CFM",
+    "Core_NEW-only_PH1_RIF",
+    "Core_NEW-only_PH1_TC-CFM",
+    "Flow_PH1_MultiCandidate-CFM",
+    "Flow_PH1_RIF-A_random",
+    "Flow_PH1_RIF-C_initialize",
+    "Flow_PH1_Temporal-CFM",
+    "Objective_PH1_decoded",
+    "Physical_PH0_F2-C",
+    "Physical_PH0_RIF-C",
+    "Physical_PH1_RIF-C",
+    "Physical_PH2_Prior-CFM",
+    "Physical_PH2_RIF-C",
+    "Physical_PH3_RIF-C",
+    "Physical_PH4_F2-C",
+    "Physical_PH4_RIF-C",
+    "Physical_PH5_RIF-C",
+    "Scale_LN100_F2-C",
+    "Scale_LN100_Prior-CFM",
+    "Scale_LN100_RIF-C",
+    "Scale_LN50_F2-C",
+    "Scale_NEW-only_Prior-CFM"
+  ],
+  "post_test_model_changes_forbidden": true,
+  "prospective_test_opened": false,
+  "selected": [
+    "Core_LN100_PH0_RAT-C",
+    "Flow_PH1_RIF-A_random",
+    "Core_LN100_PH0_Phys-F2C",
+    "Scale_LN100_Prior-CFM"
+  ],
+  "selection_rule": "Pareto then composite; preserve overall, PH0 compatibility, flow, and differentiable-decoder coverage where non-dominated",
+  "selection_split": "NEW development sessions only"
+}

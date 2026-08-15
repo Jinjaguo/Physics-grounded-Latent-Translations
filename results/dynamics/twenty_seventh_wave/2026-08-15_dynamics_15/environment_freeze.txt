@@ -1,0 +1,13 @@
+Date: 2026-08-15 America/New_York
+Repository: /home/jinjaguo/PGLT
+Acquisition Python: /home/jinjaguo/openpi/.venv/bin/python (3.11.14)
+Training Python: /home/jinjaguo/anaconda3/envs/libero/bin/python (3.8.13)
+PyTorch: 2.4.1+cu121
+CUDA available: true
+GPU: NVIDIA GeForce RTX 4090, 24564 MiB
+CALVIN source repo: VyoJ/calvin-ABCD-D-subsets
+CALVIN source revision: c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d
+Collection shards: training/subset_training_005.zip through 008.zip
+Collection transfer: Hugging Face remote ZIP member range reads
+Representation: frozen Wave21 checkpoint recorded in wave27_frozen_manifest.json
+Prospective bootstrap: source session, 10000 replicates, seed 270827

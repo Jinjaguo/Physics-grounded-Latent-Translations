@@ -1,0 +1,598 @@
+{
+  "Control_PH1_Phys-F2C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH1",
+    "sampling_seed": 271330
+  },
+  "Control_PH1_Phys-MLP": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH1",
+    "sampling_seed": 271330
+  },
+  "Control_PH1_Phys-MoE": {
+    "data_regime": "NEW-only",
+    "experts": 4,
+    "hard": true,
+    "model_kind": "moe",
+    "physical": "PH1",
+    "sampling_seed": 271330
+  },
+  "Control_PH1_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH1",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271336
+  },
+  "Core_L0_PH0_Phys-F2C": {
+    "data_regime": "L0",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH0",
+    "sampling_seed": 271078
+  },
+  "Core_L0_PH0_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "L0",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271078
+  },
+  "Core_L0_PH0_TC-CFM": {
+    "data_regime": "L0",
+    "model_kind": "flow",
+    "physical": "PH0",
+    "samples": 8,
+    "sampling_seed": 271078,
+    "steps": 16
+  },
+  "Core_LN100_PH0_Phys-F2C": {
+    "data_regime": "LN100",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH0",
+    "sampling_seed": 271078
+  },
+  "Core_LN100_PH0_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "LN100",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271078
+  },
+  "Core_LN100_PH0_TC-CFM": {
+    "data_regime": "LN100",
+    "model_kind": "flow",
+    "physical": "PH0",
+    "samples": 8,
+    "sampling_seed": 271078,
+    "steps": 16
+  },
+  "Core_LN25_PH0_Phys-F2C": {
+    "data_regime": "LN25",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH0",
+    "sampling_seed": 271078
+  },
+  "Core_LN25_PH0_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "LN25",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271078
+  },
+  "Core_LN25_PH0_TC-CFM": {
+    "data_regime": "LN25",
+    "model_kind": "flow",
+    "physical": "PH0",
+    "samples": 8,
+    "sampling_seed": 271078,
+    "steps": 16
+  },
+  "Core_LN50_PH0_Phys-F2C": {
+    "data_regime": "LN50",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH0",
+    "sampling_seed": 271078
+  },
+  "Core_LN50_PH0_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "LN50",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271078
+  },
+  "Core_LN50_PH0_TC-CFM": {
+    "data_regime": "LN50",
+    "model_kind": "flow",
+    "physical": "PH0",
+    "samples": 8,
+    "sampling_seed": 271078,
+    "steps": 16
+  },
+  "Core_NEW-only_PH0_Phys-F2C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH0",
+    "sampling_seed": 271078
+  },
+  "Core_NEW-only_PH0_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271078
+  },
+  "Core_NEW-only_PH0_TC-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "flow",
+    "physical": "PH0",
+    "samples": 8,
+    "sampling_seed": 271078,
+    "steps": 16
+  },
+  "Core_NEW-only_PH1_Phys-F2C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH1",
+    "sampling_seed": 271090
+  },
+  "Core_NEW-only_PH1_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH1",
+    "sampling_seed": 271090
+  },
+  "Core_NEW-only_PH1_RAT-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "k": 16,
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH1",
+    "residual_anchor": true,
+    "retrieval_family": "R4_factored",
+    "sampling_seed": 271090
+  },
+  "Core_NEW-only_PH1_RIF": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH1",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271090,
+    "steps": 8
+  },
+  "Core_NEW-only_PH1_TC-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "flow",
+    "physical": "PH1",
+    "samples": 8,
+    "sampling_seed": 271090,
+    "steps": 16
+  },
+  "Flow_PH1_Hetero-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH1",
+    "sampling_seed": 271134
+  },
+  "Flow_PH1_MultiCandidate-CFM": {
+    "anchor": "retrieval",
+    "causal_select": true,
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 32,
+    "model_kind": "flow",
+    "physical": "PH1",
+    "retrieval_family": "R4_factored",
+    "samples": 16,
+    "sampling_seed": 271134,
+    "steps": 16
+  },
+  "Flow_PH1_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH1",
+    "sampling_seed": 271134
+  },
+  "Flow_PH1_RIF-A_random": {
+    "data_regime": "NEW-only",
+    "model_kind": "flow",
+    "physical": "PH1",
+    "samples": 8,
+    "sampling_seed": 271134,
+    "steps": 8
+  },
+  "Flow_PH1_RIF-B_condition": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH1",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271134,
+    "steps": 8
+  },
+  "Flow_PH1_RIF-C_initialize": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH1",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271134,
+    "steps": 8
+  },
+  "Flow_PH1_RIF-D_causal_select": {
+    "anchor": "retrieval",
+    "causal_select": true,
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH1",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271134,
+    "steps": 16
+  },
+  "Flow_PH1_Streaming-CFM": {
+    "anchor": "streaming",
+    "data_regime": "NEW-only",
+    "model_kind": "flow",
+    "physical": "PH1",
+    "samples": 8,
+    "sampling_seed": 271134,
+    "steps": 8
+  },
+  "Flow_PH1_Temporal-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "flow",
+    "physical": "PH1",
+    "samples": 8,
+    "sampling_seed": 271134,
+    "steps": 16
+  },
+  "Objective_PH1_combined": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "combined",
+    "physical": "PH1",
+    "sampling_seed": 271228
+  },
+  "Objective_PH1_contrastive": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "contrastive",
+    "physical": "PH1",
+    "sampling_seed": 271228
+  },
+  "Objective_PH1_decoded": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "decoded",
+    "physical": "PH1",
+    "sampling_seed": 271228
+  },
+  "Objective_PH1_latent": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH1",
+    "sampling_seed": 271228
+  },
+  "Physical_PH0_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "sampling_seed": 271030
+  },
+  "Physical_PH0_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH0",
+    "sampling_seed": 271030
+  },
+  "Physical_PH0_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH0",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271030,
+    "steps": 8
+  },
+  "Physical_PH1_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH1",
+    "sampling_seed": 271030
+  },
+  "Physical_PH1_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH1",
+    "sampling_seed": 271030
+  },
+  "Physical_PH1_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH1",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271030,
+    "steps": 8
+  },
+  "Physical_PH2_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH2",
+    "sampling_seed": 271030
+  },
+  "Physical_PH2_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH2",
+    "sampling_seed": 271030
+  },
+  "Physical_PH2_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH2",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271030,
+    "steps": 8
+  },
+  "Physical_PH3_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH3",
+    "sampling_seed": 271030
+  },
+  "Physical_PH3_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH3",
+    "sampling_seed": 271030
+  },
+  "Physical_PH3_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH3",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271030,
+    "steps": 8
+  },
+  "Physical_PH4_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH4",
+    "sampling_seed": 271030
+  },
+  "Physical_PH4_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH4",
+    "sampling_seed": 271030
+  },
+  "Physical_PH4_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH4",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271030,
+    "steps": 8
+  },
+  "Physical_PH5_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH5",
+    "sampling_seed": 271030
+  },
+  "Physical_PH5_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH5",
+    "sampling_seed": 271030
+  },
+  "Physical_PH5_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH5",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 271030,
+    "steps": 8
+  },
+  "Scale_L0_F2-C": {
+    "data_regime": "L0",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_L0_Prior-CFM": {
+    "data_regime": "L0",
+    "model_kind": "hetero",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_L0_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "L0",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH0",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 270928,
+    "steps": 8
+  },
+  "Scale_LN100_F2-C": {
+    "data_regime": "LN100",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_LN100_Prior-CFM": {
+    "data_regime": "LN100",
+    "model_kind": "hetero",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_LN100_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "LN100",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH0",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 270928,
+    "steps": 8
+  },
+  "Scale_LN25_F2-C": {
+    "data_regime": "LN25",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_LN25_Prior-CFM": {
+    "data_regime": "LN25",
+    "model_kind": "hetero",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_LN25_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "LN25",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH0",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 270928,
+    "steps": 8
+  },
+  "Scale_LN50_F2-C": {
+    "data_regime": "LN50",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_LN50_Prior-CFM": {
+    "data_regime": "LN50",
+    "model_kind": "hetero",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_LN50_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "LN50",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH0",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 270928,
+    "steps": 8
+  },
+  "Scale_NEW-only_F2-C": {
+    "data_regime": "NEW-only",
+    "model_kind": "mlp",
+    "objective": "latent",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_NEW-only_Prior-CFM": {
+    "data_regime": "NEW-only",
+    "model_kind": "hetero",
+    "physical": "PH0",
+    "sampling_seed": 270928
+  },
+  "Scale_NEW-only_RIF-C": {
+    "anchor": "retrieval",
+    "data_regime": "NEW-only",
+    "initialize_from_anchor": true,
+    "k": 16,
+    "model_kind": "flow",
+    "physical": "PH0",
+    "retrieval_family": "R4_factored",
+    "samples": 8,
+    "sampling_seed": 270928,
+    "steps": 8
+  }
+}

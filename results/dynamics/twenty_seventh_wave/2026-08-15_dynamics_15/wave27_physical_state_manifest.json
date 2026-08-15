@@ -1,0 +1,14 @@
+{
+  "derived_velocity": "finite difference over causal 16-frame intervals; not measured velocity",
+  "fit": "TRAIN only",
+  "query_alignment": "latest input t-1",
+  "true_contact": "UNAVAILABLE",
+  "variants": {
+    "PH0": "latent/action history only",
+    "PH1": "measured gripper width/state",
+    "PH2": "measured joint positions",
+    "PH3": "measured TCP pose plus gripper width",
+    "PH4": "four synchronized robot snapshots plus causal finite differences",
+    "PH5": "PH4 plus synchronized scene state/history"
+  }
+}

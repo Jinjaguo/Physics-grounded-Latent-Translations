@@ -1,0 +1,258 @@
+{
+  "Core_LN100_PH0_Phys-F2C": {
+    "Execution_RedirectGain": 0.3833886782328288,
+    "RedirectGain": 0.6984490752220154,
+    "current_state_dependence": 1.0017120838165283,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 2.1622746785481772,
+        "continuity": 0.21851860483487448,
+        "cycle_residual": 2.7132303714752197,
+        "decode_reencode_accuracy": 0.1896545584045584,
+        "decoded_mse": 0.06140813107291857,
+        "displacement_cosine": 0.754524807135264,
+        "endpoint_accuracy": 0.21860754985754985,
+        "execution_cosine": 0.7627116243044535,
+        "execution_mse": 1.0317595799763997,
+        "full_mse": 1.0992559989293416,
+        "goal_target_margin": -0.423457533121109,
+        "norm_ratio": 0.860059400399526,
+        "semantic_mse": 1.166752298672994
+      },
+      "H2": {
+        "absolute_norm_error": 2.2027299404144287,
+        "continuity": 0.2555187443892161,
+        "cycle_residual": 2.813687801361084,
+        "decode_reencode_accuracy": 0.5254629629629629,
+        "decoded_mse": 0.06970028579235077,
+        "displacement_cosine": 0.7354487180709839,
+        "endpoint_accuracy": 0.48167735042735044,
+        "execution_cosine": 0.7511138518651327,
+        "execution_mse": 1.2663837273915608,
+        "full_mse": 1.3234236637751262,
+        "goal_target_margin": -0.04397540787855784,
+        "norm_ratio": 0.8512848615646362,
+        "semantic_mse": 1.3804635604222615
+      },
+      "H4": {
+        "absolute_norm_error": 2.0675648848215737,
+        "continuity": 0.20102138817310333,
+        "cycle_residual": 2.7814194361368814,
+        "decode_reencode_accuracy": 0.41264245014245016,
+        "decoded_mse": 0.05798424780368805,
+        "displacement_cosine": 0.716153621673584,
+        "endpoint_accuracy": 0.546545584045584,
+        "execution_cosine": 0.7697277466456095,
+        "execution_mse": 1.1185442209243774,
+        "full_mse": 1.3156159321467082,
+        "goal_target_margin": 0.1347863177458445,
+        "norm_ratio": 0.8284157117207845,
+        "semantic_mse": 1.5126877228418987
+      }
+    },
+    "distribution_metrics": {
+      "prospective": true,
+      "seed": 270827
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "prospective_final",
+    "model_name": "Core_LN100_PH0_Phys-F2C",
+    "parameter_count": 44640,
+    "runtime_seconds": 0.006188832005136646,
+    "seeds": 3,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  },
+  "Core_LN100_PH0_RAT-C": {
+    "Execution_RedirectGain": 0.6926148732503256,
+    "RedirectGain": 1.039290150006612,
+    "current_state_dependence": 1.113724946975708,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 1.9191684325536091,
+        "continuity": 0.21930115421613058,
+        "cycle_residual": 2.543525536855062,
+        "decode_reencode_accuracy": 0.21103988603988602,
+        "decoded_mse": 0.06162595624725024,
+        "displacement_cosine": 0.7470424175262451,
+        "endpoint_accuracy": 0.25621438746438746,
+        "execution_cosine": 0.756072461605072,
+        "execution_mse": 1.0656842788060505,
+        "full_mse": 1.1307865778605144,
+        "goal_target_margin": -0.43297551075617474,
+        "norm_ratio": 0.8995740612347921,
+        "semantic_mse": 1.195888837178548
+      },
+      "H2": {
+        "absolute_norm_error": 1.9926656087239583,
+        "continuity": 0.25099754333496094,
+        "cycle_residual": 2.5420658588409424,
+        "decode_reencode_accuracy": 0.517218660968661,
+        "decoded_mse": 0.07195763289928436,
+        "displacement_cosine": 0.7322746713956197,
+        "endpoint_accuracy": 0.5388176638176637,
+        "execution_cosine": 0.7470974326133728,
+        "execution_mse": 1.3321216503779094,
+        "full_mse": 1.3681145906448364,
+        "goal_target_margin": -0.014449545492728552,
+        "norm_ratio": 0.8799244165420532,
+        "semantic_mse": 1.4041075706481934
+      },
+      "H4": {
+        "absolute_norm_error": 1.7101668914159138,
+        "continuity": 0.20045577983061472,
+        "cycle_residual": 2.4848473072052,
+        "decode_reencode_accuracy": 0.5272079772079773,
+        "decoded_mse": 0.058471297224362694,
+        "displacement_cosine": 0.7177151838938395,
+        "endpoint_accuracy": 0.5951566951566952,
+        "execution_cosine": 0.770559291044871,
+        "execution_mse": 1.1449407736460369,
+        "full_mse": 1.3220131794611614,
+        "goal_target_margin": 0.20485278964042664,
+        "norm_ratio": 0.8742031256357828,
+        "semantic_mse": 1.4990853468577068
+      }
+    },
+    "distribution_metrics": {
+      "prospective": true,
+      "seed": 270827
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "prospective_final",
+    "model_name": "Core_LN100_PH0_RAT-C",
+    "parameter_count": 44640,
+    "runtime_seconds": 0.04509635233747152,
+    "seeds": 3,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  },
+  "Flow_PH1_RIF-A_random": {
+    "Execution_RedirectGain": 0.27825119098027545,
+    "RedirectGain": 0.5348668793837229,
+    "current_state_dependence": 1.1402936379114788,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 1.9122929970423381,
+        "continuity": 0.29531316955884296,
+        "cycle_residual": 3.0568361282348633,
+        "decode_reencode_accuracy": 0.18203347578347576,
+        "decoded_mse": 0.06880733370780945,
+        "displacement_cosine": 0.6927158435185751,
+        "endpoint_accuracy": 0.21561609686609687,
+        "execution_cosine": 0.6965546011924744,
+        "execution_mse": 1.2506444056828816,
+        "full_mse": 1.2891273101170857,
+        "goal_target_margin": -0.5292697151501974,
+        "norm_ratio": 0.8878195285797119,
+        "semantic_mse": 1.3276102145512898
+      },
+      "H2": {
+        "absolute_norm_error": 2.0746368567148843,
+        "continuity": 0.22453445692857107,
+        "cycle_residual": 3.1918017069498696,
+        "decode_reencode_accuracy": 0.3904558404558405,
+        "decoded_mse": 0.07208601882060368,
+        "displacement_cosine": 0.689084549744924,
+        "endpoint_accuracy": 0.32186609686609685,
+        "execution_cosine": 0.6952050924301147,
+        "execution_mse": 1.516594409942627,
+        "full_mse": 1.5076581637064617,
+        "goal_target_margin": -0.30584081013997394,
+        "norm_ratio": 0.8627579013506571,
+        "semantic_mse": 1.4987222750981648
+      },
+      "H4": {
+        "absolute_norm_error": 1.8757236401240032,
+        "continuity": 0.2126264969507853,
+        "cycle_residual": 3.0893691380818686,
+        "decode_reencode_accuracy": 0.3405448717948718,
+        "decoded_mse": 0.06822576622168224,
+        "displacement_cosine": 0.6701682408650717,
+        "endpoint_accuracy": 0.4181623931623932,
+        "execution_cosine": 0.7117645541826884,
+        "execution_mse": 1.3222196102142334,
+        "full_mse": 1.486262321472168,
+        "goal_target_margin": -0.024627891291553777,
+        "norm_ratio": 0.8787822326024374,
+        "semantic_mse": 1.6503052711486816
+      }
+    },
+    "distribution_metrics": {
+      "prospective": true,
+      "seed": 270827
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "prospective_final",
+    "model_name": "Flow_PH1_RIF-A_random",
+    "parameter_count": 57312,
+    "runtime_seconds": 0.01714718666335102,
+    "seeds": 3,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  },
+  "Scale_LN100_Prior-CFM": {
+    "Execution_RedirectGain": 0.39659981926282245,
+    "RedirectGain": 0.6720841526985168,
+    "current_state_dependence": 0.9726371963818868,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 2.3854265213012695,
+        "continuity": 0.23034316301345825,
+        "cycle_residual": 2.6064756711324057,
+        "decode_reencode_accuracy": 0.1925747863247863,
+        "decoded_mse": 0.0655614510178566,
+        "displacement_cosine": 0.7361489534378052,
+        "endpoint_accuracy": 0.25450498575498576,
+        "execution_cosine": 0.7536416252454122,
+        "execution_mse": 1.106368104616801,
+        "full_mse": 1.2497934897740681,
+        "goal_target_margin": -0.4177458882331848,
+        "norm_ratio": 0.8427845438321432,
+        "semantic_mse": 1.3932188749313354
+      },
+      "H2": {
+        "absolute_norm_error": 2.2250672976175943,
+        "continuity": 0.2500724295775096,
+        "cycle_residual": 2.5740169684092202,
+        "decode_reencode_accuracy": 0.5227029914529915,
+        "decoded_mse": 0.07330599178870519,
+        "displacement_cosine": 0.7393345236778259,
+        "endpoint_accuracy": 0.5652065527065527,
+        "execution_cosine": 0.7518150607744852,
+        "execution_mse": 1.270551323890686,
+        "full_mse": 1.333483894666036,
+        "goal_target_margin": 0.02291549618045489,
+        "norm_ratio": 0.8261626958847046,
+        "semantic_mse": 1.3964166641235352
+      },
+      "H4": {
+        "absolute_norm_error": 2.095491409301758,
+        "continuity": 0.20159093042214712,
+        "cycle_residual": 2.6621026198069253,
+        "decode_reencode_accuracy": 0.47393162393162397,
+        "decoded_mse": 0.05721599981188774,
+        "displacement_cosine": 0.7273840506871542,
+        "endpoint_accuracy": 0.544675925925926,
+        "execution_cosine": 0.770634651184082,
+        "execution_mse": 1.1089353958765666,
+        "full_mse": 1.2807499567667644,
+        "goal_target_margin": 0.07482731031874816,
+        "norm_ratio": 0.8129383325576782,
+        "semantic_mse": 1.4525646368662517
+      }
+    },
+    "distribution_metrics": {
+      "prospective": true,
+      "seed": 270827
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "prospective_final",
+    "model_name": "Scale_LN100_Prior-CFM",
+    "parameter_count": 57024,
+    "runtime_seconds": 0.0069579123325335486,
+    "seeds": 3,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  }
+}

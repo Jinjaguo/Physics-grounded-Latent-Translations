@@ -1,0 +1,86 @@
+[
+  {
+    "inference_seconds": 0.04688573301245924,
+    "model": "Core_LN100_PH0_RAT-C",
+    "parameters": 44640,
+    "seed": 270827,
+    "training_seconds": 0.8159289809991606
+  },
+  {
+    "inference_seconds": 0.048103264009114355,
+    "model": "Core_LN100_PH0_RAT-C",
+    "parameters": 44640,
+    "seed": 270828,
+    "training_seconds": 0.669954858996789
+  },
+  {
+    "inference_seconds": 0.040300059990840964,
+    "model": "Core_LN100_PH0_RAT-C",
+    "parameters": 44640,
+    "seed": 270829,
+    "training_seconds": 0.6302384279988473
+  },
+  {
+    "inference_seconds": 0.02131719699536916,
+    "model": "Flow_PH1_RIF-A_random",
+    "parameters": 57312,
+    "seed": 270827,
+    "training_seconds": 0.9146273060032399
+  },
+  {
+    "inference_seconds": 0.015092401998117566,
+    "model": "Flow_PH1_RIF-A_random",
+    "parameters": 57312,
+    "seed": 270828,
+    "training_seconds": 0.9537517849967116
+  },
+  {
+    "inference_seconds": 0.01503196099656634,
+    "model": "Flow_PH1_RIF-A_random",
+    "parameters": 57312,
+    "seed": 270829,
+    "training_seconds": 0.937256974997581
+  },
+  {
+    "inference_seconds": 0.005910034000407904,
+    "model": "Core_LN100_PH0_Phys-F2C",
+    "parameters": 44640,
+    "seed": 270827,
+    "training_seconds": 2.4006276190048084
+  },
+  {
+    "inference_seconds": 0.006072164003853686,
+    "model": "Core_LN100_PH0_Phys-F2C",
+    "parameters": 44640,
+    "seed": 270828,
+    "training_seconds": 2.354243932000827
+  },
+  {
+    "inference_seconds": 0.0065842980111483485,
+    "model": "Core_LN100_PH0_Phys-F2C",
+    "parameters": 44640,
+    "seed": 270829,
+    "training_seconds": 2.1743966000067303
+  },
+  {
+    "inference_seconds": 0.008047110997722484,
+    "model": "Scale_LN100_Prior-CFM",
+    "parameters": 57024,
+    "seed": 270827,
+    "training_seconds": 1.2615318320022197
+  },
+  {
+    "inference_seconds": 0.007055398004013114,
+    "model": "Scale_LN100_Prior-CFM",
+    "parameters": 57024,
+    "seed": 270828,
+    "training_seconds": 1.404438489000313
+  },
+  {
+    "inference_seconds": 0.005771227995865047,
+    "model": "Scale_LN100_Prior-CFM",
+    "parameters": 57024,
+    "seed": 270829,
+    "training_seconds": 1.0949360909871757
+  }
+]

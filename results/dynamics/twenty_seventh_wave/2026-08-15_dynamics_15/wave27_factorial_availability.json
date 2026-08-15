@@ -1,0 +1,87 @@
+{
+  "PH0": [
+    {
+      "data": "L0",
+      "methods": [
+        "RAT-C",
+        "RIF",
+        "Prior-CFM",
+        "TC-CFM",
+        "Phys-F2C"
+      ]
+    },
+    {
+      "data": "NEW-only",
+      "methods": [
+        "RAT-C",
+        "RIF",
+        "Prior-CFM",
+        "TC-CFM",
+        "Phys-F2C"
+      ]
+    },
+    {
+      "data": "LN25",
+      "methods": [
+        "RAT-C",
+        "RIF",
+        "Prior-CFM",
+        "TC-CFM",
+        "Phys-F2C"
+      ]
+    },
+    {
+      "data": "LN50",
+      "methods": [
+        "RAT-C",
+        "RIF",
+        "Prior-CFM",
+        "TC-CFM",
+        "Phys-F2C"
+      ]
+    },
+    {
+      "data": "LN100",
+      "methods": [
+        "RAT-C",
+        "RIF",
+        "Prior-CFM",
+        "TC-CFM",
+        "Phys-F2C"
+      ]
+    }
+  ],
+  "best_true_physical": {
+    "available": [
+      {
+        "data": "NEW-only",
+        "methods": [
+          "RAT-C",
+          "RIF",
+          "Prior-CFM",
+          "TC-CFM",
+          "Phys-F2C"
+        ],
+        "physical": "PH1"
+      }
+    ],
+    "unavailable": [
+      {
+        "data": "L0",
+        "reason": "legacy portion has no synchronized physical state; no imputation"
+      },
+      {
+        "data": "LN25",
+        "reason": "legacy portion has no synchronized physical state; no imputation"
+      },
+      {
+        "data": "LN50",
+        "reason": "legacy portion has no synchronized physical state; no imputation"
+      },
+      {
+        "data": "LN100",
+        "reason": "legacy portion has no synchronized physical state; no imputation"
+      }
+    ]
+  }
+}

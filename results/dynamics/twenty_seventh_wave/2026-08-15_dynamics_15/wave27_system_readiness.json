@@ -1,0 +1,12 @@
+{
+  "best_candidate": "Core_LN100_PH0_RAT-C",
+  "criteria": {
+    "H2_full": false,
+    "H4_continuity": false,
+    "H4_decoded": false,
+    "H4_endpoint": true,
+    "H4_recode": true,
+    "redirect_lower_ci": true
+  },
+  "ready_for_offline_retargeting": false
+}

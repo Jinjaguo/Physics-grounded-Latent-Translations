@@ -1,0 +1,30 @@
+{
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 270827,
+    "unit": "source session"
+  },
+  "candidates": [
+    "Core_LN100_PH0_RAT-C",
+    "Flow_PH1_RIF-A_random",
+    "Core_LN100_PH0_Phys-F2C",
+    "Scale_LN100_Prior-CFM"
+  ],
+  "created_before_test_open": true,
+  "no_physical_imputation": true,
+  "primary_test": "NEW prospective source-session test",
+  "secondary_test": "frozen Wave21 legacy heldout for PH0 candidates only",
+  "seeds": [
+    270827,
+    270828,
+    270829
+  ],
+  "thresholds": {
+    "H2_full": 0.85,
+    "H4_continuity": 0.195,
+    "H4_decoded": 0.045,
+    "H4_endpoint": 0.55,
+    "H4_recode": 0.5,
+    "redirect_lower_ci": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "decoder_parameters_frozen": true,
+  "frozen_representation_gradient_l1": 0.0,
+  "loss": 1.9929001331329346,
+  "passed": true,
+  "transition_gradient_l1": 54.69474411010742,
+  "transition_gradient_nonzero": true
+}

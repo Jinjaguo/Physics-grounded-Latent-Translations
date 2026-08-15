@@ -1,0 +1,43 @@
+Wave 27 verification report
+===========================
+
+Static checks
+-------------
+- Python 3.8 py_compile: PASS
+- pyflakes on acquisition, experiment, model, and Wave27 tests: PASS
+- actual frozen-decoder + PH5 + anchored-flow trainer smoke: PASS
+- required deliverables: 42/42 present
+- required figures: 9/9 present
+
+Wave 27 integrity suite
+-----------------------
+Command:
+  PYTHONPATH=.:src MPLCONFIGDIR=/tmp/wave27_mpl \
+  /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest -q tests/test_dynamics_15.py
+
+Result:
+  8 passed in 1.38s
+
+Full repository suite
+---------------------
+The first plain run could not collect two historical tests because the
+supported LIBERO and LaWM source roots were absent from PYTHONPATH. Adding
+those roots exposed a robosuite/Numba cache-locator error caused by dynamic
+module loading; NUMBA_DISABLE_JIT=1 avoids that irrelevant cache compilation.
+
+One historical storage test then failed:
+  tests/dynamics/test_dynamics_4_long_horizon.py::test_project_remains_below_20_gib
+
+It observed 56.3 GB. Attribution showed 50 GB in pre-existing data, while
+Wave27 added about 7 MB of local prospective data and 26 MB of results; staging
+was 20 KB. Existing user data and the old threshold were not modified.
+
+Command for the remaining suite:
+  NUMBA_DISABLE_JIT=1 \
+  PYTHONPATH=.:src:/home/jinjaguo/LIBERO:third_party/LaWM \
+  MPLCONFIGDIR=/tmp/wave27_mpl \
+  /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest -q \
+  -k 'not project_remains_below_20_gib'
+
+Result:
+  138 passed, 1 deselected, 8 warnings in 41.06s

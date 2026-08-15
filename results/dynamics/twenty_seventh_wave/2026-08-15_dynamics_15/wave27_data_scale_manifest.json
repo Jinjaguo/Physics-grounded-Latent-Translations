@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "condition": "L0",
+      "new_fraction": 0.0,
+      "sessions": 19,
+      "transitions": 257
+    },
+    {
+      "condition": "NEW-only",
+      "new_fraction": 1.0,
+      "sessions": 36,
+      "transitions": 234
+    },
+    {
+      "condition": "LN25",
+      "new_fraction": 0.25,
+      "sessions": 28,
+      "transitions": 315
+    },
+    {
+      "condition": "LN50",
+      "new_fraction": 0.5,
+      "sessions": 37,
+      "transitions": 375
+    },
+    {
+      "condition": "LN100",
+      "new_fraction": 1.0,
+      "sessions": 55,
+      "transitions": 491
+    }
+  ],
+  "development": {
+    "sessions": 8,
+    "transitions": 87
+  },
+  "legacy_physical_cells": "UNAVAILABLE; no imputation",
+  "nested_by_complete_new_session": true
+}

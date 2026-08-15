@@ -1,0 +1,117 @@
+{
+  "comparisons": {
+    "Core_LN100_PH0_Phys-F2C": {
+      "Execution_RedirectGain": {
+        "ci": [
+          0.2509108954242298,
+          0.364326148408733
+        ],
+        "mean_advantage_of_best": 0.30922624542442867
+      },
+      "H2_full_mse": {
+        "ci": [
+          -0.1644651189647042,
+          0.02285307582388533
+        ],
+        "mean_advantage_of_best": -0.04469093593747117
+      },
+      "H4_continuity": {
+        "ci": [
+          -0.010916192511407038,
+          0.008875102008672526
+        ],
+        "mean_advantage_of_best": 0.0005655942679664423
+      },
+      "H4_decoded_mse": {
+        "ci": [
+          -0.004131856632042438,
+          0.0019263113722389126
+        ],
+        "mean_advantage_of_best": -0.00048704679275667946
+      },
+      "RedirectGain": {
+        "ci": [
+          0.24387045968801546,
+          0.40323946816452094
+        ],
+        "mean_advantage_of_best": 0.340841120470391
+      }
+    },
+    "Flow_PH1_RIF-A_random": {
+      "Execution_RedirectGain": {
+        "ci": [
+          0.34652977613732217,
+          0.4860939697266139
+        ],
+        "mean_advantage_of_best": 0.41436373519841146
+      },
+      "H2_full_mse": {
+        "ci": [
+          0.021762320857672476,
+          0.1987200402102228
+        ],
+        "mean_advantage_of_best": 0.13954363000947376
+      },
+      "H4_continuity": {
+        "ci": [
+          -0.01653020474509421,
+          0.03081562250987668
+        ],
+        "mean_advantage_of_best": 0.012170716286312009
+      },
+      "H4_decoded_mse": {
+        "ci": [
+          0.006398546770868594,
+          0.012896090228524473
+        ],
+        "mean_advantage_of_best": 0.009754475704285987
+      },
+      "RedirectGain": {
+        "ci": [
+          0.3943346361284561,
+          0.6163434174140506
+        ],
+        "mean_advantage_of_best": 0.5044233474750505
+      }
+    },
+    "Scale_LN100_Prior-CFM": {
+      "Execution_RedirectGain": {
+        "ci": [
+          0.20744654114017838,
+          0.35157778323889616
+        ],
+        "mean_advantage_of_best": 0.2960150965088762
+      },
+      "H2_full_mse": {
+        "ci": [
+          -0.1449805779589547,
+          0.02844471401638455
+        ],
+        "mean_advantage_of_best": -0.03463061569735061
+      },
+      "H4_continuity": {
+        "ci": [
+          -0.022178121406936344,
+          0.021756445670827115
+        ],
+        "mean_advantage_of_best": 0.0011351577785992345
+      },
+      "H4_decoded_mse": {
+        "ci": [
+          -0.005751189338325551,
+          0.0009822116231696459
+        ],
+        "mean_advantage_of_best": -0.0012552965497381466
+      },
+      "RedirectGain": {
+        "ci": [
+          0.24637314839259028,
+          0.46911411037718925
+        ],
+        "mean_advantage_of_best": 0.3672059958064279
+      }
+    }
+  },
+  "positive_means_reference_is_better": true,
+  "reference": "Core_LN100_PH0_RAT-C"
+}

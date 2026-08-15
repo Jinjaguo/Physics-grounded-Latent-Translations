@@ -1,0 +1,39 @@
+{
+  "data_regimes": [
+    "L0",
+    "NEW-only",
+    "LN25",
+    "LN50",
+    "LN100"
+  ],
+  "flow_variants": [
+    "RIF-A_random",
+    "RIF-B_condition",
+    "RIF-C_initialize",
+    "RIF-D_causal_select",
+    "Prior-CFM",
+    "Streaming-CFM",
+    "Temporal-CFM",
+    "Hetero-CFM",
+    "MultiCandidate-CFM"
+  ],
+  "legacy_physical_imputation": false,
+  "models": 104,
+  "objective_variants": [
+    "latent",
+    "decoded",
+    "contrastive",
+    "combined"
+  ],
+  "physical_variants": [
+    "PH0",
+    "PH1",
+    "PH2",
+    "PH3",
+    "PH4",
+    "PH5"
+  ],
+  "retrieval_cells": 28,
+  "selected_physical": "PH1",
+  "trainable_models": 70
+}

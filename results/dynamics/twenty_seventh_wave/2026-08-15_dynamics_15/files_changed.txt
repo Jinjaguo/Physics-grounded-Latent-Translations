@@ -1,0 +1,24 @@
+Tracked source and configuration
+--------------------------------
+.gitignore
+configs/dynamics_15.yaml
+prompts/dynamics_15.md
+scripts/dynamics/acquire_dynamics_15.py
+scripts/dynamics/run_dynamics_15.py
+src/pglt/dynamics/wave27_models.py
+tests/test_dynamics_15.py
+
+Canonical project documents
+---------------------------
+NEXT_EXPERIMENT.md
+RESEARCH_LOG.md
+reports/dynamics_15_results.md
+
+Wave 27 artifacts
+-----------------
+results/dynamics/twenty_seventh_wave/2026-08-15_dynamics_15/
+
+The Wave27 result directory contains tracked manifests, inventories, metrics,
+scorecards, reports, exact commands, test records, and nine figures. Local
+*.npz datasets, *.pt checkpoints, source compact records, and collection
+partials remain ignored and are not included in the commit.

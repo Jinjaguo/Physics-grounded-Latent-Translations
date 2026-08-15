@@ -1,0 +1,15 @@
+# Wave 27 collection execution log
+
+- Prepared before any new shard download or transition selection.
+- Initial prepare under the `libero` interpreter failed before data access because that environment has no pandas. Acquisition moved to the OpenPI interpreter (pandas/pyarrow/Hugging Face client available); GPU training remains in `libero`.
+- The first OpenPI prepare imported an entire historical training module for three file helpers and failed on an unrelated sklearn dependency. The new acquisition script now owns the small JSON/hash helpers locally, so collection no longer loads the training stack.
+- Shard 005 download was interrupted once after a scope audit found an unnecessary full-ZIP SHA256 pass. The resumable partial download was retained, source traceability remains the frozen repository revision plus shard path/size, and collection resumed without changing transition selection.
+- The resumable shard-005 transfer was restarted a second time to load cross-shard occupied-range tracking, preventing a source session spanning adjacent shards from producing overlapping records. No downloaded bytes or selection state were lost.
+- Verified official Hugging Face random-access ZIP seeking on shard 023 (7,134 members and episode bounds read without full download). Shard 005 remains the full-ZIP schema validation; shard 006+ will range-stream only metadata and selected NPZ members, preserving the frozen selection/certification rule while avoiding unnecessary whole-shard transfer.
+- A metadata-only shard-005 calculation found 107 frozen-rule records (13,696 members, 4.16 GB compressed) versus the 29.66 GB whole ZIP. Because this is materially smaller than the 12+ GB still missing, collection switched shard 005 itself to member-range streaming. The abandoned 17.62 GB resumable staging partial is deleted only after successful compact extraction and partial-manifest write.
+- Before any model outputs, collection was capped after complete shards 005–008. This targets the preregistered minimum-useful regime (>=300, >=40/goal, >=18 sessions) while allowing the full Wave27 factorial and three-seed prospective test to proceed; the >=600/80 preferred target is reported as missed, not relabeled.
+- The old process began shard 009 before interruption and wrote two compact records that were never committed to the 005–008 partial manifest (`wave27_s00086_f0999477.npz`, `wave27_s00086_f1000338.npz`). After the final 407-row inventory was written, these two explicitly unreferenced generated files were removed; all 407 inventory paths remain present.
+- Processed `training/subset_training_005.zip`: selected 107 non-overlapping transitions; cumulative=107; staging removed.
+- Processed `training/subset_training_006.zip`: selected 94 non-overlapping transitions; cumulative=201; staging removed.
+- Processed `training/subset_training_007.zip`: selected 101 non-overlapping transitions; cumulative=302; staging removed.
+- Processed `training/subset_training_008.zip`: selected 105 non-overlapping transitions; cumulative=407; staging removed.
