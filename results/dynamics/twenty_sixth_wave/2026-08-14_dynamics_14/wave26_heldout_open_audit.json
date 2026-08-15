@@ -1,0 +1,9 @@
+{
+  "opened_after_preregistration": true,
+  "selected_models_only": [
+    "Flow_S0_Prior-CFM",
+    "Flow_S0_History-CFM",
+    "State_S0_RAT-C"
+  ],
+  "winner_tuning": false
+}

@@ -1,0 +1,15 @@
+{
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 260826
+  },
+  "final_seeds": [
+    260826,
+    260827,
+    260828
+  ],
+  "no_seed_addition_after_heldout": true,
+  "seed_set_before_parameter_reset": true,
+  "training_seed": 260826
+}

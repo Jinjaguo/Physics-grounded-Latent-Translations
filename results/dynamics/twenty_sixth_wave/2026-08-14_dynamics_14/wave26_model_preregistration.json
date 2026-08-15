@@ -1,0 +1,34 @@
+{
+  "created_before_sweep": true,
+  "flow_families": [
+    "Phase-CFM",
+    "History-CFM",
+    "Prior-CFM",
+    "R-CFM",
+    "Streaming-CFM",
+    "TC-CFM",
+    "Hetero-CFM",
+    "MP-CFM"
+  ],
+  "forbidden_inputs": [
+    "future latent",
+    "future action as input",
+    "future contact",
+    "future robot state",
+    "heldout selection metric"
+  ],
+  "heldout_opened": false,
+  "selection": "development Pareto; up to three families; positive full and execution RedirectGain",
+  "stages": [
+    "state S0-S7",
+    "flow family",
+    "objective",
+    "non-flow",
+    "data scale"
+  ],
+  "state_models": [
+    "Phase-CFM",
+    "F2-C",
+    "RAT-C"
+  ]
+}

@@ -1,0 +1,9 @@
+configs/dynamics_14.yaml
+prompts/dynamics_14.md
+src/pglt/dynamics/wave26_models.py
+scripts/dynamics/run_dynamics_14.py
+tests/dynamics/test_dynamics_14_phase_flow.py
+reports/dynamics_14_results.md
+RESEARCH_LOG.md
+NEXT_EXPERIMENT.md
+results/dynamics/twenty_sixth_wave/2026-08-14_dynamics_14/

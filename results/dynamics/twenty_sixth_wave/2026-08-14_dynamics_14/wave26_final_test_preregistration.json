@@ -1,0 +1,69 @@
+{
+  "architectures": {
+    "Flow_S0_History-CFM": {
+      "hidden": 128,
+      "input_dim": 115,
+      "kind": "flow",
+      "samples": 8,
+      "sampling_seed": 261037,
+      "state": "S0",
+      "steps": 8
+    },
+    "Flow_S0_Prior-CFM": {
+      "heteroscedastic": false,
+      "hidden": 128,
+      "input_dim": 115,
+      "kind": "prior",
+      "samples": 8,
+      "sampling_seed": 261037,
+      "state": "S0",
+      "steps": 8
+    },
+    "State_S0_RAT-C": {
+      "anchor": "retrieval",
+      "hidden": 128,
+      "input_dim": 147,
+      "kind": "factored",
+      "separate": true,
+      "state": "S0"
+    }
+  },
+  "bootstrap": {
+    "cluster": "source_session",
+    "replicates": 10000,
+    "seed": 260826
+  },
+  "checkpoint_sha256": {
+    "Flow_S0_History-CFM": "c5029f30b6447e56a9727344f83113e37f3612e394ac9657273eb0a2f38680d1",
+    "Flow_S0_Prior-CFM": "67b7f13985f8d5a2d834bda27ef2ba23292c16ce3f6a2c11de9aa775344e3c42",
+    "State_S0_RAT-C": "11368164734e088ca3f259dcb0ab028d09f88b7cb39dd1a5f793a6ea598053d5"
+  },
+  "claims": [
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22"
+  ],
+  "frozen_before_heldout_arrays_loaded": true,
+  "heldout_winner_tuning": false,
+  "metrics": [
+    "H1/H2/H4 full/execution/decoded",
+    "endpoint",
+    "decode-reencode",
+    "continuity",
+    "RedirectGain",
+    "Execution RedirectGain"
+  ],
+  "seed_ensemble_rule": "single frozen sweep checkpoint; deterministic 8-sample registered generator",
+  "selected_models": [
+    "Flow_S0_Prior-CFM",
+    "Flow_S0_History-CFM",
+    "State_S0_RAT-C"
+  ],
+  "state_inputs": {
+    "Flow_S0_History-CFM": "S0",
+    "Flow_S0_Prior-CFM": "S0",
+    "State_S0_RAT-C": "S0"
+  }
+}

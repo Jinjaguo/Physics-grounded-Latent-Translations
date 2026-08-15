@@ -1,0 +1,212 @@
+{
+  "Flow_S0_History-CFM": {
+    "Execution_RedirectGain": 0.06044355407357216,
+    "Execution_RedirectGain_CI95": [
+      0.026564156636595726,
+      0.0881393551826477
+    ],
+    "RedirectGain": 0.1312856674194336,
+    "RedirectGain_CI95": [
+      0.10264472663402557,
+      0.16665974259376526
+    ],
+    "current_state_dependence": 0.9988746643066406,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 1.7344918251037598,
+        "continuity": 0.31204721331596375,
+        "cycle_residual": 2.7671098709106445,
+        "decode_reencode_accuracy": 0.2630782503789549,
+        "decoded_mse": 0.05155837908387184,
+        "displacement_cosine": 0.7178313136100769,
+        "endpoint_accuracy": 0.31551414551043766,
+        "execution_cosine": 0.7124130129814148,
+        "execution_mse": 0.9389024972915649,
+        "full_mse": 0.8898866176605225,
+        "goal_target_margin": -0.1925581991672516,
+        "norm_ratio": 0.8893977999687195,
+        "semantic_mse": 0.8408708572387695
+      },
+      "H2": {
+        "absolute_norm_error": 1.5207610130310059,
+        "continuity": 0.24333630502223969,
+        "cycle_residual": 2.7487430572509766,
+        "decode_reencode_accuracy": 0.33681904899924925,
+        "decoded_mse": 0.0522800013422966,
+        "displacement_cosine": 0.7461273670196533,
+        "endpoint_accuracy": 0.34315359621255065,
+        "execution_cosine": 0.7459028363227844,
+        "execution_mse": 0.9904814958572388,
+        "full_mse": 0.8855108022689819,
+        "goal_target_margin": -0.2123199999332428,
+        "norm_ratio": 0.8856123089790344,
+        "semantic_mse": 0.7805401682853699
+      },
+      "H4": {
+        "absolute_norm_error": 2.0170199871063232,
+        "continuity": 0.22364118695259094,
+        "cycle_residual": 2.7737481594085693,
+        "decode_reencode_accuracy": 0.31428529296530777,
+        "decoded_mse": 0.05509452521800995,
+        "displacement_cosine": 0.669575572013855,
+        "endpoint_accuracy": 0.3371539171502093,
+        "execution_cosine": 0.6756266355514526,
+        "execution_mse": 1.107390284538269,
+        "full_mse": 1.0702624320983887,
+        "goal_target_margin": -0.29934701323509216,
+        "norm_ratio": 0.8360353112220764,
+        "semantic_mse": 1.0331346988677979
+      }
+    },
+    "distribution_metrics": {
+      "preregistered": true
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "heldout_final",
+    "model_name": "Flow_S0_History-CFM",
+    "parameter_count": 40224,
+    "runtime_seconds": 9.511358346004272,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  },
+  "Flow_S0_Prior-CFM": {
+    "Execution_RedirectGain": 0.03658262640237808,
+    "Execution_RedirectGain_CI95": [
+      -0.007214429799932987,
+      0.06885017454624176
+    ],
+    "RedirectGain": 0.11401800066232681,
+    "RedirectGain_CI95": [
+      0.06174163892865181,
+      0.1625535957515234
+    ],
+    "current_state_dependence": 1.1710304021835327,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 1.3724833726882935,
+        "continuity": 0.27334171533584595,
+        "cycle_residual": 2.702045440673828,
+        "decode_reencode_accuracy": 0.28520902037772633,
+        "decoded_mse": 0.047331858426332474,
+        "displacement_cosine": 0.7457056045532227,
+        "endpoint_accuracy": 0.33988439865340125,
+        "execution_cosine": 0.739622175693512,
+        "execution_mse": 0.8812726736068726,
+        "full_mse": 0.842980146408081,
+        "goal_target_margin": -0.15658220648765564,
+        "norm_ratio": 0.9600212574005127,
+        "semantic_mse": 0.8046876788139343
+      },
+      "H2": {
+        "absolute_norm_error": 1.3311536312103271,
+        "continuity": 0.20067869126796722,
+        "cycle_residual": 2.7245678901672363,
+        "decode_reencode_accuracy": 0.42688718393204855,
+        "decoded_mse": 0.048861607909202576,
+        "displacement_cosine": 0.7555028200149536,
+        "endpoint_accuracy": 0.43673979324702356,
+        "execution_cosine": 0.7689311504364014,
+        "execution_mse": 0.9535913467407227,
+        "full_mse": 0.914461076259613,
+        "goal_target_margin": -0.0951966643333435,
+        "norm_ratio": 0.9746320843696594,
+        "semantic_mse": 0.8753310441970825
+      },
+      "H4": {
+        "absolute_norm_error": 1.6502877473831177,
+        "continuity": 0.19868353009223938,
+        "cycle_residual": 2.614391326904297,
+        "decode_reencode_accuracy": 0.21896178959582743,
+        "decoded_mse": 0.04923321679234505,
+        "displacement_cosine": 0.6959041953086853,
+        "endpoint_accuracy": 0.3210966765842554,
+        "execution_cosine": 0.6942572593688965,
+        "execution_mse": 1.030300498008728,
+        "full_mse": 1.0254497528076172,
+        "goal_target_margin": -0.3748171627521515,
+        "norm_ratio": 0.9278798699378967,
+        "semantic_mse": 1.020599126815796
+      }
+    },
+    "distribution_metrics": {
+      "preregistered": true
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "heldout_final",
+    "model_name": "Flow_S0_Prior-CFM",
+    "parameter_count": 76224,
+    "runtime_seconds": 8.86751892400207,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  },
+  "State_S0_RAT-C": {
+    "Execution_RedirectGain": 0.18783773481845856,
+    "Execution_RedirectGain_CI95": [
+      0.15205962918698787,
+      0.24423742294311523
+    ],
+    "RedirectGain": 0.3603835701942444,
+    "RedirectGain_CI95": [
+      0.29551589488983154,
+      0.46333906054496765
+    ],
+    "current_state_dependence": 0.9697369933128357,
+    "dev_metrics": {
+      "H1": {
+        "absolute_norm_error": 2.0443239212036133,
+        "continuity": 0.3478301465511322,
+        "cycle_residual": 2.6127095222473145,
+        "decode_reencode_accuracy": 0.3983812886297127,
+        "decoded_mse": 0.05584373697638512,
+        "displacement_cosine": 0.7190813422203064,
+        "endpoint_accuracy": 0.4621811117917903,
+        "execution_cosine": 0.7226779460906982,
+        "execution_mse": 1.0062966346740723,
+        "full_mse": 0.9289610385894775,
+        "goal_target_margin": -0.011094952933490276,
+        "norm_ratio": 0.866169273853302,
+        "semantic_mse": 0.8516255021095276
+      },
+      "H2": {
+        "absolute_norm_error": 1.7859898805618286,
+        "continuity": 0.20676711201667786,
+        "cycle_residual": 2.6602556705474854,
+        "decode_reencode_accuracy": 0.6105943614286217,
+        "decoded_mse": 0.04909653216600418,
+        "displacement_cosine": 0.7542658448219299,
+        "endpoint_accuracy": 0.638243401962349,
+        "execution_cosine": 0.777565598487854,
+        "execution_mse": 0.938056230545044,
+        "full_mse": 0.9052361249923706,
+        "goal_target_margin": 0.13423457741737366,
+        "norm_ratio": 0.8657090663909912,
+        "semantic_mse": 0.8724158406257629
+      },
+      "H4": {
+        "absolute_norm_error": 2.131558418273926,
+        "continuity": 0.20766054093837738,
+        "cycle_residual": 2.6525797843933105,
+        "decode_reencode_accuracy": 0.338547859589758,
+        "decoded_mse": 0.04850242659449577,
+        "displacement_cosine": 0.7127114534378052,
+        "endpoint_accuracy": 0.4237861811091325,
+        "execution_cosine": 0.7220141887664795,
+        "execution_mse": 1.0710595846176147,
+        "full_mse": 1.002485752105713,
+        "goal_target_margin": -0.15937621891498566,
+        "norm_ratio": 0.8576457500457764,
+        "semantic_mse": 0.9339115619659424
+      }
+    },
+    "distribution_metrics": {
+      "preregistered": true
+    },
+    "memory": "GPU compact latent-only",
+    "model_family": "heldout_final",
+    "model_name": "State_S0_RAT-C",
+    "parameter_count": 40354,
+    "runtime_seconds": 1.1868487959873164,
+    "selection_status": "UNDECIDED",
+    "train_metrics": {}
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "created_before_heldout_open": true,
+  "development_metrics": {
+    "Flow_S0_History-CFM": {
+      "Execution_RedirectGain": 0.058666955679655075,
+      "RedirectGain": 0.11547929793596268,
+      "current_state_dependence": 0.9758417010307312,
+      "dev_metrics": {
+        "H1": {
+          "absolute_norm_error": 1.5045803785324097,
+          "continuity": 0.30457523465156555,
+          "cycle_residual": 2.7672958374023438,
+          "decode_reencode_accuracy": 0.28784503003569945,
+          "decoded_mse": 0.051052264869213104,
+          "displacement_cosine": 0.7220174670219421,
+          "endpoint_accuracy": 0.327485469980399,
+          "execution_cosine": 0.7347013354301453,
+          "execution_mse": 0.9128732085227966,
+          "full_mse": 0.8430279493331909,
+          "goal_target_margin": -0.15423034131526947,
+          "norm_ratio": 0.8477599024772644,
+          "semantic_mse": 0.77318274974823
+        },
+        "H2": {
+          "absolute_norm_error": 1.6136627197265625,
+          "continuity": 0.21256901323795319,
+          "cycle_residual": 2.671908140182495,
+          "decode_reencode_accuracy": 0.31977380293810315,
+          "decoded_mse": 0.05002832040190697,
+          "displacement_cosine": 0.7599129676818848,
+          "endpoint_accuracy": 0.3659382712797182,
+          "execution_cosine": 0.7625762224197388,
+          "execution_mse": 0.9908723831176758,
+          "full_mse": 0.8883987665176392,
+          "goal_target_margin": -0.18436072766780853,
+          "norm_ratio": 0.8576319813728333,
+          "semantic_mse": 0.7859249711036682
+        },
+        "H4": {
+          "absolute_norm_error": 1.7935997247695923,
+          "continuity": 0.2142951488494873,
+          "cycle_residual": 2.76621413230896,
+          "decode_reencode_accuracy": 0.259853062320946,
+          "decoded_mse": 0.055926695466041565,
+          "displacement_cosine": 0.694814145565033,
+          "endpoint_accuracy": 0.2744431825905795,
+          "execution_cosine": 0.7159603834152222,
+          "execution_mse": 1.0478672981262207,
+          "full_mse": 1.0094935894012451,
+          "goal_target_margin": -0.3843441307544708,
+          "norm_ratio": 0.8121163249015808,
+          "semantic_mse": 0.9711198210716248
+        }
+      },
+      "distribution_metrics": {
+        "flow_family": "History-CFM",
+        "flow_steps": 8,
+        "state": "S0"
+      },
+      "memory": "GPU compact latent-only",
+      "model_family": "flow_family",
+      "model_name": "Flow_S0_History-CFM",
+      "parameter_count": 40224,
+      "runtime_seconds": 9.58312251001189,
+      "selection_status": "UNDECIDED",
+      "train_metrics": {}
+    },
+    "Flow_S0_Prior-CFM": {
+      "Execution_RedirectGain": 0.05652330070734024,
+      "RedirectGain": 0.13638097047805786,
+      "current_state_dependence": 1.0613231658935547,
+      "dev_metrics": {
+        "H1": {
+          "absolute_norm_error": 1.295969843864441,
+          "continuity": 0.2821703851222992,
+          "cycle_residual": 2.6594157218933105,
+          "decode_reencode_accuracy": 0.36130972300681563,
+          "decoded_mse": 0.051132380962371826,
+          "displacement_cosine": 0.734941303730011,
+          "endpoint_accuracy": 0.4316906792904088,
+          "execution_cosine": 0.7513980269432068,
+          "execution_mse": 0.894504725933075,
+          "full_mse": 0.8567190766334534,
+          "goal_target_margin": -0.0922718197107315,
+          "norm_ratio": 0.9151840806007385,
+          "semantic_mse": 0.818933367729187
+        },
+        "H2": {
+          "absolute_norm_error": 1.4123300313949585,
+          "continuity": 0.21624328196048737,
+          "cycle_residual": 2.607353448867798,
+          "decode_reencode_accuracy": 0.4137523371127158,
+          "decoded_mse": 0.048058681190013885,
+          "displacement_cosine": 0.771891176700592,
+          "endpoint_accuracy": 0.4456111877004372,
+          "execution_cosine": 0.7698755860328674,
+          "execution_mse": 0.9908099174499512,
+          "full_mse": 0.881065845489502,
+          "goal_target_margin": -0.07766648381948471,
+          "norm_ratio": 0.9330565929412842,
+          "semantic_mse": 0.7713218927383423
+        },
+        "H4": {
+          "absolute_norm_error": 1.3607946634292603,
+          "continuity": 0.20495983958244324,
+          "cycle_residual": 2.6391382217407227,
+          "decode_reencode_accuracy": 0.23014373751358205,
+          "decoded_mse": 0.05234074965119362,
+          "displacement_cosine": 0.7187758088111877,
+          "endpoint_accuracy": 0.27139364279323713,
+          "execution_cosine": 0.7229118943214417,
+          "execution_mse": 1.0174435377120972,
+          "full_mse": 0.9610571265220642,
+          "goal_target_margin": -0.3983353078365326,
+          "norm_ratio": 0.8950912356376648,
+          "semantic_mse": 0.904670774936676
+        }
+      },
+      "distribution_metrics": {
+        "flow_family": "Prior-CFM",
+        "flow_steps": 8,
+        "state": "S0"
+      },
+      "memory": "GPU compact latent-only",
+      "model_family": "flow_family",
+      "model_name": "Flow_S0_Prior-CFM",
+      "parameter_count": 76224,
+      "runtime_seconds": 8.89961684399168,
+      "selection_status": "UNDECIDED",
+      "train_metrics": {}
+    },
+    "State_S0_RAT-C": {
+      "Execution_RedirectGain": 0.23643392324447632,
+      "RedirectGain": 0.3897894024848938,
+      "current_state_dependence": 0.8872347474098206,
+      "dev_metrics": {
+        "H1": {
+          "absolute_norm_error": 2.1104772090911865,
+          "continuity": 0.3304426968097687,
+          "cycle_residual": 2.7688028812408447,
+          "decode_reencode_accuracy": 0.3895542403655994,
+          "decoded_mse": 0.05190037563443184,
+          "displacement_cosine": 0.7176210880279541,
+          "endpoint_accuracy": 0.40911042229500644,
+          "execution_cosine": 0.7341591715812683,
+          "execution_mse": 1.0086619853973389,
+          "full_mse": 0.9353691339492798,
+          "goal_target_margin": -0.03540794178843498,
+          "norm_ratio": 0.789513111114502,
+          "semantic_mse": 0.862076461315155
+        },
+        "H2": {
+          "absolute_norm_error": 1.965896725654602,
+          "continuity": 0.20581690967082977,
+          "cycle_residual": 2.8082244396209717,
+          "decode_reencode_accuracy": 0.5934239038701513,
+          "decoded_mse": 0.047462962567806244,
+          "displacement_cosine": 0.7675002813339233,
+          "endpoint_accuracy": 0.6805466363951828,
+          "execution_cosine": 0.78889399766922,
+          "execution_mse": 0.9991090893745422,
+          "full_mse": 0.9274237155914307,
+          "goal_target_margin": 0.16826653480529785,
+          "norm_ratio": 0.8441227078437805,
+          "semantic_mse": 0.8557384610176086
+        },
+        "H4": {
+          "absolute_norm_error": 1.908827543258667,
+          "continuity": 0.2114189714193344,
+          "cycle_residual": 2.7179512977600098,
+          "decode_reencode_accuracy": 0.388402066968666,
+          "decoded_mse": 0.047060396522283554,
+          "displacement_cosine": 0.740401029586792,
+          "endpoint_accuracy": 0.4110814835628899,
+          "execution_cosine": 0.7685107588768005,
+          "execution_mse": 0.9313702583312988,
+          "full_mse": 0.8982351422309875,
+          "goal_target_margin": -0.1885521411895752,
+          "norm_ratio": 0.8187257051467896,
+          "semantic_mse": 0.8650999665260315
+        }
+      },
+      "distribution_metrics": {
+        "representative": "RAT-C",
+        "state_variant": "S0"
+      },
+      "memory": "GPU compact latent-only",
+      "model_family": "state_sweep",
+      "model_name": "State_S0_RAT-C",
+      "parameter_count": 40354,
+      "runtime_seconds": 1.2131919789826497,
+      "selection_status": "UNDECIDED",
+      "train_metrics": {}
+    }
+  },
+  "heldout_opened": false,
+  "pareto_front": [
+    "Flow_S0_History-CFM",
+    "Flow_S0_Phase-CFM",
+    "Flow_S0_Prior-CFM",
+    "Flow_S0_R-CFM",
+    "Flow_S1_History-CFM",
+    "Flow_S1_Phase-CFM",
+    "Flow_S1_Prior-CFM",
+    "Flow_S1_R-CFM",
+    "Flow_S4_R-CFM",
+    "State_S0_RAT-C"
+  ],
+  "selected_models": [
+    "Flow_S0_Prior-CFM",
+    "Flow_S0_History-CFM",
+    "State_S0_RAT-C"
+  ],
+  "selection_rule": "positive both redirects, development Pareto, implementation-family diversity, then H2/H4/identity/continuity lexicographic"
+}

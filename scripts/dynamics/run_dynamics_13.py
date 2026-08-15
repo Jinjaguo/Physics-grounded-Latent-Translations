@@ -703,7 +703,13 @@ def load_predictor(name:str,train:dict[str,np.ndarray],ctx:dict[str,Any],config:
                         d2=baseline_delta("D2_Wave24",train,data,ids,ctx,device).reshape(-1,32);value=d2/np.maximum(np.linalg.norm(d2,axis=1,keepdims=True),1e-8)*np.linalg.norm(value,axis=1,keepdims=True)
                 elif kind=="mdn":value=model.predict(xt).cpu().numpy()
                 elif kind=="moe":value=model.predict(xt,bool(spec.get("hard",True))).cpu().numpy()
-                elif kind in ("cvae","flow","diffusion"):value=model_samples(model,x,config,device,seed+int(spec.get("steps",8)),int(spec.get("steps",8))).mean(1)
+                elif kind in ("cvae","flow","diffusion"):
+                    # Phase-family checkpoints were registered in the valid Wave25
+                    # sweep with seed+71; other generative checkpoints used
+                    # seed+integration-steps.  Preserve that frozen sampling rule
+                    # when reproducing a saved candidate in later waves.
+                    sampling_seed=seed+71 if name.startswith("Phase_") else seed+int(spec.get("steps",8))
+                    value=model_samples(model,x,config,device,sampling_seed,int(spec.get("steps",8))).mean(1)
                 else:
                     query={**data,"goal_id":ids};c,s,_=retrieval_arrays(train,query,20,False);value=model.predict(xt,torch.from_numpy(s).to(device),torch.from_numpy(c).to(device),str(spec["variant"])).cpu().numpy()
             return reshape_delta(value,len(ids))

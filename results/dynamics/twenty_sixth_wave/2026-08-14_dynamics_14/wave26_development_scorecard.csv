@@ -1,0 +1,80 @@
+model,family,PRED,DECODE,IDENTITY,CYCLE-ID,CONT,LANG
+B1_correct_language,historical,strongly improved,strongly improved,worse,worse,strongly improved,strongly worse
+CausalSelect_Flow_S0_Prior-CFM,causal_sample_selection,improved,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Control_S0_D4,nonflow_control,strongly worse,strongly worse,strongly improved,strongly improved,improved,strongly improved
+Control_S0_F2-C,nonflow_control,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Control_S0_VQ16,nonflow_control,neutral,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Control_S0_VQ8,nonflow_control,improved,worse,strongly worse,strongly worse,neutral,strongly worse
+Control_S0_compact-MoE,nonflow_control,improved,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+D2_Wave24,historical,neutral,neutral,neutral,neutral,neutral,neutral
+Flow_S0_Hetero-CFM,flow_family,strongly improved,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S0_History-CFM,flow_family,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Flow_S0_MP-CFM,flow_family,improved,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Flow_S0_Phase-CFM,flow_family,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Flow_S0_Phase-CFM_16step,flow_steps,strongly improved,neutral,strongly worse,strongly worse,worse,strongly worse
+Flow_S0_Prior-CFM,flow_family,strongly improved,improved,strongly worse,strongly worse,neutral,strongly worse
+Flow_S0_Prior-CFM_16step,flow_steps,strongly improved,improved,strongly worse,strongly worse,worse,strongly worse
+Flow_S0_R-CFM,flow_family,strongly improved,improved,strongly improved,strongly improved,improved,strongly worse
+Flow_S0_R-CFM_16step,flow_steps,strongly improved,improved,improved,neutral,improved,strongly worse
+Flow_S0_Streaming-CFM,flow_family,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S0_TC-CFM,flow_family,improved,worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S1_Hetero-CFM,flow_family,improved,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S1_History-CFM,flow_family,strongly improved,worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S1_MP-CFM,flow_family,neutral,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S1_Phase-CFM,flow_family,strongly improved,worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S1_Phase-CFM_16step,flow_steps,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Flow_S1_Prior-CFM,flow_family,strongly improved,neutral,strongly worse,strongly worse,neutral,strongly worse
+Flow_S1_Prior-CFM_16step,flow_steps,strongly improved,neutral,strongly worse,strongly worse,worse,strongly worse
+Flow_S1_R-CFM,flow_family,strongly improved,improved,improved,strongly improved,neutral,strongly worse
+Flow_S1_R-CFM_16step,flow_steps,strongly improved,improved,neutral,strongly improved,neutral,strongly worse
+Flow_S1_Streaming-CFM,flow_family,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S1_TC-CFM,flow_family,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S4_Hetero-CFM,flow_family,worse,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Flow_S4_History-CFM,flow_family,strongly improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S4_MP-CFM,flow_family,worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S4_Phase-CFM,flow_family,strongly improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S4_Phase-CFM_16step,flow_steps,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Flow_S4_Prior-CFM,flow_family,strongly improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S4_Prior-CFM_16step,flow_steps,strongly improved,worse,strongly worse,strongly worse,neutral,strongly worse
+Flow_S4_R-CFM,flow_family,improved,neutral,improved,strongly improved,improved,worse
+Flow_S4_R-CFM_16step,flow_steps,improved,neutral,strongly improved,improved,neutral,worse
+Flow_S4_Streaming-CFM,flow_family,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Flow_S4_TC-CFM,flow_family,neutral,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Objective_S0_adaptive_continuity,objective_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Objective_S0_base,objective_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Objective_S0_combined,objective_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Objective_S0_contrastive,objective_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Objective_S0_decoded,objective_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Objective_S0_multi_horizon,objective_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+Scale_D0_S0_F2-C,data_scale,strongly worse,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Scale_D0_S0_Phase-CFM,data_scale,improved,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Scale_D0_S0_Prior-CFM,data_scale,improved,strongly worse,strongly worse,strongly worse,worse,strongly worse
+Scale_D1_S0_F2-C,data_scale,worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Scale_D1_S0_Phase-CFM,data_scale,strongly improved,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+Scale_D1_S0_Prior-CFM,data_scale,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Scale_D2_S0_F2-C,data_scale,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Scale_D2_S0_Phase-CFM,data_scale,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+Scale_D2_S0_Prior-CFM,data_scale,strongly improved,neutral,strongly worse,strongly worse,worse,strongly worse
+State_S0_F2-C,state_sweep,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+State_S0_Phase-CFM,state_sweep,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+State_S0_RAT-C,state_sweep,strongly improved,strongly improved,worse,worse,worse,strongly worse
+State_S1_F2-C,state_sweep,improved,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+State_S1_Phase-CFM,state_sweep,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+State_S1_RAT-C,state_sweep,strongly improved,improved,strongly worse,strongly worse,worse,strongly worse
+State_S2_F2-C,state_sweep,neutral,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+State_S2_Phase-CFM,state_sweep,strongly improved,strongly worse,strongly worse,strongly worse,worse,strongly worse
+State_S2_RAT-C,state_sweep,improved,neutral,strongly worse,strongly worse,neutral,strongly worse
+State_S3_F2-C,state_sweep,improved,strongly worse,strongly worse,strongly worse,neutral,strongly worse
+State_S3_Phase-CFM,state_sweep,improved,strongly worse,strongly worse,strongly worse,worse,strongly worse
+State_S3_RAT-C,state_sweep,improved,neutral,strongly worse,strongly worse,strongly worse,strongly worse
+State_S4_F2-C,state_sweep,worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+State_S4_Phase-CFM,state_sweep,strongly improved,strongly worse,strongly worse,strongly worse,worse,strongly worse
+State_S4_RAT-C,state_sweep,improved,worse,neutral,worse,worse,strongly worse
+State_S5_F2-C,state_sweep,neutral,strongly worse,strongly worse,strongly worse,worse,strongly worse
+State_S5_Phase-CFM,state_sweep,strongly improved,strongly worse,strongly worse,strongly worse,improved,strongly worse
+State_S5_RAT-C,state_sweep,strongly improved,worse,strongly worse,strongly worse,strongly worse,strongly worse
+State_S6_F2-C,state_sweep,worse,strongly worse,strongly worse,strongly worse,strongly worse,strongly worse
+State_S6_Phase-CFM,state_sweep,strongly improved,worse,strongly worse,strongly worse,worse,strongly worse
+State_S6_RAT-C,state_sweep,neutral,neutral,strongly worse,strongly worse,improved,strongly worse
+Wave25_Phase_flow_reproduction,historical_flow,strongly improved,strongly improved,worse,worse,neutral,strongly worse
+language_prototype,historical,strongly improved,improved,strongly improved,strongly improved,worse,strongly worse

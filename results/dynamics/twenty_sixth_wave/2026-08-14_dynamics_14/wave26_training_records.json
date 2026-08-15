@@ -1,0 +1,642 @@
+[
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 0.9948552846908569,
+    "model": "State_S0_Phase-CFM",
+    "parameters": 40224,
+    "runtime_seconds": 4.44683682199684,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 60,
+    "development_records": 417,
+    "development_selection_loss": 1.0023751258850098,
+    "model": "State_S0_F2-C",
+    "parameters": 36258,
+    "runtime_seconds": 4.850007790999371,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 30,
+    "development_records": 417,
+    "development_selection_loss": 0.9203426837921143,
+    "model": "State_S0_RAT-C",
+    "parameters": 40354,
+    "runtime_seconds": 1.1868487959873164,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 99,
+    "development_records": 417,
+    "development_selection_loss": 1.0597848892211914,
+    "model": "State_S1_Phase-CFM",
+    "parameters": 48416,
+    "runtime_seconds": 1.949769130005734,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 54,
+    "development_records": 417,
+    "development_selection_loss": 1.1234153509140015,
+    "model": "State_S1_F2-C",
+    "parameters": 44450,
+    "runtime_seconds": 3.0265830389980692,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 29,
+    "development_records": 417,
+    "development_selection_loss": 1.0064250230789185,
+    "model": "State_S1_RAT-C",
+    "parameters": 48546,
+    "runtime_seconds": 2.4528426730103092,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.127970576286316,
+    "model": "State_S2_Phase-CFM",
+    "parameters": 56608,
+    "runtime_seconds": 3.4238097880006535,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 57,
+    "development_records": 417,
+    "development_selection_loss": 1.1947243213653564,
+    "model": "State_S2_F2-C",
+    "parameters": 52642,
+    "runtime_seconds": 3.514949834003346,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 30,
+    "development_records": 417,
+    "development_selection_loss": 1.1193562746047974,
+    "model": "State_S2_RAT-C",
+    "parameters": 56738,
+    "runtime_seconds": 1.979773765997379,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 104,
+    "development_records": 417,
+    "development_selection_loss": 1.1662108898162842,
+    "model": "State_S3_Phase-CFM",
+    "parameters": 64672,
+    "runtime_seconds": 2.1171245200093836,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 58,
+    "development_records": 417,
+    "development_selection_loss": 1.1421782970428467,
+    "model": "State_S3_F2-C",
+    "parameters": 60706,
+    "runtime_seconds": 2.472991175003699,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 30,
+    "development_records": 417,
+    "development_selection_loss": 1.067191481590271,
+    "model": "State_S3_RAT-C",
+    "parameters": 64802,
+    "runtime_seconds": 1.3697680610057432,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.149023413658142,
+    "model": "State_S4_Phase-CFM",
+    "parameters": 57120,
+    "runtime_seconds": 1.9683944919961505,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 48,
+    "development_records": 417,
+    "development_selection_loss": 1.2208614349365234,
+    "model": "State_S4_F2-C",
+    "parameters": 53154,
+    "runtime_seconds": 2.0030291939910967,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 28,
+    "development_records": 417,
+    "development_selection_loss": 1.121970534324646,
+    "model": "State_S4_RAT-C",
+    "parameters": 57250,
+    "runtime_seconds": 1.3052097239997238,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.1347469091415405,
+    "model": "State_S5_Phase-CFM",
+    "parameters": 57760,
+    "runtime_seconds": 2.2956293809984345,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 53,
+    "development_records": 417,
+    "development_selection_loss": 1.2053145170211792,
+    "model": "State_S5_F2-C",
+    "parameters": 53794,
+    "runtime_seconds": 2.945657308999216,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 12,
+    "development_records": 417,
+    "development_selection_loss": 1.0701278448104858,
+    "model": "State_S5_RAT-C",
+    "parameters": 57890,
+    "runtime_seconds": 1.2685141710098833,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 101,
+    "development_records": 417,
+    "development_selection_loss": 1.1575019359588623,
+    "model": "State_S6_Phase-CFM",
+    "parameters": 58656,
+    "runtime_seconds": 2.4079820580082014,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 39,
+    "development_records": 417,
+    "development_selection_loss": 1.228393316268921,
+    "model": "State_S6_F2-C",
+    "parameters": 54690,
+    "runtime_seconds": 2.545765531001962,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 23,
+    "development_records": 417,
+    "development_selection_loss": 1.1488184928894043,
+    "model": "State_S6_RAT-C",
+    "parameters": 58786,
+    "runtime_seconds": 1.6465711110067787,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 0.9948552846908569,
+    "model": "Flow_S0_Phase-CFM",
+    "parameters": 40224,
+    "runtime_seconds": 4.9923344619892305,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 0.9948552846908569,
+    "model": "Flow_S0_History-CFM",
+    "parameters": 40224,
+    "runtime_seconds": 9.511358346004272,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 99,
+    "development_records": 417,
+    "development_selection_loss": 0.9433988928794861,
+    "model": "Flow_S0_Prior-CFM",
+    "parameters": 76224,
+    "runtime_seconds": 8.86751892400207,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 11,
+    "development_records": 417,
+    "development_selection_loss": 0.9952160120010376,
+    "model": "Flow_S0_R-CFM",
+    "parameters": 44320,
+    "runtime_seconds": 1.520374294006615,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 107,
+    "development_records": 417,
+    "development_selection_loss": 2.2632248401641846,
+    "model": "Flow_S0_Streaming-CFM",
+    "parameters": 44320,
+    "runtime_seconds": 5.212325850996422,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.2066513299942017,
+    "model": "Flow_S0_TC-CFM",
+    "parameters": 56288,
+    "runtime_seconds": 2.644226078002248,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 8,
+    "development_records": 417,
+    "development_selection_loss": 1.1604446172714233,
+    "model": "Flow_S0_Hetero-CFM",
+    "parameters": 80352,
+    "runtime_seconds": 1.474349884010735,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 6,
+    "development_records": 417,
+    "development_selection_loss": 1.2467881441116333,
+    "model": "Flow_S0_MP-CFM",
+    "parameters": 97251,
+    "runtime_seconds": 1.6641272829874652,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 99,
+    "development_records": 417,
+    "development_selection_loss": 1.0597848892211914,
+    "model": "Flow_S1_Phase-CFM",
+    "parameters": 48416,
+    "runtime_seconds": 3.8291754189995117,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 99,
+    "development_records": 417,
+    "development_selection_loss": 1.0597848892211914,
+    "model": "Flow_S1_History-CFM",
+    "parameters": 48416,
+    "runtime_seconds": 3.548076057995786,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 89,
+    "development_records": 417,
+    "development_selection_loss": 1.0316866636276245,
+    "model": "Flow_S1_Prior-CFM",
+    "parameters": 92608,
+    "runtime_seconds": 4.638204683011281,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 9,
+    "development_records": 417,
+    "development_selection_loss": 1.04770028591156,
+    "model": "Flow_S1_R-CFM",
+    "parameters": 52512,
+    "runtime_seconds": 0.7613269740104442,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 96,
+    "development_records": 417,
+    "development_selection_loss": 2.559967279434204,
+    "model": "Flow_S1_Streaming-CFM",
+    "parameters": 52512,
+    "runtime_seconds": 3.3023204030032502,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.2497235536575317,
+    "model": "Flow_S1_TC-CFM",
+    "parameters": 64480,
+    "runtime_seconds": 2.1135985639994033,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 6,
+    "development_records": 417,
+    "development_selection_loss": 1.2415602207183838,
+    "model": "Flow_S1_Hetero-CFM",
+    "parameters": 96736,
+    "runtime_seconds": 1.1198825869942084,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 9,
+    "development_records": 417,
+    "development_selection_loss": 1.2558125257492065,
+    "model": "Flow_S1_MP-CFM",
+    "parameters": 113635,
+    "runtime_seconds": 1.5538906489964575,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.149023413658142,
+    "model": "Flow_S4_Phase-CFM",
+    "parameters": 57120,
+    "runtime_seconds": 3.4409054440038744,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.149023413658142,
+    "model": "Flow_S4_History-CFM",
+    "parameters": 57120,
+    "runtime_seconds": 3.772329772997182,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.0891920328140259,
+    "model": "Flow_S4_Prior-CFM",
+    "parameters": 110016,
+    "runtime_seconds": 4.935269565990893,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 8,
+    "development_records": 417,
+    "development_selection_loss": 1.1071813106536865,
+    "model": "Flow_S4_R-CFM",
+    "parameters": 61216,
+    "runtime_seconds": 0.91660356700595,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 93,
+    "development_records": 417,
+    "development_selection_loss": 2.928429126739502,
+    "model": "Flow_S4_Streaming-CFM",
+    "parameters": 61216,
+    "runtime_seconds": 3.4814585510030156,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 101,
+    "development_records": 139,
+    "development_selection_loss": 1.3155807256698608,
+    "model": "Flow_S4_TC-CFM",
+    "parameters": 73184,
+    "runtime_seconds": 2.277897328007384,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 8,
+    "development_records": 417,
+    "development_selection_loss": 1.353193998336792,
+    "model": "Flow_S4_Hetero-CFM",
+    "parameters": 114144,
+    "runtime_seconds": 1.2473653939960059,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 8,
+    "development_records": 417,
+    "development_selection_loss": 1.3796991109848022,
+    "model": "Flow_S4_MP-CFM",
+    "parameters": 131043,
+    "runtime_seconds": 1.6530888459965354,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.230615258216858,
+    "model": "Objective_S0_base",
+    "parameters": 56288,
+    "runtime_seconds": 1.6877781739895,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.2066513299942017,
+    "model": "Objective_S0_multi_horizon",
+    "parameters": 56288,
+    "runtime_seconds": 1.8719908479979495,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.230521559715271,
+    "model": "Objective_S0_contrastive",
+    "parameters": 56288,
+    "runtime_seconds": 2.836065306008095,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.2066513299942017,
+    "model": "Objective_S0_decoded",
+    "parameters": 56288,
+    "runtime_seconds": 2.205991630005883,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.2325302362442017,
+    "model": "Objective_S0_adaptive_continuity",
+    "parameters": 56288,
+    "runtime_seconds": 2.6526643709948985,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 139,
+    "development_selection_loss": 1.205952525138855,
+    "model": "Objective_S0_combined",
+    "parameters": 56288,
+    "runtime_seconds": 3.185548851994099,
+    "seed": 260826,
+    "train_records": 257
+  },
+  {
+    "best_epoch": 60,
+    "development_records": 417,
+    "development_selection_loss": 1.0023751258850098,
+    "model": "Control_S0_F2-C",
+    "parameters": 36258,
+    "runtime_seconds": 3.516951974001131,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 36,
+    "development_records": 417,
+    "development_selection_loss": 1.1319085359573364,
+    "model": "Control_S0_compact-MoE",
+    "parameters": 45030,
+    "runtime_seconds": 2.5621253459976288,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 39,
+    "development_records": 417,
+    "development_selection_loss": 1.1105326414108276,
+    "model": "Control_S0_VQ8",
+    "parameters": 37032,
+    "runtime_seconds": 2.8324156050075544,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 34,
+    "development_records": 417,
+    "development_selection_loss": 1.215160846710205,
+    "model": "Control_S0_VQ16",
+    "parameters": 38064,
+    "runtime_seconds": 2.252408418993582,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.3200732469558716,
+    "model": "Scale_D0_S0_Phase-CFM",
+    "parameters": 40224,
+    "runtime_seconds": 1.7496778469940182,
+    "seed": 260826,
+    "train_records": 207
+  },
+  {
+    "best_epoch": 100,
+    "development_records": 417,
+    "development_selection_loss": 1.2656192779541016,
+    "model": "Scale_D0_S0_Prior-CFM",
+    "parameters": 76224,
+    "runtime_seconds": 2.4995471110014478,
+    "seed": 260826,
+    "train_records": 207
+  },
+  {
+    "best_epoch": 14,
+    "development_records": 417,
+    "development_selection_loss": 1.5476194620132446,
+    "model": "Scale_D0_S0_F2-C",
+    "parameters": 36258,
+    "runtime_seconds": 0.6078914920071838,
+    "seed": 260826,
+    "train_records": 207
+  },
+  {
+    "best_epoch": 69,
+    "development_records": 417,
+    "development_selection_loss": 1.1122932434082031,
+    "model": "Scale_D1_S0_Phase-CFM",
+    "parameters": 40224,
+    "runtime_seconds": 2.3058995400060667,
+    "seed": 260826,
+    "train_records": 411
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 1.0470401048660278,
+    "model": "Scale_D1_S0_Prior-CFM",
+    "parameters": 76224,
+    "runtime_seconds": 3.39237046900962,
+    "seed": 260826,
+    "train_records": 411
+  },
+  {
+    "best_epoch": 38,
+    "development_records": 417,
+    "development_selection_loss": 1.267279028892517,
+    "model": "Scale_D1_S0_F2-C",
+    "parameters": 36258,
+    "runtime_seconds": 1.7866474999900674,
+    "seed": 260826,
+    "train_records": 411
+  },
+  {
+    "best_epoch": 110,
+    "development_records": 417,
+    "development_selection_loss": 0.9948552846908569,
+    "model": "Scale_D2_S0_Phase-CFM",
+    "parameters": 40224,
+    "runtime_seconds": 3.7854178629931994,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 99,
+    "development_records": 417,
+    "development_selection_loss": 0.9433988928794861,
+    "model": "Scale_D2_S0_Prior-CFM",
+    "parameters": 76224,
+    "runtime_seconds": 4.392006163005135,
+    "seed": 260826,
+    "train_records": 771
+  },
+  {
+    "best_epoch": 60,
+    "development_records": 417,
+    "development_selection_loss": 1.0023751258850098,
+    "model": "Scale_D2_S0_F2-C",
+    "parameters": 36258,
+    "runtime_seconds": 4.205959850005456,
+    "seed": 260826,
+    "train_records": 771
+  }
+]

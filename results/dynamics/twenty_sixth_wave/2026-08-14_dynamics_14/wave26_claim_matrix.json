@@ -1,0 +1,32 @@
+{
+  "C18_rich_causal_state_matters": "NOT_TESTED",
+  "C19_continuous_flow_strongest_family": "NOT_SUPPORTED",
+  "C20_enriched_flow_reduces_identity_continuity_tradeoff": "NOT_SUPPORTED",
+  "C21_more_transition_data_helps": "MIXED",
+  "C22_language_and_state_shape_transition_distribution": "MIXED",
+  "READY_FOR_RETARGETING_TEST": false,
+  "best_data_condition": "D2",
+  "best_flow_family": "Flow_S0_Prior-CFM",
+  "best_nonflow_control": "State_S0_RAT-C",
+  "best_state_configuration": "S0",
+  "continuity_improved": true,
+  "data_limitation_evidence": [
+    true,
+    true,
+    true
+  ],
+  "decode_reencode_improved": false,
+  "execution_redirect_preserved": false,
+  "identity_improved": false,
+  "language_redirect_preserved": true,
+  "model_limitation_evidence": true,
+  "outcome_labels": [
+    "MIXED_EVIDENCE",
+    "DATA_LIMITED",
+    "IDENTITY_CONTINUITY_TRADEOFF_PERSISTS"
+  ],
+  "ready_models": [],
+  "recommended_wave27_direction": "collect genuinely new source-session-disjoint paired transitions with synchronized gripper/TCP/contact state, then rerun RAT-C and retrieval-initialized flow controls",
+  "representation_limitation_evidence": false,
+  "state_limitation_evidence": 0
+}
