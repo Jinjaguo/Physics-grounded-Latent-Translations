@@ -220,4 +220,3 @@ class IntentForceField(nn.Module):
             "q": torch.stack(qs, dim=1),
             "direction": d,
         }
-
