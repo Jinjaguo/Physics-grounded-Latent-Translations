@@ -155,3 +155,15 @@ Tested phase/contact transition gates (hazard, contact, monotonic, two-stage) wi
 ## Wave 39 — 2026-08-15T03:53:50.216390-04:00
 
 Tested semantic target anchors and current-instruction hard negatives with q=2/4/8 and PCA/random bases. Best `delta_q2_pca_aw0.2_m0.05` had Wave27 execution redirect 0.004189; SUCCESS=False. Continue to Wave40 or Wave78.
+
+## Wave 40 — 2026-08-15T03:56:23.068235-04:00
+
+Tested semantic/execution split force branches with q=2/4/8 and PCA/random bases. Best `integrated_q8_pca_sw0.2_ew0.05` had Wave27 execution redirect 0.045565; SUCCESS=False. Continue to Wave41 or Wave78.
+
+## Wave 41 — 2026-08-15T03:58:24.346806-04:00
+
+Tested calibrated trust-region force with q=2/4/8, radii 0.04/0.08/0.12, and confidence families. Best `delta_q2_pca_r0.12_cw0.2` had Wave27 execution redirect 0.003115; SUCCESS=False. Continue to Wave42 or Wave78.
+
+## Wave 42 — 2026-08-15T04:00:38.808075-04:00
+
+Tested receding-horizon schedules (first-step, full, geometric, late-ramp). Best `delta_q2_pca_full` had Wave27 execution redirect 0.004239; SUCCESS=False. Continue to Wave43 or Wave78.

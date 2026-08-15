@@ -52,15 +52,15 @@ Wave39 比较了 72 个 semantic/action anchor 候选：预测 latent 的 semant
 
 ## Wave40
 
-未执行。没有继续扩大 adapter 网络，因为 full-rank control 和 mixture 已显示问题不是单纯容量不足。
+Wave40 将 force 拆成独立 semantic 和 execution 分支，比较了 72 个候选，覆盖 delta/state/integrated 输入、q=2/4/8、PCA/随机基和不同分支权重。它是目前较有改善的一波：Wave27 held-out 最好 `integrated_q8_pca_sw0.2_ew0.05` 的 execution redirect 约 0.0456、continuity 约 2.69，但仍远高于真实连续性且 endpoint 未达成功门槛。说明分支解耦有帮助，却还没有解决局部动作身份问题，因此继续 Wave41。
 
 ## Wave41
 
-未执行。没有把 return 重新编码成显式标签；项目主线要求 return 来自同一意图空间的反向迁移，而当前表示尚未支持这一点。
+Wave41 测试了 108 个局部 trust-region 候选，覆盖固定/状态自适应/双头置信度、半径 0.04/0.08/0.12、q=2/4/8 和 PCA/随机基。置信度校准确实把 force 变小，但 Wave27 held-out 最好 `delta_q2_pca_r0.12_cw0.2` 的 execution redirect 只有约 0.0031、continuity 约 2.77，反而失去 Wave40 的改善。说明幅度控制不是主要瓶颈，因此继续 Wave42。
 
 ## Wave42
 
-未执行。没有打开新的 held-out 集，避免在同一失败结论上反复试验。
+Wave42 比较了 72 个在线调度候选：first-step、full horizon、几何衰减和 late-ramp，配合 delta/state/integrated 桥及 q=2/4/8。first-step 基本没有迁移，full/late-ramp 只有很小收益；Wave27 held-out 最好 `delta_q2_pca_full` 的 execution redirect 约 0.0042、continuity 约 2.76。说明在线施力节奏不能替代正确的跨任务方向，因此继续 Wave43。
 
 ## Wave43
 

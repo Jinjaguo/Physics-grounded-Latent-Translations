@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-15T03:56:19.432010-04:00",
+  "heldout_opened": true,
+  "selected": [
+    "delta_q8_pca_sw0.2_ew0.05",
+    "delta_q8_pca_sw0.2_ew0.2",
+    "delta_q8_pca_sw0.8_ew0.05",
+    "state_q8_pca_sw0.2_ew0.05",
+    "state_q8_pca_sw0.8_ew0.05",
+    "state_q8_pca_sw0.2_ew0.2",
+    "integrated_q8_pca_sw0.2_ew0.05",
+    "integrated_q8_pca_sw0.2_ew0.2",
+    "integrated_q8_pca_sw0.8_ew0.05",
+    "integrated_q8_pca_sw0.8_ew0.2",
+    "state_q8_pca_sw0.8_ew0.2",
+    "integrated_q4_pca_sw0.2_ew0.05"
+  ]
+}

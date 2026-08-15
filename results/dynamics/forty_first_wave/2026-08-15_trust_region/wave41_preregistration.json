@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "development": 139,
+    "test": 164,
+    "train": 257,
+    "wave27": 86
+  },
+  "created_at": "2026-08-15T03:58:02.065206-04:00",
+  "families": [
+    "fixed",
+    "adaptive",
+    "two_head"
+  ],
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "q": [
+    2,
+    4,
+    8
+  ],
+  "radii": [
+    0.04,
+    0.08,
+    0.12
+  ],
+  "termination_rule": "success or Wave78 only; never Wave79"
+}

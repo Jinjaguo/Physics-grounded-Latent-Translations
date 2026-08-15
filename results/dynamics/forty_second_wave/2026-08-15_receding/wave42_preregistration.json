@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-15T04:00:27.456398-04:00",
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "schedules": [
+    "first_step",
+    "full",
+    "geometric",
+    "late_ramp",
+    "receding_replan"
+  ],
+  "termination_rule": "success or Wave78 only; never Wave79"
+}

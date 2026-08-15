@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-15T03:58:21.455923-04:00",
+  "heldout_opened": true,
+  "selected": [
+    "delta_q2_pca_r0.12_cw0.2",
+    "delta_q2_pca_r0.12_cw0.8",
+    "delta_q2_pca_r0.08_cw0.2",
+    "state_q2_pca_r0.12_cw0.2",
+    "state_q4_pca_r0.12_cw0.2",
+    "state_q4_pca_r0.08_cw0.8",
+    "integrated_q4_pca_r0.12_cw0.8",
+    "integrated_q4_pca_r0.12_cw0.2",
+    "integrated_q4_pca_r0.08_cw0.8",
+    "delta_q2_pca_r0.08_cw0.8",
+    "integrated_q4_pca_r0.08_cw0.2",
+    "integrated_q2_pca_r0.12_cw0.2"
+  ]
+}
