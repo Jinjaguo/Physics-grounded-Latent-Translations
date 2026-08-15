@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-08-15T04:04:05.597217-04:00",
+  "families": [
+    "delta",
+    "state",
+    "integrated"
+  ],
+  "frozen": [
+    "action_text_VAE",
+    "decoder",
+    "F1",
+    "F2"
+  ],
+  "future_inputs": [],
+  "q": [
+    2,
+    4,
+    8
+  ],
+  "temperatures": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "termination_rule": "success or Wave78 only; never Wave79"
+}

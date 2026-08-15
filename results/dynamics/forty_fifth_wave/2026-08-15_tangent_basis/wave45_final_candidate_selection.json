@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-15T04:05:56.142629-04:00",
+  "heldout_opened": true,
+  "selected": [
+    "delta_q2_pca",
+    "integrated_q2_pca",
+    "state_q2_pca",
+    "integrated_q8_tangent",
+    "delta_q2_tangent",
+    "integrated_q4_random",
+    "integrated_q2_tangent",
+    "delta_q2_random",
+    "state_q4_tangent",
+    "integrated_q4_tangent",
+    "state_q2_random",
+    "state_q2_tangent"
+  ]
+}

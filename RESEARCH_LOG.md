@@ -167,3 +167,15 @@ Tested calibrated trust-region force with q=2/4/8, radii 0.04/0.08/0.12, and con
 ## Wave 42 — 2026-08-15T04:00:38.808075-04:00
 
 Tested receding-horizon schedules (first-step, full, geometric, late-ramp). Best `delta_q2_pca_full` had Wave27 execution redirect 0.004239; SUCCESS=False. Continue to Wave43 or Wave78.
+
+## Wave 43 — 2026-08-15T04:02:45.678728-04:00
+
+Tested ordered/mixed task-domain calibration with q=2/4/8, PCA/random bases, task balance and residual normalization. Best `ordered_delta_q2_pca_bal1_norm0` had Wave27 execution redirect 0.004609; SUCCESS=False. Continue to Wave44 or Wave78.
+
+## Wave 44 — 2026-08-15T04:04:27.005293-04:00
+
+Tested matched-state contrastive force bridges with q=2/4/8, PCA/random bases, three temperatures and contrastive weights. Best `integrated_q2_pca_t0.05_cw0.8` had Wave27 execution redirect 0.021359; SUCCESS=False. Continue to Wave45 or Wave78.
+
+## Wave 45 — 2026-08-15T04:05:57.515708-04:00
+
+Tested decoder-tangent, residual-PCA and random bases across q=2/4/8. Best `delta_q2_pca` had Wave27 execution redirect 0.003861; SUCCESS=False. Continue to Wave46 or Wave78.

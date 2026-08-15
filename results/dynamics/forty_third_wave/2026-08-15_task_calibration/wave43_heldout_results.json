@@ -1,0 +1,470 @@
+{
+  "mixed_integrated_q4_pca_bal1_norm0": {
+    "spec": {
+      "balanced": true,
+      "family": "integrated",
+      "kind": "pca",
+      "name": "mixed_integrated_q4_pca_bal1_norm0",
+      "normalize": false,
+      "q": 4,
+      "source": "mixed"
+    },
+    "test": {
+      "Execution_RedirectGain": -0.019888510927557945,
+      "H2_full_mse": 1.1011736392974854,
+      "H4_continuity": 2.4814465045928955,
+      "H4_decoded_mse": 1.2482516765594482,
+      "H4_endpoint_accuracy": 0.16463414634146342,
+      "H4_full_mse": 1.151017665863037,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.016224823892116547,
+      "adapter_norm": 0.4915984869003296,
+      "name": "mixed_integrated_q4_pca_bal1_norm0",
+      "q_path_length": 14.915736198425293,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.012337052263319492,
+      "H2_full_mse": 1.7573823928833008,
+      "H4_continuity": 2.71372389793396,
+      "H4_decoded_mse": 1.7011619806289673,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.753609538078308,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.03774433210492134,
+      "adapter_norm": 0.656378448009491,
+      "name": "mixed_integrated_q4_pca_bal1_norm0",
+      "q_path_length": 37.43095779418945,
+      "samples": 86
+    }
+  },
+  "mixed_state_q4_pca_bal0_norm0": {
+    "spec": {
+      "balanced": false,
+      "family": "state",
+      "kind": "pca",
+      "name": "mixed_state_q4_pca_bal0_norm0",
+      "normalize": false,
+      "q": 4,
+      "source": "mixed"
+    },
+    "test": {
+      "Execution_RedirectGain": -0.02373397722840309,
+      "H2_full_mse": 1.1024448871612549,
+      "H4_continuity": 2.484570026397705,
+      "H4_decoded_mse": 1.2553578615188599,
+      "H4_endpoint_accuracy": 0.17682926829268292,
+      "H4_full_mse": 1.154803991317749,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.012438660487532616,
+      "adapter_norm": 0.5162786245346069,
+      "name": "mixed_state_q4_pca_bal0_norm0",
+      "q_path_length": 10.405074119567871,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.017868919298052788,
+      "H2_full_mse": 1.7560940980911255,
+      "H4_continuity": 2.7273099422454834,
+      "H4_decoded_mse": 1.7088541984558105,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7553631067276,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.035990916192531586,
+      "adapter_norm": 0.5731362104415894,
+      "name": "mixed_state_q4_pca_bal0_norm0",
+      "q_path_length": 13.152073860168457,
+      "samples": 86
+    }
+  },
+  "ordered_delta_q2_pca_bal0_norm0": {
+    "spec": {
+      "balanced": false,
+      "family": "delta",
+      "kind": "pca",
+      "name": "ordered_delta_q2_pca_bal0_norm0",
+      "normalize": false,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011775554157793522,
+      "H2_full_mse": 1.1113007068634033,
+      "H4_continuity": 2.4946839809417725,
+      "H4_decoded_mse": 1.2406184673309326,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1392481327056885,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.027994580566883087,
+      "adapter_norm": 0.23699308931827545,
+      "name": "ordered_delta_q2_pca_bal0_norm0",
+      "q_path_length": 2.7104532718658447,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.004528704099357128,
+      "H2_full_mse": 1.8168675899505615,
+      "H4_continuity": 2.7594172954559326,
+      "H4_decoded_mse": 1.71992027759552,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7513906955718994,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.039963483810424805,
+      "adapter_norm": 0.21047040820121765,
+      "name": "ordered_delta_q2_pca_bal0_norm0",
+      "q_path_length": 2.22017765045166,
+      "samples": 86
+    }
+  },
+  "ordered_delta_q2_pca_bal0_norm1": {
+    "spec": {
+      "balanced": false,
+      "family": "delta",
+      "kind": "pca",
+      "name": "ordered_delta_q2_pca_bal0_norm1",
+      "normalize": true,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.01027723029255867,
+      "H2_full_mse": 1.1132636070251465,
+      "H4_continuity": 2.4946370124816895,
+      "H4_decoded_mse": 1.242838740348816,
+      "H4_endpoint_accuracy": 0.21341463414634146,
+      "H4_full_mse": 1.1414347887039185,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.025807734578847885,
+      "adapter_norm": 0.2124214470386505,
+      "name": "ordered_delta_q2_pca_bal0_norm1",
+      "q_path_length": 2.33465313911438,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.003771635238081217,
+      "H2_full_mse": 1.8168787956237793,
+      "H4_continuity": 2.7586872577667236,
+      "H4_decoded_mse": 1.7198024988174438,
+      "H4_endpoint_accuracy": 0.22093023255813954,
+      "H4_full_mse": 1.7534031867980957,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0379507802426815,
+      "adapter_norm": 0.19570602476596832,
+      "name": "ordered_delta_q2_pca_bal0_norm1",
+      "q_path_length": 2.032780647277832,
+      "samples": 86
+    }
+  },
+  "ordered_delta_q2_pca_bal1_norm0": {
+    "spec": {
+      "balanced": true,
+      "family": "delta",
+      "kind": "pca",
+      "name": "ordered_delta_q2_pca_bal1_norm0",
+      "normalize": false,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011226401664316654,
+      "H2_full_mse": 1.1113064289093018,
+      "H4_continuity": 2.4944469928741455,
+      "H4_decoded_mse": 1.2412574291229248,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1392697095870972,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.027972910553216934,
+      "adapter_norm": 0.23484216630458832,
+      "name": "ordered_delta_q2_pca_bal1_norm0",
+      "q_path_length": 2.763181686401367,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.004609077703207731,
+      "H2_full_mse": 1.817343831062317,
+      "H4_continuity": 2.7592575550079346,
+      "H4_decoded_mse": 1.7198755741119385,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7516182661056519,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.03973575681447983,
+      "adapter_norm": 0.20633351802825928,
+      "name": "ordered_delta_q2_pca_bal1_norm0",
+      "q_path_length": 2.2065532207489014,
+      "samples": 86
+    }
+  },
+  "ordered_delta_q2_pca_bal1_norm1": {
+    "spec": {
+      "balanced": true,
+      "family": "delta",
+      "kind": "pca",
+      "name": "ordered_delta_q2_pca_bal1_norm1",
+      "normalize": true,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010009963996708393,
+      "H2_full_mse": 1.1142936944961548,
+      "H4_continuity": 2.4947140216827393,
+      "H4_decoded_mse": 1.2438838481903076,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1420376300811768,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.025204973295331,
+      "adapter_norm": 0.2060006558895111,
+      "name": "ordered_delta_q2_pca_bal1_norm1",
+      "q_path_length": 2.263524055480957,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0033494504168629646,
+      "H2_full_mse": 1.8165115118026733,
+      "H4_continuity": 2.7583675384521484,
+      "H4_decoded_mse": 1.7197920083999634,
+      "H4_endpoint_accuracy": 0.22093023255813954,
+      "H4_full_mse": 1.7539833784103394,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.03737061470746994,
+      "adapter_norm": 0.19135363399982452,
+      "name": "ordered_delta_q2_pca_bal1_norm1",
+      "q_path_length": 1.9820207357406616,
+      "samples": 86
+    }
+  },
+  "ordered_delta_q8_pca_bal0_norm0": {
+    "spec": {
+      "balanced": false,
+      "family": "delta",
+      "kind": "pca",
+      "name": "ordered_delta_q8_pca_bal0_norm0",
+      "normalize": false,
+      "q": 8,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0383819155395031,
+      "H2_full_mse": 1.098326325416565,
+      "H4_continuity": 2.4964137077331543,
+      "H4_decoded_mse": 1.2500905990600586,
+      "H4_endpoint_accuracy": 0.25609756097560976,
+      "H4_full_mse": 1.174257755279541,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.007015231065452099,
+      "adapter_norm": 0.3786507546901703,
+      "name": "ordered_delta_q8_pca_bal0_norm0",
+      "q_path_length": 4.780679225921631,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.03419046476483345,
+      "H2_full_mse": 1.7956326007843018,
+      "H4_continuity": 2.7603297233581543,
+      "H4_decoded_mse": 1.7180607318878174,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.781455159187317,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.009898748248815536,
+      "adapter_norm": 0.34134241938591003,
+      "name": "ordered_delta_q8_pca_bal0_norm0",
+      "q_path_length": 3.838005542755127,
+      "samples": 86
+    }
+  },
+  "ordered_delta_q8_pca_bal1_norm0": {
+    "spec": {
+      "balanced": true,
+      "family": "delta",
+      "kind": "pca",
+      "name": "ordered_delta_q8_pca_bal1_norm0",
+      "normalize": false,
+      "q": 8,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": -0.032465819269418716,
+      "H2_full_mse": 1.1022288799285889,
+      "H4_continuity": 2.496474504470825,
+      "H4_decoded_mse": 1.2497572898864746,
+      "H4_endpoint_accuracy": 0.25609756097560976,
+      "H4_full_mse": 1.1712466478347778,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.00400410033762455,
+      "adapter_norm": 0.3515671491622925,
+      "name": "ordered_delta_q8_pca_bal1_norm0",
+      "q_path_length": 4.184158802032471,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.029030214995145798,
+      "H2_full_mse": 1.796593189239502,
+      "H4_continuity": 2.758892059326172,
+      "H4_decoded_mse": 1.717031478881836,
+      "H4_endpoint_accuracy": 0.23255813953488372,
+      "H4_full_mse": 1.7799787521362305,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.011375277303159237,
+      "adapter_norm": 0.32054585218429565,
+      "name": "ordered_delta_q8_pca_bal1_norm0",
+      "q_path_length": 3.469139337539673,
+      "samples": 86
+    }
+  },
+  "ordered_integrated_q2_pca_bal0_norm0": {
+    "spec": {
+      "balanced": false,
+      "family": "integrated",
+      "kind": "pca",
+      "name": "ordered_integrated_q2_pca_bal0_norm0",
+      "normalize": false,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.011784950271248817,
+      "H2_full_mse": 1.108478307723999,
+      "H4_continuity": 2.4951047897338867,
+      "H4_decoded_mse": 1.2405469417572021,
+      "H4_endpoint_accuracy": 0.18902439024390244,
+      "H4_full_mse": 1.1373071670532227,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02993544191122055,
+      "adapter_norm": 0.2688038647174835,
+      "name": "ordered_integrated_q2_pca_bal0_norm0",
+      "q_path_length": 5.313619613647461,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.002621154999360442,
+      "H2_full_mse": 1.7994351387023926,
+      "H4_continuity": 2.758197069168091,
+      "H4_decoded_mse": 1.7137259244918823,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.7429134845733643,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04844061657786369,
+      "adapter_norm": 0.29548031091690063,
+      "name": "ordered_integrated_q2_pca_bal0_norm0",
+      "q_path_length": 6.270912170410156,
+      "samples": 86
+    }
+  },
+  "ordered_integrated_q2_pca_bal1_norm0": {
+    "spec": {
+      "balanced": true,
+      "family": "integrated",
+      "kind": "pca",
+      "name": "ordered_integrated_q2_pca_bal1_norm0",
+      "normalize": false,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.00012414739467203617,
+      "H2_full_mse": 1.105886459350586,
+      "H4_continuity": 2.4970412254333496,
+      "H4_decoded_mse": 1.2467124462127686,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1418914794921875,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02535119652748108,
+      "adapter_norm": 0.396147757768631,
+      "name": "ordered_integrated_q2_pca_bal1_norm0",
+      "q_path_length": 14.176778793334961,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.019847700372338295,
+      "H2_full_mse": 1.7877371311187744,
+      "H4_continuity": 2.7611238956451416,
+      "H4_decoded_mse": 1.7173068523406982,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7526874542236328,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.038666535168886185,
+      "adapter_norm": 0.4282948672771454,
+      "name": "ordered_integrated_q2_pca_bal1_norm0",
+      "q_path_length": 17.024065017700195,
+      "samples": 86
+    }
+  },
+  "ordered_state_q2_pca_bal0_norm0": {
+    "spec": {
+      "balanced": false,
+      "family": "state",
+      "kind": "pca",
+      "name": "ordered_state_q2_pca_bal0_norm0",
+      "normalize": false,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0018227292457595468,
+      "H2_full_mse": 1.105713963508606,
+      "H4_continuity": 2.4982552528381348,
+      "H4_decoded_mse": 1.2451196908950806,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.1411004066467285,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.026142125949263573,
+      "adapter_norm": 0.3815508484840393,
+      "name": "ordered_state_q2_pca_bal0_norm0",
+      "q_path_length": 9.033468246459961,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.01649315282702446,
+      "H2_full_mse": 1.7901414632797241,
+      "H4_continuity": 2.7627344131469727,
+      "H4_decoded_mse": 1.716808557510376,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7506422996520996,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04071184620261192,
+      "adapter_norm": 0.4020306169986725,
+      "name": "ordered_state_q2_pca_bal0_norm0",
+      "q_path_length": 10.35451602935791,
+      "samples": 86
+    }
+  },
+  "ordered_state_q2_pca_bal1_norm0": {
+    "spec": {
+      "balanced": true,
+      "family": "state",
+      "kind": "pca",
+      "name": "ordered_state_q2_pca_bal1_norm0",
+      "normalize": false,
+      "q": 2,
+      "source": "ordered"
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0016291876090690494,
+      "H2_full_mse": 1.1052030324935913,
+      "H4_continuity": 2.498356342315674,
+      "H4_decoded_mse": 1.2446181774139404,
+      "H4_endpoint_accuracy": 0.1951219512195122,
+      "H4_full_mse": 1.1412626504898071,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.025980010628700256,
+      "adapter_norm": 0.38973838090896606,
+      "name": "ordered_state_q2_pca_bal1_norm0",
+      "q_path_length": 9.435088157653809,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.01614568382501602,
+      "H2_full_mse": 1.7897294759750366,
+      "H4_continuity": 2.7632715702056885,
+      "H4_decoded_mse": 1.7163896560668945,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.750487208366394,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.040866874158382416,
+      "adapter_norm": 0.408914715051651,
+      "name": "ordered_state_q2_pca_bal1_norm0",
+      "q_path_length": 10.674469947814941,
+      "samples": 86
+    }
+  }
+}

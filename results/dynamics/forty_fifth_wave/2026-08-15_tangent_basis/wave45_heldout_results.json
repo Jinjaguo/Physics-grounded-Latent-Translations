@@ -1,0 +1,434 @@
+{
+  "delta_q2_pca": {
+    "spec": {
+      "family": "delta",
+      "kind": "pca",
+      "name": "delta_q2_pca",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.010065137408673763,
+      "H2_full_mse": 1.112228512763977,
+      "H4_continuity": 2.494492530822754,
+      "H4_decoded_mse": 1.2411891222000122,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1410181522369385,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02622450888156891,
+      "adapter_norm": 0.22031576931476593,
+      "name": "delta_q2_pca",
+      "q_path_length": 2.415388822555542,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0038606373127549887,
+      "H2_full_mse": 1.8184218406677246,
+      "H4_continuity": 2.7592613697052,
+      "H4_decoded_mse": 1.719610333442688,
+      "H4_endpoint_accuracy": 0.22093023255813954,
+      "H4_full_mse": 1.7534259557724,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.03792797029018402,
+      "adapter_norm": 0.19336743652820587,
+      "name": "delta_q2_pca",
+      "q_path_length": 1.979142665863037,
+      "samples": 86
+    }
+  },
+  "delta_q2_random": {
+    "spec": {
+      "family": "delta",
+      "kind": "random",
+      "name": "delta_q2_random",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.00022323819575831294,
+      "H2_full_mse": 1.1332494020462036,
+      "H4_continuity": 2.494234323501587,
+      "H4_decoded_mse": 1.252035140991211,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1669713258743286,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.0002712403947953135,
+      "adapter_norm": 0.003839084878563881,
+      "name": "delta_q2_random",
+      "q_path_length": 0.032000742852687836,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.00026308969245292246,
+      "H2_full_mse": 1.8398640155792236,
+      "H4_continuity": 2.7563211917877197,
+      "H4_decoded_mse": 1.7190192937850952,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7910635471343994,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.00029039348009973764,
+      "adapter_norm": 0.002048748778179288,
+      "name": "delta_q2_random",
+      "q_path_length": 0.01707693375647068,
+      "samples": 86
+    }
+  },
+  "delta_q2_tangent": {
+    "spec": {
+      "family": "delta",
+      "kind": "tangent",
+      "name": "delta_q2_tangent",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0006522578187286854,
+      "H2_full_mse": 1.1331942081451416,
+      "H4_continuity": 2.491910696029663,
+      "H4_decoded_mse": 1.2524670362472534,
+      "H4_endpoint_accuracy": 0.21951219512195122,
+      "H4_full_mse": 1.1671842336654663,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 5.84634326514788e-05,
+      "adapter_norm": 0.04332839697599411,
+      "name": "delta_q2_tangent",
+      "q_path_length": 0.3629351258277893,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.0012305299751460552,
+      "H2_full_mse": 1.8395428657531738,
+      "H4_continuity": 2.7539167404174805,
+      "H4_decoded_mse": 1.7186965942382812,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7906384468078613,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0007154698832891881,
+      "adapter_norm": 0.035853322595357895,
+      "name": "delta_q2_tangent",
+      "q_path_length": 0.29987356066703796,
+      "samples": 86
+    }
+  },
+  "integrated_q2_pca": {
+    "spec": {
+      "family": "integrated",
+      "kind": "pca",
+      "name": "integrated_q2_pca",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0003286788996774703,
+      "H2_full_mse": 1.1060047149658203,
+      "H4_continuity": 2.49666428565979,
+      "H4_decoded_mse": 1.2467716932296753,
+      "H4_endpoint_accuracy": 0.18292682926829268,
+      "H4_full_mse": 1.1419260501861572,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02531643584370613,
+      "adapter_norm": 0.3920031189918518,
+      "name": "integrated_q2_pca",
+      "q_path_length": 13.764992713928223,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.01970130018889904,
+      "H2_full_mse": 1.78822660446167,
+      "H4_continuity": 2.760864019393921,
+      "H4_decoded_mse": 1.7175546884536743,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.752442479133606,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.03891155496239662,
+      "adapter_norm": 0.42314988374710083,
+      "name": "integrated_q2_pca",
+      "q_path_length": 16.467727661132812,
+      "samples": 86
+    }
+  },
+  "integrated_q2_tangent": {
+    "spec": {
+      "family": "integrated",
+      "kind": "tangent",
+      "name": "integrated_q2_tangent",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": -0.00022806353808846325,
+      "H2_full_mse": 1.133298635482788,
+      "H4_continuity": 2.492884635925293,
+      "H4_decoded_mse": 1.252449631690979,
+      "H4_endpoint_accuracy": 0.21341463414634146,
+      "H4_full_mse": 1.1672649383544922,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -2.2381362214218825e-05,
+      "adapter_norm": 0.01841174066066742,
+      "name": "integrated_q2_tangent",
+      "q_path_length": 0.18301616609096527,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 0.00100178481079638,
+      "H2_full_mse": 1.8396209478378296,
+      "H4_continuity": 2.7542154788970947,
+      "H4_decoded_mse": 1.7186541557312012,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7907805442810059,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.0005734988953918219,
+      "adapter_norm": 0.029529361054301262,
+      "name": "integrated_q2_tangent",
+      "q_path_length": 0.29437270760536194,
+      "samples": 86
+    }
+  },
+  "integrated_q4_random": {
+    "spec": {
+      "family": "integrated",
+      "kind": "random",
+      "name": "integrated_q4_random",
+      "q": 4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.0022801030427217484,
+      "H2_full_mse": 1.1329492330551147,
+      "H4_continuity": 2.4946646690368652,
+      "H4_decoded_mse": 1.2523326873779297,
+      "H4_endpoint_accuracy": 0.20121951219512196,
+      "H4_full_mse": 1.1699780225753784,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.0027353609912097454,
+      "adapter_norm": 0.0224904865026474,
+      "name": "integrated_q4_random",
+      "q_path_length": 0.22339455783367157,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.003508025547489524,
+      "H2_full_mse": 1.8407375812530518,
+      "H4_continuity": 2.756509304046631,
+      "H4_decoded_mse": 1.7185399532318115,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.8011438846588135,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.009789915755391121,
+      "adapter_norm": 0.041410814970731735,
+      "name": "integrated_q4_random",
+      "q_path_length": 0.4143412709236145,
+      "samples": 86
+    }
+  },
+  "integrated_q4_tangent": {
+    "spec": {
+      "family": "integrated",
+      "kind": "tangent",
+      "name": "integrated_q4_tangent",
+      "q": 4
+    },
+    "test": {
+      "Execution_RedirectGain": 0.00033170421374961734,
+      "H2_full_mse": 1.1332879066467285,
+      "H4_continuity": 2.4948854446411133,
+      "H4_decoded_mse": 1.252441167831421,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1673870086669922,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.00014429194561671466,
+      "adapter_norm": 0.015049895271658897,
+      "name": "integrated_q4_tangent",
+      "q_path_length": 0.14950543642044067,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.0019539869390428066,
+      "H2_full_mse": 1.8409205675125122,
+      "H4_continuity": 2.7580666542053223,
+      "H4_decoded_mse": 1.7199476957321167,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7922934293746948,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.0009395476663485169,
+      "adapter_norm": 0.024701083078980446,
+      "name": "integrated_q4_tangent",
+      "q_path_length": 0.24572022259235382,
+      "samples": 86
+    }
+  },
+  "integrated_q8_tangent": {
+    "spec": {
+      "family": "integrated",
+      "kind": "tangent",
+      "name": "integrated_q8_tangent",
+      "q": 8
+    },
+    "test": {
+      "Execution_RedirectGain": -0.026433970779180527,
+      "H2_full_mse": 1.121440052986145,
+      "H4_continuity": 2.4633777141571045,
+      "H4_decoded_mse": 1.2614372968673706,
+      "H4_endpoint_accuracy": 0.18902439024390244,
+      "H4_full_mse": 1.1731963157653809,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.005953721236437559,
+      "adapter_norm": 0.38922393321990967,
+      "name": "integrated_q8_tangent",
+      "q_path_length": 6.454403877258301,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.024992842227220535,
+      "H2_full_mse": 1.8068705797195435,
+      "H4_continuity": 2.7214343547821045,
+      "H4_decoded_mse": 1.733232021331787,
+      "H4_endpoint_accuracy": 0.19767441860465115,
+      "H4_full_mse": 1.8001102209091187,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.008756108582019806,
+      "adapter_norm": 0.44445669651031494,
+      "name": "integrated_q8_tangent",
+      "q_path_length": 8.253134727478027,
+      "samples": 86
+    }
+  },
+  "state_q2_pca": {
+    "spec": {
+      "family": "state",
+      "kind": "pca",
+      "name": "state_q2_pca",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": 0.0022583655081689358,
+      "H2_full_mse": 1.1055619716644287,
+      "H4_continuity": 2.497560739517212,
+      "H4_decoded_mse": 1.2442219257354736,
+      "H4_endpoint_accuracy": 0.18902439024390244,
+      "H4_full_mse": 1.140805959701538,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 0.02643667720258236,
+      "adapter_norm": 0.3702924847602844,
+      "name": "state_q2_pca",
+      "q_path_length": 8.479609489440918,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.014798933640122414,
+      "H2_full_mse": 1.7913635969161987,
+      "H4_continuity": 2.7626185417175293,
+      "H4_decoded_mse": 1.7155286073684692,
+      "H4_endpoint_accuracy": 0.20930232558139536,
+      "H4_full_mse": 1.7489666938781738,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 0.04238729551434517,
+      "adapter_norm": 0.38877686858177185,
+      "name": "state_q2_pca",
+      "q_path_length": 9.61178970336914,
+      "samples": 86
+    }
+  },
+  "state_q2_random": {
+    "spec": {
+      "family": "state",
+      "kind": "random",
+      "name": "state_q2_random",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": -0.00045304480590857565,
+      "H2_full_mse": 1.1331846714019775,
+      "H4_continuity": 2.494138717651367,
+      "H4_decoded_mse": 1.2523738145828247,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1675024032592773,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.0002598509890958667,
+      "adapter_norm": 0.0069899847730994225,
+      "name": "state_q2_random",
+      "q_path_length": 0.058273524045944214,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00032507264404557645,
+      "H2_full_mse": 1.8398118019104004,
+      "H4_continuity": 2.756143569946289,
+      "H4_decoded_mse": 1.7192877531051636,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7915453910827637,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.0001915208122227341,
+      "adapter_norm": 0.006878763437271118,
+      "name": "state_q2_random",
+      "q_path_length": 0.057345278561115265,
+      "samples": 86
+    }
+  },
+  "state_q2_tangent": {
+    "spec": {
+      "family": "state",
+      "kind": "tangent",
+      "name": "state_q2_tangent",
+      "q": 2
+    },
+    "test": {
+      "Execution_RedirectGain": 3.0028111723368056e-05,
+      "H2_full_mse": 1.1331909894943237,
+      "H4_continuity": 2.493734121322632,
+      "H4_decoded_mse": 1.2521222829818726,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.167177677154541,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": 6.504702469101176e-05,
+      "adapter_norm": 0.005637645721435547,
+      "name": "state_q2_tangent",
+      "q_path_length": 0.04699825495481491,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": 9.821251296671107e-05,
+      "H2_full_mse": 1.839842677116394,
+      "H4_continuity": 2.7558751106262207,
+      "H4_decoded_mse": 1.719165325164795,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.7913033962249756,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": 5.062374839326367e-05,
+      "adapter_norm": 0.006057008169591427,
+      "name": "state_q2_tangent",
+      "q_path_length": 0.05049526318907738,
+      "samples": 86
+    }
+  },
+  "state_q4_tangent": {
+    "spec": {
+      "family": "state",
+      "kind": "tangent",
+      "name": "state_q4_tangent",
+      "q": 4
+    },
+    "test": {
+      "Execution_RedirectGain": -0.00013873216812498868,
+      "H2_full_mse": 1.133331537246704,
+      "H4_continuity": 2.494962453842163,
+      "H4_decoded_mse": 1.2525708675384521,
+      "H4_endpoint_accuracy": 0.2073170731707317,
+      "H4_full_mse": 1.1674660444259644,
+      "H4_true_continuity": 0.8498716354370117,
+      "RedirectGain": -0.00022341411386150867,
+      "adapter_norm": 0.011577177792787552,
+      "name": "state_q4_tangent",
+      "q_path_length": 0.09655604511499405,
+      "samples": 164
+    },
+    "wave27": {
+      "Execution_RedirectGain": -0.00015177005843725055,
+      "H2_full_mse": 1.8398938179016113,
+      "H4_continuity": 2.756669759750366,
+      "H4_decoded_mse": 1.7196044921875,
+      "H4_endpoint_accuracy": 0.2441860465116279,
+      "H4_full_mse": 1.791582465171814,
+      "H4_true_continuity": 1.058282494544983,
+      "RedirectGain": -0.0002285491646034643,
+      "adapter_norm": 0.014235596172511578,
+      "name": "state_q4_tangent",
+      "q_path_length": 0.1187867671251297,
+      "samples": 86
+    }
+  }
+}

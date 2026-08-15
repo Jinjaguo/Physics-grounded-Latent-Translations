@@ -64,15 +64,15 @@ Wave42 比较了 72 个在线调度候选：first-step、full horizon、几何�
 
 ## Wave43
 
-未执行。Wave27 缺少 previous instruction 的数据限制不能靠模型结构补出来。
+Wave43 比较了 144 个 ordered-only 与 mixed Wave21/Wave27 候选，加入 task-balanced loss 和 residual normalization，覆盖 delta/state/integrated、q=2/4/8、PCA/随机基。混合数据没有改善 prospective 迁移；最好 `ordered_delta_q2_pca_bal1_norm0` 的 execution redirect 约 0.0046、continuity 约 2.76。说明任务不平衡不是主因，继续 Wave44。
 
 ## Wave44
 
-未执行。没有声称物理可逆或真实世界 return，因为当前实验只有 offline latent/action 证据。
+Wave44 使用 matched-state contrastive loss，把正确 future latent 作为正样本、其他任务作为 hard negatives，测试了 108 个 delta/state/integrated 候选，覆盖 q=2/4/8、PCA/随机基、三种温度和两种对比权重。Wave27 held-out 最好 `integrated_q2_pca_t0.05_cw0.8` 的 execution redirect 约 0.0214、continuity 约 2.76，仍未成功。跨任务对比学习仍没有产生可靠的动作迁移，因此继续 Wave45。
 
 ## Wave45
 
-未执行。没有把未来轨迹加入输入；那会偏离“在线小幅 control force”主线并造成信息泄露。
+Wave45 从 frozen decoder 的当前 latent action Jacobian 提取 tangent basis，并与 residual-PCA、随机基比较了 27 个候选，覆盖 delta/state/integrated、q=2/4/8。局部 tangent 在个别 development 样本上改善 continuity，但 Wave27 held-out 最好仍是 `delta_q2_pca`，execution redirect 约 0.0039、continuity 约 2.76。局部可执行切空间没有解决跨任务方向错位，因此继续 Wave46。
 
 ## Wave46
 
