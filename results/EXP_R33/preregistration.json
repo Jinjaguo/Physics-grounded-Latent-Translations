@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-08-16T14:33:19-0400",
+  "data": {
+    "cases": 864,
+    "development": 181,
+    "heldout": 477,
+    "train": 206
+  },
+  "device": "cpu",
+  "disk_after_previous_wave": {
+    "available_bytes": 911816114176,
+    "floor_bytes": 300000000000,
+    "passed": true,
+    "total_bytes": 1795564949504,
+    "used_bytes": 792464011264
+  },
+  "experiment": "EXP_R33",
+  "failure_interpretation": "a failed method falsifies this mechanism, not the broader Actions-as-Coordinates claim",
+  "family": "value_terminal",
+  "frozen": [
+    "representation",
+    "decoder",
+    "F1",
+    "historical F2",
+    "R8 baseline"
+  ],
+  "heldout_policy": "select method by development score, then open held-out once",
+  "hypothesis": "A learned terminal value is more informative than distance to a single endpoint.",
+  "methods": [
+    "value_knn",
+    "value_pair",
+    "value_ridge",
+    "linear"
+  ],
+  "split": "episode-disjoint train/development/heldout; target support built from train only",
+  "success_gate": "selected method must Pareto-improve R8 on arrival, continuity, hidden path error, and support, or pass the family-specific stage gate"
+}

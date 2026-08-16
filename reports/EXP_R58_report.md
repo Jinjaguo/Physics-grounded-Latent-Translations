@@ -1,21 +1,25 @@
-# EXP_R58 report — interface-gated continuation
+# EXP_R58 report — scientific reboot
 
 ## Scientific question
-Can the next final prospective/physical validation and claim adjudication be evaluated without violating the closed-loop causal interface?
+F2 trajectory optimization is necessary for continuity beyond a local predictor.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `ablation` formulation and compares with_f2, without_f2, graph_only, fixed. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885324288 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-no supported physical closed-loop source appeared in the retained repository during EXP_R17-R57. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `graph_only` before opening held-out.
 
-## Required change
-collect exact snapshots and rerun the staged protocol as a new authorized research program; do not start EXP_R59.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| with_f2 | 0.9006 | 1.0000 | 0.06599 | 1.8415 | 0.2623 |
+| without_f2 | 0.8772 | 1.0000 | 0.15495 | 2.0147 | 0.3492 |
+| graph_only | 0.9045 | 1.0000 | 0.08039 | 1.8250 | 0.0000 |
+| fixed | 0.8772 | 1.0000 | 0.15495 | 2.0147 | 0.3492 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R59 is forbidden.
+`SUPPORTED_STAGE`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 2.36s.

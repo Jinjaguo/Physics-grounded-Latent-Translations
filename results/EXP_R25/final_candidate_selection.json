@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "cem_balanced": 0.9005789292812506,
+    "cem_support": 0.900528804096354,
+    "cem_terminal": 0.900569025533491,
+    "linear": 0.9005555423985029
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.06583555578498221,
+    "count": 477.0,
+    "curvature_mse": 0.025741260801393155,
+    "direction_cosine": 0.4624398249088044,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8427764882706497,
+    "support_distance": 0.2623446386598394,
+    "target_arrival": 1.0
+  },
+  "selected": "cem_balanced"
+}

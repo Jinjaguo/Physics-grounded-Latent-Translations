@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "fixed": 0.8771791563669713,
+    "phase_knn": 0.6047446640349377,
+    "phase_linear": 0.2760022947521449,
+    "phase_ridge": -0.2755517616737594
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.1549462845458198,
+    "count": 477.0,
+    "curvature_mse": 0.08568999291748097,
+    "direction_cosine": 0.4627817542444567,
+    "finite": 1.0,
+    "hidden_path_mse": 2.014694302461932,
+    "support_distance": 0.3491757752928313,
+    "target_arrival": 1.0
+  },
+  "selected": "fixed"
+}

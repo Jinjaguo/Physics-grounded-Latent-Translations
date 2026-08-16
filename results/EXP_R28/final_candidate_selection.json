@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "fixed": 0.8771791563669713,
+    "set_centroid": 0.8771791563669713,
+    "set_margin": 0.8899994541199011,
+    "set_nearest": 0.8899994541199011
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.10434093145435638,
+    "count": 477.0,
+    "curvature_mse": 2.0167380560182597e-32,
+    "direction_cosine": 0.46278175553597956,
+    "finite": 1.0,
+    "hidden_path_mse": 1.9283296400555414,
+    "support_distance": 0.3056257743045579,
+    "target_arrival": 1.0
+  },
+  "selected": "set_nearest"
+}

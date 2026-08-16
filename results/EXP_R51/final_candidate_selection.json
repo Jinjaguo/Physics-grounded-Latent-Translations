@@ -1,0 +1,22 @@
+{
+  "development_scores": {
+    "blend": 0.8213804227175394,
+    "graph": 0.8876475776969811,
+    "restart_baseline": 0.8771791563669713,
+    "retrieval": 0.8130242307023597
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.1312993059834891,
+    "count": 477.0,
+    "curvature_mse": 0.27388513778420304,
+    "direction_cosine": 0.44573832515582673,
+    "finite": 1.0,
+    "hidden_path_mse": 1.934410252348682,
+    "new_goal": 1.0,
+    "old_goal": 1.0,
+    "retarget_step": 2.0,
+    "support_distance": 0.15438753718791423,
+    "target_arrival": 1.0
+  },
+  "selected": "graph"
+}

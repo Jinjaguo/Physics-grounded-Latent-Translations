@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "linear": 0.9005733281193314,
+    "shooting_consistency": 0.9004091504305853,
+    "shooting_support": 0.9003955874194945,
+    "shooting_terminal": 0.9004902262687696
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.06607931796500392,
+    "count": 477.0,
+    "curvature_mse": 0.02640473016731019,
+    "direction_cosine": 0.46324874670671373,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8413788818713255,
+    "support_distance": 0.26194554559527206,
+    "target_arrival": 1.0
+  },
+  "selected": "linear"
+}

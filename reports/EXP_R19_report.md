@@ -1,21 +1,26 @@
-# EXP_R19 report — interface-gated continuation
+# EXP_R19 report — scientific reboot
 
 ## Scientific question
-Can the next learned residual and ensemble latent-plant families be evaluated without violating the closed-loop causal interface?
+Wave24 magnitude loss comes from multimodal displacement cancellation.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `multimodal` formulation and compares mean_knn, nearest_mode, largest_mode, low_variance_mode, pair_mode. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885660160 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-the retained action-only complete episodes contain no action-conditioned robot/simulator snapshot; R9-R16 already exhausted valid latent surrogates. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `low_variance_mode` before opening held-out.
 
-## Required change
-acquire exact causal simulator state or a supported action-conditioned dataset before training a residual plant.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| mean_knn | 0.5677 | 1.0000 | 1.75785 | 1.1697 | 0.1986 |
+| nearest_mode | 0.5677 | 1.0000 | 1.75785 | 1.1697 | 0.1986 |
+| largest_mode | 0.4930 | 1.0000 | 2.10019 | 1.3587 | 0.2347 |
+| low_variance_mode | 0.6816 | 1.0000 | 1.38381 | 1.1416 | 0.1505 |
+| pair_mode | 0.6047 | 1.0000 | 1.72891 | 1.3208 | 0.2063 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R20 is the next bounded audit.
+`SUPPORTED_STAGE`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 0.90s.

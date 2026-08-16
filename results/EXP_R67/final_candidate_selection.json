@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "best_f2": 0.8771791563669713,
+    "best_f3": 0.8771791563669713,
+    "best_stack": 0.9005488012719242,
+    "historical_r8": 0.8771791563669713
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.06608177114285887,
+    "count": 477.0,
+    "curvature_mse": 0.02601458767206414,
+    "direction_cosine": 0.46137493532684953,
+    "finite": 1.0,
+    "hidden_path_mse": 1.841264879366137,
+    "support_distance": 0.2620443026837844,
+    "target_arrival": 1.0
+  },
+  "selected": "best_stack"
+}

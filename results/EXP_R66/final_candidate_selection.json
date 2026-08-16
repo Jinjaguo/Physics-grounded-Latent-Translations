@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "branch_protocol": 0.8771791563669713,
+    "current_archive": 0.8771791563669713,
+    "full_state_protocol": 0.8771791563669713,
+    "minimal_state_protocol": 0.8771791563669713
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.1549462845458198,
+    "count": 477.0,
+    "curvature_mse": 0.08568999291748097,
+    "direction_cosine": 0.4627817542444567,
+    "finite": 1.0,
+    "hidden_path_mse": 2.014694302461932,
+    "protocol_fields": 8.0,
+    "support_distance": 0.3491757752928313,
+    "target_arrival": 1.0
+  },
+  "selected": "full_state_protocol"
+}

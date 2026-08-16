@@ -1,21 +1,25 @@
-# EXP_R39 report — interface-gated continuation
+# EXP_R39 report — scientific reboot
 
 ## Scientific question
-Can the next waypoint memory, branch checkpoints, and robot-state return be evaluated without violating the closed-loop causal interface?
+Goal-conditioned proposal networks transfer across source action pairs.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `transfer` formulation and compares global_proposal, goal_proposal, pair_proposal, nearest. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885488128 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-robot_obs/scene_obs omit Bullet contacts, controller targets, movable-object velocities, and exact branch state. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `global_proposal` before opening held-out.
 
-## Required change
-record full serialize/saveState snapshots and waypoint fields during new rollouts.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| global_proposal | 0.8772 | 1.0000 | 0.15495 | 2.0147 | 0.3492 |
+| goal_proposal | -0.2756 | 0.8952 | 1.77257 | 13.5953 | 8.8979 |
+| pair_proposal | 0.6047 | 1.0000 | 1.72891 | 1.3208 | 0.2063 |
+| nearest | 0.2760 | 0.9874 | 1.28741 | 8.7115 | 4.9478 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R40 is the next bounded audit.
+`NOT_SUPPORTED`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 15.62s.

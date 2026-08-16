@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "goal_swap": 0.5677399958762873,
+    "matched_prefix": 0.6047446640349377,
+    "observational": 0.8771791563669713,
+    "random_prefix": 0.9005801376767574
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.06613997790759402,
+    "count": 477.0,
+    "counterfactual": 1.0,
+    "curvature_mse": 0.026068846615074314,
+    "direction_cosine": 0.4627658880840005,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8422103426741354,
+    "support_distance": 0.2625043024689709,
+    "target_arrival": 1.0
+  },
+  "selected": "random_prefix"
+}

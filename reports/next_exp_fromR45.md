@@ -1,3 +1,3 @@
 # Next experiment from EXP_R45
 
-EXP_R45 established only an interface gate for integrated F1/F2/F3 long-horizon and return demonstrations; it did not open held-out control. The immediate next step is: do not promote an integrated claim until F2, F3, and return each pass independent held-out gates. Keep representation, decoder, F1, old F2, R8 and all prior negative results frozen. EXP_R46 should test a new causal interface or explicitly preserve the gate failure.
+EXP_R45 tested the new `f3` mechanism. Development selected `fusion` and held-out decision was `NOT_SUPPORTED`. The result does not establish the full system. Next, EXP_R46 must introduce a different hypothesis or control/model family rather than repeat this mechanism or the old interface gate. Keep representation, decoder, F1, historical F2, and R8 frozen unless the next preregistration explicitly tests a new F1/F2/F3 role.

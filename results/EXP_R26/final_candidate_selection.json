@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "cem": 0.9008458179218645,
+    "mppi": 0.9008838965340861,
+    "mppi_low_temp": 0.9009558576163067,
+    "mppi_support": 0.9010557659484313
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.06651276266651396,
+    "count": 477.0,
+    "curvature_mse": 0.02778000992759906,
+    "direction_cosine": 0.46332595305493685,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8390980974558264,
+    "support_distance": 0.25271920833845996,
+    "target_arrival": 1.0
+  },
+  "selected": "mppi_support"
+}

@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "distance_selector": 0.5677399958762873,
+    "mode_margin": 0.4930150603486181,
+    "nearest": 0.5677399958762873,
+    "pair_nearest": 0.5677399958762873
+  },
+  "heldout_selected": {
+    "continuity_mse": 1.7578516207651023,
+    "count": 477.0,
+    "curvature_mse": 4.725236433606978,
+    "direction_cosine": 0.7038759150442857,
+    "finite": 1.0,
+    "hidden_path_mse": 1.1697483335151113,
+    "support_distance": 0.1986169650276002,
+    "target_arrival": 1.0
+  },
+  "selected": "nearest"
+}

@@ -1,21 +1,25 @@
-# EXP_R31 report — interface-gated continuation
+# EXP_R31 report — scientific reboot
 
 ## Scientific question
-Can the next long-horizon ordered task composition and atomic-action protection be evaluated without violating the closed-loop causal interface?
+A local iLQR-like tangent update improves curvature without losing endpoint identity.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `tangent` formulation and compares tangent_goal, tangent_dyn, tangent_support, linear. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885557760 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-the repository has annotation boundaries but no executable action-conditioned branch from which an intervention can be replayed. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `tangent_goal` before opening held-out.
 
-## Required change
-restore simulator snapshots or run prospective CALVIN episodes with controller state recorded.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| tangent_goal | 0.9045 | 1.0000 | 0.08039 | 1.8250 | 0.0000 |
+| tangent_dyn | 0.9045 | 1.0000 | 0.08039 | 1.8250 | 0.0000 |
+| tangent_support | 0.9045 | 1.0000 | 0.08039 | 1.8250 | 0.0000 |
+| linear | 0.8772 | 1.0000 | 0.15495 | 2.0147 | 0.3492 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R32 is the next bounded audit.
+`NOT_SUPPORTED`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 0.63s.

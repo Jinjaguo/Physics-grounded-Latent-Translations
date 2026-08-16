@@ -1,0 +1,4929 @@
+{
+  "per_method": {
+    "change_point": [
+      {
+        "continuity_mse": 0.0678587332367897,
+        "curvature_mse": 0.03752793371677399,
+        "direction_cosine": 0.18892561639388378,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8011791706085205,
+        "support_distance": 0.04901421070098877,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06822407245635986,
+        "curvature_mse": 0.03772997856140137,
+        "direction_cosine": 0.2823388801757226,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7491739988327026,
+        "support_distance": 0.1979343295097351,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14909577369689941,
+        "curvature_mse": 0.08245449513196945,
+        "direction_cosine": 0.5420011131750279,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8668849468231201,
+        "support_distance": 0.2884727716445923,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09752065688371658,
+        "curvature_mse": 0.05393188074231148,
+        "direction_cosine": 0.5438686725954576,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5252211093902588,
+        "support_distance": 0.09165147691965103,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06932908296585083,
+        "curvature_mse": 0.038341086357831955,
+        "direction_cosine": -0.022597924115587555,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8736757040023804,
+        "support_distance": 0.2255256175994873,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10336921364068985,
+        "curvature_mse": 0.05716630816459656,
+        "direction_cosine": 0.267420804618887,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5026373863220215,
+        "support_distance": 0.14663897454738617,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0565965361893177,
+        "curvature_mse": 0.03129960224032402,
+        "direction_cosine": 0.7975525065914993,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4944220781326294,
+        "support_distance": 0.1345931887626648,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12968426942825317,
+        "curvature_mse": 0.07171933352947235,
+        "direction_cosine": 0.849532583152321,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6396981477737427,
+        "support_distance": 0.4929119348526001,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11880906671285629,
+        "curvature_mse": 0.06570501625537872,
+        "direction_cosine": 0.7587429085672404,
+        "finite": 1.0,
+        "hidden_path_mse": 2.163036346435547,
+        "support_distance": 0.3273738622665405,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1595841944217682,
+        "curvature_mse": 0.0882548987865448,
+        "direction_cosine": 0.6496725351851707,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3909716606140137,
+        "support_distance": 0.44355490803718567,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14627747237682343,
+        "curvature_mse": 0.08089588582515717,
+        "direction_cosine": 0.05174544762223064,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0952672958374023,
+        "support_distance": 0.27292436361312866,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17118151485919952,
+        "curvature_mse": 0.09466857463121414,
+        "direction_cosine": 0.5190310833300015,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3708651065826416,
+        "support_distance": 0.570571780204773,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1102142408490181,
+        "curvature_mse": 0.06095181405544281,
+        "direction_cosine": 0.45740220816813265,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3075222969055176,
+        "support_distance": 0.4690125584602356,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04038120433688164,
+        "curvature_mse": 0.022332031279802322,
+        "direction_cosine": 0.050163458352854344,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1547274589538574,
+        "support_distance": 0.41721680760383606,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2151782363653183,
+        "curvature_mse": 0.11900009214878082,
+        "direction_cosine": 0.967115042962778,
+        "finite": 1.0,
+        "hidden_path_mse": 1.74820876121521,
+        "support_distance": 0.2807510793209076,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1384965032339096,
+        "curvature_mse": 0.07659277319908142,
+        "direction_cosine": 0.4603521543596724,
+        "finite": 1.0,
+        "hidden_path_mse": 2.9078848361968994,
+        "support_distance": 0.26767149567604065,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16090509295463562,
+        "curvature_mse": 0.08898540586233139,
+        "direction_cosine": 0.7557673240848173,
+        "finite": 1.0,
+        "hidden_path_mse": 2.177966594696045,
+        "support_distance": 0.5438407063484192,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1522623747587204,
+        "curvature_mse": 0.08420569449663162,
+        "direction_cosine": 0.5456350969121979,
+        "finite": 1.0,
+        "hidden_path_mse": 2.82379150390625,
+        "support_distance": 0.2712973952293396,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.20384494960308075,
+        "curvature_mse": 0.11273244023323059,
+        "direction_cosine": 0.6594831817321538,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6047613620758057,
+        "support_distance": 0.5383564233779907,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15584702789783478,
+        "curvature_mse": 0.08618813753128052,
+        "direction_cosine": 0.3551171751798729,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5304946899414062,
+        "support_distance": 0.26200246810913086,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1272236555814743,
+        "curvature_mse": 0.07035854458808899,
+        "direction_cosine": 0.13347742073701585,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9186766743659973,
+        "support_distance": 0.17589136958122253,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08325960487127304,
+        "curvature_mse": 0.04604508355259895,
+        "direction_cosine": -0.2871823973626309,
+        "finite": 1.0,
+        "hidden_path_mse": 2.161902904510498,
+        "support_distance": 0.1933434158563614,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16095559298992157,
+        "curvature_mse": 0.08901333063840866,
+        "direction_cosine": 0.23754413080560266,
+        "finite": 1.0,
+        "hidden_path_mse": 2.255743980407715,
+        "support_distance": 0.2606939673423767,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.060871195048093796,
+        "curvature_mse": 0.033663615584373474,
+        "direction_cosine": 0.5637965708581095,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6430199146270752,
+        "support_distance": 0.36416348814964294,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10985946655273438,
+        "curvature_mse": 0.06075560674071312,
+        "direction_cosine": 0.6475436968267458,
+        "finite": 1.0,
+        "hidden_path_mse": 2.556244373321533,
+        "support_distance": 0.3278823494911194,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.42135632038116455,
+        "curvature_mse": 0.2330228090286255,
+        "direction_cosine": 0.512441673885088,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5467605590820312,
+        "support_distance": 0.6961442232131958,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.190956711769104,
+        "curvature_mse": 0.1056048572063446,
+        "direction_cosine": 0.016248098232305892,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0303750038146973,
+        "support_distance": 0.4359217584133148,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11565438657999039,
+        "curvature_mse": 0.06396038830280304,
+        "direction_cosine": 0.10868789876885328,
+        "finite": 1.0,
+        "hidden_path_mse": 1.803820013999939,
+        "support_distance": 0.2216324806213379,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14881040155887604,
+        "curvature_mse": 0.08229666203260422,
+        "direction_cosine": 0.30902521692208434,
+        "finite": 1.0,
+        "hidden_path_mse": 3.5254950523376465,
+        "support_distance": 0.5033624768257141,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07690867781639099,
+        "curvature_mse": 0.04253283143043518,
+        "direction_cosine": -0.11347653303364788,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2078869342803955,
+        "support_distance": 0.2969455420970917,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0393676795065403,
+        "curvature_mse": 0.021771520376205444,
+        "direction_cosine": -0.11888209354332532,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3410608768463135,
+        "support_distance": 0.2653551995754242,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2553460896015167,
+        "curvature_mse": 0.14121413230895996,
+        "direction_cosine": 0.5546587869910444,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5464353561401367,
+        "support_distance": 0.6012619137763977,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17921586334705353,
+        "curvature_mse": 0.09911181032657623,
+        "direction_cosine": 0.7313826811864556,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2784571647644043,
+        "support_distance": 0.6395353078842163,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16401328146457672,
+        "curvature_mse": 0.09070432931184769,
+        "direction_cosine": 0.5574401102403447,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2811315059661865,
+        "support_distance": 0.5059331059455872,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07389305531978607,
+        "curvature_mse": 0.04086510092020035,
+        "direction_cosine": 0.1854883078526462,
+        "finite": 1.0,
+        "hidden_path_mse": 1.693281888961792,
+        "support_distance": 0.49446702003479004,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18282540142536163,
+        "curvature_mse": 0.10110798478126526,
+        "direction_cosine": 0.2092684136840296,
+        "finite": 1.0,
+        "hidden_path_mse": 2.002427339553833,
+        "support_distance": 0.3601208031177521,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.22256894409656525,
+        "curvature_mse": 0.12308739125728607,
+        "direction_cosine": -0.053255908812462775,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2959814071655273,
+        "support_distance": 0.21013544499874115,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1557389348745346,
+        "curvature_mse": 0.0861283540725708,
+        "direction_cosine": 0.03877405812924515,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7274284362792969,
+        "support_distance": 0.29727691411972046,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2991447150707245,
+        "curvature_mse": 0.16543608903884888,
+        "direction_cosine": 0.29368719744687544,
+        "finite": 1.0,
+        "hidden_path_mse": 3.079695224761963,
+        "support_distance": 0.760149359703064,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19944454729557037,
+        "curvature_mse": 0.11029888689517975,
+        "direction_cosine": 0.4044810833246094,
+        "finite": 1.0,
+        "hidden_path_mse": 2.129021406173706,
+        "support_distance": 0.2225324660539627,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10361465811729431,
+        "curvature_mse": 0.057302042841911316,
+        "direction_cosine": 0.35963092561043175,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5014007091522217,
+        "support_distance": 0.3359180688858032,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06747718900442123,
+        "curvature_mse": 0.03731692582368851,
+        "direction_cosine": 0.7151687003782183,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9593501687049866,
+        "support_distance": 0.18984539806842804,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15654905140399933,
+        "curvature_mse": 0.08657637238502502,
+        "direction_cosine": 0.24456597297368857,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5698264837265015,
+        "support_distance": 0.5721435546875,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.24159270524978638,
+        "curvature_mse": 0.13360808789730072,
+        "direction_cosine": 0.4577875482298939,
+        "finite": 1.0,
+        "hidden_path_mse": 2.36834454536438,
+        "support_distance": 0.4205646514892578,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2551954984664917,
+        "curvature_mse": 0.14113083481788635,
+        "direction_cosine": 0.38996136001673104,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9788532257080078,
+        "support_distance": 0.3117995858192444,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15261946618556976,
+        "curvature_mse": 0.08440320193767548,
+        "direction_cosine": 0.7682119983049591,
+        "finite": 1.0,
+        "hidden_path_mse": 2.03312611579895,
+        "support_distance": 0.19297298789024353,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09149632602930069,
+        "curvature_mse": 0.05060024559497833,
+        "direction_cosine": 0.5522280869079242,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7002267837524414,
+        "support_distance": 0.31985118985176086,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06537175178527832,
+        "curvature_mse": 0.036152567714452744,
+        "direction_cosine": 0.35357908275510064,
+        "finite": 1.0,
+        "hidden_path_mse": 2.356132984161377,
+        "support_distance": 0.2995254099369049,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04749499261379242,
+        "curvature_mse": 0.026266170665621758,
+        "direction_cosine": -0.1899113345428662,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2357473373413086,
+        "support_distance": 0.2586793005466461,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14973653852939606,
+        "curvature_mse": 0.08280884474515915,
+        "direction_cosine": 0.584506755577292,
+        "finite": 1.0,
+        "hidden_path_mse": 2.170290470123291,
+        "support_distance": 0.34159567952156067,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1831233948469162,
+        "curvature_mse": 0.10127277672290802,
+        "direction_cosine": 0.03413067240977159,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1186158657073975,
+        "support_distance": 0.26216503977775574,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.4860803186893463,
+        "curvature_mse": 0.26881712675094604,
+        "direction_cosine": 0.9303700178300832,
+        "finite": 1.0,
+        "hidden_path_mse": 3.8529868125915527,
+        "support_distance": 0.9040675163269043,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1605553776025772,
+        "curvature_mse": 0.08879198879003525,
+        "direction_cosine": -0.004070788493812216,
+        "finite": 1.0,
+        "hidden_path_mse": 3.6030359268188477,
+        "support_distance": 0.48573923110961914,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2927134037017822,
+        "curvature_mse": 0.16187939047813416,
+        "direction_cosine": 0.37973427469879206,
+        "finite": 1.0,
+        "hidden_path_mse": 3.441573143005371,
+        "support_distance": 0.9808756113052368,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09646385908126831,
+        "curvature_mse": 0.05334743857383728,
+        "direction_cosine": -0.1275550000541462,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8326383829116821,
+        "support_distance": 0.2532973885536194,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09053917974233627,
+        "curvature_mse": 0.05007091164588928,
+        "direction_cosine": -0.05965590723835244,
+        "finite": 1.0,
+        "hidden_path_mse": 1.858276605606079,
+        "support_distance": 0.19452644884586334,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28027093410491943,
+        "curvature_mse": 0.15499833226203918,
+        "direction_cosine": 0.5879685491807802,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7866300344467163,
+        "support_distance": 0.1912805587053299,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2415541261434555,
+        "curvature_mse": 0.13358673453330994,
+        "direction_cosine": 0.33936361593361414,
+        "finite": 1.0,
+        "hidden_path_mse": 3.4964957237243652,
+        "support_distance": 0.2241460084915161,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.313992977142334,
+        "curvature_mse": 0.17364764213562012,
+        "direction_cosine": 0.6442073864084265,
+        "finite": 1.0,
+        "hidden_path_mse": 2.566655158996582,
+        "support_distance": 0.7870970964431763,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12976405024528503,
+        "curvature_mse": 0.07176345586776733,
+        "direction_cosine": 0.3931683686499975,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1329030990600586,
+        "support_distance": 0.4929705262184143,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10431873798370361,
+        "curvature_mse": 0.05769142881035805,
+        "direction_cosine": 0.14882308713229822,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0352540016174316,
+        "support_distance": 0.17788946628570557,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15213525295257568,
+        "curvature_mse": 0.08413541316986084,
+        "direction_cosine": 0.7902182291338496,
+        "finite": 1.0,
+        "hidden_path_mse": 2.170153856277466,
+        "support_distance": 0.17749741673469543,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10334489494562149,
+        "curvature_mse": 0.05715286731719971,
+        "direction_cosine": 0.3366841586955518,
+        "finite": 1.0,
+        "hidden_path_mse": 1.332659363746643,
+        "support_distance": 0.17171461880207062,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07268566638231277,
+        "curvature_mse": 0.04019738361239433,
+        "direction_cosine": 0.38747784920260664,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4190884828567505,
+        "support_distance": 0.2562902569770813,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17749732732772827,
+        "curvature_mse": 0.09816140681505203,
+        "direction_cosine": 0.41145017617932417,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8700342178344727,
+        "support_distance": 0.3674965798854828,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.042695146054029465,
+        "curvature_mse": 0.023611711338162422,
+        "direction_cosine": 0.486894212945552,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6303300857543945,
+        "support_distance": 0.12017302960157394,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.041196953505277634,
+        "curvature_mse": 0.02278316207230091,
+        "direction_cosine": 0.28112905740186545,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7070960998535156,
+        "support_distance": 0.23900379240512848,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18679730594158173,
+        "curvature_mse": 0.10330457985401154,
+        "direction_cosine": 0.20886655260209624,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9949308633804321,
+        "support_distance": 0.21745513379573822,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27132561802864075,
+        "curvature_mse": 0.1500512957572937,
+        "direction_cosine": 0.6532225370014396,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0697214603424072,
+        "support_distance": 0.723868191242218,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10894346237182617,
+        "curvature_mse": 0.06024903804063797,
+        "direction_cosine": 0.27628770393797564,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8424203395843506,
+        "support_distance": 0.20613795518875122,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13143013417720795,
+        "curvature_mse": 0.07268483936786652,
+        "direction_cosine": 0.10496715819308944,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6170809268951416,
+        "support_distance": 0.29808199405670166,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07476585358381271,
+        "curvature_mse": 0.04134778678417206,
+        "direction_cosine": 0.34178032685696663,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7617231607437134,
+        "support_distance": 0.2461193948984146,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09062904864549637,
+        "curvature_mse": 0.05012061446905136,
+        "direction_cosine": 0.716980567080944,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5344890356063843,
+        "support_distance": 0.16870731115341187,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09682626277208328,
+        "curvature_mse": 0.05354785919189453,
+        "direction_cosine": 0.5149755867817308,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4345954656600952,
+        "support_distance": 0.45333945751190186,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1641387641429901,
+        "curvature_mse": 0.09077371656894684,
+        "direction_cosine": 0.680350387560881,
+        "finite": 1.0,
+        "hidden_path_mse": 2.519627571105957,
+        "support_distance": 0.4742329716682434,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15182536840438843,
+        "curvature_mse": 0.0839640349149704,
+        "direction_cosine": 0.642758663700002,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4394145011901855,
+        "support_distance": 0.45034632086753845,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14247775077819824,
+        "curvature_mse": 0.07879451662302017,
+        "direction_cosine": 0.387734024282543,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9925129413604736,
+        "support_distance": 0.4314567744731903,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2386205941438675,
+        "curvature_mse": 0.13196441531181335,
+        "direction_cosine": 0.9131497919655468,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8402049541473389,
+        "support_distance": 0.49271899461746216,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10101386904716492,
+        "curvature_mse": 0.05586373060941696,
+        "direction_cosine": -0.1169937701746708,
+        "finite": 1.0,
+        "hidden_path_mse": 3.6321654319763184,
+        "support_distance": 0.1480238288640976,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19151966273784637,
+        "curvature_mse": 0.10591618716716766,
+        "direction_cosine": 0.6529323516563016,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1174614429473877,
+        "support_distance": 0.475457102060318,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28912678360939026,
+        "curvature_mse": 0.1598958820104599,
+        "direction_cosine": 0.3236637782198958,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1024539470672607,
+        "support_distance": 0.7693257927894592,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11090442538261414,
+        "curvature_mse": 0.06133350357413292,
+        "direction_cosine": 0.03146419600638349,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0160775184631348,
+        "support_distance": 0.1895272135734558,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0754329189658165,
+        "curvature_mse": 0.04171668738126755,
+        "direction_cosine": 0.5833322359598871,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1278023719787598,
+        "support_distance": 0.20492392778396606,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0946694016456604,
+        "curvature_mse": 0.05235504359006882,
+        "direction_cosine": 0.4987893899832283,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3806650638580322,
+        "support_distance": 0.32022640109062195,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05345809832215309,
+        "curvature_mse": 0.02956394851207733,
+        "direction_cosine": 0.15387482442523523,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3065887689590454,
+        "support_distance": 0.05241786688566208,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1389542818069458,
+        "curvature_mse": 0.0768459290266037,
+        "direction_cosine": 0.8401261086796615,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6974767446517944,
+        "support_distance": 0.22646033763885498,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08253300189971924,
+        "curvature_mse": 0.04564325883984566,
+        "direction_cosine": 0.6124633813189897,
+        "finite": 1.0,
+        "hidden_path_mse": 1.951192855834961,
+        "support_distance": 0.3543455898761749,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14798752963542938,
+        "curvature_mse": 0.08184157311916351,
+        "direction_cosine": 0.7062739858702833,
+        "finite": 1.0,
+        "hidden_path_mse": 2.093228816986084,
+        "support_distance": 0.35787084698677063,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27476051449775696,
+        "curvature_mse": 0.1519509106874466,
+        "direction_cosine": 0.2303452595015414,
+        "finite": 1.0,
+        "hidden_path_mse": 2.9325127601623535,
+        "support_distance": 0.31823545694351196,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.055295079946517944,
+        "curvature_mse": 0.030579857528209686,
+        "direction_cosine": 0.24459510094568995,
+        "finite": 1.0,
+        "hidden_path_mse": 1.351425290107727,
+        "support_distance": 0.1870398223400116,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04814480245113373,
+        "curvature_mse": 0.026625534519553185,
+        "direction_cosine": 0.34681726644154676,
+        "finite": 1.0,
+        "hidden_path_mse": 0.4127407670021057,
+        "support_distance": 0.28456100821495056,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03881755843758583,
+        "curvature_mse": 0.021467283368110657,
+        "direction_cosine": 0.7211251848339274,
+        "finite": 1.0,
+        "hidden_path_mse": 0.224226713180542,
+        "support_distance": 0.17335107922554016,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.026948293671011925,
+        "curvature_mse": 0.014903225935995579,
+        "direction_cosine": 0.4940537048863234,
+        "finite": 1.0,
+        "hidden_path_mse": 0.14490146934986115,
+        "support_distance": 0.1114731878042221,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.014292165637016296,
+        "curvature_mse": 0.007904000580310822,
+        "direction_cosine": 0.11176059044498746,
+        "finite": 1.0,
+        "hidden_path_mse": 0.12490110844373703,
+        "support_distance": 0.08467277884483337,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.011245704255998135,
+        "curvature_mse": 0.0062192147597670555,
+        "direction_cosine": 0.619258021758887,
+        "finite": 1.0,
+        "hidden_path_mse": 0.022193539887666702,
+        "support_distance": 0.0231923870742321,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.012170028872787952,
+        "curvature_mse": 0.006730394903570414,
+        "direction_cosine": 0.1469556190805748,
+        "finite": 1.0,
+        "hidden_path_mse": 0.03517602011561394,
+        "support_distance": 0.03350363299250603,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.011694748885929585,
+        "curvature_mse": 0.006467551924288273,
+        "direction_cosine": 0.17762164568547706,
+        "finite": 1.0,
+        "hidden_path_mse": 0.065549336373806,
+        "support_distance": 0.028405286371707916,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.00690156826749444,
+        "curvature_mse": 0.003816776443272829,
+        "direction_cosine": 0.0370946337547476,
+        "finite": 1.0,
+        "hidden_path_mse": 0.1041051596403122,
+        "support_distance": 0.02334507741034031,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.00662960484623909,
+        "curvature_mse": 0.0036663725040853024,
+        "direction_cosine": -0.07137191556932271,
+        "finite": 1.0,
+        "hidden_path_mse": 0.14844736456871033,
+        "support_distance": 0.02242514118552208,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06626014411449432,
+        "curvature_mse": 0.036643870174884796,
+        "direction_cosine": 0.7523507252277082,
+        "finite": 1.0,
+        "hidden_path_mse": 1.0046546459197998,
+        "support_distance": 0.15524180233478546,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2633804976940155,
+        "curvature_mse": 0.14565739035606384,
+        "direction_cosine": 0.9671733968513979,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3300034999847412,
+        "support_distance": 0.160634383559227,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08158787339925766,
+        "curvature_mse": 0.045120567083358765,
+        "direction_cosine": 0.4186977248280224,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6372716426849365,
+        "support_distance": 0.15243299305438995,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11736998707056046,
+        "curvature_mse": 0.06490916013717651,
+        "direction_cosine": 0.3259778717197927,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8730911016464233,
+        "support_distance": 0.26558196544647217,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1200936809182167,
+        "curvature_mse": 0.0664154440164566,
+        "direction_cosine": 0.2987687312376367,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2704864740371704,
+        "support_distance": 0.11020928621292114,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1526452749967575,
+        "curvature_mse": 0.08441746234893799,
+        "direction_cosine": 0.6242886515633858,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5530929565429688,
+        "support_distance": 0.23951196670532227,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.02934691123664379,
+        "curvature_mse": 0.01622973196208477,
+        "direction_cosine": 0.423302134730023,
+        "finite": 1.0,
+        "hidden_path_mse": 1.18038010597229,
+        "support_distance": 0.10885334014892578,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.043817341327667236,
+        "curvature_mse": 0.02423231303691864,
+        "direction_cosine": 0.6140259067635367,
+        "finite": 1.0,
+        "hidden_path_mse": 1.24797523021698,
+        "support_distance": 0.11226218938827515,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051006119698286057,
+        "curvature_mse": 0.02820793353021145,
+        "direction_cosine": 0.6861408826943395,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7362645864486694,
+        "support_distance": 0.20951604843139648,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05740493908524513,
+        "curvature_mse": 0.031746674329042435,
+        "direction_cosine": 0.11257979598613548,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2692872285842896,
+        "support_distance": 0.22200271487236023,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16714151203632355,
+        "curvature_mse": 0.09243433177471161,
+        "direction_cosine": 0.40633089981767395,
+        "finite": 1.0,
+        "hidden_path_mse": 1.258713722229004,
+        "support_distance": 0.16369453072547913,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1337956041097641,
+        "curvature_mse": 0.0739930272102356,
+        "direction_cosine": 0.5846903138152907,
+        "finite": 1.0,
+        "hidden_path_mse": 1.056228518486023,
+        "support_distance": 0.2990186810493469,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2589309811592102,
+        "curvature_mse": 0.14319667220115662,
+        "direction_cosine": 0.8621575285104706,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8515766859054565,
+        "support_distance": 0.20337027311325073,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1748247593641281,
+        "curvature_mse": 0.09668339043855667,
+        "direction_cosine": 0.4923855070008773,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0879571437835693,
+        "support_distance": 0.5115256905555725,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0667826309800148,
+        "curvature_mse": 0.036932822316884995,
+        "direction_cosine": 0.7737093426894281,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9150253534317017,
+        "support_distance": 0.15340878069400787,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05381094291806221,
+        "curvature_mse": 0.029759082943201065,
+        "direction_cosine": 0.3148236749400657,
+        "finite": 1.0,
+        "hidden_path_mse": 1.66669499874115,
+        "support_distance": 0.11650391668081284,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13661789894104004,
+        "curvature_mse": 0.07555383443832397,
+        "direction_cosine": 0.49578970917907256,
+        "finite": 1.0,
+        "hidden_path_mse": 2.8133280277252197,
+        "support_distance": 0.6106733679771423,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05250892415642738,
+        "curvature_mse": 0.029039032757282257,
+        "direction_cosine": 0.6175747278239339,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4874765872955322,
+        "support_distance": 0.14282537996768951,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07539419084787369,
+        "curvature_mse": 0.04169527068734169,
+        "direction_cosine": 0.11085935952140293,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4561450481414795,
+        "support_distance": 0.25502654910087585,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03469684720039368,
+        "curvature_mse": 0.01918840780854225,
+        "direction_cosine": 0.13080071739878976,
+        "finite": 1.0,
+        "hidden_path_mse": 1.970768690109253,
+        "support_distance": 0.11736470460891724,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1494414210319519,
+        "curvature_mse": 0.08264563232660294,
+        "direction_cosine": 0.7673125915949793,
+        "finite": 1.0,
+        "hidden_path_mse": 1.850595474243164,
+        "support_distance": 0.27165597677230835,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13823163509368896,
+        "curvature_mse": 0.0764462798833847,
+        "direction_cosine": 0.11490503199060059,
+        "finite": 1.0,
+        "hidden_path_mse": 1.960782527923584,
+        "support_distance": 0.19673539698123932,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13808710873126984,
+        "curvature_mse": 0.0763663575053215,
+        "direction_cosine": 0.21465409482607295,
+        "finite": 1.0,
+        "hidden_path_mse": 2.450904369354248,
+        "support_distance": 0.3664579689502716,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09209983795881271,
+        "curvature_mse": 0.05093400180339813,
+        "direction_cosine": 0.6999443883736095,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3595688343048096,
+        "support_distance": 0.20311647653579712,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08165036886930466,
+        "curvature_mse": 0.045155130326747894,
+        "direction_cosine": 0.10026707809218048,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4871220588684082,
+        "support_distance": 0.1893429160118103,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08847653120756149,
+        "curvature_mse": 0.04893020540475845,
+        "direction_cosine": 0.08872118065373259,
+        "finite": 1.0,
+        "hidden_path_mse": 2.152024745941162,
+        "support_distance": 0.28465336561203003,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13627983629703522,
+        "curvature_mse": 0.07536688446998596,
+        "direction_cosine": 0.41107077009997117,
+        "finite": 1.0,
+        "hidden_path_mse": 3.403214931488037,
+        "support_distance": 0.14955443143844604,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10058718919754028,
+        "curvature_mse": 0.05562775954604149,
+        "direction_cosine": 0.8949441349855958,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3293089866638184,
+        "support_distance": 0.19664473831653595,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19617031514644623,
+        "curvature_mse": 0.10848812758922577,
+        "direction_cosine": 0.04986673274722116,
+        "finite": 1.0,
+        "hidden_path_mse": 2.965782403945923,
+        "support_distance": 0.528821587562561,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13145457208156586,
+        "curvature_mse": 0.07269835472106934,
+        "direction_cosine": 0.8643332977771473,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6995530128479004,
+        "support_distance": 0.30329766869544983,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09825698286294937,
+        "curvature_mse": 0.05433908849954605,
+        "direction_cosine": 0.48804555641048836,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0782322883605957,
+        "support_distance": 0.33236169815063477,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09506520628929138,
+        "curvature_mse": 0.05257394537329674,
+        "direction_cosine": 0.3778192172465326,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5256317853927612,
+        "support_distance": 0.30883392691612244,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10202208906412125,
+        "curvature_mse": 0.05642130598425865,
+        "direction_cosine": 0.41083992806790515,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5541068315505981,
+        "support_distance": 0.31245630979537964,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06412321329116821,
+        "curvature_mse": 0.035462088882923126,
+        "direction_cosine": 0.5629883267369492,
+        "finite": 1.0,
+        "hidden_path_mse": 1.0523037910461426,
+        "support_distance": 0.2035457044839859,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10879633575677872,
+        "curvature_mse": 0.060167670249938965,
+        "direction_cosine": 0.12100768713874571,
+        "finite": 1.0,
+        "hidden_path_mse": 2.409853458404541,
+        "support_distance": 0.3081742227077484,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1591150015592575,
+        "curvature_mse": 0.08799542486667633,
+        "direction_cosine": 0.5203600339479876,
+        "finite": 1.0,
+        "hidden_path_mse": 2.6834492683410645,
+        "support_distance": 0.47041261196136475,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12104222178459167,
+        "curvature_mse": 0.06694001704454422,
+        "direction_cosine": 0.3703625397434115,
+        "finite": 1.0,
+        "hidden_path_mse": 1.220292329788208,
+        "support_distance": 0.25659096240997314,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04915888234972954,
+        "curvature_mse": 0.027186352759599686,
+        "direction_cosine": 0.4056449170719407,
+        "finite": 1.0,
+        "hidden_path_mse": 2.549285888671875,
+        "support_distance": 0.16628365218639374,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13477736711502075,
+        "curvature_mse": 0.07453596591949463,
+        "direction_cosine": 0.3011669977438474,
+        "finite": 1.0,
+        "hidden_path_mse": 2.519350290298462,
+        "support_distance": 0.22280548512935638,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13946951925754547,
+        "curvature_mse": 0.07713086903095245,
+        "direction_cosine": 0.5831757704223743,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3685357570648193,
+        "support_distance": 0.4674273729324341,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13475340604782104,
+        "curvature_mse": 0.0745227187871933,
+        "direction_cosine": 0.4211871442512148,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5181796550750732,
+        "support_distance": 0.31562864780426025,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.20763425529003143,
+        "curvature_mse": 0.11482802778482437,
+        "direction_cosine": 0.39686917412001177,
+        "finite": 1.0,
+        "hidden_path_mse": 3.365420341491699,
+        "support_distance": 0.2972320020198822,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07395878434181213,
+        "curvature_mse": 0.04090144485235214,
+        "direction_cosine": 0.6315836163594868,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8444710969924927,
+        "support_distance": 0.22361181676387787,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1944977045059204,
+        "curvature_mse": 0.10756312310695648,
+        "direction_cosine": 0.7497123208087018,
+        "finite": 1.0,
+        "hidden_path_mse": 2.105846405029297,
+        "support_distance": 0.2720920443534851,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17166472971439362,
+        "curvature_mse": 0.09493579715490341,
+        "direction_cosine": 0.4591782012127199,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7333983182907104,
+        "support_distance": 0.22029903531074524,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0858960822224617,
+        "curvature_mse": 0.04750313609838486,
+        "direction_cosine": 0.5350431734013968,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3712127208709717,
+        "support_distance": 0.16176000237464905,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.156560480594635,
+        "curvature_mse": 0.08658270537853241,
+        "direction_cosine": 0.5113981040022298,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8484776020050049,
+        "support_distance": 0.26191025972366333,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16341400146484375,
+        "curvature_mse": 0.09037289768457413,
+        "direction_cosine": 0.5419316673605823,
+        "finite": 1.0,
+        "hidden_path_mse": 2.565730571746826,
+        "support_distance": 0.7083790898323059,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18316270411014557,
+        "curvature_mse": 0.10129453241825104,
+        "direction_cosine": 0.436025358704867,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0664358139038086,
+        "support_distance": 0.5621565580368042,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06664887070655823,
+        "curvature_mse": 0.03685884550213814,
+        "direction_cosine": 0.026542487768101742,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1202750205993652,
+        "support_distance": 0.22544483840465546,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11573173850774765,
+        "curvature_mse": 0.06400315463542938,
+        "direction_cosine": -0.1728843337616561,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0992684364318848,
+        "support_distance": 0.39147138595581055,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11652013659477234,
+        "curvature_mse": 0.06443916261196136,
+        "direction_cosine": -0.1912154610457569,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9956536293029785,
+        "support_distance": 0.3755424916744232,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14527733623981476,
+        "curvature_mse": 0.08034277707338333,
+        "direction_cosine": 0.40482181944249296,
+        "finite": 1.0,
+        "hidden_path_mse": 2.63071346282959,
+        "support_distance": 0.3284846246242523,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14076566696166992,
+        "curvature_mse": 0.0778476893901825,
+        "direction_cosine": 0.7672615691954348,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6261346340179443,
+        "support_distance": 0.19941389560699463,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.055385906249284744,
+        "curvature_mse": 0.03063008561730385,
+        "direction_cosine": 0.5633142965663301,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7252743244171143,
+        "support_distance": 0.2992796301841736,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.21566374599933624,
+        "curvature_mse": 0.11926859617233276,
+        "direction_cosine": 0.15380367550826812,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0439369678497314,
+        "support_distance": 0.31950926780700684,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.21033020317554474,
+        "curvature_mse": 0.11631900072097778,
+        "direction_cosine": 0.029059431600663765,
+        "finite": 1.0,
+        "hidden_path_mse": 2.8177907466888428,
+        "support_distance": 0.2978491187095642,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09483709186315536,
+        "curvature_mse": 0.05244778096675873,
+        "direction_cosine": 0.0806091172768399,
+        "finite": 1.0,
+        "hidden_path_mse": 3.807868480682373,
+        "support_distance": 0.32079362869262695,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05900510028004646,
+        "curvature_mse": 0.032631613314151764,
+        "direction_cosine": 0.2222466867449261,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1258909702301025,
+        "support_distance": 0.42521268129348755,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0809575766324997,
+        "curvature_mse": 0.04477199539542198,
+        "direction_cosine": 0.32842669282166087,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4434454441070557,
+        "support_distance": 0.5937869548797607,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12419778108596802,
+        "curvature_mse": 0.0686851292848587,
+        "direction_cosine": 0.2975399824060999,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4368815422058105,
+        "support_distance": 0.6611154675483704,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.22102749347686768,
+        "curvature_mse": 0.12223490327596664,
+        "direction_cosine": 0.5954341212211264,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9920034408569336,
+        "support_distance": 0.284160315990448,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08332974463701248,
+        "curvature_mse": 0.046083878725767136,
+        "direction_cosine": 0.31911211008847273,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1335439682006836,
+        "support_distance": 0.32777103781700134,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06859053671360016,
+        "curvature_mse": 0.03793265298008919,
+        "direction_cosine": 0.13126440881350493,
+        "finite": 1.0,
+        "hidden_path_mse": 2.17869234085083,
+        "support_distance": 0.3619115948677063,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27612391114234924,
+        "curvature_mse": 0.1527048945426941,
+        "direction_cosine": 0.6256324933473948,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1950689554214478,
+        "support_distance": 0.4595983028411865,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1496097594499588,
+        "curvature_mse": 0.0827387273311615,
+        "direction_cosine": 0.3341354916737375,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1253454685211182,
+        "support_distance": 0.1816149801015854,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2550607919692993,
+        "curvature_mse": 0.14105632901191711,
+        "direction_cosine": 0.675946980531859,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4205212593078613,
+        "support_distance": 0.36964261531829834,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.35030296444892883,
+        "curvature_mse": 0.19372817873954773,
+        "direction_cosine": 0.6943300713432502,
+        "finite": 1.0,
+        "hidden_path_mse": 2.6258435249328613,
+        "support_distance": 0.8796854615211487,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0778455138206482,
+        "curvature_mse": 0.04305092990398407,
+        "direction_cosine": -0.2937832293390356,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4117820262908936,
+        "support_distance": 0.25487443804740906,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.3384912312030792,
+        "curvature_mse": 0.18719592690467834,
+        "direction_cosine": 0.9422493793611117,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5695170164108276,
+        "support_distance": 0.21280643343925476,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12729908525943756,
+        "curvature_mse": 0.07040025293827057,
+        "direction_cosine": 0.1882192837611284,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6721285581588745,
+        "support_distance": 0.18937906622886658,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28161028027534485,
+        "curvature_mse": 0.15573900938034058,
+        "direction_cosine": 0.3408127422964047,
+        "finite": 1.0,
+        "hidden_path_mse": 2.307864189147949,
+        "support_distance": 0.5164307355880737,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.3862627446651459,
+        "curvature_mse": 0.21361500024795532,
+        "direction_cosine": 0.3640694732737096,
+        "finite": 1.0,
+        "hidden_path_mse": 2.911860942840576,
+        "support_distance": 0.4611929953098297,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2947063446044922,
+        "curvature_mse": 0.1629815399646759,
+        "direction_cosine": 0.20960829978247567,
+        "finite": 1.0,
+        "hidden_path_mse": 2.372032880783081,
+        "support_distance": 0.44374150037765503,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10123658180236816,
+        "curvature_mse": 0.05598689988255501,
+        "direction_cosine": 0.4192435939667006,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6752482652664185,
+        "support_distance": 0.39891165494918823,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.25772470235824585,
+        "curvature_mse": 0.14252957701683044,
+        "direction_cosine": 0.6577493606346834,
+        "finite": 1.0,
+        "hidden_path_mse": 2.7216334342956543,
+        "support_distance": 0.6857052445411682,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14285092055797577,
+        "curvature_mse": 0.07900089770555496,
+        "direction_cosine": 0.22612117022237088,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0434117317199707,
+        "support_distance": 0.34939777851104736,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03361699357628822,
+        "curvature_mse": 0.01859121583402157,
+        "direction_cosine": 0.2683505106620127,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9411628246307373,
+        "support_distance": 0.0975465252995491,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.036183442920446396,
+        "curvature_mse": 0.020010540261864662,
+        "direction_cosine": 0.6515829658193025,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1061689853668213,
+        "support_distance": 0.1146479994058609,
+        "target_arrival": 1.0
+      }
+    ],
+    "distance": [
+      {
+        "continuity_mse": 0.0678587332367897,
+        "curvature_mse": 0.03752793371677399,
+        "direction_cosine": 0.18892561639388378,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8011791706085205,
+        "support_distance": 0.04901421070098877,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06822407245635986,
+        "curvature_mse": 0.03772997856140137,
+        "direction_cosine": 0.2823388801757226,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7491739988327026,
+        "support_distance": 0.1979343295097351,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14909577369689941,
+        "curvature_mse": 0.08245449513196945,
+        "direction_cosine": 0.5420011131750279,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8668849468231201,
+        "support_distance": 0.2884727716445923,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09752065688371658,
+        "curvature_mse": 0.05393188074231148,
+        "direction_cosine": 0.5438686725954576,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5252211093902588,
+        "support_distance": 0.09165147691965103,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06932908296585083,
+        "curvature_mse": 0.038341086357831955,
+        "direction_cosine": -0.022597924115587555,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8736757040023804,
+        "support_distance": 0.2255256175994873,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10336921364068985,
+        "curvature_mse": 0.05716630816459656,
+        "direction_cosine": 0.267420804618887,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5026373863220215,
+        "support_distance": 0.14663897454738617,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0565965361893177,
+        "curvature_mse": 0.03129960224032402,
+        "direction_cosine": 0.7975525065914993,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4944220781326294,
+        "support_distance": 0.1345931887626648,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12968426942825317,
+        "curvature_mse": 0.07171933352947235,
+        "direction_cosine": 0.849532583152321,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6396981477737427,
+        "support_distance": 0.4929119348526001,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11880906671285629,
+        "curvature_mse": 0.06570501625537872,
+        "direction_cosine": 0.7587429085672404,
+        "finite": 1.0,
+        "hidden_path_mse": 2.163036346435547,
+        "support_distance": 0.3273738622665405,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1595841944217682,
+        "curvature_mse": 0.0882548987865448,
+        "direction_cosine": 0.6496725351851707,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3909716606140137,
+        "support_distance": 0.44355490803718567,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14627747237682343,
+        "curvature_mse": 0.08089588582515717,
+        "direction_cosine": 0.05174544762223064,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0952672958374023,
+        "support_distance": 0.27292436361312866,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17118151485919952,
+        "curvature_mse": 0.09466857463121414,
+        "direction_cosine": 0.5190310833300015,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3708651065826416,
+        "support_distance": 0.570571780204773,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1102142408490181,
+        "curvature_mse": 0.06095181405544281,
+        "direction_cosine": 0.45740220816813265,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3075222969055176,
+        "support_distance": 0.4690125584602356,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04038120433688164,
+        "curvature_mse": 0.022332031279802322,
+        "direction_cosine": 0.050163458352854344,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1547274589538574,
+        "support_distance": 0.41721680760383606,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2151782363653183,
+        "curvature_mse": 0.11900009214878082,
+        "direction_cosine": 0.967115042962778,
+        "finite": 1.0,
+        "hidden_path_mse": 1.74820876121521,
+        "support_distance": 0.2807510793209076,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1384965032339096,
+        "curvature_mse": 0.07659277319908142,
+        "direction_cosine": 0.4603521543596724,
+        "finite": 1.0,
+        "hidden_path_mse": 2.9078848361968994,
+        "support_distance": 0.26767149567604065,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16090509295463562,
+        "curvature_mse": 0.08898540586233139,
+        "direction_cosine": 0.7557673240848173,
+        "finite": 1.0,
+        "hidden_path_mse": 2.177966594696045,
+        "support_distance": 0.5438407063484192,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1522623747587204,
+        "curvature_mse": 0.08420569449663162,
+        "direction_cosine": 0.5456350969121979,
+        "finite": 1.0,
+        "hidden_path_mse": 2.82379150390625,
+        "support_distance": 0.2712973952293396,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.20384494960308075,
+        "curvature_mse": 0.11273244023323059,
+        "direction_cosine": 0.6594831817321538,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6047613620758057,
+        "support_distance": 0.5383564233779907,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15584702789783478,
+        "curvature_mse": 0.08618813753128052,
+        "direction_cosine": 0.3551171751798729,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5304946899414062,
+        "support_distance": 0.26200246810913086,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1272236555814743,
+        "curvature_mse": 0.07035854458808899,
+        "direction_cosine": 0.13347742073701585,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9186766743659973,
+        "support_distance": 0.17589136958122253,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08325960487127304,
+        "curvature_mse": 0.04604508355259895,
+        "direction_cosine": -0.2871823973626309,
+        "finite": 1.0,
+        "hidden_path_mse": 2.161902904510498,
+        "support_distance": 0.1933434158563614,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16095559298992157,
+        "curvature_mse": 0.08901333063840866,
+        "direction_cosine": 0.23754413080560266,
+        "finite": 1.0,
+        "hidden_path_mse": 2.255743980407715,
+        "support_distance": 0.2606939673423767,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.060871195048093796,
+        "curvature_mse": 0.033663615584373474,
+        "direction_cosine": 0.5637965708581095,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6430199146270752,
+        "support_distance": 0.36416348814964294,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10985946655273438,
+        "curvature_mse": 0.06075560674071312,
+        "direction_cosine": 0.6475436968267458,
+        "finite": 1.0,
+        "hidden_path_mse": 2.556244373321533,
+        "support_distance": 0.3278823494911194,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.42135632038116455,
+        "curvature_mse": 0.2330228090286255,
+        "direction_cosine": 0.512441673885088,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5467605590820312,
+        "support_distance": 0.6961442232131958,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.190956711769104,
+        "curvature_mse": 0.1056048572063446,
+        "direction_cosine": 0.016248098232305892,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0303750038146973,
+        "support_distance": 0.4359217584133148,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11565438657999039,
+        "curvature_mse": 0.06396038830280304,
+        "direction_cosine": 0.10868789876885328,
+        "finite": 1.0,
+        "hidden_path_mse": 1.803820013999939,
+        "support_distance": 0.2216324806213379,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14881040155887604,
+        "curvature_mse": 0.08229666203260422,
+        "direction_cosine": 0.30902521692208434,
+        "finite": 1.0,
+        "hidden_path_mse": 3.5254950523376465,
+        "support_distance": 0.5033624768257141,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07690867781639099,
+        "curvature_mse": 0.04253283143043518,
+        "direction_cosine": -0.11347653303364788,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2078869342803955,
+        "support_distance": 0.2969455420970917,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0393676795065403,
+        "curvature_mse": 0.021771520376205444,
+        "direction_cosine": -0.11888209354332532,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3410608768463135,
+        "support_distance": 0.2653551995754242,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2553460896015167,
+        "curvature_mse": 0.14121413230895996,
+        "direction_cosine": 0.5546587869910444,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5464353561401367,
+        "support_distance": 0.6012619137763977,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17921586334705353,
+        "curvature_mse": 0.09911181032657623,
+        "direction_cosine": 0.7313826811864556,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2784571647644043,
+        "support_distance": 0.6395353078842163,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16401328146457672,
+        "curvature_mse": 0.09070432931184769,
+        "direction_cosine": 0.5574401102403447,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2811315059661865,
+        "support_distance": 0.5059331059455872,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07389305531978607,
+        "curvature_mse": 0.04086510092020035,
+        "direction_cosine": 0.1854883078526462,
+        "finite": 1.0,
+        "hidden_path_mse": 1.693281888961792,
+        "support_distance": 0.49446702003479004,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18282540142536163,
+        "curvature_mse": 0.10110798478126526,
+        "direction_cosine": 0.2092684136840296,
+        "finite": 1.0,
+        "hidden_path_mse": 2.002427339553833,
+        "support_distance": 0.3601208031177521,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.22256894409656525,
+        "curvature_mse": 0.12308739125728607,
+        "direction_cosine": -0.053255908812462775,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2959814071655273,
+        "support_distance": 0.21013544499874115,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1557389348745346,
+        "curvature_mse": 0.0861283540725708,
+        "direction_cosine": 0.03877405812924515,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7274284362792969,
+        "support_distance": 0.29727691411972046,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2991447150707245,
+        "curvature_mse": 0.16543608903884888,
+        "direction_cosine": 0.29368719744687544,
+        "finite": 1.0,
+        "hidden_path_mse": 3.079695224761963,
+        "support_distance": 0.760149359703064,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19944454729557037,
+        "curvature_mse": 0.11029888689517975,
+        "direction_cosine": 0.4044810833246094,
+        "finite": 1.0,
+        "hidden_path_mse": 2.129021406173706,
+        "support_distance": 0.2225324660539627,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10361465811729431,
+        "curvature_mse": 0.057302042841911316,
+        "direction_cosine": 0.35963092561043175,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5014007091522217,
+        "support_distance": 0.3359180688858032,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06747718900442123,
+        "curvature_mse": 0.03731692582368851,
+        "direction_cosine": 0.7151687003782183,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9593501687049866,
+        "support_distance": 0.18984539806842804,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15654905140399933,
+        "curvature_mse": 0.08657637238502502,
+        "direction_cosine": 0.24456597297368857,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5698264837265015,
+        "support_distance": 0.5721435546875,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.24159270524978638,
+        "curvature_mse": 0.13360808789730072,
+        "direction_cosine": 0.4577875482298939,
+        "finite": 1.0,
+        "hidden_path_mse": 2.36834454536438,
+        "support_distance": 0.4205646514892578,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2551954984664917,
+        "curvature_mse": 0.14113083481788635,
+        "direction_cosine": 0.38996136001673104,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9788532257080078,
+        "support_distance": 0.3117995858192444,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15261946618556976,
+        "curvature_mse": 0.08440320193767548,
+        "direction_cosine": 0.7682119983049591,
+        "finite": 1.0,
+        "hidden_path_mse": 2.03312611579895,
+        "support_distance": 0.19297298789024353,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09149632602930069,
+        "curvature_mse": 0.05060024559497833,
+        "direction_cosine": 0.5522280869079242,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7002267837524414,
+        "support_distance": 0.31985118985176086,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06537175178527832,
+        "curvature_mse": 0.036152567714452744,
+        "direction_cosine": 0.35357908275510064,
+        "finite": 1.0,
+        "hidden_path_mse": 2.356132984161377,
+        "support_distance": 0.2995254099369049,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04749499261379242,
+        "curvature_mse": 0.026266170665621758,
+        "direction_cosine": -0.1899113345428662,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2357473373413086,
+        "support_distance": 0.2586793005466461,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14973653852939606,
+        "curvature_mse": 0.08280884474515915,
+        "direction_cosine": 0.584506755577292,
+        "finite": 1.0,
+        "hidden_path_mse": 2.170290470123291,
+        "support_distance": 0.34159567952156067,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1831233948469162,
+        "curvature_mse": 0.10127277672290802,
+        "direction_cosine": 0.03413067240977159,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1186158657073975,
+        "support_distance": 0.26216503977775574,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.4860803186893463,
+        "curvature_mse": 0.26881712675094604,
+        "direction_cosine": 0.9303700178300832,
+        "finite": 1.0,
+        "hidden_path_mse": 3.8529868125915527,
+        "support_distance": 0.9040675163269043,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1605553776025772,
+        "curvature_mse": 0.08879198879003525,
+        "direction_cosine": -0.004070788493812216,
+        "finite": 1.0,
+        "hidden_path_mse": 3.6030359268188477,
+        "support_distance": 0.48573923110961914,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2927134037017822,
+        "curvature_mse": 0.16187939047813416,
+        "direction_cosine": 0.37973427469879206,
+        "finite": 1.0,
+        "hidden_path_mse": 3.441573143005371,
+        "support_distance": 0.9808756113052368,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09646385908126831,
+        "curvature_mse": 0.05334743857383728,
+        "direction_cosine": -0.1275550000541462,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8326383829116821,
+        "support_distance": 0.2532973885536194,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09053917974233627,
+        "curvature_mse": 0.05007091164588928,
+        "direction_cosine": -0.05965590723835244,
+        "finite": 1.0,
+        "hidden_path_mse": 1.858276605606079,
+        "support_distance": 0.19452644884586334,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28027093410491943,
+        "curvature_mse": 0.15499833226203918,
+        "direction_cosine": 0.5879685491807802,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7866300344467163,
+        "support_distance": 0.1912805587053299,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2415541261434555,
+        "curvature_mse": 0.13358673453330994,
+        "direction_cosine": 0.33936361593361414,
+        "finite": 1.0,
+        "hidden_path_mse": 3.4964957237243652,
+        "support_distance": 0.2241460084915161,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.313992977142334,
+        "curvature_mse": 0.17364764213562012,
+        "direction_cosine": 0.6442073864084265,
+        "finite": 1.0,
+        "hidden_path_mse": 2.566655158996582,
+        "support_distance": 0.7870970964431763,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12976405024528503,
+        "curvature_mse": 0.07176345586776733,
+        "direction_cosine": 0.3931683686499975,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1329030990600586,
+        "support_distance": 0.4929705262184143,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10431873798370361,
+        "curvature_mse": 0.05769142881035805,
+        "direction_cosine": 0.14882308713229822,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0352540016174316,
+        "support_distance": 0.17788946628570557,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15213525295257568,
+        "curvature_mse": 0.08413541316986084,
+        "direction_cosine": 0.7902182291338496,
+        "finite": 1.0,
+        "hidden_path_mse": 2.170153856277466,
+        "support_distance": 0.17749741673469543,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10334489494562149,
+        "curvature_mse": 0.05715286731719971,
+        "direction_cosine": 0.3366841586955518,
+        "finite": 1.0,
+        "hidden_path_mse": 1.332659363746643,
+        "support_distance": 0.17171461880207062,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07268566638231277,
+        "curvature_mse": 0.04019738361239433,
+        "direction_cosine": 0.38747784920260664,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4190884828567505,
+        "support_distance": 0.2562902569770813,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17749732732772827,
+        "curvature_mse": 0.09816140681505203,
+        "direction_cosine": 0.41145017617932417,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8700342178344727,
+        "support_distance": 0.3674965798854828,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.042695146054029465,
+        "curvature_mse": 0.023611711338162422,
+        "direction_cosine": 0.486894212945552,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6303300857543945,
+        "support_distance": 0.12017302960157394,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.041196953505277634,
+        "curvature_mse": 0.02278316207230091,
+        "direction_cosine": 0.28112905740186545,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7070960998535156,
+        "support_distance": 0.23900379240512848,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18679730594158173,
+        "curvature_mse": 0.10330457985401154,
+        "direction_cosine": 0.20886655260209624,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9949308633804321,
+        "support_distance": 0.21745513379573822,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27132561802864075,
+        "curvature_mse": 0.1500512957572937,
+        "direction_cosine": 0.6532225370014396,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0697214603424072,
+        "support_distance": 0.723868191242218,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10894346237182617,
+        "curvature_mse": 0.06024903804063797,
+        "direction_cosine": 0.27628770393797564,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8424203395843506,
+        "support_distance": 0.20613795518875122,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13143013417720795,
+        "curvature_mse": 0.07268483936786652,
+        "direction_cosine": 0.10496715819308944,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6170809268951416,
+        "support_distance": 0.29808199405670166,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07476585358381271,
+        "curvature_mse": 0.04134778678417206,
+        "direction_cosine": 0.34178032685696663,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7617231607437134,
+        "support_distance": 0.2461193948984146,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09062904864549637,
+        "curvature_mse": 0.05012061446905136,
+        "direction_cosine": 0.716980567080944,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5344890356063843,
+        "support_distance": 0.16870731115341187,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09682626277208328,
+        "curvature_mse": 0.05354785919189453,
+        "direction_cosine": 0.5149755867817308,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4345954656600952,
+        "support_distance": 0.45333945751190186,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1641387641429901,
+        "curvature_mse": 0.09077371656894684,
+        "direction_cosine": 0.680350387560881,
+        "finite": 1.0,
+        "hidden_path_mse": 2.519627571105957,
+        "support_distance": 0.4742329716682434,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15182536840438843,
+        "curvature_mse": 0.0839640349149704,
+        "direction_cosine": 0.642758663700002,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4394145011901855,
+        "support_distance": 0.45034632086753845,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14247775077819824,
+        "curvature_mse": 0.07879451662302017,
+        "direction_cosine": 0.387734024282543,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9925129413604736,
+        "support_distance": 0.4314567744731903,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2386205941438675,
+        "curvature_mse": 0.13196441531181335,
+        "direction_cosine": 0.9131497919655468,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8402049541473389,
+        "support_distance": 0.49271899461746216,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10101386904716492,
+        "curvature_mse": 0.05586373060941696,
+        "direction_cosine": -0.1169937701746708,
+        "finite": 1.0,
+        "hidden_path_mse": 3.6321654319763184,
+        "support_distance": 0.1480238288640976,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19151966273784637,
+        "curvature_mse": 0.10591618716716766,
+        "direction_cosine": 0.6529323516563016,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1174614429473877,
+        "support_distance": 0.475457102060318,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28912678360939026,
+        "curvature_mse": 0.1598958820104599,
+        "direction_cosine": 0.3236637782198958,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1024539470672607,
+        "support_distance": 0.7693257927894592,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11090442538261414,
+        "curvature_mse": 0.06133350357413292,
+        "direction_cosine": 0.03146419600638349,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0160775184631348,
+        "support_distance": 0.1895272135734558,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0754329189658165,
+        "curvature_mse": 0.04171668738126755,
+        "direction_cosine": 0.5833322359598871,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1278023719787598,
+        "support_distance": 0.20492392778396606,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0946694016456604,
+        "curvature_mse": 0.05235504359006882,
+        "direction_cosine": 0.4987893899832283,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3806650638580322,
+        "support_distance": 0.32022640109062195,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05345809832215309,
+        "curvature_mse": 0.02956394851207733,
+        "direction_cosine": 0.15387482442523523,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3065887689590454,
+        "support_distance": 0.05241786688566208,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1389542818069458,
+        "curvature_mse": 0.0768459290266037,
+        "direction_cosine": 0.8401261086796615,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6974767446517944,
+        "support_distance": 0.22646033763885498,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08253300189971924,
+        "curvature_mse": 0.04564325883984566,
+        "direction_cosine": 0.6124633813189897,
+        "finite": 1.0,
+        "hidden_path_mse": 1.951192855834961,
+        "support_distance": 0.3543455898761749,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14798752963542938,
+        "curvature_mse": 0.08184157311916351,
+        "direction_cosine": 0.7062739858702833,
+        "finite": 1.0,
+        "hidden_path_mse": 2.093228816986084,
+        "support_distance": 0.35787084698677063,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27476051449775696,
+        "curvature_mse": 0.1519509106874466,
+        "direction_cosine": 0.2303452595015414,
+        "finite": 1.0,
+        "hidden_path_mse": 2.9325127601623535,
+        "support_distance": 0.31823545694351196,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.055295079946517944,
+        "curvature_mse": 0.030579857528209686,
+        "direction_cosine": 0.24459510094568995,
+        "finite": 1.0,
+        "hidden_path_mse": 1.351425290107727,
+        "support_distance": 0.1870398223400116,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04814480245113373,
+        "curvature_mse": 0.026625534519553185,
+        "direction_cosine": 0.34681726644154676,
+        "finite": 1.0,
+        "hidden_path_mse": 0.4127407670021057,
+        "support_distance": 0.28456100821495056,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03881755843758583,
+        "curvature_mse": 0.021467283368110657,
+        "direction_cosine": 0.7211251848339274,
+        "finite": 1.0,
+        "hidden_path_mse": 0.224226713180542,
+        "support_distance": 0.17335107922554016,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.026948293671011925,
+        "curvature_mse": 0.014903225935995579,
+        "direction_cosine": 0.4940537048863234,
+        "finite": 1.0,
+        "hidden_path_mse": 0.14490146934986115,
+        "support_distance": 0.1114731878042221,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.014292165637016296,
+        "curvature_mse": 0.007904000580310822,
+        "direction_cosine": 0.11176059044498746,
+        "finite": 1.0,
+        "hidden_path_mse": 0.12490110844373703,
+        "support_distance": 0.08467277884483337,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.011245704255998135,
+        "curvature_mse": 0.0062192147597670555,
+        "direction_cosine": 0.619258021758887,
+        "finite": 1.0,
+        "hidden_path_mse": 0.022193539887666702,
+        "support_distance": 0.0231923870742321,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.012170028872787952,
+        "curvature_mse": 0.006730394903570414,
+        "direction_cosine": 0.1469556190805748,
+        "finite": 1.0,
+        "hidden_path_mse": 0.03517602011561394,
+        "support_distance": 0.03350363299250603,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.011694748885929585,
+        "curvature_mse": 0.006467551924288273,
+        "direction_cosine": 0.17762164568547706,
+        "finite": 1.0,
+        "hidden_path_mse": 0.065549336373806,
+        "support_distance": 0.028405286371707916,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.00690156826749444,
+        "curvature_mse": 0.003816776443272829,
+        "direction_cosine": 0.0370946337547476,
+        "finite": 1.0,
+        "hidden_path_mse": 0.1041051596403122,
+        "support_distance": 0.02334507741034031,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.00662960484623909,
+        "curvature_mse": 0.0036663725040853024,
+        "direction_cosine": -0.07137191556932271,
+        "finite": 1.0,
+        "hidden_path_mse": 0.14844736456871033,
+        "support_distance": 0.02242514118552208,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06626014411449432,
+        "curvature_mse": 0.036643870174884796,
+        "direction_cosine": 0.7523507252277082,
+        "finite": 1.0,
+        "hidden_path_mse": 1.0046546459197998,
+        "support_distance": 0.15524180233478546,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2633804976940155,
+        "curvature_mse": 0.14565739035606384,
+        "direction_cosine": 0.9671733968513979,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3300034999847412,
+        "support_distance": 0.160634383559227,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08158787339925766,
+        "curvature_mse": 0.045120567083358765,
+        "direction_cosine": 0.4186977248280224,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6372716426849365,
+        "support_distance": 0.15243299305438995,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11736998707056046,
+        "curvature_mse": 0.06490916013717651,
+        "direction_cosine": 0.3259778717197927,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8730911016464233,
+        "support_distance": 0.26558196544647217,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1200936809182167,
+        "curvature_mse": 0.0664154440164566,
+        "direction_cosine": 0.2987687312376367,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2704864740371704,
+        "support_distance": 0.11020928621292114,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1526452749967575,
+        "curvature_mse": 0.08441746234893799,
+        "direction_cosine": 0.6242886515633858,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5530929565429688,
+        "support_distance": 0.23951196670532227,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.02934691123664379,
+        "curvature_mse": 0.01622973196208477,
+        "direction_cosine": 0.423302134730023,
+        "finite": 1.0,
+        "hidden_path_mse": 1.18038010597229,
+        "support_distance": 0.10885334014892578,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.043817341327667236,
+        "curvature_mse": 0.02423231303691864,
+        "direction_cosine": 0.6140259067635367,
+        "finite": 1.0,
+        "hidden_path_mse": 1.24797523021698,
+        "support_distance": 0.11226218938827515,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051006119698286057,
+        "curvature_mse": 0.02820793353021145,
+        "direction_cosine": 0.6861408826943395,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7362645864486694,
+        "support_distance": 0.20951604843139648,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05740493908524513,
+        "curvature_mse": 0.031746674329042435,
+        "direction_cosine": 0.11257979598613548,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2692872285842896,
+        "support_distance": 0.22200271487236023,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16714151203632355,
+        "curvature_mse": 0.09243433177471161,
+        "direction_cosine": 0.40633089981767395,
+        "finite": 1.0,
+        "hidden_path_mse": 1.258713722229004,
+        "support_distance": 0.16369453072547913,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1337956041097641,
+        "curvature_mse": 0.0739930272102356,
+        "direction_cosine": 0.5846903138152907,
+        "finite": 1.0,
+        "hidden_path_mse": 1.056228518486023,
+        "support_distance": 0.2990186810493469,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2589309811592102,
+        "curvature_mse": 0.14319667220115662,
+        "direction_cosine": 0.8621575285104706,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8515766859054565,
+        "support_distance": 0.20337027311325073,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1748247593641281,
+        "curvature_mse": 0.09668339043855667,
+        "direction_cosine": 0.4923855070008773,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0879571437835693,
+        "support_distance": 0.5115256905555725,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0667826309800148,
+        "curvature_mse": 0.036932822316884995,
+        "direction_cosine": 0.7737093426894281,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9150253534317017,
+        "support_distance": 0.15340878069400787,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05381094291806221,
+        "curvature_mse": 0.029759082943201065,
+        "direction_cosine": 0.3148236749400657,
+        "finite": 1.0,
+        "hidden_path_mse": 1.66669499874115,
+        "support_distance": 0.11650391668081284,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13661789894104004,
+        "curvature_mse": 0.07555383443832397,
+        "direction_cosine": 0.49578970917907256,
+        "finite": 1.0,
+        "hidden_path_mse": 2.8133280277252197,
+        "support_distance": 0.6106733679771423,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05250892415642738,
+        "curvature_mse": 0.029039032757282257,
+        "direction_cosine": 0.6175747278239339,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4874765872955322,
+        "support_distance": 0.14282537996768951,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07539419084787369,
+        "curvature_mse": 0.04169527068734169,
+        "direction_cosine": 0.11085935952140293,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4561450481414795,
+        "support_distance": 0.25502654910087585,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03469684720039368,
+        "curvature_mse": 0.01918840780854225,
+        "direction_cosine": 0.13080071739878976,
+        "finite": 1.0,
+        "hidden_path_mse": 1.970768690109253,
+        "support_distance": 0.11736470460891724,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1494414210319519,
+        "curvature_mse": 0.08264563232660294,
+        "direction_cosine": 0.7673125915949793,
+        "finite": 1.0,
+        "hidden_path_mse": 1.850595474243164,
+        "support_distance": 0.27165597677230835,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13823163509368896,
+        "curvature_mse": 0.0764462798833847,
+        "direction_cosine": 0.11490503199060059,
+        "finite": 1.0,
+        "hidden_path_mse": 1.960782527923584,
+        "support_distance": 0.19673539698123932,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13808710873126984,
+        "curvature_mse": 0.0763663575053215,
+        "direction_cosine": 0.21465409482607295,
+        "finite": 1.0,
+        "hidden_path_mse": 2.450904369354248,
+        "support_distance": 0.3664579689502716,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09209983795881271,
+        "curvature_mse": 0.05093400180339813,
+        "direction_cosine": 0.6999443883736095,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3595688343048096,
+        "support_distance": 0.20311647653579712,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08165036886930466,
+        "curvature_mse": 0.045155130326747894,
+        "direction_cosine": 0.10026707809218048,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4871220588684082,
+        "support_distance": 0.1893429160118103,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08847653120756149,
+        "curvature_mse": 0.04893020540475845,
+        "direction_cosine": 0.08872118065373259,
+        "finite": 1.0,
+        "hidden_path_mse": 2.152024745941162,
+        "support_distance": 0.28465336561203003,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13627983629703522,
+        "curvature_mse": 0.07536688446998596,
+        "direction_cosine": 0.41107077009997117,
+        "finite": 1.0,
+        "hidden_path_mse": 3.403214931488037,
+        "support_distance": 0.14955443143844604,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10058718919754028,
+        "curvature_mse": 0.05562775954604149,
+        "direction_cosine": 0.8949441349855958,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3293089866638184,
+        "support_distance": 0.19664473831653595,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19617031514644623,
+        "curvature_mse": 0.10848812758922577,
+        "direction_cosine": 0.04986673274722116,
+        "finite": 1.0,
+        "hidden_path_mse": 2.965782403945923,
+        "support_distance": 0.528821587562561,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13145457208156586,
+        "curvature_mse": 0.07269835472106934,
+        "direction_cosine": 0.8643332977771473,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6995530128479004,
+        "support_distance": 0.30329766869544983,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09825698286294937,
+        "curvature_mse": 0.05433908849954605,
+        "direction_cosine": 0.48804555641048836,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0782322883605957,
+        "support_distance": 0.33236169815063477,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09506520628929138,
+        "curvature_mse": 0.05257394537329674,
+        "direction_cosine": 0.3778192172465326,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5256317853927612,
+        "support_distance": 0.30883392691612244,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10202208906412125,
+        "curvature_mse": 0.05642130598425865,
+        "direction_cosine": 0.41083992806790515,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5541068315505981,
+        "support_distance": 0.31245630979537964,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06412321329116821,
+        "curvature_mse": 0.035462088882923126,
+        "direction_cosine": 0.5629883267369492,
+        "finite": 1.0,
+        "hidden_path_mse": 1.0523037910461426,
+        "support_distance": 0.2035457044839859,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10879633575677872,
+        "curvature_mse": 0.060167670249938965,
+        "direction_cosine": 0.12100768713874571,
+        "finite": 1.0,
+        "hidden_path_mse": 2.409853458404541,
+        "support_distance": 0.3081742227077484,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1591150015592575,
+        "curvature_mse": 0.08799542486667633,
+        "direction_cosine": 0.5203600339479876,
+        "finite": 1.0,
+        "hidden_path_mse": 2.6834492683410645,
+        "support_distance": 0.47041261196136475,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12104222178459167,
+        "curvature_mse": 0.06694001704454422,
+        "direction_cosine": 0.3703625397434115,
+        "finite": 1.0,
+        "hidden_path_mse": 1.220292329788208,
+        "support_distance": 0.25659096240997314,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04915888234972954,
+        "curvature_mse": 0.027186352759599686,
+        "direction_cosine": 0.4056449170719407,
+        "finite": 1.0,
+        "hidden_path_mse": 2.549285888671875,
+        "support_distance": 0.16628365218639374,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13477736711502075,
+        "curvature_mse": 0.07453596591949463,
+        "direction_cosine": 0.3011669977438474,
+        "finite": 1.0,
+        "hidden_path_mse": 2.519350290298462,
+        "support_distance": 0.22280548512935638,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13946951925754547,
+        "curvature_mse": 0.07713086903095245,
+        "direction_cosine": 0.5831757704223743,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3685357570648193,
+        "support_distance": 0.4674273729324341,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13475340604782104,
+        "curvature_mse": 0.0745227187871933,
+        "direction_cosine": 0.4211871442512148,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5181796550750732,
+        "support_distance": 0.31562864780426025,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.20763425529003143,
+        "curvature_mse": 0.11482802778482437,
+        "direction_cosine": 0.39686917412001177,
+        "finite": 1.0,
+        "hidden_path_mse": 3.365420341491699,
+        "support_distance": 0.2972320020198822,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07395878434181213,
+        "curvature_mse": 0.04090144485235214,
+        "direction_cosine": 0.6315836163594868,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8444710969924927,
+        "support_distance": 0.22361181676387787,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1944977045059204,
+        "curvature_mse": 0.10756312310695648,
+        "direction_cosine": 0.7497123208087018,
+        "finite": 1.0,
+        "hidden_path_mse": 2.105846405029297,
+        "support_distance": 0.2720920443534851,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17166472971439362,
+        "curvature_mse": 0.09493579715490341,
+        "direction_cosine": 0.4591782012127199,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7333983182907104,
+        "support_distance": 0.22029903531074524,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0858960822224617,
+        "curvature_mse": 0.04750313609838486,
+        "direction_cosine": 0.5350431734013968,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3712127208709717,
+        "support_distance": 0.16176000237464905,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.156560480594635,
+        "curvature_mse": 0.08658270537853241,
+        "direction_cosine": 0.5113981040022298,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8484776020050049,
+        "support_distance": 0.26191025972366333,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16341400146484375,
+        "curvature_mse": 0.09037289768457413,
+        "direction_cosine": 0.5419316673605823,
+        "finite": 1.0,
+        "hidden_path_mse": 2.565730571746826,
+        "support_distance": 0.7083790898323059,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18316270411014557,
+        "curvature_mse": 0.10129453241825104,
+        "direction_cosine": 0.436025358704867,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0664358139038086,
+        "support_distance": 0.5621565580368042,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06664887070655823,
+        "curvature_mse": 0.03685884550213814,
+        "direction_cosine": 0.026542487768101742,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1202750205993652,
+        "support_distance": 0.22544483840465546,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11573173850774765,
+        "curvature_mse": 0.06400315463542938,
+        "direction_cosine": -0.1728843337616561,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0992684364318848,
+        "support_distance": 0.39147138595581055,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11652013659477234,
+        "curvature_mse": 0.06443916261196136,
+        "direction_cosine": -0.1912154610457569,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9956536293029785,
+        "support_distance": 0.3755424916744232,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14527733623981476,
+        "curvature_mse": 0.08034277707338333,
+        "direction_cosine": 0.40482181944249296,
+        "finite": 1.0,
+        "hidden_path_mse": 2.63071346282959,
+        "support_distance": 0.3284846246242523,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14076566696166992,
+        "curvature_mse": 0.0778476893901825,
+        "direction_cosine": 0.7672615691954348,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6261346340179443,
+        "support_distance": 0.19941389560699463,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.055385906249284744,
+        "curvature_mse": 0.03063008561730385,
+        "direction_cosine": 0.5633142965663301,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7252743244171143,
+        "support_distance": 0.2992796301841736,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.21566374599933624,
+        "curvature_mse": 0.11926859617233276,
+        "direction_cosine": 0.15380367550826812,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0439369678497314,
+        "support_distance": 0.31950926780700684,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.21033020317554474,
+        "curvature_mse": 0.11631900072097778,
+        "direction_cosine": 0.029059431600663765,
+        "finite": 1.0,
+        "hidden_path_mse": 2.8177907466888428,
+        "support_distance": 0.2978491187095642,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09483709186315536,
+        "curvature_mse": 0.05244778096675873,
+        "direction_cosine": 0.0806091172768399,
+        "finite": 1.0,
+        "hidden_path_mse": 3.807868480682373,
+        "support_distance": 0.32079362869262695,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05900510028004646,
+        "curvature_mse": 0.032631613314151764,
+        "direction_cosine": 0.2222466867449261,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1258909702301025,
+        "support_distance": 0.42521268129348755,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0809575766324997,
+        "curvature_mse": 0.04477199539542198,
+        "direction_cosine": 0.32842669282166087,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4434454441070557,
+        "support_distance": 0.5937869548797607,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12419778108596802,
+        "curvature_mse": 0.0686851292848587,
+        "direction_cosine": 0.2975399824060999,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4368815422058105,
+        "support_distance": 0.6611154675483704,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.22102749347686768,
+        "curvature_mse": 0.12223490327596664,
+        "direction_cosine": 0.5954341212211264,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9920034408569336,
+        "support_distance": 0.284160315990448,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08332974463701248,
+        "curvature_mse": 0.046083878725767136,
+        "direction_cosine": 0.31911211008847273,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1335439682006836,
+        "support_distance": 0.32777103781700134,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06859053671360016,
+        "curvature_mse": 0.03793265298008919,
+        "direction_cosine": 0.13126440881350493,
+        "finite": 1.0,
+        "hidden_path_mse": 2.17869234085083,
+        "support_distance": 0.3619115948677063,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27612391114234924,
+        "curvature_mse": 0.1527048945426941,
+        "direction_cosine": 0.6256324933473948,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1950689554214478,
+        "support_distance": 0.4595983028411865,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1496097594499588,
+        "curvature_mse": 0.0827387273311615,
+        "direction_cosine": 0.3341354916737375,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1253454685211182,
+        "support_distance": 0.1816149801015854,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2550607919692993,
+        "curvature_mse": 0.14105632901191711,
+        "direction_cosine": 0.675946980531859,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4205212593078613,
+        "support_distance": 0.36964261531829834,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.35030296444892883,
+        "curvature_mse": 0.19372817873954773,
+        "direction_cosine": 0.6943300713432502,
+        "finite": 1.0,
+        "hidden_path_mse": 2.6258435249328613,
+        "support_distance": 0.8796854615211487,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0778455138206482,
+        "curvature_mse": 0.04305092990398407,
+        "direction_cosine": -0.2937832293390356,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4117820262908936,
+        "support_distance": 0.25487443804740906,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.3384912312030792,
+        "curvature_mse": 0.18719592690467834,
+        "direction_cosine": 0.9422493793611117,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5695170164108276,
+        "support_distance": 0.21280643343925476,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12729908525943756,
+        "curvature_mse": 0.07040025293827057,
+        "direction_cosine": 0.1882192837611284,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6721285581588745,
+        "support_distance": 0.18937906622886658,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28161028027534485,
+        "curvature_mse": 0.15573900938034058,
+        "direction_cosine": 0.3408127422964047,
+        "finite": 1.0,
+        "hidden_path_mse": 2.307864189147949,
+        "support_distance": 0.5164307355880737,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.3862627446651459,
+        "curvature_mse": 0.21361500024795532,
+        "direction_cosine": 0.3640694732737096,
+        "finite": 1.0,
+        "hidden_path_mse": 2.911860942840576,
+        "support_distance": 0.4611929953098297,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2947063446044922,
+        "curvature_mse": 0.1629815399646759,
+        "direction_cosine": 0.20960829978247567,
+        "finite": 1.0,
+        "hidden_path_mse": 2.372032880783081,
+        "support_distance": 0.44374150037765503,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10123658180236816,
+        "curvature_mse": 0.05598689988255501,
+        "direction_cosine": 0.4192435939667006,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6752482652664185,
+        "support_distance": 0.39891165494918823,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.25772470235824585,
+        "curvature_mse": 0.14252957701683044,
+        "direction_cosine": 0.6577493606346834,
+        "finite": 1.0,
+        "hidden_path_mse": 2.7216334342956543,
+        "support_distance": 0.6857052445411682,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14285092055797577,
+        "curvature_mse": 0.07900089770555496,
+        "direction_cosine": 0.22612117022237088,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0434117317199707,
+        "support_distance": 0.34939777851104736,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03361699357628822,
+        "curvature_mse": 0.01859121583402157,
+        "direction_cosine": 0.2683505106620127,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9411628246307373,
+        "support_distance": 0.0975465252995491,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.036183442920446396,
+        "curvature_mse": 0.020010540261864662,
+        "direction_cosine": 0.6515829658193025,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1061689853668213,
+        "support_distance": 0.1146479994058609,
+        "target_arrival": 1.0
+      }
+    ],
+    "hazard": [
+      {
+        "continuity_mse": 0.0678587332367897,
+        "curvature_mse": 0.03752793371677399,
+        "direction_cosine": 0.18892561639388378,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8011791706085205,
+        "support_distance": 0.04901421070098877,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051223184913396835,
+        "curvature_mse": 0.028327971696853638,
+        "direction_cosine": -0.3184208695888302,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8300302028656006,
+        "support_distance": 0.17326630651950836,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06822407245635986,
+        "curvature_mse": 0.03772997856140137,
+        "direction_cosine": 0.2823388801757226,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7491739988327026,
+        "support_distance": 0.1979343295097351,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14909577369689941,
+        "curvature_mse": 0.08245449513196945,
+        "direction_cosine": 0.5420011131750279,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8668849468231201,
+        "support_distance": 0.2884727716445923,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09752065688371658,
+        "curvature_mse": 0.05393188074231148,
+        "direction_cosine": 0.5438686725954576,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5252211093902588,
+        "support_distance": 0.09165147691965103,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06932908296585083,
+        "curvature_mse": 0.038341086357831955,
+        "direction_cosine": -0.022597924115587555,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8736757040023804,
+        "support_distance": 0.2255256175994873,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10336921364068985,
+        "curvature_mse": 0.05716630816459656,
+        "direction_cosine": 0.267420804618887,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5026373863220215,
+        "support_distance": 0.14663897454738617,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0565965361893177,
+        "curvature_mse": 0.03129960224032402,
+        "direction_cosine": 0.7975525065914993,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4944220781326294,
+        "support_distance": 0.1345931887626648,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12968426942825317,
+        "curvature_mse": 0.07171933352947235,
+        "direction_cosine": 0.849532583152321,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6396981477737427,
+        "support_distance": 0.4929119348526001,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11880906671285629,
+        "curvature_mse": 0.06570501625537872,
+        "direction_cosine": 0.7587429085672404,
+        "finite": 1.0,
+        "hidden_path_mse": 2.163036346435547,
+        "support_distance": 0.3273738622665405,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1595841944217682,
+        "curvature_mse": 0.0882548987865448,
+        "direction_cosine": 0.6496725351851707,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3909716606140137,
+        "support_distance": 0.44355490803718567,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14627747237682343,
+        "curvature_mse": 0.08089588582515717,
+        "direction_cosine": 0.05174544762223064,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0952672958374023,
+        "support_distance": 0.27292436361312866,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17118151485919952,
+        "curvature_mse": 0.09466857463121414,
+        "direction_cosine": 0.5190310833300015,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3708651065826416,
+        "support_distance": 0.570571780204773,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1102142408490181,
+        "curvature_mse": 0.06095181405544281,
+        "direction_cosine": 0.45740220816813265,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3075222969055176,
+        "support_distance": 0.4690125584602356,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04038120433688164,
+        "curvature_mse": 0.022332031279802322,
+        "direction_cosine": 0.050163458352854344,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1547274589538574,
+        "support_distance": 0.41721680760383606,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2151782363653183,
+        "curvature_mse": 0.11900009214878082,
+        "direction_cosine": 0.967115042962778,
+        "finite": 1.0,
+        "hidden_path_mse": 1.74820876121521,
+        "support_distance": 0.2807510793209076,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1384965032339096,
+        "curvature_mse": 0.07659277319908142,
+        "direction_cosine": 0.4603521543596724,
+        "finite": 1.0,
+        "hidden_path_mse": 2.9078848361968994,
+        "support_distance": 0.26767149567604065,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16090509295463562,
+        "curvature_mse": 0.08898540586233139,
+        "direction_cosine": 0.7557673240848173,
+        "finite": 1.0,
+        "hidden_path_mse": 2.177966594696045,
+        "support_distance": 0.5438407063484192,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1522623747587204,
+        "curvature_mse": 0.08420569449663162,
+        "direction_cosine": 0.5456350969121979,
+        "finite": 1.0,
+        "hidden_path_mse": 2.82379150390625,
+        "support_distance": 0.2712973952293396,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.20384494960308075,
+        "curvature_mse": 0.11273244023323059,
+        "direction_cosine": 0.6594831817321538,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6047613620758057,
+        "support_distance": 0.5383564233779907,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15584702789783478,
+        "curvature_mse": 0.08618813753128052,
+        "direction_cosine": 0.3551171751798729,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5304946899414062,
+        "support_distance": 0.26200246810913086,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1272236555814743,
+        "curvature_mse": 0.07035854458808899,
+        "direction_cosine": 0.13347742073701585,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9186766743659973,
+        "support_distance": 0.17589136958122253,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08325960487127304,
+        "curvature_mse": 0.04604508355259895,
+        "direction_cosine": -0.2871823973626309,
+        "finite": 1.0,
+        "hidden_path_mse": 2.161902904510498,
+        "support_distance": 0.1933434158563614,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16095559298992157,
+        "curvature_mse": 0.08901333063840866,
+        "direction_cosine": 0.23754413080560266,
+        "finite": 1.0,
+        "hidden_path_mse": 2.255743980407715,
+        "support_distance": 0.2606939673423767,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.060871195048093796,
+        "curvature_mse": 0.033663615584373474,
+        "direction_cosine": 0.5637965708581095,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6430199146270752,
+        "support_distance": 0.36416348814964294,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10985946655273438,
+        "curvature_mse": 0.06075560674071312,
+        "direction_cosine": 0.6475436968267458,
+        "finite": 1.0,
+        "hidden_path_mse": 2.556244373321533,
+        "support_distance": 0.3278823494911194,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.42135632038116455,
+        "curvature_mse": 0.2330228090286255,
+        "direction_cosine": 0.512441673885088,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5467605590820312,
+        "support_distance": 0.6961442232131958,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.190956711769104,
+        "curvature_mse": 0.1056048572063446,
+        "direction_cosine": 0.016248098232305892,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0303750038146973,
+        "support_distance": 0.4359217584133148,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11565438657999039,
+        "curvature_mse": 0.06396038830280304,
+        "direction_cosine": 0.10868789876885328,
+        "finite": 1.0,
+        "hidden_path_mse": 1.803820013999939,
+        "support_distance": 0.2216324806213379,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14881040155887604,
+        "curvature_mse": 0.08229666203260422,
+        "direction_cosine": 0.30902521692208434,
+        "finite": 1.0,
+        "hidden_path_mse": 3.5254950523376465,
+        "support_distance": 0.5033624768257141,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07690867781639099,
+        "curvature_mse": 0.04253283143043518,
+        "direction_cosine": -0.11347653303364788,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2078869342803955,
+        "support_distance": 0.2969455420970917,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0393676795065403,
+        "curvature_mse": 0.021771520376205444,
+        "direction_cosine": -0.11888209354332532,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3410608768463135,
+        "support_distance": 0.2653551995754242,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2553460896015167,
+        "curvature_mse": 0.14121413230895996,
+        "direction_cosine": 0.5546587869910444,
+        "finite": 1.0,
+        "hidden_path_mse": 2.5464353561401367,
+        "support_distance": 0.6012619137763977,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17921586334705353,
+        "curvature_mse": 0.09911181032657623,
+        "direction_cosine": 0.7313826811864556,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2784571647644043,
+        "support_distance": 0.6395353078842163,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16401328146457672,
+        "curvature_mse": 0.09070432931184769,
+        "direction_cosine": 0.5574401102403447,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2811315059661865,
+        "support_distance": 0.5059331059455872,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07389305531978607,
+        "curvature_mse": 0.04086510092020035,
+        "direction_cosine": 0.1854883078526462,
+        "finite": 1.0,
+        "hidden_path_mse": 1.693281888961792,
+        "support_distance": 0.49446702003479004,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18282540142536163,
+        "curvature_mse": 0.10110798478126526,
+        "direction_cosine": 0.2092684136840296,
+        "finite": 1.0,
+        "hidden_path_mse": 2.002427339553833,
+        "support_distance": 0.3601208031177521,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.22256894409656525,
+        "curvature_mse": 0.12308739125728607,
+        "direction_cosine": -0.053255908812462775,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2959814071655273,
+        "support_distance": 0.21013544499874115,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1557389348745346,
+        "curvature_mse": 0.0861283540725708,
+        "direction_cosine": 0.03877405812924515,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7274284362792969,
+        "support_distance": 0.29727691411972046,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2991447150707245,
+        "curvature_mse": 0.16543608903884888,
+        "direction_cosine": 0.29368719744687544,
+        "finite": 1.0,
+        "hidden_path_mse": 3.079695224761963,
+        "support_distance": 0.760149359703064,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19944454729557037,
+        "curvature_mse": 0.11029888689517975,
+        "direction_cosine": 0.4044810833246094,
+        "finite": 1.0,
+        "hidden_path_mse": 2.129021406173706,
+        "support_distance": 0.2225324660539627,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10361465811729431,
+        "curvature_mse": 0.057302042841911316,
+        "direction_cosine": 0.35963092561043175,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5014007091522217,
+        "support_distance": 0.3359180688858032,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06747718900442123,
+        "curvature_mse": 0.03731692582368851,
+        "direction_cosine": 0.7151687003782183,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9593501687049866,
+        "support_distance": 0.18984539806842804,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15654905140399933,
+        "curvature_mse": 0.08657637238502502,
+        "direction_cosine": 0.24456597297368857,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5698264837265015,
+        "support_distance": 0.5721435546875,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.24159270524978638,
+        "curvature_mse": 0.13360808789730072,
+        "direction_cosine": 0.4577875482298939,
+        "finite": 1.0,
+        "hidden_path_mse": 2.36834454536438,
+        "support_distance": 0.4205646514892578,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2551954984664917,
+        "curvature_mse": 0.14113083481788635,
+        "direction_cosine": 0.38996136001673104,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9788532257080078,
+        "support_distance": 0.3117995858192444,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15261946618556976,
+        "curvature_mse": 0.08440320193767548,
+        "direction_cosine": 0.7682119983049591,
+        "finite": 1.0,
+        "hidden_path_mse": 2.03312611579895,
+        "support_distance": 0.19297298789024353,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09149632602930069,
+        "curvature_mse": 0.05060024559497833,
+        "direction_cosine": 0.5522280869079242,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7002267837524414,
+        "support_distance": 0.31985118985176086,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06537175178527832,
+        "curvature_mse": 0.036152567714452744,
+        "direction_cosine": 0.35357908275510064,
+        "finite": 1.0,
+        "hidden_path_mse": 2.356132984161377,
+        "support_distance": 0.2995254099369049,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04749499261379242,
+        "curvature_mse": 0.026266170665621758,
+        "direction_cosine": -0.1899113345428662,
+        "finite": 1.0,
+        "hidden_path_mse": 2.2357473373413086,
+        "support_distance": 0.2586793005466461,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14973653852939606,
+        "curvature_mse": 0.08280884474515915,
+        "direction_cosine": 0.584506755577292,
+        "finite": 1.0,
+        "hidden_path_mse": 2.170290470123291,
+        "support_distance": 0.34159567952156067,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1831233948469162,
+        "curvature_mse": 0.10127277672290802,
+        "direction_cosine": 0.03413067240977159,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1186158657073975,
+        "support_distance": 0.26216503977775574,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.4860803186893463,
+        "curvature_mse": 0.26881712675094604,
+        "direction_cosine": 0.9303700178300832,
+        "finite": 1.0,
+        "hidden_path_mse": 3.8529868125915527,
+        "support_distance": 0.9040675163269043,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1605553776025772,
+        "curvature_mse": 0.08879198879003525,
+        "direction_cosine": -0.004070788493812216,
+        "finite": 1.0,
+        "hidden_path_mse": 3.6030359268188477,
+        "support_distance": 0.48573923110961914,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2927134037017822,
+        "curvature_mse": 0.16187939047813416,
+        "direction_cosine": 0.37973427469879206,
+        "finite": 1.0,
+        "hidden_path_mse": 3.441573143005371,
+        "support_distance": 0.9808756113052368,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09646385908126831,
+        "curvature_mse": 0.05334743857383728,
+        "direction_cosine": -0.1275550000541462,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8326383829116821,
+        "support_distance": 0.2532973885536194,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09053917974233627,
+        "curvature_mse": 0.05007091164588928,
+        "direction_cosine": -0.05965590723835244,
+        "finite": 1.0,
+        "hidden_path_mse": 1.858276605606079,
+        "support_distance": 0.19452644884586334,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28027093410491943,
+        "curvature_mse": 0.15499833226203918,
+        "direction_cosine": 0.5879685491807802,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7866300344467163,
+        "support_distance": 0.1912805587053299,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2415541261434555,
+        "curvature_mse": 0.13358673453330994,
+        "direction_cosine": 0.33936361593361414,
+        "finite": 1.0,
+        "hidden_path_mse": 3.4964957237243652,
+        "support_distance": 0.2241460084915161,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.313992977142334,
+        "curvature_mse": 0.17364764213562012,
+        "direction_cosine": 0.6442073864084265,
+        "finite": 1.0,
+        "hidden_path_mse": 2.566655158996582,
+        "support_distance": 0.7870970964431763,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12976405024528503,
+        "curvature_mse": 0.07176345586776733,
+        "direction_cosine": 0.3931683686499975,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1329030990600586,
+        "support_distance": 0.4929705262184143,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10431873798370361,
+        "curvature_mse": 0.05769142881035805,
+        "direction_cosine": 0.14882308713229822,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0352540016174316,
+        "support_distance": 0.17788946628570557,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15213525295257568,
+        "curvature_mse": 0.08413541316986084,
+        "direction_cosine": 0.7902182291338496,
+        "finite": 1.0,
+        "hidden_path_mse": 2.170153856277466,
+        "support_distance": 0.17749741673469543,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10334489494562149,
+        "curvature_mse": 0.05715286731719971,
+        "direction_cosine": 0.3366841586955518,
+        "finite": 1.0,
+        "hidden_path_mse": 1.332659363746643,
+        "support_distance": 0.17171461880207062,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07268566638231277,
+        "curvature_mse": 0.04019738361239433,
+        "direction_cosine": 0.38747784920260664,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4190884828567505,
+        "support_distance": 0.2562902569770813,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17749732732772827,
+        "curvature_mse": 0.09816140681505203,
+        "direction_cosine": 0.41145017617932417,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8700342178344727,
+        "support_distance": 0.3674965798854828,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.042695146054029465,
+        "curvature_mse": 0.023611711338162422,
+        "direction_cosine": 0.486894212945552,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6303300857543945,
+        "support_distance": 0.12017302960157394,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.041196953505277634,
+        "curvature_mse": 0.02278316207230091,
+        "direction_cosine": 0.28112905740186545,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7070960998535156,
+        "support_distance": 0.23900379240512848,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18679730594158173,
+        "curvature_mse": 0.10330457985401154,
+        "direction_cosine": 0.20886655260209624,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9949308633804321,
+        "support_distance": 0.21745513379573822,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27132561802864075,
+        "curvature_mse": 0.1500512957572937,
+        "direction_cosine": 0.6532225370014396,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0697214603424072,
+        "support_distance": 0.723868191242218,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10894346237182617,
+        "curvature_mse": 0.06024903804063797,
+        "direction_cosine": 0.27628770393797564,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8424203395843506,
+        "support_distance": 0.20613795518875122,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13143013417720795,
+        "curvature_mse": 0.07268483936786652,
+        "direction_cosine": 0.10496715819308944,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6170809268951416,
+        "support_distance": 0.29808199405670166,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07476585358381271,
+        "curvature_mse": 0.04134778678417206,
+        "direction_cosine": 0.34178032685696663,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7617231607437134,
+        "support_distance": 0.2461193948984146,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09062904864549637,
+        "curvature_mse": 0.05012061446905136,
+        "direction_cosine": 0.716980567080944,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5344890356063843,
+        "support_distance": 0.16870731115341187,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09682626277208328,
+        "curvature_mse": 0.05354785919189453,
+        "direction_cosine": 0.5149755867817308,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4345954656600952,
+        "support_distance": 0.45333945751190186,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1641387641429901,
+        "curvature_mse": 0.09077371656894684,
+        "direction_cosine": 0.680350387560881,
+        "finite": 1.0,
+        "hidden_path_mse": 2.519627571105957,
+        "support_distance": 0.4742329716682434,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.15182536840438843,
+        "curvature_mse": 0.0839640349149704,
+        "direction_cosine": 0.642758663700002,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4394145011901855,
+        "support_distance": 0.45034632086753845,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14247775077819824,
+        "curvature_mse": 0.07879451662302017,
+        "direction_cosine": 0.387734024282543,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9925129413604736,
+        "support_distance": 0.4314567744731903,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2386205941438675,
+        "curvature_mse": 0.13196441531181335,
+        "direction_cosine": 0.9131497919655468,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8402049541473389,
+        "support_distance": 0.49271899461746216,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10101386904716492,
+        "curvature_mse": 0.05586373060941696,
+        "direction_cosine": -0.1169937701746708,
+        "finite": 1.0,
+        "hidden_path_mse": 3.6321654319763184,
+        "support_distance": 0.1480238288640976,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19151966273784637,
+        "curvature_mse": 0.10591618716716766,
+        "direction_cosine": 0.6529323516563016,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1174614429473877,
+        "support_distance": 0.475457102060318,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28912678360939026,
+        "curvature_mse": 0.1598958820104599,
+        "direction_cosine": 0.3236637782198958,
+        "finite": 1.0,
+        "hidden_path_mse": 3.1024539470672607,
+        "support_distance": 0.7693257927894592,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11090442538261414,
+        "curvature_mse": 0.06133350357413292,
+        "direction_cosine": 0.03146419600638349,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0160775184631348,
+        "support_distance": 0.1895272135734558,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0754329189658165,
+        "curvature_mse": 0.04171668738126755,
+        "direction_cosine": 0.5833322359598871,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1278023719787598,
+        "support_distance": 0.20492392778396606,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0946694016456604,
+        "curvature_mse": 0.05235504359006882,
+        "direction_cosine": 0.4987893899832283,
+        "finite": 1.0,
+        "hidden_path_mse": 2.3806650638580322,
+        "support_distance": 0.32022640109062195,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05345809832215309,
+        "curvature_mse": 0.02956394851207733,
+        "direction_cosine": 0.15387482442523523,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3065887689590454,
+        "support_distance": 0.05241786688566208,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1389542818069458,
+        "curvature_mse": 0.0768459290266037,
+        "direction_cosine": 0.8401261086796615,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6974767446517944,
+        "support_distance": 0.22646033763885498,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08253300189971924,
+        "curvature_mse": 0.04564325883984566,
+        "direction_cosine": 0.6124633813189897,
+        "finite": 1.0,
+        "hidden_path_mse": 1.951192855834961,
+        "support_distance": 0.3543455898761749,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14798752963542938,
+        "curvature_mse": 0.08184157311916351,
+        "direction_cosine": 0.7062739858702833,
+        "finite": 1.0,
+        "hidden_path_mse": 2.093228816986084,
+        "support_distance": 0.35787084698677063,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27476051449775696,
+        "curvature_mse": 0.1519509106874466,
+        "direction_cosine": 0.2303452595015414,
+        "finite": 1.0,
+        "hidden_path_mse": 2.9325127601623535,
+        "support_distance": 0.31823545694351196,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.055295079946517944,
+        "curvature_mse": 0.030579857528209686,
+        "direction_cosine": 0.24459510094568995,
+        "finite": 1.0,
+        "hidden_path_mse": 1.351425290107727,
+        "support_distance": 0.1870398223400116,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04814480245113373,
+        "curvature_mse": 0.026625534519553185,
+        "direction_cosine": 0.34681726644154676,
+        "finite": 1.0,
+        "hidden_path_mse": 0.4127407670021057,
+        "support_distance": 0.28456100821495056,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03881755843758583,
+        "curvature_mse": 0.021467283368110657,
+        "direction_cosine": 0.7211251848339274,
+        "finite": 1.0,
+        "hidden_path_mse": 0.224226713180542,
+        "support_distance": 0.17335107922554016,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.026948293671011925,
+        "curvature_mse": 0.014903225935995579,
+        "direction_cosine": 0.4940537048863234,
+        "finite": 1.0,
+        "hidden_path_mse": 0.14490146934986115,
+        "support_distance": 0.1114731878042221,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.014292165637016296,
+        "curvature_mse": 0.007904000580310822,
+        "direction_cosine": 0.11176059044498746,
+        "finite": 1.0,
+        "hidden_path_mse": 0.12490110844373703,
+        "support_distance": 0.08467277884483337,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.011245704255998135,
+        "curvature_mse": 0.0062192147597670555,
+        "direction_cosine": 0.619258021758887,
+        "finite": 1.0,
+        "hidden_path_mse": 0.022193539887666702,
+        "support_distance": 0.0231923870742321,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.012170028872787952,
+        "curvature_mse": 0.006730394903570414,
+        "direction_cosine": 0.1469556190805748,
+        "finite": 1.0,
+        "hidden_path_mse": 0.03517602011561394,
+        "support_distance": 0.03350363299250603,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.011694748885929585,
+        "curvature_mse": 0.006467551924288273,
+        "direction_cosine": 0.17762164568547706,
+        "finite": 1.0,
+        "hidden_path_mse": 0.065549336373806,
+        "support_distance": 0.028405286371707916,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.00690156826749444,
+        "curvature_mse": 0.003816776443272829,
+        "direction_cosine": 0.0370946337547476,
+        "finite": 1.0,
+        "hidden_path_mse": 0.1041051596403122,
+        "support_distance": 0.02334507741034031,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.00662960484623909,
+        "curvature_mse": 0.0036663725040853024,
+        "direction_cosine": -0.07137191556932271,
+        "finite": 1.0,
+        "hidden_path_mse": 0.14844736456871033,
+        "support_distance": 0.02242514118552208,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06626014411449432,
+        "curvature_mse": 0.036643870174884796,
+        "direction_cosine": 0.7523507252277082,
+        "finite": 1.0,
+        "hidden_path_mse": 1.0046546459197998,
+        "support_distance": 0.15524180233478546,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2633804976940155,
+        "curvature_mse": 0.14565739035606384,
+        "direction_cosine": 0.9671733968513979,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3300034999847412,
+        "support_distance": 0.160634383559227,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08158787339925766,
+        "curvature_mse": 0.045120567083358765,
+        "direction_cosine": 0.4186977248280224,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6372716426849365,
+        "support_distance": 0.15243299305438995,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11736998707056046,
+        "curvature_mse": 0.06490916013717651,
+        "direction_cosine": 0.3259778717197927,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8730911016464233,
+        "support_distance": 0.26558196544647217,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1200936809182167,
+        "curvature_mse": 0.0664154440164566,
+        "direction_cosine": 0.2987687312376367,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2704864740371704,
+        "support_distance": 0.11020928621292114,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1526452749967575,
+        "curvature_mse": 0.08441746234893799,
+        "direction_cosine": 0.6242886515633858,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5530929565429688,
+        "support_distance": 0.23951196670532227,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.02934691123664379,
+        "curvature_mse": 0.01622973196208477,
+        "direction_cosine": 0.423302134730023,
+        "finite": 1.0,
+        "hidden_path_mse": 1.18038010597229,
+        "support_distance": 0.10885334014892578,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.043817341327667236,
+        "curvature_mse": 0.02423231303691864,
+        "direction_cosine": 0.6140259067635367,
+        "finite": 1.0,
+        "hidden_path_mse": 1.24797523021698,
+        "support_distance": 0.11226218938827515,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.051006119698286057,
+        "curvature_mse": 0.02820793353021145,
+        "direction_cosine": 0.6861408826943395,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7362645864486694,
+        "support_distance": 0.20951604843139648,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05740493908524513,
+        "curvature_mse": 0.031746674329042435,
+        "direction_cosine": 0.11257979598613548,
+        "finite": 1.0,
+        "hidden_path_mse": 1.2692872285842896,
+        "support_distance": 0.22200271487236023,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16714151203632355,
+        "curvature_mse": 0.09243433177471161,
+        "direction_cosine": 0.40633089981767395,
+        "finite": 1.0,
+        "hidden_path_mse": 1.258713722229004,
+        "support_distance": 0.16369453072547913,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1337956041097641,
+        "curvature_mse": 0.0739930272102356,
+        "direction_cosine": 0.5846903138152907,
+        "finite": 1.0,
+        "hidden_path_mse": 1.056228518486023,
+        "support_distance": 0.2990186810493469,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2589309811592102,
+        "curvature_mse": 0.14319667220115662,
+        "direction_cosine": 0.8621575285104706,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8515766859054565,
+        "support_distance": 0.20337027311325073,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1748247593641281,
+        "curvature_mse": 0.09668339043855667,
+        "direction_cosine": 0.4923855070008773,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0879571437835693,
+        "support_distance": 0.5115256905555725,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0667826309800148,
+        "curvature_mse": 0.036932822316884995,
+        "direction_cosine": 0.7737093426894281,
+        "finite": 1.0,
+        "hidden_path_mse": 0.9150253534317017,
+        "support_distance": 0.15340878069400787,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05381094291806221,
+        "curvature_mse": 0.029759082943201065,
+        "direction_cosine": 0.3148236749400657,
+        "finite": 1.0,
+        "hidden_path_mse": 1.66669499874115,
+        "support_distance": 0.11650391668081284,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13661789894104004,
+        "curvature_mse": 0.07555383443832397,
+        "direction_cosine": 0.49578970917907256,
+        "finite": 1.0,
+        "hidden_path_mse": 2.8133280277252197,
+        "support_distance": 0.6106733679771423,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05250892415642738,
+        "curvature_mse": 0.029039032757282257,
+        "direction_cosine": 0.6175747278239339,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4874765872955322,
+        "support_distance": 0.14282537996768951,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07539419084787369,
+        "curvature_mse": 0.04169527068734169,
+        "direction_cosine": 0.11085935952140293,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4561450481414795,
+        "support_distance": 0.25502654910087585,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03469684720039368,
+        "curvature_mse": 0.01918840780854225,
+        "direction_cosine": 0.13080071739878976,
+        "finite": 1.0,
+        "hidden_path_mse": 1.970768690109253,
+        "support_distance": 0.11736470460891724,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1494414210319519,
+        "curvature_mse": 0.08264563232660294,
+        "direction_cosine": 0.7673125915949793,
+        "finite": 1.0,
+        "hidden_path_mse": 1.850595474243164,
+        "support_distance": 0.27165597677230835,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13823163509368896,
+        "curvature_mse": 0.0764462798833847,
+        "direction_cosine": 0.11490503199060059,
+        "finite": 1.0,
+        "hidden_path_mse": 1.960782527923584,
+        "support_distance": 0.19673539698123932,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13808710873126984,
+        "curvature_mse": 0.0763663575053215,
+        "direction_cosine": 0.21465409482607295,
+        "finite": 1.0,
+        "hidden_path_mse": 2.450904369354248,
+        "support_distance": 0.3664579689502716,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09209983795881271,
+        "curvature_mse": 0.05093400180339813,
+        "direction_cosine": 0.6999443883736095,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3595688343048096,
+        "support_distance": 0.20311647653579712,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08165036886930466,
+        "curvature_mse": 0.045155130326747894,
+        "direction_cosine": 0.10026707809218048,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4871220588684082,
+        "support_distance": 0.1893429160118103,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08847653120756149,
+        "curvature_mse": 0.04893020540475845,
+        "direction_cosine": 0.08872118065373259,
+        "finite": 1.0,
+        "hidden_path_mse": 2.152024745941162,
+        "support_distance": 0.28465336561203003,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13627983629703522,
+        "curvature_mse": 0.07536688446998596,
+        "direction_cosine": 0.41107077009997117,
+        "finite": 1.0,
+        "hidden_path_mse": 3.403214931488037,
+        "support_distance": 0.14955443143844604,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10058718919754028,
+        "curvature_mse": 0.05562775954604149,
+        "direction_cosine": 0.8949441349855958,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3293089866638184,
+        "support_distance": 0.19664473831653595,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.19617031514644623,
+        "curvature_mse": 0.10848812758922577,
+        "direction_cosine": 0.04986673274722116,
+        "finite": 1.0,
+        "hidden_path_mse": 2.965782403945923,
+        "support_distance": 0.528821587562561,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13145457208156586,
+        "curvature_mse": 0.07269835472106934,
+        "direction_cosine": 0.8643332977771473,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6995530128479004,
+        "support_distance": 0.30329766869544983,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09825698286294937,
+        "curvature_mse": 0.05433908849954605,
+        "direction_cosine": 0.48804555641048836,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0782322883605957,
+        "support_distance": 0.33236169815063477,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09506520628929138,
+        "curvature_mse": 0.05257394537329674,
+        "direction_cosine": 0.3778192172465326,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5256317853927612,
+        "support_distance": 0.30883392691612244,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10202208906412125,
+        "curvature_mse": 0.05642130598425865,
+        "direction_cosine": 0.41083992806790515,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5541068315505981,
+        "support_distance": 0.31245630979537964,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06412321329116821,
+        "curvature_mse": 0.035462088882923126,
+        "direction_cosine": 0.5629883267369492,
+        "finite": 1.0,
+        "hidden_path_mse": 1.0523037910461426,
+        "support_distance": 0.2035457044839859,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10879633575677872,
+        "curvature_mse": 0.060167670249938965,
+        "direction_cosine": 0.12100768713874571,
+        "finite": 1.0,
+        "hidden_path_mse": 2.409853458404541,
+        "support_distance": 0.3081742227077484,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1591150015592575,
+        "curvature_mse": 0.08799542486667633,
+        "direction_cosine": 0.5203600339479876,
+        "finite": 1.0,
+        "hidden_path_mse": 2.6834492683410645,
+        "support_distance": 0.47041261196136475,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12104222178459167,
+        "curvature_mse": 0.06694001704454422,
+        "direction_cosine": 0.3703625397434115,
+        "finite": 1.0,
+        "hidden_path_mse": 1.220292329788208,
+        "support_distance": 0.25659096240997314,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.04915888234972954,
+        "curvature_mse": 0.027186352759599686,
+        "direction_cosine": 0.4056449170719407,
+        "finite": 1.0,
+        "hidden_path_mse": 2.549285888671875,
+        "support_distance": 0.16628365218639374,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13477736711502075,
+        "curvature_mse": 0.07453596591949463,
+        "direction_cosine": 0.3011669977438474,
+        "finite": 1.0,
+        "hidden_path_mse": 2.519350290298462,
+        "support_distance": 0.22280548512935638,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13946951925754547,
+        "curvature_mse": 0.07713086903095245,
+        "direction_cosine": 0.5831757704223743,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3685357570648193,
+        "support_distance": 0.4674273729324341,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.13475340604782104,
+        "curvature_mse": 0.0745227187871933,
+        "direction_cosine": 0.4211871442512148,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5181796550750732,
+        "support_distance": 0.31562864780426025,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.20763425529003143,
+        "curvature_mse": 0.11482802778482437,
+        "direction_cosine": 0.39686917412001177,
+        "finite": 1.0,
+        "hidden_path_mse": 3.365420341491699,
+        "support_distance": 0.2972320020198822,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.07395878434181213,
+        "curvature_mse": 0.04090144485235214,
+        "direction_cosine": 0.6315836163594868,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8444710969924927,
+        "support_distance": 0.22361181676387787,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1944977045059204,
+        "curvature_mse": 0.10756312310695648,
+        "direction_cosine": 0.7497123208087018,
+        "finite": 1.0,
+        "hidden_path_mse": 2.105846405029297,
+        "support_distance": 0.2720920443534851,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.17166472971439362,
+        "curvature_mse": 0.09493579715490341,
+        "direction_cosine": 0.4591782012127199,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7333983182907104,
+        "support_distance": 0.22029903531074524,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0858960822224617,
+        "curvature_mse": 0.04750313609838486,
+        "direction_cosine": 0.5350431734013968,
+        "finite": 1.0,
+        "hidden_path_mse": 1.3712127208709717,
+        "support_distance": 0.16176000237464905,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.156560480594635,
+        "curvature_mse": 0.08658270537853241,
+        "direction_cosine": 0.5113981040022298,
+        "finite": 1.0,
+        "hidden_path_mse": 1.8484776020050049,
+        "support_distance": 0.26191025972366333,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.16341400146484375,
+        "curvature_mse": 0.09037289768457413,
+        "direction_cosine": 0.5419316673605823,
+        "finite": 1.0,
+        "hidden_path_mse": 2.565730571746826,
+        "support_distance": 0.7083790898323059,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.18316270411014557,
+        "curvature_mse": 0.10129453241825104,
+        "direction_cosine": 0.436025358704867,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0664358139038086,
+        "support_distance": 0.5621565580368042,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06664887070655823,
+        "curvature_mse": 0.03685884550213814,
+        "direction_cosine": 0.026542487768101742,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1202750205993652,
+        "support_distance": 0.22544483840465546,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11573173850774765,
+        "curvature_mse": 0.06400315463542938,
+        "direction_cosine": -0.1728843337616561,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0992684364318848,
+        "support_distance": 0.39147138595581055,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.11652013659477234,
+        "curvature_mse": 0.06443916261196136,
+        "direction_cosine": -0.1912154610457569,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9956536293029785,
+        "support_distance": 0.3755424916744232,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14527733623981476,
+        "curvature_mse": 0.08034277707338333,
+        "direction_cosine": 0.40482181944249296,
+        "finite": 1.0,
+        "hidden_path_mse": 2.63071346282959,
+        "support_distance": 0.3284846246242523,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14076566696166992,
+        "curvature_mse": 0.0778476893901825,
+        "direction_cosine": 0.7672615691954348,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6261346340179443,
+        "support_distance": 0.19941389560699463,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.055385906249284744,
+        "curvature_mse": 0.03063008561730385,
+        "direction_cosine": 0.5633142965663301,
+        "finite": 1.0,
+        "hidden_path_mse": 1.7252743244171143,
+        "support_distance": 0.2992796301841736,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.21566374599933624,
+        "curvature_mse": 0.11926859617233276,
+        "direction_cosine": 0.15380367550826812,
+        "finite": 1.0,
+        "hidden_path_mse": 3.0439369678497314,
+        "support_distance": 0.31950926780700684,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.21033020317554474,
+        "curvature_mse": 0.11631900072097778,
+        "direction_cosine": 0.029059431600663765,
+        "finite": 1.0,
+        "hidden_path_mse": 2.8177907466888428,
+        "support_distance": 0.2978491187095642,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.09483709186315536,
+        "curvature_mse": 0.05244778096675873,
+        "direction_cosine": 0.0806091172768399,
+        "finite": 1.0,
+        "hidden_path_mse": 3.807868480682373,
+        "support_distance": 0.32079362869262695,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.05900510028004646,
+        "curvature_mse": 0.032631613314151764,
+        "direction_cosine": 0.2222466867449261,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1258909702301025,
+        "support_distance": 0.42521268129348755,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0809575766324997,
+        "curvature_mse": 0.04477199539542198,
+        "direction_cosine": 0.32842669282166087,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4434454441070557,
+        "support_distance": 0.5937869548797607,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12419778108596802,
+        "curvature_mse": 0.0686851292848587,
+        "direction_cosine": 0.2975399824060999,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4368815422058105,
+        "support_distance": 0.6611154675483704,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.22102749347686768,
+        "curvature_mse": 0.12223490327596664,
+        "direction_cosine": 0.5954341212211264,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9920034408569336,
+        "support_distance": 0.284160315990448,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.08332974463701248,
+        "curvature_mse": 0.046083878725767136,
+        "direction_cosine": 0.31911211008847273,
+        "finite": 1.0,
+        "hidden_path_mse": 2.1335439682006836,
+        "support_distance": 0.32777103781700134,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.06859053671360016,
+        "curvature_mse": 0.03793265298008919,
+        "direction_cosine": 0.13126440881350493,
+        "finite": 1.0,
+        "hidden_path_mse": 2.17869234085083,
+        "support_distance": 0.3619115948677063,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.27612391114234924,
+        "curvature_mse": 0.1527048945426941,
+        "direction_cosine": 0.6256324933473948,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1950689554214478,
+        "support_distance": 0.4595983028411865,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.1496097594499588,
+        "curvature_mse": 0.0827387273311615,
+        "direction_cosine": 0.3341354916737375,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1253454685211182,
+        "support_distance": 0.1816149801015854,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2550607919692993,
+        "curvature_mse": 0.14105632901191711,
+        "direction_cosine": 0.675946980531859,
+        "finite": 1.0,
+        "hidden_path_mse": 2.4205212593078613,
+        "support_distance": 0.36964261531829834,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.35030296444892883,
+        "curvature_mse": 0.19372817873954773,
+        "direction_cosine": 0.6943300713432502,
+        "finite": 1.0,
+        "hidden_path_mse": 2.6258435249328613,
+        "support_distance": 0.8796854615211487,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.0778455138206482,
+        "curvature_mse": 0.04305092990398407,
+        "direction_cosine": -0.2937832293390356,
+        "finite": 1.0,
+        "hidden_path_mse": 1.4117820262908936,
+        "support_distance": 0.25487443804740906,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.3384912312030792,
+        "curvature_mse": 0.18719592690467834,
+        "direction_cosine": 0.9422493793611117,
+        "finite": 1.0,
+        "hidden_path_mse": 1.5695170164108276,
+        "support_distance": 0.21280643343925476,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.12729908525943756,
+        "curvature_mse": 0.07040025293827057,
+        "direction_cosine": 0.1882192837611284,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6721285581588745,
+        "support_distance": 0.18937906622886658,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.28161028027534485,
+        "curvature_mse": 0.15573900938034058,
+        "direction_cosine": 0.3408127422964047,
+        "finite": 1.0,
+        "hidden_path_mse": 2.307864189147949,
+        "support_distance": 0.5164307355880737,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.3862627446651459,
+        "curvature_mse": 0.21361500024795532,
+        "direction_cosine": 0.3640694732737096,
+        "finite": 1.0,
+        "hidden_path_mse": 2.911860942840576,
+        "support_distance": 0.4611929953098297,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.2947063446044922,
+        "curvature_mse": 0.1629815399646759,
+        "direction_cosine": 0.20960829978247567,
+        "finite": 1.0,
+        "hidden_path_mse": 2.372032880783081,
+        "support_distance": 0.44374150037765503,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.10123658180236816,
+        "curvature_mse": 0.05598689988255501,
+        "direction_cosine": 0.4192435939667006,
+        "finite": 1.0,
+        "hidden_path_mse": 1.6752482652664185,
+        "support_distance": 0.39891165494918823,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.25772470235824585,
+        "curvature_mse": 0.14252957701683044,
+        "direction_cosine": 0.6577493606346834,
+        "finite": 1.0,
+        "hidden_path_mse": 2.7216334342956543,
+        "support_distance": 0.6857052445411682,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.14285092055797577,
+        "curvature_mse": 0.07900089770555496,
+        "direction_cosine": 0.22612117022237088,
+        "finite": 1.0,
+        "hidden_path_mse": 2.0434117317199707,
+        "support_distance": 0.34939777851104736,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.03361699357628822,
+        "curvature_mse": 0.01859121583402157,
+        "direction_cosine": 0.2683505106620127,
+        "finite": 1.0,
+        "hidden_path_mse": 1.9411628246307373,
+        "support_distance": 0.0975465252995491,
+        "target_arrival": 1.0
+      },
+      {
+        "continuity_mse": 0.036183442920446396,
+        "curvature_mse": 0.020010540261864662,
+        "direction_cosine": 0.6515829658193025,
+        "finite": 1.0,
+        "hidden_path_mse": 1.1061689853668213,
+        "support_distance": 0.1146479994058609,
+        "target_arrival": 1.0
+      }
+    ]
+  },
+  "summary": {
+    "change_point": {
+      "continuity_mse": 0.13495338851977037,
+      "count": 181.0,
+      "curvature_mse": 0.07463331550143618,
+      "direction_cosine": 0.3841926489143221,
+      "finite": 1.0,
+      "hidden_path_mse": 1.944704551146834,
+      "support_distance": 0.3139395675009621,
+      "target_arrival": 1.0
+    },
+    "distance": {
+      "continuity_mse": 0.13495338851977037,
+      "count": 181.0,
+      "curvature_mse": 0.07463331550143618,
+      "direction_cosine": 0.3841926489143221,
+      "finite": 1.0,
+      "hidden_path_mse": 1.944704551146834,
+      "support_distance": 0.3139395675009621,
+      "target_arrival": 1.0
+    },
+    "hazard": {
+      "continuity_mse": 0.13495338851977037,
+      "count": 181.0,
+      "curvature_mse": 0.07463331550143618,
+      "direction_cosine": 0.3841926489143221,
+      "finite": 1.0,
+      "hidden_path_mse": 1.944704551146834,
+      "support_distance": 0.3139395675009621,
+      "target_arrival": 1.0
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "compliance_plant": 0.886002016129959,
+    "history_plant": -0.8250285851626903,
+    "shock_plant": 0.9012576275045928,
+    "teacher_forced": 0.8771791563669713
+  },
+  "heldout_selected": {
+    "causal_feedback": 1.0,
+    "continuity_mse": 0.06635190625782408,
+    "count": 477.0,
+    "curvature_mse": 0.028719824506457995,
+    "direction_cosine": 0.4671524923417,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8238108302437284,
+    "support_distance": 0.2677892557886162,
+    "target_arrival": 1.0
+  },
+  "selected": "shock_plant"
+}

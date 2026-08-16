@@ -1,0 +1,10 @@
+{
+  "claim": "SUPPORTED_STAGE",
+  "experiment": "EXP_R19",
+  "heldout_opened_once": true,
+  "overall_success": false,
+  "remaining_bottleneck": "physical causal feedback, learned F3 integration, and recoverable controller checkpoints",
+  "selected_method_development": "low_variance_mode",
+  "stage_metrics": {},
+  "success": true
+}

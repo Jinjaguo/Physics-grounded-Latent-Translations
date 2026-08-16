@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "fixed": 0.8771791563669713,
+    "graph_only": 0.9045040598782215,
+    "with_f2": 0.9005666286443035,
+    "without_f2": 0.8771791563669713
+  },
+  "heldout_selected": {
+    "ablation": 1.0,
+    "continuity_mse": 0.08038542825880947,
+    "count": 477.0,
+    "curvature_mse": 0.1551107019927954,
+    "direction_cosine": 0.43662445675279676,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8250306098716065,
+    "support_distance": 0.0,
+    "target_arrival": 1.0
+  },
+  "selected": "graph_only"
+}

@@ -1,0 +1,10 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "experiment": "EXP_R35",
+  "heldout_opened_once": true,
+  "overall_success": false,
+  "remaining_bottleneck": "physical causal feedback, learned F3 integration, and recoverable controller checkpoints",
+  "selected_method_development": "retrieve_then_graph",
+  "stage_metrics": {},
+  "success": false
+}

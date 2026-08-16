@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "full_reverse": 0.7888803413096898,
+    "no_return": 0.5706831465167793,
+    "stack_best": 0.685785195919646,
+    "stack_top": 0.5881813888353304
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.6712326236241019,
+    "count": 477.0,
+    "curvature_mse": 1.7573559769044633,
+    "direction_cosine": -0.22080943122155364,
+    "finite": 1.0,
+    "hidden_path_mse": 1.5759747238903925,
+    "return_error": 3.4450720544146418e-15,
+    "support_distance": 0.39047717613868993,
+    "target_arrival": 1.0
+  },
+  "selected": "full_reverse"
+}

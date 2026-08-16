@@ -1,3 +1,3 @@
 # Next experiment from EXP_R44
 
-EXP_R44 established only an interface gate for waypoint memory, branch checkpoints, and robot-state return; it did not open held-out control. The immediate next step is: record full serialize/saveState snapshots and waypoint fields during new rollouts. Keep representation, decoder, F1, old F2, R8 and all prior negative results frozen. EXP_R45 should test a new causal interface or explicitly preserve the gate failure.
+EXP_R44 tested the new `f3` mechanism. Development selected `change_point` and held-out decision was `NOT_SUPPORTED`. The result does not establish the full system. Next, EXP_R45 must introduce a different hypothesis or control/model family rather than repeat this mechanism or the old interface gate. Keep representation, decoder, F1, historical F2, and R8 frozen unless the next preregistration explicitly tests a new F1/F2/F3 role.

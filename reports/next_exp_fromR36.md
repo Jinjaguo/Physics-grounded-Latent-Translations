@@ -1,3 +1,3 @@
 # Next experiment from EXP_R36
 
-EXP_R36 established only an interface gate for long-horizon ordered task composition and atomic-action protection; it did not open held-out control. The immediate next step is: restore simulator snapshots or run prospective CALVIN episodes with controller state recorded. Keep representation, decoder, F1, old F2, R8 and all prior negative results frozen. EXP_R37 should test a new causal interface or explicitly preserve the gate failure.
+EXP_R36 tested the new `multires` mechanism. Development selected `coarse_fine` and held-out decision was `NOT_SUPPORTED`. The result does not establish the full system. Next, EXP_R37 must introduce a different hypothesis or control/model family rather than repeat this mechanism or the old interface gate. Keep representation, decoder, F1, historical F2, and R8 frozen unless the next preregistration explicitly tests a new F1/F2/F3 role.

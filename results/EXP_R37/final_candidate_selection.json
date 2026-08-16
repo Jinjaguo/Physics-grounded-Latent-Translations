@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "fixed": 0.9012076330155078,
+    "tube": 0.901293859459503,
+    "tube_loose": 0.9012862158804611,
+    "tube_tight": 0.9013218288086777
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.0664765890785327,
+    "count": 477.0,
+    "curvature_mse": 0.028803053675160843,
+    "direction_cosine": 0.46883803946417396,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8232996914246797,
+    "support_distance": 0.2675980909237447,
+    "target_arrival": 1.0
+  },
+  "selected": "tube_tight"
+}

@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "largest_mode": 0.4930150603486181,
+    "low_variance_mode": 0.6816179612523919,
+    "mean_knn": 0.5677399958762873,
+    "nearest_mode": 0.5677399958762873,
+    "pair_mode": 0.6047446640349377
+  },
+  "heldout_selected": {
+    "continuity_mse": 1.3838054172897738,
+    "count": 477.0,
+    "curvature_mse": 3.6306843837602085,
+    "direction_cosine": 0.6992048514815747,
+    "finite": 1.0,
+    "hidden_path_mse": 1.1416402341372311,
+    "support_distance": 0.15045054930123644,
+    "target_arrival": 1.0
+  },
+  "selected": "low_variance_mode"
+}

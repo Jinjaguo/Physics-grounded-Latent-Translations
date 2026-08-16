@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "ensemble_lowvar": 0.575866164447755,
+    "ensemble_mean": 0.8047660142725577,
+    "ensemble_worstcase": 0.86379511598843,
+    "nearest": 0.8047660142725577
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.5203825410931865,
+    "count": 477.0,
+    "curvature_mse": 1.141974445971303,
+    "direction_cosine": 0.7446477813098359,
+    "finite": 1.0,
+    "hidden_path_mse": 0.8539015196841718,
+    "support_distance": 0.25715529278264354,
+    "target_arrival": 1.0,
+    "uncertainty": 0.8989306522740258
+  },
+  "selected": "ensemble_worstcase"
+}

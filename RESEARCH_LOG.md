@@ -375,3 +375,16 @@ R16 将 surrogate plant 的 nominal lookup 改成 previous/current latent histor
 ### EXP_R17–EXP_R58 — bounded interface-gated continuation (not new method experiments)
 
 R17–R58 按阶段审计了 learned residual/ensemble plant、F3 completion、长时域组合、waypoint/branch return、集成系统和最终 prospective validation。它们是 42 个接口/数据可行性审计，不是 42 个新的控制方法实验；不能把行政编号增量当作方法迭代数量。每轮都保留了 train/dev/held-out 纪律；但完整 CALVIN episode 仍只有 `rel_actions`/frame index，Wave27 的 `robot_obs`/`scene_obs` 也缺少 Bullet contact、controller target、object velocity 和可恢复 branch snapshot，所以这些物理/因果实验统一为 `NOT_RUN_INTERFACE_GATE`，没有伪造 held-out 数字。R58 完成后不启动 R59。最终失败分类和 supported claims 见 `FINAL_R9_R58_FAILURE_TAXONOMY.md` 与 `FINAL_R9_R58_SUPPORTED_CLAIMS.md`。
+
+### Scientific reboot EXP_R17–EXP_R67
+
+旧 gate-only R17–R58 的 report/next 文件已复制到
+`reports/retired_gate_history/`，保留原始内容但不再作为活动实验计数。新的
+R17–R67 共 51 个编号全部引入新的假设、模型族、控制 formulation、数据构造、
+评估协议或机制消融。R17–R40 比较 horizon repair、goal/history/multimodal
+transition、MPC/graph/shooting/support/value planners；R41–R46 测试 F3
+completion 与连续 authority；R47–R55 测试 oracle/learned switching、长时域、
+retarget、interrupt、latent/waypoint return；R56–R67 做 F1/F2/F3 消融、
+counterfactual causal benchmark、distributional sampler、transfer、stress
+test 和 prospective full-state protocol。R67 到达上限但没有达到完整物理闭环
+成功，R68 未启动。逐轮证据见 `reports/EXP_R17_to_EXP_R67_chinese_summary.md`。

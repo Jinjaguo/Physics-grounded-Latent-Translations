@@ -50,6 +50,19 @@ administrative cap, not scientific completion of 50 method experiments. The
 full physical closed-loop system was not established because exact
 simulator/controller snapshots are absent. `EXP_R59` is forbidden.
 
+## Scientific reboot: EXP_R17–EXP_R67
+
+The old gate-only R17–R58 records are preserved as copies under
+[`reports/retired_gate_history/`](reports/retired_gate_history/). They are not
+counted as scientific experiments. The reboot re-registers R17–R67 as 51
+method-driven experiments: schedules and transition families, multimodal and
+uncertainty-aware planners, F3 completion models, long-horizon/retarget/return
+surrogates, module ablations, causal counterfactual benchmarks, and a
+prospective full-state collection protocol. Every reboot EXP has its own
+hypothesis, development selection, one held-out opening, report, and next-step
+document. R67 completed without full physical F2-MPC, automatic long-horizon
+switching, or real checkpoint return; no R68 was started.
+
 ## Released method
 
 - Input: an action-only `H=16` CALVIN `rel_actions` window.

@@ -1,21 +1,25 @@
-# EXP_R20 report — interface-gated continuation
+# EXP_R20 report — scientific reboot
 
 ## Scientific question
-Can the next learned residual and ensemble latent-plant families be evaluated without violating the closed-loop causal interface?
+Bootstrapped transition ensembles expose useful epistemic uncertainty for controller selection.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `ensemble` formulation and compares ensemble_mean, ensemble_lowvar, ensemble_worstcase, nearest. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885651968 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-the retained action-only complete episodes contain no action-conditioned robot/simulator snapshot; R9-R16 already exhausted valid latent surrogates. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `ensemble_worstcase` before opening held-out.
 
-## Required change
-acquire exact causal simulator state or a supported action-conditioned dataset before training a residual plant.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| ensemble_mean | 0.8048 | 1.0000 | 0.76755 | 0.9320 | 0.2274 |
+| ensemble_lowvar | 0.5759 | 1.0000 | 1.73182 | 1.3804 | 0.1860 |
+| ensemble_worstcase | 0.8638 | 1.0000 | 0.52038 | 0.8539 | 0.2572 |
+| nearest | 0.8048 | 1.0000 | 0.76755 | 0.9320 | 0.2274 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R21 is the next bounded audit.
+`SUPPORTED_STAGE`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 7.31s.

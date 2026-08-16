@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "linear": 0.900486951596494,
+    "trust_large": 0.9005109558670981,
+    "trust_medium": 0.900605184563641,
+    "trust_small": 0.9004299593088868
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.06551732720643189,
+    "count": 477.0,
+    "curvature_mse": 0.024892488664379285,
+    "direction_cosine": 0.4605234445561769,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8437627763868127,
+    "support_distance": 0.26704712408698267,
+    "target_arrival": 1.0
+  },
+  "selected": "trust_medium"
+}

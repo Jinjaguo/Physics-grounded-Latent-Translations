@@ -1,0 +1,5 @@
+{
+  "git_head": "9b60825b6a45a95a9b6f1e86a7a4f33c5dfede4e",
+  "script": "scripts/dynamics/run_exp_r17_to_r67_scientific_reboot.py",
+  "script_sha": "d421b712e17f6115720ec2e0e8597b56199083631aff469acf8c8abcf16c65a5"
+}

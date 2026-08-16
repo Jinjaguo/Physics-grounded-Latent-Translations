@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "confidence_gate": 0.9032267570473882,
+    "fixed": 0.8771791563669713,
+    "hard_gate": 0.8757289367968628,
+    "linear_gate": 0.889999454547717
+  },
+  "heldout_selected": {
+    "confidence_gate": 1.0,
+    "continuity_mse": 0.05409033849529836,
+    "count": 477.0,
+    "curvature_mse": 7.20223773285189e-15,
+    "direction_cosine": 0.4627817542444567,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8340701808219686,
+    "support_distance": 0.2594102932485816,
+    "target_arrival": 1.0
+  },
+  "selected": "confidence_gate"
+}

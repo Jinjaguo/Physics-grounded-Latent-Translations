@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "graph": 0.9029306849614243,
+    "open_loop": 0.8771791563669713,
+    "replan_each": 0.9045040598782215,
+    "replan_two": 0.9004547902058773
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.08038542825880947,
+    "count": 477.0,
+    "curvature_mse": 0.1551107019927954,
+    "direction_cosine": 0.43662445675279676,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8250306098716065,
+    "replans": 4.0,
+    "support_distance": 0.0,
+    "target_arrival": 1.0
+  },
+  "selected": "replan_each"
+}

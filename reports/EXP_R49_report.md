@@ -1,21 +1,25 @@
-# EXP_R49 report — interface-gated continuation
+# EXP_R49 report — scientific reboot
 
 ## Scientific question
-Can the next integrated F1/F2/F3 long-horizon and return demonstrations be evaluated without violating the closed-loop causal interface?
+Three-step ordered composition reveals failure modes hidden by two-step evaluation.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `long_horizon` formulation and compares replan_each, replan_two, open_loop, graph. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885402112 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-the physical/exact closed-loop gate remains unavailable; combining modules would be an unsupported extrapolation. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `replan_each` before opening held-out.
 
-## Required change
-do not promote an integrated claim until F2, F3, and return each pass independent held-out gates.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| replan_each | 0.9045 | 1.0000 | 0.08039 | 1.8250 | 0.0000 |
+| replan_two | 0.9005 | 1.0000 | 0.06616 | 1.8420 | 0.2618 |
+| open_loop | 0.8772 | 1.0000 | 0.15495 | 2.0147 | 0.3492 |
+| graph | 0.9029 | 1.0000 | 0.07804 | 1.8068 | 0.0000 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R50 is the next bounded audit.
+`NOT_SUPPORTED`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 2.52s.

@@ -1,0 +1,19 @@
+{
+  "development_scores": {
+    "graph_beam": 0.9044297348353126,
+    "graph_endpoint": 0.9039649897729803,
+    "graph_local": 0.9039649897729803,
+    "linear": 0.8771791563669713
+  },
+  "heldout_selected": {
+    "continuity_mse": 0.07855476644495404,
+    "count": 477.0,
+    "curvature_mse": 0.15348659251549085,
+    "direction_cosine": 0.4463866389073938,
+    "finite": 1.0,
+    "hidden_path_mse": 1.8179341916393184,
+    "support_distance": 0.0,
+    "target_arrival": 1.0
+  },
+  "selected": "graph_beam"
+}

@@ -1,0 +1,20 @@
+{
+  "development_scores": {
+    "joint_proxy": 0.685785195919646,
+    "latent_reverse": 0.5468359322790365,
+    "no_return": 0.5706831465167793,
+    "robot_waypoint": 0.685785195919646
+  },
+  "heldout_selected": {
+    "continuity_mse": 1.1933023893358323,
+    "count": 477.0,
+    "curvature_mse": 3.124188274582477,
+    "direction_cosine": -0.1710548357923128,
+    "finite": 1.0,
+    "hidden_path_mse": 1.7145600852164082,
+    "return_error": 2.019918074687349e-15,
+    "support_distance": 0.33104853332042694,
+    "target_arrival": 1.0
+  },
+  "selected": "robot_waypoint"
+}

@@ -1,3 +1,3 @@
 # Next experiment from EXP_R21
 
-EXP_R21 established only an interface gate for oracle-F3 completion, calibration, and two-step long-horizon integration; it did not open held-out control. The immediate next step is: keep F3 oracle and collect valid closed-loop transitions before integrating learned switching. Keep representation, decoder, F1, old F2, R8 and all prior negative results frozen. EXP_R22 should test a new causal interface or explicitly preserve the gate failure.
+EXP_R21 tested the new `mixture_selector` mechanism. Development selected `nearest` and held-out decision was `SUPPORTED_STAGE`. The result does not establish the full system. Next, EXP_R22 must introduce a different hypothesis or control/model family rather than repeat this mechanism or the old interface gate. Keep representation, decoder, F1, historical F2, and R8 frozen unless the next preregistration explicitly tests a new F1/F2/F3 role.

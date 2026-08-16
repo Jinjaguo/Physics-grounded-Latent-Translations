@@ -1,0 +1,16 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "experiment": "EXP_R41",
+  "heldout_opened_once": true,
+  "overall_success": false,
+  "remaining_bottleneck": "physical causal feedback, learned F3 integration, and recoverable controller checkpoints",
+  "selected_method_development": "distance",
+  "stage_metrics": {
+    "auroc_proxy": 0.41614036012991745,
+    "balanced_accuracy": 0.4416491963661775,
+    "early_switch_rate": 0.283717679944095,
+    "heldout_count": 2862.0,
+    "late_miss_rate": 0.7833682739343116
+  },
+  "success": false
+}

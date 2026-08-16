@@ -1,21 +1,25 @@
-# EXP_R24 report — interface-gated continuation
+# EXP_R24 report — scientific reboot
 
 ## Scientific question
-Can the next oracle-F3 completion, calibration, and two-step long-horizon integration be evaluated without violating the closed-loop causal interface?
+Multiple-shooting consistency prevents long-horizon drift better than one terminal interpolation.
 
-## Audit result
-**NOT_RUN_INTERFACE_GATE**. This is a bounded gate audit, not a positive or negative physical task result.
+## New scientific element
+This EXP introduces the `multiple_shooting` formulation and compares shooting_terminal, shooting_consistency, shooting_support, linear. It is not an interface audit and does not reuse the previous gate as an experiment.
 
-## Concrete evidence
-- Disk audit: available bytes=911885619200 (floor=300000000000, passed=True).
-- The repository's retained complete CALVIN episode schema is action-only (`rel_actions`, `global_frame_indices`); Wave27 observation windows contain `robot_obs` and `scene_obs` but do not contain a full Bullet snapshot.
-- The historical closed-loop state audit is preserved at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/calvin_closed_loop_state_audit.md` and its not-run manifest at `results/dynamics/eighteenth_wave/2026-08-14_dynamics_6/closed_loop_not_run_manifest.json`.
+## Data and frozen components
+The benchmark uses 864 episode-disjoint latent windows (train=206, development=181, held-out=477). Representation, decoder, F1, historical F2, and R8 are frozen; train target regions are never built from held-out futures.
 
-## Why this EXP cannot claim held-out control
-F3 readiness is below the frozen threshold and F2 is not supported under the available surrogate. Opening a held-out physical evaluation under these conditions would not be causal and would repeat the documented reconstruction-gate failure, so no held-out metrics are fabricated. Frozen representation, decoder, F1, old F2, and R8 results remain unchanged.
+## Development selection
+Selected `linear` before opening held-out.
 
-## Required change
-keep F3 oracle and collect valid closed-loop transitions before integrating learned switching.
+## Held-out results
+| method | dev score | heldout arrival | heldout continuity | hidden MSE | support |
+|---|---:|---:|---:|---:|---:|
+| shooting_terminal | 0.9005 | 1.0000 | 0.06574 | 1.8428 | 0.2624 |
+| shooting_consistency | 0.9004 | 1.0000 | 0.06622 | 1.8416 | 0.2623 |
+| shooting_support | 0.9004 | 1.0000 | 0.06596 | 1.8420 | 0.2620 |
+| linear | 0.9006 | 1.0000 | 0.06608 | 1.8414 | 0.2619 |
+
 
 ## Decision
-`SUCCESS=false`; EXP_R25 is the next bounded audit.
+`NOT_SUPPORTED`. This is a stage result only; overall hierarchical physical closed-loop success remains false. Remaining bottleneck: physical causal feedback, learned F3 integration, and recoverable controller checkpoints. Runtime: 7.93s.
