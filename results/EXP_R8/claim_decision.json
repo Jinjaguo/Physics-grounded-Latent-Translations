@@ -1,0 +1,13 @@
+{
+  "claim": "SUPPORTED",
+  "development_feasible": [
+    "repair_distributed_0.50",
+    "repair_late_0.50",
+    "repair_late_0.75"
+  ],
+  "experiment": "EXP_R8",
+  "heldout_opened_once": true,
+  "next_experiment": null,
+  "selected_method_development": "repair_late_0.75",
+  "success": true
+}

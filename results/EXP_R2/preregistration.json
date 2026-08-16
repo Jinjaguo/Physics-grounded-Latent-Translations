@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-08-16T03:55:57-04:00",
+  "disk": {
+    "available_bytes": 912017428480,
+    "floor_bytes": 300000000000,
+    "passed": true,
+    "total_bytes": 1795564949504,
+    "used_bytes": 792262696960
+  },
+  "experiment": "EXP_R2",
+  "horizon_8_status": "NOT_SUPPORTED_BY_128_FRAME_WINDOW",
+  "horizons_supported": [
+    2,
+    4
+  ],
+  "parent": "EXP_R1",
+  "representation_manifest": "reports/EXP_R1_frozen_manifest.json",
+  "source_goal_count": 7,
+  "target_rule": "source_goal -> target_goal train-only groups with 4th-neighbour local radius"
+}

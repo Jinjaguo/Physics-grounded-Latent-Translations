@@ -1,0 +1,32 @@
+{
+  "cases": 407,
+  "created_at": "2026-08-16T03:52:56-04:00",
+  "device": "cpu",
+  "methods": [
+    "linear_interpolation",
+    "f1_free_rollout",
+    "f2_old_refinement",
+    "graph_dijkstra",
+    "traj_terminal",
+    "traj_terminal_dynamics",
+    "traj_terminal_continuity",
+    "traj_terminal_support",
+    "traj_full",
+    "cem"
+  ],
+  "seed": 4101,
+  "success": false,
+  "timings_seconds": {
+    "cem": 38.96901370657724,
+    "f1_free_rollout": 0.12382649228675291,
+    "f2_old_refinement": 1.9628276001603808,
+    "graph_dijkstra": 22.8252059831284,
+    "linear_interpolation": 0.023085487890057266,
+    "traj_full": 28.561452281748643,
+    "traj_terminal": 20.586961891734973,
+    "traj_terminal_continuity": 22.41721371310996,
+    "traj_terminal_dynamics": 21.268647674791282,
+    "traj_terminal_support": 23.863774074066896
+  },
+  "train_nodes": 936
+}

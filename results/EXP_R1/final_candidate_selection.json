@@ -1,0 +1,27 @@
+{
+  "development_scores": {
+    "cem": 0.32742489694521343,
+    "f1_free_rollout": 0.03892125795627466,
+    "f2_old_refinement": 0.11469962108751813,
+    "graph_dijkstra": 0.16120738167015974,
+    "linear_interpolation": 0.35900946420499646,
+    "traj_full": 0.4749632241054512,
+    "traj_terminal": 0.35900946420499646,
+    "traj_terminal_continuity": 0.35729647973316836,
+    "traj_terminal_dynamics": 0.35522331958529585,
+    "traj_terminal_support": 0.4728819078583827
+  },
+  "methods": [
+    "linear_interpolation",
+    "f1_free_rollout",
+    "f2_old_refinement",
+    "graph_dijkstra",
+    "traj_terminal",
+    "traj_terminal_dynamics",
+    "traj_terminal_continuity",
+    "traj_terminal_support",
+    "traj_full",
+    "cem"
+  ],
+  "selected": "traj_full"
+}

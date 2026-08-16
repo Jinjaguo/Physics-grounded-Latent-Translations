@@ -1,0 +1,9 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "experiment": "EXP_R1",
+  "heldout_opened_once": true,
+  "next_experiment": "EXP_R2",
+  "selected_method_development": "traj_full",
+  "success": false,
+  "wave79_started": false
+}

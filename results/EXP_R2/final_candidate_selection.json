@@ -1,0 +1,27 @@
+{
+  "horizons": [
+    2,
+    4
+  ],
+  "methods": [
+    "local_interpolation",
+    "f1_free_rollout",
+    "f2_old_refinement",
+    "graph_smooth",
+    "traj_target",
+    "traj_smooth",
+    "traj_full_local",
+    "cem_local"
+  ],
+  "scores": {
+    "cem_local": -0.36030717063909296,
+    "f1_free_rollout": -0.45283153127322245,
+    "f2_old_refinement": -0.3723907770696042,
+    "graph_smooth": -0.3353013571052031,
+    "local_interpolation": -0.32626371259490655,
+    "traj_full_local": 0.1325438925247082,
+    "traj_smooth": -0.3353013571052031,
+    "traj_target": -0.32626371259490655
+  },
+  "selected": "traj_full_local"
+}

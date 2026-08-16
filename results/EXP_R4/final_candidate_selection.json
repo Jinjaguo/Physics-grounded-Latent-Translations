@@ -1,0 +1,21 @@
+{
+  "methods": [
+    "linear",
+    "f1",
+    "f2",
+    "graph",
+    "edge_proposal",
+    "multi_hypothesis",
+    "edge_proposal_repaired"
+  ],
+  "scores": {
+    "edge_proposal": 0.7342906964043392,
+    "edge_proposal_repaired": 0.7449734390090678,
+    "f1": 0.39742464496244717,
+    "f2": 0.4390021374907077,
+    "graph": -0.19008170398724028,
+    "linear": -0.13469167290842005,
+    "multi_hypothesis": 0.7416066981930265
+  },
+  "selected": "edge_proposal_repaired"
+}

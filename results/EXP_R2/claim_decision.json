@@ -1,0 +1,8 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "experiment": "EXP_R2",
+  "heldout_opened_once": true,
+  "next_experiment": "EXP_R3",
+  "selected_method_development": "traj_full_local",
+  "success": false
+}

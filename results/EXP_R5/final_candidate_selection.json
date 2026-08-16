@@ -1,0 +1,19 @@
+{
+  "methods": [
+    "linear",
+    "f1",
+    "f2",
+    "graph",
+    "proposal",
+    "hybrid_select"
+  ],
+  "scores": {
+    "f1": 0.39742464496244717,
+    "f2": 0.44064394087010983,
+    "graph": -0.1117741369451938,
+    "hybrid_select": -0.11070703148265566,
+    "linear": -0.06027095603926404,
+    "proposal": 0.7488637216759649
+  },
+  "selected": "proposal"
+}

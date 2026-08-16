@@ -31,6 +31,18 @@ recorded experimental results remain the source of truth for exact protocol and
 claim status. Update the outline only when a new experiment materially changes
 the scientific interpretation.
 
+After the Wave28–Wave78 pointwise steering program reached its registered upper
+bound, the active research direction is hierarchical latent path planning. The
+post-Wave78 specification is [`prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md`](prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md), and the first registered protocol is [`prompts/EXP_R1_AUTONOMOUS_LATENT_HIERARCHICAL_CONTROL_CODEX_PROMPT.md`](prompts/EXP_R1_AUTONOMOUS_LATENT_HIERARCHICAL_CONTROL_CODEX_PROMPT.md).
+Future experiments use the `EXP_R1`–`EXP_R80` namespace; Wave79 is not a valid
+experiment name. `EXP_R81` is forbidden. The initial protocol freezes the accepted representation,
+decoder, and F1, retains the old F2 as a baseline, uses oracle F3 boundaries,
+and tests multi-step latent path planning before learned task completion.
+
+The post-Wave78 program reached `SUPPORTED` at EXP_R8.  The selected
+arrival-first feasible selector (`repair_late_0.75`) passed the held-out joint
+gate, so EXP_R9 and later experiments were not required.
+
 ## Released method
 
 - Input: an action-only `H=16` CALVIN `rel_actions` window.

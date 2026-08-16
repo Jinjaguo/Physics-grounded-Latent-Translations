@@ -1,0 +1,192 @@
+{
+  "collection": {
+    "path": "results/dynamics/twenty_seventh_wave/2026-08-15_dynamics_15/wave27_collection_partial.json",
+    "sha256": "e8cd6da5fb6adc2e359e19294f3eda69093ed84c96ddb09f7e3b0645a7ef7e49",
+    "source_revision": "c0ddd6e9cf1463d8a6023a18cc608a6dff6a136d"
+  },
+  "created_at": "2026-08-16T03:46:06-04:00",
+  "disk": {
+    "available_bytes": 912019292160,
+    "floor_bytes": 300000000000,
+    "passed": true,
+    "total_bytes": 1795564949504,
+    "used_bytes": 792260833280
+  },
+  "experiment": "EXP_R1",
+  "f1_checkpoint": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+    "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+  },
+  "f2_checkpoint": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+    "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+  },
+  "frozen_parameters": {
+    "decoder": true,
+    "f1": true,
+    "historical_f2": true,
+    "representation": true
+  },
+  "per_split_goal_counts": {
+    "development": {
+      "lift_blue_block_slider": 13,
+      "lift_red_block_table": 15,
+      "place_in_slider": 17,
+      "push_pink_block_right": 18,
+      "turn_off_lightbulb": 12,
+      "turn_on_lightbulb": 12
+    },
+    "heldout": {
+      "lift_blue_block_slider": 15,
+      "lift_red_block_table": 12,
+      "place_in_slider": 15,
+      "push_pink_block_right": 13,
+      "turn_off_lightbulb": 15,
+      "turn_on_lightbulb": 16
+    },
+    "train": {
+      "lift_blue_block_slider": 50,
+      "lift_red_block_table": 56,
+      "place_in_slider": 47,
+      "push_pink_block_right": 23,
+      "turn_off_lightbulb": 29,
+      "turn_on_lightbulb": 29
+    }
+  },
+  "records": 407,
+  "representation": {
+    "action_window": 16,
+    "entry": {
+      "bytes": 337087,
+      "condition": "correct_language",
+      "ema_decay": 0.999,
+      "epoch": 40,
+      "normalization_source_rows": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        11,
+        14,
+        16,
+        17,
+        23,
+        27,
+        30
+      ],
+      "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+      "seed_base": 810,
+      "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65",
+      "source_payload_condition": "ema_isolated_correct_language"
+    },
+    "latent_dim": 32,
+    "normalization": {
+      "action_mean": [
+        0.00049769650466271,
+        -0.00039949435773503454,
+        -0.00012120015334326772,
+        9.484634393058406e-06,
+        -3.061934368884372e-05,
+        0.0013556436194455453
+      ],
+      "action_std": [
+        0.26834852033495865,
+        0.23661236545621833,
+        0.22371776143113112,
+        0.156886897833954,
+        0.1717797369560762,
+        0.27438707855475664
+      ],
+      "continuous_dimensions_only": true,
+      "gripper_unchanged_minus1_plus1": true,
+      "source_episode_rows": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        11,
+        14,
+        16,
+        17,
+        23,
+        27,
+        30
+      ],
+      "source_frame_count": 194884
+    },
+    "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+    "semantic_dim": 16,
+    "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+  },
+  "schema_counts": {
+    "rel_actions|robot_obs|scene_obs|global_frame_indices": 407
+  },
+  "split": {
+    "path": "results/dynamics/twenty_seventh_wave/2026-08-15_dynamics_15/wave27_new_data_split_manifest.json",
+    "sessions": {
+      "development": [
+        "prospective_training_ep_row_00034",
+        "prospective_training_ep_row_00035",
+        "prospective_training_ep_row_00036",
+        "prospective_training_ep_row_00038",
+        "prospective_training_ep_row_00054",
+        "prospective_training_ep_row_00056",
+        "prospective_training_ep_row_00061",
+        "prospective_training_ep_row_00083"
+      ],
+      "heldout": [
+        "prospective_training_ep_row_00031",
+        "prospective_training_ep_row_00051",
+        "prospective_training_ep_row_00057",
+        "prospective_training_ep_row_00060",
+        "prospective_training_ep_row_00075",
+        "prospective_training_ep_row_00081",
+        "prospective_training_ep_row_00084",
+        "prospective_training_ep_row_00085"
+      ],
+      "train": [
+        "prospective_training_ep_row_00032",
+        "prospective_training_ep_row_00033",
+        "prospective_training_ep_row_00037",
+        "prospective_training_ep_row_00039",
+        "prospective_training_ep_row_00040",
+        "prospective_training_ep_row_00041",
+        "prospective_training_ep_row_00042",
+        "prospective_training_ep_row_00043",
+        "prospective_training_ep_row_00044",
+        "prospective_training_ep_row_00045",
+        "prospective_training_ep_row_00046",
+        "prospective_training_ep_row_00047",
+        "prospective_training_ep_row_00048",
+        "prospective_training_ep_row_00049",
+        "prospective_training_ep_row_00050",
+        "prospective_training_ep_row_00055",
+        "prospective_training_ep_row_00058",
+        "prospective_training_ep_row_00059",
+        "prospective_training_ep_row_00063",
+        "prospective_training_ep_row_00064",
+        "prospective_training_ep_row_00065",
+        "prospective_training_ep_row_00066",
+        "prospective_training_ep_row_00067",
+        "prospective_training_ep_row_00068",
+        "prospective_training_ep_row_00069",
+        "prospective_training_ep_row_00070",
+        "prospective_training_ep_row_00071",
+        "prospective_training_ep_row_00072",
+        "prospective_training_ep_row_00073",
+        "prospective_training_ep_row_00074",
+        "prospective_training_ep_row_00076",
+        "prospective_training_ep_row_00078",
+        "prospective_training_ep_row_00079",
+        "prospective_training_ep_row_00080",
+        "prospective_training_ep_row_00082",
+        "prospective_training_ep_row_00086"
+      ]
+    },
+    "sha256": "86453aa1564931903e0162cfac9658e3566a8817fa9ebd69f30534685ced9d2f"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "case_protocol": "8 frozen H16 chunks per 128-frame window; chunk 3 is oracle start, chunks 4-7 are hidden evaluation path, goal is collection-record target task.",
+  "cost_ablation": [
+    "terminal",
+    "terminal+dynamics",
+    "terminal+continuity",
+    "terminal+support",
+    "terminal+dynamics+continuity+support"
+  ],
+  "created_at": "2026-08-16T03:46:06-04:00",
+  "experiment": "EXP_R1",
+  "heldout_policy": "select candidates only from development, then evaluate the frozen method set on heldout exactly once",
+  "historical_negative_baseline": "Wave28-Wave78 pointwise steering remains contextual evidence and is not retrained.",
+  "horizon": 4,
+  "methods": [
+    "linear_interpolation",
+    "f1_free_rollout",
+    "f2_old_refinement",
+    "graph_dijkstra",
+    "traj_terminal",
+    "traj_terminal_dynamics",
+    "traj_terminal_continuity",
+    "traj_terminal_support",
+    "traj_full",
+    "cem"
+  ],
+  "metrics": [
+    "target_arrival",
+    "endpoint_identity",
+    "hidden_path_latent_mse",
+    "decoded_action_mse",
+    "switch_jump",
+    "decoded_first_difference",
+    "decoded_second_difference",
+    "support_distance",
+    "unsupported_fraction",
+    "f1_dynamics_cost",
+    "path_length",
+    "curvature",
+    "runtime_seconds",
+    "nonfinite"
+  ],
+  "question": "Can a multi-step planner connect a real pre-boundary latent to a train-derived target action region while preserving continuity and support?",
+  "splits": {
+    "development": "new_development sessions",
+    "heldout": "new_prospective_test sessions",
+    "train": "new_train sessions"
+  },
+  "success_gate": "A planner must Pareto-improve over linear, F1, old F2, and pointwise/static interpolation on heldout target arrival, continuity, and support across the task set; otherwise NOT_SUPPORTED and continue EXP_R2.",
+  "target_region": "all train post-boundary chunks grouped by exact record goal; no heldout future endpoint used for construction",
+  "written_before_planner_run": true
+}

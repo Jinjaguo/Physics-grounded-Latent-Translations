@@ -1,0 +1,8 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "experiment": "EXP_R7",
+  "heldout_opened_once": true,
+  "next_experiment": "EXP_R8",
+  "selected_method_development": "repair_late_0.35",
+  "success": false
+}

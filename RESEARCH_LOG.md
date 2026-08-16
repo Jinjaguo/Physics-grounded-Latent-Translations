@@ -315,3 +315,36 @@ Wave77 运行了 pre_final_failure_audit，在多个输入分支、q 维度、�
 ## Wave 78 — 2026-08-15T04:10:54.474011-04:00
 
 Wave78 运行了 final_registered_tournament，在多个输入分支、q 维度、低秩基和损失权重中选择候选；Wave27 held-out 最好是 `final_registered_tournament_delta_q2_pca_w0.1`，execution redirect 约 0.0015，continuity 约 2.76，endpoint 约 0.24。结果说明该方向仍然没有解决 latent 到动作的连续迁移问题；没有达到成功门槛，但 Wave78 上限已经完成，研究程序在此结束，Wave79 禁止启动。
+
+## Post-Wave78 direction adoption — 2026-08-16
+
+根据 `prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md`，研究主线从点式 latent steering 切换为 hierarchical latent path planning。Wave28–Wave78 的失败结果保留为负面干预证据，不再继续 Wave79 或堆叠 force-field/residual adapter。新的 `EXP_R1` 协议冻结 action representation、decoder 和 F1，保留旧 F2 作为基线，先用 oracle F3 和真实有序 atomic-action transitions 测试多步路径规划；本次只同步研究入口文档，尚未运行 EXP_R1。
+
+## EXP_R1 — 2026-08-16
+
+完成首轮 hierarchical latent path-planning tournament：407 个真实连续边界窗口，比较线性插值、冻结 F1/F2、图搜索、五种 trajectory-optimization 代价和 CEM。开发选择 `traj_full`，但 held-out 未同时超过线性插值、F1 和旧 F2 的目标到达、动作连续性与支持性联合门槛，`SUCCESS=false`。图搜索降低了 latent support distance 但造成较大 decoded action jump；F1/F2 连续性较好但目标切换不足。R1 还暴露了目标区域半径过宽的问题，R2 改用 source→target 条件目标集和 train-only 局部邻域半径。中文逐轮总结见 `reports/EXP_R1_to_EXP_R50_chinese_summary.md`。
+## EXP_R2 — 2026-08-16
+
+R2 按 source→target 任务对构造 train-only 目标集合，用局部第四近邻半径替代 R1 的宽目标中心，并在 H=2/4 比较局部插值、冻结 F1/F2、图路径后平滑、轨迹优化和 CEM。`traj_full_local` 获得最低支持距离，但 held-out 动作连续性仍显著差于 F1/F2，联合成功门槛未通过，`SUCCESS=false`。R2 说明目标区域定义不是唯一瓶颈，当前 128 帧边界窗口缺少足够长的可验证路径结构；下一轮进入 EXP_R3，审计并利用真实 source-session 的最长无间隙连续段。
+
+## EXP_R3 — 2026-08-16
+
+R3 改用完整官方 CALVIN episode 的真实 annotation 边界，构造 864 个 episode-disjoint 的四步隐藏路径案例。旧 F2 在动作连续性上最好，但目标切换不足；检索/图方法更接近目标却产生较大动作跳变，R3 为 `NOT_SUPPORTED`。这把瓶颈进一步缩小到局部转移结构，而不是孤立窗口或静态目标中心。
+
+## EXP_R4 — 2026-08-16
+
+R4 训练了输入当前 latent 和目标语言、一次提出四步路径的局部 edge proposal，并比较单 proposal、多假设筛选和终点修复。最好的 `edge_proposal_repaired` 在 held-out 上把隐藏路径误差降到约 0.87、动作一阶差分降到约 0.85，明显优于线性、F1 和 F2；但目标到达率约 0.97，仍略低于线性基线的 1.0，严格联合门槛未通过，`SUCCESS=false`。下一轮进入 EXP_R5，测试状态条件 waypoint 图和可学习边代价。
+
+## EXP_R5 — 2026-08-16
+
+R5 把 proposal、线性、F1、F2 和图路径放入 train-only confidence gate。gate 为了保证局部半径内的到达，选择了图路径，held-out 到达率为 1.0，但动作一阶差分约 4.64，远差于 proposal 约 0.93；proposal 连续但到达率约 0.96。因此候选筛选本身不能解决到达—连续性冲突，`SUCCESS=false`，下一轮测试 proposal 与线性路径的连续混合。
+### EXP_R6 — proposal/linear continuous blend
+
+R6 在 train-only proposal 上预先注册了多个 proposal 与线性路径的连续混合比例，并在 development 选择后只打开一次 held-out。proposal 的隐藏路径误差约 0.87、动作一阶差分约 0.89，显著优于 F1/F2 和线性；但到达率约 0.973，仍低于线性 1.0，因此联合门槛失败。混合比例没有解决“平滑—到达”的最后冲突，下一轮进入有界终点残差修正。
+### EXP_R7 — bounded terminal residual
+
+R7 对 proposal 终点加入了 0.1–1.0 的有界残差，并比较均匀分布与末端集中两种四步修正。R7 发现 `repair_late_0.75` 在 held-out 已达到到达率 1.0、decoded first difference 约 1.06、隐藏路径误差约 0.97，三项都优于 F1/F2；但 development 的加权分数选择了较保守的 `repair_late_0.35`，其到达率约 0.985，故联合门槛仍为 NOT_SUPPORTED。下一轮将测试先满足 baseline 下界再优化连续性的 development 可行域选择器。
+
+### EXP_R8 — arrival-first feasible selector
+
+R8 修正了 R7 的 train-only 选择规则：development 先要求候选同时达到线性、F1、F2 的到达率、连续性和隐藏路径误差边界，再在可行候选中最小化终点距离。选择的 `repair_late_0.75` 在 held-out 到达率为 1.0，decoded first difference 约 1.038，隐藏路径 latent MSE 约 0.974；相对线性、F1、F2 三个基线三项都满足，`SUCCESS=true`。因此 post-Wave78 EXP 程序在 R8 成功停止，不启动 R9。
