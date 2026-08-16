@@ -372,6 +372,6 @@ R15 在同一 robust surrogate 上比较 proposal terminal repair beta=0.50、0.
 ### EXP_R16 — history-conditioned latent plant
 
 R16 将 surrogate plant 的 nominal lookup 改成 previous/current latent history + source→goal 匹配，比较 R8、proposal、F1、旧 F2、graph。proposal_h2_p2 连续性最好，但 worst-case 到达和隐藏误差没有同时超过 R8；`NOT_SUPPORTED`。历史匹配没有消除闭环缺口，下一轮测试轻量 learned residual plant。
-### EXP_R17–EXP_R58 — bounded interface-gated continuation
+### EXP_R17–EXP_R58 — bounded interface-gated continuation (not new method experiments)
 
-R17–R58 按阶段审计了 learned residual/ensemble plant、F3 completion、长时域组合、waypoint/branch return、集成系统和最终 prospective validation。每轮都保留了 train/dev/held-out 纪律；但完整 CALVIN episode 仍只有 `rel_actions`/frame index，Wave27 的 `robot_obs`/`scene_obs` 也缺少 Bullet contact、controller target、object velocity 和可恢复 branch snapshot，所以这些物理/因果实验统一为 `NOT_RUN_INTERFACE_GATE`，没有伪造 held-out 数字。R58 完成后不启动 R59。最终失败分类和 supported claims 见 `FINAL_R9_R58_FAILURE_TAXONOMY.md` 与 `FINAL_R9_R58_SUPPORTED_CLAIMS.md`。
+R17–R58 按阶段审计了 learned residual/ensemble plant、F3 completion、长时域组合、waypoint/branch return、集成系统和最终 prospective validation。它们是 42 个接口/数据可行性审计，不是 42 个新的控制方法实验；不能把行政编号增量当作方法迭代数量。每轮都保留了 train/dev/held-out 纪律；但完整 CALVIN episode 仍只有 `rel_actions`/frame index，Wave27 的 `robot_obs`/`scene_obs` 也缺少 Bullet contact、controller target、object velocity 和可恢复 branch snapshot，所以这些物理/因果实验统一为 `NOT_RUN_INTERFACE_GATE`，没有伪造 held-out 数字。R58 完成后不启动 R59。最终失败分类和 supported claims 见 `FINAL_R9_R58_FAILURE_TAXONOMY.md` 与 `FINAL_R9_R58_SUPPORTED_CLAIMS.md`。

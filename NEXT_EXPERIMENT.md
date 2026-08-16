@@ -13,7 +13,7 @@ Read the full protocol before starting:
 - [`prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md`](prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md)
 - [`prompts/EXP_R1_AUTONOMOUS_LATENT_HIERARCHICAL_CONTROL_CODEX_PROMPT.md`](prompts/EXP_R1_AUTONOMOUS_LATENT_HIERARCHICAL_CONTROL_CODEX_PROMPT.md)
 
-EXP_R1 through EXP_R7 were **NOT_SUPPORTED**. EXP_R8 is **SUPPORTED** for offline multi-step path construction. The follow-up closed-loop program EXP_R9–EXP_R58 completed without establishing the full physical system: exact simulator/controller snapshots and causal action-conditioned robot state were unavailable, and F3 readiness did not pass. EXP_R58 is the hard upper bound; EXP_R59 is forbidden. See `FINAL_R9_R58_*.md` for the conservative final claims and required data collection.
+EXP_R1 through EXP_R7 were **NOT_SUPPORTED**. EXP_R8 is **SUPPORTED** for offline multi-step path construction. In the follow-up closed-loop program, only EXP_R9–EXP_R16 were substantive method experiments; EXP_R17–EXP_R58 were interface/data feasibility audits and must not be counted as 42 new methods. The program completed its administrative R58 cap without establishing the full physical system: exact simulator/controller snapshots and causal action-conditioned robot state were unavailable, and F3 readiness did not pass. EXP_R59 is forbidden. See `FINAL_R9_R58_*.md` for the corrected scope, conservative claims, and required data collection.
 
 ## Historical Wave28–Wave78 termination
 

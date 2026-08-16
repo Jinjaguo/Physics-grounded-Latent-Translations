@@ -1,5 +1,10 @@
 # EXP_R9–EXP_R58 failure taxonomy
 
+The identifier range overstates the amount of method development: the
+substantive core stopped at `EXP_R16`, while `EXP_R17–EXP_R58` were blocked
+continuation audits. This is a reporting limitation, not evidence for 42 new
+failed algorithms.
+
 1. **Causal state missing:** complete episodes omit Bullet snapshots, contacts, controller targets, and object velocities.
 2. **Teacher-forced feedback:** recorded next states do not respond to the planned command, so they cannot certify physical MPC.
 3. **Arrival–continuity trade-off:** proposal paths are smooth but slightly miss target regions; R8/linear paths arrive more often but are less smooth.
