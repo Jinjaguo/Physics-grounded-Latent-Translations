@@ -1,0 +1,8 @@
+{
+  "readiness_thresholds": {
+    "balanced_accuracy": 0.7,
+    "early_switch_rate": 0.15,
+    "late_miss_rate": 0.3
+  },
+  "selected": "linear_mlp"
+}

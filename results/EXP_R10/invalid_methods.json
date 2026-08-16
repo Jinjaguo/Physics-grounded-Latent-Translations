@@ -1,0 +1,7 @@
+{
+  "methods": [
+    "cem_mpc_h4_p1",
+    "traj_mpc_h4_p1"
+  ],
+  "reason": "Repeated surrogate replanning with historical autograd/sampling candidates exceeded CPU budget before metrics; no held-out values read."
+}

@@ -13,7 +13,7 @@ Read the full protocol before starting:
 - [`prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md`](prompts/ACTIONS_AS_COORDINATES_POST_WAVE78_RESEARCH_DIRECTION.md)
 - [`prompts/EXP_R1_AUTONOMOUS_LATENT_HIERARCHICAL_CONTROL_CODEX_PROMPT.md`](prompts/EXP_R1_AUTONOMOUS_LATENT_HIERARCHICAL_CONTROL_CODEX_PROMPT.md)
 
-EXP_R1 through EXP_R7 were **NOT_SUPPORTED**. EXP_R8 is **SUPPORTED**: its development-only arrival-first feasible selector chose `repair_late_0.75`, which passed the held-out joint gate. The post-Wave78 program therefore terminates successfully at EXP_R8; EXP_R9 through EXP_R80 were not needed and EXP_R81 remains forbidden. The representation, decoder, F1, and historical F2 remain frozen in the supported result.
+EXP_R1 through EXP_R7 were **NOT_SUPPORTED**. EXP_R8 is **SUPPORTED** for offline multi-step path construction. The follow-up closed-loop program EXP_R9–EXP_R58 completed without establishing the full physical system: exact simulator/controller snapshots and causal action-conditioned robot state were unavailable, and F3 readiness did not pass. EXP_R58 is the hard upper bound; EXP_R59 is forbidden. See `FINAL_R9_R58_*.md` for the conservative final claims and required data collection.
 
 ## Historical Wave28–Wave78 termination
 

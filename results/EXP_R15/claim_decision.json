@@ -1,0 +1,10 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "experiment": "EXP_R15",
+  "heldout_opened_once": true,
+  "next_experiment": "EXP_R16",
+  "overall_full_system": false,
+  "selected_method_development": "r8_fixed",
+  "success": false,
+  "surrogate_supported": false
+}

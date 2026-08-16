@@ -1,0 +1,10 @@
+{
+  "claim": "F3_READINESS_NOT_SUPPORTED",
+  "experiment": "EXP_R13",
+  "f3_promoted": false,
+  "heldout_opened_once": true,
+  "next_experiment": "EXP_R14",
+  "overall_full_system": false,
+  "selected_method": "linear_mlp",
+  "success": false
+}

@@ -39,9 +39,13 @@ experiment name. `EXP_R81` is forbidden. The initial protocol freezes the accept
 decoder, and F1, retains the old F2 as a baseline, uses oracle F3 boundaries,
 and tests multi-step latent path planning before learned task completion.
 
-The post-Wave78 program reached `SUPPORTED` at EXP_R8.  The selected
-arrival-first feasible selector (`repair_late_0.75`) passed the held-out joint
-gate, so EXP_R9 and later experiments were not required.
+The post-Wave78 open-loop program reached `SUPPORTED` at EXP_R8 with
+`repair_late_0.75`.  The subsequent bounded closed-loop stage EXP_R9–EXP_R58
+then tested latent replay, action-conditioned/history plants, robust shocks,
+target-set capture, completion readiness, and waypoint/return interface gates.
+It did not establish the full physical closed-loop system because exact
+simulator/controller snapshots are absent.  EXP_R58 is complete and EXP_R59
+is forbidden.
 
 ## Released method
 

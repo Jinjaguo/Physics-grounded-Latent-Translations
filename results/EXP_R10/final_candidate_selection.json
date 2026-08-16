@@ -1,0 +1,69 @@
+{
+  "compliances": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "evaluated_planners": [
+    "r8_open_loop",
+    "proposal_h2_p1",
+    "proposal_h2_p2",
+    "proposal_h4_p1",
+    "proposal_h4_p2",
+    "f1_closed_h4_p1",
+    "old_f2_closed_h4_p1",
+    "graph_mpc_h4_p1"
+  ],
+  "invalid_planners": [
+    "cem_mpc_h4_p1",
+    "traj_mpc_h4_p1"
+  ],
+  "planners": [
+    "r8_open_loop",
+    "proposal_h2_p1",
+    "proposal_h2_p2",
+    "proposal_h4_p1",
+    "proposal_h4_p2",
+    "f1_closed_h4_p1",
+    "old_f2_closed_h4_p1",
+    "graph_mpc_h4_p1",
+    "cem_mpc_h4_p1",
+    "traj_mpc_h4_p1"
+  ],
+  "scores": {
+    "f1_closed_h4_p1_c0.25": 0.6256024222882742,
+    "f1_closed_h4_p1_c0.50": 0.6993487202948299,
+    "f1_closed_h4_p1_c0.75": 0.7098755291740292,
+    "f1_closed_h4_p1_c1.00": 0.3974246417002454,
+    "graph_mpc_h4_p1_c0.25": 0.30797894021588784,
+    "graph_mpc_h4_p1_c0.50": 0.3902101101611035,
+    "graph_mpc_h4_p1_c0.75": 0.23962155920633452,
+    "graph_mpc_h4_p1_c1.00": -0.054253470079036976,
+    "old_f2_closed_h4_p1_c0.25": 0.6270333286971678,
+    "old_f2_closed_h4_p1_c0.50": 0.7027400833940473,
+    "old_f2_closed_h4_p1_c0.75": 0.7099012356127987,
+    "old_f2_closed_h4_p1_c1.00": 0.4406439395467055,
+    "proposal_h2_p1_c0.25": 0.7247608226718824,
+    "proposal_h2_p1_c0.50": 0.784968964718488,
+    "proposal_h2_p1_c0.75": 0.7885039628097447,
+    "proposal_h2_p1_c1.00": 0.8016550717185873,
+    "proposal_h2_p2_c0.25": 0.7240536730180788,
+    "proposal_h2_p2_c0.50": 0.774748455650734,
+    "proposal_h2_p2_c0.75": 0.7942440681689475,
+    "proposal_h2_p2_c1.00": 0.803152400362228,
+    "proposal_h4_p1_c0.25": 0.7247608226718824,
+    "proposal_h4_p1_c0.50": 0.784968964718488,
+    "proposal_h4_p1_c0.75": 0.7885039628097447,
+    "proposal_h4_p1_c1.00": 0.8016550717185873,
+    "proposal_h4_p2_c0.25": 0.7240536730180788,
+    "proposal_h4_p2_c0.50": 0.774748455650734,
+    "proposal_h4_p2_c0.75": 0.7942440681689475,
+    "proposal_h4_p2_c1.00": 0.803152400362228,
+    "r8_open_loop_c0.25": 0.6750752006446459,
+    "r8_open_loop_c0.50": 0.7051287972177919,
+    "r8_open_loop_c0.75": 0.7368795178748296,
+    "r8_open_loop_c1.00": 0.7392410282848288
+  },
+  "selected": "proposal_h2_p2_c1.00"
+}

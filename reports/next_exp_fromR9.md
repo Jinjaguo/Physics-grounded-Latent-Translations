@@ -1,0 +1,3 @@
+# Next experiment from EXP_R9
+
+EXP_R9 selected `r8_open_loop` on development and established only a teacher-forced latent replay result: the controller replans from recorded next action windows, not from an action-conditioned simulator. The remaining bottleneck is causal plant feedback. EXP_R10 should build a train-only one-step action-conditioned latent plant surrogate from complete episode transitions and compare it with the teacher-forced replay, while keeping the representation, decoder, F1, historical F2, and R8 repair frozen. It must include proposal, F1, old F2, graph, and sampling baselines, then evaluate held-out once. Physical/exact Bullet closed loop remains a separate limitation, not a hidden claim.

@@ -1,0 +1,49 @@
+{
+  "robust_development": {
+    "f1_closed_h4_p1": {
+      "worst_arrival": 0.9668508287292817,
+      "worst_diff": 1.134199714545387,
+      "worst_hidden": 1.0681166657097432
+    },
+    "graph_mpc_h4_p1": {
+      "worst_arrival": 0.9779005524861878,
+      "worst_diff": 2.769950179352286,
+      "worst_hidden": 1.1656907982918439
+    },
+    "old_f2_closed_h4_p1": {
+      "worst_arrival": 0.9723756906077348,
+      "worst_diff": 1.1373174139478588,
+      "worst_hidden": 1.054785209795388
+    },
+    "proposal_density": {
+      "worst_arrival": 0.9834254143646409,
+      "worst_diff": 0.7975317938716372,
+      "worst_hidden": 0.9867293778704016
+    },
+    "proposal_ensemble": {
+      "worst_arrival": 0.9834254143646409,
+      "worst_diff": 0.7957990418975525,
+      "worst_hidden": 0.9882554948659233
+    },
+    "proposal_margin": {
+      "worst_arrival": 0.9834254143646409,
+      "worst_diff": 0.797676158214801,
+      "worst_hidden": 0.9861878191239267
+    },
+    "r8_nearest": {
+      "worst_arrival": 0.988950276243094,
+      "worst_diff": 1.083323653396322,
+      "worst_hidden": 0.9799963728169709
+    }
+  },
+  "scores": {
+    "f1_closed_h4_p1": 0.6866050525347172,
+    "graph_mpc_h4_p1": 0.36562597670113833,
+    "old_f2_closed_h4_p1": 0.6921729473283936,
+    "proposal_density": 0.7745825866967935,
+    "proposal_ensemble": 0.7748528312418342,
+    "proposal_margin": 0.7745807917654843,
+    "r8_nearest": 0.723285726922981
+  },
+  "selected": "proposal_ensemble"
+}

@@ -1,0 +1,18 @@
+{
+  "f1": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F1_execution_mlp.pt",
+    "sha256": "41f63d173c919cc01d5f5cbfab3af41983813a63ed018c43dbbc28ddd1df9fb0"
+  },
+  "f2": {
+    "path": "results/dynamics/fifteenth_wave/2026-08-12_dynamics_3/checkpoints/F2_matched_refinement.pt",
+    "sha256": "9b19c0c3c47994c734eccfae4a8070a29b8ff35020ac1e7ef04e0f7f8d9be308"
+  },
+  "r8_script": {
+    "path": "scripts/dynamics/run_exp_r8.py",
+    "sha256": "fff9baa5e5732a087a0ae7a15855a2679f8d52065680374d27a133a4c6641365"
+  },
+  "representation": {
+    "path": "checkpoints/representation/seed_810/correct_language/checkpoint_ema.pt",
+    "sha256": "44ae3c4c9810fdfd44e396d44e0f346a57e9e5c0b4349babc0292960c255fb65"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "methods": [
+    "r8_open_loop",
+    "proposal_h2_p1",
+    "proposal_h2_p2",
+    "proposal_h4_p1",
+    "proposal_h4_p2",
+    "warm_proposal_h4_p1",
+    "f1_closed_h4_p1",
+    "old_f2_closed_h4_p1",
+    "graph_mpc_h4_p1",
+    "cem_mpc_h4_p1",
+    "traj_mpc_h4_p1"
+  ],
+  "scores": {
+    "cem_mpc_h4_p1": -0.035836958227812965,
+    "f1_closed_h4_p1": 0.3692955853044986,
+    "graph_mpc_h4_p1": 0.06367798060281667,
+    "old_f2_closed_h4_p1": 0.3746274524243826,
+    "proposal_h2_p1": 0.5907477207984055,
+    "proposal_h2_p2": 0.6391586813824611,
+    "proposal_h4_p1": 0.5907477207984055,
+    "proposal_h4_p2": 0.6391586813824611,
+    "r8_open_loop": 0.6414126000779768,
+    "traj_mpc_h4_p1": 0.0496728965588613,
+    "warm_proposal_h4_p1": 0.5490262091036331
+  },
+  "selected": "r8_open_loop"
+}

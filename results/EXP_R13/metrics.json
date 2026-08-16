@@ -1,0 +1,71 @@
+{
+  "distance_score": {
+    "development": {
+      "auroc": 0.6990133085070663,
+      "balanced_accuracy": 0.6581491712707183,
+      "early_switch_rate": 0.32044198895027626,
+      "late_miss_rate": 0.3632596685082873,
+      "threshold": 0.6041401011255758
+    },
+    "heldout": {
+      "auroc": 0.7367950898566776,
+      "balanced_accuracy": 0.6873689727463312,
+      "early_switch_rate": 0.2557651991614256,
+      "late_miss_rate": 0.3694968553459119,
+      "threshold": 0.6041401011255758
+    },
+    "train": {
+      "auroc": 0.9997186940333679,
+      "balanced_accuracy": 0.8574029126213591,
+      "early_switch_rate": 0.28519417475728154,
+      "late_miss_rate": 0.0,
+      "threshold": 0.6041401011255758
+    }
+  },
+  "linear_mlp": {
+    "development": {
+      "auroc": 0.7461501480418791,
+      "balanced_accuracy": 0.6823204419889503,
+      "early_switch_rate": 0.13535911602209943,
+      "late_miss_rate": 0.5,
+      "threshold": 0.15000000000000002
+    },
+    "heldout": {
+      "auroc": 0.785234519555749,
+      "balanced_accuracy": 0.6928721174004193,
+      "early_switch_rate": 0.08228511530398323,
+      "late_miss_rate": 0.5319706498951782,
+      "threshold": 0.15000000000000002
+    },
+    "train": {
+      "auroc": 0.9999896903572438,
+      "balanced_accuracy": 0.9763349514563107,
+      "early_switch_rate": 0.04733009708737864,
+      "late_miss_rate": 0.0,
+      "threshold": 0.15000000000000002
+    }
+  },
+  "mlp_fusion": {
+    "development": {
+      "auroc": 0.7496470651079027,
+      "balanced_accuracy": 0.6187845303867403,
+      "early_switch_rate": 0.05386740331491713,
+      "late_miss_rate": 0.7085635359116023,
+      "threshold": 0.1
+    },
+    "heldout": {
+      "auroc": 0.7696524399087589,
+      "balanced_accuracy": 0.6058700209643606,
+      "early_switch_rate": 0.020440251572327043,
+      "late_miss_rate": 0.7678197064989518,
+      "threshold": 0.1
+    },
+    "train": {
+      "auroc": 0.9999985271938919,
+      "balanced_accuracy": 0.9993932038834952,
+      "early_switch_rate": 0.0012135922330097086,
+      "late_miss_rate": 0.0,
+      "threshold": 0.1
+    }
+  }
+}

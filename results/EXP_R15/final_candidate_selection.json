@@ -1,0 +1,43 @@
+{
+  "robust_development": {
+    "f1_nominal": {
+      "worst_arrival": 0.9116022099447514,
+      "worst_diff": 1.134199714545387,
+      "worst_hidden": 1.22101230005533
+    },
+    "old_f2_nominal": {
+      "worst_arrival": 0.9337016574585635,
+      "worst_diff": 1.1373174139478588,
+      "worst_hidden": 1.1549418712683146
+    },
+    "proposal_beta_0.50": {
+      "worst_arrival": 0.9613259668508287,
+      "worst_diff": 0.8715446028261553,
+      "worst_hidden": 1.003687490745144
+    },
+    "proposal_beta_0.75": {
+      "worst_arrival": 0.9613259668508287,
+      "worst_diff": 0.8715446028261553,
+      "worst_hidden": 1.003687490745144
+    },
+    "proposal_beta_1.00": {
+      "worst_arrival": 0.9613259668508287,
+      "worst_diff": 0.8715446028261553,
+      "worst_hidden": 1.003687490745144
+    },
+    "r8_fixed": {
+      "worst_arrival": 0.9613259668508287,
+      "worst_diff": 0.8715446028261553,
+      "worst_hidden": 1.003687490745144
+    }
+  },
+  "scores": {
+    "f1_nominal": 0.6237116520329075,
+    "old_f2_nominal": 0.648491081105576,
+    "proposal_beta_0.50": 0.7368326717483404,
+    "proposal_beta_0.75": 0.7368326717483404,
+    "proposal_beta_1.00": 0.7368326717483404,
+    "r8_fixed": 0.7368326717483404
+  },
+  "selected": "r8_fixed"
+}

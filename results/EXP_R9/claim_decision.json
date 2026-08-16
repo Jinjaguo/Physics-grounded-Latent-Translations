@@ -1,0 +1,10 @@
+{
+  "claim": "NOT_SUPPORTED",
+  "closed_loop_surrogate_supported": false,
+  "experiment": "EXP_R9",
+  "heldout_opened_once": true,
+  "next_experiment": "EXP_R10",
+  "overall_full_system": false,
+  "selected_method_development": "r8_open_loop",
+  "success": false
+}

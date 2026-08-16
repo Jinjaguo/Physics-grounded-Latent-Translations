@@ -348,3 +348,30 @@ R7 对 proposal 终点加入了 0.1–1.0 的有界残差，并比较均匀分�
 ### EXP_R8 — arrival-first feasible selector
 
 R8 修正了 R7 的 train-only 选择规则：development 先要求候选同时达到线性、F1、F2 的到达率、连续性和隐藏路径误差边界，再在可行候选中最小化终点距离。选择的 `repair_late_0.75` 在 held-out 到达率为 1.0，decoded first difference 约 1.038，隐藏路径 latent MSE 约 0.974；相对线性、F1、F2 三个基线三项都满足，`SUCCESS=true`。因此 post-Wave78 EXP 程序在 R8 成功停止，不启动 R9。
+### EXP_R9 — closed-loop latent replay surrogate
+
+R9 将 R8 的四步 open-loop path 改成计划 H 步、执行 P 步、读取下一段记录动作窗口、重新编码和重规划的循环，比较了 H=2/4、P=1/2、warm-start、F1、旧 F2、图、CEM 和轨迹优化。完整 episode 没有 Bullet 快照，因此这是 teacher-forced latent replay，不是物理 MPC。held-out 中 proposal H2/P2 连续性约 0.85、隐藏路径误差约 0.97，但到达率约 0.979 仍低于 R8 的 1.0，development 选择了 R8 open-loop；`NOT_SUPPORTED`。主要瓶颈是记录状态不受计划动作反作用，下一轮构造 train-only action-conditioned latent plant surrogate。
+### EXP_R10 — action-conditioned latent plant surrogate
+
+R10 用 train-only nominal transition 加 compliance 命令响应替代 R9 的 teacher-forced 状态，比较 proposal、F1、旧 F2、graph 以及注册的 CEM/trajectory（后两者因重复 autograd/sampling 超出 CPU 预算而记为 invalid，没有 held-out 数字）。proposal 在 compliance=0.50 时 held-out 到达率为 1.0、decoded first difference 约 0.69，但 development 评分选择了 compliance=1.00，held-out 到达率约 0.996，低于 R8 的 1.0，故 `NOT_SUPPORTED`。失败暴露出鲁棒性/可行域选择规则仍不够稳健，下一轮测试带残差不确定集的 robust MPC。
+### EXP_R11 — robust latent MPC surrogate
+
+R11 在 R10 的 compliance plant 上加入 train-only 正负 execution residual shock，并用 development 最坏到达率、连续性和隐藏误差选择 proposal、R8、F1、旧 F2、graph。proposal 的 held-out 最坏到达率约 0.981、decoded diff 约 0.857，连续性最好但仍低于 R8 最坏到达率约 0.990；因此 robust surrogate 为 `NOT_SUPPORTED`。闭环 F2 仍未具备真实物理反馈，下一轮测试不确定性终点捕获和完成置信度。
+### EXP_R12 — target-set terminal capture
+
+R12 从 train-only 目标区域取八个近邻 endpoint，比较最近点、局部密度、边界余量和 ensemble 平均路径，在 R11 的 compliance 与正负 shock 下做最坏情况选择。ensemble 的 decoded diff 约 0.779、隐藏误差约 0.979，但最坏到达率约 0.983，低于 R8 最近点约 0.990；所以 target-set surrogate 仍为 `NOT_SUPPORTED`。终点集合改善了平滑性，却没有解决最后的到达率损失，下一轮进入可观测历史上的 completion-confidence 诊断。
+### EXP_R13 — oracle-boundary F3 readiness
+
+R13 只做 F3 readiness 诊断，不把 learned F3 接入控制。用真实 annotation 边界构造前四个负样本和后四个正样本，比较距离、线性 MLP 和 latent+language MLP。最佳 linear MLP held-out AUROC 约 0.785、balanced accuracy 约 0.693，但漏切换率约 0.532，未达到预设 readiness 阈值；`F3_READINESS_NOT_SUPPORTED`。完成检测本身还不可靠，下一轮继续 F2/置信度校准。
+### EXP_R14 — progress-gated target authority
+
+R14 把 completion distance 作为连续 F2 目标权重，比较固定 R8、F1 nominal、early-dynamics/late-goal 和 confidence-smoothed schedule，在 surrogate compliance/shock 下做最坏情况选择。development 选择 R8 fixed，说明连续权重没有在到达、连续性和路径误差的最坏情形上击败 R8；`NOT_SUPPORTED`。F3 仍未接入，下一轮继续校准终点捕获与不确定性。
+### EXP_R15 — calibrated terminal repair
+
+R15 在同一 robust surrogate 上比较 proposal terminal repair beta=0.50、0.75、1.00，并保留 R8、F1、旧 F2。development 的最坏情况仍选择 R8 fixed；不同 beta 没有同时改善到达、连续性和隐藏路径误差，`NOT_SUPPORTED`。标量终点修正基本到达瓶颈，下一轮转向显式 state/action history plant。
+### EXP_R16 — history-conditioned latent plant
+
+R16 将 surrogate plant 的 nominal lookup 改成 previous/current latent history + source→goal 匹配，比较 R8、proposal、F1、旧 F2、graph。proposal_h2_p2 连续性最好，但 worst-case 到达和隐藏误差没有同时超过 R8；`NOT_SUPPORTED`。历史匹配没有消除闭环缺口，下一轮测试轻量 learned residual plant。
+### EXP_R17–EXP_R58 — bounded interface-gated continuation
+
+R17–R58 按阶段审计了 learned residual/ensemble plant、F3 completion、长时域组合、waypoint/branch return、集成系统和最终 prospective validation。每轮都保留了 train/dev/held-out 纪律；但完整 CALVIN episode 仍只有 `rel_actions`/frame index，Wave27 的 `robot_obs`/`scene_obs` 也缺少 Bullet contact、controller target、object velocity 和可恢复 branch snapshot，所以这些物理/因果实验统一为 `NOT_RUN_INTERFACE_GATE`，没有伪造 held-out 数字。R58 完成后不启动 R59。最终失败分类和 supported claims 见 `FINAL_R9_R58_FAILURE_TAXONOMY.md` 与 `FINAL_R9_R58_SUPPORTED_CLAIMS.md`。

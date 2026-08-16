@@ -1,0 +1,31 @@
+{
+  "robust_development": {
+    "confidence_smoothed": {
+      "worst_arrival": 0.9447513812154696,
+      "worst_diff": 1.0555380451909744,
+      "worst_hidden": 1.1511316139724372
+    },
+    "early_dyn_late_goal": {
+      "worst_arrival": 0.9447513812154696,
+      "worst_diff": 1.039042000283194,
+      "worst_hidden": 1.1365479156786567
+    },
+    "f1_nominal": {
+      "worst_arrival": 0.9116022099447514,
+      "worst_diff": 1.134199714545387,
+      "worst_hidden": 1.22101230005533
+    },
+    "r8_fixed": {
+      "worst_arrival": 0.9723756906077348,
+      "worst_diff": 0.7650620791628875,
+      "worst_hidden": 1.0009918496095014
+    }
+  },
+  "scores": {
+    "confidence_smoothed": 0.6760871914786528,
+    "early_dyn_late_goal": 0.680115585374898,
+    "f1_nominal": 0.6237116520329075,
+    "r8_fixed": 0.7693136822946822
+  },
+  "selected": "r8_fixed"
+}
