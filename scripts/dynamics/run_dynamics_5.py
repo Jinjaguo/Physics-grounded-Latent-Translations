@@ -887,7 +887,7 @@ Wave-17 decisions: C3c-long={decision['C3c_long']}; C3d={decision['C3d_refinemen
 """
     (out / "seventeenth_wave_next_experiment.md").write_text(next_text, encoding="utf-8")
     (ROOT / "NEXT_EXPERIMENT.md").write_text(next_text, encoding="utf-8")
-    commands = """df -h /home/jinjaguo/PGLT && df -B1 /home/jinjaguo/PGLT
+    commands = """df -h /home/jinjaguo/Actions_As_Coordinates && df -B1 /home/jinjaguo/Actions_As_Coordinates
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_5.py --config configs/dynamics_5.yaml --stage prepare
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_5.py --config configs/dynamics_5.yaml --stage acquire
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_5.py --config configs/dynamics_5.yaml --stage serialize --device cpu

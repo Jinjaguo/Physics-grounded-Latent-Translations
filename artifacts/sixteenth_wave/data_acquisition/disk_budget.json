@@ -11,12 +11,12 @@
   },
   "local_CALVIN_bytes": 1350576073,
   "local_CALVIN_roots": [
-    "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D",
-    "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset",
-    "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D"
+    "/home/jinjaguo/Actions_As_Coordinates/data/representation/calvin_task_D_D",
+    "/home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset",
+    "/home/jinjaguo/Actions_As_Coordinates/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D"
   ],
   "minimum_free_bytes": 200000000000,
-  "mount_probe": "/home/jinjaguo/PGLT",
+  "mount_probe": "/home/jinjaguo/Actions_As_Coordinates",
   "passed": true,
   "planned_download": 2160142328,
   "planned_temporary_extraction_overhead": 2300000000,

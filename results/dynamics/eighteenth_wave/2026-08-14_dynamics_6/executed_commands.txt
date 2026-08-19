@@ -1,5 +1,5 @@
-df -h /home/jinjaguo/PGLT
-df -B1 /home/jinjaguo/PGLT
+df -h /home/jinjaguo/Actions_As_Coordinates
+df -B1 /home/jinjaguo/Actions_As_Coordinates
 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install pybullet
 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install numpy==1.23.5
 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install numpy-quaternion==2023.0.4

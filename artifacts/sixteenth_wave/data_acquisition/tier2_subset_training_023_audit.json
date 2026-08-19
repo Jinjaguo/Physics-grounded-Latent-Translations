@@ -37,7 +37,7 @@
         "depth_gripper",
         "depth_tactile"
       ],
-      "path": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/abcd/extracted/subset_training_023/training/episode_2399018.npz",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/abcd/extracted/subset_training_023/training/episode_2399018.npz",
       "rel_actions": {
         "dtype": "float64",
         "maximum_per_dimension": [
@@ -72,7 +72,7 @@
     "maximum_length": 65,
     "median_length": 65.0,
     "minimum_length": 34,
-    "path": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/abcd/extracted/subset_training_023/training/lang_annotations/auto_lang_ann.npy",
+    "path": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/abcd/extracted/subset_training_023/training/lang_annotations/auto_lang_ann.npy",
     "sha256": "bb0aebab01d792279b72c1818d00318013e0b73fe6c2f24374cad23c69d4e8ee",
     "task_counts": {
       "close_drawer": 675,

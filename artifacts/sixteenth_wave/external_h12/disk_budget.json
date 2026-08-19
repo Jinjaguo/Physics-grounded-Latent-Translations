@@ -3,7 +3,7 @@
   "final": {
     "filesystem": 5881437477724468019,
     "free_bytes": 977953947648,
-    "mount_probe": "/home/jinjaguo/PGLT",
+    "mount_probe": "/home/jinjaguo/Actions_As_Coordinates",
     "passed": true,
     "planned_bytes": 0,
     "projected_free_bytes": 977953947648,
@@ -12,7 +12,7 @@
   },
   "free_bytes": 978021527552,
   "minimum_free_bytes": 200000000000,
-  "mount_probe": "/home/jinjaguo/PGLT",
+  "mount_probe": "/home/jinjaguo/Actions_As_Coordinates",
   "passed": true,
   "planned_bytes": 32000000000,
   "planned_largest_subset_bytes": 30000000000,

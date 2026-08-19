@@ -234,7 +234,7 @@ def prepare(config: Mapping[str, Any]) -> None:
         "checks": [{"phase": "prepare", **disk}],
     })
     write_json(acquisition / "staged_cleanup_log.json", {"events": []})
-    append_command(acquisition, "df -h /home/jinjaguo/PGLT && df -B1 /home/jinjaguo/PGLT")
+    append_command(acquisition, "df -h /home/jinjaguo/Actions_As_Coordinates && df -B1 /home/jinjaguo/Actions_As_Coordinates")
     append_command(acquisition, "PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_5.py --config configs/dynamics_5.yaml --stage prepare")
     print(json.dumps({"stage": "prepare", "historical_hashes_match": True, "projected_free_bytes": disk["projected_free_bytes"]}, indent=2))
 

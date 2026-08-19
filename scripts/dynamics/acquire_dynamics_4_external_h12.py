@@ -157,7 +157,7 @@ def prepare(config: Mapping[str, Any]) -> None:
         "planned_selective_extraction_bytes": config["storage"]["planned_selective_extraction_bytes"],
     })
     write_json(acquisition / "staged_cleanup_log.json", {"events": []})
-    append_command(acquisition, "df -h /home/jinjaguo/PGLT && df -B1 /home/jinjaguo/PGLT")
+    append_command(acquisition, "df -h /home/jinjaguo/Actions_As_Coordinates && df -B1 /home/jinjaguo/Actions_As_Coordinates")
     append_command(
         acquisition,
         "PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python "

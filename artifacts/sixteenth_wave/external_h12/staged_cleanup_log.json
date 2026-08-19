@@ -4,7 +4,7 @@
       "created_at": "2026-08-13T14:46:33-04:00",
       "free_bytes_after_cleanup": 978016448512,
       "free_bytes_before_cleanup": 975856173056,
-      "removed": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/external_h12/subset_training_023",
+      "removed": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/external_h12/subset_training_023",
       "removed_temporary_bytes": 2160142454,
       "retained_compact_segments": 5,
       "subset": "training/subset_training_023.zip"
@@ -13,7 +13,7 @@
       "created_at": "2026-08-13T15:02:29-04:00",
       "free_bytes_after_cleanup": 977954086912,
       "free_bytes_before_cleanup": 948758806528,
-      "removed": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/external_h12/subset_training_000",
+      "removed": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/external_h12/subset_training_000",
       "removed_temporary_bytes": 29194555912,
       "retained_compact_segments": 55,
       "subset": "training/subset_training_000.zip"

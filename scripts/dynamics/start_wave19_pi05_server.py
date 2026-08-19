@@ -6,8 +6,9 @@ Purpose
 Load the local official ``pi05_libero`` PyTorch checkpoint with its frozen
 normalization assets and serve websocket inference. Each response contains the
 standard postprocessed 10x7 LIBERO action chunk plus ``raw_model_actions``
-captured before OpenPI output transforms. No π0.5 hidden state is exposed,
-saved, or used by the experiment.
+captured before OpenPI output transforms. A batch item may supply a 10x32
+``inference_noise`` tensor for common-random-number experiments. No π0.5 hidden
+state is exposed, saved, or used by the experiment.
 
 Parameters
 ----------
@@ -20,7 +21,7 @@ Usage
 -----
 cd /home/jinjaguo/openpi
 source .venv/bin/activate
-python /home/jinjaguo/PGLT/scripts/dynamics/start_wave19_pi05_server.py \
+python /home/jinjaguo/Actions_As_Coordinates/scripts/dynamics/start_wave19_pi05_server.py \
   --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero \
   --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets \
   --port 8000
@@ -80,14 +81,28 @@ class RawActionPolicy:
 
     @property
     def metadata(self) -> dict[str, Any]:
-        return {**self._policy.metadata, "wave19_batch_inference": True, "wave19_policy_seed": self._seed}
+        return {
+            **self._policy.metadata,
+            "wave19_batch_inference": True,
+            "wave19_explicit_noise": True,
+            "wave19_policy_seed": self._seed,
+        }
 
     def _infer_batch(self, observations: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], float]:
         if not observations:
             raise ValueError("wave19_observation_batch must not be empty")
+        policy_observations, noises, noise_seeds = [], [], []
+        for observation in observations:
+            policy_observation = dict(observation)
+            noises.append(policy_observation.pop("inference_noise", None))
+            noise_seeds.append(policy_observation.pop("inference_noise_seed", None))
+            policy_observations.append(policy_observation)
+        supplied = [noise is not None for noise in noises]
+        if any(supplied) and not all(supplied):
+            raise ValueError("Every item in a seeded batch must provide inference_noise")
         transformed = [
             self._policy._input_transform(jax.tree.map(lambda value: value, observation))
-            for observation in observations
+            for observation in policy_observations
         ]
         inputs = jax.tree.map(
             lambda *values: torch.from_numpy(np.stack([np.asarray(value) for value in values])).to(
@@ -97,11 +112,11 @@ class RawActionPolicy:
         )
         observation = model_lib.Observation.from_dict(inputs)
         started = time.monotonic()
-        raw = self._policy._sample_actions(
-            self._policy._pytorch_device,
-            observation,
-            **dict(self._policy._sample_kwargs),
-        )
+        sample_kwargs = dict(self._policy._sample_kwargs)
+        if all(supplied):
+            noise = np.stack([np.asarray(value, dtype=np.float32) for value in noises])
+            sample_kwargs["noise"] = torch.from_numpy(noise).to(self._policy._pytorch_device)
+        raw = self._policy._sample_actions(self._policy._pytorch_device, observation, **sample_kwargs)
         infer_ms = (time.monotonic() - started) * 1000.0
         state = inputs["state"]
         raw_numpy = np.asarray(raw.detach().cpu())
@@ -116,6 +131,8 @@ class RawActionPolicy:
             )
             result["raw_model_actions"] = raw_numpy[index]
             result["policy_timing"] = {"infer_ms": infer_ms, "batch_size": len(observations)}
+            result["inference_noise_applied"] = bool(all(supplied))
+            result["inference_noise_seed"] = noise_seeds[index]
             results.append(result)
         return results, infer_ms
 

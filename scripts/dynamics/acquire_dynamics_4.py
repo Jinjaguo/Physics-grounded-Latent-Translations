@@ -200,7 +200,7 @@ def stage_inventory(config: Mapping[str, Any]) -> None:
     write_json(out / "canonical_task_mapping.json", canonical_mapping(inventory))
     write_json(out / "staged_download_cleanup_log.json", {"events": []})
     append_command(config, "df -B1 /home/jinjaguo")
-    append_command(config, "du -sh /home/jinjaguo/PGLT /home/jinjaguo/PGLT/data/representation/calvin_task_D_D /home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset 2>/dev/null || true")
+    append_command(config, "du -sh /home/jinjaguo/Actions_As_Coordinates /home/jinjaguo/Actions_As_Coordinates/data/representation/calvin_task_D_D /home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset 2>/dev/null || true")
     append_command(config, "PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage inventory")
     print(json.dumps({"stage": "inventory", "disk_budget_passed": True, "local_candidates": inventory["direct_candidate_count_ge_160"]}, indent=2))
 

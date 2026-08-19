@@ -403,8 +403,8 @@ def audit(config: Mapping[str, Any]) -> None:
         "retrained": False, "retuned": False, "included_in_primary_statistics": False,
     })
     acquisition_commands = (acquisition_root / "executed_commands.txt").read_text(encoding="utf-8")
-    commands = acquisition_commands + """df -h /home/jinjaguo/PGLT
-df -B1 /home/jinjaguo/PGLT
+    commands = acquisition_commands + """df -h /home/jinjaguo/Actions_As_Coordinates
+df -B1 /home/jinjaguo/Actions_As_Coordinates
 du -sb .
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_4.py --config configs/dynamics_4.yaml --stage audit
 PYTHONPATH=src:third_party/LaWM PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/pytest_results.xml

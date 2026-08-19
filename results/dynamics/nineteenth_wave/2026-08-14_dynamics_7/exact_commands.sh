@@ -10,13 +10,13 @@ PYTHONPATH=src:/home/jinjaguo/LIBERO /home/jinjaguo/anaconda3/envs/libero/bin/py
 PYTHONPATH=src:/home/jinjaguo/LIBERO MUJOCO_GL=egl /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_7.py --config configs/dynamics_7.yaml --stage dev-certify
 
 # 2026-08-14T06:41:49-04:00 phase=source-policy-server
-/home/jinjaguo/openpi/.venv/bin/python /home/jinjaguo/PGLT/scripts/dynamics/start_wave19_pi05_server.py --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets --seed 190819 --port 8000
+/home/jinjaguo/openpi/.venv/bin/python /home/jinjaguo/Actions_As_Coordinates/scripts/dynamics/start_wave19_pi05_server.py --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets --seed 190819 --port 8000
 
 # 2026-08-14T06:41:49-04:00 phase=source-collection-start
 PYTHONPATH=src:/home/jinjaguo/LIBERO:/home/jinjaguo/openpi/packages/openpi-client/src MUJOCO_GL=egl /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/collect_wave19_libero.py --config configs/dynamics_7.yaml --host localhost --port 8000
 
 # 2026-08-14T06:48:31-04:00 phase=source-policy-server
-/home/jinjaguo/openpi/.venv/bin/python /home/jinjaguo/PGLT/scripts/dynamics/start_wave19_pi05_server.py --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets --seed 190819 --port 8000
+/home/jinjaguo/openpi/.venv/bin/python /home/jinjaguo/Actions_As_Coordinates/scripts/dynamics/start_wave19_pi05_server.py --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets --seed 190819 --port 8000
 
 # 2026-08-14T06:48:31-04:00 phase=source-collection-start
 PYTHONPATH=src:/home/jinjaguo/LIBERO:/home/jinjaguo/openpi/packages/openpi-client/src MUJOCO_GL=egl /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/collect_wave19_libero.py --config configs/dynamics_7.yaml --host localhost --port 8000

@@ -20,7 +20,7 @@ Usage
 -----
 cd /home/jinjaguo/openpi
 source .venv/bin/activate
-python /home/jinjaguo/PGLT/scripts/dynamics/start_wave20_pi05_server.py \
+python /home/jinjaguo/Actions_As_Coordinates/scripts/dynamics/start_wave20_pi05_server.py \
   --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero \
   --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets \
   --port 8000

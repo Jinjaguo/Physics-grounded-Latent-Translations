@@ -4,7 +4,7 @@
       "created_at": "2026-08-13T14:06:36-04:00",
       "free_bytes_after": 299880542208,
       "free_bytes_before": 299871547392,
-      "removed": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/roboverse",
+      "removed": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/roboverse",
       "removed_temporary_bytes": 8853195,
       "source": "RoboVerseOrg/roboverse_data",
       "zip_and_full_extract_coexisted": false
@@ -13,7 +13,7 @@
       "created_at": "2026-08-13T14:07:26-04:00",
       "free_bytes_after": 299878707200,
       "free_bytes_before": 299869712384,
-      "removed": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/roboverse",
+      "removed": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/roboverse",
       "removed_temporary_bytes": 8853195,
       "source": "RoboVerseOrg/roboverse_data",
       "zip_and_full_extract_coexisted": false
@@ -23,7 +23,7 @@
       "free_bytes_after": 978029015040,
       "free_bytes_before": 977810743296,
       "reason": "all audited trajectories fail the exact 7-D rel_actions compatibility gate",
-      "removed": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/roboverse",
+      "removed": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/roboverse",
       "removed_temporary_bytes": 215955418,
       "retained_candidate_files": [],
       "source": "RoboVerseOrg/roboverse_data",
@@ -33,7 +33,7 @@
       "created_at": "2026-08-13T14:24:18-04:00",
       "free_bytes_after": 978023583744,
       "free_bytes_before": 975825555456,
-      "removed": "/home/jinjaguo/PGLT/.staging/sixteenth_wave/abcd",
+      "removed": "/home/jinjaguo/Actions_As_Coordinates/.staging/sixteenth_wave/abcd",
       "removed_temporary_bytes": 2197877894,
       "retained_candidate_files": [],
       "source": "VyoJ/calvin-ABCD-D-subsets",
@@ -43,7 +43,7 @@
   "final_free_space": {
     "filesystem": 5881437477724468019,
     "free_bytes": 978023583744,
-    "mount_probe": "/home/jinjaguo/PGLT",
+    "mount_probe": "/home/jinjaguo/Actions_As_Coordinates",
     "passed": true,
     "planned_bytes": 0,
     "projected_free_bytes": 978023583744,
@@ -53,7 +53,7 @@
   "latest_disk_guard": {
     "filesystem": 5881437477724468019,
     "free_bytes": 978029015040,
-    "mount_probe": "/home/jinjaguo/PGLT",
+    "mount_probe": "/home/jinjaguo/Actions_As_Coordinates",
     "passed": true,
     "planned_bytes": 0,
     "projected_free_bytes": 978029015040,

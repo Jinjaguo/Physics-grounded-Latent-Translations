@@ -1,12 +1,12 @@
 df -B1 /home/jinjaguo
-du -sh /home/jinjaguo/PGLT /home/jinjaguo/PGLT/data/representation/calvin_task_D_D /home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset 2>/dev/null || true
+du -sh /home/jinjaguo/Actions_As_Coordinates /home/jinjaguo/Actions_As_Coordinates/data/representation/calvin_task_D_D /home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset 2>/dev/null || true
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage inventory
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier1
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier1
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier1b_resume
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4.py --config configs/dynamics_4.yaml --stage tier2
-df -h /home/jinjaguo/PGLT
-df -B1 /home/jinjaguo/PGLT
+df -h /home/jinjaguo/Actions_As_Coordinates
+df -B1 /home/jinjaguo/Actions_As_Coordinates
 du -sb .
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_4.py --config configs/dynamics_4.yaml --stage audit
 PYTHONPATH=src:third_party/LaWM PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pytest tests/representation tests/dynamics -q --junitxml=results/dynamics/sixteenth_wave/2026-08-13_dynamics_4/pytest_results.xml

@@ -3,7 +3,7 @@ PYTHONPATH=src:/home/jinjaguo/LIBERO /home/jinjaguo/anaconda3/envs/libero/bin/py
 
 # 2026-08-14 phase=fresh-source-policy-server
 # First restricted launch failed before serving because CUDA was not visible; the identical command was relaunched with GPU access.
-/home/jinjaguo/openpi/.venv/bin/python /home/jinjaguo/PGLT/scripts/dynamics/start_wave20_pi05_server.py --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets --seed 200820 --port 8001
+/home/jinjaguo/openpi/.venv/bin/python /home/jinjaguo/Actions_As_Coordinates/scripts/dynamics/start_wave20_pi05_server.py --checkpoint_dir /home/jinjaguo/.cache/openpi/pytorch_checkpoints/pi05_libero --norm_assets_dir /home/jinjaguo/.cache/openpi/openpi-assets/checkpoints/pi05_libero/assets --seed 200820 --port 8001
 
 # 2026-08-14 phase=fresh-confirmation-collection-and-certification
 PYTHONPATH=src:/home/jinjaguo/LIBERO:/home/jinjaguo/openpi/packages/openpi-client/src MUJOCO_GL=egl /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/collect_wave20_libero.py --config configs/dynamics_8.yaml --host localhost --port 8001

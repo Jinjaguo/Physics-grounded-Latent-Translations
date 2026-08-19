@@ -663,7 +663,7 @@ The amended public-data replication evaluated H1 and H2 only. Preserve its froze
     if marker not in previous:
         entry = f"\n## {now()} — dynamics_4 amended public external replication\n\nCompleted the {marker} on 60 VyoJ CALVIN segments (10/task, four non-overlapping H16 windows each). This experiment evaluated **H1 and H2 only**; **H4 and H8 were not run**. F1 mean AUC={decision['F1_mean_trajectory_AUC']:.6f}, F2 mean AUC={decision['F2_mean_trajectory_AUC']:.6f}, paired Delta=F2-F1 {decision['bootstrap']['mean_delta_auc']:.6f} with 95% CI [{decision['bootstrap']['lower_95']:.6f}, {decision['bootstrap']['upper_95']:.6f}]; gate={'PASS' if success else 'FAIL'}. C3c-local={c3c}; C3c-long remains NOT_TESTED.\n"
         log_path.write_text(previous.rstrip() + "\n" + entry, encoding="utf-8")
-    commands = """df -h /home/jinjaguo/PGLT && df -B1 /home/jinjaguo/PGLT
+    commands = """df -h /home/jinjaguo/Actions_As_Coordinates && df -B1 /home/jinjaguo/Actions_As_Coordinates
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4_external_h12.py --config configs/dynamics_4_external_h12.yaml --stage prepare
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/acquire_dynamics_4_external_h12.py --config configs/dynamics_4_external_h12.yaml --stage acquire
 PYTHONPATH=src /home/jinjaguo/anaconda3/envs/libero/bin/python scripts/dynamics/run_dynamics_4_external_h12.py --config configs/dynamics_4_external_h12.yaml --stage serialize --device cpu

@@ -729,8 +729,8 @@ Per `prompts/dynamics_6.md`, wave 18 stopped before representation/F1/F2/DEL inf
             "gpu_reason": "Phase-0 simulator gate is CPU physics and failed before model inference.",
         },
     )
-    commands = """df -h /home/jinjaguo/PGLT
-df -B1 /home/jinjaguo/PGLT
+    commands = """df -h /home/jinjaguo/Actions_As_Coordinates
+df -B1 /home/jinjaguo/Actions_As_Coordinates
 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install pybullet
 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install numpy==1.23.5
 /home/jinjaguo/anaconda3/envs/libero/bin/python -m pip install numpy-quaternion==2023.0.4

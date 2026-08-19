@@ -24,6 +24,7 @@ class LiberoSnapshot:
     """One exactly restorable control-boundary snapshot."""
 
     integration_state: np.ndarray
+    model_state: Mapping[str, np.ndarray]
     environment_state: Mapping[str, Any]
     controller_state: tuple[Mapping[str, Any], ...]
     observable_state: Mapping[str, Mapping[str, Any]]
@@ -72,6 +73,16 @@ def _capture_robot(robot: Any) -> dict[str, Any]:
         "kp",
         "kd",
         "torques",
+        "ee_pos",
+        "ee_ori_mat",
+        "ee_pos_vel",
+        "ee_ori_vel",
+        "joint_pos",
+        "joint_vel",
+        "J_pos",
+        "J_ori",
+        "J_full",
+        "mass_matrix",
     ):
         if hasattr(controller, name):
             controller_fields[name] = _copy_value(getattr(controller, name))
@@ -172,6 +183,10 @@ def capture_snapshot(env: Any) -> LiberoSnapshot:
     env.sim.forward()
     return LiberoSnapshot(
         integration_state=capture_integration_state(env.sim),
+        model_state={
+            "body_pos": np.asarray(env.sim.model.body_pos).copy(),
+            "body_quat": np.asarray(env.sim.model.body_quat).copy(),
+        },
         environment_state={
             "timestep": int(base.timestep),
             "cur_time": float(base.cur_time),
@@ -188,11 +203,20 @@ def restore_snapshot(env: Any, snapshot: LiberoSnapshot) -> dict[str, np.ndarray
     base = env.env
     if len(base.robots) != len(snapshot.controller_state):
         raise ValueError("Robot count differs between snapshot and target environment")
+    model_state = getattr(snapshot, "model_state", {})
+    for name, value in model_state.items():
+        target = np.asarray(getattr(env.sim.model, name))
+        source = np.asarray(value)
+        if target.shape != source.shape:
+            raise ValueError(f"Model-state shape mismatch for {name}: {source.shape} != {target.shape}")
+        target[...] = source
     restore_integration_state(env.sim, snapshot.integration_state)
     for name, value in snapshot.environment_state.items():
         setattr(base, name, _copy_value(value))
+    legacy_controller_state = []
     for robot, payload in zip(base.robots, snapshot.controller_state):
         _restore_robot(robot, payload)
+        legacy_controller_state.append("ee_pos" not in payload["controller_fields"])
     _restore_observables(base, snapshot.observable_state)
     # Rebuild qpos-dependent geometry for controller queries, then restore the
     # complete integration state a second time. In contact-rich states,
@@ -200,6 +224,16 @@ def restore_snapshot(env: Any, snapshot: LiberoSnapshot) -> dict[str, np.ndarray
     # leaving those rewritten values caused immediate branch divergence.
     env.sim.forward()
     restore_integration_state(env.sim, snapshot.integration_state)
+    # Wave-19 snapshots created before EXP_G24 did not preserve the OSC
+    # controller's derived kinematics. If ``new_update`` was false, the first
+    # restored action used whichever ee_pos happened to remain in the target
+    # env. Canonicalize those legacy payloads once from the restored MuJoCo
+    # state, then restore integration fields that mj_forward may have changed.
+    for robot, legacy in zip(base.robots, legacy_controller_state):
+        if legacy:
+            robot.controller.update(force=True)
+    if any(legacy_controller_state):
+        restore_integration_state(env.sim, snapshot.integration_state)
     env._post_process()
     env._update_observables(force=True)
     return base._get_observations()

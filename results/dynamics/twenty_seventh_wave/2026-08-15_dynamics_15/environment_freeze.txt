@@ -1,5 +1,5 @@
 Date: 2026-08-15 America/New_York
-Repository: /home/jinjaguo/PGLT
+Repository: /home/jinjaguo/Actions_As_Coordinates
 Acquisition Python: /home/jinjaguo/openpi/.venv/bin/python (3.11.14)
 Training Python: /home/jinjaguo/anaconda3/envs/libero/bin/python (3.8.13)
 PyTorch: 2.4.1+cu121

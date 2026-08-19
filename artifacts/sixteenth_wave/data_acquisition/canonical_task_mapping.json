@@ -4,35 +4,35 @@
   "mapping_method": "exact frozen CALVIN task ID; no semantic classifier",
   "sources": [
     {
-      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/training/lang_annotations/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/training/lang_annotations/auto_lang_ann.npy",
       "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0"
     },
     {
-      "path": "/home/jinjaguo/PGLT/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/validation/lang_annotations/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/archive/retired_snapshot/artifacts/third_wave/official_metadata/task_D_D/validation/lang_annotations/auto_lang_ann.npy",
       "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf"
     },
     {
-      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/metadata/training/lang_annotations/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/data/representation/calvin_task_D_D/metadata/training/lang_annotations/auto_lang_ann.npy",
       "sha256": "4cb1e8ed8cba4ca2bee18410e31f681c4bc32c52f7f9a5834c123394a07011a0"
     },
     {
-      "path": "/home/jinjaguo/PGLT/data/representation/calvin_task_D_D/metadata/validation/lang_annotations/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/data/representation/calvin_task_D_D/metadata/validation/lang_annotations/auto_lang_ann.npy",
       "sha256": "154f49522ae39a57ccc2a7079dcf6d6ee1a5a9f6866e1bb02ba943820974aadf"
     },
     {
-      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/lang_annotations/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset/training/lang_annotations/auto_lang_ann.npy",
       "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08"
     },
     {
-      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/training/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset/training/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
       "sha256": "746e18f9c6cd271056a75694b7cc2afdbe8e8a5f8d309f6133a1013e81469f08"
     },
     {
-      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/auto_lang_ann.npy",
       "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d"
     },
     {
-      "path": "/home/jinjaguo/PGLT/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
+      "path": "/home/jinjaguo/Actions_As_Coordinates/third_party/calvin/dataset/calvin_debug_dataset/validation/lang_paraphrase-MiniLM-L3-v2/auto_lang_ann.npy",
       "sha256": "37552f6a801e6d3e0a0b140d30571074f0de1ab4bd7ea0c16867f6ab12fab07d"
     }
   ],
