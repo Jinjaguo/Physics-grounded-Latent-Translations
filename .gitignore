@@ -47,3 +47,6 @@ archive/
 checkpoints/*
 !checkpoints/representation/
 !checkpoints/representation/**
+
+prompts/
+reports/
